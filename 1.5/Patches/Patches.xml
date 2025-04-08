@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+		<order>Prepend</order>
+		<value>
+			<li>Probe</li>
+			<li>Sentry</li>
+			<li>Energizer</li>
+			<li>Sentinel</li>
+			<li>ResurrectProtossMechLight</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<order>Prepend</order>
+		<value>
+			<li>Legionnaire</li>
+			<li>PurifierImmortal</li>
+			<li>Colossus</li>
+			<li>ResurrectProtossMechHeavy</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+		<order>Prepend</order>
+		<value>
+			<li>Make_FuelTypeG</li>
+			<li>Make_NeutronMaterial</li>
+			<li>Make_SubcoreHigh</li>
+			<li>Make_AIPersonaCore</li>
+		</value>
+	</Operation>
+
+</Patch>

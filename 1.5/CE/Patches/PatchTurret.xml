@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bullet_PhotonCannon"]/projectile</xpath>
+    <value>
+      <projectile>
+        <damageDef>Electrical</damageDef>
+        <damageAmountBase>20</damageAmountBase>
+        <speed>88</speed>
+        <armorPenetrationBase>100.0</armorPenetrationBase>
+      </projectile>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName="Turret_PhaseCannon"]/verbs/li/range</xpath>
+  <value>
+    <range>75</range>
+  </value>
+</Operation>
+
+</Patch>

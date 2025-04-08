@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Photon Cannon -->
+  <ThingDef ParentName="BuildingBase" Name="PhotonCannon" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/Photon_base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.0, 2.0)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>40</Mass>
+      <Beauty>10</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>1.0</turretTopDrawSize>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <modExtensions>
+      <li Class="ModExtention.AllowForcedTargetExtension" />
+    </modExtensions>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <uiIconScale>0.95</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="PhotonCannon">
+    <defName>Photon_Cannon</defName>
+    <label>PhotonCannon</label>
+    <description>placeholder</description>
+    <uiIconPath>Things/Structure/Photon_Top</uiIconPath>
+    <statBases>
+      <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Plasteel>150</Plasteel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <turretGunDef>Gun_PhotonCannon</turretGunDef>
+      <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>ProtossEngineeringFundamentals</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PhotonCannon</defName>
+    <label>Photon</label>
+    <graphicData>
+      <texPath>Things/Structure/Photon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ElectricalBurn</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <speed>88</speed>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_PhotonCannon</defName>
+    <label>PhotonCannon</label>
+    <description>PLACEHOLDER.</description>
+    <graphicData>
+      <texPath>Things/Structure/Photon_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1.00</AccuracyTouch>
+      <AccuracyShort>1.00</AccuracyShort>
+      <AccuracyMedium>1.00</AccuracyMedium>
+      <AccuracyLong>1.00</AccuracyLong>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>40</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_PhotonCannon</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <minRange>0</minRange>
+        <range>32.9</range>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <consumeFuelPerShot>0</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- PhaseCannon -->
+  <ThingDef ParentName="BuildingBase" Name="PhaseCannon" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/Photon_base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.0, 3.0)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>100</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretTopDrawSize>3.0</turretTopDrawSize>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <modExtensions>
+      <li Class="ModExtention.AllowForcedTargetExtension" />
+    </modExtensions>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <uiIconScale>0.95</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="PhaseCannon">
+    <defName>Phase_Cannon</defName>
+    <label>Phase Cannon</label>
+    <description>placeholder</description>
+    <uiIconPath>Things/Weapon/PhaseCannon</uiIconPath>
+    <statBases>
+      <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Plasteel>250</Plasteel>
+      <FuelTypeG>25</FuelTypeG>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <turretGunDef>Turret_PhaseCannon</turretGunDef>
+      <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>PositronicAI</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Turret_PhaseCannon</defName>
+    <label>Turret PhaseCannon</label>
+    <description>PLACEHOLDER.</description>
+    <graphicData>
+      <texPath>Things/Weapon/PhaseCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1.00</AccuracyTouch>
+      <AccuracyShort>1.00</AccuracyShort>
+      <AccuracyMedium>1.00</AccuracyMedium>
+      <AccuracyLong>1.00</AccuracyLong>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>40</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="ProtossMech.CompProperties_DamageConfig">
+        <damageDef>AntiArmorShock</damageDef>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ProtossMech.Verb_AntiArmor</verbClass>
+        <defaultProjectile>Bullet_PhotonCannon</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <minRange>0</minRange>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <hasStandardCommand>true</hasStandardCommand>
+        <soundCast>Shot_NeedleGun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</Defs>

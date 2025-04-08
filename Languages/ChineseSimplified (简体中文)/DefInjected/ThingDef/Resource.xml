@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <FuelTypeG.label>G型立方</FuelTypeG.label>
+    <FuelTypeG.description>一种特制的立方体容器,用于储存聚变反应产生的庞大能量.正常情况下需要使用特制设备从人造恒星中收集能量,但是在条件不允许的情况下也可以使用裂变武器起爆开始反应。</FuelTypeG.description>
+
+    <NeutronMaterial.label>G型Ω合金</NeutronMaterial.label>
+    <NeutronMaterial.description>G型omega合金是一种净化者项目开发的中子装甲材料，几乎可以阻挡任何攻击，但它的一个致命缺点是，它的佩戴者一般来说并不像它一样坚固。</NeutronMaterial.description>
+</LanguageData>
+
+

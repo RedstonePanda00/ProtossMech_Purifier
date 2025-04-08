@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="ProtossMechanoid"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="ProtossMechanoid"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>10</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ProtossMechanoid"]/statBases</xpath>
+		<value>
+			<ArmorRating_Heat>1.00</ArmorRating_Heat>
+			<CarryWeight>100</CarryWeight>
+			<CarryBulk>100</CarryBulk>
+			<MeleeDodgeChance>0.10</MeleeDodgeChance>
+			<MeleeCritChance>0.10</MeleeCritChance>
+			<MeleeParryChance>0.10</MeleeParryChance>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="ProtossMechanoid"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>2.0</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<armorPenetrationBlunt>5.0</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- Probe -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Probe"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Probe"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Probe"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.75</MeleeDodgeChance>
+			<MeleeCritChance>0.10</MeleeCritChance>
+			<MeleeParryChance>0.10</MeleeParryChance>
+			<!-- <MaxHitPoints>150</MaxHitPoints> -->
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Mech_Probe"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Probe"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>torso</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>1.0</cooldownTime>
+					<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<armorPenetrationBlunt>8.0</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left hand</label>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>0.5</cooldownTime>
+					<armorPenetrationSharp>8.0</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right hand</label>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>0.5</cooldownTime>
+					<armorPenetrationSharp>8.0</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- colossus -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_colossus"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>820.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_colossus"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>450.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_colossus"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>1.95</AimingAccuracy>
+			<ShootingAccuracyPawn>1.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MeleeCritChance>0.10</MeleeCritChance>
+			<MeleeParryChance>0.75</MeleeParryChance>
+			<!-- <MaxHitPoints>500</MaxHitPoints> -->
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<!-- Sentry -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Sentry"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>16.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Sentry"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Sentry"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.75</MeleeDodgeChance>
+			<MeleeCritChance>0.10</MeleeCritChance>
+			<MeleeParryChance>0.10</MeleeParryChance>
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<!-- Energizer -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Energizer"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>32.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Energizer"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>16.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Energizer"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.75</MeleeDodgeChance>
+			<MeleeCritChance>0.10</MeleeCritChance>
+			<MeleeParryChance>0.10</MeleeParryChance>
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<!-- Legionnaire -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Legionnaire"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>128</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Legionnaire"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>40</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Legionnaire"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.95</MeleeDodgeChance>
+			<MeleeCritChance>0.50</MeleeCritChance>
+			<MeleeParryChance>0.95</MeleeParryChance>
+			<!-- <MaxHitPoints>150</MaxHitPoints> -->
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Mech_Legionnaire"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Legionnaire"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left Energy Blade</label>
+					<capacities>
+						<li>Cut</li>
+						<li>Stab</li>
+					</capacities>
+					<power>16</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationSharp>40.0</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right Energy Blade</label>
+					<capacities>
+						<li>Cut</li>
+						<li>Stab</li>
+					</capacities>
+					<power>16</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationSharp>40.0</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- Sentinel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>50</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>25</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.95</MeleeDodgeChance>
+			<MeleeCritChance>0.50</MeleeCritChance>
+			<MeleeParryChance>0.95</MeleeParryChance>
+			<!-- <MaxHitPoints>150</MaxHitPoints> -->
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left Energy Blade</label>
+					<capacities>
+						<li>Cut</li>
+						<li>Stab</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationSharp>20.0</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right Energy Blade</label>
+					<capacities>
+						<li>Cut</li>
+						<li>Stab</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.0</cooldownTime>
+					<armorPenetrationSharp>20.0</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- PurifierImmortal -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_PurifierImmortal"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>320.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_PurifierImmortal"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>120.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_PurifierImmortal"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>1</AimingAccuracy>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MeleeCritChance>0.30</MeleeCritChance>
+			<MeleeParryChance>0.95</MeleeParryChance>
+			<!-- <MaxHitPoints>200</MaxHitPoints> -->
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+</Patch>

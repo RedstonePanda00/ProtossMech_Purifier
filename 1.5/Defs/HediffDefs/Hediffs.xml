@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>Hediff_TemporalSurge</defName>
+        <label>temporal surge</label>
+        <description>The pawn is moving and working at hyperspeed. Time flows rapidly around them, accelerating all processes—including aging.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>3600</disappearsAfterTicks>                <!-- 24 hours -->
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <AimingDelayFactor>0.2</AimingDelayFactor>
+                    <MoveSpeed>4.0</MoveSpeed>
+                    <WorkSpeedGlobal>4.0</WorkSpeedGlobal>
+                </statFactors>
+                <statOffsets>
+                    <MeleeCooldownFactor>-0.8</MeleeCooldownFactor>
+                    <RangedCooldownFactor>-0.8</RangedCooldownFactor>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>Hediff_Reconstruct</defName>
+        <label>Reconstruct</label>
+        <description>Placeholder</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>600</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <IncomingDamageFactor>0</IncomingDamageFactor>
+                    <MoveSpeed>-10.0</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>Hediff_Charging</defName>
+        <label>charging</label>
+        <description>Placeholder</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>180</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <MoveSpeed>6.0</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

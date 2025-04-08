@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>ProtossEngineeringFundamentals</defName>
+        <label>Protoss Engineering Fundamentals</label>
+        <description>placeholder_starter</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <hiddenPrerequisites>
+            <li>Machining</li>
+        </hiddenPrerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>ThermonuclearFusion</defName>
+        <label>thermonuclear fusion</label>
+        <description>placeholdersecond</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>ProtossEngineeringFundamentals</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PositronicAI</defName>
+        <label>Positronic AI</label>
+        <description>PlaceholderThird.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>ThermonuclearFusion</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <!-- <discoveredLetterTitle>about:placeholder</discoveredLetterTitle>
+        <discoveredLetterText>placeholder.</discoveredLetterText> -->
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>SyntheticPersonalityMatrix</defName>
+        <label>Synthetic Personality Matrix</label>
+        <description>placeholderFourth.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <prerequisites>
+            <li>PositronicAI</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PurifierProject</defName>
+        <label>Purifier Project</label>
+        <description>placeholderFifth.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <researchViewX>8.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <prerequisites>
+            <li>SyntheticPersonalityMatrix</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>EclipseAndApocalypse</defName>
+        <label>Eclipse and Apocalypse</label>
+        <description>placeholderSixth.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>8000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <researchViewX>10.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <prerequisites>
+            <li>PurifierProject</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>CivilianProtossMechanoid</defName>
+        <label>Civilian Protoss Mechanoid</label>
+        <description>placeholderseconds</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>ThermonuclearFusion</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>1.40</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>KhalaiForge</defName>
+        <label>Khalai Forge</label>
+        <description>placeholdersecondt</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>CivilianProtossMechanoid</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>NerazimForge</defName>
+        <label>Nerazim Forge</label>
+        <description>placeholdersecondf</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>CivilianProtossMechanoid</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>TaldarimForge</defName>
+        <label>Tal'darim Forge</label>
+        <description>placeholdersecondfi</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>CivilianProtossMechanoid</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>1.40</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->research protoss engineering.</li>
+
+                <li>subject_story->research protoss engineering.</li>
+
+                <li>subject_gerund->research protoss engineering.</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+</Defs>

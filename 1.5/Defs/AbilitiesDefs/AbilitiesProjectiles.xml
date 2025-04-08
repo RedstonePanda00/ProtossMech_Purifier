@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Projectile_ChronoBeam</defName>
+    <label>ChronoBeam Projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_MiniShotgun</texPath> <!-- temporal -->
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

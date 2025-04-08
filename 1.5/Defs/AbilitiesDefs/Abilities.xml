@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <AbilityDef>
+        <defName>MechForceFieldWall</defName>
+        <label>project Force Field Wall</label>
+        <description>Projects a 3x3 Force Field Wall using hardened light structures.</description>
+        <iconPath>Things/Abilities/Force_field</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_CastAbilityPlaceForceFieldWall</verbClass>
+            <warmupTime>0.5</warmupTime>
+            <range>20</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>MechGuardianShield</defName>
+        <label>Guardian Shield</label>
+        <description>placeholder</description>
+        <iconPath>Things/Abilities/Guardian_shield</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_CastAbilitySpawnBroadshield</verbClass>
+            <warmupTime>0.5</warmupTime>
+            <range>1</range>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>MechChronoBeam</defName>
+        <label>Chrono Beam</label>
+        <description>placeholder</description>
+        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <cooldownTicksRange>60</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_ApplyHediff</verbClass>
+            <range>30</range>
+            <warmupTime>0.5</warmupTime>
+            <targetParams>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <modExtensions>
+            <li Class="ProtossMech.AbilityExtension_ApplyHediff">
+                <applyToAllInRadius>false</applyToAllInRadius>
+                <hediffDefNames>
+                    <li>Hediff_TemporalSurge</li>
+                </hediffDefNames>
+                <projectileDefName>Projectile_ChronoBeam</projectileDefName>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>LegionnaireJump</defName>
+        <label>Legionnaire longjump</label>
+        <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
+        <iconPath>Things/Abilities/KaldalisIntercept</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbilityJump</verbClass>
+            <label>jump</label>
+            <violent>false</violent>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <warmupTime>0</warmupTime>
+            <minRange>0</minRange>
+            <range>20</range>
+            <requireLineOfSight>true</requireLineOfSight>
+            <soundCast>Longjump_Jump</soundCast>
+            <soundLanding>Longjump_Land</soundLanding>
+            <flyWithCarriedThing>false</flyWithCarriedThing>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>MechCharge</defName>
+        <label>charge</label>
+        <description>placeholder</description>
+        <iconPath>Things/Abilities/Charge</iconPath>
+        <cooldownTicksRange>1800</cooldownTicksRange>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_ApplyHediff</verbClass>
+            <range>0.01</range>
+            <warmupTime>0</warmupTime>
+            <targetParams>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <modExtensions>
+            <li Class="ProtossMech.AbilityExtension_ApplyHediff">
+                <applyToAllInRadius>true</applyToAllInRadius>
+                <hediffDefNames>
+                    <li>Hediff_Charging</li>
+                </hediffDefNames>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+</Defs>
