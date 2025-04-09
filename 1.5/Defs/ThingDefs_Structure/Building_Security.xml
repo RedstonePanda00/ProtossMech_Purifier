@@ -64,6 +64,9 @@
       <Plasteel>150</Plasteel>
     </costList>
     <comps>
+      <li Class="ModExtention.CompProperties_RevealCloaked">
+        <revealRadius>50</revealRadius>
+      </li>
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -194,6 +197,9 @@
       <FuelTypeG>25</FuelTypeG>
     </costList>
     <comps>
+      <li Class="ModExtention.CompProperties_RevealCloaked">
+        <revealRadius>75</revealRadius>
+      </li>
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>

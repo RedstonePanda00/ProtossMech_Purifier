@@ -6,15 +6,16 @@
     <defName>Projectile_ChronoBeam</defName>
     <label>ChronoBeam Projectile</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_MiniShotgun</texPath> <!-- temporal -->
+      <texPath>Things/Abilities/Projectile/Projectile_ChronoBeam</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>5.0</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>0</damageAmountBase>
-      <stoppingPower>2.5</stoppingPower>
-      <armorPenetrationBase>0.12</armorPenetrationBase>
-      <speed>55</speed>
+      <stoppingPower>0</stoppingPower>
+      <armorPenetrationBase>0</armorPenetrationBase>
+      <speed>200</speed>
     </projectile>
   </ThingDef>
 

@@ -40,11 +40,13 @@
 
     <comps>
       <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
+      <li Class="ModExtention.CompProperties_DisableFeral" />
     </comps>
 
   </ThingDef>
 
   <PawnKindDef Name="ProtossMechanoidKind" ParentName="BaseMechanoidKind" Abstract="True">
+    <defaultFactionType>PlayerColony</defaultFactionType>
     <weaponMoney>9999~9999</weaponMoney>
     <combatPower>20</combatPower>
     <weaponTags></weaponTags>
@@ -654,16 +656,3 @@
   </PawnKindDef>
 
 </Defs>
-
-<!-- <detritusLeavings>
-        <li>
-          <def>ChunkMechanoidSlag</def>
-          <texOverrideIndex>11</texOverrideIndex>
-          <spawnChance>0.1</spawnChance>
-        </li>
-        <li>
-          <def>ChunkMechanoidSlag</def>
-          <texOverrideIndex>1</texOverrideIndex>
-          <spawnChance>0.1</spawnChance>
-        </li>
-      </detritusLeavings> -->
