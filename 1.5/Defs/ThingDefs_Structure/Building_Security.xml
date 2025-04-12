@@ -55,7 +55,7 @@
   <ThingDef ParentName="PhotonCannon">
     <defName>Photon_Cannon</defName>
     <label>PhotonCannon</label>
-    <description>placeholder</description>
+    <description>A special turret that fires high-explosive photons and is equipped with a detection field that can spot cloaked targets.</description>
     <uiIconPath>Things/Structure/Photon_Top</uiIconPath>
     <statBases>
       <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
@@ -102,7 +102,7 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>Gun_PhotonCannon</defName>
     <label>PhotonCannon</label>
-    <description>PLACEHOLDER.</description>
+    <description>Photon Turret Gun</description>
     <graphicData>
       <texPath>Things/Structure/Photon_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -187,7 +187,7 @@
   <ThingDef ParentName="PhaseCannon">
     <defName>Phase_Cannon</defName>
     <label>Phase Cannon</label>
-    <description>placeholder</description>
+    <description>This energy cannon disrupts armor at the atomic level - the higher the alloy's atomic bond energy, the greater the destruction.</description>
     <uiIconPath>Things/Weapon/PhaseCannon</uiIconPath>
     <statBases>
       <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
@@ -220,7 +220,7 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>Turret_PhaseCannon</defName>
     <label>Turret PhaseCannon</label>
-    <description>PLACEHOLDER.</description>
+    <description>Phase cannon turret.</description>
     <graphicData>
       <texPath>Things/Weapon/PhaseCannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>

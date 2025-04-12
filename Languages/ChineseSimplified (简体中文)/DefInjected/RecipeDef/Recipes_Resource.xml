@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <Make_FuelTypeG.label>制作G型燃料</Make_FuelTypeG.label>
+    <Make_FuelTypeG.description>制作G型燃料。</Make_FuelTypeG.description>
+
+    <Make_NeutronMaterial.label>制作G型合金</Make_NeutronMaterial.label>
+    <Make_NeutronMaterial.description>制作G型合金。</Make_NeutronMaterial.description>
+
+    <Make_SubcoreHigh.label>编译高级次生核心</Make_SubcoreHigh.label>
+    <Make_SubcoreHigh.description>编译高级次生核心。</Make_SubcoreHigh.description>
+
+    <Make_AIPersonaCore.label>编译AI人格核心</Make_AIPersonaCore.label>
+    <Make_AIPersonaCore.description>编译AI人格核心。</Make_AIPersonaCore.description>
+    
+</LanguageData>

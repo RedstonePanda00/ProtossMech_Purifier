@@ -4,7 +4,7 @@
     <ResearchProjectDef>
         <defName>ProtossEngineeringFundamentals</defName>
         <label>Protoss Engineering Fundamentals</label>
-        <description>placeholder_starter</description>
+        <description>Research Protoss Engineering Fundamentals.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -34,7 +34,7 @@
     <ResearchProjectDef>
         <defName>ThermonuclearFusion</defName>
         <label>thermonuclear fusion</label>
-        <description>placeholdersecond</description>
+        <description>research thermonuclear fusion.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -61,7 +61,7 @@
     <ResearchProjectDef>
         <defName>PositronicAI</defName>
         <label>Positronic AI</label>
-        <description>PlaceholderThird.</description>
+        <description>Research Positronic AI.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -90,7 +90,7 @@
     <ResearchProjectDef>
         <defName>SyntheticPersonalityMatrix</defName>
         <label>Synthetic Personality Matrix</label>
-        <description>placeholderFourth.</description>
+        <description>Research Synthetic Personality Matrix.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -117,7 +117,7 @@
     <ResearchProjectDef>
         <defName>PurifierProject</defName>
         <label>Purifier Project</label>
-        <description>placeholderFifth.</description>
+        <description>Research Purifier Project.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -144,7 +144,7 @@
     <ResearchProjectDef>
         <defName>EclipseAndApocalypse</defName>
         <label>Eclipse and Apocalypse</label>
-        <description>placeholderSixth.</description>
+        <description>Take the most powerful war machine back to world.</description>
         <tab>ProtossTech</tab>
         <baseCost>8000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -171,7 +171,7 @@
     <ResearchProjectDef>
         <defName>CivilianProtossMechanoid</defName>
         <label>Civilian Protoss Mechanoid</label>
-        <description>placeholderseconds</description>
+        <description>Research Civilian Protoss Mechanoid.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -198,7 +198,7 @@
     <ResearchProjectDef>
         <defName>KhalaiForge</defName>
         <label>Khalai Forge</label>
-        <description>placeholdersecondt</description>
+        <description>Research Khalai Forge.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -225,7 +225,7 @@
     <ResearchProjectDef>
         <defName>NerazimForge</defName>
         <label>Nerazim Forge</label>
-        <description>placeholdersecondf</description>
+        <description>Research Nerazim Forge.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -252,7 +252,7 @@
     <ResearchProjectDef>
         <defName>TaldarimForge</defName>
         <label>Tal'darim Forge</label>
-        <description>placeholdersecondfi</description>
+        <description>Research Tal'darim Forge.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>

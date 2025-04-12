@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <Photon_Cannon.label>光子炮塔</Photon_Cannon.label>
+    <Photon_Cannon.description>一种发射高爆光子的炮塔，配备有侦测场，可以发现隐形单位。</Photon_Cannon.description>
+
+    <Bullet_PhotonCannon.label>光子</Bullet_PhotonCannon.label>
+
+    <Gun_PhotonCannon.label>光子炮塔炮</Gun_PhotonCannon.label>
+    <Gun_PhotonCannon.description>光子炮塔炮。</Gun_PhotonCannon.description>
+
+    <Phase_Cannon.label>相位穿震炮塔</Phase_Cannon.label>
+    <Phase_Cannon.description>一种能够扰乱盔甲原子结构的能量炮，构成材料的粒子之间的原子键越紧密，释放出来的能量对盔甲造成的伤害就越大。</Phase_Cannon.description>
+
+    <Turret_PhaseCannon.label>炮塔相位穿震炮</Turret_PhaseCannon.label>
+    <Turret_PhaseCannon.description>炮塔相位穿震炮。</Turret_PhaseCannon.description>
+
+</LanguageData>

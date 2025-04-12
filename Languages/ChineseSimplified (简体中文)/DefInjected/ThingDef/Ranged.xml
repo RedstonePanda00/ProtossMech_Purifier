@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <Gun_ThermalLances.label>热能射线枪</Gun_ThermalLances.label>
+    <Gun_ThermalLances.description>一对发射高能等离子束的射线枪，它的功率足够融化重型装甲并且汽化其中的有机体。</Gun_ThermalLances.description>
+
+    <Gun_PhaseCannon.label>相位穿震炮</Gun_PhaseCannon.label>
+    <Gun_PhaseCannon.description>一种能够扰乱盔甲原子结构的能量炮，构成材料的粒子之间的原子键越紧密，释放出来的能量对盔甲造成的伤害就越大。</Gun_PhaseCannon.description>
+</LanguageData>

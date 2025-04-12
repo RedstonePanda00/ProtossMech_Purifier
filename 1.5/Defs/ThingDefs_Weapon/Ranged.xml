@@ -79,7 +79,7 @@
   <ThingDef ParentName="BaseGun">
     <defName>Gun_PhaseCannon</defName>
     <label>Phase Shock Cannon</label>
-    <description>placeholder</description>
+    <description>This energy cannon disrupts armor at the atomic level - the higher the alloy's atomic bond energy, the greater the destruction.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapon/PhaseCannon</texPath>

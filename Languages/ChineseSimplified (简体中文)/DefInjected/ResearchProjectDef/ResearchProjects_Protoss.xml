@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <ProtossEngineeringFundamentals.label>星灵工程学基础</ProtossEngineeringFundamentals.label>
+    <ProtossEngineeringFundamentals.description>研究星灵工程学基础。</ProtossEngineeringFundamentals.description>
+
+    <ThermonuclearFusion.label>热核聚变</ThermonuclearFusion.label>
+    <ThermonuclearFusion.description>研究热核聚变。</ThermonuclearFusion.description>
+
+    <PositronicAI.label>正电子人工智能</PositronicAI.label>
+    <PositronicAI.description>研究正电子人工智能。</PositronicAI.description>
+
+    <SyntheticPersonalityMatrix.label>合成人人格矩阵</SyntheticPersonalityMatrix.label>
+    <SyntheticPersonalityMatrix.description>研究合成人人格矩阵。</SyntheticPersonalityMatrix.description>
+
+    <PurifierProject.label>净化者计划</PurifierProject.label>
+    <PurifierProject.description>复原净化者计划。</PurifierProject.description>
+
+    <EclipseAndApocalypse.label>日食与启示录</EclipseAndApocalypse.label>
+    <EclipseAndApocalypse.description>令净化者们最强大的战争机器重见天日。</EclipseAndApocalypse.description>
+
+    <CivilianProtossMechanoid.label>民用星灵机械</CivilianProtossMechanoid.label>
+    <CivilianProtossMechanoid.description>研究民用星灵机械体。</CivilianProtossMechanoid.description>
+
+    <KhalaiForge.label>卡莱锻造技术</KhalaiForge.label>
+    <KhalaiForge.description>研究卡莱锻造技术。</KhalaiForge.description>
+
+    <NerazimForge.label>奈拉其姆锻造技术</NerazimForge.label>
+    <NerazimForge.description>研究奈拉其姆锻造技术。</NerazimForge.description>
+
+    <TaldarimForge.label>塔达利姆锻造技术</TaldarimForge.label>
+    <TaldarimForge.description>研究塔达利姆，千锤百炼者（从其他星灵那偷来的）的锻造技术。</TaldarimForge.description>
+
+</LanguageData>

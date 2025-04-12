@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <Hediff_TemporalSurge.label>时空光束</Hediff_TemporalSurge.label>
+    <Hediff_TemporalSurge.description>这个单位的时间流逝的更快，使得他们的工作和移动速度都大幅提升，也包括衰老速度。</Hediff_TemporalSurge.description>
+
+    <Hediff_Reconstruct.label>重构冷却</Hediff_Reconstruct.label>
+    <Hediff_Reconstruct.description>这个单位刚进行过一次重构，无人机需要一段时间重新充能。</Hediff_Reconstruct.description>
+
+    <Hediff_Charging.label>冲锋中</Hediff_Charging.label>
+    <Hediff_Charging.description>这个单位正在冲锋。</Hediff_Charging.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <ForceFieldWall.label>力场墙</ForceFieldWall.label>
+
+    <GuardianShieldUnit.label>守护者之盾护盾单位</GuardianShieldUnit.label>
+    <GuardianShieldUnit.description>守护者之盾护盾单位。</GuardianShieldUnit.description>
+
+</LanguageData>

@@ -30,7 +30,7 @@
     <HediffDef>
         <defName>Hediff_Reconstruct</defName>
         <label>Reconstruct</label>
-        <description>Placeholder</description>
+        <description>This pawn just Reconstructed, the drone need some time to recharge.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <isBad>false</isBad>
         <comps>
@@ -52,7 +52,7 @@
     <HediffDef>
         <defName>Hediff_Charging</defName>
         <label>charging</label>
-        <description>Placeholder</description>
+        <description>This unit is charging.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <isBad>false</isBad>
         <comps>

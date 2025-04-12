@@ -2,7 +2,6 @@
 <Defs>
     <RecipeDef Name="ProtossMechanoidRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
         <gestationCycles>2</gestationCycles>
-        <researchPrerequisite>ProtossEngineeringFundamentals</researchPrerequisite>
         <ingredients Inherit="False">
             <li>
                 <filter>
@@ -28,6 +27,7 @@
         <defName>Probe</defName>
         <label>gestate Protoss Probe mech</label>
         <description>Gestate an Protoss Probe mechanoid.</description>
+        <researchPrerequisite>ProtossEngineeringFundamentals</researchPrerequisite>
         <products>
             <Mech_Probe>1</Mech_Probe>
         </products>
@@ -313,7 +313,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
-        <defName>ResurrectProtossMechHeavy</defName>
+        <defName>ResurrectPurifierMechHeavy</defName>
         <label>resurrect Purifier Protoss mechanoid</label>
         <description>Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
         <ingredients>

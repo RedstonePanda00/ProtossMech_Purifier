@@ -4,7 +4,7 @@
     <AbilityDef>
         <defName>MechForceFieldWall</defName>
         <label>project Force Field Wall</label>
-        <description>Projects a 3x3 Force Field Wall using hardened light structures.</description>
+        <description>Projects a 3x3 Force Field Wall structures.</description>
         <iconPath>Things/Abilities/Force_field</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
@@ -24,7 +24,7 @@
     <AbilityDef>
         <defName>MechGuardianShield</defName>
         <label>Guardian Shield</label>
-        <description>placeholder</description>
+        <description>a portable shield generator, which can block projectile.</description>
         <iconPath>Things/Abilities/Guardian_shield</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
@@ -42,7 +42,7 @@
     <AbilityDef>
         <defName>MechChronoBeam</defName>
         <label>Chrono Beam</label>
-        <description>placeholder</description>
+        <description>The beam that can speed up the time flow of target.</description>
         <iconPath>Things/Abilities/ChronoBeam</iconPath>
         <cooldownTicksRange>60</cooldownTicksRange>
         <hostile>false</hostile>
@@ -98,7 +98,7 @@
     <AbilityDef>
         <defName>MechCharge</defName>
         <label>charge</label>
-        <description>placeholder</description>
+        <description>Speed up in several seconds.</description>
         <iconPath>Things/Abilities/Charge</iconPath>
         <cooldownTicksRange>1800</cooldownTicksRange>
         <hostile>false</hostile>

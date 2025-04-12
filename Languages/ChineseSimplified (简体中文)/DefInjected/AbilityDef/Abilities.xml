@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MechForceFieldWall.label>力场墙</MechForceFieldWall.label>
+    <MechForceFieldWall.description>投射一块3x3范围的力场屏障。</MechForceFieldWall.description>
+
+    <MechGuardianShield.label>守护者之盾</MechGuardianShield.label>
+    <MechGuardianShield.description>一个便携式的护盾投射器，可以拦截投射物。</MechGuardianShield.description>
+
+    <MechChronoBeam.label>加速射线</MechChronoBeam.label>
+    <MechChronoBeam.description>一种可以加快目标时间流速的射线。</MechChronoBeam.description>
+
+    <LegionnaireJump.label>跳跃</LegionnaireJump.label>
+    <LegionnaireJump.description>用强壮的机械腿跳跃到指定位置。</LegionnaireJump.description>
+
+    <MechCharge.label>冲锋</MechCharge.label>
+    <MechCharge.description>在几秒之内提高移动速度。</MechCharge.description>
+
+</LanguageData>

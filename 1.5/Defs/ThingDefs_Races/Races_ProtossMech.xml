@@ -165,7 +165,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Mech_colossus</defName>
     <label>colossus</label>
-    <description>The Colossus is a massive Protoss battle strider that towers over all other ground units on the battlefield.Its long-range dual Thermal Lances target units in a wide linear area of effect, perpendicular to the Colossus's direction of fire.</description>
+    <description>As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse.</description>
     <statBases>
       <MoveSpeed>8</MoveSpeed>
       <BandwidthCost>6</BandwidthCost>
@@ -239,7 +239,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Mech_Sentry</defName>
     <label>Sentry</label>
-    <description>Sentry_placeholder</description>
+    <description>The sentry is modified from the probe and is equipped with force field projectors and shield generators, which are essential support forces on the battlefield.</description>
     <statBases>
       <BandwidthCost>2</BandwidthCost>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
@@ -308,7 +308,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Mech_Energizer</defName>
     <label>Energizer</label>
-    <description>Energizer_placeholder</description>
+    <description>The Energizer is a modified version of the Sentry, with its force field projector modified into a small time bubble projector that significantly speeds up the relative flow of time for affected units.</description>
     <statBases>
       <BandwidthCost>2</BandwidthCost>
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
@@ -384,7 +384,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Mech_Legionnaire</defName>
     <label>Legionnaire</label>
-    <description>Energizer_placeholder</description>
+    <description>Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars.</description>
     <statBases>
       <BandwidthCost>3</BandwidthCost>
       <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
@@ -485,7 +485,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Mech_Sentinel</defName>
     <label>Sentinel</label>
-    <description>Sentinel_placeholder</description>
+    <description>The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones.</description>
     <statBases>
       <BandwidthCost>2</BandwidthCost>
       <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
@@ -585,7 +585,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Mech_PurifierImmortal</defName>
     <label>PurifierImmortal</label>
-    <description>We shall server forever.</description>
+    <description>The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be  rapidly reassembled by reconstruction drones swarms.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <BandwidthCost>4</BandwidthCost>

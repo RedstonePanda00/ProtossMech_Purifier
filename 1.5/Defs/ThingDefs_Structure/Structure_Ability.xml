@@ -41,7 +41,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>GuardianShieldUnit</defName>
         <label>Guardian Shield</label>
-        <description>placeholder</description>
+        <description>Guardian Shield Unit.</description>
         <altitudeLayer>BuildingOnTop</altitudeLayer>
         <drawerType>MapMeshAndRealTime</drawerType>
         <pathCost>0</pathCost>
