@@ -570,9 +570,9 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Mechanoid/Legionnaire</texPath>
+          <texPath>Things/Pawn/Mechanoid/Sentinel</texPath>
           <shaderType>Cutout</shaderType>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.5</drawSize>
         </bodyGraphicData>
       </li>
     </lifeStages>
