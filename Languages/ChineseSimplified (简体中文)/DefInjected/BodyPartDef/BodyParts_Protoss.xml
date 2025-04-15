@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <SmallMechanicalHand.label>探机机械手</SmallMechanicalHand.label>
+
+    <SmallFloatingUnit.label>小型悬浮单元</SmallFloatingUnit.label>
+
+    <SmallAntiGravityCore.label>小型反重力核心</SmallAntiGravityCore.label>
+
+    <GiantMechanicalJoint.label>巨型机械腿关节</GiantMechanicalJoint.label>
+
+    <GiantMechanicalLeg.label>巨型机械昆虫足节</GiantMechanicalLeg.label>
+</LanguageData>

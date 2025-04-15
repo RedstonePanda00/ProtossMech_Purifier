@@ -413,8 +413,8 @@
     </corePart>
   </BodyDef>
 
-  <!-- purifier -->
-    <BodyDef>
+  <!-- purifier immortal-->
+  <BodyDef>
     <defName>Mech_PurifierImmortal</defName>
     <label>Protoss Purifier Immortal</label>
     <corePart>
@@ -488,7 +488,7 @@
           <parts>
             <li>
               <def>GiantMechanicalLeg</def>
-              <customLabel>PurifierImmortals leg front right</customLabel>
+              <customLabel>PurifierImmortal leg front right</customLabel>
               <coverage>0.10</coverage>
             </li>
           </parts>

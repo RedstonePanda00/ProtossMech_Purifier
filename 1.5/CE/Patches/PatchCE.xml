@@ -121,6 +121,27 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Probe"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>200</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<Plasteel>5</Plasteel>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>200</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>200</MaxOverHeal>
+				<MinArmorPct>0.5</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
 	<!-- colossus -->
 
 	<Operation Class="PatchOperationReplace">
@@ -147,6 +168,27 @@
 			<MeleeParryChance>0.75</MeleeParryChance>
 			<!-- <MaxHitPoints>500</MaxHitPoints> -->
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_colossus"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>3000</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<FuelTypeG>5</FuelTypeG>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>3000</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>3000</MaxOverHeal>
+				<MinArmorPct>1.0</MinArmorPct>
+			</li>
 		</value>
 	</Operation>
 
@@ -178,6 +220,27 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Sentry"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>200</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<Plasteel>5</Plasteel>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>200</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>200</MaxOverHeal>
+				<MinArmorPct>0.5</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
 	<!-- Energizer -->
 
 	<Operation Class="PatchOperationReplace">
@@ -203,6 +266,27 @@
 			<MeleeCritChance>0.10</MeleeCritChance>
 			<MeleeParryChance>0.10</MeleeParryChance>
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Energizer"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>200</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<Plasteel>5</Plasteel>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>200</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>200</MaxOverHeal>
+				<MinArmorPct>1.0</MinArmorPct>
+			</li>
 		</value>
 	</Operation>
 
@@ -271,6 +355,27 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Legionnaire"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>1500</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<FuelTypeG>5</FuelTypeG>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>1500</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>1500</MaxOverHeal>
+				<MinArmorPct>1.0</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
 	<!-- Sentinel -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]/statBases/ArmorRating_Blunt</xpath>
@@ -336,6 +441,27 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_Sentinel"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>1000</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<Plasteel>5</Plasteel>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>1000</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>1000</MaxOverHeal>
+				<MinArmorPct>0.5</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
 	<!-- PurifierImmortal -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Mech_PurifierImmortal"]/statBases/ArmorRating_Blunt</xpath>
@@ -361,6 +487,27 @@
 			<MeleeParryChance>0.95</MeleeParryChance>
 			<!-- <MaxHitPoints>200</MaxHitPoints> -->
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mech_PurifierImmortal"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>2500</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<FuelTypeG>5</FuelTypeG>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>2500</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>2500</MaxOverHeal>
+				<MinArmorPct>1.0</MinArmorPct>
+			</li>
 		</value>
 	</Operation>
 
