@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<WorkGiverDef>
+    <defName>ProtossForgeBill</defName>
+    <label>craft at Protoss Forge</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ProtossForge</li>
+    </fixedBillGiverDefs>
+    <verb>fabricate</verb>
+    <gerund>fabricating things at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</Defs>

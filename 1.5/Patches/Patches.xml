@@ -24,7 +24,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+		<xpath>Defs/ThingDef[defName="ProtossForge"]/recipes</xpath>
 		<order>Prepend</order>
 		<value>
 			<li>Make_FuelTypeG</li>

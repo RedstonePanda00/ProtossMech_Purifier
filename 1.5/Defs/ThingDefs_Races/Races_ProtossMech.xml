@@ -128,10 +128,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>2</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-        </hediffWhitelist>
       </li>
     </comps>
   </ThingDef>
@@ -198,10 +194,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>5</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-        </hediffWhitelist>
         <!-- <HardenedShields>true</HardenedShields> -->
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
@@ -269,10 +261,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>2</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-        </hediffWhitelist>
       </li>
     </comps>
   </ThingDef>
@@ -292,12 +280,12 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-    <weaponMoney>9999~9999</weaponMoney>
+    <!-- <weaponMoney>9999~9999</weaponMoney>
     <weaponTags>
       <li>Gun_AssaultRifle</li>
     </weaponTags>
     <techHediffsChance>1</techHediffsChance>
-    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <techHediffsMoney>9999~9999</techHediffsMoney> -->
     <abilities>
       <li>MechForceFieldWall</li>
       <li>MechGuardianShield</li>
@@ -341,10 +329,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>2</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-        </hediffWhitelist>
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
         <cooldownTicks>3600</cooldownTicks>
@@ -447,11 +431,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>2</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-          <li>Hediff_Charging</li>
-        </hediffWhitelist>
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
         <cooldownTicks>3600</cooldownTicks>
@@ -548,11 +527,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>2</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-          <li>Hediff_Charging</li>
-        </hediffWhitelist>
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
         <cooldownTicks>3600</cooldownTicks>
@@ -618,10 +592,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>3</maxDrawSize>
-        <hediffWhitelist>
-          <li>Hediff_TemporalSurge</li>
-          <li>Hediff_Reconstruct</li>
-        </hediffWhitelist>
         <HardenedShields>true</HardenedShields>
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
