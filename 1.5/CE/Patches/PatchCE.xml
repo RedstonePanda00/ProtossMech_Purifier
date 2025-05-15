@@ -511,4 +511,99 @@
 		</value>
 	</Operation>
 
+	<!-- Probius -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Persona_Probius"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>420</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Persona_Probius"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>42</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Persona_Probius"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>1.00</AimingAccuracy>
+			<ShootingAccuracyPawn>1.00</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.95</MeleeDodgeChance>
+			<MeleeCritChance>0.42</MeleeCritChance>
+			<MeleeParryChance>0.10</MeleeParryChance>
+			<!-- <MaxHitPoints>200</MaxHitPoints> -->
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Persona_Probius"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Persona_Probius"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>torso</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.0</cooldownTime>
+					<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<armorPenetrationBlunt>42.0</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left hand</label>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.5</cooldownTime>
+					<armorPenetrationSharp>42.0</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right hand</label>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.5</cooldownTime>
+					<armorPenetrationSharp>42.0</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Persona_Probius"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>2000</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<FuelTypeG>5</FuelTypeG>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>2000</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>2000</MaxOverHeal>
+				<MinArmorPct>1.0</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
 </Patch>

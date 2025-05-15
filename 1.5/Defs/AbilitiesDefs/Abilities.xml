@@ -123,4 +123,65 @@
         </modExtensions>
     </AbilityDef>
 
+    <AbilityDef>
+        <defName>Warp_Pylon</defName>
+        <label>Warp Pylon</label>
+        <iconPath>Things/Abilities/WarpPylon</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_CastAbilityPlaceSingleBuilding</verbClass>
+            <range>1</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <modExtensions>
+            <li Class="ProtossMech.AbilityExtension_PlaceBuilding">
+                <def>WarpBeacon_Pylon</def>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>Warp_Photon</defName>
+        <label>Warp Photon</label>
+        <iconPath>Things/Abilities/WarpPhoton</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_CastAbilityPlaceSingleBuilding</verbClass>
+            <range>1</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <modExtensions>
+            <li Class="ProtossMech.AbilityExtension_PlaceBuilding">
+                <def>WarpBeacon_Photon</def>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>OverchargeAllPylons</defName>
+        <label>Overcharge All Pylons</label>
+        <iconPath>Things/Abilities/PylonOvercharge</iconPath>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <targetRequired>false</targetRequired>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_CastAbilityOverchargeAllPylons</verbClass>
+            <range>999</range>
+        </verbProperties>
+        <cooldownTicksRange>3600</cooldownTicksRange>
+    </AbilityDef>
+
+
 </Defs>
