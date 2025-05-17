@@ -129,6 +129,21 @@
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>2</maxDrawSize>
       </li>
+
+      <li Class="ModExtention.CompProperties_AutoTransform">
+        <checkInterval>300</checkInterval>
+        <DetectList>
+          <li>Mech_Probe</li>
+          <li>Mech_colossus</li>
+          <li>Mech_Sentry</li>
+          <li>Mech_Energizer</li>
+          <li>Mech_Legionnaire</li>
+          <li>Mech_Sentinel</li>
+          <li>Mech_PurifierImmortal</li>
+        </DetectList>
+        <targetDef>Persona_Probius</targetDef>
+      </li>
+
     </comps>
   </ThingDef>
 
@@ -629,7 +644,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>Persona_Probius</defName>
     <label>Probius</label>
-    <description>Persona Hero Probius.</description>
+    <description>Persona Hero Probius, he is ready for a new advanture.</description>
     <statBases>
       <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
@@ -696,7 +711,7 @@
         <HardenedShields>false</HardenedShields>
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
-        <cooldownTicks>60</cooldownTicks>
+        <cooldownTicks>42</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
     </comps>
@@ -710,7 +725,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Mechanoid/Probe</texPath>
+          <texPath>Things/Pawn/Mechanoid/Probius</texPath>
           <shaderType>Cutout</shaderType>
           <drawSize>1.5</drawSize>
         </bodyGraphicData>

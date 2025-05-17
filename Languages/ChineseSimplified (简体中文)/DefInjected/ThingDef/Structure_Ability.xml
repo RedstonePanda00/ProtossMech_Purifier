@@ -5,4 +5,13 @@
     <GuardianShieldUnit.label>守护者之盾护盾单位</GuardianShieldUnit.label>
     <GuardianShieldUnit.description>守护者之盾护盾单位。</GuardianShieldUnit.description>
 
+    <WarpBeacon_Pylon.label>折跃信标(水晶塔)</WarpBeacon_Pylon.label>
+
+    <WarpBeacon_Photon.label>折跃信标(光子炮塔)</WarpBeacon_Photon.label>
+
+    <Pylon_OverCharged.label>水晶塔(光子过载)</Pylon_OverCharged.label>
+
+    <Gun_OverchargePylon.label>超载水晶</Gun_OverchargePylon.label>
+    <Gun_OverchargePylon.description>这座水晶塔正处于超载模式。</Gun_OverchargePylon.description>
+
 </LanguageData>

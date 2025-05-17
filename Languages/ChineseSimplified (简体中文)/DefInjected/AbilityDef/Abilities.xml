@@ -15,4 +15,9 @@
     <MechCharge.label>冲锋</MechCharge.label>
     <MechCharge.description>在几秒之内提高移动速度。</MechCharge.description>
 
+    <Warp_Pylon.label>折跃水晶塔</Warp_Pylon.label>
+
+    <Warp_Photon.label>折跃光子炮塔</Warp_Photon.label>
+
+    <OverchargeAllPylons.label>水晶塔超载</OverchargeAllPylons.label>
 </LanguageData>
