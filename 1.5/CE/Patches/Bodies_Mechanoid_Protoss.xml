@@ -4,9 +4,9 @@
     <!-- ========== Add groups entry if it doesn't exist already ========== -->
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart</xpath>
             <value>
                 <groups />
             </value>
@@ -14,9 +14,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]</xpath>
             <value>
                 <groups />
             </value>
@@ -24,9 +24,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]</xpath>
             <value>
                 <groups />
             </value>
@@ -34,9 +34,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SightSensor"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SightSensor"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SightSensor"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SightSensor"]</xpath>
             <value>
                 <groups />
             </value>
@@ -44,9 +44,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="HearingSensor"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="HearingSensor"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="HearingSensor"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="HearingSensor"]</xpath>
             <value>
                 <groups />
             </value>
@@ -54,9 +54,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SmellSensor"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SmellSensor"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SmellSensor"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SmellSensor"]</xpath>
             <value>
                 <groups />
             </value>
@@ -64,9 +64,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallMechanicalHand"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallMechanicalHand"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallMechanicalHand"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallMechanicalHand"]</xpath>
             <value>
                 <groups />
             </value>
@@ -74,9 +74,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallFloatingUnit"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallFloatingUnit"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallFloatingUnit"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallFloatingUnit"]</xpath>
             <value>
                 <groups />
             </value>
@@ -84,9 +84,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallFloatingUnit"]/parts/li[def="SmallAntiGravityCore"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallFloatingUnit"]/parts/li[def="SmallAntiGravityCore"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallFloatingUnit"]/parts/li[def="SmallAntiGravityCore"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallFloatingUnit"]/parts/li[def="SmallAntiGravityCore"]</xpath>
             <value>
                 <groups />
             </value>
@@ -94,9 +94,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_colossus" or defName="Mech_PurifierImmortal"]/corePart/parts/li[def="GiantMechanicalJoint"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ColossusBody" or defName="PMP_ImmortalBody"]/corePart/parts/li[def="GiantMechanicalJoint"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_colossus" or defName="Mech_PurifierImmortal"]/corePart/parts/li[def="GiantMechanicalJoint"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ColossusBody" or defName="PMP_ImmortalBody"]/corePart/parts/li[def="GiantMechanicalJoint"]</xpath>
             <value>
                 <groups />
             </value>
@@ -104,9 +104,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_colossus" or defName="Mech_PurifierImmortal"]/corePart/parts/li[def="GiantMechanicalJoint"]/parts/li[def="GiantMechanicalLeg"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ColossusBody" or defName="PMP_ImmortalBody"]/corePart/parts/li[def="GiantMechanicalJoint"]/parts/li[def="GiantMechanicalLeg"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_colossus" or defName="Mech_PurifierImmortal"]/corePart/parts/li[def="GiantMechanicalJoint"]/parts/li[def="GiantMechanicalLeg"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_ColossusBody" or defName="PMP_ImmortalBody"]/corePart/parts/li[def="GiantMechanicalJoint"]/parts/li[def="GiantMechanicalLeg"]</xpath>
             <value>
                 <groups />
             </value>
@@ -114,9 +114,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalLeg"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalLeg"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalLeg"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalLeg"]</xpath>
             <value>
                 <groups />
             </value>
@@ -124,9 +124,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalLeg"]/parts/li[def="MechanicalFoot"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalLeg"]/parts/li[def="MechanicalFoot"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalLeg"]/parts/li[def="MechanicalFoot"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalLeg"]/parts/li[def="MechanicalFoot"]</xpath>
             <value>
                 <groups />
             </value>
@@ -135,9 +135,9 @@
 
     <!-- shoulder -->
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]</xpath>
             <value>
                 <groups />
             </value>
@@ -145,9 +145,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]</xpath>
             <value>
                 <groups />
             </value>
@@ -155,9 +155,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]</xpath>
             <value>
                 <groups />
             </value>
@@ -165,9 +165,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/parts/li[def="MechanicalFinger"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/parts/li[def="MechanicalFinger"]/groups</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/parts/li[def="MechanicalFinger"]</xpath>
+            <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/parts/li[def="MechanicalFinger"]</xpath>
             <value>
                 <groups />
             </value>
@@ -177,119 +177,119 @@
     <!-- ========== Add armor coverage ========== -->
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SightSensor"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SightSensor"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="HearingSensor"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="HearingSensor"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe" or defName="Mech_colossus" or defName="Mech_PurifierImmortal" or defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SmellSensor"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody" or defName="PMP_ColossusBody" or defName="PMP_ImmortalBody" or defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/parts/li[def="SmellSensor"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallMechanicalHand"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallMechanicalHand"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallFloatingUnit"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallFloatingUnit"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Probe"]/corePart/parts/li[def="SmallFloatingUnit"]/parts/li[def="SmallAntiGravityCore"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ProbeBody"]/corePart/parts/li[def="SmallFloatingUnit"]/parts/li[def="SmallAntiGravityCore"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_colossus" or defName="Mech_PurifierImmortal"]/corePart/parts/li[def="GiantMechanicalJoint"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ColossusBody" or defName="PMP_ImmortalBody"]/corePart/parts/li[def="GiantMechanicalJoint"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_colossus" or defName="Mech_PurifierImmortal"]/corePart/parts/li[def="GiantMechanicalJoint"]/parts/li[def="GiantMechanicalLeg"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_ColossusBody" or defName="PMP_ImmortalBody"]/corePart/parts/li[def="GiantMechanicalJoint"]/parts/li[def="GiantMechanicalLeg"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalLeg"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalLeg"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalLeg"]/parts/li[def="MechanicalFoot"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalLeg"]/parts/li[def="MechanicalFoot"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Mech_Legionnaire"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/parts/li[def="MechanicalFinger"]/groups</xpath>
+        <xpath>Defs/BodyDef[defName="PMP_HumanoidBody"]/corePart/parts/li[def="MechanicalShoulder"]/parts/li[def="MechanicalArm"]/parts/li[def="MechanicalHand"]/parts/li[def="MechanicalFinger"]/groups</xpath>
         <value>
             <li>CoveredByNaturalArmor</li>
         </value>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    <Mech_Probe.label>探机</Mech_Probe.label>
-    <Mech_Probe.description>小巧的探机是由星灵卡莱阶级设计的，用于在那些对工人过于危险的世界上建立殖民地打下基础的机械。探机负责采集我们工业所需的矿物和能源。它们还能投射折跃信标，使星灵能够将建筑物从遥远的母星传送到本地。</Mech_Probe.description>
+    <PMP_Probe.label>探机</PMP_Probe.label>
+    <PMP_Probe.description>小巧的探机是由星灵卡莱阶级设计的，用于在那些对工人过于危险的世界上建立殖民地打下基础的机械。探机负责采集我们工业所需的矿物和能源。它们还能投射折跃信标，使星灵能够将建筑物从遥远的母星传送到本地。</PMP_Probe.description>
 
-    <Mech_colossus.label>净化者巨像</Mech_colossus.label>
-    <Mech_colossus.description>作为首批投入大规模生产的原型机，净化者巨像不同于当前的简化型号，它拥有完整的合成人格核心、中子装甲、重构无人机群和硬化护盾。它装备的原型热能长矛可以投射高能等离子流，在点燃地面的同时蒸发目标。如果你在战场上看见他们作为你的敌人出现，你需要做的只有放下武器，然后向你的神祈祷。</Mech_colossus.description>
+    <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
+    <PMP_ColossusPrototype.description>作为首批投入大规模生产的原型机，净化者巨像不同于当前的简化型号，它拥有完整的合成人格核心、中子装甲、重构无人机群和硬化护盾。它装备的原型热能长矛可以投射高能等离子流，在点燃地面的同时蒸发目标。如果你在战场上看见他们作为你的敌人出现，你需要做的只有放下武器，然后向你的神祈祷。</PMP_ColossusPrototype.description>
 
-    <Mech_Sentry.label>机械哨兵</Mech_Sentry.label>
-    <Mech_Sentry.description>机械哨兵由探机改装而成，配备有力场投射器和护盾发生器，是战场上必不可少的支援力量。</Mech_Sentry.description>
+    <PMP_Sentry.label>机械哨兵</PMP_Sentry.label>
+    <PMP_Sentry.description>机械哨兵由探机改装而成，配备有力场投射器和护盾发生器，是战场上必不可少的支援力量。</PMP_Sentry.description>
 
-    <Mech_Energizer.label>激励者</Mech_Energizer.label>
-    <Mech_Energizer.description>激励者是机械哨兵的改良版，它的力场投射器被改装成了一个小型的时间泡投射器，能显著加快受影响单位的相对时间流速。</Mech_Energizer.description>
+    <PMP_Energizer.label>激励者</PMP_Energizer.label>
+    <PMP_Energizer.description>激励者是机械哨兵的改良版，它的力场投射器被改装成了一个小型的时间泡投射器，能显著加快受影响单位的相对时间流速。</PMP_Energizer.description>
 
-    <Mech_Legionnaire.label>军团士兵</Mech_Legionnaire.label>
-    <Mech_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们，他们被下载到这个由中子材料制成的机械躯体中，这样他们就可以继续作为圣堂武士服役。日复一日，万世长存。</Mech_Legionnaire.description>
+    <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
+    <PMP_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们，他们被下载到这个由中子材料制成的机械躯体中，这样他们就可以继续作为圣堂武士服役。日复一日，万世长存。</PMP_Legionnaire.description>
 
-    <Mech_Sentinel.label>警戒者</Mech_Sentinel.label>
-    <Mech_Sentinel.description>警戒者源自净化者计划的一个分支，采用正电子人工智能作为数字神经模式传输的道德替代方案。即使被摧毁，它们也能被重建无人机迅速重组。</Mech_Sentinel.description>
+    <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+    <PMP_Sentinel.description>警戒者源自净化者计划的一个分支，采用正电子人工智能作为数字神经模式传输的道德替代方案。即使被摧毁，它们也能被重建无人机迅速重组。</PMP_Sentinel.description>
 
-    <Mech_PurifierImmortal.label>净化者不朽者</Mech_PurifierImmortal.label>
-    <Mech_PurifierImmortal.description>净化者不朽者使用两门相位穿震炮，这种特殊的武器能够穿透那些最硬的装甲，正如他们的卡莱原型一样，净化者不朽者装备了刚毅护盾，一种可以将所有来袭的攻击削弱至可接受范围的特殊硬化护盾。同时，净化者版本换装了G型合金，一种致密的中子材料，驾驶舱节省下来的空间也支持他装备功率更大的护盾发生器。</Mech_PurifierImmortal.description>
+    <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
+    <PMP_PurifierImmortal.description>净化者不朽者使用两门相位穿震炮，这种特殊的武器能够穿透那些最硬的装甲，正如他们的卡莱原型一样，净化者不朽者装备了刚毅护盾，一种可以将所有来袭的攻击削弱至可接受范围的特殊硬化护盾。同时，净化者版本换装了G型合金，一种致密的中子材料，驾驶舱节省下来的空间也支持他装备功率更大的护盾发生器。</PMP_PurifierImmortal.description>
 
     <Persona_Probius.label>普罗比斯</Persona_Probius.label>
     <Persona_Probius.description>英雄人格：普罗比斯，他已经准备好面对新的冒险。</Persona_Probius.description>

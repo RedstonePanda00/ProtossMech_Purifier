@@ -16,7 +16,7 @@
       <EMPResistance>1.0</EMPResistance>
     </statBases>
     <race>
-      <body>Mech_Probe</body>
+      <body>PMP_ProbeBody</body>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <baseBodySize>1</baseBodySize>
@@ -48,7 +48,7 @@
   <PawnKindDef Name="ProtossMechanoidKind" ParentName="BaseMechanoidKind" Abstract="True">
     <defaultFactionType>PlayerColony</defaultFactionType>
     <weaponMoney>9999~9999</weaponMoney>
-    <combatPower>20</combatPower>
+    <combatPower>42</combatPower>
     <weaponTags></weaponTags>
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>9999~9999</techHediffsMoney>
@@ -62,7 +62,7 @@
 
   <!-- Probe -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_Probe</defName>
+    <defName>PMP_Probe</defName>
     <label>Probe</label>
     <description>The tiny Probe was designed by the Khalai to lay the foundation for Protoss colonies on hostile worlds where living workers would be at too great a risk. Probes are responsible for harvesting the minerals and vespene gas that we need to fuel our industry. They also produce and plant the warp-beacons that allow us to teleport our buildings from Aiur to distant planets.</description>
     <statBases>
@@ -70,7 +70,7 @@
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>Mech_Probe</body>
+      <body>PMP_ProbeBody</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>2.0</baseHealthScale>
       <mechEnabledWorkTypes>
@@ -133,13 +133,13 @@
       <li Class="ModExtention.CompProperties_AutoTransform">
         <checkInterval>300</checkInterval>
         <DetectList>
-          <li>Mech_Probe</li>
-          <li>Mech_colossus</li>
-          <li>Mech_Sentry</li>
-          <li>Mech_Energizer</li>
-          <li>Mech_Legionnaire</li>
-          <li>Mech_Sentinel</li>
-          <li>Mech_PurifierImmortal</li>
+          <li>PMP_Probe</li>
+          <li>PMP_ColossusPrototype</li>
+          <li>PMP_Sentry</li>
+          <li>PMP_Energizer</li>
+          <li>PMP_Legionnaire</li>
+          <li>PMP_Sentinel</li>
+          <li>PMP_PurifierImmortal</li>
         </DetectList>
         <targetDef>Persona_Probius</targetDef>
       </li>
@@ -148,9 +148,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
-    <defName>Mech_Probe</defName>
+    <defName>PMP_Probe</defName>
     <label>Probe</label>
-    <race>Mech_Probe</race>
+    <race>PMP_Probe</race>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -174,7 +174,7 @@
 
   <!-- colossus -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_colossus</defName>
+    <defName>PMP_ColossusPrototype</defName>
     <label>colossus</label>
     <description>As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse.</description>
     <statBases>
@@ -184,7 +184,7 @@
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>Mech_colossus</body>
+      <body>PMP_ColossusBody</body>
       <mechWeightClass>UltraHeavy</mechWeightClass>
       <baseBodySize>5</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
@@ -219,10 +219,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>Mech_colossus</defName>
+    <defName>PMP_ColossusPrototype</defName>
     <label>colossus</label>
-    <race>Mech_colossus</race>
-    <combatPower>500</combatPower>
+    <race>PMP_ColossusPrototype</race>
+    <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -244,7 +244,7 @@
 
   <!-- Sentry -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_Sentry</defName>
+    <defName>PMP_Sentry</defName>
     <label>Sentry</label>
     <description>The sentry is modified from the probe and is equipped with force field projectors and shield generators, which are essential support forces on the battlefield.</description>
     <statBases>
@@ -253,7 +253,7 @@
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>Mech_Probe</body>
+      <body>PMP_ProbeBody</body>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
         <li>Cleaning</li>
@@ -281,10 +281,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>Mech_Sentry</defName>
+    <defName>PMP_Sentry</defName>
     <label>Sentry</label>
-    <race>Mech_Sentry</race>
-    <combatPower>75</combatPower>
+    <race>PMP_Sentry</race>
+    <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -309,7 +309,7 @@
 
   <!-- Energizer -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_Energizer</defName>
+    <defName>PMP_Energizer</defName>
     <label>Energizer</label>
     <description>The Energizer is a modified version of the Sentry, with its force field projector modified into a small time bubble projector that significantly speeds up the relative flow of time for affected units.</description>
     <statBases>
@@ -318,7 +318,7 @@
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>Mech_Probe</body>
+      <body>PMP_ProbeBody</body>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
         <li>Cleaning</li>
@@ -353,10 +353,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>Mech_Energizer</defName>
+    <defName>PMP_Energizer</defName>
     <label>Energizer</label>
-    <race>Mech_Energizer</race>
-    <combatPower>100</combatPower>
+    <race>PMP_Energizer</race>
+    <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -381,7 +381,7 @@
 
   <!-- Legionnaire -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_Legionnaire</defName>
+    <defName>PMP_Legionnaire</defName>
     <label>Legionnaire</label>
     <description>Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars.</description>
     <statBases>
@@ -391,7 +391,7 @@
       <MoveSpeed>6.5</MoveSpeed>
     </statBases>
     <race>
-      <body>Mech_Legionnaire</body>
+      <body>PMP_HumanoidBody</body>
       <baseBodySize>2</baseBodySize>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
@@ -455,10 +455,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>Mech_Legionnaire</defName>
+    <defName>PMP_Legionnaire</defName>
     <label>Legionnaire</label>
-    <race>Mech_Legionnaire</race>
-    <combatPower>200</combatPower>
+    <race>PMP_Legionnaire</race>
+    <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -477,7 +477,7 @@
 
   <!-- Sentinel -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_Sentinel</defName>
+    <defName>PMP_Sentinel</defName>
     <label>Sentinel</label>
     <description>The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones.</description>
     <statBases>
@@ -487,7 +487,7 @@
       <MoveSpeed>6.0</MoveSpeed>
     </statBases>
     <race>
-      <body>Mech_Legionnaire</body>
+      <body>PMP_HumanoidBody</body>
       <baseBodySize>1</baseBodySize>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
@@ -551,10 +551,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>Mech_Sentinel</defName>
+    <defName>PMP_Sentinel</defName>
     <label>Sentinel</label>
-    <race>Mech_Sentinel</race>
-    <combatPower>75</combatPower>
+    <race>PMP_Sentinel</race>
+    <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -572,7 +572,7 @@
 
   <!-- PurifierImmortal -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>Mech_PurifierImmortal</defName>
+    <defName>PMP_PurifierImmortal</defName>
     <label>PurifierImmortal</label>
     <description>The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be  rapidly reassembled by reconstruction drones swarms.</description>
     <statBases>
@@ -582,7 +582,7 @@
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>Mech_PurifierImmortal</body>
+      <body>PMP_ImmortalBody</body>
       <mechWeightClass>Heavy</mechWeightClass>
       <baseBodySize>4</baseBodySize>
       <baseHealthScale>5.0</baseHealthScale>
@@ -617,10 +617,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>Mech_PurifierImmortal</defName>
+    <defName>PMP_PurifierImmortal</defName>
     <label>PurifierImmortal</label>
-    <race>Mech_PurifierImmortal</race>
-    <combatPower>225</combatPower>
+    <race>PMP_PurifierImmortal</race>
+    <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -651,7 +651,7 @@
       <WorkSpeedGlobal>4.2</WorkSpeedGlobal>
     </statBases>
     <race>
-      <body>Mech_Probe</body>
+      <body>PMP_ProbeBody</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
       <mechEnabledWorkTypes>

@@ -29,10 +29,10 @@
         <description>Gestate an Protoss Probe mechanoid.</description>
         <researchPrerequisite>ProtossEngineeringFundamentals</researchPrerequisite>
         <products>
-            <Mech_Probe>1</Mech_Probe>
+            <PMP_Probe>1</PMP_Probe>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_Probe</ThingDef>
+            <ThingDef>PMP_Probe</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -70,10 +70,10 @@
             </li>
         </ingredients>
         <products>
-            <Mech_colossus>1</Mech_colossus>
+            <PMP_ColossusPrototype>1</PMP_ColossusPrototype>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_colossus</ThingDef>
+            <ThingDef>PMP_ColossusPrototype</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -111,10 +111,10 @@
             </li>
         </ingredients>
         <products>
-            <Mech_Sentry>1</Mech_Sentry>
+            <PMP_Sentry>1</PMP_Sentry>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_Sentry</ThingDef>
+            <ThingDef>PMP_Sentry</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -155,10 +155,10 @@
             </li>
         </ingredients>
         <products>
-            <Mech_Energizer>1</Mech_Energizer>
+            <PMP_Energizer>1</PMP_Energizer>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_Energizer</ThingDef>
+            <ThingDef>PMP_Energizer</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -191,10 +191,10 @@
             </li>
         </ingredients>
         <products>
-            <Mech_Legionnaire>1</Mech_Legionnaire>
+            <PMP_Legionnaire>1</PMP_Legionnaire>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_Legionnaire</ThingDef>
+            <ThingDef>PMP_Legionnaire</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -227,10 +227,10 @@
             </li>
         </ingredients>
         <products>
-            <Mech_Sentinel>1</Mech_Sentinel>
+            <PMP_Sentinel>1</PMP_Sentinel>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_Sentinel</ThingDef>
+            <ThingDef>PMP_Sentinel</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -271,10 +271,10 @@
             </li>
         </ingredients>
         <products>
-            <Mech_PurifierImmortal>1</Mech_PurifierImmortal>
+            <PMP_PurifierImmortal>1</PMP_PurifierImmortal>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>Mech_PurifierImmortal</ThingDef>
+            <ThingDef>PMP_PurifierImmortal</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -304,10 +304,10 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Corpse_Mech_Probe</li>
-                <li>Corpse_Mech_Sentry</li>
-                <li>Corpse_Mech_Sentinel</li>
-                <li>Corpse_Mech_Energizer</li>
+                <li>Corpse_PMP_Probe</li>
+                <li>Corpse_PMP_Sentry</li>
+                <li>Corpse_PMP_Sentinel</li>
+                <li>Corpse_PMP_Energizer</li>
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>
@@ -336,9 +336,9 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Corpse_Mech_Legionnaire</li>
-                <li>Corpse_Mech_PurifierImmortal</li>
-                <li>Corpse_Mech_colossus</li>
+                <li>Corpse_PMP_Legionnaire</li>
+                <li>Corpse_PMP_PurifierImmortal</li>
+                <li>Corpse_PMP_ColossusPrototype</li>
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>
