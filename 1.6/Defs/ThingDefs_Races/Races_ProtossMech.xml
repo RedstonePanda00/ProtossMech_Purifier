@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="ProtossMechanoid" ParentName="BaseMechanoid" Abstract="True">
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MoveSpeed>5</MoveSpeed>
+      <ControlTakingTime>30</ControlTakingTime>
+      <BandwidthCost>1</BandwidthCost>
+      <MechEnergyUsageFactor>0</MechEnergyUsageFactor>
+      <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
+      <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+      <MechEnergyLossPerHP>0.5</MechEnergyLossPerHP>
+      <WastepacksPerRecharge>0</WastepacksPerRecharge>
+      <EMPResistance>1.0</EMPResistance>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>Mechanoid</thinkTreeMain>
+      <baseBodySize>1</baseBodySize>
+      <mechWeightClass>Light</mechWeightClass>
+    </race>
+    <butcherProducts>
+      <Plasteel>25</Plasteel>
+    </butcherProducts>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
+      <li Class="ModExtention.CompProperties_DisableFeral" />
+    </comps>
+
+  </ThingDef>
+
+  <PawnKindDef Name="ProtossMechanoidKind" ParentName="BaseMechanoidKind" Abstract="True">
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <weaponMoney>9999~9999</weaponMoney>
+    <combatPower>42</combatPower>
+    <weaponTags></weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <controlGroupPortraitZoom>1.8</controlGroupPortraitZoom>
+    <allowInMechClusters>false</allowInMechClusters>
+  </PawnKindDef>
+
+  <PawnKindDef Name="NonCombatProtossMechanoidKind" ParentName="ProtossMechanoidKind" Abstract="True">
+    <isFighter>false</isFighter>
+  </PawnKindDef>
+
+  <!-- Probe -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Probe</defName>
+    <label>Probe</label>
+    <description>The tiny Probe was designed by the Khalai to lay the foundation for Protoss colonies on hostile worlds where living workers would be at too great a risk. Probes are responsible for harvesting the minerals and vespene gas that we need to fuel our industry. They also produce and plant the warp-beacons that allow us to teleport our buildings from Aiur to distant planets.</description>
+    <statBases>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>2.0</baseHealthScale>
+      <mechEnabledWorkTypes>
+        <li>Construction</li>
+        <li>Mining</li>
+        <li>Hauling</li>
+        <li>Crafting</li>
+        <li>Smithing</li>
+        <li>Research</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>torso</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1</cooldownTime>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+      <li>
+        <label>right hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>20</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+
+      <li Class="ModExtention.CompProperties_AutoTransform">
+        <checkInterval>300</checkInterval>
+        <DetectList>
+          <li>PMP_Probe</li>
+          <li>PMP_ColossusPrototype</li>
+          <li>PMP_Sentry</li>
+          <li>PMP_Energizer</li>
+          <li>PMP_Legionnaire</li>
+          <li>PMP_Sentinel</li>
+          <li>PMP_PurifierImmortal</li>
+        </DetectList>
+        <targetDef>Persona_Probius</targetDef>
+      </li>
+
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
+    <defName>PMP_Probe</defName>
+    <label>Probe</label>
+    <race>PMP_Probe</race>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <!-- <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass> -->
+          <texPath>Things/Pawn/Mechanoid/Probe</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <!-- <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>Gun_AssaultRifle</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney> -->
+  </PawnKindDef>
+
+  <!-- colossus -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_ColossusPrototype</defName>
+    <label>colossus</label>
+    <description>As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse.</description>
+    <statBases>
+      <MoveSpeed>8</MoveSpeed>
+      <BandwidthCost>6</BandwidthCost>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ColossusBody</body>
+      <mechWeightClass>UltraHeavy</mechWeightClass>
+      <baseBodySize>5</baseBodySize>
+      <baseHealthScale>10.0</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Apocriton_Wounded</soundWounded>
+          <soundAngry>Pawn_Mech_Apocriton_Call</soundAngry>
+          <soundDeath>Pawn_Mech_Apocriton_Death</soundDeath>
+          <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <butcherProducts>
+      <NeutronMaterial>150</NeutronMaterial>
+    </butcherProducts>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>200</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>5</maxDrawSize>
+        <!-- <HardenedShields>true</HardenedShields> -->
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>3600</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_ColossusPrototype</defName>
+    <label>colossus</label>
+    <race>PMP_ColossusPrototype</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/colossus</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>5.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>ThermalLances</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <skipResistant>true</skipResistant>
+  </PawnKindDef>
+
+  <!-- Sentry -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Sentry</defName>
+    <label>Sentry</label>
+    <description>The sentry is modified from the probe and is equipped with force field projectors and shield generators, which are essential support forces on the battlefield.</description>
+    <statBases>
+      <BandwidthCost>2</BandwidthCost>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li>Cleaning</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>2.0</baseHealthScale>
+    </race>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>40</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_Sentry</defName>
+    <label>Sentry</label>
+    <race>PMP_Sentry</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Sentry</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <!-- <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>Gun_AssaultRifle</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney> -->
+    <abilities>
+      <li>MechForceFieldWall</li>
+      <li>MechGuardianShield</li>
+    </abilities>
+  </PawnKindDef>
+
+  <!-- Energizer -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Energizer</defName>
+    <label>Energizer</label>
+    <description>The Energizer is a modified version of the Sentry, with its force field projector modified into a small time bubble projector that significantly speeds up the relative flow of time for affected units.</description>
+    <statBases>
+      <BandwidthCost>2</BandwidthCost>
+      <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li>Cleaning</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>3.0</baseHealthScale>
+    </race>
+    <butcherProducts>
+      <NeutronMaterial>25</NeutronMaterial>
+    </butcherProducts>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>40</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>3600</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_Energizer</defName>
+    <label>Energizer</label>
+    <race>PMP_Energizer</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Energizer</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <!-- <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>Gun_AssaultRifle</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney> -->
+    <abilities>
+      <li>MechChronoBeam</li>
+      <li>MechGuardianShield</li>
+    </abilities>
+  </PawnKindDef>
+
+  <!-- Legionnaire -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Legionnaire</defName>
+    <label>Legionnaire</label>
+    <description>Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars.</description>
+    <statBases>
+      <BandwidthCost>3</BandwidthCost>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <MoveSpeed>6.5</MoveSpeed>
+    </statBases>
+    <race>
+      <body>PMP_HumanoidBody</body>
+      <baseBodySize>2</baseBodySize>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li>Cleaning</li>
+        <li>Hunting</li>
+      </mechEnabledWorkTypes>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>2.5</baseHealthScale>
+    </race>
+    <butcherProducts>
+      <NeutronMaterial>100</NeutronMaterial>
+    </butcherProducts>
+
+    <tools>
+      <li>
+        <label>left Energy Blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.0</cooldownTime>
+        <armorPenetration>1.5</armorPenetration>
+      </li>
+      <li>
+        <label>right Energy Blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.0</cooldownTime>
+        <armorPenetration>1.5</armorPenetration>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>100</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>3600</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_Legionnaire</defName>
+    <label>Legionnaire</label>
+    <race>PMP_Legionnaire</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Legionnaire</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>LegionnaireJump</li>
+      <li>MechCharge</li>
+    </abilities>
+  </PawnKindDef>
+
+  <!-- Sentinel -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Sentinel</defName>
+    <label>Sentinel</label>
+    <description>The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones.</description>
+    <statBases>
+      <BandwidthCost>2</BandwidthCost>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+      <MoveSpeed>6.0</MoveSpeed>
+    </statBases>
+    <race>
+      <body>PMP_HumanoidBody</body>
+      <baseBodySize>1</baseBodySize>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li>Cleaning</li>
+        <li>Hunting</li>
+      </mechEnabledWorkTypes>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>1.0</baseHealthScale>
+    </race>
+    <butcherProducts>
+      <Plasteel>25</Plasteel>
+    </butcherProducts>
+
+    <tools>
+      <li>
+        <label>left Energy Blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.0</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
+      </li>
+      <li>
+        <label>right Energy Blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.0</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>50</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>3600</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_Sentinel</defName>
+    <label>Sentinel</label>
+    <race>PMP_Sentinel</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Sentinel</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>MechCharge</li>
+    </abilities>
+  </PawnKindDef>
+
+  <!-- PurifierImmortal -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_PurifierImmortal</defName>
+    <label>PurifierImmortal</label>
+    <description>The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be  rapidly reassembled by reconstruction drones swarms.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <BandwidthCost>4</BandwidthCost>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ImmortalBody</body>
+      <mechWeightClass>Heavy</mechWeightClass>
+      <baseBodySize>4</baseBodySize>
+      <baseHealthScale>5.0</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Apocriton_Wounded</soundWounded>
+          <soundAngry>Pawn_Mech_Apocriton_Call</soundAngry>
+          <soundDeath>Pawn_Mech_Apocriton_Death</soundDeath>
+          <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <butcherProducts>
+      <NeutronMaterial>125</NeutronMaterial>
+    </butcherProducts>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>300</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>3</maxDrawSize>
+        <HardenedShields>true</HardenedShields>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>3600</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_PurifierImmortal</defName>
+    <label>PurifierImmortal</label>
+    <race>PMP_PurifierImmortal</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/PurifierImmortal</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>3.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>Gun_PhaseCannon</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <skipResistant>true</skipResistant>
+  </PawnKindDef>
+
+  <!-- Probius -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>Persona_Probius</defName>
+    <label>Probius</label>
+    <description>Persona Hero Probius, he is ready for a new advanture.</description>
+    <statBases>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <WorkSpeedGlobal>4.2</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>10.0</baseHealthScale>
+      <mechEnabledWorkTypes>
+        <li>Construction</li>
+        <li>Mining</li>
+        <li>Hauling</li>
+        <li>Crafting</li>
+        <li>Smithing</li>
+        <li>Research</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>torso</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1</cooldownTime>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+      <li>
+        <label>right hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>200</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+        <HardenedShields>false</HardenedShields>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>42</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
+    <defName>Persona_Probius</defName>
+    <label>Probius</label>
+    <race>Persona_Probius</race>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Probius</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>MechCharge</li>
+      <li>Warp_Pylon</li>
+      <li>Warp_Photon</li>
+      <li>OverchargeAllPylons</li>
+    </abilities>
+  </PawnKindDef>
+
+</Defs>

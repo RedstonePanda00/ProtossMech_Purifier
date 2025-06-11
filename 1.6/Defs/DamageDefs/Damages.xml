@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DamageDef>
+        <defName>AntiArmorShock</defName>
+        <label>anti-armor shock</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <deathMessage>{0} has died from shock.</deathMessage>
+        <externalViolence>false</externalViolence>
+        <hediff>ElectricalBurn</hediff>
+        <explosionColorCenter>(0.26, 0.51, 0.97)</explosionColorCenter>
+        <explosionColorEdge>(0.26, 0.51, 0.97)</explosionColorEdge>
+        <armorCategory></armorCategory>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <defaultDamage>100</defaultDamage>
+        <impactSoundType>Bullet</impactSoundType>
+    </DamageDef>
+</Defs>

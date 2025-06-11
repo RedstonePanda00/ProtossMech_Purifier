@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>ForceFieldWall</defName>
+        <label>force-field wall</label>
+        <graphicData>
+            <texPath>Things/Structure/ForceField</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>1.0</fillPercent>
+        <coversFloor>false</coversFloor>
+        <holdsRoof>true</holdsRoof>
+        <selectable>true</selectable>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>300</delayTicks>
+                <displayCountdownOnLabel>true</displayCountdownOnLabel>
+                <destroyMode>Vanish</destroyMode>
+            </li>
+        </comps>
+        <building>
+            <isEdifice>true</isEdifice>
+            <claimable>false</claimable>
+            <ai_chillDestination>false</ai_chillDestination>
+            <deconstructible>false</deconstructible>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>GuardianShieldUnit</defName>
+        <label>Guardian Shield</label>
+        <description>Guardian Shield Unit.</description>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <pathCost>0</pathCost>
+        <passability>Standable</passability>
+        <fillPercent>0.35</fillPercent>
+        <graphicData>
+            <texPath>Things/Building/Security/BroadshieldProjector</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.1</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <killedLeavings/>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <repairEffect>ConstructMetal</repairEffect>
+        <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+        <building>
+            <claimable>false</claimable>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+            <ai_chillDestination>false</ai_chillDestination>
+            <isEdifice>false</isEdifice>
+            <destroyEffecter>Broadshield_Burnout</destroyEffecter>
+        </building>
+        <comps>
+            <li Class="ProtossMech.CompProperties_FollowPawn" />
+            <li Class="CompProperties_ProjectileInterceptor">
+                <radius>4.9</radius>
+                <interceptGroundProjectiles>true</interceptGroundProjectiles>
+                <interceptNonHostileProjectiles>true</interceptNonHostileProjectiles>
+                <interceptOutgoingProjectiles>false</interceptOutgoingProjectiles>
+                <color>(0.6, 0.6, 0.8)</color>
+                <idlePulseSpeed>3</idlePulseSpeed>
+                <minIdleAlpha>0.05</minIdleAlpha>
+                <disarmedByEmpForTicks>600</disarmedByEmpForTicks>
+                <activeSound>Broadshield_Ambience</activeSound>
+            </li>
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>600</delayTicks>
+                <destroyMode>KillFinalize</destroyMode>
+                <countdownLabel>Burnout in</countdownLabel>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>WarpBeacon_Pylon</defName>
+        <label>Warp Beacon Pylon</label>
+        <graphicData>
+            <texPath>Things/Structure/WarpBeacon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.0, 2.0)</drawSize>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0</fillPercent>
+        <selectable>true</selectable>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <size>(2,2)</size>
+        <comps>
+            <li Class="ModExtention.CompProperties_TransformAfterTick">
+                <tick>300</tick>
+                <defName>Pylon</defName>
+                <countdownLabel>Will Warp in</countdownLabel>
+                <displayCountdownOnLabel>true</displayCountdownOnLabel>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>WarpBeacon_Photon</defName>
+        <label>Warp Beacon Photon</label>
+        <graphicData>
+            <texPath>Things/Structure/WarpBeacon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.0, 2.0)</drawSize>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0</fillPercent>
+        <selectable>true</selectable>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <size>(2,2)</size>
+        <comps>
+            <li Class="ModExtention.CompProperties_TransformAfterTick">
+                <tick>300</tick>
+                <defName>Photon_Cannon</defName>
+                <countdownLabel>Will Warp in</countdownLabel>
+                <displayCountdownOnLabel>true</displayCountdownOnLabel>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>Pylon_OverCharged</defName>
+        <label>Overcharged Pylon</label>
+        <thingClass>Building_TurretGun</thingClass>
+        <graphicData>
+            <texPath>Things/Structure/OverChargePylon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.0, 2.0)</drawSize>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0</fillPercent>
+        <selectable>true</selectable>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Flammability>0</Flammability>
+            <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+        </statBases>
+        <size>(2,2)</size>
+        <comps>
+            <li Class="ModExtention.CompProperties_TransformAfterTick">
+                <tick>3000</tick>
+                <defName>Pylon</defName>
+                <countdownLabel>Overcharge Will end in</countdownLabel>
+                <displayCountdownOnLabel>true</displayCountdownOnLabel>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlant</compClass>
+                <basePowerConsumption>-100000</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Glower">
+                <overlightRadius>20</overlightRadius>
+                <glowRadius>20</glowRadius>
+                <glowColor>(370,370,370,0)</glowColor>
+            </li>
+        </comps>
+        <building>
+            <turretGunDef>Gun_OverchargePylon</turretGunDef>
+            <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>Gun_OverchargePylon</defName>
+        <label>OverCharged Pylon Gun</label>
+        <description>This Pylon is overcharged.</description>
+        <graphicData>
+            <texPath>Things/Structure/OCP_Ele</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>1.00</AccuracyTouch>
+            <AccuracyShort>1.00</AccuracyShort>
+            <AccuracyMedium>1.00</AccuracyMedium>
+            <AccuracyLong>1.00</AccuracyLong>
+            <RangedWeapon_Cooldown>0.33</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Mass>40</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <defaultProjectile>Bullet_PhotonCannon</defaultProjectile>
+                <warmupTime>0</warmupTime>
+                <minRange>0</minRange>
+                <range>72</range>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Shot_Autocannon</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+                <consumeFuelPerShot>0</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+
+</Defs>

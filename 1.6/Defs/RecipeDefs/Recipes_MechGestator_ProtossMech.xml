@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef Name="ProtossMechanoidRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
+        <gestationCycles>2</gestationCycles>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+    </RecipeDef>
+
+    <!-- Probe -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Probe</defName>
+        <label>gestate Protoss Probe mech</label>
+        <description>Gestate an Protoss Probe mechanoid.</description>
+        <researchPrerequisite>ProtossEngineeringFundamentals</researchPrerequisite>
+        <products>
+            <PMP_Probe>1</PMP_Probe>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Probe</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Colossus -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Colossus</defName>
+        <label>gestate Protoss colossus mech</label>
+        <description>Gestate an Protoss colossus mechanoid.</description>
+        <gestationCycles>8</gestationCycles>
+        <researchPrerequisite>EclipseAndApocalypse</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>NeutronMaterial</li>
+                    </thingDefs>
+                </filter>
+                <count>300</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FuelTypeG</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_ColossusPrototype>1</PMP_ColossusPrototype>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_ColossusPrototype</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Sentry -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Sentry</defName>
+        <label>gestate Protoss Sentry mech</label>
+        <description>Gestate an Protoss Sentry mechanoid.</description>
+        <gestationCycles>3</gestationCycles>
+        <researchPrerequisite>KhalaiForge</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FuelTypeG</li>
+                    </thingDefs>
+                </filter>
+                <count>75</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Sentry>1</PMP_Sentry>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Sentry</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Energizer -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Energizer</defName>
+        <label>gestate Protoss Energizer mech</label>
+        <description>Gestate an Protoss Energizer mechanoid.</description>
+        <gestationCycles>3</gestationCycles>
+        <researchPrerequisites>
+            <li>KhalaiForge</li>
+            <li>SyntheticPersonalityMatrix</li>
+        </researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>NeutronMaterial</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FuelTypeG</li>
+                    </thingDefs>
+                </filter>
+                <count>75</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Energizer>1</PMP_Energizer>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Energizer</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Legionnaire -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Legionnaire</defName>
+        <label>gestate Protoss Legionnaire mech</label>
+        <description>Gestate an Protoss Legionnaire mechanoid.</description>
+        <gestationCycles>4</gestationCycles>
+        <researchPrerequisites>
+            <li>KhalaiForge</li>
+            <li>PurifierProject</li>
+        </researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>NeutronMaterial</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Legionnaire>1</PMP_Legionnaire>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Legionnaire</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Sentinel -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Sentinel</defName>
+        <label>gestate Protoss Sentinel mech</label>
+        <description>Gestate an Protoss Sentinel mechanoid.</description>
+        <gestationCycles>2</gestationCycles>
+        <researchPrerequisites>
+            <li>KhalaiForge</li>
+            <li>SyntheticPersonalityMatrix</li>
+        </researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>150</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Sentinel>1</PMP_Sentinel>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Sentinel</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- PurifierImmortal -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PurifierImmortal</defName>
+        <label>gestate Protoss PurifierImmortal mech</label>
+        <description>Gestate an Protoss PurifierImmortal mechanoid.</description>
+        <gestationCycles>4</gestationCycles>
+        <researchPrerequisites>
+            <li>KhalaiForge</li>
+            <li>PurifierProject</li>
+        </researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>NeutronMaterial</li>
+                    </thingDefs>
+                </filter>
+                <count>250</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FuelTypeG</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_PurifierImmortal>1</PMP_PurifierImmortal>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_PurifierImmortal</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Resurrection -->
+
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>ResurrectProtossMechLight</defName>
+        <label>resurrect Light Protoss mechanoid</label>
+        <description>Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_PMP_Probe</li>
+                <li>Corpse_PMP_Sentry</li>
+                <li>Corpse_PMP_Sentinel</li>
+                <li>Corpse_PMP_Energizer</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>ResurrectPurifierMechHeavy</defName>
+        <label>resurrect Purifier Protoss mechanoid</label>
+        <description>Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FuelTypeG</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_PMP_Legionnaire</li>
+                <li>Corpse_PMP_PurifierImmortal</li>
+                <li>Corpse_PMP_ColossusPrototype</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+</Defs>
