@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.ShieldStatus.Title>星灵护盾</ProtossMech.ShieldStatus.Title>
+  <ProtossMech.ShieldStatus.Value>{0} / {1}</ProtossMech.ShieldStatus.Value>
+
+</LanguageData>

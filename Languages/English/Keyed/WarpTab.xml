@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.InfoText>{0} @ {1}</ProtossMech.InfoText>
+  <ProtossMech.WarpButton>Warp</ProtossMech.WarpButton>
+  <ProtossMech.WarpSuccess>{0} warp succeed.</ProtossMech.WarpSuccess>
+  <ProtossMech.EnergyFieldRequired>You must place it in the energy field.</ProtossMech.EnergyFieldRequired>
+
+</LanguageData>

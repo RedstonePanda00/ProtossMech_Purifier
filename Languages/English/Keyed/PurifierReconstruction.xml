@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.Ability.Reconstruction.Label>Reconstruction</ProtossMech.Ability.Reconstruction.Label>
+  <ProtossMech.Ability.Reconstruction.Description>Activate Reconstruction Now. Fully restores the mechanoid's health and removes all injuries.</ProtossMech.Ability.Reconstruction.Description>
+  <ProtossMech.Ability.Reconstruction.NotReady>Reconstruction is not ready.</ProtossMech.Ability.Reconstruction.NotReady>
+  <ProtossMech.Ability.Reconstruction.Cooldown>Reconstruction Cooldown: {0}</ProtossMech.Ability.Reconstruction.Cooldown>
+
+</LanguageData>

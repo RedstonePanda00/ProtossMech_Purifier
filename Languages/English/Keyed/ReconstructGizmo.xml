@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.Purifier.Title>Reconstruct</ProtossMech.Purifier.Title>
+  <ProtossMech.Purifier.CooldownText>{0} seconds remaining</ProtossMech.Purifier.CooldownText>
+  <ProtossMech.Purifier.ReadyText>Ready</ProtossMech.Purifier.ReadyText>
+
+</LanguageData>

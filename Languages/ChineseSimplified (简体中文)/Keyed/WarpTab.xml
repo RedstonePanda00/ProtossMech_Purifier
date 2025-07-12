@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.InfoText>{0} @ {1}</ProtossMech.InfoText>
+  <ProtossMech.WarpButton>传送</ProtossMech.WarpButton>
+  <ProtossMech.WarpSuccess>{0} 传送成功。</ProtossMech.WarpSuccess>
+  <ProtossMech.EnergyFieldRequired>你必须将它放置在能量场内。</ProtossMech.EnergyFieldRequired>
+
+</LanguageData>

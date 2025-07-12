@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.Ability.Reconstruction.Label>重构</ProtossMech.Ability.Reconstruction.Label>
+  <ProtossMech.Ability.Reconstruction.Description>立即启动重构。完全恢复机械体的生命值并移除所有伤势。</ProtossMech.Ability.Reconstruction.Description>
+  <ProtossMech.Ability.Reconstruction.NotReady>重构尚未就绪。</ProtossMech.Ability.Reconstruction.NotReady>
+  <ProtossMech.Ability.Reconstruction.Cooldown>重构冷却中：{0}</ProtossMech.Ability.Reconstruction.Cooldown>
+
+</LanguageData>

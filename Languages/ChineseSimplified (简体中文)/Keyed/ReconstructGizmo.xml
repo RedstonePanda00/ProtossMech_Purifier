@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.Purifier.Title>重构</ProtossMech.Purifier.Title>
+  <ProtossMech.Purifier.CooldownText>剩余 {0} 秒</ProtossMech.Purifier.CooldownText>
+  <ProtossMech.Purifier.ReadyText>就绪</ProtossMech.Purifier.ReadyText>
+
+</LanguageData>
