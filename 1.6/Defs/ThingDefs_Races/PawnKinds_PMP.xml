@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <PawnKindDef Name="MechanitorBase">
+        <defName>PMP_Khalai</defName>
+        <label>Khalai Mechanitor</label>
+        <race>Human</race>
+        <combatPower>50</combatPower>
+        <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Scientist</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <defaultFactionDef>PlayerColony</defaultFactionDef>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <apparelMoney>0~2500</apparelMoney>
+        <apparelTags>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_FlakVest</li>
+            <li>Apparel_Duster</li>
+            <li>Apparel_CollarShirt</li>
+            <li>Apparel_Pants</li>
+            <li>Apparel_AirwireHeadset</li>
+        </apparelRequired>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <techHediffsMoney>1000~2000</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
+        <techHediffsRequired>
+            <li>Mechlink</li>
+            <li>PsychicAmplifier</li>
+        </techHediffsRequired>
+        <initialWillRange>0</initialWillRange>
+        <initialResistanceRange>0~1</initialResistanceRange>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <PsychicSensitivity>2</PsychicSensitivity>
+            <TooSmart>0</TooSmart>
+            <DrugDesire>-1</DrugDesire>
+        </forcedTraits>
+        <disallowedTraits>
+            <li>BodyPurist</li>
+        </disallowedTraits>
+        <disallowedTraitsWithDegree>
+            <PsychicSensitivity>-1</PsychicSensitivity>
+            <PsychicSensitivity>-2</PsychicSensitivity>
+        </disallowedTraitsWithDegree>
+    </PawnKindDef>
+
+</Defs>

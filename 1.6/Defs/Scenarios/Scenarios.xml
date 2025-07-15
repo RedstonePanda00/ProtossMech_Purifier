@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>PMP_KhalaiMechanitor</defName>
+        <label>Khalai Mechanitor</label>
+        <description>You were an anomaly: the only human ever to study under a Protoss Khalai Master. He saw in you a unique spark, treating you as his prized pupil and personally guiding you through the advanced arts of psionic machinery.\n\n Upon finishing your training, you boarded a vessel to return to the gilded cities of your glitterworld home. The journey was cut tragically short. A catastrophic failure sent your ship plummeting into the gravity well of this forgotten rimworld.\n\n You awoke in the wreckage, not to the silence of the void, but to the soft, familiar hum of your most important companion. It is the very first Probe you ever constructed, a testament to your hard-won skills and a constant reminder of the life you left behind. Now, with your creation by your side, you must apply your unique knowledge to survive the harsh realities of this planet and, against all odds, engineer an escape.\n\n Accoring to the forcedTraits, its a challenge for your colonists' Mood control.</description>
+        <scenario>
+            <summary>One mechanitor and a fellow probe.</summary>
+            <parts>
+
+                <!-- Game start dialog -->
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>In your youth, you were the sole human apprentice to a Protoss Khalai Mechanitor. As his only student of your kind, he paid close attention to your training. After completing your studies, you decided to return to your home on a glitterworld, but your ship crashed en route. Now, you must survive on this forsaken rimworld with only your faithful Probe and find a way to escape.</text>
+                    <closeSound>GameStartSting</closeSound>
+                </li>
+
+                <!-- Config pages -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>4</pawnChoiceCount>
+                    <leftBehindPawnKind>Mechanitor</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>PMP_Khalai</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+
+                <!-- Player starting stuff spawn method-->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <visible>false</visible>
+                    <method>DropPods</method>
+                </li>
+
+                <!-- Starting research -->
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>KhalaiForge</project>
+                </li>
+
+                <!-- Starting mechs -->
+                <li Class="ScenPart_StartingMech">
+                    <def>StartingMech</def>
+                    <mechKind>PMP_FellowProbe</mechKind>
+                    <overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+                </li>
+
+                <!-- Player starting things -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>2000</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>40</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineUltratech</thingDef>
+                    <count>30</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>30</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_ChargeRifle</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Plasteel</thingDef>
+                    <count>150</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FuelTypeG</thingDef>
+                    <count>100</count>
+                </li>
+
+                <li Class="ScenPart_DisableMapGen">
+                    <def>DisableExostriderRemains</def>
+                </li>
+
+                <!-- Scatter some things near player start -->
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>Steel</thingDef>
+                    <count>450</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>300</count>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

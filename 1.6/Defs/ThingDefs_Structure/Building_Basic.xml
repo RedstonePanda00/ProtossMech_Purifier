@@ -5,7 +5,7 @@
         <defName>Pylon</defName>
         <label>Pylon</label>
         <thingClass>Building</thingClass>
-        <description>You must construct additional Pylon!</description>
+        <description>You must construct additional Pylon!\n\n Pylon power nearby divice based on their power consume.</description>
         <tickerType>Normal</tickerType>
         <drawerType>RealtimeOnly</drawerType>
         <graphicData>
@@ -39,11 +39,16 @@
             <li>ProtossEngineeringFundamentals</li>
         </researchPrerequisites>
         <comps>
-            <li Class="CompProperties_Power">
-                <compClass>CompPowerPlant</compClass>
-                <basePowerConsumption>-100000</basePowerConsumption>
+            <li Class="RimWorld.CompProperties_Power">
+                <compClass>ProtossMech.CompPowerPlant_Pylon</compClass>
                 <transmitsPower>true</transmitsPower>
+                <basePowerConsumption>-1</basePowerConsumption>
             </li>
+
+            <li Class="ProtossMech.CompProperties_ProtossPylon">
+                <radius>20.0</radius>
+            </li>
+            
             <li Class="CompProperties_Glower">
                 <overlightRadius>20</overlightRadius>
                 <glowRadius>20</glowRadius>

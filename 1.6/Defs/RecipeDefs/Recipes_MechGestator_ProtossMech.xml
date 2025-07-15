@@ -308,6 +308,7 @@
                 <li>Corpse_PMP_Sentry</li>
                 <li>Corpse_PMP_Sentinel</li>
                 <li>Corpse_PMP_Energizer</li>
+                <li>Corpse_PMP_FellowProbe</li>
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>
