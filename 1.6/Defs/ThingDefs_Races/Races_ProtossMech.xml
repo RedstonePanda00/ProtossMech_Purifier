@@ -175,7 +175,7 @@
   <!-- colossus -->
   <ThingDef ParentName="ProtossMechanoid">
     <defName>PMP_ColossusPrototype</defName>
-    <label>colossus</label>
+    <label>Purifier colossus</label>
     <description>As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse.</description>
     <statBases>
       <MoveSpeed>8</MoveSpeed>
@@ -220,7 +220,7 @@
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
     <defName>PMP_ColossusPrototype</defName>
-    <label>colossus</label>
+    <label>Purifier colossus</label>
     <race>PMP_ColossusPrototype</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
