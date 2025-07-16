@@ -19,7 +19,7 @@
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>4</pawnChoiceCount>
-                    <leftBehindPawnKind>Mechanitor</leftBehindPawnKind>
+                    <leftBehindPawnKind>PMP_Khalai</leftBehindPawnKind>
                     <kindCounts>
                         <li>
                             <kindDef>PMP_Khalai</kindDef>

@@ -451,6 +451,7 @@
         <cooldownTicks>3600</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
+      <li Class="ModExtention.CompProperties_EquippableMechanoid" />
     </comps>
   </ThingDef>
 
@@ -547,6 +548,7 @@
         <cooldownTicks>3600</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
+      <li Class="ModExtention.CompProperties_EquippableMechanoid" />
     </comps>
   </ThingDef>
 
@@ -747,6 +749,7 @@
     <statBases>
       <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <FoodPoisonChance>0.001</FoodPoisonChance>
     </statBases>
     <race>
       <body>PMP_ProbeBody</body>
@@ -827,7 +830,7 @@
       </li>
 
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
-        <cooldownTicks>420</cooldownTicks>
+        <cooldownTicks>4200</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
 
