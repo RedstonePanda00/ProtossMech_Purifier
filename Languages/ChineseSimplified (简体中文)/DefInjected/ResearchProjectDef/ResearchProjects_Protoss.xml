@@ -1,33 +1,118 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <ProtossEngineeringFundamentals.label>星灵工程学基础</ProtossEngineeringFundamentals.label>
-    <ProtossEngineeringFundamentals.description>研究星灵工程学基础。</ProtossEngineeringFundamentals.description>
-
-    <ThermonuclearFusion.label>热核聚变</ThermonuclearFusion.label>
-    <ThermonuclearFusion.description>研究热核聚变。</ThermonuclearFusion.description>
-
-    <PositronicAI.label>正电子人工智能</PositronicAI.label>
-    <PositronicAI.description>研究正电子人工智能。</PositronicAI.description>
-
-    <SyntheticPersonalityMatrix.label>合成人人格矩阵</SyntheticPersonalityMatrix.label>
-    <SyntheticPersonalityMatrix.description>研究合成人人格矩阵。</SyntheticPersonalityMatrix.description>
-
-    <PurifierProject.label>净化者计划</PurifierProject.label>
-    <PurifierProject.description>复原净化者计划。</PurifierProject.description>
-
-    <EclipseAndApocalypse.label>日食与启示录</EclipseAndApocalypse.label>
-    <EclipseAndApocalypse.description>令净化者们最强大的战争机器重见天日。</EclipseAndApocalypse.description>
-
-    <CivilianProtossMechanoid.label>民用星灵机械</CivilianProtossMechanoid.label>
-    <CivilianProtossMechanoid.description>研究民用星灵机械体。</CivilianProtossMechanoid.description>
-
-    <KhalaiForge.label>卡莱锻造技术</KhalaiForge.label>
-    <KhalaiForge.description>研究卡莱锻造技术。</KhalaiForge.description>
-
-    <NerazimForge.label>奈拉其姆锻造技术</NerazimForge.label>
-    <NerazimForge.description>研究奈拉其姆锻造技术。</NerazimForge.description>
-
-    <TaldarimForge.label>塔达利姆锻造技术</TaldarimForge.label>
-    <TaldarimForge.description>研究塔达利姆，千锤百炼者（从其他星灵那偷来的）的锻造技术。</TaldarimForge.description>
-
+  
+  <!-- EN: Civilian Protoss Mechanoid -->
+  <CivilianProtossMechanoid.label>民用星灵机械</CivilianProtossMechanoid.label>
+  <!-- EN: Research Civilian Protoss Mechanoid. -->
+  <CivilianProtossMechanoid.description>研究民用星灵机械体。</CivilianProtossMechanoid.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <CivilianProtossMechanoid.generalRules.rulesStrings>TODO</CivilianProtossMechanoid.generalRules.rulesStrings>
+  
+  <!-- EN: Eclipse and Apocalypse -->
+  <EclipseAndApocalypse.label>日食与启示录</EclipseAndApocalypse.label>
+  <!-- EN: Take the most powerful war machine back to world. -->
+  <EclipseAndApocalypse.description>令净化者们最强大的战争机器重见天日。</EclipseAndApocalypse.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <EclipseAndApocalypse.generalRules.rulesStrings>
+    <li>subject->正在研究星灵工程学.</li>
+    <li>subject_story->正在研究星灵工程学.</li>
+    <li>subject_gerund->正在研究星灵工程学.</li>
+  </EclipseAndApocalypse.generalRules.rulesStrings>
+  
+  <!-- EN: Khalai Forge -->
+  <KhalaiForge.label>卡莱锻造技术</KhalaiForge.label>
+  <!-- EN: Research Khalai Forge. -->
+  <KhalaiForge.description>研究卡莱锻造技术。</KhalaiForge.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <KhalaiForge.generalRules.rulesStrings>TODO</KhalaiForge.generalRules.rulesStrings>
+  
+  <!-- EN: Nerazim Forge -->
+  <NerazimForge.label>奈拉其姆锻造技术</NerazimForge.label>
+  <!-- EN: Research Nerazim Forge. -->
+  <NerazimForge.description>研究奈拉其姆锻造技术。</NerazimForge.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <NerazimForge.generalRules.rulesStrings>TODO</NerazimForge.generalRules.rulesStrings>
+  
+  <!-- EN: Positronic AI -->
+  <PositronicAI.label>正电子人工智能</PositronicAI.label>
+  <!-- EN: Research Positronic AI. -->
+  <PositronicAI.description>研究正电子人工智能。</PositronicAI.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <PositronicAI.generalRules.rulesStrings>TODO</PositronicAI.generalRules.rulesStrings>
+  
+  <!-- EN: Protoss Engineering Fundamentals -->
+  <ProtossEngineeringFundamentals.label>星灵工程学基础</ProtossEngineeringFundamentals.label>
+  <!-- EN: Research Protoss Engineering Fundamentals. -->
+  <ProtossEngineeringFundamentals.description>研究星灵工程学基础。</ProtossEngineeringFundamentals.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <ProtossEngineeringFundamentals.generalRules.rulesStrings>TODO</ProtossEngineeringFundamentals.generalRules.rulesStrings>
+  
+  <!-- EN: Purifier Project -->
+  <PurifierProject.label>净化者计划</PurifierProject.label>
+  <!-- EN: Research Purifier Project. -->
+  <PurifierProject.description>复原净化者计划。</PurifierProject.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <PurifierProject.generalRules.rulesStrings>TODO</PurifierProject.generalRules.rulesStrings>
+  
+  <!-- EN: Synthetic Personality Matrix -->
+  <SyntheticPersonalityMatrix.label>合成人人格矩阵</SyntheticPersonalityMatrix.label>
+  <!-- EN: Research Synthetic Personality Matrix. -->
+  <SyntheticPersonalityMatrix.description>研究合成人人格矩阵。</SyntheticPersonalityMatrix.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <SyntheticPersonalityMatrix.generalRules.rulesStrings>TODO</SyntheticPersonalityMatrix.generalRules.rulesStrings>
+  
+  <!-- EN: Tal'darim Forge -->
+  <TaldarimForge.label>塔达利姆锻造技术</TaldarimForge.label>
+  <!-- EN: Research Tal'darim Forge. -->
+  <TaldarimForge.description>研究塔达利姆，千锤百炼者（从其他星灵那偷来的）的锻造技术。</TaldarimForge.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <TaldarimForge.generalRules.rulesStrings>TODO</TaldarimForge.generalRules.rulesStrings>
+  
+  <!-- EN: thermonuclear fusion -->
+  <ThermonuclearFusion.label>热核聚变</ThermonuclearFusion.label>
+  <!-- EN: research thermonuclear fusion. -->
+  <ThermonuclearFusion.description>研究热核聚变。</ThermonuclearFusion.description>
+  <!-- EN:
+    <li>subject->research protoss engineering.</li>
+    <li>subject_story->research protoss engineering.</li>
+    <li>subject_gerund->research protoss engineering.</li>
+  -->
+  <ThermonuclearFusion.generalRules.rulesStrings>TODO</ThermonuclearFusion.generalRules.rulesStrings>
+  
 </LanguageData>

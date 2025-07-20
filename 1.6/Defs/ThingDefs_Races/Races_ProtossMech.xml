@@ -14,6 +14,7 @@
       <MechEnergyLossPerHP>0.5</MechEnergyLossPerHP>
       <WastepacksPerRecharge>0</WastepacksPerRecharge>
       <EMPResistance>1.0</EMPResistance>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
     </statBases>
     <race>
       <body>PMP_ProbeBody</body>
@@ -50,6 +51,7 @@
     <weaponMoney>9999~9999</weaponMoney>
     <combatPower>42</combatPower>
     <weaponTags></weaponTags>
+    <destroyGearOnDrop>false</destroyGearOnDrop>
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>9999~9999</techHediffsMoney>
     <controlGroupPortraitZoom>1.8</controlGroupPortraitZoom>
@@ -131,7 +133,7 @@
       </li>
 
       <li Class="ModExtention.CompProperties_AutoTransform">
-        <checkInterval>300</checkInterval>
+        <checkInterval>100</checkInterval>
         <DetectList>
           <li>PMP_Probe</li>
           <li>PMP_ColossusPrototype</li>
@@ -179,7 +181,7 @@
     <description>As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse.</description>
     <statBases>
       <MoveSpeed>8</MoveSpeed>
-      <BandwidthCost>6</BandwidthCost>
+      <BandwidthCost>8</BandwidthCost>
       <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
     </statBases>
@@ -187,7 +189,7 @@
       <body>PMP_ColossusBody</body>
       <mechWeightClass>UltraHeavy</mechWeightClass>
       <baseBodySize>5</baseBodySize>
-      <baseHealthScale>10.0</baseHealthScale>
+      <baseHealthScale>6.25</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -204,7 +206,7 @@
     </butcherProducts>
     <comps>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
-        <energyMax>200</energyMax>
+        <energyMax>100</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
@@ -410,7 +412,7 @@
           <soundCall>Pawn_Mech_Scyther_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseHealthScale>5.0</baseHealthScale>
     </race>
     <butcherProducts>
       <NeutronMaterial>100</NeutronMaterial>
@@ -507,7 +509,7 @@
           <soundCall>Pawn_Mech_Scyther_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>1.0</baseHealthScale>
+      <baseHealthScale>2.5</baseHealthScale>
     </race>
     <butcherProducts>
       <Plasteel>25</Plasteel>
@@ -640,6 +642,9 @@
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>9999~9999</techHediffsMoney>
     <skipResistant>true</skipResistant>
+    <abilities>
+      <li>PMP_RestoreShield</li>
+    </abilities>
   </PawnKindDef>
 
   <!-- Probius -->

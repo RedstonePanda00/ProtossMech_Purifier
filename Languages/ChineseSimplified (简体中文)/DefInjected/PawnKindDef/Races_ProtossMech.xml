@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Probius -->
+  <Persona_Probius.label>普罗比斯</Persona_Probius.label>
+  
+  <!-- EN: Purifier colossus -->
+  <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
+  
+  <!-- EN: Energizer -->
+  <PMP_Energizer.label>激励者</PMP_Energizer.label>
+  
+  <!-- EN: Fellow Probe -->
+  <PMP_FellowProbe.label>伙伴探机</PMP_FellowProbe.label>
+  
+  <!-- EN: Legionnaire -->
+  <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
+  
+  <!-- EN: Probe -->
+  <PMP_Probe.label>探机</PMP_Probe.label>
+  
+  <!-- EN: PurifierImmortal -->
+  <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
+  
+  <!-- EN: Sentinel -->
+  <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+  
+  <!-- EN: Sentry -->
+  <PMP_Sentry.label>机械哨兵</PMP_Sentry.label>
+  
+</LanguageData>

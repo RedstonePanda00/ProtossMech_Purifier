@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: craft at Protoss Forge -->
+  <ProtossForgeBill.label>制作于星灵锻炉</ProtossForgeBill.label>
+  <!-- EN: fabricating things at -->
+  <ProtossForgeBill.gerund>制作于</ProtossForgeBill.gerund>
+  <!-- EN: fabricate -->
+  <ProtossForgeBill.verb>制作</ProtossForgeBill.verb>
+  
+</LanguageData>

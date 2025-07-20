@@ -1,8 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <Gun_ThermalLances.label>热能射线枪</Gun_ThermalLances.label>
-    <Gun_ThermalLances.description>一对发射高能等离子束的射线枪，它的功率足够融化重型装甲并且汽化其中的有机体。</Gun_ThermalLances.description>
-
-    <Gun_PhaseCannon.label>相位穿震炮</Gun_PhaseCannon.label>
-    <Gun_PhaseCannon.description>一种能够扰乱盔甲原子结构的能量炮，构成材料的粒子之间的原子键越紧密，释放出来的能量对盔甲造成的伤害就越大。</Gun_PhaseCannon.description>
+  
+  <!-- EN: Phase Shock Cannon -->
+  <Gun_PhaseCannon.label>相位穿震炮</Gun_PhaseCannon.label>
+  <!-- EN: This energy cannon disrupts armor at the atomic level - the higher the alloy's atomic bond energy, the greater the destruction. -->
+  <Gun_PhaseCannon.description>一种能够扰乱盔甲原子结构的能量炮，构成材料的粒子之间的原子键越紧密，释放出来的能量对盔甲造成的伤害就越大。</Gun_PhaseCannon.description>
+  <!-- EN: barrel -->
+  <Gun_PhaseCannon.tools.barrel.label>枪管</Gun_PhaseCannon.tools.barrel.label>
+  <!-- EN: Phase Shock Cannon -->
+  <Gun_PhaseCannon.verbs.Verb_AntiArmor.label>相位穿震炮</Gun_PhaseCannon.verbs.Verb_AntiArmor.label>
+  
+  <!-- EN: Thermal Lances -->
+  <Gun_ThermalLances.label>热能射线枪</Gun_ThermalLances.label>
+  <!-- EN: A set of high-energy gamma ray lasers that emit a sweeping beam that can penetrate even the thickest armor and vaporize any organism within range, no matter how strong the armor they are wearing. -->
+  <Gun_ThermalLances.description>一对发射高能等离子束的射线枪，它的功率足够融化重型装甲并且汽化其中的有机体。</Gun_ThermalLances.description>
+  <!-- EN: barrel -->
+  <Gun_ThermalLances.tools.barrel.label>枪管</Gun_ThermalLances.tools.barrel.label>
+  <!-- EN: Thermal Lances -->
+  <Gun_ThermalLances.verbs.Verb_ShootMeltBeam.label>热能射线枪</Gun_ThermalLances.verbs.Verb_ShootMeltBeam.label>
+  
 </LanguageData>

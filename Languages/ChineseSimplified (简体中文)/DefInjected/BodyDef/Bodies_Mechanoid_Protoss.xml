@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Protoss colossus -->
+  <PMP_ColossusBody.label>星灵巨像</PMP_ColossusBody.label>
+  <!-- EN: left sight sensor -->
+  <PMP_ColossusBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>巨像左视觉传感器</PMP_ColossusBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <PMP_ColossusBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>巨像右视觉传感器</PMP_ColossusBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: hearing sensor -->
+  <PMP_ColossusBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>巨像引力场听觉传感器</PMP_ColossusBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>
+  <!-- EN: colossus joint front left -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_front_left.customLabel>巨像左前机械腿关节</PMP_ColossusBody.corePart.parts.colossus_joint_front_left.customLabel>
+  <!-- EN: colossus leg front left -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_front_left.parts.colossus_leg_front_left.customLabel>巨像左前机械昆虫足</PMP_ColossusBody.corePart.parts.colossus_joint_front_left.parts.colossus_leg_front_left.customLabel>
+  <!-- EN: colossus joint front right -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_front_right.customLabel>巨像右前机械腿关节</PMP_ColossusBody.corePart.parts.colossus_joint_front_right.customLabel>
+  <!-- EN: colossus leg front right -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_front_right.parts.colossus_leg_front_right.customLabel>巨像右前机械昆虫足</PMP_ColossusBody.corePart.parts.colossus_joint_front_right.parts.colossus_leg_front_right.customLabel>
+  <!-- EN: colossus joint left -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_left.customLabel>巨像左后机械腿关节</PMP_ColossusBody.corePart.parts.colossus_joint_left.customLabel>
+  <!-- EN: colossus leg left -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_left.parts.colossus_leg_left.customLabel>巨像左后机械昆虫足</PMP_ColossusBody.corePart.parts.colossus_joint_left.parts.colossus_leg_left.customLabel>
+  <!-- EN: colossus joint right -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_right.customLabel>巨像右后机械腿关节</PMP_ColossusBody.corePart.parts.colossus_joint_right.customLabel>
+  <!-- EN: colossus leg right -->
+  <PMP_ColossusBody.corePart.parts.colossus_joint_right.parts.colossus_leg_right.customLabel>巨像右后机械昆虫足</PMP_ColossusBody.corePart.parts.colossus_joint_right.parts.colossus_leg_right.customLabel>
+  
+  <!-- EN: Protoss Legionnaire -->
+  <PMP_HumanoidBody.label>军团士兵</PMP_HumanoidBody.label>
+  <!-- EN: left sight sensor -->
+  <PMP_HumanoidBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>左赛博眼</PMP_HumanoidBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <PMP_HumanoidBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>右赛博眼</PMP_HumanoidBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: hearing sensor -->
+  <PMP_HumanoidBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>赛博耳</PMP_HumanoidBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>
+  <!-- EN: left mechanical shoulder -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.customLabel>左仿生肩</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.customLabel>左仿生臂</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left hand -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.customLabel>左仿生手</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左机械小指</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左机械中指</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左机械食指</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左机械拇指</PMP_HumanoidBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right mechanical shoulder -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.customLabel>右仿生肩</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>右仿生臂</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right hand -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>右仿生手</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右机械小指</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右机械中指</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右机械食指</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右机械拇指</PMP_HumanoidBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <PMP_HumanoidBody.corePart.parts.left_leg.customLabel>左赛博腿</PMP_HumanoidBody.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <PMP_HumanoidBody.corePart.parts.left_leg.parts.left_foot.customLabel>左赛博足</PMP_HumanoidBody.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <PMP_HumanoidBody.corePart.parts.right_leg.customLabel>右赛博腿</PMP_HumanoidBody.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <PMP_HumanoidBody.corePart.parts.right_leg.parts.right_foot.customLabel>右赛博足</PMP_HumanoidBody.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+  <!-- EN: Protoss Purifier Immortal -->
+  <PMP_ImmortalBody.label>星灵净化者不朽者</PMP_ImmortalBody.label>
+  <!-- EN: left sight sensor -->
+  <PMP_ImmortalBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>不朽者左视觉传感器</PMP_ImmortalBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <PMP_ImmortalBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>不朽者右视觉传感器</PMP_ImmortalBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: hearing sensor -->
+  <PMP_ImmortalBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>不朽者引力场听觉传感器</PMP_ImmortalBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>
+  <!-- EN: PurifierImmortal joint front left -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_left.customLabel>不朽者左前机械腿关节</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_left.customLabel>
+  <!-- EN: PurifierImmortal leg front left -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_left.parts.PurifierImmortal_leg_front_left.customLabel>不朽者左前机械足</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_left.parts.PurifierImmortal_leg_front_left.customLabel>
+  <!-- EN: PurifierImmortal joint front right -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_right.customLabel>不朽者右前机械腿关节</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_right.customLabel>
+  <!-- EN: PurifierImmortal leg front right -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_right.parts.PurifierImmortal_leg_front_right.customLabel>不朽者右前机械足</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_front_right.parts.PurifierImmortal_leg_front_right.customLabel>
+  <!-- EN: PurifierImmortal joint left -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_left.customLabel>不朽者左后机械腿关节</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_left.customLabel>
+  <!-- EN: PurifierImmortal leg left -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_left.parts.PurifierImmortal_leg_left.customLabel>不朽者左后机械足</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_left.parts.PurifierImmortal_leg_left.customLabel>
+  <!-- EN: PurifierImmortal joint right -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_right.customLabel>不朽者右后机械腿关节</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_right.customLabel>
+  <!-- EN: PurifierImmortal leg right -->
+  <PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_right.parts.PurifierImmortal_leg_right.customLabel>不朽者右后机械足</PMP_ImmortalBody.corePart.parts.PurifierImmortal_joint_right.parts.PurifierImmortal_leg_right.customLabel>
+  
+  <!-- EN: Protoss Probe -->
+  <PMP_ProbeBody.label>星灵探机</PMP_ProbeBody.label>
+  <!-- EN: sight sensor -->
+  <PMP_ProbeBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.sight_sensor.customLabel>探机视觉传感器</PMP_ProbeBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.sight_sensor.customLabel>
+  <!-- EN: hearing sensor -->
+  <PMP_ProbeBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>探机引力场听觉传感器</PMP_ProbeBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.hearing_sensor.customLabel>
+  <!-- EN: left hand -->
+  <PMP_ProbeBody.corePart.parts.left_hand.customLabel>左探机机械手</PMP_ProbeBody.corePart.parts.left_hand.customLabel>
+  <!-- EN: right hand -->
+  <PMP_ProbeBody.corePart.parts.right_hand.customLabel>右探机机械手</PMP_ProbeBody.corePart.parts.right_hand.customLabel>
+  <!-- EN: Floating Unit -->
+  <PMP_ProbeBody.corePart.parts.Floating_Unit.customLabel>小型悬浮单位</PMP_ProbeBody.corePart.parts.Floating_Unit.customLabel>
+  <!-- EN: Anti Gravity Core -->
+  <PMP_ProbeBody.corePart.parts.Floating_Unit.parts.Anti_Gravity_Core.customLabel>小型反重力核心</PMP_ProbeBody.corePart.parts.Floating_Unit.parts.Anti_Gravity_Core.customLabel>
+  
+</LanguageData>

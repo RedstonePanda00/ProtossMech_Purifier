@@ -20,7 +20,7 @@
       <AccuracyShort>2.00</AccuracyShort>
       <AccuracyMedium>2.00</AccuracyMedium>
       <AccuracyLong>2.00</AccuracyLong>
-      <RangedWeapon_Cooldown>0.01</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-53</equippedAngleOffset>
     <verbs>

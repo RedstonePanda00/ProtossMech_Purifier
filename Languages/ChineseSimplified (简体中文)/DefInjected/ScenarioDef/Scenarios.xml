@@ -1,12 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <PMP_KhalaiMechanitor.scenario.name>卡莱机械师</PMP_KhalaiMechanitor.scenario.name>
   
+  <!-- EN: Khalai Mechanitor -->
+  <PMP_KhalaiMechanitor.label>卡莱机械师</PMP_KhalaiMechanitor.label>
+  <!-- EN: You were an anomaly: the only human ever to study under a Protoss Khalai Master. He saw in you a unique spark, treating you as his prized pupil and personally guiding you through the advanced arts of psionic machinery.\n\n Upon finishing your training, you boarded a vessel to return to the gilded cities of your glitterworld home. The journey was cut tragically short. A catastrophic failure sent your ship plummeting into the gravity well of this forgotten rimworld.\n\n You awoke in the wreckage, not to the silence of the void, but to the soft, familiar hum of your most important companion. It is the very first Probe you ever constructed, a testament to your hard-won skills and a constant reminder of the life you left behind. Now, with your creation by your side, you must apply your unique knowledge to survive the harsh realities of this planet and, against all odds, engineer an escape.\n\n Accoring to the forcedTraits, its a challenge for your colonists' Mood control. -->
+  <PMP_KhalaiMechanitor.description>你是一个特例：有史以来唯一在星灵卡莱大师门下学习的人类。他在你身上看到了一种独特的火花，将你视为他最珍视的学生，并亲自引导你学习灵能机械的深奥技艺。\n\n学成之后，你登上一艘飞船，准备返回你那位于闪耀世界的宏伟家园。然而，旅途却不幸地戛然而止。一次灾难性的故障使你的飞船坠入了这颗被遗忘的边缘世界的引力井中。\n\n当你在残骸中醒来时，迎接你的并非虚空的死寂，而是你最重要伙伴那轻柔而熟悉的嗡鸣。它正是你亲手制造的第一台探机，是你来之不易的技术的结晶，也是你身后那个世界的永恒见证。现在，与你的造物并肩，你必须运用你所学的独特知识，在这颗星球的严酷现实中求生，并排除万难，设法逃离此地。\n\n 该殖民者的开局特质使得心情控制对玩家来说是个挑战。</PMP_KhalaiMechanitor.description>
+  <!-- EN: You were an anomaly: the only human ever to study under a Protoss Khalai Master. He saw in you a unique spark, treating you as his prized pupil and personally guiding you through the advanced arts of psionic machinery.\n\n Upon finishing your training, you boarded a vessel to return to the gilded cities of your glitterworld home. The journey was cut tragically short. A catastrophic failure sent your ship plummeting into the gravity well of this forgotten rimworld.\n\n You awoke in the wreckage, not to the silence of the void, but to the soft, familiar hum of your most important companion. It is the very first Probe you ever constructed, a testament to your hard-won skills and a constant reminder of the life you left behind. Now, with your creation by your side, you must apply your unique knowledge to survive the harsh realities of this planet and, against all odds, engineer an escape.\n\n Accoring to the forcedTraits, its a challenge for your colonists' Mood control. -->
   <PMP_KhalaiMechanitor.scenario.description>你是一个特例：有史以来唯一在星灵卡莱大师门下学习的人类。他在你身上看到了一种独特的火花，将你视为他最珍视的学生，并亲自引导你学习灵能机械的深奥技艺。\n\n学成之后，你登上一艘飞船，准备返回你那位于闪耀世界的宏伟家园。然而，旅途却不幸地戛然而止。一次灾难性的故障使你的飞船坠入了这颗被遗忘的边缘世界的引力井中。\n\n当你在残骸中醒来时，迎接你的并非虚空的死寂，而是你最重要伙伴那轻柔而熟悉的嗡鸣。它正是你亲手制造的第一台探机，是你来之不易的技术的结晶，也是你身后那个世界的永恒见证。现在，与你的造物并肩，你必须运用你所学的独特知识，在这颗星球的严酷现实中求生，并排除万难，设法逃离此地。\n\n 该殖民者的开局特质使得心情控制对玩家来说是个挑战。</PMP_KhalaiMechanitor.scenario.description>
-  
+  <!-- EN: Khalai Mechanitor -->
+  <PMP_KhalaiMechanitor.scenario.name>卡莱机械师</PMP_KhalaiMechanitor.scenario.name>
+  <!-- EN: In your youth, you were the sole human apprentice to a Protoss Khalai Mechanitor. As his only student of your kind, he paid close attention to your training. After completing your studies, you decided to return to your home on a glitterworld, but your ship crashed en route. Now, you must survive on this forsaken rimworld with only your faithful Probe and find a way to escape. -->
+  <PMP_KhalaiMechanitor.scenario.parts.GameStartDialog.text>在你的青年时期，你是一名星灵卡莱机械师唯一的人类学徒。作为他唯一的异族学生，他对你的训练倾注了大量心血。学成之后，你决定返回你那位于闪耀世界的家园，但你的飞船不幸在途中坠毁。现在，你必须与你忠诚的探机一同在这颗被遗忘的边缘世界上活下去，并找到逃离此地的方法。</PMP_KhalaiMechanitor.scenario.parts.GameStartDialog.text>
+  <!-- EN: One mechanitor and a fellow probe. -->
   <PMP_KhalaiMechanitor.scenario.summary>一名机械师与一台探机伙伴。</PMP_KhalaiMechanitor.scenario.summary>
   
-  <PMP_KhalaiMechanitor.scenario.parts.GameStartDialog.text>在你的青年时期，你是一名星灵卡莱机械师唯一的人类学徒。作为他唯一的异族学生，他对你的训练倾注了大量心血。学成之后，你决定返回你那位于闪耀世界的家园，但你的飞船不幸在途中坠毁。现在，你必须与你忠诚的探机一同在这颗被遗忘的边缘世界上活下去，并找到逃离此地的方法。</PMP_KhalaiMechanitor.scenario.parts.GameStartDialog.text>
-
 </LanguageData>

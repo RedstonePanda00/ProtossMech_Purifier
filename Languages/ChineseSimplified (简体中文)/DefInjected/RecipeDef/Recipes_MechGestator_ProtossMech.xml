@@ -1,29 +1,67 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <Probe.label>建造探机</Probe.label>
-    <Probe.description>建造探机。</Probe.description>
-
-    <Colossus.label>建造净化者巨像</Colossus.label>
-    <Colossus.description>建造净化者巨像。</Colossus.description>
-
-    <Sentry.label>建造机械哨兵</Sentry.label>
-    <Sentry.description>建造机械哨兵。</Sentry.description>
-
-    <Energizer.label>建造鼓舞者</Energizer.label>
-    <Energizer.description>建造鼓舞者。</Energizer.description>
-
-    <Legionnaire.label>建造军团士兵</Legionnaire.label>
-    <Legionnaire.description>建造军团士兵。</Legionnaire.description>
-
-    <Sentinel.label>建造警戒者</Sentinel.label>
-    <Sentinel.description>建造警戒者。</Sentinel.description>
-
-    <PurifierImmortal.label>建造净化者不朽者</PurifierImmortal.label>
-    <PurifierImmortal.description>建造净化者不朽者。</PurifierImmortal.description>
-
-    <ResurrectProtossMechLight.label>复活轻型星灵机械体</ResurrectProtossMechLight.label>
-    <ResurrectProtossMechLight.description>复活轻型星灵机械体。</ResurrectProtossMechLight.description>
-
-    <ResurrectPurifierMechHeavy.label>复活重型净化者机械体</ResurrectPurifierMechHeavy.label>
-    <ResurrectPurifierMechHeavy.description>复活重型净化者机械体。</ResurrectPurifierMechHeavy.description>
+  
+  <!-- EN: gestate Protoss colossus mech -->
+  <Colossus.label>建造净化者巨像</Colossus.label>
+  <!-- EN: Gestate an Protoss colossus mechanoid. -->
+  <Colossus.description>建造净化者巨像。</Colossus.description>
+  <!-- EN: Gestating mech. -->
+  <Colossus.jobString>建造机械体</Colossus.jobString>
+  
+  <!-- EN: gestate Protoss Energizer mech -->
+  <Energizer.label>建造鼓舞者</Energizer.label>
+  <!-- EN: Gestate an Protoss Energizer mechanoid. -->
+  <Energizer.description>建造鼓舞者。</Energizer.description>
+  <!-- EN: Gestating mech. -->
+  <Energizer.jobString>建造机械体</Energizer.jobString>
+  
+  <!-- EN: gestate Protoss Legionnaire mech -->
+  <Legionnaire.label>建造军团士兵</Legionnaire.label>
+  <!-- EN: Gestate an Protoss Legionnaire mechanoid. -->
+  <Legionnaire.description>建造军团士兵。</Legionnaire.description>
+  <!-- EN: Gestating mech. -->
+  <Legionnaire.jobString>建造机械体</Legionnaire.jobString>
+  
+  <!-- EN: gestate Protoss Probe mech -->
+  <Probe.label>建造探机</Probe.label>
+  <!-- EN: Gestate an Protoss Probe mechanoid. -->
+  <Probe.description>建造探机。</Probe.description>
+  <!-- EN: Gestating mech. -->
+  <Probe.jobString>建造机械体</Probe.jobString>
+  
+  <!-- EN: gestate Protoss PurifierImmortal mech -->
+  <PurifierImmortal.label>建造净化者不朽者</PurifierImmortal.label>
+  <!-- EN: Gestate an Protoss PurifierImmortal mechanoid. -->
+  <PurifierImmortal.description>建造净化者不朽者。</PurifierImmortal.description>
+  <!-- EN: Gestating mech. -->
+  <PurifierImmortal.jobString>建造机械体</PurifierImmortal.jobString>
+  
+  <!-- EN: resurrect Light Protoss mechanoid -->
+  <ResurrectProtossMechLight.label>复活轻型星灵机械体</ResurrectProtossMechLight.label>
+  <!-- EN: Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected. -->
+  <ResurrectProtossMechLight.description>复活轻型星灵机械体。</ResurrectProtossMechLight.description>
+  <!-- EN: Resurrecting mech. -->
+  <ResurrectProtossMechLight.jobString>复活机械体</ResurrectProtossMechLight.jobString>
+  
+  <!-- EN: resurrect Purifier Protoss mechanoid -->
+  <ResurrectPurifierMechHeavy.label>复活重型净化者机械体</ResurrectPurifierMechHeavy.label>
+  <!-- EN: Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected. -->
+  <ResurrectPurifierMechHeavy.description>复活重型净化者机械体。</ResurrectPurifierMechHeavy.description>
+  <!-- EN: Resurrecting mech. -->
+  <ResurrectPurifierMechHeavy.jobString>复活机械体</ResurrectPurifierMechHeavy.jobString>
+  
+  <!-- EN: gestate Protoss Sentinel mech -->
+  <Sentinel.label>建造警戒者</Sentinel.label>
+  <!-- EN: Gestate an Protoss Sentinel mechanoid. -->
+  <Sentinel.description>建造警戒者。</Sentinel.description>
+  <!-- EN: Gestating mech. -->
+  <Sentinel.jobString>复活机械体</Sentinel.jobString>
+  
+  <!-- EN: gestate Protoss Sentry mech -->
+  <Sentry.label>建造机械哨兵</Sentry.label>
+  <!-- EN: Gestate an Protoss Sentry mechanoid. -->
+  <Sentry.description>建造机械哨兵。</Sentry.description>
+  <!-- EN: Gestating mech. -->
+  <Sentry.jobString>复活机械体</Sentry.jobString>
+  
 </LanguageData>

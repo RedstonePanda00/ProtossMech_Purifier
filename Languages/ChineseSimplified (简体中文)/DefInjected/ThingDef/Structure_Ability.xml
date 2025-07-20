@@ -1,17 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <ForceFieldWall.label>力场墙</ForceFieldWall.label>
-
-    <GuardianShieldUnit.label>守护者之盾护盾单位</GuardianShieldUnit.label>
-    <GuardianShieldUnit.description>守护者之盾护盾单位。</GuardianShieldUnit.description>
-
-    <WarpBeacon_Pylon.label>折跃信标(水晶塔)</WarpBeacon_Pylon.label>
-
-    <WarpBeacon_Photon.label>折跃信标(光子炮塔)</WarpBeacon_Photon.label>
-
-    <Pylon_OverCharged.label>水晶塔(光子过载)</Pylon_OverCharged.label>
-
-    <Gun_OverchargePylon.label>超载水晶</Gun_OverchargePylon.label>
-    <Gun_OverchargePylon.description>这座水晶塔正处于超载模式。</Gun_OverchargePylon.description>
-
+  
+  <!-- EN: force-field wall -->
+  <ForceFieldWall.label>力场墙</ForceFieldWall.label>
+  
+  <!-- EN: Guardian Shield -->
+  <GuardianShieldUnit.label>守护者之盾护盾单位</GuardianShieldUnit.label>
+  <!-- EN: Guardian Shield Unit. -->
+  <GuardianShieldUnit.description>守护者之盾护盾单位。</GuardianShieldUnit.description>
+  <!-- EN: Burnout in -->
+  <GuardianShieldUnit.comps.CompDestroyAfterDelay.countdownLabel>燃烧殆尽</GuardianShieldUnit.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: OverCharged Pylon Gun -->
+  <Gun_OverchargePylon.label>超载水晶</Gun_OverchargePylon.label>
+  <!-- EN: This Pylon is overcharged. -->
+  <Gun_OverchargePylon.description>这座水晶塔正处于超载模式。</Gun_OverchargePylon.description>
+  <!-- EN: OverCharged Pylon Gun -->
+  <Gun_OverchargePylon.verbs.Verb_Shoot.label>光子过载武器</Gun_OverchargePylon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Overcharged Pylon -->
+  <Pylon_OverCharged.label>水晶塔(光子过载)</Pylon_OverCharged.label>
+  <!-- EN: Overcharge Will end in -->
+  <Pylon_OverCharged.comps.CompTransformAfterTick.countdownLabel>光子过载即将结束</Pylon_OverCharged.comps.CompTransformAfterTick.countdownLabel>
+  
+  <!-- EN: Warp Beacon Photon -->
+  <WarpBeacon_Photon.label>折跃信标(光子炮塔)</WarpBeacon_Photon.label>
+  <!-- EN: Will Warp in -->
+  <WarpBeacon_Photon.comps.CompTransformAfterTick.countdownLabel>即将折跃完成</WarpBeacon_Photon.comps.CompTransformAfterTick.countdownLabel>
+  
+  <!-- EN: Warp Beacon Pylon -->
+  <WarpBeacon_Pylon.label>折跃信标(水晶塔)</WarpBeacon_Pylon.label>
+  <!-- EN: Will Warp in -->
+  <WarpBeacon_Pylon.comps.CompTransformAfterTick.countdownLabel>即将折跃完成</WarpBeacon_Pylon.comps.CompTransformAfterTick.countdownLabel>
+  
 </LanguageData>

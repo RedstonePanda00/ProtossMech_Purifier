@@ -1,23 +1,45 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <MechForceFieldWall.label>力场墙</MechForceFieldWall.label>
-    <MechForceFieldWall.description>投射一块3x3范围的力场屏障。</MechForceFieldWall.description>
-
-    <MechGuardianShield.label>守护者之盾</MechGuardianShield.label>
-    <MechGuardianShield.description>一个便携式的护盾投射器，可以拦截投射物。</MechGuardianShield.description>
-
-    <MechChronoBeam.label>加速射线</MechChronoBeam.label>
-    <MechChronoBeam.description>一种可以加快目标时间流速的射线。</MechChronoBeam.description>
-
-    <LegionnaireJump.label>跳跃</LegionnaireJump.label>
-    <LegionnaireJump.description>用强壮的机械腿跳跃到指定位置。</LegionnaireJump.description>
-
-    <MechCharge.label>冲锋</MechCharge.label>
-    <MechCharge.description>在几秒之内提高移动速度。</MechCharge.description>
-
-    <Warp_Pylon.label>折跃水晶塔</Warp_Pylon.label>
-
-    <Warp_Photon.label>折跃光子炮塔</Warp_Photon.label>
-
-    <OverchargeAllPylons.label>水晶塔超载</OverchargeAllPylons.label>
+  
+  <!-- EN: Legionnaire longjump -->
+  <LegionnaireJump.label>跳跃</LegionnaireJump.label>
+  <!-- EN: Jump to a distant location using special ultrafast mechanoid muscles. -->
+  <LegionnaireJump.description>用强壮的机械腿跳跃到指定位置。</LegionnaireJump.description>
+  <!-- EN: jump -->
+  <LegionnaireJump.verbProperties.label>跳跃</LegionnaireJump.verbProperties.label>
+  
+  <!-- EN: charge -->
+  <MechCharge.label>冲锋</MechCharge.label>
+  <!-- EN: Speed up in several seconds. -->
+  <MechCharge.description>在几秒之内提高移动速度。</MechCharge.description>
+  
+  <!-- EN: Chrono Beam -->
+  <MechChronoBeam.label>加速射线</MechChronoBeam.label>
+  <!-- EN: The beam that can speed up the time flow of target. -->
+  <MechChronoBeam.description>一种可以加快目标时间流速的射线。</MechChronoBeam.description>
+  
+  <!-- EN: project Force Field Wall -->
+  <MechForceFieldWall.label>力场墙</MechForceFieldWall.label>
+  <!-- EN: Projects a 3x3 Force Field Wall structures. -->
+  <MechForceFieldWall.description>投射一块3x3范围的力场屏障。</MechForceFieldWall.description>
+  
+  <!-- EN: Guardian Shield -->
+  <MechGuardianShield.label>守护者之盾</MechGuardianShield.label>
+  <!-- EN: a portable shield generator, which can block projectile. -->
+  <MechGuardianShield.description>一个便携式的护盾投射器，可以拦截投射物。</MechGuardianShield.description>
+  
+  <!-- EN: Overcharge All Pylons -->
+  <OverchargeAllPylons.label>水晶塔超载</OverchargeAllPylons.label>
+  
+  <!-- EN: Barrier -->
+  <PMP_RestoreShield.label>屏障</PMP_RestoreShield.label>
+  <!-- EN: Instantly restores the caster's Protoss shield to its maximum energy level. -->
+  <PMP_RestoreShield.description>立刻将施法者的星灵护盾恢复至满额。</PMP_RestoreShield.description>
+  
+  <!-- EN: Warp Photon -->
+  <Warp_Photon.label>折跃光子炮塔</Warp_Photon.label>
+  
+  <!-- EN: Warp Pylon -->
+  <Warp_Pylon.label>折跃水晶塔</Warp_Pylon.label>
+  
 </LanguageData>

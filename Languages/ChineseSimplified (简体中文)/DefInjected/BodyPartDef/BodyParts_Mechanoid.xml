@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: colossus joint -->
+  <GiantMechanicalJoint.label>巨型机械腿关节</GiantMechanicalJoint.label>
+  
+  <!-- EN: colossus leg -->
+  <GiantMechanicalLeg.label>巨型机械昆虫足节</GiantMechanicalLeg.label>
+  
+  <!-- EN: Anti Gravity Core -->
+  <SmallAntiGravityCore.label>小型反重力核心</SmallAntiGravityCore.label>
+  
+  <!-- EN: floating unit -->
+  <SmallFloatingUnit.label>小型悬浮单元</SmallFloatingUnit.label>
+  
+  <!-- EN: Probe hand -->
+  <SmallMechanicalHand.label>探机机械手</SmallMechanicalHand.label>
+  
+</LanguageData>

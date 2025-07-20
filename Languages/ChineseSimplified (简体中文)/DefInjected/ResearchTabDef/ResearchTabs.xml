@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <ProtossTech.label>星灵机械</ProtossTech.label>
-    <ProtossTech.generalTitle>星灵机械研究项目</ProtossTech.generalTitle>
+  
+  <!-- EN: Protoss technologies -->
+  <ProtossTech.label>星灵机械</ProtossTech.label>
+  <!-- EN: En Taro Artanis. -->
+  <ProtossTech.generalDescription>En Taro Artanis.</ProtossTech.generalDescription>
+  <!-- EN: Protoss technologies projects -->
+  <ProtossTech.generalTitle>星灵机械研究项目</ProtossTech.generalTitle>
+  
 </LanguageData>

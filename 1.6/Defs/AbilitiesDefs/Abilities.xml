@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
     <AbilityDef>
@@ -183,5 +183,29 @@
         <cooldownTicksRange>3600</cooldownTicksRange>
     </AbilityDef>
 
+    <AbilityDef>
+        <defName>PMP_RestoreShield</defName>
+        <label>Barrier</label>
+        <description>Instantly restores the caster's Protoss shield to its maximum energy level.</description>
+        <iconPath>Things/Abilities/Barrier</iconPath>
+        <cooldownTicksRange>7200</cooldownTicksRange>
+        <charges>2</charges>
+        <cooldownPerCharge>true</cooldownPerCharge>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <targetRequired>false</targetRequired>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_AbilityRestoreShield" />
+        </comps>
+
+    </AbilityDef>
 
 </Defs>

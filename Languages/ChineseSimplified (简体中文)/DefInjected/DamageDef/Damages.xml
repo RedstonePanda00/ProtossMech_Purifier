@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anti-armor shock -->
+  <AntiArmorShock.label>相位穿震伤害</AntiArmorShock.label>
+  <!-- EN: {0} has died from shock. -->
+  <AntiArmorShock.deathMessage>{0} 的分子结构被撕裂了.</AntiArmorShock.deathMessage>
+  
+</LanguageData>

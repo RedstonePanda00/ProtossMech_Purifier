@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Reconstruction -->
   <ProtossMech.Ability.Reconstruction.Label>重构</ProtossMech.Ability.Reconstruction.Label>
+  <!-- EN: Activate Reconstruction Now. Fully restores the mechanoid's health and removes all injuries. -->
   <ProtossMech.Ability.Reconstruction.Description>立即启动重构。完全恢复机械体的生命值并移除所有伤势。</ProtossMech.Ability.Reconstruction.Description>
+  <!-- EN: Reconstruction is not ready. -->
   <ProtossMech.Ability.Reconstruction.NotReady>重构尚未就绪。</ProtossMech.Ability.Reconstruction.NotReady>
+  <!-- EN: Reconstruction Cooldown: {0} -->
   <ProtossMech.Ability.Reconstruction.Cooldown>重构冷却中：{0}</ProtossMech.Ability.Reconstruction.Cooldown>
 
 </LanguageData>

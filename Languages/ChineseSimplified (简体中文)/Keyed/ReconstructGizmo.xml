@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Reconstruct -->
   <ProtossMech.Purifier.Title>重构</ProtossMech.Purifier.Title>
+  <!-- EN: {0} seconds remaining -->
   <ProtossMech.Purifier.CooldownText>剩余 {0} 秒</ProtossMech.Purifier.CooldownText>
+  <!-- EN: Ready -->
   <ProtossMech.Purifier.ReadyText>就绪</ProtossMech.Purifier.ReadyText>
 
 </LanguageData>
