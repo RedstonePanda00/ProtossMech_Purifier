@@ -16,14 +16,23 @@
   
   <!-- EN: Purifier colossus -->
   <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
-  <!-- EN: As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse. -->
+  <!-- EN: As the first prototypes to go into mass production, the Purifier Colossus differs\n      from current simplified models by featuring a complete Synthetic Personality core, neutron\n      armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped\n      can project high-energy plasma streams to ignite the ground while vaporizing targets. When it\n      appear on the battlefield, it means Apocalypse. -->
   <PMP_ColossusPrototype.description>作为首批投入大规模生产的原型机，净化者巨像不同于当前的简化型号，它拥有完整的合成人格核心、中子装甲、重构无人机群和硬化护盾。它装备的原型热能长矛可以投射高能等离子流，在点燃地面的同时蒸发目标。如果你在战场上看见他们作为你的敌人出现，你需要做的只有放下武器，然后向你的神祈祷。</PMP_ColossusPrototype.description>
   <!-- EN: head -->
   <PMP_ColossusPrototype.tools.head.label>巨像头部</PMP_ColossusPrototype.tools.head.label>
   
+  <!-- EN: Disruptor -->
+  <PMP_Disruptor.label>干扰者</PMP_Disruptor.label>
+  <!-- EN: The disruptor is a protoss ground mechanized heavy artillery unit that deals high area damage. -->
+  <PMP_Disruptor.description>干扰者是一种星灵重型攻城单位，它能够释放净化新星，对范围内的敌人造成毁灭性的伤害。</PMP_Disruptor.description>
+  <!-- EN: head -->
+  <PMP_Disruptor.tools.head.label>干扰者核心</PMP_Disruptor.tools.head.label>
+  <!-- EN: torso -->
+  <PMP_Disruptor.tools.torso.label>干扰者壳</PMP_Disruptor.tools.torso.label>
+  
   <!-- EN: Energizer -->
   <PMP_Energizer.label>激励者</PMP_Energizer.label>
-  <!-- EN: The Energizer is a modified version of the Sentry, with its force field projector modified into a small time bubble projector that significantly speeds up the relative flow of time for affected units. -->
+  <!-- EN: The Energizer is a modified version of the Sentry, with its force field projector\n      modified into a small time bubble projector that significantly speeds up the relative flow of\n      time for affected units. -->
   <PMP_Energizer.description>激励者是机械哨兵的改良版，它的力场投射器被改装成了一个小型的时间泡投射器，能显著加快受影响单位的相对时间流速。</PMP_Energizer.description>
   <!-- EN: head -->
   <PMP_Energizer.tools.head.label>机械哨兵头部</PMP_Energizer.tools.head.label>
@@ -43,7 +52,7 @@
   
   <!-- EN: Legionnaire -->
   <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
-  <!-- EN: Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars. -->
+  <!-- EN: Legionnaire was one of the earliest products of the Purifier Project, in which\n      researchers uploaded the neural patterns of some of the greatest warriors in Protoss history\n      and then downloaded them into this mechanical body built of neutronic materials so that they\n      could continue their service as Templars. -->
   <PMP_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们，他们被下载到这个由中子材料制成的机械躯体中，这样他们就可以继续作为圣堂武士服役。日复一日，万世长存。</PMP_Legionnaire.description>
   <!-- EN: head -->
   <PMP_Legionnaire.tools.head.label>机械星灵头部</PMP_Legionnaire.tools.head.label>
@@ -54,7 +63,7 @@
   
   <!-- EN: Probe -->
   <PMP_Probe.label>探机</PMP_Probe.label>
-  <!-- EN: The tiny Probe was designed by the Khalai to lay the foundation for Protoss colonies on hostile worlds where living workers would be at too great a risk. Probes are responsible for harvesting the minerals and vespene gas that we need to fuel our industry. They also produce and plant the warp-beacons that allow us to teleport our buildings from Aiur to distant planets. -->
+  <!-- EN: The tiny Probe was designed by the Khalai to lay the foundation for Protoss\n      colonies on hostile worlds where living workers would be at too great a risk. Probes are\n      responsible for harvesting the minerals and vespene gas that we need to fuel our industry.\n      They also produce and plant the warp-beacons that allow us to teleport our buildings from Aiur\n      to distant planets. -->
   <PMP_Probe.description>小巧的探机是由星灵卡莱阶级设计的，用于在那些对工人过于危险的世界上建立殖民地打下基础的机械。探机负责采集我们工业所需的矿物和能源。它们还能投射折跃信标，使星灵能够将建筑物从遥远的母星传送到本地。</PMP_Probe.description>
   <!-- EN: head -->
   <PMP_Probe.tools.head.label>探机头部</PMP_Probe.tools.head.label>
@@ -67,14 +76,14 @@
   
   <!-- EN: PurifierImmortal -->
   <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
-  <!-- EN: The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be  rapidly reassembled by reconstruction drones swarms. -->
+  <!-- EN: The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage\n      regardless of armor and shields, the higher the target's defense the stronger the damage. Its\n      harden shield significantly weakens all attacks, while its G type alloy armor and reinforced\n      shield generator provide even greater protection. When it is destroyed, they can be rapidly\n      reassembled by reconstruction drones swarms. -->
   <PMP_PurifierImmortal.description>净化者不朽者使用两门相位穿震炮，这种特殊的武器能够穿透那些最硬的装甲，正如他们的卡莱原型一样，净化者不朽者装备了刚毅护盾，一种可以将所有来袭的攻击削弱至可接受范围的特殊硬化护盾。同时，净化者版本换装了G型合金，一种致密的中子材料，驾驶舱节省下来的空间也支持他装备功率更大的护盾发生器。</PMP_PurifierImmortal.description>
   <!-- EN: head -->
   <PMP_PurifierImmortal.tools.head.label>不朽者头部</PMP_PurifierImmortal.tools.head.label>
   
   <!-- EN: Sentinel -->
   <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
-  <!-- EN: The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones. -->
+  <!-- EN: The Sentinels originated from an offshoot of the Purifier Project, employing\n      positronic AI as an ethical alternative to digital neural patterns transfer. Even if\n      destroyed, they can be rapidly reassembled by reconstruction drones. -->
   <PMP_Sentinel.description>警戒者源自净化者计划的一个分支，采用正电子人工智能作为数字神经模式传输的道德替代方案。即使被摧毁，它们也能被重建无人机迅速重组。</PMP_Sentinel.description>
   <!-- EN: head -->
   <PMP_Sentinel.tools.head.label>机械星灵头部</PMP_Sentinel.tools.head.label>
@@ -85,7 +94,7 @@
   
   <!-- EN: Sentry -->
   <PMP_Sentry.label>机械哨兵</PMP_Sentry.label>
-  <!-- EN: The sentry is modified from the probe and is equipped with force field projectors and shield generators, which are essential support forces on the battlefield. -->
+  <!-- EN: The sentry is modified from the probe and is equipped with force field projectors\n      and shield generators, which are essential support forces on the battlefield. -->
   <PMP_Sentry.description>机械哨兵由探机改装而成，配备有力场投射器和护盾发生器，是战场上必不可少的支援力量。</PMP_Sentry.description>
   <!-- EN: head -->
   <PMP_Sentry.tools.head.label>机械哨兵头部</PMP_Sentry.tools.head.label>

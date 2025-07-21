@@ -36,6 +36,11 @@
   <!-- EN: Instantly restores the caster's Protoss shield to its maximum energy level. -->
   <PMP_RestoreShield.description>立刻将施法者的星灵护盾恢复至满额。</PMP_RestoreShield.description>
   
+  <!-- EN: Summon Purification Nova -->
+  <PMP_SummonNova.label>净化新星</PMP_SummonNova.label>
+  <!-- EN: Summon Purification Nova to the location. -->
+  <PMP_SummonNova.description>召唤一颗净化新星朝目标地点前进。</PMP_SummonNova.description>
+  
   <!-- EN: Warp Photon -->
   <Warp_Photon.label>折跃光子炮塔</Warp_Photon.label>
   

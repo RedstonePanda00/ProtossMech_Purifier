@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="LightMechanoid">
+    <defName>PMP_PurificationNova</defName>
+    <label>Purification Nova</label>
+    <description>A massive explosive energy.</description>
+    <statBases>
+      <MoveSpeed>10.0</MoveSpeed>
+    </statBases>
+    <race>
+      <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
+      <baseHealthScale>100.0</baseHealthScale>
+      <baseBodySize>0.7</baseBodySize>
+      <hasCorpse>false</hasCorpse>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Hunter_Wounded</soundWounded>
+          <soundDeath>Pawn_Hunter_Death</soundDeath>
+          <soundCall>Pawn_Hunter_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="ProtossMech.CompProperties_TimedDetonator">
+        <countdownTicks>420</countdownTicks>
+        <explosionRadius>4.9</explosionRadius>
+        <explosionDamageType>AntiArmorShock</explosionDamageType>
+        <pawnDamageAmount>150</pawnDamageAmount>
+        <buildingDamageAmount>500</buildingDamageAmount>
+        <secondaryExplosionDelayTicks>60</secondaryExplosionDelayTicks>
+      </li>
+      <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
+      <li Class="ModExtention.CompProperties_DisableFeral" />
+    </comps>
+    <butcherProducts>
+      <Steel>15</Steel>
+    </butcherProducts>
+  </ThingDef>
+
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>PMP_PurificationNova</defName>
+    <label>Purification Nova</label>
+    <labelPlural>Purification Nova</labelPlural>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <race>PMP_PurificationNova</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+      <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Drone/Hunter/HunterDrone</texPath>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef>
+    <defName>PMP_SecondaryExplosionManager</defName>
+    <label>secondary explosion manager</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Ethereal</category>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Mote/Transparent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="ProtossMech.CompProperties_SecondaryExplosion"/>
+    </comps>
+  </ThingDef>
+  
+</Defs>

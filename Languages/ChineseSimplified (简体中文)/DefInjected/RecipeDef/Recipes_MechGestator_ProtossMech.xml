@@ -22,6 +22,13 @@
   <!-- EN: Gestating mech. -->
   <Legionnaire.jobString>建造机械体</Legionnaire.jobString>
   
+  <!-- EN: gestate Protoss Disruptor mech -->
+  <PMP_GenDisruptor.label>建造干扰者</PMP_GenDisruptor.label>
+  <!-- EN: Gestate an Protoss Disruptor mechanoid. -->
+  <PMP_GenDisruptor.description>建造干扰者。</PMP_GenDisruptor.description>
+  <!-- EN: Gestating mech. -->
+  <PMP_GenDisruptor.jobString>建造机械体</PMP_GenDisruptor.jobString>
+  
   <!-- EN: gestate Protoss Probe mech -->
   <Probe.label>建造探机</Probe.label>
   <!-- EN: Gestate an Protoss Probe mechanoid. -->

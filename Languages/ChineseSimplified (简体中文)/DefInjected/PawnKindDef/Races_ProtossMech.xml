@@ -7,6 +7,9 @@
   <!-- EN: Purifier colossus -->
   <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
   
+  <!-- EN: Disruptor -->
+  <PMP_Disruptor.label>干扰者</PMP_Disruptor.label>
+  
   <!-- EN: Energizer -->
   <PMP_Energizer.label>激励者</PMP_Energizer.label>
   

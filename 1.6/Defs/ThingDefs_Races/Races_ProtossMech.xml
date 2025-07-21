@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Name="ProtossMechanoid" ParentName="BaseMechanoid" Abstract="True">
     <statBases>
@@ -82,7 +82,16 @@
         <li>Crafting</li>
         <li>Smithing</li>
         <li>Research</li>
+        <li>Tailoring</li>
       </mechEnabledWorkTypes>
+      <mechWorkTypePriorities>
+        <Construction>2</Construction>
+        <Mining>2</Mining>
+        <Hauling>3</Hauling>
+        <Crafting>3</Crafting>
+        <Smithing>1</Smithing>
+        <Tailoring>1</Tailoring>
+      </mechWorkTypePriorities>
       <mechFixedSkillLevel>20</mechFixedSkillLevel>
       <lifeStageAges>
         <li>
@@ -188,7 +197,7 @@
     <race>
       <body>PMP_ColossusBody</body>
       <mechWeightClass>UltraHeavy</mechWeightClass>
-      <baseBodySize>5</baseBodySize>
+      <baseBodySize>8</baseBodySize>
       <baseHealthScale>6.25</baseHealthScale>
       <lifeStageAges>
         <li>
@@ -578,7 +587,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>PMP_PurifierImmortal</defName>
     <label>PurifierImmortal</label>
-    <description>The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be  rapidly reassembled by reconstruction drones swarms.</description>
+    <description>The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be rapidly reassembled by reconstruction drones swarms.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <BandwidthCost>4</BandwidthCost>
@@ -606,7 +615,7 @@
     </butcherProducts>
     <comps>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
-        <energyMax>300</energyMax>
+        <energyMax>100</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
@@ -746,7 +755,7 @@
     </abilities>
   </PawnKindDef>
 
-    <!-- Fellow Probe-->
+  <!-- Fellow Probe-->
   <ThingDef ParentName="ProtossMechanoid">
     <defName>PMP_FellowProbe</defName>
     <label>FellowProbe</label>
@@ -856,6 +865,81 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
+  </PawnKindDef>
+
+  <!-- Disruptor -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Disruptor</defName>
+    <label>Disruptor</label>
+    <description>The disruptor is a protoss ground mechanized heavy artillery unit that deals high area damage.</description>
+    <statBases>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <mechWeightClass>Heavy</mechWeightClass>
+      <baseBodySize>4</baseBodySize>
+      <baseHealthScale>2.5</baseHealthScale>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Apocriton_Wounded</soundWounded>
+          <soundAngry>Pawn_Mech_Apocriton_Call</soundAngry>
+          <soundDeath>Pawn_Mech_Apocriton_Death</soundDeath>
+          <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>torso</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1</cooldownTime>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>100</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+      <li Class="ProtossMech.CompProperties_EnsureHediff">
+        <hediffDef>PMP_DisruptorInvisibility</hediffDef>
+        <checkInterval>120</checkInterval>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
+    <defName>PMP_Disruptor</defName>
+    <label>Disruptor</label>
+    <race>PMP_Disruptor</race>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Probe</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>3.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>PMP_SummonNova</li>
+    </abilities>
   </PawnKindDef>
 
 </Defs>

@@ -70,4 +70,18 @@
         </stages>
     </HediffDef>
 
+    <HediffDef>
+        <defName>PMP_DisruptorInvisibility</defName>
+        <label>DisruptorInvisibility</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <description>A light-distorting field renders this unit invisible to the naked eye.</description>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Invisibility">
+                <visibleToPlayer>true</visibleToPlayer>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+        </comps>
+    </HediffDef>
+
 </Defs>

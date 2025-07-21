@@ -208,4 +208,32 @@
 
     </AbilityDef>
 
+    <AbilityDef>
+        <defName>PMP_SummonNova</defName>
+        <label>Summon Purification Nova</label>
+        <description>Summon Purification Nova to the location.</description>
+        <iconPath>Things/Abilities/PurificationNova</iconPath>
+        <cooldownTicksRange>5000</cooldownTicksRange>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <range>30.0</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_SpawnAndGo">
+                <pawnDefToSpawn>PMP_PurificationNova</pawnDefToSpawn>
+            </li>
+        </comps>
+
+    </AbilityDef>
+
 </Defs>

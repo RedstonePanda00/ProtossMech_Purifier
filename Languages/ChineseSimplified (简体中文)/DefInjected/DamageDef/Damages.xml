@@ -6,4 +6,9 @@
   <!-- EN: {0} has died from shock. -->
   <AntiArmorShock.deathMessage>{0} 的分子结构被撕裂了.</AntiArmorShock.deathMessage>
   
+  <!-- EN: Supernova Explosion -->
+  <PMP_NovaExplosion.label>净化新星爆炸</PMP_NovaExplosion.label>
+  <!-- EN: {0} has been burned by supernova explosion. -->
+  <PMP_NovaExplosion.deathMessage>{0} 被超新星爆炸吞噬.</PMP_NovaExplosion.deathMessage>
+  
 </LanguageData>

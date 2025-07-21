@@ -14,4 +14,28 @@
         <defaultDamage>100</defaultDamage>
         <impactSoundType>Bullet</impactSoundType>
     </DamageDef>
+
+    <DamageDef>
+        <defName>PMP_NovaExplosion</defName>
+        <label>Supernova Explosion</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>false</externalViolence>
+        <deathMessage>{0} has been burned by supernova explosion.</deathMessage>
+        <hediff>Burn</hediff>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+        <defaultDamage>100</defaultDamage>
+        <defaultStoppingPower>1.5</defaultStoppingPower>
+        <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
+        <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>
+        <armorCategory></armorCategory>
+        <minDamageToFragment>150</minDamageToFragment>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+        <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+        <soundExplosion>Explosion_Vaporize</soundExplosion>
+        <expolosionPropagationSpeed>1.0</expolosionPropagationSpeed>
+        <hasForcefulImpact>true</hasForcefulImpact>
+        <corpseDamageFactor>1.0</corpseDamageFactor>
+    </DamageDef>
+
 </Defs>
