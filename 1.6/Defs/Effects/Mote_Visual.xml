@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="MoteBase">
+    <defName>PMPMote_DisruptorFrame</defName> 
+    <thingClass>ProtossMech.Mote_DisruptorFrame</thingClass> 
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>99999</solidTime>
+    </mote>
+    <graphicData>
+      <texPath>Things/Mote/DisruptorFrame</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_Mote</graphicClass>
+    </graphicData>
+    <isSaveable>true</isSaveable>
+    <rotatable>true</rotatable>
+  </ThingDef>
+
+</Defs>

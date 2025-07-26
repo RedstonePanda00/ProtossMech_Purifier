@@ -11,7 +11,7 @@
       <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-      <MechEnergyLossPerHP>0.5</MechEnergyLossPerHP>
+      <MechEnergyLossPerHP>0.01</MechEnergyLossPerHP>
       <WastepacksPerRecharge>0</WastepacksPerRecharge>
       <EMPResistance>1.0</EMPResistance>
       <StaggerDurationFactor>0</StaggerDurationFactor>
@@ -875,6 +875,7 @@
     <statBases>
       <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <BandwidthCost>4</BandwidthCost>
     </statBases>
     <race>
       <body>PMP_ProbeBody</body>
@@ -920,6 +921,11 @@
         <hediffDef>PMP_DisruptorInvisibility</hediffDef>
         <checkInterval>120</checkInterval>
       </li>
+      <li Class="ProtossMech.CompProperties_RotateFrame">
+        <moteDef>PMPMote_DisruptorFrame</moteDef>
+        <rotationRate>-4.2</rotationRate>
+        <scale>3.5</scale>
+      </li>
     </comps>
   </ThingDef>
 
@@ -931,7 +937,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Mechanoid/Probe</texPath>
+          <texPath>Things/Pawn/Mechanoid/Disruptor</texPath>
           <shaderType>Cutout</shaderType>
           <drawSize>3.0</drawSize>
         </bodyGraphicData>

@@ -213,7 +213,7 @@
         <label>Summon Purification Nova</label>
         <description>Summon Purification Nova to the location.</description>
         <iconPath>Things/Abilities/PurificationNova</iconPath>
-        <cooldownTicksRange>5000</cooldownTicksRange>
+        <cooldownTicksRange>1260</cooldownTicksRange>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 
         <verbProperties>
