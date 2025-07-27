@@ -378,12 +378,6 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-    <!-- <weaponMoney>9999~9999</weaponMoney>
-    <weaponTags>
-      <li>Gun_AssaultRifle</li>
-    </weaponTags>
-    <techHediffsChance>1</techHediffsChance>
-    <techHediffsMoney>9999~9999</techHediffsMoney> -->
     <abilities>
       <li>MechChronoBeam</li>
       <li>MechGuardianShield</li>

@@ -3,19 +3,20 @@
 <Defs>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Projectile_ChronoBeam</defName>
+    <defName>PMP_ChronoBeamProjectile</defName>
     <label>ChronoBeam Projectile</label>
+    <thingClass>Beam</thingClass>
     <graphicData>
       <texPath>Things/Abilities/Projectile/Projectile_ChronoBeam</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>5.0</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>0</damageAmountBase>
+      <beamMoteDef>PMPMote_ChronoBeam</beamMoteDef>
       <stoppingPower>0</stoppingPower>
+      <!-- <beamStartOffset>0.5</beamStartOffset> -->
       <armorPenetrationBase>0</armorPenetrationBase>
-      <speed>200</speed>
     </projectile>
   </ThingDef>
 

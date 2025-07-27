@@ -28,6 +28,7 @@
         <iconPath>Things/Abilities/Guardian_shield</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <verbProperties>
             <verbClass>ProtossMech.Verb_CastAbilitySpawnBroadshield</verbClass>
@@ -62,7 +63,7 @@
                 <hediffDefNames>
                     <li>Hediff_TemporalSurge</li>
                 </hediffDefNames>
-                <projectileDefName>Projectile_ChronoBeam</projectileDefName>
+                <projectileDefName>PMP_ChronoBeamProjectile</projectileDefName>
             </li>
         </modExtensions>
     </AbilityDef>
