@@ -51,7 +51,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Drone/Hunter/HunterDrone</texPath>
+          <texPath>Things/Pawn/Mechanoid/PurificationNova</texPath>
           <drawSize>2.0</drawSize>
         </bodyGraphicData>
       </li>

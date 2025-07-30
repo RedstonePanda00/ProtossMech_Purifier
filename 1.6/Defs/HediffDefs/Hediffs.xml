@@ -8,7 +8,7 @@
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_Disappears">
-                <disappearsAfterTicks>3600</disappearsAfterTicks>                <!-- 24 hours -->
+                <disappearsAfterTicks>3600</disappearsAfterTicks>
                 <showRemainingTime>true</showRemainingTime>
             </li>
         </comps>
