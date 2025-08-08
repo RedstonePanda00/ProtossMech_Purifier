@@ -8,6 +8,7 @@
 			<li>Sentry</li>
 			<li>Energizer</li>
 			<li>Sentinel</li>
+			<li>PMP_GenServitor</li>
 			<li>ResurrectProtossMechLight</li>
 		</value>
 	</Operation>
@@ -32,6 +33,7 @@
 			<li>Make_NeutronMaterial</li>
 			<li>Make_SubcoreHigh</li>
 			<li>Make_AIPersonaCore</li>
+			<li>PMPMake_TechprofSubpersonaCore</li>
 		</value>
 	</Operation>
 

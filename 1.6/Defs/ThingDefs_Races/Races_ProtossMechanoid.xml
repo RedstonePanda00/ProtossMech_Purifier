@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Name="ProtossMechanoid" ParentName="BaseMechanoid" Abstract="True">
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MoveSpeed>5</MoveSpeed>
+      <ControlTakingTime>30</ControlTakingTime>
+      <BandwidthCost>1</BandwidthCost>
+      <MechEnergyUsageFactor>0</MechEnergyUsageFactor>
+      <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
+      <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+      <MechEnergyLossPerHP>0.01</MechEnergyLossPerHP>
+      <WastepacksPerRecharge>0</WastepacksPerRecharge>
+      <EMPResistance>1.0</EMPResistance>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>Mechanoid</thinkTreeMain>
+      <baseBodySize>1</baseBodySize>
+      <mechWeightClass>Light</mechWeightClass>
+    </race>
+    <butcherProducts>
+      <Plasteel>25</Plasteel>
+    </butcherProducts>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
+      <li Class="ModExtention.CompProperties_DisableFeral" />
+      <li Class="ProtossMech.CompProperties_OfflineWorking" />
+    </comps>
+
+  </ThingDef>
+
+  <PawnKindDef Name="ProtossMechanoidKind" ParentName="BaseMechanoidKind" Abstract="True">
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <weaponMoney>9999~9999</weaponMoney>
+    <combatPower>42</combatPower>
+    <weaponTags></weaponTags>
+    <destroyGearOnDrop>false</destroyGearOnDrop>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <controlGroupPortraitZoom>1.8</controlGroupPortraitZoom>
+    <allowInMechClusters>false</allowInMechClusters>
+  </PawnKindDef>
+
+  <PawnKindDef Name="NonCombatProtossMechanoidKind" ParentName="ProtossMechanoidKind" Abstract="True">
+    <isFighter>false</isFighter>
+  </PawnKindDef>
+
+</Defs>

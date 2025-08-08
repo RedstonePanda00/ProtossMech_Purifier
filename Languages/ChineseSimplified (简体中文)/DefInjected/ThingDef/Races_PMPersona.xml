@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Probius -->
+  <Persona_Probius.label>普罗比斯</Persona_Probius.label>
+  <!-- EN: Persona Hero Probius, he is ready for a new advanture. -->
+  <Persona_Probius.description>英雄人格：普罗比斯，他已经准备好面对新的冒险。</Persona_Probius.description>
+  <!-- EN: head -->
+  <Persona_Probius.tools.head.label>普罗比斯头</Persona_Probius.tools.head.label>
+  <!-- EN: torso -->
+  <Persona_Probius.tools.torso.label>普罗比斯躯干</Persona_Probius.tools.torso.label>
+  <!-- EN: left hand -->
+  <Persona_Probius.tools.left_hand.label>普罗比斯左手</Persona_Probius.tools.left_hand.label>
+  <!-- EN: right hand -->
+  <Persona_Probius.tools.right_hand.label>普罗比斯右手</Persona_Probius.tools.right_hand.label>
+  
+</LanguageData>

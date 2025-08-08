@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Purifier colossus -->
+  <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
+  <!-- EN: As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse. -->
+  <PMP_ColossusPrototype.description>作为首批投入大规模生产的原型机，净化者巨像不同于当前的简化型号，它拥有完整的合成人格核心、中子装甲、重构无人机群和硬化护盾。它装备的原型热能长矛可以投射高能等离子流，在点燃地面的同时蒸发目标。如果你在战场上看见他们作为你的敌人出现，你需要做的只有放下武器，然后向你的神祈祷。</PMP_ColossusPrototype.description>
+  <!-- EN: head -->
+  <PMP_ColossusPrototype.tools.head.label>巨像头部</PMP_ColossusPrototype.tools.head.label>
+  
+  <!-- EN: Disruptor -->
+  <PMP_Disruptor.label>干扰者</PMP_Disruptor.label>
+  <!-- EN: The disruptor is a protoss ground mechanized heavy artillery unit that deals high area damage. -->
+  <PMP_Disruptor.description>干扰者是一种星灵重型攻城单位，它能够释放净化新星，对范围内的敌人造成毁灭性的伤害。</PMP_Disruptor.description>
+  <!-- EN: head -->
+  <PMP_Disruptor.tools.head.label>干扰者核心</PMP_Disruptor.tools.head.label>
+  <!-- EN: torso -->
+  <PMP_Disruptor.tools.torso.label>干扰者壳</PMP_Disruptor.tools.torso.label>
+  
+  <!-- EN: PurifierImmortal -->
+  <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
+  <!-- EN: The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be rapidly reassembled by reconstruction drones swarms. -->
+  <PMP_PurifierImmortal.description>净化者不朽者使用两门相位穿震炮，这种特殊的武器能够穿透那些最硬的装甲，正如他们的卡莱原型一样，净化者不朽者装备了刚毅护盾，一种可以将所有来袭的攻击削弱至可接受范围的特殊硬化护盾。同时，净化者版本换装了G型合金，一种致密的中子材料，驾驶舱节省下来的空间也支持他装备功率更大的护盾发生器。</PMP_PurifierImmortal.description>
+  <!-- EN: head -->
+  <PMP_PurifierImmortal.tools.head.label>不朽者头部</PMP_PurifierImmortal.tools.head.label>
+  
+</LanguageData>

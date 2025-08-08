@@ -21,4 +21,29 @@
   <!-- EN: A light-distorting field renders this unit invisible to the naked eye. -->
   <PMP_DisruptorInvisibility.description>该单位被光线扭曲力场保护着，肉眼无法看见。</PMP_DisruptorInvisibility.description>
   
+  <!-- EN: Helper assistant -->
+  <PMP_HelperAssist.label>服务机辅助</PMP_HelperAssist.label>
+  <!-- EN: Servitor Drone is assisting with this mechanitor's work. -->
+  <PMP_HelperAssist.description>服务机正在协助这位机械师的工作。</PMP_HelperAssist.description>
+  <!-- EN: x1 -->
+  <PMP_HelperAssist.stages.x1.label>TODO</PMP_HelperAssist.stages.x1.label>
+  <!-- EN: x2 -->
+  <PMP_HelperAssist.stages.x2.label>TODO</PMP_HelperAssist.stages.x2.label>
+  <!-- EN: x3 -->
+  <PMP_HelperAssist.stages.x3.label>TODO</PMP_HelperAssist.stages.x3.label>
+  <!-- EN: x4 -->
+  <PMP_HelperAssist.stages.x4.label>TODO</PMP_HelperAssist.stages.x4.label>
+  <!-- EN: x5 -->
+  <PMP_HelperAssist.stages.x5.label>TODO</PMP_HelperAssist.stages.x5.label>
+  <!-- EN: x6 -->
+  <PMP_HelperAssist.stages.x6.label>TODO</PMP_HelperAssist.stages.x6.label>
+  <!-- EN: x7 -->
+  <PMP_HelperAssist.stages.x7.label>TODO</PMP_HelperAssist.stages.x7.label>
+  <!-- EN: x8 -->
+  <PMP_HelperAssist.stages.x8.label>TODO</PMP_HelperAssist.stages.x8.label>
+  <!-- EN: x9 -->
+  <PMP_HelperAssist.stages.x9.label>TODO</PMP_HelperAssist.stages.x9.label>
+  <!-- EN: x10 -->
+  <PMP_HelperAssist.stages.x10.label>TODO</PMP_HelperAssist.stages.x10.label>
+  
 </LanguageData>

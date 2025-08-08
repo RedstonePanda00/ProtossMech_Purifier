@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Legionnaire -->
+  <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
+  <!-- EN: Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars. -->
+  <PMP_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们，他们被下载到这个由中子材料制成的机械躯体中，这样他们就可以继续作为圣堂武士服役。日复一日，万世长存。</PMP_Legionnaire.description>
+  <!-- EN: head -->
+  <PMP_Legionnaire.tools.head.label>机械星灵头部</PMP_Legionnaire.tools.head.label>
+  <!-- EN: left Energy Blade -->
+  <PMP_Legionnaire.tools.left_Energy_Blade.label>左臂能量刃</PMP_Legionnaire.tools.left_Energy_Blade.label>
+  <!-- EN: right Energy Blade -->
+  <PMP_Legionnaire.tools.right_Energy_Blade.label>右臂能量刃</PMP_Legionnaire.tools.right_Energy_Blade.label>
+  
+  <!-- EN: Sentinel -->
+  <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+  <!-- EN: The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones. -->
+  <PMP_Sentinel.description>警戒者源自净化者计划的一个分支，采用正电子人工智能作为数字神经模式传输的道德替代方案。即使被摧毁，它们也能被重建无人机迅速重组。</PMP_Sentinel.description>
+  <!-- EN: head -->
+  <PMP_Sentinel.tools.head.label>机械星灵头部</PMP_Sentinel.tools.head.label>
+  <!-- EN: left Energy Blade -->
+  <PMP_Sentinel.tools.left_Energy_Blade.label>左臂能量刃</PMP_Sentinel.tools.left_Energy_Blade.label>
+  <!-- EN: right Energy Blade -->
+  <PMP_Sentinel.tools.right_Energy_Blade.label>右臂能量刃</PMP_Sentinel.tools.right_Energy_Blade.label>
+  
+</LanguageData>

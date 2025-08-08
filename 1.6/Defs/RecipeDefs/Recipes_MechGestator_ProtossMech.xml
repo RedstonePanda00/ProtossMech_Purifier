@@ -319,6 +319,39 @@
         </descriptionHyperlinks>
     </RecipeDef>
 
+    <!-- Servitor Drone -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PMP_GenServitor</defName>
+        <label>gestate Protoss Servitor mech</label>
+        <description>Gestate an Protoss Servitor mechanoid.</description>
+        <gestationCycles>1</gestationCycles>
+        <researchPrerequisite>CivilianProtossMechanoid</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Servitor>1</PMP_Servitor>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Servitor</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
     <!-- Resurrection -->
 
     <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
@@ -350,6 +383,7 @@
                 <li>Corpse_PMP_Sentinel</li>
                 <li>Corpse_PMP_Energizer</li>
                 <li>Corpse_PMP_FellowProbe</li>
+                <li>Corpse_PMP_Servitor</li>
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>

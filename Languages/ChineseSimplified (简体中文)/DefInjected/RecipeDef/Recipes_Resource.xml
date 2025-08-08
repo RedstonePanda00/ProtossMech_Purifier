@@ -29,4 +29,11 @@
   <!-- EN: Making Subcore High. -->
   <Make_SubcoreHigh.jobString>编译高级次生核心。</Make_SubcoreHigh.jobString>
   
+  <!-- EN: make Techprof Subpersona Core -->
+  <PMPMake_TechprofSubpersonaCore.label>编译科技核心</PMPMake_TechprofSubpersonaCore.label>
+  <!-- EN: Make Techprof Subpersona Core. -->
+  <PMPMake_TechprofSubpersonaCore.description>编译科技核心。</PMPMake_TechprofSubpersonaCore.description>
+  <!-- EN: Making Techprof Subpersona Core. -->
+  <PMPMake_TechprofSubpersonaCore.jobString>编译科技核心。</PMPMake_TechprofSubpersonaCore.jobString>
+  
 </LanguageData>

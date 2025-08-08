@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Purifier colossus -->
+  <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
+  
+  <!-- EN: Disruptor -->
+  <PMP_Disruptor.label>干扰者</PMP_Disruptor.label>
+  
+  <!-- EN: PurifierImmortal -->
+  <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
+  
+</LanguageData>

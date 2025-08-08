@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Probius -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>Persona_Probius</defName>
+    <label>Probius</label>
+    <description>Persona Hero Probius, he is ready for a new advanture.</description>
+    <statBases>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <WorkSpeedGlobal>4.2</WorkSpeedGlobal>
+      <FoodPoisonChance>0</FoodPoisonChance>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>10.0</baseHealthScale>
+      <mechEnabledWorkTypes>
+        <li>Construction</li>
+        <li>Mining</li>
+        <li>Hauling</li>
+        <li>Crafting</li>
+        <li>Smithing</li>
+        <li>Tailoring</li>
+        <li>Cooking</li>
+        <li>Research</li>
+        <li>PlantCutting</li>
+        <li>Growing</li>
+        <li>Cleaning</li>
+        <li>Doctor</li>
+      </mechEnabledWorkTypes>
+      <mechWorkTypePriorities>
+        <Construction>2</Construction>
+        <Mining>2</Mining>
+        <Hauling>3</Hauling>
+        <Crafting>2</Crafting>
+        <Smithing>1</Smithing>
+        <Tailoring>2</Tailoring>
+        <Cooking>1</Cooking>
+        <PlantCutting>3</PlantCutting>
+        <Growing>3</Growing>
+        <Cleaning>4</Cleaning>
+        <Doctor>1</Doctor>
+      </mechWorkTypePriorities>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>torso</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1</cooldownTime>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+      <li>
+        <label>right hand</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>200</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+        <HardenedShields>false</HardenedShields>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>42</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
+    <defName>Persona_Probius</defName>
+    <label>Probius</label>
+    <race>Persona_Probius</race>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Probius</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>MechCharge</li>
+      <li>Warp_Pylon</li>
+      <li>Warp_Photon</li>
+      <li>OverchargeAllPylons</li>
+    </abilities>
+  </PawnKindDef>
+</Defs>

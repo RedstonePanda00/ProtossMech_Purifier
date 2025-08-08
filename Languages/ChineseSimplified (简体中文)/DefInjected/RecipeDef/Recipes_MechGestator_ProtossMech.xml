@@ -29,6 +29,13 @@
   <!-- EN: Gestating mech. -->
   <PMP_GenDisruptor.jobString>建造机械体</PMP_GenDisruptor.jobString>
   
+  <!-- EN: gestate Protoss Servitor mech -->
+  <PMP_GenServitor.label>制造服务机</PMP_GenServitor.label>
+  <!-- EN: Gestate an Protoss Servitor mechanoid. -->
+  <PMP_GenServitor.description>建造服务机。</PMP_GenServitor.description>
+  <!-- EN: Gestating mech. -->
+  <PMP_GenServitor.jobString>建造机械体</PMP_GenServitor.jobString>
+  
   <!-- EN: gestate Protoss Probe mech -->
   <Probe.label>建造探机</Probe.label>
   <!-- EN: Gestate an Protoss Probe mechanoid. -->

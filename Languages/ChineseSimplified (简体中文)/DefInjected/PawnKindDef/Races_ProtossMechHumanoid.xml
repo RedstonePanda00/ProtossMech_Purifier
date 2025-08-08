@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Legionnaire -->
+  <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
+  
+  <!-- EN: Sentinel -->
+  <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+  
+</LanguageData>

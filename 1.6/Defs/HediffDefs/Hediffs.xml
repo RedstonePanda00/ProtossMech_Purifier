@@ -84,4 +84,85 @@
         </comps>
     </HediffDef>
 
+    <HediffDef>
+        <defName>PMP_HelperAssist</defName>
+        <label>Helper assistant</label>
+        <description>Servitor Drone is assisting with this mechanitor's work.</description>
+        <hediffClass>ProtossMech.Hediff_PMP_HelperAssist</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <minSeverity>1</minSeverity>
+                <label>x1</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>2</minSeverity>
+                <label>x2</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>3</minSeverity>
+                <label>x3</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.30</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>4</minSeverity>
+                <label>x4</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>5</minSeverity>
+                <label>x5</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>6</minSeverity>
+                <label>x6</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.60</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>7</minSeverity>
+                <label>x7</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.70</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>8</minSeverity>
+                <label>x8</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.80</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>9</minSeverity>
+                <label>x9</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.90</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>10</minSeverity>
+                <label>x10</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>1.00</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
 </Defs>

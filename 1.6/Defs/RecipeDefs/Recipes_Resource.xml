@@ -193,4 +193,59 @@
         <displayPriority>10</displayPriority>
     </RecipeDef>
 
+    <!-- Techprof subpersona core -->
+     <RecipeDef>
+        <defName>PMPMake_TechprofSubpersonaCore</defName>
+        <label>make Techprof Subpersona Core</label>
+        <description>Make Techprof Subpersona Core.</description>
+        <jobString>Making Techprof Subpersona Core.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>10000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FuelTypeG</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ComponentSpacer</li>
+                <li>Plasteel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <TechprofSubpersonaCore>1</TechprofSubpersonaCore>
+        </products>
+        <researchPrerequisite>SyntheticPersonalityMatrix</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>15</Crafting>
+            <Intellectual>15</Intellectual>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <displayPriority>10</displayPriority>
+    </RecipeDef>
+
 </Defs>
