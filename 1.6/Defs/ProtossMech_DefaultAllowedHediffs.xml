@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.DefaultAllowedHediffsDef>
+        <defName>ProtossMech_DefaultWhitelist</defName>
+
+        <hediffs>
+            <li>Hediff_TemporalSurge</li>
+            <li>Hediff_Reconstruct</li>
+            <li>Hediff_Charging</li>
+            <li>PMP_DisruptorInvisibility</li>
+        </hediffs>
+    </ProtossMech.DefaultAllowedHediffsDef>
+
+</Defs>
