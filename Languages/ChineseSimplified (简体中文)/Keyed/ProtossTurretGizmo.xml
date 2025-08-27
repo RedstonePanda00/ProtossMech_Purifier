@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech_Gizmo_ForceAttack_Label>强制攻击</ProtossMech_Gizmo_ForceAttack_Label>
+  <ProtossMech_Gizmo_ForceAttack_Desc>命令所有炮塔攻击一个指定目标。</ProtossMech_Gizmo_ForceAttack_Desc>
+
+  <ProtossMech_Gizmo_CancelForceAttack_Label>取消强制攻击</ProtossMech_Gizmo_CancelForceAttack_Label>
+  <ProtossMech_Gizmo_CancelForceAttack_Desc>取消强制攻击指令并恢复自动索敌。</ProtossMech_Gizmo_CancelForceAttack_Desc>
+
+</LanguageData>

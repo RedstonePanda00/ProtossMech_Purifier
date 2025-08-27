@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech_Gizmo_ForceAttack_Label>Force Attack</ProtossMech_Gizmo_ForceAttack_Label>
+  <ProtossMech_Gizmo_ForceAttack_Desc>Command all turrets to attack a specific target.</ProtossMech_Gizmo_ForceAttack_Desc>
+
+  <ProtossMech_Gizmo_CancelForceAttack_Label>Cancel Force Attack</ProtossMech_Gizmo_CancelForceAttack_Label>
+  <ProtossMech_Gizmo_CancelForceAttack_Desc>Cancel the force attack command and resume auto-targeting.</ProtossMech_Gizmo_CancelForceAttack_Desc>
+
+</LanguageData>
