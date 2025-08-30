@@ -43,6 +43,9 @@
       <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
       <li Class="ModExtention.CompProperties_DisableFeral" />
       <li Class="ProtossMech.CompProperties_OfflineWorking" />
+      <li Class="ProtossMech.CompProperties_ImmuneToMentalBreak">
+        <virtueHediff>PMP_PrideOfTemplar</virtueHediff>
+      </li>
     </comps>
 
   </ThingDef>

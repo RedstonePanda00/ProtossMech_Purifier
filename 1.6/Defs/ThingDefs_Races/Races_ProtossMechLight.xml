@@ -252,7 +252,7 @@
     <statBases>
       <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-      <FoodPoisonChance>0.001</FoodPoisonChance>
+      <FoodPoisonChance>0</FoodPoisonChance>
     </statBases>
     <race>
       <body>PMP_ProbeBody</body>

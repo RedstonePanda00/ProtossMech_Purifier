@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <ProtossMech.Message.MentalBreakResisted>{PAWN_nameDef}抵抗了一次精神崩溃，并获得了[{1}]!</ProtossMech.Message.MentalBreakResisted>
+  <ProtossMech.Fleck.Resisted>抵抗</ProtossMech.Fleck.Resisted>
+</LanguageData>

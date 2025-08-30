@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ProtossMech.Message.MentalBreakResisted>{PAWN_nameDef} has resisted a mental break, gaining {1}!</ProtossMech.Message.MentalBreakResisted>
+
+  <ProtossMech.Fleck.Resisted>Resisted</ProtossMech.Fleck.Resisted>
+
+</LanguageData>

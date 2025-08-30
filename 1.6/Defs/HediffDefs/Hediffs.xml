@@ -165,4 +165,32 @@
         </stages>
     </HediffDef>
 
+    <HediffDef>
+        <defName>PMP_PrideOfTemplar</defName>
+        <label>Pride of the Templar</label>
+        <description>placeholder</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.8, 0.6, 0.2)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>60000</disappearsAfterTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>activate</label>
+                <statOffsets>
+                    <PainShockThreshold>0.1</PainShockThreshold>
+                </statOffsets>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.1</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
 </Defs>
