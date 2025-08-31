@@ -78,6 +78,7 @@
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <verbProperties>
             <verbClass>Verb_CastAbilityJump</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
             <label>jump</label>
             <violent>false</violent>
             <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
@@ -219,6 +220,7 @@
 
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
             <warmupTime>0</warmupTime>
             <range>30.0</range>
             <targetParams>

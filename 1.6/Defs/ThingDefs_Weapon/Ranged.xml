@@ -113,7 +113,7 @@
     <verbs>
       <li>
         <verbClass>ProtossMech.Verb_AntiArmor</verbClass>
-        <warmupTime>1.0</warmupTime>
+        <warmupTime>0</warmupTime>
         <burstShotCount>1</burstShotCount>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_NeedleGun</defaultProjectile>

@@ -46,4 +46,11 @@
   <!-- EN: x10 -->
   <PMP_HelperAssist.stages.x10.label>TODO</PMP_HelperAssist.stages.x10.label>
   
+  <!-- EN: Pride of the Templar -->
+  <PMP_PrideOfTemplar.label>圣堂之怒</PMP_PrideOfTemplar.label>
+  <!-- EN: I Fight for my people, fears can not defeat me. -->
+  <PMP_PrideOfTemplar.description>我为殖民地和人民而战，恐惧无法打倒我。</PMP_PrideOfTemplar.description>
+  <!-- EN: activate -->
+  <PMP_PrideOfTemplar.stages.activate.label>生效中</PMP_PrideOfTemplar.stages.activate.label>
+  
 </LanguageData>
