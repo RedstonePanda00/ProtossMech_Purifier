@@ -33,8 +33,8 @@
     <label>Alloy TypeG Omega</label>
     <description>G-type omega alloy is a neutron armor material developed by the Purifier Project that can stop almost any attack, but one of its fatal drawbacks is that its wearer is generally not as strong as it could be.</description>
     <graphicData>
-            <texPath>Things/Resource/NeutronMaterial</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+        <texPath>Things/Resource/NeutronMaterial</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -81,5 +81,3 @@
   </ThingDef>
 
 </Defs>
-
-
