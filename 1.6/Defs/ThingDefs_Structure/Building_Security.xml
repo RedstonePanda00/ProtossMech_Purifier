@@ -23,7 +23,7 @@
     <rotatable>false</rotatable>
     <size>(2,2)</size>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>5000</WorkToBuild>
       <Mass>40</Mass>
@@ -80,7 +80,7 @@
       <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
     </building>
     <researchPrerequisites>
-      <li>ProtossEngineeringFundamentals</li>
+      <li>PM_Fundamentals</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -92,7 +92,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>ElectricalBurn</damageDef>
+      <damageDef>Bullet</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <speed>88</speed>
       <armorPenetrationBase>0.3</armorPenetrationBase>
@@ -156,7 +156,7 @@
     <rotatable>false</rotatable>
     <size>(3,3)</size>
     <statBases>
-      <MaxHitPoints>400</MaxHitPoints>
+      <MaxHitPoints>600</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>15000</WorkToBuild>
       <Mass>100</Mass>
@@ -194,7 +194,7 @@
     </statBases>
     <costList>
       <Plasteel>250</Plasteel>
-      <FuelTypeG>25</FuelTypeG>
+      <PM_Solarite>25</PM_Solarite>
     </costList>
     <comps>
       <li Class="ModExtention.CompProperties_RevealCloaked">
@@ -213,7 +213,7 @@
       <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
     </building>
     <researchPrerequisites>
-      <li>PositronicAI</li>
+      <li>PM_PositronicAI</li>
     </researchPrerequisites>
   </ThingDef>
 

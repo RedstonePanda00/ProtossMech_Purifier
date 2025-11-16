@@ -4,19 +4,18 @@
   <!-- EN: force-field wall -->
   <ForceFieldWall.label>力场墙</ForceFieldWall.label>
   
-  <!-- EN: Guardian Shield -->
-  <GuardianShieldUnit.label>守护者之盾护盾单位</GuardianShieldUnit.label>
-  <!-- EN: Guardian Shield Unit. -->
-  <GuardianShieldUnit.description>守护者之盾护盾单位。</GuardianShieldUnit.description>
-  <!-- EN: Burnout in -->
-  <GuardianShieldUnit.comps.CompDestroyAfterDelay.countdownLabel>燃烧殆尽</GuardianShieldUnit.comps.CompDestroyAfterDelay.countdownLabel>
-  
   <!-- EN: OverCharged Pylon Gun -->
   <Gun_OverchargePylon.label>超载水晶</Gun_OverchargePylon.label>
   <!-- EN: This Pylon is overcharged. -->
   <Gun_OverchargePylon.description>这座水晶塔正处于超载模式。</Gun_OverchargePylon.description>
   <!-- EN: OverCharged Pylon Gun -->
   <Gun_OverchargePylon.verbs.Verb_Shoot.label>光子过载武器</Gun_OverchargePylon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Mote -->
+  <Mote_OverchargedPylonlaser.label>超载水晶光束</Mote_OverchargedPylonlaser.label>
+  
+  <!-- EN: Overcharged Pylon laser -->
+  <PM_Bullet_OverchargedPylon.label>超载水晶光束</PM_Bullet_OverchargedPylon.label>
   
   <!-- EN: Overcharged Pylon -->
   <Pylon_OverCharged.label>水晶塔(光子过载)</Pylon_OverCharged.label>

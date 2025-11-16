@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: Fuel Type G -->
-  <FuelTypeG.label>G型立方</FuelTypeG.label>
-  <!-- EN: A specially designed cubic container for storing the enormous amount of energy produced by a fusion reaction. Normally, special equipment is used to harvest the energy from artificial stars, but fission weapons can be used to initiate the reaction if conditions do not allow it. -->
-  <FuelTypeG.description>一种特制的立方体容器,用于储存聚变反应产生的庞大能量.正常情况下需要使用特制设备从人造恒星中收集能量,但是在条件不允许的情况下也可以使用裂变武器起爆开始反应。</FuelTypeG.description>
+  <!-- EN: Adanium -->
+  <PM_Adanium.label>精金</PM_Adanium.label>
+  <!-- EN: An ultra-dense material developed by the Purifier Project as an evolution of neutron-compressed matter. Adanium boasts unparalleled resilience, capable of deflecting nearly any form of attack. However, its extreme mass and density make it exceptionally cumbersome, significantly slowing down anything constructed from it. -->
+  <PM_Adanium.description>一种源自净化者项目的超致密材料，在中子材料的基础上做出大胆的创新的产物。精金具有无与伦比的韧性，能够抵挡任何形式的攻击。然而，它的巨大质量和密度使得它异常笨重，组成的物体对使用者的负荷极大。</PM_Adanium.description>
   
-  <!-- EN: Alloy TypeG Omega -->
-  <NeutronMaterial.label>G型Ω合金</NeutronMaterial.label>
-  <!-- EN: G-type omega alloy is a neutron armor material developed by the Purifier Project that can stop almost any attack, but one of its fatal drawbacks is that its wearer is generally not as strong as it could be. -->
-  <NeutronMaterial.description>G型omega合金是一种净化者项目开发的中子装甲材料，几乎可以阻挡任何攻击，但它的一个致命缺点是，它的佩戴者一般来说并不像它一样坚固。</NeutronMaterial.description>
+  <!-- EN: Solarite -->
+  <PM_Solarite.label>太阳素</PM_Solarite.label>
+  <!-- EN: A hyper-condensed core of fusion energy, harvested directly from an artificial star and stabilized within a crystalline containment unit. Known as Solarite, this substance is the primary power source for advanced Purifier technology. While normally handled by sophisticated converters, the volatile reaction can be crudely initiated by a fission-level event in desperate situations. -->
+  <PM_Solarite.description>一种高度浓缩的聚变能量，直接从一颗燃烧的人造恒星中提取，并稳定在一个特制容器内。这种物质被称为太阳素，是大部分净化者机械的能量源。虽然通常由复杂的转换器处理，但在条件不允许的情况下，反应可以由裂变级事件粗略地启动以制造少量的太阳素。</PM_Solarite.description>
   
 </LanguageData>

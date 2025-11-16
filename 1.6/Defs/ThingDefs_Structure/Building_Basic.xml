@@ -25,18 +25,18 @@
         <designationCategory>Power</designationCategory>
         <uiOrder>3000</uiOrder>
         <statBases>
-            <MaxHitPoints>2000</MaxHitPoints>
+            <MaxHitPoints>4000</MaxHitPoints>
             <WorkToBuild>10000</WorkToBuild>
             <Flammability>0</Flammability>
             <Beauty>100</Beauty>
         </statBases>
         <size>(2,2)</size>
         <costList>
-            <FuelTypeG>100</FuelTypeG>
+            <PM_Solarite>100</PM_Solarite>
             <Plasteel>100</Plasteel>
         </costList>
         <researchPrerequisites>
-            <li>ProtossEngineeringFundamentals</li>
+            <li>PM_Fundamentals</li>
         </researchPrerequisites>
         <comps>
             <li Class="RimWorld.CompProperties_Power">
@@ -69,7 +69,7 @@
         <rotatable>true</rotatable>
         <pathCost>50</pathCost>
         <statBases>
-            <MaxHitPoints>3000</MaxHitPoints>
+            <MaxHitPoints>8000</MaxHitPoints>
             <WorkToBuild>10000</WorkToBuild>
             <Flammability>0</Flammability>
             <WorkTableWorkSpeedFactor>4.2</WorkTableWorkSpeedFactor>
@@ -97,6 +97,11 @@
         <recipes>
             <li>Make_ComponentIndustrial</li>
             <li>Make_ComponentSpacer</li>
+            <li>PM_Make_Solarite</li>
+			<li>PM_Make_Adanium</li>
+			<li>Make_SubcoreHigh</li>
+			<li>Make_AIPersonaCore</li>
+			<li>PMPMake_TechprofSubpersonaCore</li>
         </recipes>
         <graphicData>
             <texPath>Things/Structure/Forge</texPath>
@@ -120,7 +125,7 @@
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
         <researchPrerequisites>
-            <li>ThermonuclearFusion</li>
+            <li>PM_NuclearFusion</li>
         </researchPrerequisites>
     </ThingDef>
 

@@ -1,0 +1,7 @@
+<LanguageData>
+    <ProtossMech.AssignMechanitor>Assign Mechanitor</ProtossMech.AssignMechanitor>
+    <ProtossMech.AssignMechanitorDesc>Assign a mechanitor to control this unit. Requires available bandwidth.</ProtossMech.AssignMechanitorDesc>
+    <ProtossMech.NoMechanitorsFound>(No mechanitors available)</ProtossMech.NoMechanitorsFound>
+    <ProtossMech.MechanitorOption>{0} (Bandwidth: {1}/{2})</ProtossMech.MechanitorOption>
+    <ProtossMech.MechanitorOptionInsufficientBandwidth>{0} (Bandwidth: {1}/{2}) - Insufficient</ProtossMech.MechanitorOptionInsufficientBandwidth>
+</LanguageData>

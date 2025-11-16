@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<packageId>Redstone.ProtossMechanoids</packageId>
-	<name>ProtossMechPurifier</name>
-	<author>Redstone</author>
+	<packageId>RedstonePanda.ProtossMechCore</packageId>
+	<name>ProtossMech: Core</name>
+	<author>RedstonePanda</author>
 	<supportedVersions>
-		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
@@ -18,10 +17,16 @@
 			<displayName>Harmony</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>RedstonePanda.RedstonePandaLibrary</packageId>
+			<displayName>RedstonePandaLibrary</displayName>
+			<!-- <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl> -->
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld.Biotech</li>
+		<li>RedstonePanda.RedstonePandaLibrary</li>
 		<li>ceteam.combatextended</li>
 	</loadAfter>
 	<description>Protoss Mech Main.</description>

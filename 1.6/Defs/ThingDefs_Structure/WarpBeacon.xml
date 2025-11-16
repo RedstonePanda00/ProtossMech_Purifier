@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>PM_WarpBeaconUnit</defName>
+        <label>warp beacon</label>
+        <description>A temporary beacon that will warp in a unit.</description>
+        <thingClass>Building</thingClass>
+        <graphicData>
+            <texPath>Things/Structure/WarpBeacon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.0, 1.0)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <drawerType>RealtimeOnly</drawerType>
+        <selectable>true</selectable>
+        <tickerType>Normal</tickerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <passability>Impassable</passability>
+        <blockWind>false</blockWind>
+        <selectable>true</selectable>
+        <size>(1,1)</size>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <comps>
+            <li Class="ProtossMech.CompProperties_WarpIn">
+                <continuousFleck>Test_WarpInFleck</continuousFleck>
+                <fleckScale>1.0</fleckScale>
+                <fleckSpawnInterval>45</fleckSpawnInterval>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

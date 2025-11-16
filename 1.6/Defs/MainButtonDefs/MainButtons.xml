@@ -4,7 +4,7 @@
   <MainButtonDef>
     <defName>ProtossMech_Warp</defName>
     <label>Warp</label>
-    <description>Open the tab to select the unit you want to transport. You must place the unit in the energy field.</description>
+    <description>Open the tab to select the unit you want to Warp. You must place the unit in the energy field.</description>
 
     <workerClass>MainButtonWorker_ToggleTab</workerClass>
 

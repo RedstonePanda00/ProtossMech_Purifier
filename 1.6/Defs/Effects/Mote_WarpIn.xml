@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Test_WarpInFleck</defName>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.0</fadeInTime>
+        <solidTime>0.8</solidTime>
+        <fadeOutTime>0.03</fadeOutTime>
+        <graphicData>
+            <graphicClass>Graphic_FleckPulse</graphicClass>
+            <shaderType>TransparentAnimated</shaderType>
+            <texPath>Things/Structure/DropPodLightAnimatedA</texPath>
+            <drawSize>(8.0, 32.0)</drawSize>
+            <shaderParameters>
+                <_NumFrames>20</_NumFrames>
+                <_FramesPerSec>24</_FramesPerSec>
+            </shaderParameters>
+        </graphicData>
+    </FleckDef>
+</Defs>

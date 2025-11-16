@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <ProtossMech.InfoText>{0} @ {1}</ProtossMech.InfoText>
@@ -6,4 +6,17 @@
   <ProtossMech.WarpSuccess>{0} warp succeed.</ProtossMech.WarpSuccess>
   <ProtossMech.EnergyFieldRequired>You must place it in the energy field.</ProtossMech.EnergyFieldRequired>
 
+  <ProtossMech.TransportTab>Transport</ProtossMech.TransportTab>
+  <ProtossMech.ReinforceTab>Reinforce</ProtossMech.ReinforceTab>
+
+  <ProtossMech.ReinforcementLimitReached>Not Enough Resources for additional Warp Beacon.</ProtossMech.ReinforcementLimitReached>
+
+  <ProtossMech.NotEnoughResources>Not Enough Resources.</ProtossMech.NotEnoughResources>
+
+  <ProtossMech.WarpGateReady>Warp gate: Ready</ProtossMech.WarpGateReady>
+  <ProtossMech.WarpGateRecharging>Warp gate: Recharging ({0})</ProtossMech.WarpGateRecharging>
+  <ProtossMech.WarpGateCharges>Warp Gate Charges</ProtossMech.WarpGateCharges>
+  <ProtossMech.NoWarpGateCharge>No available warp gate charge.</ProtossMech.NoWarpGateCharge>
+
+  <ProtossMech.WarpingIn>Unit will warp in {0}.</ProtossMech.WarpingIn>
 </LanguageData>

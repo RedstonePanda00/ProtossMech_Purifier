@@ -23,13 +23,13 @@
   <!-- EN: Projects a 3x3 Force Field Wall structures. -->
   <MechForceFieldWall.description>投射一块3x3范围的力场屏障。</MechForceFieldWall.description>
   
-  <!-- EN: Guardian Shield -->
-  <MechGuardianShield.label>守护者之盾</MechGuardianShield.label>
-  <!-- EN: a portable shield generator, which can block projectile. -->
-  <MechGuardianShield.description>一个便携式的护盾投射器，可以拦截投射物。</MechGuardianShield.description>
-  
   <!-- EN: Overcharge All Pylons -->
   <OverchargeAllPylons.label>水晶塔超载</OverchargeAllPylons.label>
+  
+  <!-- EN: Guardian Shield -->
+  <PM_GuardianShield.label>守护者之盾</PM_GuardianShield.label>
+  <!-- EN: activate shield generator, which can block projectile. -->
+  <PM_GuardianShield.description>激活护盾投射器，可以拦截投射物。</PM_GuardianShield.description>
   
   <!-- EN: Barrier -->
   <PMP_RestoreShield.label>屏障</PMP_RestoreShield.label>

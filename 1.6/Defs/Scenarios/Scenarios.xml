@@ -39,7 +39,7 @@
                 <!-- Starting research -->
                 <li Class="ScenPart_StartingResearch">
                     <def>StartingResearch</def>
-                    <project>KhalaiForge</project>
+                    <project>PM_KhalaiMechAdvance</project>
                 </li>
 
                 <!-- Starting mechs -->
@@ -81,7 +81,7 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FuelTypeG</thingDef>
+                    <thingDef>PM_Solarite</thingDef>
                     <count>100</count>
                 </li>
 

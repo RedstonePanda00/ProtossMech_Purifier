@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ColossusPrototype -->
+  <PM_WarpColossusPrototype.label>净化者巨像</PM_WarpColossusPrototype.label>
+  <!-- EN: Warp in a ColossusPrototype. -->
+  <PM_WarpColossusPrototype.description>折跃一台净化者巨像。</PM_WarpColossusPrototype.description>
+  
+  <!-- EN: Disruptor -->
+  <PM_WarpDisruptor.label>干扰者</PM_WarpDisruptor.label>
+  <!-- EN: Warp in a Disruptor. -->
+  <PM_WarpDisruptor.description>折跃一台干扰者。</PM_WarpDisruptor.description>
+  
+  <!-- EN: Energizer -->
+  <PM_WarpEnergizer.label>激励者</PM_WarpEnergizer.label>
+  <!-- EN: Warp in a Energizer. -->
+  <PM_WarpEnergizer.description>折跃一台激励者。</PM_WarpEnergizer.description>
+  
+  <!-- EN: Legionnaire -->
+  <PM_WarpLegionnaire.label>军团士兵</PM_WarpLegionnaire.label>
+  <!-- EN: Warp in a Legionnaire. -->
+  <PM_WarpLegionnaire.description>折跃一位军团士兵。</PM_WarpLegionnaire.description>
+  
+  <!-- EN: Probe -->
+  <PM_WarpProbe.label>探机</PM_WarpProbe.label>
+  <!-- EN: Warp in a Probe. -->
+  <PM_WarpProbe.description>折跃一台探机。</PM_WarpProbe.description>
+  
+  <!-- EN: PurifierImmortal -->
+  <PM_WarpPurifierImmortal.label>净化者不朽者</PM_WarpPurifierImmortal.label>
+  <!-- EN: Warp in a PurifierImmortal. -->
+  <PM_WarpPurifierImmortal.description>折跃一位净化者阵营的不朽者。</PM_WarpPurifierImmortal.description>
+  
+  <!-- EN: Sentinel -->
+  <PM_WarpSentinel.label>警戒者</PM_WarpSentinel.label>
+  <!-- EN: Warp in a Sentinel. -->
+  <PM_WarpSentinel.description>折跃一台警戒者。</PM_WarpSentinel.description>
+  
+  <!-- EN: Sentry -->
+  <PM_WarpSentry.label>机械哨兵</PM_WarpSentry.label>
+  <!-- EN: Warp in a Sentry. -->
+  <PM_WarpSentry.description>折跃一台机械哨兵。</PM_WarpSentry.description>
+  
+  <!-- EN: Servitor -->
+  <PM_WarpServitor.label>服务机</PM_WarpServitor.label>
+  <!-- EN: Warp in a Servitor. -->
+  <PM_WarpServitor.description>折跃一架服务机。</PM_WarpServitor.description>
+  
+</LanguageData>

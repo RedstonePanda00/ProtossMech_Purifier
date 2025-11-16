@@ -8,26 +8,26 @@
   <!-- EN: Making AI PersonaCore. -->
   <Make_AIPersonaCore.jobString>编译AI人格核心。</Make_AIPersonaCore.jobString>
   
-  <!-- EN: make Fuel Type G -->
-  <Make_FuelTypeG.label>制作G型燃料</Make_FuelTypeG.label>
-  <!-- EN: Make an Fuel Type G. -->
-  <Make_FuelTypeG.description>制作G型燃料。</Make_FuelTypeG.description>
-  <!-- EN: Making Fuel Type G. -->
-  <Make_FuelTypeG.jobString>制作G型燃料。</Make_FuelTypeG.jobString>
-  
-  <!-- EN: make Alloy TypeG Omega -->
-  <Make_NeutronMaterial.label>制作G型合金</Make_NeutronMaterial.label>
-  <!-- EN: Make Alloy TypeG Omega. -->
-  <Make_NeutronMaterial.description>制作G型合金。</Make_NeutronMaterial.description>
-  <!-- EN: Making Alloy TypeG Omega. -->
-  <Make_NeutronMaterial.jobString>制作G型合金。</Make_NeutronMaterial.jobString>
-  
   <!-- EN: make Subcore High -->
   <Make_SubcoreHigh.label>编译高级次生核心</Make_SubcoreHigh.label>
   <!-- EN: Make Subcore High. -->
   <Make_SubcoreHigh.description>编译高级次生核心。</Make_SubcoreHigh.description>
   <!-- EN: Making Subcore High. -->
   <Make_SubcoreHigh.jobString>编译高级次生核心。</Make_SubcoreHigh.jobString>
+  
+  <!-- EN: make Adanium -->
+  <PM_Make_Adanium.label>制作精金</PM_Make_Adanium.label>
+  <!-- EN: Make Adanium. -->
+  <PM_Make_Adanium.description>制作精金。</PM_Make_Adanium.description>
+  <!-- EN: Making Adanium. -->
+  <PM_Make_Adanium.jobString>制作精金。</PM_Make_Adanium.jobString>
+  
+  <!-- EN: make Solarite -->
+  <PM_Make_Solarite.label>制作太阳素</PM_Make_Solarite.label>
+  <!-- EN: Make Solarite. -->
+  <PM_Make_Solarite.description>制作太阳素。</PM_Make_Solarite.description>
+  <!-- EN: Making Solarite. -->
+  <PM_Make_Solarite.jobString>制作太阳素。</PM_Make_Solarite.jobString>
   
   <!-- EN: make Techprof Subpersona Core -->
   <PMPMake_TechprofSubpersonaCore.label>编译科技核心</PMPMake_TechprofSubpersonaCore.label>

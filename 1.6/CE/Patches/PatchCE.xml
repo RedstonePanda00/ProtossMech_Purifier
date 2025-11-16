@@ -181,7 +181,7 @@
 				<RegenValue>5</RegenValue>
 				<Repairable>true</Repairable>
 				<RepairIngredients>
-					<FuelTypeG>5</FuelTypeG>
+					<PM_Solarite>5</PM_Solarite>
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>3000</RepairValue>
@@ -365,7 +365,7 @@
 				<RegenValue>5</RegenValue>
 				<Repairable>true</Repairable>
 				<RepairIngredients>
-					<FuelTypeG>5</FuelTypeG>
+					<PM_Solarite>5</PM_Solarite>
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>1500</RepairValue>
@@ -500,7 +500,7 @@
 				<RegenValue>5</RegenValue>
 				<Repairable>true</Repairable>
 				<RepairIngredients>
-					<FuelTypeG>5</FuelTypeG>
+					<PM_Solarite>5</PM_Solarite>
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>2500</RepairValue>
@@ -595,7 +595,7 @@
 				<RegenValue>5</RegenValue>
 				<Repairable>true</Repairable>
 				<RepairIngredients>
-					<FuelTypeG>5</FuelTypeG>
+					<PM_Solarite>5</PM_Solarite>
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>2000</RepairValue>
@@ -843,7 +843,7 @@
 				<RegenValue>5</RegenValue>
 				<Repairable>true</Repairable>
 				<RepairIngredients>
-					<FuelTypeG>5</FuelTypeG>
+					<PM_Solarite>5</PM_Solarite>
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>2000</RepairValue>

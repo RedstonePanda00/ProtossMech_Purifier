@@ -4,7 +4,7 @@
   <!-- EN: Legionnaire -->
   <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
   <!-- EN: Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars. -->
-  <PMP_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们，他们被下载到这个由中子材料制成的机械躯体中，这样他们就可以继续作为圣堂武士服役。日复一日，万世长存。</PMP_Legionnaire.description>
+  <PMP_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们。\n\n 净化者军团在组建后之后参加了无数残酷的战役，也包括了净化者大叛乱，一场让星灵帝国元气大伤，并且决心永久封存净化者的战役。\n\n 即便如此，他们依然是一群拥有万年丰富战斗经验的老兵，是非常有价值的战士。</PMP_Legionnaire.description>
   <!-- EN: head -->
   <PMP_Legionnaire.tools.head.label>机械星灵头部</PMP_Legionnaire.tools.head.label>
   <!-- EN: left Energy Blade -->

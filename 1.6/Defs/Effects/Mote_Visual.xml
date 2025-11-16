@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="MoteBase">
     <defName>PMPMote_DisruptorFrame</defName> 
-    <thingClass>ProtossMech.Mote_DisruptorFrame</thingClass> 
+    <thingClass>RsPandaLibrary.Mote_RotatedFrame</thingClass> 
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <mote>
       <solidTime>99999</solidTime>

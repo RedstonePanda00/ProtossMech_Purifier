@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!-- EN: Assign Mechanitor -->
+  <ProtossMech.AssignMechanitor>分配机械师</ProtossMech.AssignMechanitor>
+    <!-- EN: Assign a mechanitor to control this unit. Requires available bandwidth. -->
+  <ProtossMech.AssignMechanitorDesc>将该机械体分配到一个机械师，需要足够的带宽。</ProtossMech.AssignMechanitorDesc>
+    <!-- EN: (No mechanitors available) -->
+  <ProtossMech.NoMechanitorsFound>没有机械师。</ProtossMech.NoMechanitorsFound>
+    <!-- EN: {0} (Bandwidth: {1}/{2}) -->
+  <ProtossMech.MechanitorOption>{0} (机械带宽: {1}/{2})</ProtossMech.MechanitorOption>
+    <!-- EN: {0} (Bandwidth: {1}/{2}) - Insufficient -->
+  <ProtossMech.MechanitorOptionInsufficientBandwidth>{0} (机械带宽: {1}/{2}) - 不足</ProtossMech.MechanitorOptionInsufficientBandwidth>
+</LanguageData>

@@ -4,12 +4,18 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>PMP_Legionnaire</defName>
     <label>Legionnaire</label>
-    <description>Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars.</description>
+    <description>Legionnaires are among the earliest products of the Purifier Program. Their neural patterns were replicated from the consciousness of the greatest Templar warriors of antiquity. \n\n Following their activation, the Legionnaires participated in numerous brutal campaigns before their involvement in the Great Purifier Rebellion—a conflict that inflicted grievous losses upon the Protoss Empire and led to the indefinite deactivation of the entire Purifier Program. Despite this history, they remain invaluable soldiers, each possessing tens of thousands of years of combat experience.</description>
     <statBases>
       <BandwidthCost>3</BandwidthCost>
       <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
       <MoveSpeed>6.5</MoveSpeed>
+      <IncomingDamageFactor>0.5</IncomingDamageFactor>
+      <RangedCooldownFactor>0.5</RangedCooldownFactor>
+      <AimingDelayFactor>0.5</AimingDelayFactor>
+      <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
+      <ShootingAccuracyFactor_Medium>1.5</ShootingAccuracyFactor_Medium>
+      <ShootingAccuracyFactor_Long>1.5</ShootingAccuracyFactor_Long>
     </statBases>
     <race>
       <body>PMP_HumanoidBody</body>
@@ -18,6 +24,7 @@
         <li>Hauling</li>
         <li>Cleaning</li>
         <li>Hunting</li>
+        <li>Firefighter</li>
       </mechEnabledWorkTypes>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
@@ -34,7 +41,7 @@
       <baseHealthScale>5.0</baseHealthScale>
     </race>
     <butcherProducts>
-      <NeutronMaterial>100</NeutronMaterial>
+      <PM_Adanium>100</PM_Adanium>
     </butcherProducts>
 
     <tools>
@@ -72,7 +79,7 @@
         <cooldownTicks>3600</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
-      <li Class="ModExtention.CompProperties_EquippableMechanoid" />
+      <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
     </comps>
   </ThingDef>
 
@@ -115,6 +122,7 @@
         <li>Hauling</li>
         <li>Cleaning</li>
         <li>Hunting</li>
+        <li>Firefighter</li>
       </mechEnabledWorkTypes>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
@@ -169,7 +177,7 @@
         <cooldownTicks>3600</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
-      <li Class="ModExtention.CompProperties_EquippableMechanoid" />
+      <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
     </comps>
   </ThingDef>
 

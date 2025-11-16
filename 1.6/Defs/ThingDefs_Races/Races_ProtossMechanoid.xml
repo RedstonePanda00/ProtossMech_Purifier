@@ -5,7 +5,7 @@
       <MarketValue>1000</MarketValue>
       <PsychicSensitivity>0</PsychicSensitivity>
       <MoveSpeed>5</MoveSpeed>
-      <ControlTakingTime>30</ControlTakingTime>
+      <ControlTakingTime>0</ControlTakingTime>
       <BandwidthCost>1</BandwidthCost>
       <MechEnergyUsageFactor>0</MechEnergyUsageFactor>
       <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
@@ -40,10 +40,15 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
+      <li Class="RsPandaLibrary.CompProperties_IgnoreMechCommandRange" />
+      <li Class="RsPandaLibrary.CompProperties_RestoreMechEnergy">
+        <energyPerSecond>1</energyPerSecond>
+        <tickInterval>60</tickInterval>
+      </li>
+      <li Class="RsPandaLibrary.CompProperties_NeverDown" />
       <li Class="ModExtention.CompProperties_DisableFeral" />
       <li Class="ProtossMech.CompProperties_OfflineWorking" />
-      <li Class="ProtossMech.CompProperties_ImmuneToMentalBreak">
+      <li Class="RsPandaLibrary.CompProperties_ImmuneToMentalBreak">
         <virtueHediff>PMP_PrideOfTemplar</virtueHediff>
       </li>
     </comps>

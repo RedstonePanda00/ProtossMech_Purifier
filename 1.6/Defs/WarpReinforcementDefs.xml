@@ -1,0 +1,226 @@
+<Defs>
+    <!-- Khalai -->
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpProbe</defName>
+        <label>Probe</label>
+        <description>Warp in a Probe.</description>
+        <pawnDefName>PMP_Probe</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>Plasteel</thingDef>
+                <count>50</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>180</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_Fundamentals</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpSentinel</defName>
+        <label>Sentinel</label>
+        <description>Warp in a Sentinel.</description>
+        <pawnDefName>PMP_Sentinel</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>Plasteel</thingDef>
+                <count>150</count>
+            </li>
+            <li>
+                <thingDef>SubcoreHigh</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_SyntheticPersonality</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpSentry</defName>
+        <label>Sentry</label>
+        <description>Warp in a Sentry.</description>
+        <pawnDefName>PMP_Sentry</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>Plasteel</thingDef>
+                <count>50</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>100</count>
+            </li>
+            <li>
+                <thingDef>SubcoreHigh</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpEnergizer</defName>
+        <label>Energizer</label>
+        <description>Warp in a Energizer.</description>
+        <pawnDefName>PMP_Energizer</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>50</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>100</count>
+            </li>
+            <li>
+                <thingDef>SubcoreHigh</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_SyntheticPersonality</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpServitor</defName>
+        <label>Servitor</label>
+        <description>Warp in a Servitor.</description>
+        <pawnDefName>PMP_Servitor</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>Plasteel</thingDef>
+                <count>50</count>
+            </li>
+            <li>
+                <thingDef>ComponentSpacer</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>180</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_KhalaiMechStart</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <!-- Purifier -->
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpLegionnaire</defName>
+        <label>Legionnaire</label>
+        <description>Warp in a Legionnaire.</description>
+        <pawnDefName>PMP_Legionnaire</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>200</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_PurifierProject</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpPurifierImmortal</defName>
+        <label>PurifierImmortal</label>
+        <description>Warp in a PurifierImmortal.</description>
+        <pawnDefName>PMP_PurifierImmortal</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>250</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>100</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_PurifierProject</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpColossusPrototype</defName>
+        <label>ColossusPrototype</label>
+        <description>Warp in a ColossusPrototype.</description>
+        <pawnDefName>PMP_ColossusPrototype</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>300</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>200</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_PurifierProjectFinal</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpDisruptor</defName>
+        <label>Disruptor</label>
+        <description>Warp in a Disruptor.</description>
+        <pawnDefName>PMP_Disruptor</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>150</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>150</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_PurifierProjectFinal</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+</Defs>

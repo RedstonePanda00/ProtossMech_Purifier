@@ -2,10 +2,10 @@
 <Defs>
     <!-- Fuel TypeG -->
     <RecipeDef>
-        <defName>Make_FuelTypeG</defName>
-        <label>make Fuel Type G</label>
-        <description>Make an Fuel Type G.</description>
-        <jobString>Making Fuel Type G.</jobString>
+        <defName>PM_Make_Solarite</defName>
+        <label>make Solarite</label>
+        <description>Make Solarite.</description>
+        <jobString>Making Solarite.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
@@ -36,9 +36,9 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FuelTypeG>25</FuelTypeG>
+            <PM_Solarite>25</PM_Solarite>
         </products>
-        <researchPrerequisite>ThermonuclearFusion</researchPrerequisite>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
         <skillRequirements>
             <Crafting>10</Crafting>
         </skillRequirements>
@@ -48,10 +48,10 @@
 
     <!-- Neutron Material -->
     <RecipeDef>
-        <defName>Make_NeutronMaterial</defName>
-        <label>make Alloy TypeG Omega</label>
-        <description>Make Alloy TypeG Omega.</description>
-        <jobString>Making Alloy TypeG Omega.</jobString>
+        <defName>PM_Make_Adanium</defName>
+        <label>make Adanium</label>
+        <description>Make Adanium.</description>
+        <jobString>Making Adanium.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
@@ -61,7 +61,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>75</count>
@@ -77,14 +77,14 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FuelTypeG</li>
+                <li>PM_Solarite</li>
                 <li>Plasteel</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <NeutronMaterial>75</NeutronMaterial>
+            <PM_Adanium>75</PM_Adanium>
         </products>
-        <researchPrerequisite>PurifierProject</researchPrerequisite>
+        <researchPrerequisite>PM_PurifierProject</researchPrerequisite>
         <skillRequirements>
             <Crafting>10</Crafting>
         </skillRequirements>
@@ -130,7 +130,7 @@
         <products>
             <SubcoreHigh>1</SubcoreHigh>
         </products>
-        <researchPrerequisite>PositronicAI</researchPrerequisite>
+        <researchPrerequisite>PM_PositronicAI</researchPrerequisite>
         <skillRequirements>
             <Crafting>8</Crafting>
         </skillRequirements>
@@ -161,7 +161,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>25</count>
@@ -184,7 +184,7 @@
         <products>
             <AIPersonaCore>1</AIPersonaCore>
         </products>
-        <researchPrerequisite>SyntheticPersonalityMatrix</researchPrerequisite>
+        <researchPrerequisite>PM_SyntheticPersonality</researchPrerequisite>
         <skillRequirements>
             <Crafting>15</Crafting>
             <Intellectual>15</Intellectual>
@@ -216,7 +216,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>25</count>
@@ -239,7 +239,7 @@
         <products>
             <TechprofSubpersonaCore>1</TechprofSubpersonaCore>
         </products>
-        <researchPrerequisite>SyntheticPersonalityMatrix</researchPrerequisite>
+        <researchPrerequisite>PM_SyntheticPersonality</researchPrerequisite>
         <skillRequirements>
             <Crafting>15</Crafting>
             <Intellectual>15</Intellectual>

@@ -118,7 +118,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_NeedleGun</defaultProjectile>
         <range>44.9</range>
-        <soundCast>Shot_NeedleGun</soundCast>
+        <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>

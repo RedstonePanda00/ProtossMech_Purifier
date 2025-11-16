@@ -31,7 +31,7 @@
         <buildingDamageAmount>1500</buildingDamageAmount>
         <secondaryExplosionDelayTicks>60</secondaryExplosionDelayTicks>
       </li>
-      <li Class="ProtossMech.CompProperties_IgnoreMechanitorCommandRange" />
+      <li Class="RsPandaLibrary.CompProperties_IgnoreMechCommandRange" />
       <li Class="ModExtention.CompProperties_DisableFeral" />
     </comps>
     <butcherProducts>

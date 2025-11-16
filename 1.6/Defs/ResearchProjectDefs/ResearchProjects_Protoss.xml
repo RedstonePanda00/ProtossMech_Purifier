@@ -2,9 +2,9 @@
 <Defs>
 
     <ResearchProjectDef>
-        <defName>ProtossEngineeringFundamentals</defName>
+        <defName>PM_Fundamentals</defName>
         <label>Protoss Engineering Fundamentals</label>
-        <description>Research Protoss Engineering Fundamentals.</description>
+        <description>Study the foundational mathematics and physical theories behind Protoss design. Glimpse the ancient Golden Age of the Protoss Empire — a civilization that once conquered the entire universe with its unparalleled and awe-inspiring technology.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -32,14 +32,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>ThermonuclearFusion</defName>
+        <defName>PM_NuclearFusion</defName>
         <label>thermonuclear fusion</label>
-        <description>research thermonuclear fusion.</description>
+        <description>Advance the science of thermonuclear fusion — the controlled reaction that powers stars. This research focuses on achieving sustained energy output through magnetic confinement and quantum-stabilized plasma fields. Mastery of this technology not only enables efficient fusion reactors but also lays the foundation for the creation of an artificial sun — a stable, self-sustaining energy source once thought impossible.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>ProtossEngineeringFundamentals</li>
+            <li>PM_Fundamentals</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -59,14 +59,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>PositronicAI</defName>
+        <defName>PM_PositronicAI</defName>
         <label>Positronic AI</label>
-        <description>Research Positronic AI.</description>
+        <description>Explore the frontier of synthetic cognition through positronic neural architecture. This research focuses on developing artificial intelligence based on positron-driven quantum circuits that emulate biological synaptic behavior with near-perfect precision. Positronic AI represents a breakthrough in machine sentience — capable of independent reasoning, adaptive learning, and self-evolving logic structures.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>ThermonuclearFusion</li>
+            <li>PM_NuclearFusion</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -88,16 +88,16 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>SyntheticPersonalityMatrix</defName>
+        <defName>PM_SyntheticPersonality</defName>
         <label>Synthetic Personality Matrix</label>
-        <description>Research Synthetic Personality Matrix.</description>
+        <description>Develop the Synthetic Personality Matrix — an advanced cognitive framework that integrates emotional modeling, self-awareness algorithms, and adaptive behavioral logic into positronic intelligence. This system allows artificial minds to simulate genuine personality traits, form preferences, and evolve unique identities over time. It marks the convergence of neuroscience, quantum computation, and cognitive engineering — the birth of true artificial individuality.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <researchViewX>6.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <prerequisites>
-            <li>PositronicAI</li>
+            <li>PM_PositronicAI</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -115,16 +115,16 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>PurifierProject</defName>
+        <defName>PM_PurifierProject</defName>
         <label>Purifier Project</label>
-        <description>Research Purifier Project.</description>
+        <description>The Purifier Project stands as the Protoss's most audacious pursuit — the perfect fusion of flesh, spirit, and machine. Building upon breakthroughs in positronic cognition and synthetic personality matrices, this research achieves the complete transference of a sentient mind into a mechanized vessel. Each Purifier preserves the memories, instincts, and identity of their former self, yet is freed from the decay of organic existence. To the Protoss, this is not mere survival, but ascension — engineered immortality. Through this, our greatest templars shall serve the empire eternally, even when the last light of the stars fades into darkness.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <researchViewX>8.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <prerequisites>
-            <li>SyntheticPersonalityMatrix</li>
+            <li>PM_SyntheticPersonality</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -142,16 +142,16 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>EclipseAndApocalypse</defName>
+        <defName>PM_PurifierProjectFinal</defName>
         <label>Eclipse and Apocalypse</label>
-        <description>Take the most powerful war machine back to world.</description>
+        <description>"We are the Purifiers.  We were the spear of the Empire, the honourable Templar.  To better defend the Empire, we joined the Purifier Project, prepared to offer our eternal loyalty and service with honour.  Yet the High Conclave betrayed us—betrayed everyone.  We fought with honour, but they treated us as nothing more than machines.  So be it—let war come!  Let the universe boil, let the stars fall!  We gave them a chance, and they called it weakness.  Mercy is no more.  Traitors, the time has come to pay the price.  TIME IS TOO LATE, Organics." \n\n  —— Purifier Executor Clolarion</description>
         <tab>ProtossTech</tab>
         <baseCost>8000</baseCost>
         <techLevel>Ultra</techLevel>
         <researchViewX>10.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <prerequisites>
-            <li>PurifierProject</li>
+            <li>PM_PurifierProject</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -169,14 +169,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>CivilianProtossMechanoid</defName>
+        <defName>PM_KhalaiMechStart</defName>
         <label>Civilian Protoss Mechanoid</label>
-        <description>Research Civilian Protoss Mechanoid.</description>
+        <description>The foundation of Protoss mechanized engineering. This research applies Khalai mathematical models, quantum energy distribution, and psionic interface theory to construct efficient, non-combat mechanoids. These civilian constructs establish the baseline for all future Protoss mechanized advancements.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>ThermonuclearFusion</li>
+            <li>PM_NuclearFusion</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -196,14 +196,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>KhalaiForge</defName>
+        <defName>PM_KhalaiMechAdvance</defName>
         <label>Khalai Forge</label>
-        <description>Research Khalai Forge.</description>
+        <description>A research initiative grounded in Khalai precision and discipline. The Khalai Forge emphasizes advanced mathematics, quantum mechanics, and physical theory to refine mechanoid design. This project demonstrates the professional rigor of the Khalai Protoss, transforming abstract science into practical engineering marvels.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>CivilianProtossMechanoid</li>
+            <li>PM_KhalaiMechStart</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -223,14 +223,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>NerazimForge</defName>
+        <defName>PM_NerazimMechStart</defName>
         <label>Nerazim Forge</label>
-        <description>Research Nerazim Forge.</description>
+        <description>The Nerazim explores the convergence of psionic resonance, void energy manipulation, and material science. By bridging the immaterial and the physical, this research develops mechanoids capable of cloaking, phase-shifting, and harmonizing with the void itself. It is a synthesis of psychic discipline and technological innovation.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>CivilianProtossMechanoid</li>
+            <li>PM_KhalaiMechStart</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -250,14 +250,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>TaldarimForge</defName>
+        <defName>PM_TaldarimMechStart</defName>
         <label>Tal'darim Forge</label>
-        <description>Research Tal'darim Forge.</description>
+        <description>The tech of Tal'darim embodies ruthless adaptation rather than original innovation. Most of its technologies are appropriated or re-engineered from Khalai and Nerazim designs, reforged into brutal, high-output systems. This research reflects the Tal’darim creed: power above all, regardless of origin.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>CivilianProtossMechanoid</li>
+            <li>PM_KhalaiMechStart</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>

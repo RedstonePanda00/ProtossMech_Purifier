@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: warp beacon -->
+  <PM_WarpBeaconUnit.label>折跃信标</PM_WarpBeaconUnit.label>
+  <!-- EN: A temporary beacon that will warp in a unit. -->
+  <PM_WarpBeaconUnit.description>一个折跃信标，一个星灵单位正在折跃到信标位置。</PM_WarpBeaconUnit.description>
+  
+</LanguageData>

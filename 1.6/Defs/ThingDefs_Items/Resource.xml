@@ -1,40 +1,40 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef ParentName="ResourceBase">
-        <defName>FuelTypeG</defName>
-        <label>Fuel Type G</label>
-        <description>A specially designed cubic container for storing the enormous amount of energy produced by a fusion reaction. Normally, special equipment is used to harvest the energy from artificial stars, but fission weapons can be used to initiate the reaction if conditions do not allow it.</description>
-        <graphicData>
-            <texPath>Things/Resource/FuelTypeG</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <soundInteract>Metal_Drop</soundInteract>
-        <soundDrop>Standard_Drop</soundDrop>
-        <stackLimit>200</stackLimit>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <useHitPoints>false</useHitPoints>
-        <statBases>
-            <MarketValue>40</MarketValue>
-            <Mass>0.1</Mass>
-            <Flammability>0</Flammability>
-        </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
-        <allowedArchonexusCount>200</allowedArchonexusCount>
-    </ThingDef>
-
-    <ThingDef ParentName="ResourceBase">
-    <defName>NeutronMaterial</defName>
-    <label>Alloy TypeG Omega</label>
-    <description>G-type omega alloy is a neutron armor material developed by the Purifier Project that can stop almost any attack, but one of its fatal drawbacks is that its wearer is generally not as strong as it could be.</description>
+  <ThingDef ParentName="ResourceBase">
+    <defName>PM_Solarite</defName>
+    <label>Solarite</label>
+    <description>A hyper-condensed core of fusion energy, harvested directly from an artificial star and stabilized within a crystalline containment unit. Known as Solarite, this substance is the primary power source for advanced Purifier technology. While normally handled by sophisticated converters, the volatile reaction can be crudely initiated by a fission-level event in desperate situations.</description>
     <graphicData>
-        <texPath>Things/Resource/NeutronMaterial</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Resource/Solarite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>200</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>40</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PM_Adanium</defName>
+    <label>Adanium</label>
+    <description>An ultra-dense material developed by the Purifier Project as an evolution of neutron-compressed matter. Adanium boasts unparalleled resilience, capable of deflecting nearly any form of attack. However, its extreme mass and density make it exceptionally cumbersome, significantly slowing down anything constructed from it.</description>
+    <graphicData>
+      <texPath>Things/Resource/Adanium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>

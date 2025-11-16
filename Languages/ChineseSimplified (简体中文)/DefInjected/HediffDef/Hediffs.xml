@@ -6,15 +6,26 @@
   <!-- EN: This unit is charging. -->
   <Hediff_Charging.description>这个单位正在冲锋。</Hediff_Charging.description>
   
-  <!-- EN: Reconstruct -->
+  <!-- EN: Reconstruct NanoMachine Swarm -->
   <Hediff_Reconstruct.label>重构冷却</Hediff_Reconstruct.label>
-  <!-- EN: This pawn just Reconstructed, the drone need some time to recharge. -->
+  <!-- EN: This pawn just got reconstructed—its body's still made up of active nanomachines, so no matter how beat up it gets, it heals super fast. -->
   <Hediff_Reconstruct.description>这个单位刚进行过一次重构，无人机需要一段时间重新充能。</Hediff_Reconstruct.description>
   
   <!-- EN: temporal surge -->
   <Hediff_TemporalSurge.label>时空光束</Hediff_TemporalSurge.label>
   <!-- EN: The pawn is moving and working at hyperspeed. Time flows rapidly around them, accelerating all processes—including aging. -->
   <Hediff_TemporalSurge.description>这个单位的时间流逝的更快，使得他们的工作和移动速度都大幅提升，也包括衰老速度。</Hediff_TemporalSurge.description>
+  
+   <!-- EN: Floating -->
+  <PM_Floating.label>逆重悬浮</PM_Floating.label>
+  <!-- EN: This unit is floating with its anti-gravity core. -->
+  <PM_Floating.description>这个单位正在使用它的反重力核心悬浮。</PM_Floating.description>
+  
+  <!-- EN: guardian shield active -->
+  <PM_Hediff_GuardianShieldActive.label>守护者之盾激活</PM_Hediff_GuardianShieldActive.label>
+  <!-- EN: This mechanoid is activated its shield component. -->
+  <PM_Hediff_GuardianShieldActive.description>这个机械体已激活其护盾组件。</PM_Hediff_GuardianShieldActive.description>
+
   
   <!-- EN: DisruptorInvisibility -->
   <PMP_DisruptorInvisibility.label>干扰者隐形</PMP_DisruptorInvisibility.label>
@@ -49,7 +60,7 @@
   <!-- EN: Pride of the Templar -->
   <PMP_PrideOfTemplar.label>圣堂之怒</PMP_PrideOfTemplar.label>
   <!-- EN: I Fight for my people, fears can not defeat me. -->
-  <PMP_PrideOfTemplar.description>我为殖民地和人民而战，恐惧无法打倒我。</PMP_PrideOfTemplar.description>
+  <PMP_PrideOfTemplar.description>我正投身荣耀的战斗，恐惧无法打倒我。</PMP_PrideOfTemplar.description>
   <!-- EN: activate -->
   <PMP_PrideOfTemplar.stages.activate.label>生效中</PMP_PrideOfTemplar.stages.activate.label>
   

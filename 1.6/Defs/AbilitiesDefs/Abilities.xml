@@ -9,35 +9,59 @@
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+
         <verbProperties>
-            <verbClass>ProtossMech.Verb_CastAbilityPlaceForceFieldWall</verbClass>
+            <verbClass>Verb_CastAbility</verbClass>
             <warmupTime>0.5</warmupTime>
             <range>20</range>
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
-                <canTargetPawns>false</canTargetPawns>
-                <canTargetBuildings>false</canTargetBuildings>
             </targetParams>
         </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_PlacingBuilding">
+                <thingToSpawn>ForceFieldWall</thingToSpawn>
+                <pattern>
+                    <li>(-1, -1)</li>
+                    <li>(0, -1)</li>
+                    <li>(1, -1)</li>
+                    <li>(-1, 0)</li>
+                    <li>(0, 0)</li>
+                    <li>(1, 0)</li>
+                    <li>(-1, 1)</li>
+                    <li>(0, 1)</li>
+                    <li>(1, 1)</li>
+                </pattern>
+                <fleckDefOnSpawn>DustPuffThick</fleckDefOnSpawn>
+            </li>
+        </comps>
     </AbilityDef>
 
     <AbilityDef>
-        <defName>MechGuardianShield</defName>
+        <defName>PM_GuardianShield</defName>
         <label>Guardian Shield</label>
-        <description>a portable shield generator, which can block projectile.</description>
+        <description>activate shield generator, which can block projectile.</description>
         <iconPath>Things/Abilities/Guardian_shield</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <targetRequired>false</targetRequired>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <verbProperties>
-            <verbClass>ProtossMech.Verb_CastAbilitySpawnBroadshield</verbClass>
-            <warmupTime>0.5</warmupTime>
-            <range>1</range>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
             <targetParams>
                 <canTargetSelf>true</canTargetSelf>
             </targetParams>
         </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ApplyHediff">
+                <targetType>Self</targetType>
+                <hediffDefNames>
+                    <li>PM_Hediff_GuardianShieldActive</li>
+                </hediffDefNames>
+            </li>
+        </comps>
     </AbilityDef>
 
     <AbilityDef>
@@ -49,23 +73,27 @@
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <verbProperties>
-            <verbClass>ProtossMech.Verb_ApplyHediff</verbClass>
+            <verbClass>Verb_CastAbility</verbClass>
             <range>30</range>
             <warmupTime>0.5</warmupTime>
+            <requireLineOfSight>false</requireLineOfSight>
             <targetParams>
                 <canTargetLocations>false</canTargetLocations>
                 <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>true</canTargetPawns>
             </targetParams>
         </verbProperties>
-        <modExtensions>
-            <li Class="ProtossMech.AbilityExtension_ApplyHediff">
-                <applyToAllInRadius>false</applyToAllInRadius>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ApplyHediff">
+                <targetType>Target</targetType>
+
                 <hediffDefNames>
                     <li>Hediff_TemporalSurge</li>
                 </hediffDefNames>
+
                 <projectileDefName>PMP_ChronoBeamProjectile</projectileDefName>
             </li>
-        </modExtensions>
+        </comps>
     </AbilityDef>
 
     <AbilityDef>
@@ -104,25 +132,25 @@
         <iconPath>Things/Abilities/Charge</iconPath>
         <cooldownTicksRange>1800</cooldownTicksRange>
         <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
         <targetRequired>false</targetRequired>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <verbProperties>
-            <verbClass>ProtossMech.Verb_ApplyHediff</verbClass>
-            <range>0.01</range>
+            <verbClass>Verb_CastAbility</verbClass>
             <warmupTime>0</warmupTime>
+            <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
             <targetParams>
-                <canTargetLocations>false</canTargetLocations>
                 <canTargetSelf>true</canTargetSelf>
             </targetParams>
         </verbProperties>
-        <modExtensions>
-            <li Class="ProtossMech.AbilityExtension_ApplyHediff">
-                <applyToAllInRadius>true</applyToAllInRadius>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ApplyHediff">
+                <targetType>Self</targetType>
                 <hediffDefNames>
                     <li>Hediff_Charging</li>
                 </hediffDefNames>
             </li>
-        </modExtensions>
+        </comps>
     </AbilityDef>
 
     <AbilityDef>
@@ -133,19 +161,18 @@
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <verbProperties>
-            <verbClass>ProtossMech.Verb_CastAbilityPlaceSingleBuilding</verbClass>
+            <verbClass>Verb_CastAbility</verbClass>
             <range>1</range>
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
-                <canTargetPawns>false</canTargetPawns>
-                <canTargetBuildings>false</canTargetBuildings>
             </targetParams>
         </verbProperties>
-        <modExtensions>
-            <li Class="ProtossMech.AbilityExtension_PlaceBuilding">
-                <def>WarpBeacon_Pylon</def>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_PlacingBuilding">
+                <thingToSpawn>WarpBeacon_Pylon</thingToSpawn>
             </li>
-        </modExtensions>
+        </comps>
     </AbilityDef>
 
     <AbilityDef>
@@ -155,20 +182,20 @@
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+
         <verbProperties>
-            <verbClass>ProtossMech.Verb_CastAbilityPlaceSingleBuilding</verbClass>
+            <verbClass>Verb_CastAbility</verbClass>
             <range>1</range>
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
-                <canTargetPawns>false</canTargetPawns>
-                <canTargetBuildings>false</canTargetBuildings>
             </targetParams>
         </verbProperties>
-        <modExtensions>
-            <li Class="ProtossMech.AbilityExtension_PlaceBuilding">
-                <def>WarpBeacon_Photon</def>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_PlacingBuilding">
+                <thingToSpawn>WarpBeacon_Photon</thingToSpawn>
             </li>
-        </modExtensions>
+        </comps>
     </AbilityDef>
 
     <AbilityDef>

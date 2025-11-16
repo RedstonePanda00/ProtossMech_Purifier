@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Warp Gate -->
+  <PM_WarpGate.label>折跃门</PM_WarpGate.label>
+  <!-- EN: A structure that provides a single charge for warping in reinforcements. The charge replenishes over time after being used. -->
+  <PM_WarpGate.description>一种用于扭曲时空节点，穿透空间的连续性，来进行一次远程折跃的建筑。每次折跃后，建筑需要重新充能。</PM_WarpGate.description>
+  
+  <!-- EN: Warp Robotics Facility -->
+  <PM_WarpRoboticsFacility.label>机械台折跃门</PM_WarpRoboticsFacility.label>
+  <!-- EN: A structure that provides a single charge for warping in reinforcements. The charge replenishes over time after being used. This one is used for warp Heavy War Machine. -->
+  <PM_WarpRoboticsFacility.description>一种用于扭曲时空节点，穿透空间的连续性，来进行一次远程折跃的建筑。每次折跃后，建筑需要重新充能。这种建筑是为了折跃那些超重型机械体而设计的。</PM_WarpRoboticsFacility.description>
+  
+</LanguageData>

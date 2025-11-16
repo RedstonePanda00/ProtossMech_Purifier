@@ -11,31 +11,62 @@
                 <disappearsAfterTicks>3600</disappearsAfterTicks>
                 <showRemainingTime>true</showRemainingTime>
             </li>
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
         </comps>
         <stages>
             <li>
                 <statFactors>
-                    <AimingDelayFactor>0.2</AimingDelayFactor>
-                    <MoveSpeed>4.0</MoveSpeed>
-                    <WorkSpeedGlobal>4.0</WorkSpeedGlobal>
+                    <AimingDelayFactor>0.67</AimingDelayFactor>
+                    <MoveSpeed>1.5</MoveSpeed>
+                    <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
                 </statFactors>
                 <statOffsets>
-                    <MeleeCooldownFactor>-0.8</MeleeCooldownFactor>
-                    <RangedCooldownFactor>-0.8</RangedCooldownFactor>
+                    <MeleeCooldownFactor>-0.37</MeleeCooldownFactor>
+                    <RangedCooldownFactor>-0.37</RangedCooldownFactor>
                 </statOffsets>
             </li>
         </stages>
     </HediffDef>
 
     <HediffDef>
+        <defName>PM_Floating</defName>
+        <label>Floating</label>
+        <description>This unit is floating with its anti-gravity core.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <defaultLabelColor>(0.6,0.8,0.6)</defaultLabelColor>
+        <comps>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
+        </comps>
+    </HediffDef>
+
+
+    <HediffDef>
+        <defName>PM_Hediff_GuardianShieldActive</defName>
+        <label>guardian shield active</label>
+        <description>This mechanoid is activated its shield component.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="ProtossMech.HediffCompProperties_ShieldControl" />
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>900</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
         <defName>Hediff_Reconstruct</defName>
-        <label>Reconstruct</label>
-        <description>This pawn just Reconstructed, the drone need some time to recharge.</description>
+        <label>Reconstruct NanoMachine Swarm</label>
+        <description>This pawn just got reconstructed—its body's still made up of active nanomachines, so no matter how beat up it gets, it heals super fast.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_Disappears">
-                <disappearsAfterTicks>600</disappearsAfterTicks>
+                <disappearsAfterTicks>300</disappearsAfterTicks>
                 <showRemainingTime>true</showRemainingTime>
             </li>
         </comps>
@@ -60,6 +91,7 @@
                 <disappearsAfterTicks>180</disappearsAfterTicks>
                 <showRemainingTime>true</showRemainingTime>
             </li>
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
         </comps>
         <stages>
             <li>

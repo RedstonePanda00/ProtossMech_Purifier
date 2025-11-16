@@ -4,7 +4,7 @@
   <!-- EN: Purifier colossus -->
   <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
   <!-- EN: As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse. -->
-  <PMP_ColossusPrototype.description>作为首批投入大规模生产的原型机，净化者巨像不同于当前的简化型号，它拥有完整的合成人格核心、中子装甲、重构无人机群和硬化护盾。它装备的原型热能长矛可以投射高能等离子流，在点燃地面的同时蒸发目标。如果你在战场上看见他们作为你的敌人出现，你需要做的只有放下武器，然后向你的神祈祷。</PMP_ColossusPrototype.description>
+  <PMP_ColossusPrototype.description>与后来的简化型号不同，这台如山岭般巍峨的战争机械，是首批投入量产的净化者巨像原型机，卡莱科学家们号称其为最接近巨像的原型，星灵黄金时代的泰坦的设计。它更为高大，结构也更为复杂，其内部搭载着算力媲美行星级计算机的人工智能人格核心、坚不可摧的精金装甲，以及能在战火中修复创伤的纳米无人机蜂群。它所配备的双联原型热能光矛能投射出毁灭性的超高温等离子流，切割中子星物质装甲亦如热刀切酪，在瞬间蒸发目标的同时，将大地化为一片焦土。 \n\n 净化者巨像只会出现在启示录级别的战场，如同收割小麦一般将成群的巨型战体拦腰切断。在这种烈度的冲突中，即便是基因改造的超级战士，其存在也与蝼蚁无异，不过是用于填补战线的消耗品。</PMP_ColossusPrototype.description>
   <!-- EN: head -->
   <PMP_ColossusPrototype.tools.head.label>巨像头部</PMP_ColossusPrototype.tools.head.label>
   
@@ -20,7 +20,7 @@
   <!-- EN: PurifierImmortal -->
   <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
   <!-- EN: The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be rapidly reassembled by reconstruction drones swarms. -->
-  <PMP_PurifierImmortal.description>净化者不朽者使用两门相位穿震炮，这种特殊的武器能够穿透那些最硬的装甲，正如他们的卡莱原型一样，净化者不朽者装备了刚毅护盾，一种可以将所有来袭的攻击削弱至可接受范围的特殊硬化护盾。同时，净化者版本换装了G型合金，一种致密的中子材料，驾驶舱节省下来的空间也支持他装备功率更大的护盾发生器。</PMP_PurifierImmortal.description>
+  <PMP_PurifierImmortal.description>净化者不朽者装备着双联相位碎裂炮，这种武器通过扰乱目标所在的空间稳定性来造成破坏。物质结构越是致密，这种空间断层造成的损害就越严重，这意味着敌人的装甲越是坚固，其最终受到的打击就越是致命。这些高贵的战士无所畏惧地冲向炮火最猛烈的战场，依靠厚重的精金装甲与刚毅护盾在弹幕中稳步推进。即便战甲的结构完整性遭到破坏，内置的重构纳米无人机蜂群也能在战场上迅速重组战甲结构，以便他重回战场。</PMP_PurifierImmortal.description>
   <!-- EN: head -->
   <PMP_PurifierImmortal.tools.head.label>不朽者头部</PMP_PurifierImmortal.tools.head.label>
   

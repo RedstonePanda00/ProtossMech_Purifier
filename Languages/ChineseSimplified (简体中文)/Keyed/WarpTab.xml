@@ -10,4 +10,26 @@
   <!-- EN: You must place it in the energy field. -->
   <ProtossMech.EnergyFieldRequired>你必须将它放置在能量场内。</ProtossMech.EnergyFieldRequired>
 
+  <!-- EN: Transport -->
+  <ProtossMech.TransportTab>传送</ProtossMech.TransportTab>
+  <!-- EN: Reinforce -->
+  <ProtossMech.ReinforceTab>增援</ProtossMech.ReinforceTab>
+
+  <!-- EN: Not Enough Resources for additional Warp Beacon. -->
+  <ProtossMech.ReinforcementLimitReached>没有足够的资源放置更多折跃信标。</ProtossMech.ReinforcementLimitReached>
+
+  <!-- EN: Not Enough Resources. -->
+  <ProtossMech.NotEnoughResources>你没有足够的资源</ProtossMech.NotEnoughResources>
+
+  <!-- EN: Warp gate: Ready -->
+  <ProtossMech.WarpGateReady>折跃门: 就绪</ProtossMech.WarpGateReady>
+  <!-- EN: Warp gate: Recharging ({0}) -->
+  <ProtossMech.WarpGateRecharging>折跃门: 重新充能 ({0})</ProtossMech.WarpGateRecharging>
+  <!-- EN: Warp Gate Charges -->
+  <ProtossMech.WarpGateCharges>折跃门充能</ProtossMech.WarpGateCharges>
+  <!-- EN: No available warp gate charge. -->
+  <ProtossMech.NoWarpGateCharge>没有足够的折跃门充能.</ProtossMech.NoWarpGateCharge>
+
+  <ProtossMech.WarpingIn>单位将在 {0} 后完成折跃.</ProtossMech.WarpingIn>
+
 </LanguageData>

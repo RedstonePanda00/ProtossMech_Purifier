@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>PM_WarpGate</defName>
+        <label>Warp Gate</label>
+        <description>A structure that provides a single charge for warping in reinforcements. The charge replenishes over time after being used.</description>
+        <thingClass>Building</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <graphicData>
+            <texPath>Things/Structure/WarpGate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.0, 3.0)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <fillPercent>1</fillPercent>
+        <rotatable>false</rotatable>
+        <stealable>false</stealable>
+        <size>(3,3)</size>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <designationCategory>Biotech</designationCategory>
+        <uiOrder>4000</uiOrder>
+        <statBases>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <WorkToBuild>2000</WorkToBuild>
+            <Mass>20</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <costList>
+            <Plasteel>150</Plasteel>
+        </costList>
+        <researchPrerequisites>
+            <li>PM_Fundamentals</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="ProtossMech.CompProperties_WarpGate">
+                <cooldownTicks>5000</cooldownTicks>
+            </li>
+
+            <li Class="CompProperties_Glower">
+                <overlightRadius>5</overlightRadius>
+                <glowRadius>5</glowRadius>
+                <glowColor>(370,370,370,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>PM_WarpRoboticsFacility</defName>
+        <label>Warp Robotics Facility</label>
+        <description>A structure that provides a single charge for warping in reinforcements. The charge replenishes over time after being used. This one is used for warp Heavy War Machine.</description>
+        <thingClass>Building</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <graphicData>
+            <texPath>Things/Structure/WarpRoboticsFacility</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.0, 3.0)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <fillPercent>1</fillPercent>
+        <rotatable>false</rotatable>
+        <stealable>false</stealable>
+        <size>(3,3)</size>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <designationCategory>Biotech</designationCategory>
+        <uiOrder>4200</uiOrder>
+        <statBases>
+            <MaxHitPoints>9000</MaxHitPoints>
+            <WorkToBuild>2000</WorkToBuild>
+            <Mass>20</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <costList>
+            <Plasteel>150</Plasteel>
+            <PM_Solarite>100</PM_Solarite>
+        </costList>
+        <researchPrerequisites>
+            <li>PM_Fundamentals</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="ProtossMech.CompProperties_WarpGate">
+                <cooldownTicks>5000</cooldownTicks>
+            </li>
+
+            <li Class="CompProperties_Glower">
+                <overlightRadius>5</overlightRadius>
+                <glowRadius>5</glowRadius>
+                <glowColor>(370,370,370,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

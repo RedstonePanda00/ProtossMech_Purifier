@@ -27,7 +27,7 @@
         <defName>Probe</defName>
         <label>gestate Protoss Probe mech</label>
         <description>Gestate an Protoss Probe mechanoid.</description>
-        <researchPrerequisite>ProtossEngineeringFundamentals</researchPrerequisite>
+        <researchPrerequisite>PM_Fundamentals</researchPrerequisite>
         <products>
             <PMP_Probe>1</PMP_Probe>
         </products>
@@ -42,12 +42,12 @@
         <label>gestate Protoss colossus mech</label>
         <description>Gestate an Protoss colossus mechanoid.</description>
         <gestationCycles>8</gestationCycles>
-        <researchPrerequisite>EclipseAndApocalypse</researchPrerequisite>
+        <researchPrerequisite>PM_PurifierProjectFinal</researchPrerequisite>
         <ingredients Inherit="False">
             <li>
                 <filter>
                     <thingDefs>
-                        <li>NeutronMaterial</li>
+                        <li>PM_Adanium</li>
                     </thingDefs>
                 </filter>
                 <count>300</count>
@@ -55,7 +55,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>200</count>
@@ -83,7 +83,7 @@
         <label>gestate Protoss Sentry mech</label>
         <description>Gestate an Protoss Sentry mechanoid.</description>
         <gestationCycles>3</gestationCycles>
-        <researchPrerequisite>KhalaiForge</researchPrerequisite>
+        <researchPrerequisite>PM_KhalaiMechAdvance</researchPrerequisite>
         <ingredients Inherit="False">
             <li>
                 <filter>
@@ -96,7 +96,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>75</count>
@@ -125,14 +125,14 @@
         <description>Gestate an Protoss Energizer mechanoid.</description>
         <gestationCycles>3</gestationCycles>
         <researchPrerequisites>
-            <li>KhalaiForge</li>
-            <li>SyntheticPersonalityMatrix</li>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_SyntheticPersonality</li>
         </researchPrerequisites>
         <ingredients Inherit="False">
             <li>
                 <filter>
                     <thingDefs>
-                        <li>NeutronMaterial</li>
+                        <li>PM_Adanium</li>
                     </thingDefs>
                 </filter>
                 <count>25</count>
@@ -140,7 +140,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>75</count>
@@ -169,14 +169,14 @@
         <description>Gestate an Protoss Legionnaire mechanoid.</description>
         <gestationCycles>4</gestationCycles>
         <researchPrerequisites>
-            <li>KhalaiForge</li>
-            <li>PurifierProject</li>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_PurifierProject</li>
         </researchPrerequisites>
         <ingredients Inherit="False">
             <li>
                 <filter>
                     <thingDefs>
-                        <li>NeutronMaterial</li>
+                        <li>PM_Adanium</li>
                     </thingDefs>
                 </filter>
                 <count>200</count>
@@ -205,8 +205,8 @@
         <description>Gestate an Protoss Sentinel mechanoid.</description>
         <gestationCycles>2</gestationCycles>
         <researchPrerequisites>
-            <li>KhalaiForge</li>
-            <li>SyntheticPersonalityMatrix</li>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_SyntheticPersonality</li>
         </researchPrerequisites>
         <ingredients Inherit="False">
             <li>
@@ -241,14 +241,14 @@
         <description>Gestate an Protoss PurifierImmortal mechanoid.</description>
         <gestationCycles>4</gestationCycles>
         <researchPrerequisites>
-            <li>KhalaiForge</li>
-            <li>PurifierProject</li>
+            <li>PM_KhalaiMechAdvance</li>
+            <li>PM_PurifierProject</li>
         </researchPrerequisites>
         <ingredients Inherit="False">
             <li>
                 <filter>
                     <thingDefs>
-                        <li>NeutronMaterial</li>
+                        <li>PM_Adanium</li>
                     </thingDefs>
                 </filter>
                 <count>250</count>
@@ -256,7 +256,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>100</count>
@@ -284,12 +284,12 @@
         <label>gestate Protoss Disruptor mech</label>
         <description>Gestate an Protoss Disruptor mechanoid.</description>
         <gestationCycles>4</gestationCycles>
-        <researchPrerequisite>EclipseAndApocalypse</researchPrerequisite>
+        <researchPrerequisite>PM_PurifierProjectFinal</researchPrerequisite>
         <ingredients Inherit="False">
             <li>
                 <filter>
                     <thingDefs>
-                        <li>NeutronMaterial</li>
+                        <li>PM_Adanium</li>
                     </thingDefs>
                 </filter>
                 <count>150</count>
@@ -297,7 +297,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>150</count>
@@ -325,7 +325,7 @@
         <label>gestate Protoss Servitor mech</label>
         <description>Gestate an Protoss Servitor mechanoid.</description>
         <gestationCycles>1</gestationCycles>
-        <researchPrerequisite>CivilianProtossMechanoid</researchPrerequisite>
+        <researchPrerequisite>PM_KhalaiMechStart</researchPrerequisite>
         <ingredients Inherit="False">
             <li>
                 <filter>
@@ -404,7 +404,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FuelTypeG</li>
+                        <li>PM_Solarite</li>
                     </thingDefs>
                 </filter>
                 <count>50</count>
