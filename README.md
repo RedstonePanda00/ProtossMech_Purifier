@@ -1,6 +1,6 @@
 # Protoss Mech - Test Build
 
-Feel free to download and play, but **please do not upload to the Steam Workshop or share the files directly.** If you want to share it, please send the link to this repository.
+Feel free to download and play, but **please do not upload to the Steam Workshop or share the files directly.** If you want to share it, please send the link of this repository.
 
 **Note before downloading:**
 1. This is a test version; updates may be frequent and could change core mechanics.
