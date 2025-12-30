@@ -4,7 +4,7 @@
   <!-- EN: Protoss Engineering Fundamentals -->
   <PM_Fundamentals.label>星灵工程学基础</PM_Fundamentals.label>
   <!-- EN: Study the foundational mathematics and physical theories behind Protoss design. Glimpse the ancient Golden Age of the Protoss Empire — a civilization that once conquered the entire universe with its unparalleled and awe-inspiring technology. -->
-  <PM_Fundamentals.description>研究星灵设计背后的基础数学与物理理论。窥见星灵帝国的黄金时代——那个以无与伦比的科技征服整个宇宙的辉煌文明。</PM_Fundamentals.description>
+  <PM_Fundamentals.description>解锁星灵的基础数学与物理理论。这是重现黄金时代荣光的必经之路。</PM_Fundamentals.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -15,7 +15,7 @@
   <!-- EN: Khalai Forge -->
   <PM_KhalaiMechAdvance.label>卡莱锻造技术</PM_KhalaiMechAdvance.label>
   <!-- EN: A research initiative grounded in Khalai precision and discipline. The Khalai Forge emphasizes advanced mathematics, quantum mechanics, and physical theory to refine mechanoid design. This project demonstrates the professional rigor of the Khalai Protoss, transforming abstract science into practical engineering marvels. -->
-  <PM_KhalaiMechAdvance.description>源自卡莱传统的精确与严谨，卡莱的相位技师专注于高等数学、量子力学与物理理论的研究，以完善机械体的设计。此项目展现了卡莱星灵的专业精神，将抽象的科学原理转化为可实践的工程奇迹。</PM_KhalaiMechAdvance.description>
+  <PM_KhalaiMechAdvance.description>以黄金舰队的精度改良机械体设计。解锁高级卡莱战斗机械与高耐久装甲。</PM_KhalaiMechAdvance.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -26,7 +26,7 @@
   <!-- EN: Civilian Protoss Mechanoid -->
   <PM_KhalaiMechStart.label>民用星灵机械</PM_KhalaiMechStart.label>
   <!-- EN: The foundation of Protoss mechanized engineering. This research applies Khalai mathematical models, quantum energy distribution, and psionic interface theory to construct efficient, non-combat mechanoids. These civilian constructs establish the baseline for all future Protoss mechanized advancements. -->
-  <PM_KhalaiMechStart.description>星灵机械化工程的基础研究。本项目应用卡莱数学模型、量子能量分配与灵能接口理论，以打造高效的非战斗型机械体。这些民用构造体为未来所有星灵机械化进步奠定基石。</PM_KhalaiMechStart.description>
+  <PM_KhalaiMechStart.description>利用卡莱数学模型建立星灵机械体的基准。专注于高效的非战斗辅助构造体。</PM_KhalaiMechStart.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -37,7 +37,7 @@
   <!-- EN: Nerazim Forge -->
   <PM_NerazimMechStart.label>奈拉其姆锻造技术</PM_NerazimMechStart.label>
   <!-- EN: The Nerazim explores the convergence of psionic resonance, void energy manipulation, and material science. By bridging the immaterial and the physical, this research develops mechanoids capable of cloaking, phase-shifting, and harmonizing with the void itself. It is a synthesis of psychic discipline and technological innovation. -->
-  <PM_NerazimMechStart.description>奈拉齐姆致力于灵能共振、虚空能量操控与物质科学的融合。通过连接无形与有形，本研究开发出能够隐匿、相位转移并与虚空本质共鸣的机械体。这是灵能修炼与科技创新的结合。</PM_NerazimMechStart.description>
+  <PM_NerazimMechStart.description>结合虚空能量操控与材料科学。解锁擅长隐形、相位移动和游击战的机械体。</PM_NerazimMechStart.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -48,7 +48,7 @@
   <!-- EN: thermonuclear fusion -->
   <PM_NuclearFusion.label>热核聚变</PM_NuclearFusion.label>
   <!-- EN: Advance the science of thermonuclear fusion — the controlled reaction that powers stars. This research focuses on achieving sustained energy output through magnetic confinement and quantum-stabilized plasma fields. Mastery of this technology not only enables efficient fusion reactors but also lays the foundation for the creation of an artificial sun — a stable, self-sustaining energy source once thought impossible. -->
-  <PM_NuclearFusion.description>推进热核聚变科学——这一受控反应正是恒星能量的来源。本研究专注于通过磁约束与量子稳定等离子场实现持续的能量输出。掌握此技术不仅能构建高效的聚变反应堆，更为“人造太阳”的诞生奠定基础——一种曾被认为不可能实现的稳定自持能源。</PM_NuclearFusion.description>
+  <PM_NuclearFusion.description>解锁太阳素的合成技术，这是一种高度压缩的聚变能源。这种强效物质是驱动黄金时代宏伟科技的关键。</PM_NuclearFusion.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -59,7 +59,7 @@
   <!-- EN: Positronic AI -->
   <PM_PositronicAI.label>正电子人工智能</PM_PositronicAI.label>
   <!-- EN: Explore the frontier of synthetic cognition through positronic neural architecture. This research focuses on developing artificial intelligence based on positron-driven quantum circuits that emulate biological synaptic behavior with near-perfect precision. Positronic AI represents a breakthrough in machine sentience — capable of independent reasoning, adaptive learning, and self-evolving logic structures. -->
-  <PM_PositronicAI.description>通过正电子神经架构探索合成智能的前沿领域。本研究旨在开发基于正电子量子电路的人工智能系统，以近乎完美的精度模拟生物突触行为。正电子人工智能代表了机器意识的重大突破——能够进行独立推理、自适应学习，并具备自我进化的逻辑结构。</PM_PositronicAI.description>
+  <PM_PositronicAI.description>开发模拟生物突触的正电子量子电路。允许创造具备独立推理和自适应学习能力的感知AI。</PM_PositronicAI.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -70,7 +70,7 @@
   <!-- EN: Purifier Project -->
   <PM_PurifierProject.label>净化者计划</PM_PurifierProject.label>
   <!-- EN: The Purifier Project stands as the Protoss's most audacious pursuit — the perfect fusion of flesh, spirit, and machine. Building upon breakthroughs in positronic cognition and synthetic personality matrices, this research achieves the complete transference of a sentient mind into a mechanized vessel. Each Purifier preserves the memories, instincts, and identity of their former self, yet is freed from the decay of organic existence. To the Protoss, this is not mere survival, but ascension — engineered immortality. Through this, our greatest templars shall serve the empire eternally, even when the last light of the stars fades into darkness. -->
-  <PM_PurifierProject.description>“净化者计划”是星灵最宏伟的追求——血肉、灵魂与机械的完美融合。基于正电子智能与合成人格矩阵的突破性成果，本研究实现了有意识思维向机械之躯的完整转移。每一位净化者都保留了昔日的记忆、本能与自我认知，却超脱了有机生命的衰败。对星灵而言，这不仅是生存的延续，更是升华——由科技铸就的不朽。自此，最伟大的圣堂武士将永恒地侍奉帝国，直至群星的最后一缕光芒消逝于黑暗。</PM_PurifierProject.description>
+  <PM_PurifierProject.description>解锁折跃净化者军团机械素体的能力，以及将保存的人格数据下载到其中的技术。远古的战士们将再次以此身躯苏醒。</PM_PurifierProject.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -96,7 +96,7 @@
   <!-- EN: Synthetic Personality Matrix -->
   <PM_SyntheticPersonality.label>合成人人格矩阵</PM_SyntheticPersonality.label>
   <!-- EN: Develop the Synthetic Personality Matrix — an advanced cognitive framework that integrates emotional modeling, self-awareness algorithms, and adaptive behavioral logic into positronic intelligence. This system allows artificial minds to simulate genuine personality traits, form preferences, and evolve unique identities over time. It marks the convergence of neuroscience, quantum computation, and cognitive engineering — the birth of true artificial individuality. -->
-  <PM_SyntheticPersonality.description>开发合成人格矩阵——一种将情感建模、自我意识算法与自适应行为逻辑融合于正电子智能中的高级认知框架。该系统使人工智能能够模拟真实的人格特征，形成偏好，并在时间中演化出独特的个体意识。这是神经科学、量子计算与认知工程的融合之作——真正人工个体的诞生。</PM_SyntheticPersonality.description>
+  <PM_SyntheticPersonality.description>开发一种先进的认知矩阵，能够制造出人格与真人毫无二致的人工智能。真正的感知能力将不再是有机生命的特权。</PM_SyntheticPersonality.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
@@ -107,7 +107,7 @@
   <!-- EN: Tal'darim Forge -->
   <PM_TaldarimMechStart.label>塔达利姆锻造技术</PM_TaldarimMechStart.label>
   <!-- EN: The tech of Tal'darim embodies ruthless adaptation rather than original innovation. Most of its technologies are appropriated or re-engineered from Khalai and Nerazim designs, reforged into brutal, high-output systems. This research reflects the Tal’darim creed: power above all, regardless of origin. -->
-  <PM_TaldarimMechStart.description>塔达林的技术并非源于独创，而是残酷改造的产物。其大部分技术窃取或改造自卡莱与奈拉齐姆的成果，再被重铸为残暴而高效的系统。本研究体现了塔达林的信条：力量至上，不问其源。</PM_TaldarimMechStart.description>
+  <PM_TaldarimMechStart.description>将窃取的设计重铸为残酷的毁灭引擎。不惜牺牲安全性，专注于最大化火力输出与禁忌武器。</PM_TaldarimMechStart.description>
   <!-- EN:
     <li>subject->research protoss engineering.</li>
     <li>subject_story->research protoss engineering.</li>
