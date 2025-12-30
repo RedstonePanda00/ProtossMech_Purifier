@@ -19,7 +19,7 @@
     <race>
       <body>PMP_ProbeBody</body>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>Mechanoid</thinkTreeMain>
+      <thinkTreeMain>PM_Mechanoid</thinkTreeMain>
       <baseBodySize>1</baseBodySize>
       <mechWeightClass>Light</mechWeightClass>
     </race>

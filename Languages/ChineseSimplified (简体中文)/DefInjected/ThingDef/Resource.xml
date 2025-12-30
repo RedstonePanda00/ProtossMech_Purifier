@@ -3,8 +3,8 @@
   
   <!-- EN: Adanium -->
   <PM_Adanium.label>精金</PM_Adanium.label>
-  <!-- EN: An ultra-dense material developed by the Purifier Project as an evolution of neutron-compressed matter. Adanium boasts unparalleled resilience, capable of deflecting nearly any form of attack. However, its extreme mass and density make it exceptionally cumbersome, significantly slowing down anything constructed from it. -->
-  <PM_Adanium.description>一种源自净化者项目的超致密材料，在中子材料的基础上做出大胆的创新的产物。精金具有无与伦比的韧性，能够抵挡任何形式的攻击。然而，它的巨大质量和密度使得它异常笨重，组成的物体对使用者的负荷极大。</PM_Adanium.description>
+  <!-- EN: Adanium is a kind of gravitational lattice material derived from Project Purifier. Rather than relying on physical hardness, Adanium encapsulates microscopic singularities to severely curve local spacetime. This "gravity shield" deflects kinetic and beam attacks via lensing effects and shreds targets at the atomic level using immense tidal forces upon contact. Its critical weakness is disintegration weaponry; rupturing the lattice triggers a catastrophic spatial collapse. While retaining a manageable physical mass, the material generates massive spacetime drag, making it impossible for unaugmented humans to wield and restricting its use to heavy machinery and warships. -->
+  <PM_Adanium.description>一种源自净化者项目的晶格超材料。精金由人造引力井结构构成，利用重力扭曲攻击，微观结构将逸散的冲击动能与热流引导耗散，从而达到对几乎所有的已知攻击免疫的特性。这种特性使其在常规火力面前坚不可摧，唯一的弱点是破坏结构的解离武器。由于它的引力特性，精金会产生一种时空粘滞感，因此仅被作为重型机械与战舰的主装甲，凡人躯体根本无法承受其带来的物理负荷。</PM_Adanium.description>
   
   <!-- EN: Solarite -->
   <PM_Solarite.label>太阳素</PM_Solarite.label>

@@ -8,5 +8,7 @@
 
     <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.6/CE</li>
 
+    <li IfModActive="cj.rimtalk,cj.rimtalk_steam">1.6/RimTalk</li>
+
   </v1.6>
 </loadFolders>

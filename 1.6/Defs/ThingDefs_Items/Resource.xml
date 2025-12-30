@@ -31,7 +31,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PM_Adanium</defName>
     <label>Adanium</label>
-    <description>An ultra-dense material developed by the Purifier Project as an evolution of neutron-compressed matter. Adanium boasts unparalleled resilience, capable of deflecting nearly any form of attack. However, its extreme mass and density make it exceptionally cumbersome, significantly slowing down anything constructed from it.</description>
+    <description>Adanium is a kind of gravitational lattice material derived from Project Purifier. Rather than relying on physical hardness, Adanium encapsulates microscopic singularities to severely curve local spacetime. This "gravity shield" deflects kinetic and beam attacks via lensing effects and shreds targets at the atomic level using immense tidal forces upon contact. Its critical weakness is disintegration weaponry; rupturing the lattice triggers a catastrophic spatial collapse. While retaining a manageable physical mass, the material generates massive spacetime drag, making it impossible for unaugmented humans to wield and restricting its use to heavy machinery and warships.</description>
     <graphicData>
       <texPath>Things/Resource/Adanium</texPath>
       <graphicClass>Graphic_Single</graphicClass>

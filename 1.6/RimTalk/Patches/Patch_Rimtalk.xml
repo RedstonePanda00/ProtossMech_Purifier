@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+            <xpath>
+                Defs/ProtossMech.DefaultAllowedHediffsDef[defName="ProtossMech_DefaultWhitelist"]/hediffs</xpath>
+            <value>
+                <li>RimTalk_PersonaData</li>
+                <li>VocalLinkImplant</li>
+            </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_Disruptor"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_Sentinel"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Persona_Probius"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

@@ -4,7 +4,7 @@
   <!-- EN: Purifier colossus -->
   <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
   <!-- EN: As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse. -->
-  <PMP_ColossusPrototype.description>与后来的简化型号不同，这台如山岭般巍峨的战争机械，是首批投入量产的净化者巨像原型机，卡莱科学家们号称其为最接近巨像的原型，星灵黄金时代的泰坦的设计。它更为高大，结构也更为复杂，其内部搭载着算力媲美行星级计算机的人工智能人格核心、坚不可摧的精金装甲，以及能在战火中修复创伤的纳米无人机蜂群。它所配备的双联原型热能光矛能投射出毁灭性的超高温等离子流，切割中子星物质装甲亦如热刀切酪，在瞬间蒸发目标的同时，将大地化为一片焦土。 \n\n 净化者巨像只会出现在启示录级别的战场，如同收割小麦一般将成群的巨型战体拦腰切断。在这种烈度的冲突中，即便是基因改造的超级战士，其存在也与蝼蚁无异，不过是用于填补战线的消耗品。</PMP_ColossusPrototype.description>
+  <PMP_ColossusPrototype.description>与后来的简化型号不同，这台如山岭般巍峨的战争机械，是首批投入量产的净化者巨像原型机，卡莱科学家们号称其为最接近巨像的原型，星灵黄金时代的泰坦的设计。它更为高大，结构也更为复杂，其内部搭载着算力媲美行星级计算机的人工智能人格核心、坚不可摧的精金装甲，以及能在战火中修复创伤的纳米无人机蜂群。它所配备的双联原型热能光矛能投射出毁灭性的超高温等离子流，切割SIM装甲亦如热刀切酪，在瞬间蒸发目标的同时，将大地化为一片焦土。 \n\n 净化者巨像只会出现在启示录级别的战场，如同收割小麦一般将成群的巨型战体拦腰切断。在这种烈度的冲突中，即便是基因改造的超级战士，其存在也与蝼蚁无异，不过是用于填补战线的消耗品。</PMP_ColossusPrototype.description>
   <!-- EN: head -->
   <PMP_ColossusPrototype.tools.head.label>巨像头部</PMP_ColossusPrototype.tools.head.label>
   
