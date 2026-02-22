@@ -81,6 +81,17 @@
       </li>
       <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
     </comps>
+
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Legionnaire_Conclave</li>
+                <li>Protoss_Persona_Legionnaire_Fleet</li>
+                <li>Protoss_Persona_Legionnaire_Vanguard</li>
+            </personaKeys>
+            <chattiness>1.0</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
@@ -179,6 +190,14 @@
       </li>
       <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Sentinel</li>
+            </personaKeys>
+            <chattiness>0.75</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">

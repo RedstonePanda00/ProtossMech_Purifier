@@ -44,6 +44,14 @@
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_ColossusPrototype</li>
+            </personaKeys>
+            <chattiness>0.5</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
@@ -114,6 +122,16 @@
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Immortal_Shield</li>
+                <li>Protoss_Persona_Immortal_Vengeful</li>
+                <li>Protoss_Persona_Immortal_Mentor</li>
+            </personaKeys>
+            <chattiness>0.5</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
@@ -202,6 +220,14 @@
         <scale>3.5</scale>
       </li>
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Disruptor</li>
+            </personaKeys>
+            <chattiness>0.6</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">

@@ -95,6 +95,14 @@
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Probius</li>
+            </personaKeys>
+            <chattiness>1.0</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">

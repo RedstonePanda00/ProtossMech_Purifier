@@ -103,6 +103,14 @@
       </li>
 
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Probe</li>
+            </personaKeys>
+            <chattiness>0.75</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
@@ -180,6 +188,14 @@
         <checkInterval>240</checkInterval>
       </li>
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Sentry</li>
+            </personaKeys>
+            <chattiness>0.75</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
@@ -266,6 +282,14 @@
         <checkInterval>240</checkInterval>
       </li>
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Energizer</li>
+            </personaKeys>
+            <chattiness>0.75</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
@@ -392,6 +416,14 @@
       </li>
 
     </comps>
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_FellowProbe</li>
+            </personaKeys>
+            <chattiness>0.75</chattiness>
+        </li>
+    </modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
