@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Legionnaire -->
@@ -22,5 +22,12 @@
   <PMP_Sentinel.tools.left_Energy_Blade.label>左臂能量刃</PMP_Sentinel.tools.left_Energy_Blade.label>
   <!-- EN: right Energy Blade -->
   <PMP_Sentinel.tools.right_Energy_Blade.label>右臂能量刃</PMP_Sentinel.tools.right_Energy_Blade.label>
+  
+  <!-- EN: Umbra -->
+  <PMP_Umbra.label>渊影</PMP_Umbra.label>
+  <!-- EN: The Umbra is the Purifier iteration of the Dark Templar... -->
+  <PMP_Umbra.description>渊影是黑暗圣堂武士的净化者版本。摒弃光学迷彩的依赖，其机体采用激进设计：由局部神经网连接的数百万微型无人机组成的聚合蜂群。利用微观预判闪避，让弹道无害地穿过其变幻形态，再以高密度曲刃发动致命一击。</PMP_Umbra.description>
+  <!-- EN: Warp blade -->
+  <PMP_Umbra.tools.Warp_blade.label>曲刃</PMP_Umbra.tools.Warp_blade.label>
   
 </LanguageData>

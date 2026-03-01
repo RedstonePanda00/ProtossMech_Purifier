@@ -219,4 +219,99 @@
       <li>MechCharge</li>
     </abilities>
   </PawnKindDef>
+
+  <!-- Umbra -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Umbra</defName>
+    <label>Umbra</label>
+    <description>The Umbra is the Purifier iteration of the Dark Templar. Discarding the reliance on optical camouflage, its chassis is a radical design: a cohesive swarm of millions of micro-drones linked by a localized neural net. Utilizing micro-predictive evasion, it allows projectiles to pass harmlessly through its shifting form before delivering lethal strikes with condensed warp blades.</description>
+    <statBases>
+      <BandwidthCost>2</BandwidthCost>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <MoveSpeed>3.9</MoveSpeed>
+      <IncomingDamageFactor>0.25</IncomingDamageFactor>
+      <MeleeDodgeChance>95</MeleeDodgeChance>
+    </statBases>
+    <race>
+      <body>PMP_HumanoidBody</body>
+      <baseBodySize>1.2</baseBodySize>
+      <mechEnabledWorkTypes>
+        <li>Hunting</li>
+      </mechEnabledWorkTypes>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>2.0</baseHealthScale>
+    </race>
+    <butcherProducts>
+      <PM_Adanium>125</PM_Adanium>
+    </butcherProducts>
+
+    <tools>
+      <li>
+        <label>Warp blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>1.2</cooldownTime>
+        <armorPenetration>2.0</armorPenetration>
+      </li>
+    </tools>
+
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>80</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>400</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>1.5</maxDrawSize>
+      </li>
+      <li Class="ProtossMech.CompProperties_PurifierReconstruct">
+        <cooldownTicks>3600</cooldownTicks>
+        <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
+      </li>
+    </comps>
+
+    <modExtensions>
+        <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+            <personaKeys>
+                <li>Protoss_Persona_Umbra</li>
+            </personaKeys>
+            <chattiness>0.15</chattiness>
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PMP_Umbra</defName>
+    <label>Umbra</label>
+    <race>PMP_Umbra</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Umbra</texPath>
+          <shaderType>Transparent</shaderType>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>PMP_UmbraSkip</li>
+    </abilities>
+  </PawnKindDef>
+
 </Defs>

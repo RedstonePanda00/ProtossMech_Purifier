@@ -82,6 +82,18 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PMP_Umbra"]/comps</xpath>
+        <value>
+            <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+                <hediffDefs>
+                    <li>VocalLinkImplant</li>
+                </hediffDefs>
+                <checkInterval>120</checkInterval>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Persona_Probius"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">

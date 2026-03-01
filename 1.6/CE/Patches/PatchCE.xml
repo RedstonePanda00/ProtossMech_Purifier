@@ -376,6 +376,82 @@
 		</value>
 	</Operation>
 
+	<!-- Umbra -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>1280</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>128</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.95</MeleeDodgeChance>
+			<MeleeCritChance>0.50</MeleeCritChance>
+			<MeleeParryChance>0.95</MeleeParryChance>
+			<MaxHitPoints>40</MaxHitPoints>
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="PMP_Umbra"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>Warp blade</label>
+					<capacities>
+						<li>Cut</li>
+						<li>Stab</li>
+					</capacities>
+					<power>45</power>
+					<cooldownTime>1.2</cooldownTime>
+					<armorPenetration>2000.0</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>1500</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<PM_Solarite>5</PM_Solarite>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>1500</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>1500</MaxOverHeal>
+				<MinArmorPct>1.0</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
 	<!-- Sentinel -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]/statBases/ArmorRating_Blunt</xpath>

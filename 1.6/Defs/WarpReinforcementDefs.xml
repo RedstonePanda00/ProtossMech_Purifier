@@ -223,4 +223,32 @@
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
+    <!-- Umbra -->
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpUmbra</defName>
+        <label>Umbra</label>
+        <description>Warp in an Umbra.</description>
+        <pawnDefName>PMP_Umbra</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>125</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>125</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>240</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_NerazimMechStart</li>
+            <li>PM_PurifierProject</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
 </Defs>

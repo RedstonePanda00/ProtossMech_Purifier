@@ -319,6 +319,50 @@
         </descriptionHyperlinks>
     </RecipeDef>
 
+    <!-- Umbra -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PMP_GenUmbra</defName>
+        <label>gestate Protoss Umbra mech</label>
+        <description>Gestate a Protoss Umbra mechanoid.</description>
+        <gestationCycles>3</gestationCycles>
+        <researchPrerequisites>
+            <li>PM_NerazimMechStart</li>
+            <li>PM_PurifierProject</li>
+        </researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>125</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>125</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Umbra>1</PMP_Umbra>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Umbra</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
     <!-- Servitor Drone -->
     <RecipeDef ParentName="ProtossMechanoidRecipe">
         <defName>PMP_GenServitor</defName>

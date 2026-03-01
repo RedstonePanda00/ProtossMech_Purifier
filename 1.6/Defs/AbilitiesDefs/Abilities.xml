@@ -125,6 +125,36 @@
         </verbProperties>
     </AbilityDef>
 
+    <!-- Umbra Skip: teleport to cell (through walls), then 45 execute damage to enemies at destination -->
+    <AbilityDef>
+        <defName>PMP_UmbraSkip</defName>
+        <label>Skip</label>
+        <description>Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius.</description>
+        <iconPath>UI/Abilities/Skip</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <groupAbility>true</groupAbility>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
+            <range>25</range>
+            <warmupTime>0.25</warmupTime>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_UmbraSkip">
+                <damageAmount>45</damageAmount>
+                <damageRadius>2.9</damageRadius>
+                <damageDef>ExecutionCut</damageDef>
+            </li>
+        </comps>
+    </AbilityDef>
+
     <AbilityDef>
         <defName>MechCharge</defName>
         <label>charge</label>

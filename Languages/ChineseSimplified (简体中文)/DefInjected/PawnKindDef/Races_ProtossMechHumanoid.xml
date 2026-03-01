@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Legionnaire -->
@@ -6,5 +6,8 @@
   
   <!-- EN: Sentinel -->
   <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+  
+  <!-- EN: Umbra -->
+  <PMP_Umbra.label>渊影</PMP_Umbra.label>
   
 </LanguageData>

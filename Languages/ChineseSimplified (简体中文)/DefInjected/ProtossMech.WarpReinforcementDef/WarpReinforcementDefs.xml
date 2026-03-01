@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: ColossusPrototype -->
@@ -45,5 +45,10 @@
   <PM_WarpServitor.label>服务机</PM_WarpServitor.label>
   <!-- EN: Warp in a Servitor. -->
   <PM_WarpServitor.description>折跃一架服务机。</PM_WarpServitor.description>
+  
+  <!-- EN: Umbra -->
+  <PM_WarpUmbra.label>渊影</PM_WarpUmbra.label>
+  <!-- EN: Warp in an Umbra. -->
+  <PM_WarpUmbra.description>折跃一台渊影。</PM_WarpUmbra.description>
   
 </LanguageData>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Legionnaire longjump -->
@@ -7,6 +7,11 @@
   <LegionnaireJump.description>用强壮的机械腿跳跃到指定位置。</LegionnaireJump.description>
   <!-- EN: jump -->
   <LegionnaireJump.verbProperties.label>跳跃</LegionnaireJump.verbProperties.label>
+  
+  <!-- EN: Skip -->
+  <PMP_UmbraSkip.label>相位跃迁</PMP_UmbraSkip.label>
+  <!-- EN: Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius. -->
+  <PMP_UmbraSkip.description>传送到目标格位，可穿透墙体。落地时对周围敌人造成45点处决伤害。</PMP_UmbraSkip.description>
   
   <!-- EN: charge -->
   <MechCharge.label>冲锋</MechCharge.label>
