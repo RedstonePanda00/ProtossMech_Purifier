@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: charging -->
@@ -63,5 +63,15 @@
   <PMP_PrideOfTemplar.description>我正投身荣耀的战斗，恐惧无法打倒我。</PMP_PrideOfTemplar.description>
   <!-- EN: activate -->
   <PMP_PrideOfTemplar.stages.activate.label>生效中</PMP_PrideOfTemplar.stages.activate.label>
+
+  <!-- Artanis storyteller hediffs -->
+  <!-- EN: revenge -->
+  <PM_Artanis_Revenge.label>复仇</PM_Artanis_Revenge.label>
+  <!-- EN: A colonist has fallen. The survivors are driven by vengeance. -->
+  <PM_Artanis_Revenge.description>一名殖民者倒下了，幸存者被复仇之心驱动。</PM_Artanis_Revenge.description>
+  <!-- EN: veteran -->
+  <PM_Artanis_Veteran.label>饱经战火</PM_Artanis_Veteran.label>
+  <!-- EN: This colonist has endured many raids and grown stronger for it. -->
+  <PM_Artanis_Veteran.description>这名殖民者经历了多次袭击，愈战愈强。</PM_Artanis_Veteran.description>
   
 </LanguageData>
