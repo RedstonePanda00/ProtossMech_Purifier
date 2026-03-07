@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Photon -->
@@ -27,5 +27,10 @@
   <Turret_PhaseCannon.description>炮塔相位穿震炮。</Turret_PhaseCannon.description>
   <!-- EN: Turret PhaseCannon -->
   <Turret_PhaseCannon.verbs.Verb_AntiArmor.label>相位炮塔</Turret_PhaseCannon.verbs.Verb_AntiArmor.label>
-  
+
+  <!-- EN: Shield battery -->
+  <PM_ShieldBattery.label>护盾充能器</PM_ShieldBattery.label>
+  <!-- EN: Consumes power (1 W per 1 shield/s) to recharge one target at a time; beam links building and target. -->
+  <PM_ShieldBattery.description>消耗电网电力为星灵护盾充能。每秒为单个目标恢复 20 点护盾能量，每 1 点能量消耗 1 W 电力；充能时建筑与目标之间会显示连接光束。</PM_ShieldBattery.description>
+
 </LanguageData>

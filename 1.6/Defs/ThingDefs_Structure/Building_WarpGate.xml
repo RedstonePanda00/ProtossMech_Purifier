@@ -22,7 +22,7 @@
         <designationCategory>Biotech</designationCategory>
         <uiOrder>4000</uiOrder>
         <statBases>
-            <MaxHitPoints>10000</MaxHitPoints>
+            <MaxHitPoints>5000</MaxHitPoints>
             <WorkToBuild>2000</WorkToBuild>
             <Mass>20</Mass>
             <Flammability>0</Flammability>
@@ -42,6 +42,13 @@
                 <overlightRadius>5</overlightRadius>
                 <glowRadius>5</glowRadius>
                 <glowColor>(370,370,370,0)</glowColor>
+            </li>
+            <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+                <energyMax>5000</energyMax>
+                <energyGainPerTick>0.2</energyGainPerTick>
+                <ticksToBeginRecharge>600</ticksToBeginRecharge>
+                <minDrawSize>3.0</minDrawSize>
+                <maxDrawSize>3.5</maxDrawSize>
             </li>
         </comps>
     </ThingDef>
@@ -68,7 +75,7 @@
         <designationCategory>Biotech</designationCategory>
         <uiOrder>4200</uiOrder>
         <statBases>
-            <MaxHitPoints>9000</MaxHitPoints>
+            <MaxHitPoints>4500</MaxHitPoints>
             <WorkToBuild>2000</WorkToBuild>
             <Mass>20</Mass>
             <Flammability>0</Flammability>
@@ -89,6 +96,13 @@
                 <overlightRadius>5</overlightRadius>
                 <glowRadius>5</glowRadius>
                 <glowColor>(370,370,370,0)</glowColor>
+            </li>
+            <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+                <energyMax>4500</energyMax>
+                <energyGainPerTick>0.2</energyGainPerTick>
+                <ticksToBeginRecharge>600</ticksToBeginRecharge>
+                <minDrawSize>3.0</minDrawSize>
+                <maxDrawSize>3.5</maxDrawSize>
             </li>
         </comps>
     </ThingDef>

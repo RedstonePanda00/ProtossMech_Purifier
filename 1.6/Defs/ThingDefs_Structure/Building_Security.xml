@@ -23,7 +23,7 @@
     <rotatable>false</rotatable>
     <size>(2,2)</size>
     <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
+      <MaxHitPoints>150</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>5000</WorkToBuild>
       <Mass>40</Mass>
@@ -74,6 +74,13 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+        <energyMax>150</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>1.2</minDrawSize>
+        <maxDrawSize>2.0</maxDrawSize>
+      </li>
     </comps>
     <building>
       <turretGunDef>Gun_PhotonCannon</turretGunDef>
@@ -156,7 +163,7 @@
     <rotatable>false</rotatable>
     <size>(3,3)</size>
     <statBases>
-      <MaxHitPoints>600</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>15000</WorkToBuild>
       <Mass>100</Mass>
@@ -207,6 +214,13 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+        <energyMax>300</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>1.2</minDrawSize>
+        <maxDrawSize>2.0</maxDrawSize>
+      </li>
     </comps>
     <building>
       <turretGunDef>Turret_PhaseCannon</turretGunDef>
@@ -255,6 +269,58 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+  </ThingDef>
+
+  <!-- Shield Battery: consumes power (1 W per 1 shield/s) to recharge one target at a time; beam links building and target -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_ShieldBattery</defName>
+    <label>Shield battery</label>
+    <description>Consumes power from the grid to recharge Protoss shields. Restores 20 shield energy per second to one target at a time (1 W per 1 energy). A beam links the building to the target while charging.</description>
+    <thingClass>Building</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/ShieldBattery</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.0, 2.0)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>25</Mass>
+      <Beauty>5</Beauty>
+    </statBases>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <costList>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ShieldBattery">
+        <radius>12</radius>
+        <energyPerSecond>20</energyPerSecond>
+        <powerConsumptionWhenCharging>20</powerConsumptionWhenCharging>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>PM_Fundamentals</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>

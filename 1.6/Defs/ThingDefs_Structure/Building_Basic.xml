@@ -25,7 +25,7 @@
         <designationCategory>Power</designationCategory>
         <uiOrder>3000</uiOrder>
         <statBases>
-            <MaxHitPoints>4000</MaxHitPoints>
+            <MaxHitPoints>2000</MaxHitPoints>
             <WorkToBuild>10000</WorkToBuild>
             <Flammability>0</Flammability>
             <Beauty>100</Beauty>
@@ -55,6 +55,13 @@
                 <glowColor>(370,370,370,0)</glowColor>
             </li>
             <li Class="CompProperties_Breakdownable"/>
+            <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+                <energyMax>2000</energyMax>
+                <energyGainPerTick>0.2</energyGainPerTick>
+                <ticksToBeginRecharge>600</ticksToBeginRecharge>
+                <minDrawSize>2.0</minDrawSize>
+                <maxDrawSize>2.5</maxDrawSize>
+            </li>
         </comps>
     </ThingDef>
 
@@ -69,7 +76,7 @@
         <rotatable>true</rotatable>
         <pathCost>50</pathCost>
         <statBases>
-            <MaxHitPoints>8000</MaxHitPoints>
+            <MaxHitPoints>4000</MaxHitPoints>
             <WorkToBuild>10000</WorkToBuild>
             <Flammability>0</Flammability>
             <WorkTableWorkSpeedFactor>4.2</WorkTableWorkSpeedFactor>
@@ -92,6 +99,13 @@
                 <overlightRadius>5</overlightRadius>
                 <glowRadius>5</glowRadius>
                 <glowColor>(370,370,370,0)</glowColor>
+            </li>
+            <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+                <energyMax>4000</energyMax>
+                <energyGainPerTick>0.2</energyGainPerTick>
+                <ticksToBeginRecharge>600</ticksToBeginRecharge>
+                <minDrawSize>3.0</minDrawSize>
+                <maxDrawSize>3.5</maxDrawSize>
             </li>
         </comps>
         <recipes>

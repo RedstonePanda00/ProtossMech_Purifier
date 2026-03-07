@@ -4,4 +4,11 @@
   <ProtossMech.ShieldStatus.Title>Protoss Shield</ProtossMech.ShieldStatus.Title>
   <ProtossMech.ShieldStatus.Value>{0} / {1}</ProtossMech.ShieldStatus.Value>
 
+  <ProtossMech_ShieldBattery_ChargingTarget>Charging {0}: {1} shield/s, {2} W.</ProtossMech_ShieldBattery_ChargingTarget>
+  <ProtossMech_ShieldBattery_Standby>Standby, scanning radius {0}.</ProtossMech_ShieldBattery_Standby>
+  <ProtossMech_ShieldBattery_SelectTarget>Select target</ProtossMech_ShieldBattery_SelectTarget>
+  <ProtossMech_ShieldBattery_SelectTargetDesc>Manually choose a pawn or building with Protoss shield within {0} cells to charge.</ProtossMech_ShieldBattery_SelectTargetDesc>
+  <ProtossMech_ShieldBattery_ClearTarget>Clear target</ProtossMech_ShieldBattery_ClearTarget>
+  <ProtossMech_ShieldBattery_ClearTargetDesc>Clear manual target and return to automatic target selection.</ProtossMech_ShieldBattery_ClearTargetDesc>
+
 </LanguageData>

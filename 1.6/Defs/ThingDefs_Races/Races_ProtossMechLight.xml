@@ -73,7 +73,7 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
         <energyMax>20</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
@@ -160,7 +160,7 @@
       <baseHealthScale>2.0</baseHealthScale>
     </race>
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
         <energyMax>40</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
@@ -250,7 +250,7 @@
       <PM_Adanium>25</PM_Adanium>
     </butcherProducts>
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
         <energyMax>40</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
@@ -395,7 +395,7 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
         <energyMax>40</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
@@ -494,7 +494,7 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
         <energyMax>20</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>

@@ -1,9 +1,22 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: Protoss Shield -->
   <ProtossMech.ShieldStatus.Title>星灵护盾</ProtossMech.ShieldStatus.Title>
   <!-- EN: {0} / {1} -->
   <ProtossMech.ShieldStatus.Value>{0} / {1}</ProtossMech.ShieldStatus.Value>
+
+  <!-- EN: Charging {0}: {1} shield/s, {2} W. -->
+  <ProtossMech_ShieldBattery_ChargingTarget>正在为 {0} 充能：{1} 护盾/秒，消耗 {2} W。</ProtossMech_ShieldBattery_ChargingTarget>
+  <!-- EN: Standby, scanning radius {0}. -->
+  <ProtossMech_ShieldBattery_Standby>待机中，扫描范围 {0} 格。</ProtossMech_ShieldBattery_Standby>
+  <!-- EN: Select target -->
+  <ProtossMech_ShieldBattery_SelectTarget>选择充能目标</ProtossMech_ShieldBattery_SelectTarget>
+  <!-- EN: Manually choose a pawn or building with Protoss shield within {0} cells to charge. -->
+  <ProtossMech_ShieldBattery_SelectTargetDesc>手动选择范围内（{0} 格）带星灵护盾的单位或建筑作为充能目标。</ProtossMech_ShieldBattery_SelectTargetDesc>
+  <!-- EN: Clear target -->
+  <ProtossMech_ShieldBattery_ClearTarget>取消目标</ProtossMech_ShieldBattery_ClearTarget>
+  <!-- EN: Clear manual target and return to automatic target selection. -->
+  <ProtossMech_ShieldBattery_ClearTargetDesc>清除手动选择的目标，恢复自动选择充能目标。</ProtossMech_ShieldBattery_ClearTargetDesc>
 
 </LanguageData>
