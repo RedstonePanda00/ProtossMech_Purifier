@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Tesseract Space Cannon: single-target instant beam, 5 Bullet damage, 1/sec; locks target in Stance_Cooldown + Wait 0.5 sec -->
+  <ThingDef ParentName="PhotonCannon">
+    <defName>PM_TesseractSpaceCannon</defName>
+    <label>Tesseract Space Cannon</label>
+    <description>Fires a traceless beam once per second, dealing 5 bullet-type damage. Hit targets are briefly locked in place and interrupted for 0.5 seconds.</description>
+    <uiIconPath>Things/Structure/TesseractCannon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <PM_Solarite>25</PM_Solarite>
+    </costList>
+    <comps>
+      <li Class="ModExtention.CompProperties_RevealCloaked">
+        <revealRadius>50</revealRadius>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+        <energyMax>200</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>1.2</minDrawSize>
+        <maxDrawSize>2.0</maxDrawSize>
+      </li>
+    </comps>
+    <building>
+      <turretGunDef>Gun_TesseractSpaceCannon</turretGunDef>
+      <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>PM_PurifierProject</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_TesseractSpaceCannon</defName>
+    <label>Tesseract Space Cannon</label>
+    <description>Turret gun: single instant beam, 5 damage. Uses Beam projectile (one beam mote, instant hit).</description>
+    <graphicData>
+      <texPath>Things/Structure/TesseractCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1.00</AccuracyTouch>
+      <AccuracyShort>1.00</AccuracyShort>
+      <AccuracyMedium>1.00</AccuracyMedium>
+      <AccuracyLong>1.00</AccuracyLong>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>40</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TesseractSpaceCannon</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>30</range>
+        <minRange>0</minRange>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- Beam projectile: instant hit, single beam mote, no travel tick (same pattern as vanilla Beam class) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TesseractSpaceCannon</defName>
+    <label>Tesseract beam</label>
+    <thingClass>Beam</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <beamMoteDef>Mote_OverchargedPylonlaser</beamMoteDef>
+      <beamStartOffset>0.5</beamStartOffset>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+</Defs>
