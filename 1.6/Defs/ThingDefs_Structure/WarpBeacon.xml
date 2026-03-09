@@ -25,9 +25,10 @@
         </statBases>
         <comps>
             <li Class="ProtossMech.CompProperties_WarpIn">
-                <continuousFleck>Test_WarpInFleck</continuousFleck>
+                <continuousFleck>PM_WarpInFleck</continuousFleck>
                 <fleckScale>1.0</fleckScale>
                 <fleckSpawnInterval>45</fleckSpawnInterval>
+                <fleckOffsetZ>12</fleckOffsetZ>
             </li>
         </comps>
     </ThingDef>
