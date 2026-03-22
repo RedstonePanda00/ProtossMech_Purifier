@@ -13,10 +13,6 @@
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
-      <shadowData>
-        <volume>(1.5,0.35,1.4)</volume>
-        <offset>(0,0,-0.05)</offset>
-      </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <stealable>false</stealable>
@@ -153,10 +149,10 @@
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
-      <shadowData>
-        <volume>(1.5,0.35,1.4)</volume>
-        <offset>(0,0,-0.05)</offset>
-      </shadowData>
+      <!-- <shadowData>
+        <volume>(0,0,0)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData> -->
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <stealable>false</stealable>

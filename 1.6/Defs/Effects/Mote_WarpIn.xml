@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+    <!-- Strike-only: fadeOut 0 so solidTimeOverride can match flight duration and remove fleck before skid overshoot. -->
     <FleckDef ParentName="FleckBase_Thrown">
-        <defName>PM_WarpInFleck</defName>
+        <defName>PM_WarpInStrike</defName>
+        <collide>false</collide>
         <altitudeLayer>MoteOverhead</altitudeLayer>
         <fadeInTime>0.0</fadeInTime>
-        <solidTime>0.8</solidTime>
+        <solidTime>1.0</solidTime>
+        <fadeOutTime>0.0</fadeOutTime>
+        <graphicData>
+            <graphicClass>Graphic_FleckPulse</graphicClass>
+            <shaderType>GlowAnimated</shaderType>
+            <texPath>Things/Mote/WarpFrame</texPath>
+            <drawSize>(4.0, 16.0)</drawSize>
+            <color>(0.25, 0.6, 1)</color>
+            <shaderParameters>
+                <_NumFrames>20</_NumFrames>
+                <_FramesPerSec>24</_FramesPerSec>
+            </shaderParameters>
+        </graphicData>
+    </FleckDef>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>PM_WarpInFleck</defName>
+        <collide>false</collide>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.0</fadeInTime>
+        <solidTime>1.0</solidTime>
         <fadeOutTime>0.03</fadeOutTime>
         <graphicData>
             <graphicClass>Graphic_FleckPulse</graphicClass>
             <shaderType>GlowAnimated</shaderType>
             <texPath>Things/Mote/WarpFrame</texPath>
-            <drawSize>(8.0, 32.0)</drawSize>
+            <drawSize>(4.0, 16.0)</drawSize>
             <color>(0.25, 0.6, 1)</color>
             <shaderParameters>
                 <_NumFrames>20</_NumFrames>
