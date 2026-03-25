@@ -81,6 +81,9 @@
         <maxDrawSize>2</maxDrawSize>
       </li>
 
+      <li Class="ProtossMech.ProbeAnimate.CompProperties_ProbeHandRenderer" />
+      <li Class="ProtossMech.ProbeAnimate.CompProperties_ProbeCosmeticSetRenderer" />
+
       <li Class="RsPandaLibrary.CompProperties_AutoTransform">
         <checkInterval>100</checkInterval>
         <DetectList>
@@ -522,7 +525,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Mechanoid/Servitor_east</texPath>
+          <texPath>Things/Pawn/Mechanoid/Servitor</texPath>
           <shaderType>Cutout</shaderType>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>

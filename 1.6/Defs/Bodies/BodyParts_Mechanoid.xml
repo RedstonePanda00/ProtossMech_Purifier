@@ -10,6 +10,10 @@
     <solid>true</solid>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
+    <tags>
+      <!-- Enables limb-rendering/animation systems to treat Probe hands as manipulation segments. -->
+      <li>ManipulationLimbSegment</li>
+    </tags>
   </BodyPartDef>
 
   <BodyPartDef>

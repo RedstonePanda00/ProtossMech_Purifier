@@ -60,7 +60,7 @@
       <Plasteel>150</Plasteel>
     </costList>
     <comps>
-      <li Class="ModExtention.CompProperties_RevealCloaked">
+      <li Class="ProtossMech.CompProperties_RevealCloaked">
         <revealRadius>50</revealRadius>
       </li>
       <li Class="CompProperties_Forbiddable"/>
@@ -200,7 +200,7 @@
       <PM_Solarite>25</PM_Solarite>
     </costList>
     <comps>
-      <li Class="ModExtention.CompProperties_RevealCloaked">
+      <li Class="ProtossMech.CompProperties_RevealCloaked">
         <revealRadius>56</revealRadius>
       </li>
       <li Class="CompProperties_Forbiddable"/>
@@ -289,7 +289,7 @@
     <stealable>false</stealable>
     <size>(2,2)</size>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>4000</WorkToBuild>
       <Mass>25</Mass>
@@ -308,6 +308,13 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+        <energyMax>200</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>1.2</minDrawSize>
+        <maxDrawSize>2.0</maxDrawSize>
+      </li>
       <li Class="ProtossMech.CompProperties_ShieldBattery">
         <radius>12</radius>
         <energyPerSecond>20</energyPerSecond>

@@ -16,7 +16,7 @@
       <PM_Solarite>25</PM_Solarite>
     </costList>
     <comps>
-      <li Class="ModExtention.CompProperties_RevealCloaked">
+      <li Class="ProtossMech.CompProperties_RevealCloaked">
         <revealRadius>50</revealRadius>
       </li>
       <li Class="CompProperties_Forbiddable"/>
