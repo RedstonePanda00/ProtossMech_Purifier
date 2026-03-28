@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 4145366273
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f4988ee2c8d74897d6e55160a7896279
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f4988ee2c8d74897d6e55160a7896279
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shaders/ReconstructPrintCutout.shader
+- Assets/Shaders/Mat_ReconstructPrintCutout.mat
+Dependencies: []

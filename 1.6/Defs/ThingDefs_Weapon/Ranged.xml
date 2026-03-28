@@ -24,7 +24,7 @@
     </statBases>
     <equippedAngleOffset>-53</equippedAngleOffset>
     <verbs>
-      <li>
+      <li Class="ProtossMech.VerbProperties_ProtossMeltBeam">
         <verbClass>ProtossMech.Verb_ShootMeltBeam</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <warmupTime>0.0</warmupTime>
@@ -41,9 +41,8 @@
         <soundCastBeam>BeamGraser_Shooting</soundCastBeam>
         <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
         <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-        <beamMaxDeviation>0</beamMaxDeviation>
-        <beamCurvature>0.9</beamCurvature>
         <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
+        <beamMoteColor>(1.0, 0.25, 0.2, 1.0)</beamMoteColor>
         <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
         <beamChanceToStartFire>1.0</beamChanceToStartFire>
         <beamChanceToAttachFire>1.0</beamChanceToAttachFire>

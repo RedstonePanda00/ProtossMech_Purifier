@@ -66,15 +66,18 @@
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_Disappears">
-                <disappearsAfterTicks>300</disappearsAfterTicks>
+                <disappearsAfterTicks>90</disappearsAfterTicks>
                 <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="ProtossMech.HediffCompProperties_ReconstructLockdown">
+                <stanceTicks>90</stanceTicks>
+                <waitJobTicks>90</waitJobTicks>
             </li>
         </comps>
         <stages>
             <li>
                 <statFactors>
                     <IncomingDamageFactor>0</IncomingDamageFactor>
-                    <MoveSpeed>-10.0</MoveSpeed>
                 </statFactors>
             </li>
         </stages>
