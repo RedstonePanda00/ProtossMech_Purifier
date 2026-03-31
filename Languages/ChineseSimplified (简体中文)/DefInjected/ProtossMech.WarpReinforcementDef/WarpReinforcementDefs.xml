@@ -41,6 +41,11 @@
   <!-- EN: Warp in a Sentry. -->
   <PM_WarpSentry.description>折跃一台机械哨兵。</PM_WarpSentry.description>
   
+  <!-- EN: Havoc -->
+  <PM_WarpHavoc.label>浩劫</PM_WarpHavoc.label>
+  <!-- EN: Warp in a Havoc. -->
+  <PM_WarpHavoc.description>折跃一台浩劫。</PM_WarpHavoc.description>
+  
   <!-- EN: Servitor -->
   <PM_WarpServitor.label>服务机</PM_WarpServitor.label>
   <!-- EN: Warp in a Servitor. -->

@@ -59,6 +59,64 @@
     </HediffDef>
 
     <HediffDef>
+        <defName>PM_Hediff_EnergizerPhaseMode</defName>
+        <label>phase mode</label>
+        <description>This unit is in phase mode and cannot move while projecting a strong shield field.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="ProtossMech.HediffCompProperties_EnergizerPhaseMode" />
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <MoveSpeed>0</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+  <HediffDef>
+    <defName>PM_Hediff_SquadSight</defName>
+    <label>squad sight</label>
+    <description>This pawn is benefiting from Squad Sight, extending ranged weapon effective range while nearby.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.86, 0.08, 0.24)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="ProtossMech.HediffCompProperties_HavocRangeBoost" />
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PM_Hediff_TargetLockVictim</defName>
+    <label>target lock</label>
+    <description>Marked by a Havoc: incoming damage uses at least full vulnerability, then takes an extra 30%.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.95, 0.15, 0.12)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="ProtossMech.HediffCompProperties_TargetLockVictim" />
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PM_Hediff_TargetLockCaster</defName>
+    <label>target lock (active)</label>
+    <description>Maintaining a target lock on a hostile unit.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.95, 0.15, 0.12)</defaultLabelColor>
+    <comps>
+      <li Class="ProtossMech.HediffCompProperties_TargetLockCaster" />
+    </comps>
+  </HediffDef>
+
+    <HediffDef>
         <defName>Hediff_Reconstruct</defName>
         <label>Reconstruct NanoMachine Swarm</label>
         <description>This pawn just got reconstructed—its body's still made up of active nanomachines, so no matter how beat up it gets, it heals super fast.</description>

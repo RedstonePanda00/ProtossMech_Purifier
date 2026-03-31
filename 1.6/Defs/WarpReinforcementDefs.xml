@@ -72,6 +72,32 @@
     </ProtossMech.WarpReinforcementDef>
 
     <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpHavoc</defName>
+        <label>Havoc</label>
+        <description>Warp in a Havoc.</description>
+        <pawnDefName>PM_Havoc</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>Plasteel</thingDef>
+                <count>50</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>100</count>
+            </li>
+            <li>
+                <thingDef>SubcoreHigh</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_TaldarimMechStart</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
+    <ProtossMech.WarpReinforcementDef>
         <defName>PM_WarpEnergizer</defName>
         <label>Energizer</label>
         <description>Warp in a Energizer.</description>

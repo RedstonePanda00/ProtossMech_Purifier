@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3787166972
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a6159bb3dd75d27fa10d4874b5f2eebb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a6159bb3dd75d27fa10d4874b5f2eebb
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shaders/ProtossMechShieldSphere.shader
+- Assets/Shaders/Mat_ProtossMechShieldSphere.mat
+Dependencies: []

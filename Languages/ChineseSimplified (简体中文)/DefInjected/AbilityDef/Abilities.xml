@@ -36,6 +36,16 @@
   <!-- EN: activate shield generator, which can block projectile. -->
   <PM_GuardianShield.description>激活护盾投射器，可以拦截投射物。</PM_GuardianShield.description>
   
+  <!-- EN: Phase mode -->
+  <PM_PhaseMode.label>相位形态</PM_PhaseMode.label>
+  <!-- EN: Enter phase mode. While phased, this unit cannot move but projects a stronger shield field. -->
+  <PM_PhaseMode.description>进入相位形态：无法移动，但会展开更强的护盾场。</PM_PhaseMode.description>
+
+  <!-- EN: target lock -->
+  <PM_HavocTargetLock.label>目标锁定</PM_HavocTargetLock.label>
+  <!-- EN: Lock onto a hostile target. While locked, that target takes increased damage from all sources. Only one target at a time. -->
+  <PM_HavocTargetLock.description>锁定一名敌方单位。被锁定者承伤系数先不低于100%，再额外承受30%伤害；同一时间只能锁定一个目标。</PM_HavocTargetLock.description>
+  
   <!-- EN: Barrier -->
   <PMP_RestoreShield.label>屏障</PMP_RestoreShield.label>
   <!-- EN: Instantly restores the caster's Protoss shield to its maximum energy level. -->

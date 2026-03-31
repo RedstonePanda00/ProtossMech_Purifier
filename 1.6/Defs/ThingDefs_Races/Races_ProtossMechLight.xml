@@ -212,13 +212,93 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Mechanoid/Sentry</texPath>
           <shaderType>Cutout</shaderType>
-          <drawSize>1.0</drawSize>
+          <drawSize>2.0</drawSize>
         </bodyGraphicData>
       </li>
     </lifeStages>
     <abilities>
       <li>MechForceFieldWall</li>
       <li>PM_GuardianShield</li>
+    </abilities>
+  </PawnKindDef>
+
+  <!-- Havoc -->
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PMP_Havoc</defName>
+    <label>Havoc</label>
+    <description>A brutal and cold-blooded Tal'darim mechanical sentry. It despises the weak and respects only the strong.</description>
+    <statBases>
+      <BandwidthCost>2</BandwidthCost>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>PMP_ProbeBody</body>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li>Cleaning</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>2.0</baseHealthScale>
+    </race>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
+        <energyMax>40</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>2</maxDrawSize>
+      </li>
+      <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
+      <li Class="ProtossMech.CompProperties_HavocRangeAura">
+        <radius>12</radius>
+        <checkIntervalTicks>60</checkIntervalTicks>
+        <hediffDefName>PM_Hediff_SquadSight</hediffDefName>
+        <rangeMultiplier>1.25</rangeMultiplier>
+      </li>
+      <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+        <hediffDefs>
+          <li>PM_Floating</li>
+        </hediffDefs>
+        <checkInterval>240</checkInterval>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RsPandaLibrary.Compatibility.RimTalk.RimTalkPersonaExtension">
+        <personaKeys>
+          <li>Protoss_Persona_Havoc</li>
+        </personaKeys>
+        <chattiness>0.75</chattiness>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="ProtossMechanoidKind">
+    <defName>PM_Havoc</defName>
+    <label>Havoc</label>
+    <race>PMP_Havoc</race>
+    <combatPower>42</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Havoc</texPath>
+          <shaderType>Cutout</shaderType>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>MechForceFieldWall</li>
+      <li>PM_HavocTargetLock</li>
     </abilities>
   </PawnKindDef>
 
@@ -266,7 +346,7 @@
       </li>
       <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
       <li Class="CompProperties_ProjectileInterceptor">
-        <radius>6</radius>
+        <radius>15</radius>
         <interceptGroundProjectiles>true</interceptGroundProjectiles>
         <interceptAirProjectiles>true</interceptAirProjectiles>
         <color>(0.4, 0.4, 0.4)</color>
@@ -278,6 +358,7 @@
         <drawWithNoSelection>True</drawWithNoSelection>
         <disarmedByEmpForTicks>60</disarmedByEmpForTicks>
       </li>
+      <li Class="ProtossMech.CompProperties_EnergizerPhaseShieldController" />
       <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
         <hediffDefs>
           <li>PM_Floating</li>
@@ -306,13 +387,13 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Mechanoid/Energizer</texPath>
           <shaderType>Cutout</shaderType>
-          <drawSize>1.0</drawSize>
+          <drawSize>2.0</drawSize>
         </bodyGraphicData>
       </li>
     </lifeStages>
     <abilities>
       <li>MechChronoBeam</li>
-      <li>PM_GuardianShield</li>
+      <li>PM_PhaseMode</li>
     </abilities>
   </PawnKindDef>
 

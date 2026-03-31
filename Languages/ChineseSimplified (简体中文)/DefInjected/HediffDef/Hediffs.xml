@@ -25,6 +25,26 @@
   <PM_Hediff_GuardianShieldActive.label>守护者之盾激活</PM_Hediff_GuardianShieldActive.label>
   <!-- EN: This mechanoid is activated its shield component. -->
   <PM_Hediff_GuardianShieldActive.description>这个机械体已激活其护盾组件。</PM_Hediff_GuardianShieldActive.description>
+  
+  <!-- EN: phase mode -->
+  <PM_Hediff_EnergizerPhaseMode.label>相位形态</PM_Hediff_EnergizerPhaseMode.label>
+  <!-- EN: This unit is in phase mode and cannot move while projecting a strong shield field. -->
+  <PM_Hediff_EnergizerPhaseMode.description>该单位处于相位形态：无法移动，并持续投射强力护盾场。</PM_Hediff_EnergizerPhaseMode.description>
+
+  <!-- EN: squad sight -->
+  <PM_Hediff_SquadSight.label>小队视野</PM_Hediff_SquadSight.label>
+  <!-- EN: This pawn is benefiting from Squad Sight, extending ranged weapon effective range while nearby. -->
+  <PM_Hediff_SquadSight.description>受“小队视野”影响，远程武器有效射程提高；离开其影响范围后消失。</PM_Hediff_SquadSight.description>
+
+  <!-- EN: target lock -->
+  <PM_Hediff_TargetLockVictim.label>目标锁定</PM_Hediff_TargetLockVictim.label>
+  <!-- EN: Marked by a Havoc: incoming damage uses at least full vulnerability, then takes an extra 30%. -->
+  <PM_Hediff_TargetLockVictim.description>被浩劫锁定：承伤系数先不低于100%，再额外承受30%伤害。</PM_Hediff_TargetLockVictim.description>
+
+  <!-- EN: target lock (active) -->
+  <PM_Hediff_TargetLockCaster.label>目标锁定（激活）</PM_Hediff_TargetLockCaster.label>
+  <!-- EN: Maintaining a target lock on a hostile unit. -->
+  <PM_Hediff_TargetLockCaster.description>正在维持对一名敌方单位的目标锁定。</PM_Hediff_TargetLockCaster.description>
 
   
   <!-- EN: DisruptorInvisibility -->

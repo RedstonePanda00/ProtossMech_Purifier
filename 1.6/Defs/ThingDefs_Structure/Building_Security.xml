@@ -137,6 +137,105 @@
     </verbs>
   </ThingDef>
 
+  <!-- Khaydarin Monolith -->
+  <ThingDef ParentName="PhotonCannon">
+    <defName>PM_KhaydarinMonolith</defName>
+    <label>Khaydarin monolith</label>
+    <description>A massive Khaydarin monolith turret that fires an anti-armor shock beam.</description>
+    <uiIconPath>Things/Structure/Khaydarin</uiIconPath>
+    <graphicData>
+      <texPath>Things/Structure/Khaydarin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4.0, 4.0)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <PM_Solarite>100</PM_Solarite>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+        <energyMax>100</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>1.2</minDrawSize>
+        <maxDrawSize>4.0</maxDrawSize>
+      </li>
+    </comps>
+    <building>
+      <turretGunDef>Gun_KhaydarinMonolith</turretGunDef>
+      <turretBurstCooldownTime>2.0</turretBurstCooldownTime>
+      <turretTopDrawSize>1.0</turretTopDrawSize>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <researchPrerequisites>
+      <li>PM_NerazimMechStart</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_KhaydarinMonolith</defName>
+    <label>Khaydarin monolith</label>
+    <description>Turret gun: anti-armor shock beam.</description>
+    <graphicData>
+      <texPath>Things/Weapon/ThermalLances</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1.00</AccuracyTouch>
+      <AccuracyShort>1.00</AccuracyShort>
+      <AccuracyMedium>1.00</AccuracyMedium>
+      <AccuracyLong>1.00</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>40</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_KhaydarinMonolith</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>90</range>
+        <minRange>0</minRange>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_KhaydarinMonolith</defName>
+    <label>Khaydarin beam</label>
+    <thingClass>Beam</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>AntiArmorShock</damageDef>
+      <damageAmountBase>100</damageAmountBase>
+      <beamMoteDef>Mote_OverchargedPylonlaser</beamMoteDef>
+      <beamStartOffset>0.5</beamStartOffset>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
   <!-- PhaseCannon -->
   <ThingDef ParentName="BuildingBase" Name="PhaseCannon" Abstract="True">
     <thingClass>Building_TurretGun</thingClass>

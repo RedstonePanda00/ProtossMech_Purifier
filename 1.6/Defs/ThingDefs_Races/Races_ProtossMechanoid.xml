@@ -33,7 +33,7 @@
           <li>Blunt</li>
         </capacities>
         <power>10</power>
-        <cooldownTime>2.0</cooldownTime>
+        <cooldownTime>1.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
@@ -49,6 +49,7 @@
       <li Class="ModExtention.CompProperties_DisableFeral" />
       <li Class="ProtossMech.CompProperties_OfflineWorking" />
       <li Class="ProtossMech.CompProperties_WalkAOnCooldown" />
+      <li Class="ProtossMech.CompProperties_NoMeleeDodge" />
       <li Class="RsPandaLibrary.CompProperties_ImmuneToMentalBreak">
         <virtueHediff>PMP_PrideOfTemplar</virtueHediff>
       </li>

@@ -11,6 +11,9 @@
             <li>PMP_DisruptorInvisibility</li>
             <li>PMP_PrideOfTemplar</li>
             <li>PM_Hediff_GuardianShieldActive</li>
+            <li>PM_Hediff_EnergizerPhaseMode</li>
+            <li>PM_Hediff_SquadSight</li>
+            <li>PM_Hediff_TargetLockCaster</li>
             <li>PM_Floating</li>
         </hediffs>
     </ProtossMech.DefaultAllowedHediffsDef>

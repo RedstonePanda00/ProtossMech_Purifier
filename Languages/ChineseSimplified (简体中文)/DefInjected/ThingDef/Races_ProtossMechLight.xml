@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Energizer -->
@@ -8,6 +8,11 @@
   <!-- EN: head -->
   <PMP_Energizer.tools.head.label>机械哨兵头部</PMP_Energizer.tools.head.label>
   
+  <!-- EN: Havoc -->
+  <PMP_Havoc.label>浩劫</PMP_Havoc.label>
+  <!-- EN: A brutal and cold-blooded Tal'darim mechanical sentry. It despises the weak and respects only the strong. -->
+  <PMP_Havoc.description>残暴而冷血的塔达林机械哨兵，蔑视弱者，尊敬强者。</PMP_Havoc.description>
+
   <!-- EN: FellowProbe -->
   <PMP_FellowProbe.label>伙伴探机</PMP_FellowProbe.label>
   <!-- EN: Its the first probe you made yourself, its not a mechine anymore, its your fellow. -->

@@ -8,6 +8,13 @@
   <!-- EN: Gestating mech. -->
   <Colossus.jobString>建造机械体</Colossus.jobString>
   
+  <!-- EN: gestate Protoss Havoc mech -->
+  <Havoc.label>建造浩劫</Havoc.label>
+  <!-- EN: Gestate a Tal'darim Havoc mechanoid. -->
+  <Havoc.description>建造一台塔达林浩劫机械哨兵。</Havoc.description>
+  <!-- EN: Gestating mech. -->
+  <Havoc.jobString>建造机械体</Havoc.jobString>
+  
   <!-- EN: gestate Protoss Energizer mech -->
   <Energizer.label>建造鼓舞者</Energizer.label>
   <!-- EN: Gestate an Protoss Energizer mechanoid. -->

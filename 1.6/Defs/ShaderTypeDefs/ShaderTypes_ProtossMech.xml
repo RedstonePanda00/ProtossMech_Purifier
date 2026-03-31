@@ -4,4 +4,8 @@
     <defName>PM_ReconstructPrintCutout</defName>
     <shaderPath>ProtossMech/ReconstructPrintCutout</shaderPath>
   </ShaderTypeDef>
+  <ShaderTypeDef>
+    <defName>PM_ProtossMechShieldSphere</defName>
+    <shaderPath>ProtossMech/ProtossMechShieldSphere</shaderPath>
+  </ShaderTypeDef>
 </Defs>

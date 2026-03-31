@@ -65,6 +65,29 @@
     </AbilityDef>
 
     <AbilityDef>
+        <defName>PM_PhaseMode</defName>
+        <label>Phase mode</label>
+        <description>Enter phase mode. While phased, this unit cannot move but projects a stronger shield field.</description>
+        <iconPath>Things/Abilities/Guardian_shield</iconPath>
+        <cooldownTicksRange>60</cooldownTicksRange>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ToggleHediff">
+                <hediffDefName>PM_Hediff_EnergizerPhaseMode</hediffDefName>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
         <defName>MechChronoBeam</defName>
         <label>Chrono Beam</label>
         <description>The beam that can speed up the time flow of target.</description>
@@ -94,6 +117,36 @@
                 <projectileDefName>PMP_ChronoBeamProjectile</projectileDefName>
             </li>
         </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_HavocTargetLock</defName>
+        <label>target lock</label>
+        <description>Lock onto a hostile target. While locked, that target takes increased damage from all sources. Only one target at a time.</description>
+        <iconPath>Things/Abilities/Force_field</iconPath>
+        <cooldownTicksRange>120</cooldownTicksRange>
+        <hostile>true</hostile>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.25</warmupTime>
+            <range>50</range>
+            <requireLineOfSight>true</requireLineOfSight>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_AbilityTargetLock" />
+        </comps>
+        <modExtensions>
+            <li Class="ProtossMech.AbilityExtension_TargetLockSettings">
+                <maxLockRangeCells>50</maxLockRangeCells>
+                <incomingDamageMultiplier>1.3</incomingDamageMultiplier>
+            </li>
+        </modExtensions>
     </AbilityDef>
 
     <AbilityDef>

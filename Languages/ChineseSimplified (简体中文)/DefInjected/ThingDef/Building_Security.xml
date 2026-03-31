@@ -42,4 +42,19 @@
   <!-- EN: Turret gun: single instant beam, 5 damage. -->
   <Gun_TesseractSpaceCannon.description>炮塔武器：单发即时光束，5 点伤害。</Gun_TesseractSpaceCannon.description>
 
+  <!-- EN: Khaydarin monolith -->
+  <PM_KhaydarinMonolith.label>凯达琳巨石</PM_KhaydarinMonolith.label>
+  <!-- EN: A massive Khaydarin monolith turret that fires an anti-armor shock beam. -->
+  <PM_KhaydarinMonolith.description>一座巨型的凯达琳巨石炮塔，发射反装甲震击光束。</PM_KhaydarinMonolith.description>
+
+  <!-- EN: Khaydarin monolith -->
+  <Gun_KhaydarinMonolith.label>凯达琳巨石炮</Gun_KhaydarinMonolith.label>
+  <!-- EN: Turret gun: anti-armor shock beam. -->
+  <Gun_KhaydarinMonolith.description>炮塔武器：反装甲震击光束。</Gun_KhaydarinMonolith.description>
+  <!-- EN: Khaydarin monolith -->
+  <Gun_KhaydarinMonolith.verbs.Verb_Shoot.label>凯达琳震击光束</Gun_KhaydarinMonolith.verbs.Verb_Shoot.label>
+
+  <!-- EN: Khaydarin beam -->
+  <Bullet_KhaydarinMonolith.label>凯达琳光束</Bullet_KhaydarinMonolith.label>
+
 </LanguageData>

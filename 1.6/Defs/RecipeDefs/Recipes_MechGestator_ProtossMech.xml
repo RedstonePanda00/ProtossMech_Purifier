@@ -118,6 +118,47 @@
         </descriptionHyperlinks>
     </RecipeDef>
 
+    <!-- Havoc -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Havoc</defName>
+        <label>gestate Protoss Havoc mech</label>
+        <description>Gestate a Tal'darim Havoc mechanoid.</description>
+        <gestationCycles>3</gestationCycles>
+        <researchPrerequisite>PM_TaldarimMechStart</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PMP_Havoc>1</PMP_Havoc>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PMP_Havoc</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
     <!-- Energizer -->
     <RecipeDef ParentName="ProtossMechanoidRecipe">
         <defName>Energizer</defName>
