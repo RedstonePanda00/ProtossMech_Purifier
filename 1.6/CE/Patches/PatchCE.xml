@@ -147,14 +147,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>820.0</ArmorRating_Blunt>
+			<ArmorRating_Blunt>42000</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>450.0</ArmorRating_Sharp>
+			<ArmorRating_Sharp>5000.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -168,6 +168,7 @@
 			<MeleeParryChance>0.75</MeleeParryChance>
 			<!-- <MaxHitPoints>500</MaxHitPoints> -->
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
 		</value>
 	</Operation>
 
@@ -197,14 +198,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_Sentry"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>16.0</ArmorRating_Blunt>
+			<ArmorRating_Blunt>32.0</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_Sentry"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>8.0</ArmorRating_Sharp>
+			<ArmorRating_Sharp>16.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -241,19 +242,68 @@
 		</value>
 	</Operation>
 
-	<!-- Energizer -->
+	<!-- Havoc (Tal'darim Sentry variant; same CE profile as Sentry) -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>32.0</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>16.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/statBases</xpath>
+		<value>
+			<AimingAccuracy>0.95</AimingAccuracy>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.75</MeleeDodgeChance>
+			<MeleeCritChance>0.10</MeleeCritChance>
+			<MeleeParryChance>0.10</MeleeParryChance>
+			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>200</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>60</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<Plasteel>5</Plasteel>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>200</RepairValue>
+				<CanOverHeal>true</CanOverHeal>
+				<MaxOverHeal>200</MaxOverHeal>
+				<MinArmorPct>0.5</MinArmorPct>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Energizer -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>64.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>32.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -301,7 +351,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>40</ArmorRating_Sharp>
+			<ArmorRating_Sharp>450</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -315,6 +365,7 @@
 			<MeleeParryChance>0.95</MeleeParryChance>
 			<!-- <MaxHitPoints>150</MaxHitPoints> -->
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
 		</value>
 	</Operation>
 
@@ -387,7 +438,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>128</ArmorRating_Sharp>
+			<ArmorRating_Sharp>450</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -401,6 +452,7 @@
 			<MeleeParryChance>0.95</MeleeParryChance>
 			<MaxHitPoints>40</MaxHitPoints>
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
 		</value>
 	</Operation>
 
@@ -425,7 +477,7 @@
 					</capacities>
 					<power>45</power>
 					<cooldownTime>1.2</cooldownTime>
-					<armorPenetration>2000.0</armorPenetration>
+					<armorPenetrationSharp>200.0</armorPenetrationSharp>
 				</li>
 			</tools>
 		</value>
@@ -542,14 +594,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>320.0</ArmorRating_Blunt>
+			<ArmorRating_Blunt>30000</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>120.0</ArmorRating_Sharp>
+			<ArmorRating_Sharp>3500.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -563,6 +615,7 @@
 			<MeleeParryChance>0.95</MeleeParryChance>
 			<!-- <MaxHitPoints>200</MaxHitPoints> -->
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
 		</value>
 	</Operation>
 
@@ -865,7 +918,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>120</ArmorRating_Sharp>
+			<ArmorRating_Sharp>450</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
@@ -878,6 +931,7 @@
 			<MeleeCritChance>0.42</MeleeCritChance>
 			<MeleeParryChance>0.10</MeleeParryChance>
 			<NightVisionEfficiency>1.0</NightVisionEfficiency>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
 		</value>
 	</Operation>
 

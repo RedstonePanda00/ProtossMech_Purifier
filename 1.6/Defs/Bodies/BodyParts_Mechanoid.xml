@@ -33,7 +33,7 @@
   <BodyPartDef>
     <defName>SmallAntiGravityCore</defName>
     <label>Anti Gravity Core</label>
-    <hitPoints>5</hitPoints>
+    <hitPoints>15</hitPoints>
     <frostbiteVulnerability>2</frostbiteVulnerability>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>

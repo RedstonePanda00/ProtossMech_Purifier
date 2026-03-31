@@ -82,7 +82,7 @@
       </li>
     </tools>
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>200</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>

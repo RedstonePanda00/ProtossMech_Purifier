@@ -68,7 +68,8 @@
             <li>
               <def>SmallAntiGravityCore</def>
               <customLabel>Anti Gravity Core</customLabel>
-              <coverage>0.2</coverage>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
             </li>
           </parts>
         </li>

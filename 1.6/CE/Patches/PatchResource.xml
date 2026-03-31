@@ -33,7 +33,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="PM_Adanium"]/statBases/StuffPower_Armor_Heat</xpath>
         <value>
-            <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+            <StuffPower_Armor_Heat>2</StuffPower_Armor_Heat>
         </value>
     </Operation>
 

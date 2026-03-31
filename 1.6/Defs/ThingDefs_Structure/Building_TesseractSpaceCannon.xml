@@ -26,7 +26,7 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>200</energyMax>
         <energyGainPerTick>0.2</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>

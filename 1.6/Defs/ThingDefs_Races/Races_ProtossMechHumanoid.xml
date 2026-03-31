@@ -68,7 +68,7 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>100</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
@@ -177,7 +177,7 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>50</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
@@ -272,7 +272,7 @@
     </tools>
 
     <comps>
-      <li Class="ProtossMech.CompProperties_ProtossMechShieldPawn">
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>80</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>
         <ticksToBeginRecharge>400</ticksToBeginRecharge>
