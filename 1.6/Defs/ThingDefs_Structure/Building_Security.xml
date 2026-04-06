@@ -39,7 +39,7 @@
       <turretTopOffset>(0, 0.05)</turretTopOffset>
     </building>
     <modExtensions>
-      <li Class="ModExtention.AllowForcedTargetExtension" />
+      <li Class="ProtossMech.AllowForcedTargetExtension" />
     </modExtensions>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
@@ -68,6 +68,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>
       </li>
+      <li Class="ProtossMech.CompProperties_IgnoreSolarFlareElectricity"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
@@ -208,7 +209,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_KhaydarinMonolith</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>90</range>
+        <range>79</range>
         <minRange>0</minRange>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -278,7 +279,7 @@
       <turretTopOffset>(0, 0.05)</turretTopOffset>
     </building>
     <modExtensions>
-      <li Class="ModExtention.AllowForcedTargetExtension" />
+      <li Class="ProtossMech.AllowForcedTargetExtension" />
     </modExtensions>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
@@ -307,6 +308,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>
       </li>
+      <li Class="ProtossMech.CompProperties_IgnoreSolarFlareElectricity"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
@@ -405,6 +407,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>20</basePowerConsumption>
       </li>
+      <li Class="ProtossMech.CompProperties_IgnoreSolarFlareElectricity"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">

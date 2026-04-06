@@ -89,7 +89,7 @@
                 <li>Protoss_Persona_Legionnaire_Fleet</li>
                 <li>Protoss_Persona_Legionnaire_Vanguard</li>
             </personaKeys>
-            <chattiness>1.0</chattiness>
+            <chattiness>0.5</chattiness>
         </li>
     </modExtensions>
   </ThingDef>
@@ -110,7 +110,6 @@
       </li>
     </lifeStages>
     <abilities>
-      <li>LegionnaireJump</li>
       <li>MechCharge</li>
     </abilities>
   </PawnKindDef>
@@ -195,7 +194,7 @@
             <personaKeys>
                 <li>Protoss_Persona_Sentinel</li>
             </personaKeys>
-            <chattiness>0.75</chattiness>
+            <chattiness>0.25</chattiness>
         </li>
     </modExtensions>
   </ThingDef>

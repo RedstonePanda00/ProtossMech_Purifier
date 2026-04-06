@@ -61,7 +61,7 @@
         </statBases>
         <size>(2,2)</size>
         <comps>
-            <li Class="ModExtention.CompProperties_TransformAfterTick">
+            <li Class="ProtossMech.CompProperties_TransformAfterTick">
                 <tick>300</tick>
                 <defName>Pylon</defName>
                 <countdownLabel>Will Warp in</countdownLabel>
@@ -93,7 +93,7 @@
         </statBases>
         <size>(2,2)</size>
         <comps>
-            <li Class="ModExtention.CompProperties_TransformAfterTick">
+            <li Class="ProtossMech.CompProperties_TransformAfterTick">
                 <tick>300</tick>
                 <defName>Photon_Cannon</defName>
                 <countdownLabel>Will Warp in</countdownLabel>
@@ -128,7 +128,7 @@
         </statBases>
         <size>(2,2)</size>
         <comps>
-            <li Class="ModExtention.CompProperties_TransformAfterTick">
+            <li Class="ProtossMech.CompProperties_TransformAfterTick">
                 <tick>3000</tick>
                 <defName>Pylon</defName>
                 <countdownLabel>Overcharge Will end in</countdownLabel>

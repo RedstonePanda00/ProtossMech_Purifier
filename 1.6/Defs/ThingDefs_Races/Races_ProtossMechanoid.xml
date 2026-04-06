@@ -46,7 +46,7 @@
         <tickInterval>60</tickInterval>
       </li>
       <li Class="RsPandaLibrary.CompProperties_NeverDown" />
-      <li Class="ModExtention.CompProperties_DisableFeral" />
+      <li Class="ProtossMech.CompProperties_DisableFeral" />
       <li Class="ProtossMech.CompProperties_OfflineWorking" />
       <li Class="ProtossMech.CompProperties_WalkAOnCooldown" />
       <li Class="ProtossMech.CompProperties_NoMeleeDodge" />

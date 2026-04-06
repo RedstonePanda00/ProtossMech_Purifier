@@ -151,7 +151,7 @@
 
     <AbilityDef>
         <defName>LegionnaireJump</defName>
-        <label>Legionnaire longjump</label>
+        <label>Engage</label>
         <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
         <iconPath>Things/Abilities/KaldalisIntercept</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
@@ -343,7 +343,7 @@
 
         <comps>
             <li Class="ProtossMech.CompProperties_SpawnAndGo">
-                <pawnDefToSpawn>PMP_PurificationNova</pawnDefToSpawn>
+                <thingDefToSpawn>PMP_PurificationNova</thingDefToSpawn>
             </li>
         </comps>
 

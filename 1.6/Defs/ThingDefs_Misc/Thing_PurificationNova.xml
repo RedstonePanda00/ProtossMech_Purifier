@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- RsPandaLibrary.Thing_Mobile + CompMobile: select + right-click move (Selector patch in PandaLib). -->
+  <ThingDef>
+    <defName>PMP_PurificationNova</defName>
+    <category>Building</category>
+    <thingClass>RsPandaLibrary.Thing_Mobile</thingClass>
+    <label>Purification Nova</label>
+    <description>A massive explosive energy.</description>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Pawn/Mechanoid/PurificationNova</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.0</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <rotatable>false</rotatable>
+    <stealable>false</stealable>
+    <selectable>true</selectable>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="RsPandaLibrary.CompProperties_Mobile">
+        <moveSpeedPerSecond>20</moveSpeedPerSecond>
+      </li>
+      <li Class="ProtossMech.CompProperties_TimedDetonator">
+        <countdownTicks>180</countdownTicks>
+        <explosionRadius>4.9</explosionRadius>
+        <explosionDamageType>PMP_NovaExplosion</explosionDamageType>
+        <pawnDamageAmount>150</pawnDamageAmount>
+        <buildingDamageAmount>1500</buildingDamageAmount>
+        <secondaryExplosionDelayTicks>60</secondaryExplosionDelayTicks>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

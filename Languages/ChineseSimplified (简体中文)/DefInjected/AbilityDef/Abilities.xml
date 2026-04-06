@@ -2,11 +2,11 @@
 <LanguageData>
   
   <!-- EN: Legionnaire longjump -->
-  <LegionnaireJump.label>跳跃</LegionnaireJump.label>
+  <LegionnaireJump.label>寻战</LegionnaireJump.label>
   <!-- EN: Jump to a distant location using special ultrafast mechanoid muscles. -->
   <LegionnaireJump.description>用强壮的机械腿跳跃到指定位置。</LegionnaireJump.description>
   <!-- EN: jump -->
-  <LegionnaireJump.verbProperties.label>跳跃</LegionnaireJump.verbProperties.label>
+  <LegionnaireJump.verbProperties.label>寻战</LegionnaireJump.verbProperties.label>
   
   <!-- EN: Skip -->
   <PMP_UmbraSkip.label>相位跃迁</PMP_UmbraSkip.label>
