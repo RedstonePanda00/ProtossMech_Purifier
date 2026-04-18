@@ -13,6 +13,11 @@
   <!-- EN: Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius. -->
   <PMP_UmbraSkip.description>传送到目标格位，可穿透墙体。落地时对周围敌人造成45点处决伤害。</PMP_UmbraSkip.description>
   
+  <!-- EN: Triple strike -->
+  <PMP_UmbraTripleStrike.label>三连击</PMP_UmbraTripleStrike.label>
+  <!-- EN: Lock onto a hostile target and, after a short delay, hit it with three anti-armor shock beams. Each beam uses the same visual as the Khaydarin monolith. Strikes are spaced by 10 ticks; if the target dies, a new hostile in range is picked for remaining hits. Pawns take direct part injuries; buildings take normal damage. -->
+  <PMP_UmbraTripleStrike.description>锁定一名敌对目标：仅在施法时校验射程与视线；三连击进行中即使目标逃离或失去视线仍会命中。预热结束后立刻第一击，第二、第三击之间各间隔10 ticks。三次对同一部位造成85点固定伤害，默认躯干，失败则另选部位。光束与音效同凯达琳巨石。若原目标死亡，在施法时的射程内优先另选敌对单位，其次才是敌对建筑；无可用目标则该次打击落空但不会卡住。三连击结束前无法再次施放；对建筑使用常规伤害。</PMP_UmbraTripleStrike.description>
+  
   <!-- EN: charge -->
   <MechCharge.label>冲锋</MechCharge.label>
   <!-- EN: Speed up in several seconds. -->

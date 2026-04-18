@@ -3,7 +3,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PM_Solarite</defName>
     <label>Solarite</label>
-    <description>A hyper-condensed core of fusion energy, harvested directly from an artificial star and stabilized within a crystalline containment unit. Known as Solarite, this substance is the primary power source for advanced Purifier technology. While normally handled by sophisticated converters, the volatile reaction can be crudely initiated by a fission-level event in desperate situations.</description>
+    <description>A highly condensed, crystalline energy substance. The Star Eaters squad typically extracts it directly from the iron-based fusion reactor of their flagship, the "Aurora"—a reactor that achieves full mass-energy conversion by warping the Planck constant and the gravitational constant to force massive black holes into extreme Hawking radiation. Solarite is the primary energy source for most Purifier-aligned Protoss machinery. Fundamentally it is simply crystallized energy with no special tech lock: it can be produced from any high-energy device (ZPE, cold fusion, antimatter reactors, etc.), and even ordinary fusion events can crudely trigger a small emergency yield.</description>
     <graphicData>
       <texPath>Things/Resource/Solarite</texPath>
       <graphicClass>Graphic_Single</graphicClass>

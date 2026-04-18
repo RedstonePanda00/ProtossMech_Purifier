@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PMP_UmbraSkip_InvalidCell>无法传送到该格位，目标格必须空旷且可站立。</PMP_UmbraSkip_InvalidCell>
+  <PMP_UmbraTripleStrike_Busy>三连击尚未结束，无法再次施放。</PMP_UmbraTripleStrike_Busy>
 </LanguageData>

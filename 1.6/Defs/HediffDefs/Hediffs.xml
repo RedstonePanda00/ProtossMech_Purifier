@@ -8,7 +8,7 @@
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_Disappears">
-                <disappearsAfterTicks>3600</disappearsAfterTicks>
+                <disappearsAfterTicks>900</disappearsAfterTicks>
                 <showRemainingTime>true</showRemainingTime>
             </li>
             <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
@@ -67,7 +67,9 @@
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_DisappearsOnDeath" />
-            <li Class="ProtossMech.HediffCompProperties_EnergizerPhaseMode" />
+            <li Class="ProtossMech.HediffCompProperties_EnergizerPhaseMode">
+                <autoChronoIntervalTicks>60</autoChronoIntervalTicks>
+            </li>
         </comps>
         <stages>
             <li>
@@ -366,6 +368,34 @@
                 </statOffsetsBySeverity>
             </li>
         </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_Hediff_UmbraTripleStrikeQueue</defName>
+        <label>Umbra triple strike (internal)</label>
+        <description>Internal scheduling hediff for the Umbra triple strike ability.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>0.01</initialSeverity>
+        <isBad>false</isBad>
+        <makesAlert>false</makesAlert>
+        <stages>
+            <li/>
+        </stages>
+        <comps>
+            <li Class="ProtossMech.HediffCompProperties_UmbraTripleStrikeQueue">
+                <intervalTicks>15</intervalTicks>
+                <strikeCount>3</strikeCount>
+                <firstStrikeDelayTicks>0</firstStrikeDelayTicks>
+                <pawnFixedDamagePerStrike>85</pawnFixedDamagePerStrike>
+                <preferredBodyPart>Torso</preferredBodyPart>
+                <buildingDamageAmount>100</buildingDamageAmount>
+                <buildingArmorPenetration>0.5</buildingArmorPenetration>
+                <beamProjectile>Bullet_KhaydarinMonolith</beamProjectile>
+                <beamMoteColor>(1, 0.9, 0.22)</beamMoteColor>
+                <soundCast>ChargeLance_Fire</soundCast>
+                <damageDef>AntiArmorShock</damageDef>
+            </li>
+        </comps>
     </HediffDef>
 
 </Defs>

@@ -209,6 +209,32 @@
     </AbilityDef>
 
     <AbilityDef>
+        <defName>PMP_UmbraTripleStrike</defName>
+        <label>Triple strike</label>
+        <description>Lock onto a hostile target and, as soon as the ability finishes warming up, hit it with three anti-armor shock beams (85 damage each to the same body part, default torso). Range and line of sight are checked only when casting; after that, strikes continue even if the target runs away or breaks LOS. Each beam uses the same visual as the Khaydarin monolith. Delays apply only between the 1st and 2nd and between the 2nd and 3rd strike (10 ticks). If the target dies, the nearest hostile pawn in cast range is chosen for remaining hits, otherwise a hostile building. Cannot be recast until the combo finishes. Buildings take normal damage.</description>
+        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <cooldownTicksRange>600</cooldownTicksRange>
+        <groupAbility>true</groupAbility>
+        <hostile>true</hostile>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>true</requireLineOfSight>
+            <range>40</range>
+            <warmupTime>1.5</warmupTime>
+            <targetParams>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetBuildings>true</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_UmbraTripleStrike" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
         <defName>MechCharge</defName>
         <label>charge</label>
         <description>Speed up in several seconds.</description>

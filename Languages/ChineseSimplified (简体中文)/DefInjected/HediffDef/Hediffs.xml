@@ -94,4 +94,9 @@
   <!-- EN: This colonist has endured many raids and grown stronger for it. -->
   <PM_Artanis_Veteran.description>这名殖民者经历了多次袭击，愈战愈强。</PM_Artanis_Veteran.description>
   
+  <!-- EN: Umbra triple strike (internal) -->
+  <PM_Hediff_UmbraTripleStrikeQueue.label>渊影三连击（内部）</PM_Hediff_UmbraTripleStrikeQueue.label>
+  <!-- EN: Internal scheduling hediff for the Umbra triple strike ability. -->
+  <PM_Hediff_UmbraTripleStrikeQueue.description>用于调度渊影三连击能力的内部状态。</PM_Hediff_UmbraTripleStrikeQueue.description>
+  
 </LanguageData>

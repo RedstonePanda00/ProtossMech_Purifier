@@ -282,6 +282,7 @@
         <cooldownTicks>3600</cooldownTicks>
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
+      <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
       <li Class="ProtossMech.CompProperties_UmbraWarpBladeRenderer" />
     </comps>
 
@@ -312,6 +313,7 @@
     </lifeStages>
     <abilities>
       <li>PMP_UmbraSkip</li>
+      <li>PMP_UmbraTripleStrike</li>
     </abilities>
   </PawnKindDef>
 

@@ -9,6 +9,6 @@
   <!-- EN: Solarite -->
   <PM_Solarite.label>太阳素</PM_Solarite.label>
   <!-- EN: A hyper-condensed core of fusion energy, harvested directly from an artificial star and stabilized within a crystalline containment unit. Known as Solarite, this substance is the primary power source for advanced Purifier technology. While normally handled by sophisticated converters, the volatile reaction can be crudely initiated by a fission-level event in desperate situations. -->
-  <PM_Solarite.description>一种高度浓缩的聚变能量，直接从一颗燃烧的人造恒星中提取，并稳定在一个特制容器内。这种物质被称为太阳素，是大部分净化者机械的能量源。虽然通常由复杂的转换器处理，但在条件不允许的情况下，反应可以由裂变级事件粗略地启动以制造少量的太阳素。</PM_Solarite.description>
+  <PM_Solarite.description>一种高度浓缩的，晶状的能量物质。噬星者小队通常从他们的旗舰“曙光号”的铁基聚变反应堆中直接提取。该反应堆通过扭曲普朗克常数和万有引力常数，极端加速大型黑洞的霍金辐射来实现100%的质能转化。太阳素是大部分净化者阵营的星灵机械的主要能源。本质上它只是一大团浓缩的晶状能量，没什么科技锁，从ZPE、冷核聚变反应堆、反物质反应堆等任意高能装置中均可通过能量晶体化生成。甚至普通核聚变事件亦可粗暴触发，临时产出少量。</PM_Solarite.description>
   
 </LanguageData>

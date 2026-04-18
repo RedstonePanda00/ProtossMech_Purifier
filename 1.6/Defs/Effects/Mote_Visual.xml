@@ -14,14 +14,15 @@
     </mote>
     <drawOffscreen>true</drawOffscreen>
     <graphicData>
-      <texPath>Things/Abilities/Projectile/Projectile_ChronoBeam</texPath>
+      <texPath>Things/Mote/GraserBeam</texPath>
       <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
       <shaderType>MoteBeam</shaderType>
+      <color>(1.0, 1.0, 0.2, 1.0)</color>
       <shaderParameters>
         <_ExtraTexA>/Things/Mote/BeamSecondaryNoise_A</_ExtraTexA>
         <_ExtraTexB>/Things/Mote/BeamSecondaryNoise_B</_ExtraTexB>
-        <_ScrollSpeedA>0</_ScrollSpeedA>
-        <_ScrollSpeedB>0</_ScrollSpeedB>
+        <_ScrollSpeedA>-4</_ScrollSpeedA>
+        <_ScrollSpeedB>3</_ScrollSpeedB>
         <_Intensity>2</_Intensity>
       </shaderParameters>
     </graphicData>

@@ -7,7 +7,7 @@
     <label>ChronoBeam Projectile</label>
     <thingClass>Beam</thingClass>
     <graphicData>
-      <texPath>Things/Abilities/Projectile/Projectile_ChronoBeam</texPath>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
