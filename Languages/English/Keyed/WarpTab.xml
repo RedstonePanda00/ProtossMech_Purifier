@@ -19,4 +19,5 @@
   <ProtossMech.NoWarpGateCharge>No available warp gate charge.</ProtossMech.NoWarpGateCharge>
 
   <ProtossMech.WarpingIn>Unit will warp in {0}.</ProtossMech.WarpingIn>
+  <ProtossMech.BuildingWarpingIn>Building will warp in {0}.</ProtossMech.BuildingWarpingIn>
 </LanguageData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef>
+        <defName>PM_WarpConstructionBeaconBase</defName>
+        <label>warp construction beacon</label>
+        <description>A temporary beacon that will warp in a completed building.</description>
+        <thingClass>ThingWithComps</thingClass>
+        <category>Building</category>
+        <uiIconPath>Things/Weapon/ThermalLances</uiIconPath>
+        <graphicData>
+            <texPath>Things/Weapon/ThermalLances</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.0, 2.0)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <drawerType>RealtimeOnly</drawerType>
+        <selectable>true</selectable>
+        <tickerType>Normal</tickerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <passability>Standable</passability>
+        <fillPercent>0</fillPercent>
+        <pathCost>0</pathCost>
+        <blockWind>false</blockWind>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <building>
+            <claimable>false</claimable>
+            <deconstructible>false</deconstructible>
+            <isInert>true</isInert>
+        </building>
+        <comps>
+            <li Class="ProtossMech.CompProperties_WarpConstructionBeacon" />
+        </comps>
+    </ThingDef>
+</Defs>

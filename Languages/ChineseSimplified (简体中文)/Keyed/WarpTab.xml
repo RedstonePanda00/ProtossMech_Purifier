@@ -31,5 +31,7 @@
   <ProtossMech.NoWarpGateCharge>没有足够的折跃门充能.</ProtossMech.NoWarpGateCharge>
 
   <ProtossMech.WarpingIn>单位将在 {0} 后完成折跃.</ProtossMech.WarpingIn>
+  <!-- EN: Building will warp in {0}. -->
+  <ProtossMech.BuildingWarpingIn>建筑将在 {0} 后完成折跃。</ProtossMech.BuildingWarpingIn>
 
 </LanguageData>

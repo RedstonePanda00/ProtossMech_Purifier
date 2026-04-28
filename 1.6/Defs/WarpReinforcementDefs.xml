@@ -274,7 +274,7 @@
             <li>PM_NerazimMechStart</li>
             <li>PM_PurifierProject</li>
         </researchPrerequisites>
-        <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
+        <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
 </Defs>

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 661048279
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d788681937f1ab68a3b2a3ad47d6d87a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d788681937f1ab68a3b2a3ad47d6d87a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shaders/WarpingBuilding/WarpShatter.shader
+- Assets/Shaders/WarpingBuilding/WarpShatter.mat
+Dependencies: []
