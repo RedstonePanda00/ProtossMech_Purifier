@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <PM_DisruptShield.label>disrupt shield</PM_DisruptShield.label>
+  <PM_DisruptShield.deathMessage>{0} was disrupted by a focused energy pulse.</PM_DisruptShield.deathMessage>
+</LanguageData>

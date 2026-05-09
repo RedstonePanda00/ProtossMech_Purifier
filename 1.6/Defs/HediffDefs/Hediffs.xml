@@ -371,6 +371,28 @@
     </HediffDef>
 
     <HediffDef>
+        <defName>PM_Hediff_UmbraTripleStrikeAiming</defName>
+        <label>Umbra triple strike (aiming)</label>
+        <description>Internal: disrupt pulses while the triple strike ability is warming up.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>0.01</initialSeverity>
+        <isBad>false</isBad>
+        <makesAlert>false</makesAlert>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+        <comps>
+            <li Class="ProtossMech.HediffCompProperties_DisruptShieldPulse">
+                <pulseIntervalTicks>5</pulseIntervalTicks>
+                <pulseDamage>30</pulseDamage>
+                <damageDefName>PM_DisruptShield</damageDefName>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
         <defName>PM_Hediff_UmbraTripleStrikeQueue</defName>
         <label>Umbra triple strike (internal)</label>
         <description>Internal scheduling hediff for the Umbra triple strike ability.</description>
@@ -379,21 +401,28 @@
         <isBad>false</isBad>
         <makesAlert>false</makesAlert>
         <stages>
-            <li/>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
         </stages>
         <comps>
             <li Class="ProtossMech.HediffCompProperties_UmbraTripleStrikeQueue">
-                <intervalTicks>15</intervalTicks>
+                <intervalTicks>60</intervalTicks>
                 <strikeCount>3</strikeCount>
                 <firstStrikeDelayTicks>0</firstStrikeDelayTicks>
-                <pawnFixedDamagePerStrike>85</pawnFixedDamagePerStrike>
-                <preferredBodyPart>Torso</preferredBodyPart>
-                <buildingDamageAmount>100</buildingDamageAmount>
-                <buildingArmorPenetration>0.5</buildingArmorPenetration>
+                <vfxBallTravelTicks>15</vfxBallTravelTicks>
+                <pawnFixedDamagePerStrike>45</pawnFixedDamagePerStrike>
+                <preferredBodyPart>Head</preferredBodyPart>
+                <buildingDamageAmount>500</buildingDamageAmount>
                 <beamProjectile>Bullet_KhaydarinMonolith</beamProjectile>
                 <beamMoteColor>(1, 0.9, 0.22)</beamMoteColor>
                 <soundCast>ChargeLance_Fire</soundCast>
                 <damageDef>AntiArmorShock</damageDef>
+            </li>
+            <li Class="ProtossMech.HediffCompProperties_DisruptShieldPulse">
+                <pulseIntervalTicks>5</pulseIntervalTicks>
+                <pulseDamage>30</pulseDamage>
+                <damageDefName>PM_DisruptShield</damageDefName>
             </li>
         </comps>
     </HediffDef>

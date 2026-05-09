@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DamageDef>
+        <defName>PM_DisruptShield</defName>
+        <label>disrupt shield</label>
+        <workerClass>ProtossMech.DamageWorker_DisruptShield</workerClass>
+        <deathMessage>{0} was disrupted by a focused energy pulse.</deathMessage>
+        <externalViolence>false</externalViolence>
+        <harmsHealth>true</harmsHealth>
+        <isRanged>true</isRanged>
+        <armorCategory></armorCategory>
+        <defaultDamage>30</defaultDamage>
+        <impactSoundType>Bullet</impactSoundType>
+    </DamageDef>
+</Defs>

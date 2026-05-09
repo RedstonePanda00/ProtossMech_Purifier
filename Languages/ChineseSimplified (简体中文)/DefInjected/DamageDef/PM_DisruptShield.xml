@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <PM_DisruptShield.label>护盾干扰脉冲</PM_DisruptShield.label>
+  <PM_DisruptShield.deathMessage>{0} 被护盾干扰脉冲击中.</PM_DisruptShield.deathMessage>
+</LanguageData>

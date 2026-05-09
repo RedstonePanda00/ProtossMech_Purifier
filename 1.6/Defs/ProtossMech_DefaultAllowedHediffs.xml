@@ -16,6 +16,7 @@
             <li>PM_Hediff_TargetLockCaster</li>
             <li>PM_Floating</li>
             <li>PM_Hediff_UmbraTripleStrikeQueue</li>
+            <li>PM_Hediff_UmbraTripleStrikeAiming</li>
         </hediffs>
     </ProtossMech.DefaultAllowedHediffsDef>
 

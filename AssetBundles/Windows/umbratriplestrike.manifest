@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2946796485
+CRC: 965094485
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 83a3a5a89ab7d230322f327c58ad3f94
+    Hash: ef345ef08ed6dec823a09424a09de9f1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5e762ccb57c4caaabbb5a4199ac82c23
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 83a3a5a89ab7d230322f327c58ad3f94
+    Hash: ef345ef08ed6dec823a09424a09de9f1
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,6 +18,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Shaders/WarpingBuilding/WarpShatter.shader
-- Assets/Shaders/WarpingBuilding/WarpShatter.mat
+- Assets/Shaders/UmbraTripleStrike/UmbraPenetrationMuzzle.shader
+- Assets/Shaders/UmbraTripleStrike/UmbraPenetrationMuzzle.mat
+- Assets/Shaders/UmbraTripleStrike/UmbraTripleStrike.shader
+- Assets/Shaders/UmbraTripleStrike/UmbraTripleStrike.mat
 Dependencies: []
