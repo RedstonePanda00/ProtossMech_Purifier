@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProtossMech.GunSmithTab>Gun Smith</ProtossMech.GunSmithTab>
+  <ProtossMech.GunSmithWarp>Warp weapon</ProtossMech.GunSmithWarp>
+  <ProtossMech.GunSmithSave>Save loadout</ProtossMech.GunSmithSave>
+  <ProtossMech.GunSmithSaved>Saved loadout for {0}.</ProtossMech.GunSmithSaved>
+  <ProtossMech.GunSmithForge>Gun Smith</ProtossMech.GunSmithForge>
+  <ProtossMech.GunSmithForgeDesc>Configure modular weapons anywhere in the colony.</ProtossMech.GunSmithForgeDesc>
+  <ProtossMech.GunSmithWeaponList>Colony weapons</ProtossMech.GunSmithWeaponList>
+  <ProtossMech.GunSmithNoWeapons>No modular weapons found.</ProtossMech.GunSmithNoWeapons>
+  <ProtossMech.GunSmithSelectWeapon>Select a weapon.</ProtossMech.GunSmithSelectWeapon>
+  <ProtossMech.GunSmithNoPlatform>No gunsmith platform configured.</ProtossMech.GunSmithNoPlatform>
+  <ProtossMech.GunSmithLicenseRequired>License not obtained. Decipher the printer certificate first.</ProtossMech.GunSmithLicenseRequired>
+  <ProtossMech.GunSmithInvalidCell>Cannot warp weapon to this cell.</ProtossMech.GunSmithInvalidCell>
+  <ProtossMech.GunSmithWarpSuccess>{0} warped successfully.</ProtossMech.GunSmithWarpSuccess>
+  <ProtossMech.GunSmithSlot.Barrel>Barrel</ProtossMech.GunSmithSlot.Barrel>
+  <ProtossMech.GunSmithSlot.Sight>Sight</ProtossMech.GunSmithSlot.Sight>
+  <ProtossMech.GunSmithSlot.Stock>Stock</ProtossMech.GunSmithSlot.Stock>
+  <ProtossMech.GunSmithSlot.Magazine>Magazine</ProtossMech.GunSmithSlot.Magazine>
+  <ProtossMech.GunSmithPreviewFailed>Preview unavailable.</ProtossMech.GunSmithPreviewFailed>
+  <ProtossMech.GunSmithMode.Gunsmith>Gunsmith</ProtossMech.GunSmithMode.Gunsmith>
+  <ProtossMech.GunSmithMode.LayoutDev>Layout dev</ProtossMech.GunSmithMode.LayoutDev>
+  <ProtossMech.GunSmithStats.Committed>Committed loadout</ProtossMech.GunSmithStats.Committed>
+  <ProtossMech.GunSmithStats.CurrentLoadout>Current loadout (new)</ProtossMech.GunSmithStats.CurrentLoadout>
+  <ProtossMech.GunSmithStats.PartBonuses>Part bonuses</ProtossMech.GunSmithStats.PartBonuses>
+  <ProtossMech.GunSmithSwitchPlatform>Switch weapon</ProtossMech.GunSmithSwitchPlatform>
+  <ProtossMech.GunSmithPlatformPickerTitle>Select weapon type</ProtossMech.GunSmithPlatformPickerTitle>
+  <ProtossMech.GunSmithPlatformLocked>Requires: {0}</ProtossMech.GunSmithPlatformLocked>
+  <ProtossMech.GunSmithStats.IgnoresWeather>Ignores weather</ProtossMech.GunSmithStats.IgnoresWeather>
+  <ProtossMech.GunSmithStats.IgnoresSmoke>Ignores smoke penalty</ProtossMech.GunSmithStats.IgnoresSmoke>
+
+</LanguageData>

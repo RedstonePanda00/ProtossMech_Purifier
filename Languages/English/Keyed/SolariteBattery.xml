@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProtossMech_SolariteBattery_Stored>Stored: {0} / {1} Wd ({2})</ProtossMech_SolariteBattery_Stored>
+  <ProtossMech_SolariteBattery_CurrentOutput>Current output: {0} W</ProtossMech_SolariteBattery_CurrentOutput>
+  <ProtossMech_SolariteBattery_Crystallize>Crystallize Solarite</ProtossMech_SolariteBattery_Crystallize>
+  <ProtossMech_SolariteBattery_CrystallizeDesc>Empty stored energy and produce {1} Solarite when charge is at least {0}.</ProtossMech_SolariteBattery_CrystallizeDesc>
+  <ProtossMech_SolariteBattery_CrystallizeDisabled>Requires at least {0} charge.</ProtossMech_SolariteBattery_CrystallizeDisabled>
+
+</LanguageData>

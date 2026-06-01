@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Protoss technologies -->
   <ProtossTech.label>星灵机械</ProtossTech.label>
   <!-- EN: En Taro Artanis. -->
-  <ProtossTech.generalDescription>En Taro Artanis.</ProtossTech.generalDescription>
-  <!-- EN: Protoss technologies projects -->
-  <ProtossTech.generalTitle>星灵机械研究项目</ProtossTech.generalTitle>
+  <ProtossTech.generalDescription>并非发明，而是校验。每一项研究都在交叉核对来自未知援手的公式，以证明殖民地有权安全动用被借予的战争科技。</ProtossTech.generalDescription>
+  <!-- EN: Deciphered transmissions -->
+  <ProtossTech.generalTitle>破译传输</ProtossTech.generalTitle>
   
 </LanguageData>

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3301404993
+CRC: 843756997
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2c45ea7c953cddf4fe9fbb856c3ab6f7
+    Hash: 03368a29dd9412a9ef9a030737ee4155
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5e762ccb57c4caaabbb5a4199ac82c23
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 2c45ea7c953cddf4fe9fbb856c3ab6f7
+    Hash: 03368a29dd9412a9ef9a030737ee4155
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,6 +18,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Shaders/ProtossMechShieldSphere.shader
-- Assets/Shaders/Mat_ProtossMechShieldSphere.mat
+- Assets/Shaders/PMGUI/WarpConsoleEnergyFrame.mat
+- Assets/Shaders/PMGUI/WarpConsoleEnergyFrame.shader
+- Assets/Shaders/PMGUI/WarpConsoleHoneycombFlow.mat
+- Assets/Shaders/PMGUI/WarpConsoleHoneycombFlow.shader
 Dependencies: []

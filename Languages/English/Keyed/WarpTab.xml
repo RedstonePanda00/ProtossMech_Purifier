@@ -9,6 +9,11 @@
   <ProtossMech.TransportTab>Transport</ProtossMech.TransportTab>
   <ProtossMech.ReinforceTab>Reinforce</ProtossMech.ReinforceTab>
 
+  <ProtossMech.NoMechsAvailable>No mechs available.</ProtossMech.NoMechsAvailable>
+  <ProtossMech.NoReinforcementsAvailable>No reinforcements available.</ProtossMech.NoReinforcementsAvailable>
+  <ProtossMech.NoWarpTabsAvailable>No warp tabs available.</ProtossMech.NoWarpTabsAvailable>
+  <ProtossMech.WarpGroupCount>x{0}</ProtossMech.WarpGroupCount>
+
   <ProtossMech.ReinforcementLimitReached>Not Enough Resources for additional Warp Beacon.</ProtossMech.ReinforcementLimitReached>
 
   <ProtossMech.NotEnoughResources>Not Enough Resources.</ProtossMech.NotEnoughResources>

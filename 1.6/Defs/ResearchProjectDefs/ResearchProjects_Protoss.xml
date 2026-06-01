@@ -3,8 +3,8 @@
 
     <ResearchProjectDef>
         <defName>PM_Fundamentals</defName>
-        <label>Protoss Engineering Fundamentals</label>
-        <description>Unlocks the foundational mathematics and physical theories of the Protoss. A necessary stepping stone to restoring the lost glory of the Golden Age.</description>
+        <label>Deciphered: Protoss Mech Fundamentals</label>
+        <description>A data packet containing a series of physical equations, together with extensive infrastructure blueprints from an alien civilization.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -22,19 +22,46 @@
         <researchViewY>2.90</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
 
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+    <ResearchProjectDef>
+        <defName>PM_PrinterCertificate</defName>
+        <label>Deciphered: Printer Certificate</label>
+        <description>An authorization packet for the Aurora's printer—access keys, calibration tables, and modular-weapon assembly protocols. Many blueprints look familiar; as a Kardashev V civilization, they still preserve every weapon design archive since the age of cold steel.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_Fundamentals</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>4.00</researchViewY>
+        <customUnlockTexts>
+            <li>Unlocks the Gun Smith warp tab.</li>
+            <li>Unlocks the Gun Smith gizmo on the Protoss Forge.</li>
+        </customUnlockTexts>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_NuclearFusion</defName>
-        <label>thermonuclear fusion</label>
-        <description>Unlocks the synthesis of Solarite, a highly compressed form of fusion energy. This potent substance is the key to powering the mighty technologies of the Golden Age.</description>
+        <label>Deciphered: Thermonuclear Fusion</label>
+        <description>The opening formula is all too familiar—E=mc². More perplexing is the body of the text: procedures to condense energy into "solarite shards" (the archive also names them simply "Solarite"). Footnotes keep citing "breaking the limit of heavy nuclei," yet offer no solvable steps. Once verified, Solarite may be synthesized at the forge.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -45,23 +72,21 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>2.00</researchViewX>
+        <researchViewX>3.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>PM_PositronicAI</defName>
-        <label>Positronic AI</label>
-        <description>Develop positron-driven quantum circuits that emulate biological synapses. Allows for the creation of sentient AI capable of independent reasoning and adaptive learning.</description>
+        <defName>PM_EnergyCrystallization</defName>
+        <label>Deciphered: Energy Crystallization</label>
+        <description>Procedures to condense stored electrical energy into crystallized Solarite inside a dedicated containment vessel. The archive specifies field geometries for pylon-assisted trickle charging and emergency extraction yields.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -72,29 +97,50 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>4.00</researchViewX>
-        <researchViewY>2.90</researchViewY>
-        <!-- <discoveredLetterTitle>about:placeholder</discoveredLetterTitle>
-        <discoveredLetterText>placeholder.</discoveredLetterText> -->
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>4.00</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
 
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+    <ResearchProjectDef>
+        <defName>PM_PositronicAI</defName>
+        <label>Deciphered: Positronic Cognition</label>
+        <description>This packet collects formulae from neuroscience and quantum mechanics, gives operational definitions of consciousness and sapience, and describes how positronic lattices can replicate a sapient brain—functionally, one to one.\n\nWe need no longer extract high-grade secondary subcores by violently scanning human brains. The same AI architecture may be fitted to our most advanced experimental turrets.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_NuclearFusion</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_SyntheticPersonality</defName>
-        <label>Synthetic Personality Matrix</label>
-        <description>Develops an advanced cognitive matrix capable of creating artificial intelligences with personalities indistinguishable from real people. True sentience is no longer the privilege of the organic.</description>
+        <label>Deciphered: Synthetic Personality Matrix</label>
+        <description>This packet questions whether the soul exists at all—in truth, it explains how to replicate, one to one, the "soul" of a still-living sapient being.\n\nThis allows us to understand and fabricate true AI persona cores at the forge.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
-        <researchViewX>6.00</researchViewX>
+        <researchViewX>7.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <prerequisites>
             <li>PM_PositronicAI</li>
@@ -105,23 +151,21 @@
         </requiredResearchFacilities>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_PurifierProject</defName>
-        <label>Purifier Project</label>
-        <description>Unlocks the technology to warp in robotic frames for the Purifier Legion and download preserved personalities into them. The ancient warriors shall rise again.</description>
+        <label>Deciphered: Purifier Host Framework</label>
+        <description>Less a data packet than a full blueprint set and a war archive: an arrogant regime copied the souls of its bravest, noblest warriors into machine bodies, seeking an army that would win forever—yet treated them only as tools. They rose, were crushed, and were sealed "for good"—scare quotes the archive keeps scratching out. The engineering chapters share a source with the Synthetic Personality Matrix.\n\nWhat grips you most is a lattice metamaterial called precision gold, or adanium: its structure coaxes attacks to slip past armor and be absorbed, yielding near-unstoppable penetration.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
-        <researchViewX>8.00</researchViewX>
+        <researchViewX>9.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <prerequisites>
             <li>PM_SyntheticPersonality</li>
@@ -132,11 +176,9 @@
         </requiredResearchFacilities>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
@@ -144,11 +186,13 @@
     <ResearchProjectDef>
         <defName>PM_PurifierProjectFinal</defName>
         <label>Eclipse and Apocalypse</label>
-        <description>"We are the Purifiers.  We were the spear of the Empire, the honourable Templar.  To better defend the Empire, we joined the Purifier Project, prepared to offer our eternal loyalty and service with honour.  Yet the High Conclave betrayed us—betrayed everyone.  We fought with honour, but they treated us as nothing more than machines.  So be it—let war come!  Let the universe boil, let the stars fall!  We gave them a chance, and they called it weakness.  Mercy is no more.  Traitors, the time has come to pay the price.  TIME IS TOO LATE, Organics." \n\n  —— Purifier Executor Clolarion</description>
+        <description>The last packet is unexpectedly simple: a string of access keys and a voice message. Perhaps we should listen.</description>
+        <discoveredLetterTitle>Message from the Executor</discoveredLetterTitle>
+        <discoveredLetterText>They call us the Star Devourers; others name us the Cosmic Crisis—for we once ended a universe already beyond saving, tainted by warp entities.\n\nAs for why we aid you: I have grown fond of humanity. Petty, selfish, warlike—yet brave, tenacious, hungry for the unknown. If the Mantle were mine to pass on, I might choose you.\n\nLet me tell a story. Once a foolish pilot ranged the void and met a bio-fleet bound to devour an unremarkable system: an ordinary star, seven worlds, life barely ripened into thought. He rashly chose to shield them, detonated his drives to die with the enemy, and became the first volunteer of a digitization craft he himself had devised.\n\nYet that pilot's life was never his alone. His legions lost their leader, soon broke apart; civil war came, and civilization fell back into savagery.\n\nIf you asked him to choose again, he would still spend himself. That solar system was beautiful. Humanity was beautiful.\n\nThe future belongs to you young ones. I will send you the blueprints for the Colossus and the Disruptor. My people once feared these weapons of war we forged with our own hands—but I hope they may help you find your way home.\n\nMay the stars bless your journey. En Taro To Artanis.</discoveredLetterText>
         <tab>ProtossTech</tab>
-        <baseCost>8000</baseCost>
+        <baseCost>7887</baseCost>
         <techLevel>Ultra</techLevel>
-        <researchViewX>10.00</researchViewX>
+        <researchViewX>11.00</researchViewX>
         <researchViewY>2.90</researchViewY>
         <prerequisites>
             <li>PM_PurifierProject</li>
@@ -159,46 +203,42 @@
         </requiredResearchFacilities>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_KhalaiMechStart</defName>
-        <label>Civilian Protoss Mechanoid</label>
-        <description>Establishes the baseline for Protoss mechanoids using Khalai mathematical models. Focuses on efficient, non-combat utility constructs.</description>
+        <label>Deciphered: Civilian Mech Package</label>
+        <description>A data packet labeled for civilian use. Most of it is engineering data on drones, together with blueprints for various small unmanned craft.\n\nWhat stands out: anti-grav technology from glitterworlds appears in this packet as well...</description>
         <tab>ProtossTech</tab>
-        <baseCost>4000</baseCost>
+        <baseCost>1000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>PM_NuclearFusion</li>
+            <li>PM_Fundamentals</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>2.00</researchViewX>
+        <researchViewX>0.00</researchViewX>
         <researchViewY>1.40</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_KhalaiMechAdvance</defName>
-        <label>Khalai Forge</label>
-        <description>Refines mechanoid designs with the Golden Armada's precision. Unlocks advanced Khalai combat machinery and high-durability plating.</description>
+        <label>Deciphered: Khalai Combat Package</label>
+        <description>A data packet of Khalai phase-technician engineering: extensive craft workflows, advanced formulae, and numerous mechanoid blueprints.\n\nYou are intrigued by offhand mentions of a "theory of everything"—but this packet offers no solvable equations.\n\nThe largest directory is named Skill. At its root lies Agent.md; every subfolder bears what looks like a person's name—as if indexing skill and harness protocols, yet the mapping makes no sense.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -213,19 +253,17 @@
         <researchViewY>0.00</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_NerazimMechStart</defName>
-        <label>Nerazim Forge</label>
-        <description>Combines void energy manipulation with material science. Unlocks mechanoids specialized in cloaking, phase-shifting, and guerrilla warfare.</description>
+        <label>Deciphered: Nerazim Combat Package</label>
+        <description>Compared with earlier packets, this one feels distinctly primitive—mostly rites, martial forms, and personal notes. It keeps returning to words that sit poorly beside science: "the Warp," "the Void," "psionics." The only clear practical gain: blueprints for several melee weapons and armor suits, plus a sketch of a defensive structure.\n\nAnnotated on the packet: "Hazardous Warp-Tech."</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -236,23 +274,21 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>4.00</researchViewX>
-        <researchViewY>0.00</researchViewY>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>1.40</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>PM_TaldarimMechStart</defName>
-        <label>Tal'darim Forge</label>
-        <description>Re-engineers stolen designs into brutal engines of destruction. Focuses on maximizing offensive output and forbidden weaponry at the cost of safety.</description>
+        <label>Deciphered: Tal'darim Combat Package</label>
+        <description>At first glance, brutally direct—violence pushed to extremes by the same answer every time: yield too low, increase yield; blast radius too small, increase yield; armor too thin, add more armor...\n\nYet scattered throughout are clever, startling designs—including blueprints for devastating mechanoids and defensive structures. The safety appendix is much shorter than the main text.</description>
         <tab>ProtossTech</tab>
         <baseCost>4000</baseCost>
         <techLevel>Ultra</techLevel>
@@ -263,15 +299,13 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>4.00</researchViewX>
-        <researchViewY>1.40</researchViewY>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>2.80</researchViewY>
         <generalRules>
             <rulesStrings>
-                <li>subject->research protoss engineering.</li>
-
-                <li>subject_story->research protoss engineering.</li>
-
-                <li>subject_gerund->research protoss engineering.</li>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
             </rulesStrings>
         </generalRules>
     </ResearchProjectDef>

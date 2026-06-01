@@ -15,6 +15,11 @@
   <!-- EN: Reinforce -->
   <ProtossMech.ReinforceTab>增援</ProtossMech.ReinforceTab>
 
+  <ProtossMech.NoMechsAvailable>没有可用的机械体。</ProtossMech.NoMechsAvailable>
+  <ProtossMech.NoReinforcementsAvailable>没有可用的增援单位。</ProtossMech.NoReinforcementsAvailable>
+  <ProtossMech.NoWarpTabsAvailable>没有可用的折跃面板。</ProtossMech.NoWarpTabsAvailable>
+  <ProtossMech.WarpGroupCount>x{0}</ProtossMech.WarpGroupCount>
+
   <!-- EN: Not Enough Resources for additional Warp Beacon. -->
   <ProtossMech.ReinforcementLimitReached>没有足够的资源放置更多折跃信标。</ProtossMech.ReinforcementLimitReached>
 

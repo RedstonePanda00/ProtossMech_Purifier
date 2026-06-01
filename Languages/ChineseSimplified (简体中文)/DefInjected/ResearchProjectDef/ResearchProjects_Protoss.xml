@@ -1,118 +1,116 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: Protoss Engineering Fundamentals -->
-  <PM_Fundamentals.label>星灵工程学基础</PM_Fundamentals.label>
-  <!-- EN: Study the foundational mathematics and physical theories behind Protoss design. Glimpse the ancient Golden Age of the Protoss Empire — a civilization that once conquered the entire universe with its unparalleled and awe-inspiring technology. -->
-  <PM_Fundamentals.description>解锁星灵的基础数学与物理理论。这是重现黄金时代荣光的必经之路。</PM_Fundamentals.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_Fundamentals.generalRules.rulesStrings>TODO</PM_Fundamentals.generalRules.rulesStrings>
+  <!-- EN: Deciphered: Protoss Mech Fundamentals -->
+  <PM_Fundamentals.label>星灵机械基础</PM_Fundamentals.label>
+  <PM_Fundamentals.description>一段包含了一系列物理方程的数据包，包含了一个外星文明的大量基础设施蓝图。</PM_Fundamentals.description>
+  <PM_Fundamentals.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_Fundamentals.generalRules.rulesStrings>
   
-  <!-- EN: Khalai Forge -->
+  <!-- EN: Deciphered: Stellar Forge Printer Certificate -->
+  <PM_PrinterCertificate.label>星空锻造厂许可</PM_PrinterCertificate.label>
+  <PM_PrinterCertificate.description>一份针对曙光号星空锻造厂系统的授权数据包——访问密钥、校准表与模块化武器装配规程。里面有大量我们看着都很熟悉的蓝图，看的出来即使科技宛如神明，他们依然保留着从冷兵器时代开始的全部蓝图数据。</PM_PrinterCertificate.description>
+  <PM_PrinterCertificate.customUnlockTexts.0>解锁折跃界面的枪械打印页签。</PM_PrinterCertificate.customUnlockTexts.0>
+  <PM_PrinterCertificate.customUnlockTexts.1>解锁星灵锻炉的枪械改装 gizmo。</PM_PrinterCertificate.customUnlockTexts.1>
+  <PM_PrinterCertificate.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_PrinterCertificate.generalRules.rulesStrings>
+  
+  <!-- EN: Deciphered: Khalai Combat Package -->
   <PM_KhalaiMechAdvance.label>卡莱锻造技术</PM_KhalaiMechAdvance.label>
-  <!-- EN: A research initiative grounded in Khalai precision and discipline. The Khalai Forge emphasizes advanced mathematics, quantum mechanics, and physical theory to refine mechanoid design. This project demonstrates the professional rigor of the Khalai Protoss, transforming abstract science into practical engineering marvels. -->
-  <PM_KhalaiMechAdvance.description>以黄金舰队的精度改良机械体设计。解锁高级卡莱战斗机械与高耐久装甲。</PM_KhalaiMechAdvance.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_KhalaiMechAdvance.generalRules.rulesStrings>TODO</PM_KhalaiMechAdvance.generalRules.rulesStrings>
+  <PM_KhalaiMechAdvance.description>一段收录卡莱相位技师工程经验的数据包，内含大量工艺工作流、复杂数学公式与多款机械体蓝图。\n\n你们对文中只言片语提到的「大一统理论」很感兴趣，但显然，此包并未给出可解的式子。\n\n文件最多的目录名为 Skill：根目录有 Agent.md，子文件夹却都以人名命名——像在索引某种技能与驾驭规程，却读不通。</PM_KhalaiMechAdvance.description>
+  <PM_KhalaiMechAdvance.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_KhalaiMechAdvance.generalRules.rulesStrings>
   
-  <!-- EN: Civilian Protoss Mechanoid -->
+  <!-- EN: Deciphered: Civilian Mech Package -->
   <PM_KhalaiMechStart.label>民用星灵机械</PM_KhalaiMechStart.label>
-  <!-- EN: The foundation of Protoss mechanized engineering. This research applies Khalai mathematical models, quantum energy distribution, and psionic interface theory to construct efficient, non-combat mechanoids. These civilian constructs establish the baseline for all future Protoss mechanized advancements. -->
-  <PM_KhalaiMechStart.description>利用卡莱数学模型建立星灵机械体的基准。专注于高效的非战斗辅助构造体。</PM_KhalaiMechStart.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_KhalaiMechStart.generalRules.rulesStrings>TODO</PM_KhalaiMechStart.generalRules.rulesStrings>
+  <PM_KhalaiMechStart.description>一段被标注为民用技术的数据包，大多数都是无人机相关的工程学数据和各式小型无人机的蓝图。\n\n令人在意的是，闪耀世界的逆重技术也在这个数据包出现……</PM_KhalaiMechStart.description>
+  <PM_KhalaiMechStart.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_KhalaiMechStart.generalRules.rulesStrings>
   
-  <!-- EN: Nerazim Forge -->
+  <!-- EN: Deciphered: Nerazim Combat Package -->
   <PM_NerazimMechStart.label>奈拉其姆锻造技术</PM_NerazimMechStart.label>
-  <!-- EN: The Nerazim explores the convergence of psionic resonance, void energy manipulation, and material science. By bridging the immaterial and the physical, this research develops mechanoids capable of cloaking, phase-shifting, and harmonizing with the void itself. It is a synthesis of psychic discipline and technological innovation. -->
-  <PM_NerazimMechStart.description>结合虚空能量操控与材料科学。解锁擅长隐形、相位移动和游击战的机械体。</PM_NerazimMechStart.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_NerazimMechStart.generalRules.rulesStrings>TODO</PM_NerazimMechStart.generalRules.rulesStrings>
+  <PM_NerazimMechStart.description>这段数据包相比之前的几份格外原始，基本都是一些仪式、武术和心得相关的信息。里面反复提到「亚空间」「虚空」「灵能」等与科学毫无联系的词语。唯一算得上有帮助的是，里面还记载了多种近战武器和盔甲的蓝图，以及一张防御性建筑的草图。\n\n数据包被批注为「危险亚空间科技」。</PM_NerazimMechStart.description>
+  <PM_NerazimMechStart.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_NerazimMechStart.generalRules.rulesStrings>
   
-  <!-- EN: thermonuclear fusion -->
+  <!-- EN: Deciphered: Thermonuclear Fusion -->
   <PM_NuclearFusion.label>热核聚变</PM_NuclearFusion.label>
-  <!-- EN: Advance the science of thermonuclear fusion — the controlled reaction that powers stars. This research focuses on achieving sustained energy output through magnetic confinement and quantum-stabilized plasma fields. Mastery of this technology not only enables efficient fusion reactors but also lays the foundation for the creation of an artificial sun — a stable, self-sustaining energy source once thought impossible. -->
-  <PM_NuclearFusion.description>解锁太阳素的合成技术，这是一种高度压缩的聚变能源。这种强效物质是驱动黄金时代宏伟科技的关键。</PM_NuclearFusion.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_NuclearFusion.generalRules.rulesStrings>TODO</PM_NuclearFusion.generalRules.rulesStrings>
+  <PM_NuclearFusion.description>开篇便是我们再熟悉不过的式子——E=mc²。更令人困惑的是正文主体：如何将能量凝结为「太阳能碎片」（档案亦直呼「太阳素」）的规程；脚注则一再提到「突破重原子的极限」，却未给出可解步骤。校验通过后，可在熔炉中合成太阳素。</PM_NuclearFusion.description>
+  <PM_NuclearFusion.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_NuclearFusion.generalRules.rulesStrings>
   
-  <!-- EN: Positronic AI -->
+  <!-- EN: Deciphered: Energy Crystallization -->
+  <PM_EnergyCrystallization.label>能量结晶化</PM_EnergyCrystallization.label>
+  <PM_EnergyCrystallization.description>将储存的电能按档案规程凝结为太阳素晶体的专用容器设计；注明了在水晶塔场范围内缓慢充能的场型，以及应急抽取时的固定产出当量。</PM_EnergyCrystallization.description>
+  <PM_EnergyCrystallization.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_EnergyCrystallization.generalRules.rulesStrings>
+  
+  <!-- EN: Deciphered: Positronic Cognition -->
   <PM_PositronicAI.label>正电子人工智能</PM_PositronicAI.label>
-  <!-- EN: Explore the frontier of synthetic cognition through positronic neural architecture. This research focuses on developing artificial intelligence based on positron-driven quantum circuits that emulate biological synaptic behavior with near-perfect precision. Positronic AI represents a breakthrough in machine sentience — capable of independent reasoning, adaptive learning, and self-evolving logic structures. -->
-  <PM_PositronicAI.description>开发模拟生物突触的正电子量子电路。允许创造具备独立推理和自适应学习能力的感知AI。</PM_PositronicAI.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_PositronicAI.generalRules.rulesStrings>TODO</PM_PositronicAI.generalRules.rulesStrings>
+  <PM_PositronicAI.description>本包收录脑科学与量子力学公式，对意识与智慧给出操作性定义，并描述如何以正电子晶格在功能上一比一复刻智慧生物大脑。\n\n这能帮助我们不再需要用暴力手段扫描人类大脑来制取高级次生核心；这种新型 AI 也可用在我们最先进的实验型炮台上。</PM_PositronicAI.description>
+  <PM_PositronicAI.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_PositronicAI.generalRules.rulesStrings>
   
-  <!-- EN: Purifier Project -->
+  <!-- EN: Deciphered: Purifier Host Framework -->
   <PM_PurifierProject.label>净化者计划</PM_PurifierProject.label>
-  <!-- EN: The Purifier Project stands as the Protoss's most audacious pursuit — the perfect fusion of flesh, spirit, and machine. Building upon breakthroughs in positronic cognition and synthetic personality matrices, this research achieves the complete transference of a sentient mind into a mechanized vessel. Each Purifier preserves the memories, instincts, and identity of their former self, yet is freed from the decay of organic existence. To the Protoss, this is not mere survival, but ascension — engineered immortality. Through this, our greatest templars shall serve the empire eternally, even when the last light of the stars fades into darkness. -->
-  <PM_PurifierProject.description>解锁折跃净化者军团机械素体的能力，以及将保存的人格数据下载到其中的技术。远古的战士们将再次以此身躯苏醒。</PM_PurifierProject.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_PurifierProject.generalRules.rulesStrings>TODO</PM_PurifierProject.generalRules.rulesStrings>
+  <PM_PurifierProject.description>与其说是数据包，不如说是完整蓝图集与一份战史档案：傲慢的政府将最勇敢、最高贵的战士之魂复刻进机械之躯，欲组万世长胜之军，却仅视其为工具。他们曾奋起，终被镇压，冠以「永久」封存——引号在档案里被反复涂抹。工程章节与合成人格矩阵同源。\n\n令你们最感兴趣的，是一种被称为精金、又称亚金的晶格超材料：它以自身结构诱导攻击「绕过」装甲并将其吸收，从而获得近乎无坚不摧的效果。</PM_PurifierProject.description>
+  <PM_PurifierProject.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_PurifierProject.generalRules.rulesStrings>
   
   <!-- EN: Eclipse and Apocalypse -->
   <PM_PurifierProjectFinal.label>日食与启示录</PM_PurifierProjectFinal.label>
-  <!-- EN: "We are the Purifiers.  We were the spear of the Empire, the honourable Templar.  To better defend the Empire, we joined the Purifier Project, prepared to offer our eternal loyalty and service with honour.  Yet the High Conclave betrayed us—betrayed everyone.  We fought with honour, but they treated us as nothing more than machines.  So be it—let war come!  Let the universe boil, let the stars fall!  We gave them a chance, and they called it weakness.  Mercy is no more.  Traitors, the time has come to pay the price.  TIME IS TOO LATE, Organics." \n\n  —— Purifier Executor Clolarion -->
-  <PM_PurifierProjectFinal.description>“我们是净化者。我们曾是帝国之矛，光荣的圣堂武士。为了更好地守护帝国，我们加入了净化者计划，誓以荣耀献上我们永恒的忠诚与服务。然而，最高议会背叛了我们，背叛了所有人。我们以荣誉而战，而他们却将我们视作冰冷的机器。既然如此——让战争降临吧！让宇宙沸腾，让群星陨落！我们曾给予他们机会，他们却将其当作软弱。怜悯已不复存在。叛徒们，偿还代价的时刻已经到来。 为时已晚，有机体。” \n\n  —— 净化者执行官，科罗拉里昂</PM_PurifierProjectFinal.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
+  <PM_PurifierProjectFinal.description>最后一个数据包意外的简单，一串权限密钥，和一段语音信息。\n\n也许我们应该听听。</PM_PurifierProjectFinal.description>
+  <PM_PurifierProjectFinal.discoveredLetterTitle>来自执行官的消息</PM_PurifierProjectFinal.discoveredLetterTitle>
+  <PM_PurifierProjectFinal.discoveredLetterText>他们称我们为噬星者，也有人唤作星海天罚——只因我们曾亲手终结一个被亚空间实体污染、早已没救的宇宙。\n\n至于为何要帮助你们：我很喜欢你们人类。虽然卑劣、自私、好斗，却也勇敢、顽强，对未知充满好奇。如果要传承我的衣钵，我可能会选择你们。\n\n且听我讲一个故事。曾有一位愚蠢的飞行员在星海间穿梭，遇见一支生物舰队——它们要去吞噬一个普普通通的星系：一颗普普通通的恒星，七颗行星，上面的生物刚发展出智慧。飞行员鲁莽地决定保护那些生灵，引爆自己的引擎与敌群同归于尽，被迫成为他自己所研数字化技术的第一位志愿者。\n\n然而那位飞行员的命从来不是他自己的。他的军队失去了领袖，很快群龙无首；内战爆发，文明退步回到原始时期。\n\n不过，如果还让那位飞行员再选一次，他应该还是会选择牺牲。因为那片太阳系很美，人类也很美。\n\n未来是属于你们这些年轻人的。我会将巨像和干扰者的蓝图传给你们；我的族人曾恐惧这些我们亲手铸就的战争兵器，但我希望它们能帮助你们回到家乡。\n\n愿群星祝愿你们的旅途，En Taro To Artanis.</PM_PurifierProjectFinal.discoveredLetterText>
   <PM_PurifierProjectFinal.generalRules.rulesStrings>
-    <li>subject->正在研究星灵工程学.</li>
-    <li>subject_story->正在研究星灵工程学.</li>
-    <li>subject_gerund->正在研究星灵工程学.</li>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
   </PM_PurifierProjectFinal.generalRules.rulesStrings>
   
-  <!-- EN: Synthetic Personality Matrix -->
+  <!-- EN: Deciphered: Synthetic Personality Matrix -->
   <PM_SyntheticPersonality.label>合成人人格矩阵</PM_SyntheticPersonality.label>
-  <!-- EN: Develop the Synthetic Personality Matrix — an advanced cognitive framework that integrates emotional modeling, self-awareness algorithms, and adaptive behavioral logic into positronic intelligence. This system allows artificial minds to simulate genuine personality traits, form preferences, and evolve unique identities over time. It marks the convergence of neuroscience, quantum computation, and cognitive engineering — the birth of true artificial individuality. -->
-  <PM_SyntheticPersonality.description>开发一种先进的认知矩阵，能够制造出人格与真人毫无二致的人工智能。真正的感知能力将不再是有机生命的特权。</PM_SyntheticPersonality.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_SyntheticPersonality.generalRules.rulesStrings>TODO</PM_SyntheticPersonality.generalRules.rulesStrings>
+  <PM_SyntheticPersonality.description>这份数据包质疑灵魂是否存在——事实上，它所讲解的，正是如何一比一复刻仍活着的智慧生物的「灵魂」。\n\n这能帮助我们理解并在熔炉中制备真正的人工智能人格核心。</PM_SyntheticPersonality.description>
+  <PM_SyntheticPersonality.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_SyntheticPersonality.generalRules.rulesStrings>
   
-  <!-- EN: Tal'darim Forge -->
+  <!-- EN: Deciphered: Tal'darim Combat Package -->
   <PM_TaldarimMechStart.label>塔达利姆锻造技术</PM_TaldarimMechStart.label>
-  <!-- EN: The tech of Tal'darim embodies ruthless adaptation rather than original innovation. Most of its technologies are appropriated or re-engineered from Khalai and Nerazim designs, reforged into brutal, high-output systems. This research reflects the Tal’darim creed: power above all, regardless of origin. -->
-  <PM_TaldarimMechStart.description>将窃取的设计重铸为残酷的毁灭引擎。不惜牺牲安全性，专注于最大化火力输出与禁忌武器。</PM_TaldarimMechStart.description>
-  <!-- EN:
-    <li>subject->research protoss engineering.</li>
-    <li>subject_story->research protoss engineering.</li>
-    <li>subject_gerund->research protoss engineering.</li>
-  -->
-  <PM_TaldarimMechStart.generalRules.rulesStrings>TODO</PM_TaldarimMechStart.generalRules.rulesStrings>
+  <PM_TaldarimMechStart.description>这份数据包乍一看非常粗暴，追求极致的暴力——威力不够大，加大当量；杀伤范围不够大，加大当量；装甲不够硬，加厚装甲……\n\n但其中也能看到很多精巧、让人眼前一亮的设计，例如若干威力巨大的机械体与防御建筑的蓝图。安全附录比正文短得多。</PM_TaldarimMechStart.description>
+  <PM_TaldarimMechStart.generalRules.rulesStrings>
+    <li>subject->破译传输公式</li>
+    <li>subject_story->破译来自未知援手的公式</li>
+    <li>subject_gerund->破译公式</li>
+  </PM_TaldarimMechStart.generalRules.rulesStrings>
   
 </LanguageData>

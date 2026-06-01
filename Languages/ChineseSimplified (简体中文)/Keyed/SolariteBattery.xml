@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProtossMech_SolariteBattery_Stored>蓄能：{0} / {1} Wd（{2}）</ProtossMech_SolariteBattery_Stored>
+  <ProtossMech_SolariteBattery_CurrentOutput>当前输出：{0} W</ProtossMech_SolariteBattery_CurrentOutput>
+  <ProtossMech_SolariteBattery_Crystallize>能量结晶化</ProtossMech_SolariteBattery_Crystallize>
+  <ProtossMech_SolariteBattery_CrystallizeDesc>当蓄能不低于 {0} 时，清空蓄能并生成 {1} 个太阳素。</ProtossMech_SolariteBattery_CrystallizeDesc>
+  <ProtossMech_SolariteBattery_CrystallizeDisabled>需要至少 {0} 蓄能。</ProtossMech_SolariteBattery_CrystallizeDisabled>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_GunC31Tempest.label>C-31 风暴</PM_GunC31Tempest.label>
+  <PM_GunC31Tempest.description>一把栓动式线圈狙击炮，配备一个小巧的太阳素电池，发射30mm SAPHE半穿甲高爆弹，膛速900–1,300 m/s，为摧毁掩体后的敌人或轻型装甲车设计。\n\n这把枪是在曙光号上的分子打印机中，直接从能量转化为物质整枪打印的。</PM_GunC31Tempest.description>
+
+  <PM_Bullet_C31Tempest.label>30mm SAPHE半穿甲高爆弹</PM_Bullet_C31Tempest.label>
+  <PM_Bullet_C31Tempest.description>C-31 风暴用半穿甲高爆弹，额定膛速900–1,300 m/s。</PM_Bullet_C31Tempest.description>
+
+</LanguageData>

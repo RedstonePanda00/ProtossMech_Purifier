@@ -232,6 +232,8 @@
       <MeleeHitChance>100.0</MeleeHitChance>
       <IncomingDamageFactor>0.25</IncomingDamageFactor>
       <MeleeDodgeChance>95</MeleeDodgeChance>
+      <AimingDelayFactor>0.25</AimingDelayFactor>
+      <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
     </statBases>
     <race>
       <body>PMP_HumanoidBody</body>
@@ -239,6 +241,7 @@
       <mechEnabledWorkTypes>
         <li>Hunting</li>
       </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
@@ -284,6 +287,7 @@
       </li>
       <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
       <li Class="ProtossMech.CompProperties_UmbraWarpBladeRenderer" />
+      <li Class="ProtossMech.CompProperties_UmbraTripleStrikeGunOverlay" />
     </comps>
 
     <modExtensions>

@@ -107,6 +107,11 @@
                 <minDrawSize>3.0</minDrawSize>
                 <maxDrawSize>3.5</maxDrawSize>
             </li>
+            <li Class="ProtossMech.GunSmith.CompProperties_GunSmithForge">
+                <researchPrerequisites>
+                    <li>PM_PrinterCertificate</li>
+                </researchPrerequisites>
+            </li>
         </comps>
         <recipes>
             <li>Make_ComponentIndustrial</li>

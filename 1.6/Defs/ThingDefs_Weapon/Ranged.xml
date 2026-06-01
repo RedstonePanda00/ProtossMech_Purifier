@@ -27,6 +27,9 @@
       <li Class="ProtossMech.VerbProperties_ProtossMeltBeam">
         <verbClass>ProtossMech.Verb_ShootMeltBeam</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
+        <ignoreWalls>true</ignoreWalls>
+        <requireLineOfSight>false</requireLineOfSight>
+        <stopBurstWithoutLos>false</stopBurstWithoutLos>
         <warmupTime>0.0</warmupTime>
         <range>45.0</range>
         <minRange>1</minRange>

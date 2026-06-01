@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Barrel_01</defName>
+        <label>R-42 reinforced barrel</label>
+        <description>Reinforced rail barrel assembly for the R-42 DeadEye. Stabilizes the bore field for higher muzzle velocity.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/RailGun/R42_Barrel_01</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>8</rangeOffset>
+        <projectileDamageOffset>4</projectileDamageOffset>
+        <projectileSpeedFactor>1.1</projectileSpeedFactor>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Sight_01</defName>
+        <label>advanced red dot sight</label>
+        <description>Close-range red dot sight with no on-screen HUD overlay for a clear field of view.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Sight</slotId>
+        <texPath>Things/Weapon/RailGun/R42_Telescope_01</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.15</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.15</AccuracyTouch>
+            <AccuracyShort>0.12</AccuracyShort>
+            <AccuracyMedium>0.08</AccuracyMedium>
+            <AccuracyLong>0.05</AccuracyLong>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

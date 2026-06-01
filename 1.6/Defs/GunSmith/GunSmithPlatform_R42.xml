@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPlatformDef>
+        <defName>PM_GunSmith_R42</defName>
+        <label>R-42 DeadEye</label>
+        <weaponThingDef>PM_GunR42DeadEye</weaponThingDef>
+        <bodyTexPath>Things/Weapon/RailGun/R42_Body</bodyTexPath>
+        <slotAttachmentOffsets>
+            <li>
+                <slotId>Barrel</slotId>
+                <offset>(-0.1594, -0.0198)</offset>
+                <gizmoOffset>(-0.0342, -0.0211)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Sight</slotId>
+                <offset>(0.1279, -0.0830)</offset>
+                <gizmoOffset>(-0.2818, -0.3107)</gizmoOffset>
+            </li>
+        </slotAttachmentOffsets>
+        <bakeTextureSize>512</bakeTextureSize>
+        <bakePadding>0.05</bakePadding>
+        <shadowDilatePixels>5</shadowDilatePixels>
+        <shadowAlpha>1</shadowAlpha>
+        <slotIds>
+            <li>Barrel</li>
+            <li>Sight</li>
+        </slotIds>
+        <warpCostList>
+            <li>
+                <thingDef>Steel</thingDef>
+                <count>1</count>
+            </li>
+        </warpCostList>
+    </ProtossMech.GunSmith.GunSmithPlatformDef>
+
+</Defs>

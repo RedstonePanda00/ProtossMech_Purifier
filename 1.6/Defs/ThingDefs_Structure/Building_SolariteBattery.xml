@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>PM_SolariteBattery</defName>
+        <label>Solarite battery</label>
+        <description>Stores energy condensed from fusion-scale reactions. Automatically feeds the grid when power is in deficit and absorbs surplus at 100% efficiency. Slowly charges within Pylon range. At high charge, energy may be crystallized into Solarite.</description>
+        <thingClass>Building</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Structure/SolariteBattery</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <pathCost>50</pathCost>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>true</castEdgeShadows>
+        <canOverlapZones>false</canOverlapZones>
+        <rotatable>false</rotatable>
+        <designationCategory>Power</designationCategory>
+        <uiOrder>3020</uiOrder>
+        <size>(1,1)</size>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>4000</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>-5</Beauty>
+        </statBases>
+        <costList>
+            <Plasteel>100</Plasteel>
+            <ComponentSpacer>10</ComponentSpacer>
+        </costList>
+        <researchPrerequisites>
+            <li>PM_EnergyCrystallization</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>ProtossMech.CompPowerPlant_SolariteBattery</compClass>
+                <basePowerConsumption>-1</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="ProtossMech.CompProperties_SolariteBatteryStorage">
+                <!-- 2.092e14 J at 1000 J/Wd (one RimWorld watt-day) -->
+                <storedEnergyMax>209200000000</storedEnergyMax>
+                <pylonChargePercentPerDay>0.10</pylonChargePercentPerDay>
+                <crystallizeThreshold>0.95</crystallizeThreshold>
+                <crystallizeSolariteCount>25</crystallizeSolariteCount>
+                <crystallizeProduct>PM_Solarite</crystallizeProduct>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <constructEffect>ConstructMetal</constructEffect>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    </ThingDef>
+
+</Defs>

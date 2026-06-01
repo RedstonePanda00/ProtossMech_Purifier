@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_RailDeadEye</defName>
+        <label>R-42 rail slug</label>
+        <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.58</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunR42DeadEye</defName>
+        <label>R-42 DeadEye</label>
+        <description>An anti-materiel electromagnetic sniper rifle that fires 8 mm tungsten-rhenium alloy slugs and carries a compact solarite battery. It delivers excellent long-range accuracy with strong armor penetration.\n\nEach rifle is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.2, 2.2)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>2400</MarketValue>
+            <Mass>8.5</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.92</AccuracyLong>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_R42_DeadEye</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+            <li>LongShots</li>
+        </weaponClasses>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_R42</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_RailDeadEye</defaultProjectile>
+                <warmupTime>1.8</warmupTime>
+                <range>42</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>ChargeLance_Fire</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

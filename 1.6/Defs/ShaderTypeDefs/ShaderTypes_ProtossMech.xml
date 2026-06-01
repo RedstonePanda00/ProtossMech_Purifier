@@ -5,7 +5,7 @@
     <shaderPath>ProtossMech/ReconstructPrintCutout</shaderPath>
   </ShaderTypeDef>
   <ShaderTypeDef>
-    <defName>PM_ProtossMechShieldSphere</defName>
-    <shaderPath>ProtossMech/ProtossMechShieldSphere</shaderPath>
+    <defName>PM_ProtossMechShield</defName>
+    <shaderPath>ProtossMech/ProtossShieldQuad</shaderPath>
   </ShaderTypeDef>
 </Defs>

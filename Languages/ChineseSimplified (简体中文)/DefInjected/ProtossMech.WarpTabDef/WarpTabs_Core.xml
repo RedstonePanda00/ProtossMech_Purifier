@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Transport -->
+  <PM_WarpTab_Transport.label>传送</PM_WarpTab_Transport.label>
+
+  <!-- EN: Reinforce -->
+  <PM_WarpTab_Reinforce.label>增援</PM_WarpTab_Reinforce.label>
+
+</LanguageData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPlatformDef>
+        <defName>PM_GunSmith_C31Tempest</defName>
+        <label>C-31 Tempest</label>
+        <weaponThingDef>PM_GunC31Tempest</weaponThingDef>
+        <bodyTexPath>Things/Weapon/C31Tempest/C31Tempest_body</bodyTexPath>
+        <slotAttachmentOffsets>
+            <li>
+                <slotId>Barrel</slotId>
+                <offset>(-0.7323, -0.0905)</offset>
+                <gizmoOffset>(-0.6117, -0.1051)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Stock</slotId>
+                <offset>(0.5099, -0.0781)</offset>
+                <gizmoOffset>(0.4636, -0.0908)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Magazine</slotId>
+                <offset>(0.4030, 0.0493)</offset>
+                <gizmoOffset>(-0.3154, 0.5592)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Sight</slotId>
+                <offset>(0.2262, -0.2303)</offset>
+                <gizmoOffset>(-0.5831, -0.4875)</gizmoOffset>
+            </li>
+        </slotAttachmentOffsets>
+        <bakeTextureSize>512</bakeTextureSize>
+        <bakePadding>0.05</bakePadding>
+        <bakeContentScale>0.55</bakeContentScale>
+        <shadowDilatePixels>5</shadowDilatePixels>
+        <shadowAlpha>1</shadowAlpha>
+        <slotIds>
+            <li>Barrel</li>
+            <li>Stock</li>
+            <li>Magazine</li>
+            <li>Sight</li>
+        </slotIds>
+        <warpCostList>
+            <li>
+                <thingDef>Steel</thingDef>
+                <count>1</count>
+            </li>
+        </warpCostList>
+    </ProtossMech.GunSmith.GunSmithPlatformDef>
+
+</Defs>

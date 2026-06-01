@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest</defName>
+        <label>30 mm SAPHE round</label>
+        <description>Semi-armor-piercing high-explosive round for the C-31 Tempest. Rated muzzle velocity 900–1,300 m/s.</description>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>45</damageAmountBase>
+            <speed>200</speed>
+            <armorPenetrationBase>1.28</armorPenetrationBase>
+            <stoppingPower>2.75</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunC31Tempest</defName>
+        <label>C-31 Tempest</label>
+        <description>A bolt-action coil sniper cannon fitted with a compact solarite battery. It fires 30 mm SAPHE semi-armor-piercing high-explosive rounds at 900–1,300 m/s, built to kill enemies behind cover and punch through lightly armored vehicles.\n\nEach C-31 Tempest is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/C31Tempest/C31Tempest_body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.2, 2.2)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>3200</MarketValue>
+            <Mass>11.8</Mass>
+            <AccuracyTouch>0.48</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.78</AccuracyMedium>
+            <AccuracyLong>0.88</AccuracyLong>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_C31Tempest</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+            <li>LongShots</li>
+        </weaponClasses>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_C31Tempest</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_C31Tempest</defaultProjectile>
+                <warmupTime>2.6</warmupTime>
+                <range>45</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>ChargeLance_Fire</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

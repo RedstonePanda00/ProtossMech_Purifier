@@ -6,7 +6,7 @@
         <description>A temporary beacon that will warp in a unit.</description>
         <thingClass>ThingWithComps</thingClass>
         <graphicData>
-            <texPath>Things/Structure/WarpBeacon</texPath>
+            <texPath>Things/Weapon/ThermalLances</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1.0, 1.0)</drawSize>
         </graphicData>

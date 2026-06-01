@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Barrel_01</defName>
+        <label>C-31 Tempest reinforced barrel</label>
+        <description>Reinforced C-31 Tempest barrel. Extends effective range and muzzle velocity.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_barrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>6</rangeOffset>
+        <projectileDamageOffset>2</projectileDamageOffset>
+        <projectileSpeedFactor>1.15</projectileSpeedFactor>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Stock_01</defName>
+        <label>Ranger telescopic stock</label>
+        <description>Adjustable tactical stock. Collapses for carry and extends for a stable firing platform, shortening the bolt cycle and improving medium-to-long handling.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_stock</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.15</warmupTimeOffset>
+        <statOffsets>
+            <RangedWeapon_Cooldown>-0.20</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.06</AccuracyLong>
+            <Mass>-0.4</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Magazine_01</defName>
+        <label>Standard magazine</label>
+        <description>Standard C-31 Tempest magazine loaded with 30 mm SAPHE semi-armor-piercing high-explosive rounds. Holds 8 rounds per magazine.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Sight_01</defName>
+        <label>Oracle fire control</label>
+        <description>An integrated smart sight suite with infrared thermals and digital AI fire control. Targets stay razor-clear through foul weather and smoke. Dense optics and processors add noticeable weight.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Sight</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_sight</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <ignoresWeatherAccuracy>true</ignoresWeatherAccuracy>
+        <ignoresSmokeAccuracy>true</ignoresSmokeAccuracy>
+        <rangeOffset>4</rangeOffset>
+        <warmupTimeOffset>0.40</warmupTimeOffset>
+        <statOffsets>
+            <Mass>0.8</Mass>
+            <AccuracyTouch>-0.14</AccuracyTouch>
+            <AccuracyShort>-0.10</AccuracyShort>
+            <AccuracyMedium>0.10</AccuracyMedium>
+            <AccuracyLong>0.06</AccuracyLong>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

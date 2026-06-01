@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.WarpTabDef>
+        <defName>PM_WarpTab_Transport</defName>
+        <label>Transport</label>
+        <order>0</order>
+        <workerClass>ProtossMech.WarpTabWorker_Transport</workerClass>
+    </ProtossMech.WarpTabDef>
+
+    <ProtossMech.WarpTabDef>
+        <defName>PM_WarpTab_Reinforce</defName>
+        <label>Reinforce</label>
+        <order>1</order>
+        <workerClass>ProtossMech.WarpTabWorker_Reinforce</workerClass>
+    </ProtossMech.WarpTabDef>
+
+</Defs>

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2946796485
+CRC: 3957202900
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 83a3a5a89ab7d230322f327c58ad3f94
+    Hash: 99f3aae04e568e3b7ebc2eef3bfec1cb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5e762ccb57c4caaabbb5a4199ac82c23
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 83a3a5a89ab7d230322f327c58ad3f94
+    Hash: 99f3aae04e568e3b7ebc2eef3bfec1cb
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,6 +18,16 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Shaders/WarpingBuilding/WarpShatter.shader
-- Assets/Shaders/WarpingBuilding/WarpShatter.mat
+- Assets/Shaders/WarpingBuilding/WarpLens.shader
+- Assets/Shaders/WarpingBuilding/WarpOutline.mat
+- Assets/Shaders/WarpingBuilding/WarpShard.mat
+- Assets/Shaders/WarpingBuilding/WarpLensLower.mat
+- Assets/Shaders/WarpingBuilding/WarpLensUpper.mat
+- Assets/Shaders/WarpingBuilding/WarpDiskFront.mat
+- Assets/Shaders/WarpingBuilding/WarpOutline.shader
+- Assets/Shaders/WarpingBuilding/WarpDisk.shader
+- Assets/Shaders/WarpingBuilding/WarpCore.mat
+- Assets/Shaders/WarpingBuilding/WarpDiskBack.mat
+- Assets/Shaders/WarpingBuilding/WarpCore.shader
+- Assets/Shaders/WarpingBuilding/WarpShard.shader
 Dependencies: []

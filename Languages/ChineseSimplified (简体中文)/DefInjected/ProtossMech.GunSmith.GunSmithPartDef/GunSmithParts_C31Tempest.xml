@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_C31Tempest_Barrel_01.label>C-31 强化枪管</PM_C31Tempest_Barrel_01.label>
+  <PM_C31Tempest_Barrel_01.description>C-31 风暴的强化枪管组件，延伸有效射程并提高出膛速度。</PM_C31Tempest_Barrel_01.description>
+
+  <PM_C31Tempest_Stock_01.label>「游侠」伸缩战术枪托</PM_C31Tempest_Stock_01.label>
+  <PM_C31Tempest_Stock_01.description>可伸缩调节的战术枪托。收拢便于携行，展开后提供稳定射击平台，缩短拉栓周期并改善中远距离操控。</PM_C31Tempest_Stock_01.description>
+
+  <PM_C31Tempest_Magazine_01.label>C-31 标准弹匣</PM_C31Tempest_Magazine_01.label>
+  <PM_C31Tempest_Magazine_01.description>C-31 标准弹匣，装填30mm SAPHE半穿甲高爆弹，一个弹匣8发。</PM_C31Tempest_Magazine_01.description>
+
+  <PM_C31Tempest_Sight_01.label>「先知」智能火控</PM_C31Tempest_Sight_01.label>
+  <PM_C31Tempest_Sight_01.description>一套智能瞄具系统，配备红外热视仪和数字化AI火控，在恶劣天气和烟雾中也能清晰地看见敌人身上的每个毛孔。复杂的仪器加重了它的整体质量。</PM_C31Tempest_Sight_01.description>
+
+</LanguageData>

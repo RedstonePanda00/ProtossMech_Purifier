@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProtossMech.GunSmithTab>枪械打印</ProtossMech.GunSmithTab>
+  <ProtossMech.GunSmithWarp>折跃武器</ProtossMech.GunSmithWarp>
+  <ProtossMech.GunSmithSave>保存配置</ProtossMech.GunSmithSave>
+  <ProtossMech.GunSmithSaved>已保存 {0} 的配件配置。</ProtossMech.GunSmithSaved>
+  <ProtossMech.GunSmithForge>枪械改装</ProtossMech.GunSmithForge>
+  <ProtossMech.GunSmithForgeDesc>远程配置殖民地内任意地图上的模块化武器。</ProtossMech.GunSmithForgeDesc>
+  <ProtossMech.GunSmithWeaponList>殖民地武器</ProtossMech.GunSmithWeaponList>
+  <ProtossMech.GunSmithNoWeapons>未找到可改装武器。</ProtossMech.GunSmithNoWeapons>
+  <ProtossMech.GunSmithSelectWeapon>请选择一把武器。</ProtossMech.GunSmithSelectWeapon>
+  <ProtossMech.GunSmithNoPlatform>未配置枪械打印平台。</ProtossMech.GunSmithNoPlatform>
+  <ProtossMech.GunSmithLicenseRequired>未获取许可，请优先解析许可证书。</ProtossMech.GunSmithLicenseRequired>
+  <ProtossMech.GunSmithInvalidCell>无法在此格折跃武器。</ProtossMech.GunSmithInvalidCell>
+  <ProtossMech.GunSmithWarpSuccess>{0} 折跃成功。</ProtossMech.GunSmithWarpSuccess>
+  <ProtossMech.GunSmithSlot.Barrel>枪管</ProtossMech.GunSmithSlot.Barrel>
+  <ProtossMech.GunSmithSlot.Sight>瞄具</ProtossMech.GunSmithSlot.Sight>
+  <ProtossMech.GunSmithSlot.Stock>枪托</ProtossMech.GunSmithSlot.Stock>
+  <ProtossMech.GunSmithSlot.Magazine>弹匣</ProtossMech.GunSmithSlot.Magazine>
+  <ProtossMech.GunSmithPreviewFailed>预览不可用。</ProtossMech.GunSmithPreviewFailed>
+  <ProtossMech.GunSmithMode.Gunsmith>枪匠模式</ProtossMech.GunSmithMode.Gunsmith>
+  <ProtossMech.GunSmithMode.LayoutDev>布局调试</ProtossMech.GunSmithMode.LayoutDev>
+  <ProtossMech.GunSmithStats.Committed>当前整套</ProtossMech.GunSmithStats.Committed>
+  <ProtossMech.GunSmithStats.CurrentLoadout>当前整套（新）</ProtossMech.GunSmithStats.CurrentLoadout>
+  <ProtossMech.GunSmithStats.PartBonuses>配件加成</ProtossMech.GunSmithStats.PartBonuses>
+  <ProtossMech.GunSmithSwitchPlatform>切换武器</ProtossMech.GunSmithSwitchPlatform>
+  <ProtossMech.GunSmithPlatformPickerTitle>选择武器型号</ProtossMech.GunSmithPlatformPickerTitle>
+  <ProtossMech.GunSmithPlatformLocked>需要研究：{0}</ProtossMech.GunSmithPlatformLocked>
+  <ProtossMech.GunSmithStats.IgnoresWeather>免疫天气影响</ProtossMech.GunSmithStats.IgnoresWeather>
+  <ProtossMech.GunSmithStats.IgnoresSmoke>免疫穿烟惩罚</ProtossMech.GunSmithStats.IgnoresSmoke>
+
+</LanguageData>
