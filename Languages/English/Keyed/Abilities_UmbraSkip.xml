@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PMP_UmbraSkip_InvalidCell>Cannot phase to that cell; it must be standable and any occupant must be able to move to an adjacent cell.</PMP_UmbraSkip_InvalidCell>
-  <PMP_UmbraTripleStrike_Busy>Triple strike is already in progress.</PMP_UmbraTripleStrike_Busy>
+  <PM_UmbraSkip_InvalidCell>Cannot phase to that cell; it must be standable and any occupant must be able to move to an adjacent cell.</PM_UmbraSkip_InvalidCell>
+  <PM_UmbraTripleStrike_Busy>Triple strike is already in progress.</PM_UmbraTripleStrike_Busy>
 </LanguageData>

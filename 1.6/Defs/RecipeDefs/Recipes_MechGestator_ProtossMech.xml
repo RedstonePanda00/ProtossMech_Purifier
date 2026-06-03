@@ -29,10 +29,10 @@
         <description>Gestate an Protoss Probe mechanoid.</description>
         <researchPrerequisite>PM_Fundamentals</researchPrerequisite>
         <products>
-            <PMP_Probe>1</PMP_Probe>
+            <PM_Probe>1</PM_Probe>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Probe</ThingDef>
+            <ThingDef>PM_Probe</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -70,10 +70,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_ColossusPrototype>1</PMP_ColossusPrototype>
+            <PM_ColossusPrototype>1</PM_ColossusPrototype>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_ColossusPrototype</ThingDef>
+            <ThingDef>PM_ColossusPrototype</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -111,10 +111,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Sentry>1</PMP_Sentry>
+            <PM_Sentry>1</PM_Sentry>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Sentry</ThingDef>
+            <ThingDef>PM_Sentry</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -152,10 +152,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Havoc>1</PMP_Havoc>
+            <PM_Havoc>1</PM_Havoc>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Havoc</ThingDef>
+            <ThingDef>PM_Havoc</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -196,10 +196,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Energizer>1</PMP_Energizer>
+            <PM_Energizer>1</PM_Energizer>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Energizer</ThingDef>
+            <ThingDef>PM_Energizer</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -232,10 +232,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Legionnaire>1</PMP_Legionnaire>
+            <PM_Legionnaire>1</PM_Legionnaire>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Legionnaire</ThingDef>
+            <ThingDef>PM_Legionnaire</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -268,10 +268,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Sentinel>1</PMP_Sentinel>
+            <PM_Sentinel>1</PM_Sentinel>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Sentinel</ThingDef>
+            <ThingDef>PM_Sentinel</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -312,16 +312,16 @@
             </li>
         </ingredients>
         <products>
-            <PMP_PurifierImmortal>1</PMP_PurifierImmortal>
+            <PM_PurifierImmortal>1</PM_PurifierImmortal>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_PurifierImmortal</ThingDef>
+            <ThingDef>PM_PurifierImmortal</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
     <!-- Disruptor -->
      <RecipeDef ParentName="ProtossMechanoidRecipe">
-        <defName>PMP_GenDisruptor</defName>
+        <defName>PM_GenDisruptor</defName>
         <label>gestate Protoss Disruptor mech</label>
         <description>Gestate an Protoss Disruptor mechanoid.</description>
         <gestationCycles>4</gestationCycles>
@@ -353,16 +353,16 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Disruptor>1</PMP_Disruptor>
+            <PM_Disruptor>1</PM_Disruptor>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Disruptor</ThingDef>
+            <ThingDef>PM_Disruptor</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
     <!-- Umbra -->
     <RecipeDef ParentName="ProtossMechanoidRecipe">
-        <defName>PMP_GenUmbra</defName>
+        <defName>PM_GenUmbra</defName>
         <label>gestate Protoss Umbra mech</label>
         <description>Gestate a Protoss Umbra mechanoid.</description>
         <gestationCycles>3</gestationCycles>
@@ -397,16 +397,16 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Umbra>1</PMP_Umbra>
+            <PM_Umbra>1</PM_Umbra>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Umbra</ThingDef>
+            <ThingDef>PM_Umbra</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
     <!-- Servitor Drone -->
     <RecipeDef ParentName="ProtossMechanoidRecipe">
-        <defName>PMP_GenServitor</defName>
+        <defName>PM_GenServitor</defName>
         <label>gestate Protoss Servitor mech</label>
         <description>Gestate an Protoss Servitor mechanoid.</description>
         <gestationCycles>1</gestationCycles>
@@ -430,10 +430,10 @@
             </li>
         </ingredients>
         <products>
-            <PMP_Servitor>1</PMP_Servitor>
+            <PM_Servitor>1</PM_Servitor>
         </products>
         <descriptionHyperlinks>
-            <ThingDef>PMP_Servitor</ThingDef>
+            <ThingDef>PM_Servitor</ThingDef>
         </descriptionHyperlinks>
     </RecipeDef>
 
@@ -463,12 +463,12 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Corpse_PMP_Probe</li>
-                <li>Corpse_PMP_Sentry</li>
-                <li>Corpse_PMP_Sentinel</li>
-                <li>Corpse_PMP_Energizer</li>
-                <li>Corpse_PMP_FellowProbe</li>
-                <li>Corpse_PMP_Servitor</li>
+                <li>Corpse_PM_Probe</li>
+                <li>Corpse_PM_Sentry</li>
+                <li>Corpse_PM_Sentinel</li>
+                <li>Corpse_PM_Energizer</li>
+                <li>Corpse_PM_FellowProbe</li>
+                <li>Corpse_PM_Servitor</li>
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>
@@ -497,10 +497,10 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Corpse_PMP_Legionnaire</li>
-                <li>Corpse_PMP_PurifierImmortal</li>
-                <li>Corpse_PMP_ColossusPrototype</li>
-                <li>Corpse_PMP_Disruptor</li>
+                <li>Corpse_PM_Legionnaire</li>
+                <li>Corpse_PM_PurifierImmortal</li>
+                <li>Corpse_PM_ColossusPrototype</li>
+                <li>Corpse_PM_Disruptor</li>
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>

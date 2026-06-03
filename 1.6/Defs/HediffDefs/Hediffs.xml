@@ -166,7 +166,7 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>PMP_DisruptorInvisibility</defName>
+        <defName>PM_DisruptorInvisibility</defName>
         <label>DisruptorInvisibility</label>
         <hediffClass>HediffWithComps</hediffClass>
         <description>A light-distorting field renders this unit invisible to the naked eye.</description>
@@ -181,10 +181,10 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>PMP_HelperAssist</defName>
+        <defName>PM_HelperAssist</defName>
         <label>Helper assistant</label>
         <description>Servitor Drone is assisting with this mechanitor's work.</description>
-        <hediffClass>ProtossMech.Hediff_PMP_HelperAssist</hediffClass>
+        <hediffClass>ProtossMech.Hediff_PM_HelperAssist</hediffClass>
         <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
         <isBad>false</isBad>
         <stages>
@@ -262,7 +262,7 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>PMP_PrideOfTemplar</defName>
+        <defName>PM_PrideOfTemplar</defName>
         <label>Pride of the Templar</label>
         <description>We embrace the glory of battle!</description>
         <hediffClass>HediffWithComps</hediffClass>

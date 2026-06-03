@@ -49,21 +49,21 @@
 	<!-- Probe -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Probe"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Probe"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>40</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Probe"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Probe"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>10</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Probe"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Probe"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -76,7 +76,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_Probe"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Probe"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -85,7 +85,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Probe"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Probe"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -122,7 +122,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Probe"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Probe"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>200</Durability>
@@ -145,21 +145,21 @@
 	<!-- colossus -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_ColossusPrototype"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>42000</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_ColossusPrototype"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>5000.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_ColossusPrototype"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>1.95</AimingAccuracy>
 			<ShootingAccuracyPawn>1.95</ShootingAccuracyPawn>
@@ -173,7 +173,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_ColossusPrototype"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>3000</Durability>
@@ -196,21 +196,21 @@
 	<!-- Sentry -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Sentry"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentry"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>32.0</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Sentry"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentry"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>16.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Sentry"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentry"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -222,7 +222,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Sentry"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentry"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>200</Durability>
@@ -245,21 +245,21 @@
 	<!-- Havoc (Tal'darim Sentry variant; same CE profile as Sentry) -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Havoc"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>32.0</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Havoc"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>16.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Havoc"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -271,7 +271,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Havoc"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Havoc"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>200</Durability>
@@ -294,21 +294,21 @@
 	<!-- Energizer -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Energizer"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>64.0</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Energizer"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>32.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Energizer"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -320,7 +320,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Energizer"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Energizer"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>200</Durability>
@@ -342,21 +342,21 @@
 
 	<!-- Legionnaire -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Legionnaire"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>128</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Legionnaire"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>450</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Legionnaire"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -370,7 +370,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Legionnaire"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -379,7 +379,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Legionnaire"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -407,7 +407,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Legionnaire"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>1500</Durability>
@@ -429,21 +429,21 @@
 
 	<!-- Umbra -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Umbra"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>1280</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Umbra"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>450</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Umbra"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -457,7 +457,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_Umbra"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Umbra"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -466,7 +466,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Umbra"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -484,7 +484,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Umbra"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Umbra"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>1500</Durability>
@@ -506,21 +506,21 @@
 
 	<!-- Sentinel -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentinel"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>50</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentinel"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>25</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentinel"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -533,7 +533,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentinel"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -542,7 +542,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentinel"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -570,7 +570,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Sentinel"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Sentinel"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>1000</Durability>
@@ -592,21 +592,21 @@
 
 	<!-- PurifierImmortal -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_PurifierImmortal"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>30000</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_PurifierImmortal"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>3500.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_PurifierImmortal"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>1</AimingAccuracy>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
@@ -620,7 +620,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_PurifierImmortal"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>2500</Durability>
@@ -737,21 +737,21 @@
 
 	<!-- fellow probe -->
 	 <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_FellowProbe"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>100</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_FellowProbe"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>24</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_FellowProbe"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -764,7 +764,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_FellowProbe"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_FellowProbe"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -773,7 +773,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_FellowProbe"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -810,7 +810,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_FellowProbe"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>400</Durability>
@@ -832,21 +832,21 @@
 
 	<!-- Servitor Drone -->
 	 <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Servitor"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Servitor"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Servitor"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Servitor"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>8</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Servitor"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Servitor"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>0.95</AimingAccuracy>
 			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
@@ -859,7 +859,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_Servitor"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Servitor"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -868,7 +868,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Servitor"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Servitor"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -887,7 +887,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Servitor"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Servitor"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>200</Durability>
@@ -909,21 +909,21 @@
 
 	<!-- Disruptor -->
 	 <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]/statBases/ArmorRating_Blunt</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Disruptor"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>450</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]/statBases/ArmorRating_Sharp</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Disruptor"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>450</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Disruptor"]/statBases</xpath>
 		<value>
 			<AimingAccuracy>1.00</AimingAccuracy>
 			<ShootingAccuracyPawn>1.00</ShootingAccuracyPawn>
@@ -936,7 +936,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Disruptor"]</xpath>
 		<value>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Humanoid</bodyShape>
@@ -945,7 +945,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Disruptor"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -964,7 +964,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PMP_Disruptor"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="PM_Disruptor"]/comps</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_ArmorDurability">
 				<Durability>4000</Durability>

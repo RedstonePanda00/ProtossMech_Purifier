@@ -2,21 +2,21 @@
 <LanguageData>
   
   <!-- EN: Energizer -->
-  <PMP_Energizer.label>激励者</PMP_Energizer.label>
+  <PM_Energizer.label>激励者</PM_Energizer.label>
   
   <!-- EN: Havoc -->
   <PM_Havoc.label>浩劫</PM_Havoc.label>
 
   <!-- EN: Fellow Probe -->
-  <PMP_FellowProbe.label>伙伴探机</PMP_FellowProbe.label>
+  <PM_FellowProbe.label>伙伴探机</PM_FellowProbe.label>
   
   <!-- EN: Probe -->
-  <PMP_Probe.label>探机</PMP_Probe.label>
+  <PM_Probe.label>探机</PM_Probe.label>
   
   <!-- EN: Sentry -->
-  <PMP_Sentry.label>机械哨兵</PMP_Sentry.label>
+  <PM_Sentry.label>机械哨兵</PM_Sentry.label>
   
   <!-- EN: Servitor Drone -->
-  <PMP_Servitor.label>服务机</PMP_Servitor.label>
+  <PM_Servitor.label>服务机</PM_Servitor.label>
   
 </LanguageData>

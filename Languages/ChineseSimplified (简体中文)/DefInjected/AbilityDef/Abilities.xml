@@ -9,14 +9,14 @@
   <LegionnaireJump.verbProperties.label>寻战</LegionnaireJump.verbProperties.label>
   
   <!-- EN: Skip -->
-  <PMP_UmbraSkip.label>相位跃迁</PMP_UmbraSkip.label>
+  <PM_UmbraSkip.label>相位跃迁</PM_UmbraSkip.label>
   <!-- EN: Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius. -->
-  <PMP_UmbraSkip.description>传送到目标格位，可穿透墙体。落地时对周围敌人造成45点处决伤害。</PMP_UmbraSkip.description>
+  <PM_UmbraSkip.description>传送到目标格位，可穿透墙体。落地时对周围敌人造成45点处决伤害。</PM_UmbraSkip.description>
   
   <!-- EN: Triple strike -->
-  <PMP_UmbraTripleStrike.label>三连击</PMP_UmbraTripleStrike.label>
+  <PM_UmbraTripleStrike.label>三连击</PM_UmbraTripleStrike.label>
   <!-- EN: Lock onto a hostile target and, after a short delay, hit it with three anti-armor shock beams. Each beam uses the same visual as the Khaydarin monolith. Strikes are spaced by 10 ticks; if the target dies, a new hostile in range is picked for remaining hits. Pawns take direct part injuries; buildings take normal damage. -->
-  <PMP_UmbraTripleStrike.description>锁定一名敌对目标：仅在施法时校验射程与视线；三连击进行中即使目标逃离或失去视线仍会命中。预热结束后立刻第一击，第二、第三击之间各间隔10 ticks。三次对同一部位造成85点固定伤害，默认躯干，失败则另选部位。光束与音效同凯达琳巨石。若原目标死亡，在施法时的射程内优先另选敌对单位，其次才是敌对建筑；无可用目标则该次打击落空但不会卡住。三连击结束前无法再次施放；对建筑使用常规伤害。</PMP_UmbraTripleStrike.description>
+  <PM_UmbraTripleStrike.description>锁定一名敌对目标：仅在施法时校验射程与视线；三连击进行中即使目标逃离或失去视线仍会命中。预热结束后立刻第一击，第二、第三击之间各间隔10 ticks。三次对同一部位造成85点固定伤害，默认躯干，失败则另选部位。光束与音效同凯达琳巨石。若原目标死亡，在施法时的射程内优先另选敌对单位，其次才是敌对建筑；无可用目标则该次打击落空但不会卡住。三连击结束前无法再次施放；对建筑使用常规伤害。</PM_UmbraTripleStrike.description>
   
   <!-- EN: charge -->
   <MechCharge.label>冲锋</MechCharge.label>
@@ -52,19 +52,44 @@
   <PM_HavocTargetLock.description>锁定一名敌方单位。被锁定者承伤系数先不低于100%，再额外承受30%伤害；同一时间只能锁定一个目标。</PM_HavocTargetLock.description>
   
   <!-- EN: Barrier -->
-  <PMP_RestoreShield.label>屏障</PMP_RestoreShield.label>
+  <PM_RestoreShield.label>屏障</PM_RestoreShield.label>
   <!-- EN: Instantly restores the caster's Protoss shield to its maximum energy level. -->
-  <PMP_RestoreShield.description>立刻将施法者的星灵护盾恢复至满额。</PMP_RestoreShield.description>
+  <PM_RestoreShield.description>立刻将施法者的星灵护盾恢复至满额。</PM_RestoreShield.description>
   
   <!-- EN: Summon Purification Nova -->
-  <PMP_SummonNova.label>净化新星</PMP_SummonNova.label>
+  <PM_SummonNova.label>净化新星</PM_SummonNova.label>
   <!-- EN: Summon Purification Nova to the location. -->
-  <PMP_SummonNova.description>召唤一颗净化新星朝目标地点前进。</PMP_SummonNova.description>
+  <PM_SummonNova.description>召唤一颗净化新星朝目标地点前进。</PM_SummonNova.description>
   
   <!-- EN: Warp Photon -->
   <Warp_Photon.label>折跃光子炮塔</Warp_Photon.label>
   
   <!-- EN: Warp Pylon -->
   <Warp_Pylon.label>折跃水晶塔</Warp_Pylon.label>
+  
+  <!-- EN: Reel Web -->
+  <PM_CosmicSpider_ReelWeb.label>归巢丝</PM_CosmicSpider_ReelWeb.label>
+  <!-- EN: Fire a silk line and pull the first unit on the path toward the caster. -->
+  <PM_CosmicSpider_ReelWeb.description>发射蛛丝并拉回路径上的首个单位。</PM_CosmicSpider_ReelWeb.description>
+  
+  <!-- EN: Web Link -->
+  <PM_CosmicSpider_WebLink.label>蛛丝链接</PM_CosmicSpider_WebLink.label>
+  <!-- EN: Create a persistent web link to a hostile target and enforce leash control. -->
+  <PM_CosmicSpider_WebLink.description>与敌对目标建立持续蛛丝链接并实施牵引控制。</PM_CosmicSpider_WebLink.description>
+  
+  <!-- EN: Sticky Web -->
+  <PM_CosmicSpider_StickyWeb.label>黏黏网</PM_CosmicSpider_StickyWeb.label>
+  <!-- EN: Place a 3x3 patch of conductive sticky web floor. -->
+  <PM_CosmicSpider_StickyWeb.description>铺设一片 3x3 的导电黏网地面。</PM_CosmicSpider_StickyWeb.description>
+  
+  <!-- EN: Discharge -->
+  <PM_CosmicSpider_Discharge.label>放电</PM_CosmicSpider_Discharge.label>
+  <!-- EN: Release electrical energy and trigger conductive effects on linked enemies and web floor. -->
+  <PM_CosmicSpider_Discharge.description>释放电能并触发链接目标与网面导电效果。</PM_CosmicSpider_Discharge.description>
+  
+  <!-- EN: Web Swing -->
+  <PM_CosmicSpider_WebSwing.label>支点机动</PM_CosmicSpider_WebSwing.label>
+  <!-- EN: Swing from an anchor point to a destination with web-assisted mobility. -->
+  <PM_CosmicSpider_WebSwing.description>以蛛丝挂点完成摆荡机动并移动到目标位置。</PM_CosmicSpider_WebSwing.description>
   
 </LanguageData>

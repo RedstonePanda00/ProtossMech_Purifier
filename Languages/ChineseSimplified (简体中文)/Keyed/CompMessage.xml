@@ -6,5 +6,16 @@
 
   <!-- EN: Resisted -->
   <ProtossMech.Fleck.Resisted>抵抗</ProtossMech.Fleck.Resisted>
+  
+  <!-- EN: No hostile unit was hit along the silk path. -->
+  <ProtossMech.CosmicSpider.NoHostileOnSilkPath>蛛丝路径上没有命中敌对单位。</ProtossMech.CosmicSpider.NoHostileOnSilkPath>
+  
+  <!-- EN: No unit was hit along the silk path. -->
+  <ProtossMech.CosmicSpider.NoPawnOnSilkPath>蛛丝路径上没有命中单位。</ProtossMech.CosmicSpider.NoPawnOnSilkPath>
+
+  <!-- EN: This target cannot be used as a web anchor. -->
+  <PM_CosmicSpider_WebSwing_InvalidAnchor>该目标不能作为蛛丝锚点。</PM_CosmicSpider_WebSwing_InvalidAnchor>
+  <!-- EN: Web Swing is not charging. -->
+  <PM_CosmicSpider_WebSwing_NoCharge>蛛丝机动当前不在蓄力状态。</PM_CosmicSpider_WebSwing_NoCharge>
 
 </LanguageData>

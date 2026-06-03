@@ -2,11 +2,11 @@
 <LanguageData>
   
   <!-- EN: Purification Nova -->
-  <PMP_PurificationNova.label>净化新星</PMP_PurificationNova.label>
+  <PM_PurificationNova.label>净化新星</PM_PurificationNova.label>
   <!-- EN: A massive explosive energy. -->
-  <PMP_PurificationNova.description>一团巨大的，易爆的能量。</PMP_PurificationNova.description>
+  <PM_PurificationNova.description>一团巨大的，易爆的能量。</PM_PurificationNova.description>
   
   <!-- EN: secondary explosion manager -->
-  <PMP_SecondaryExplosionManager.label>净化回响管理器</PMP_SecondaryExplosionManager.label>
+  <PM_SecondaryExplosionManager.label>净化回响管理器</PM_SecondaryExplosionManager.label>
   
 </LanguageData>

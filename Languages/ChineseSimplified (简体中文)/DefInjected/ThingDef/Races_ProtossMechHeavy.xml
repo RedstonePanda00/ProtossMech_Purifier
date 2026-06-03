@@ -1,27 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Purifier colossus -->
-  <PMP_ColossusPrototype.label>净化者巨像</PMP_ColossusPrototype.label>
+  <PM_ColossusPrototype.label>净化者巨像</PM_ColossusPrototype.label>
   <!-- EN: As the first prototypes to go into mass production, the Purifier Colossus differs from current simplified models by featuring a complete Synthetic Personality core, neutron armor, reconstruct drone swarms and harden shield. The prototype Thermal Lances it equipped can project high-energy plasma streams to ignite the ground while vaporizing targets. When it appear on the battlefield, it means Apocalypse. -->
-  <PMP_ColossusPrototype.description>与后来的简化型号不同，这台如山岭般巍峨的战争机械，是首批投入量产的净化者巨像原型机，卡莱科学家们号称其为最接近巨像的原型，星灵黄金时代的泰坦的设计。它更为高大，结构也更为复杂，其内部搭载着算力媲美行星级计算机的人工智能人格核心、坚不可摧的精金装甲，以及能在战火中修复创伤的纳米无人机蜂群。它所配备的双联原型热能光矛能投射出毁灭性的超高温等离子流，切割SIM装甲亦如热刀切酪，在瞬间蒸发目标的同时，将大地化为一片焦土。 \n\n 净化者巨像只会出现在启示录级别的战场，如同收割小麦一般将成群的巨型战体拦腰切断。在这种烈度的冲突中，即便是基因改造的超级战士，其存在也与蝼蚁无异，不过是用于填补战线的消耗品。</PMP_ColossusPrototype.description>
+  <PM_ColossusPrototype.description>与后来的简化型号不同，这台如山岭般巍峨的战争机械，是首批投入量产的净化者巨像原型机，卡莱科学家们号称其为最接近巨像的原型，星灵黄金时代的泰坦的设计。它更为高大，结构也更为复杂，其内部搭载着算力媲美行星级计算机的人工智能人格核心、坚不可摧的精金装甲，以及能在战火中修复创伤的纳米无人机蜂群。它所配备的双联原型热能光矛能投射出毁灭性的超高温等离子流，切割SIM装甲亦如热刀切酪，在瞬间蒸发目标的同时，将大地化为一片焦土。 \n\n 净化者巨像只会出现在启示录级别的战场，如同收割小麦一般将成群的巨型战体拦腰切断。在这种烈度的冲突中，即便是基因改造的超级战士，其存在也与蝼蚁无异，不过是用于填补战线的消耗品。</PM_ColossusPrototype.description>
   <!-- EN: head -->
-  <PMP_ColossusPrototype.tools.head.label>巨像头部</PMP_ColossusPrototype.tools.head.label>
+  <PM_ColossusPrototype.tools.head.label>巨像头部</PM_ColossusPrototype.tools.head.label>
   
   <!-- EN: Disruptor -->
-  <PMP_Disruptor.label>干扰者</PMP_Disruptor.label>
+  <PM_Disruptor.label>干扰者</PM_Disruptor.label>
   <!-- EN: The disruptor is a protoss ground mechanized heavy artillery unit that deals high area damage. -->
-  <PMP_Disruptor.description>干扰者是一种星灵重型攻城单位，它能够释放净化新星，对范围内的敌人造成毁灭性的伤害。</PMP_Disruptor.description>
+  <PM_Disruptor.description>干扰者是一种星灵重型攻城单位，它能够释放净化新星，对范围内的敌人造成毁灭性的伤害。</PM_Disruptor.description>
   <!-- EN: head -->
-  <PMP_Disruptor.tools.head.label>干扰者核心</PMP_Disruptor.tools.head.label>
+  <PM_Disruptor.tools.head.label>干扰者核心</PM_Disruptor.tools.head.label>
   <!-- EN: torso -->
-  <PMP_Disruptor.tools.torso.label>干扰者壳</PMP_Disruptor.tools.torso.label>
+  <PM_Disruptor.tools.torso.label>干扰者壳</PM_Disruptor.tools.torso.label>
   
   <!-- EN: PurifierImmortal -->
-  <PMP_PurifierImmortal.label>净化者不朽者</PMP_PurifierImmortal.label>
+  <PM_PurifierImmortal.label>净化者不朽者</PM_PurifierImmortal.label>
   <!-- EN: The Purifier Immortal is armed with two Phase Cannons that deal penetrating damage regardless of armor and shields, the higher the target's defense the stronger the damage. Its harden shield significantly weakens all attacks, while its G type alloy armor and reinforced shield generator provide even greater protection. When it is destroyed, they can be rapidly reassembled by reconstruction drones swarms. -->
-  <PMP_PurifierImmortal.description>净化者不朽者装备着双联相位碎裂炮，这种武器通过扰乱目标所在的空间稳定性来造成破坏。物质结构越是致密，这种空间断层造成的损害就越严重，这意味着敌人的装甲越是坚固，其最终受到的打击就越是致命。这些高贵的战士无所畏惧地冲向炮火最猛烈的战场，依靠厚重的精金装甲与刚毅护盾在弹幕中稳步推进。即便战甲的结构完整性遭到破坏，内置的重构纳米无人机蜂群也能在战场上迅速重组战甲结构，以便他重回战场。</PMP_PurifierImmortal.description>
+  <PM_PurifierImmortal.description>净化者不朽者装备着双联相位碎裂炮，这种武器通过扰乱目标所在的空间稳定性来造成破坏。物质结构越是致密，这种空间断层造成的损害就越严重，这意味着敌人的装甲越是坚固，其最终受到的打击就越是致命。这些高贵的战士无所畏惧地冲向炮火最猛烈的战场，依靠厚重的精金装甲与刚毅护盾在弹幕中稳步推进。即便战甲的结构完整性遭到破坏，内置的重构纳米无人机蜂群也能在战场上迅速重组战甲结构，以便他重回战场。</PM_PurifierImmortal.description>
   <!-- EN: head -->
-  <PMP_PurifierImmortal.tools.head.label>不朽者头部</PMP_PurifierImmortal.tools.head.label>
+  <PM_PurifierImmortal.tools.head.label>不朽者头部</PM_PurifierImmortal.tools.head.label>
+  
+  <!-- EN: Cosmic Spider -->
+  <PM_CosmicSpider.label>寰宇蛛</PM_CosmicSpider.label>
+  <!-- EN: The Cosmic Spider is a medium Purifier control unit specialized in forced movement and battlefield disruption. It has no fixed weapon system and relies on equipped armaments while weaving conductive web terrain. -->
+  <PM_CosmicSpider.description>寰宇蛛是一种中型净化者控场机械体，专精于强制位移与战术打断。它没有固定武器系统，依赖装备武器作战，同时铺设可导电的蛛网地面。</PM_CosmicSpider.description>
+  <!-- EN: frame -->
+  <PM_CosmicSpider.tools.frame.label>寰宇蛛机体</PM_CosmicSpider.tools.frame.label>
   
 </LanguageData>

@@ -4,5 +4,12 @@
   <ProtossMech.Message.MentalBreakResisted>{PAWN_nameDef} has resisted a mental break, gaining {1}!</ProtossMech.Message.MentalBreakResisted>
 
   <ProtossMech.Fleck.Resisted>Resisted</ProtossMech.Fleck.Resisted>
+  
+  <ProtossMech.CosmicSpider.NoHostileOnSilkPath>No hostile unit was hit along the silk path.</ProtossMech.CosmicSpider.NoHostileOnSilkPath>
+  
+  <ProtossMech.CosmicSpider.NoPawnOnSilkPath>No unit was hit along the silk path.</ProtossMech.CosmicSpider.NoPawnOnSilkPath>
+
+  <PM_CosmicSpider_WebSwing_InvalidAnchor>This target cannot be used as a web anchor.</PM_CosmicSpider_WebSwing_InvalidAnchor>
+  <PM_CosmicSpider_WebSwing_NoCharge>Web Swing is not charging.</PM_CosmicSpider_WebSwing_NoCharge>
 
 </LanguageData>

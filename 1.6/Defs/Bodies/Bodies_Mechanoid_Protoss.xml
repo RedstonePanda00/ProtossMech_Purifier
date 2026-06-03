@@ -2,7 +2,7 @@
 <Defs>
   <!-- Probe -->
   <BodyDef>
-    <defName>PMP_ProbeBody</defName>
+    <defName>PM_ProbeBody</defName>
     <label>Protoss Probe</label>
     <corePart>
       <def>MechanicalThoraxCanManipulate</def>
@@ -89,7 +89,7 @@
 
   <!-- colossus -->
   <BodyDef>
-    <defName>PMP_ColossusBody</defName>
+    <defName>PM_ColossusBody</defName>
     <label>Protoss colossus</label>
     <corePart>
       <def>MechanicalThoraxCanManipulate</def>
@@ -212,7 +212,7 @@
 
   <!-- Legionnaire -->
   <BodyDef>
-    <defName>PMP_HumanoidBody</defName>
+    <defName>PM_HumanoidBody</defName>
     <label>Protoss Legionnaire</label>
     <corePart>
       <def>MechanicalThorax</def>
@@ -424,7 +424,7 @@
 
   <!-- purifier immortal-->
   <BodyDef>
-    <defName>PMP_ImmortalBody</defName>
+    <defName>PM_ImmortalBody</defName>
     <label>Protoss Purifier Immortal</label>
     <corePart>
       <def>MechanicalThoraxCanManipulate</def>

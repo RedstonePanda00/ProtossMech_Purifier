@@ -2,7 +2,7 @@
 <Defs>
   <!-- Probe -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Probe</defName>
+    <defName>PM_Probe</defName>
     <label>Probe</label>
     <description>The tiny Probe was designed by the Khalai to lay the foundation for Protoss colonies on hostile worlds where living workers would be at too great a risk. Probes are responsible for harvesting the minerals and vespene gas that we need to fuel our industry. They also produce and plant the warp-beacons that allow us to teleport our buildings from Aiur to distant planets.</description>
     <statBases>
@@ -10,7 +10,7 @@
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>2.0</baseHealthScale>
       <mechEnabledWorkTypes>
@@ -87,13 +87,13 @@
       <li Class="RsPandaLibrary.CompProperties_AutoTransform">
         <checkInterval>100</checkInterval>
         <DetectList>
-          <li>PMP_Probe</li>
-          <li>PMP_ColossusPrototype</li>
-          <li>PMP_Sentry</li>
-          <li>PMP_Energizer</li>
-          <li>PMP_Legionnaire</li>
-          <li>PMP_Sentinel</li>
-          <li>PMP_PurifierImmortal</li>
+          <li>PM_Probe</li>
+          <li>PM_ColossusPrototype</li>
+          <li>PM_Sentry</li>
+          <li>PM_Energizer</li>
+          <li>PM_Legionnaire</li>
+          <li>PM_Sentinel</li>
+          <li>PM_PurifierImmortal</li>
         </DetectList>
         <targetDef>Persona_Probius</targetDef>
       </li>
@@ -117,9 +117,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
-    <defName>PMP_Probe</defName>
+    <defName>PM_Probe</defName>
     <label>Probe</label>
-    <race>PMP_Probe</race>
+    <race>PM_Probe</race>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -137,7 +137,7 @@
 
   <!-- Sentry -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Sentry</defName>
+    <defName>PM_Sentry</defName>
     <label>Sentry</label>
     <description>The sentry is modified from the probe and is equipped with force field projectors and shield generators, which are essential support forces on the battlefield.</description>
     <statBases>
@@ -146,7 +146,7 @@
       <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
         <li>Cleaning</li>
@@ -202,9 +202,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>PMP_Sentry</defName>
+    <defName>PM_Sentry</defName>
     <label>Sentry</label>
-    <race>PMP_Sentry</race>
+    <race>PM_Sentry</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -224,7 +224,7 @@
 
   <!-- Havoc -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Havoc</defName>
+    <defName>PM_Havoc</defName>
     <label>Havoc</label>
     <description>A brutal and cold-blooded Tal'darim mechanical sentry. It despises the weak and respects only the strong.</description>
     <statBases>
@@ -233,7 +233,7 @@
       <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
         <li>Cleaning</li>
@@ -284,7 +284,7 @@
   <PawnKindDef ParentName="ProtossMechanoidKind">
     <defName>PM_Havoc</defName>
     <label>Havoc</label>
-    <race>PMP_Havoc</race>
+    <race>PM_Havoc</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -304,7 +304,7 @@
 
   <!-- Energizer -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Energizer</defName>
+    <defName>PM_Energizer</defName>
     <label>Energizer</label>
     <description>The Energizer is a modified version of the Sentry, with its force field projector modified into a small time bubble projector that significantly speeds up the relative flow of time for affected units.</description>
     <statBases>
@@ -313,7 +313,7 @@
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
         <li>Cleaning</li>
@@ -377,9 +377,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>PMP_Energizer</defName>
+    <defName>PM_Energizer</defName>
     <label>Energizer</label>
-    <race>PMP_Energizer</race>
+    <race>PM_Energizer</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -399,7 +399,7 @@
 
   <!-- Fellow Probe-->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_FellowProbe</defName>
+    <defName>PM_FellowProbe</defName>
     <label>FellowProbe</label>
     <description>Its the first probe you made yourself, its not a mechine anymore, its your fellow.</description>
     <statBases>
@@ -408,7 +408,7 @@
       <FoodPoisonChance>0</FoodPoisonChance>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>4.0</baseHealthScale>
       <mechEnabledWorkTypes>
@@ -511,9 +511,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
-    <defName>PMP_FellowProbe</defName>
+    <defName>PM_FellowProbe</defName>
     <label>Fellow Probe</label>
-    <race>PMP_FellowProbe</race>
+    <race>PM_FellowProbe</race>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -528,7 +528,7 @@
 
   <!-- Servitor Drone -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Servitor</defName>
+    <defName>PM_Servitor</defName>
     <label>Servitor Drone</label>
     <description>Servitor is designed to help with phase-smith working, they are capable of various work.When in Escort mode, increase mechanitor's global working speed.</description>
     <statBases>
@@ -536,7 +536,7 @@
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1.0</baseHealthScale>
       <mechEnabledWorkTypes>
@@ -587,7 +587,7 @@
       </li>
       <li Class="ProtossMech.CompProperties_AddHediffByMechWorkMode">
         <workModeDef>Escort</workModeDef>
-        <hediffDef>PMP_HelperAssist</hediffDef>
+        <hediffDef>PM_HelperAssist</hediffDef>
       </li>
       <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
         <hediffDefs>
@@ -599,9 +599,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
-    <defName>PMP_Servitor</defName>
+    <defName>PM_Servitor</defName>
     <label>Servitor Drone</label>
-    <race>PMP_Servitor</race>
+    <race>PM_Servitor</race>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>

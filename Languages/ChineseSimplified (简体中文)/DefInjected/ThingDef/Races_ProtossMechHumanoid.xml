@@ -2,32 +2,32 @@
 <LanguageData>
   
   <!-- EN: Legionnaire -->
-  <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
+  <PM_Legionnaire.label>军团士兵</PM_Legionnaire.label>
   <!-- EN: Legionnaire was one of the earliest products of the Purifier Project, in which researchers uploaded the neural patterns of some of the greatest warriors in Protoss history and then downloaded them into this mechanical body built of neutronic materials so that they could continue their service as Templars. -->
-  <PMP_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们。\n\n 净化者军团在组建后之后参加了无数残酷的战役，也包括了净化者大叛乱，一场让星灵帝国元气大伤，并且决心永久封存净化者的战役。\n\n 即便如此，他们依然是一群拥有万年丰富战斗经验的老兵，是非常有价值的战士。</PMP_Legionnaire.description>
+  <PM_Legionnaire.description>军团战士是净化者计划最早的产物之一，这些强大的机械士兵的神经模式来自星灵历史上最伟大的战士们。\n\n 净化者军团在组建后之后参加了无数残酷的战役，也包括了净化者大叛乱，一场让星灵帝国元气大伤，并且决心永久封存净化者的战役。\n\n 即便如此，他们依然是一群拥有万年丰富战斗经验的老兵，是非常有价值的战士。</PM_Legionnaire.description>
   <!-- EN: head -->
-  <PMP_Legionnaire.tools.head.label>机械星灵头部</PMP_Legionnaire.tools.head.label>
+  <PM_Legionnaire.tools.head.label>机械星灵头部</PM_Legionnaire.tools.head.label>
   <!-- EN: left Energy Blade -->
-  <PMP_Legionnaire.tools.left_Energy_Blade.label>左臂能量刃</PMP_Legionnaire.tools.left_Energy_Blade.label>
+  <PM_Legionnaire.tools.left_Energy_Blade.label>左臂能量刃</PM_Legionnaire.tools.left_Energy_Blade.label>
   <!-- EN: right Energy Blade -->
-  <PMP_Legionnaire.tools.right_Energy_Blade.label>右臂能量刃</PMP_Legionnaire.tools.right_Energy_Blade.label>
+  <PM_Legionnaire.tools.right_Energy_Blade.label>右臂能量刃</PM_Legionnaire.tools.right_Energy_Blade.label>
   
   <!-- EN: Sentinel -->
-  <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+  <PM_Sentinel.label>警戒者</PM_Sentinel.label>
   <!-- EN: The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones. -->
-  <PMP_Sentinel.description>警戒者源自净化者计划的一个分支，采用正电子人工智能作为数字神经模式传输的道德替代方案。即使被摧毁，它们也能被重建无人机迅速重组。</PMP_Sentinel.description>
+  <PM_Sentinel.description>警戒者源自净化者计划的一个分支，采用正电子人工智能作为数字神经模式传输的道德替代方案。即使被摧毁，它们也能被重建无人机迅速重组。</PM_Sentinel.description>
   <!-- EN: head -->
-  <PMP_Sentinel.tools.head.label>机械星灵头部</PMP_Sentinel.tools.head.label>
+  <PM_Sentinel.tools.head.label>机械星灵头部</PM_Sentinel.tools.head.label>
   <!-- EN: left Energy Blade -->
-  <PMP_Sentinel.tools.left_Energy_Blade.label>左臂能量刃</PMP_Sentinel.tools.left_Energy_Blade.label>
+  <PM_Sentinel.tools.left_Energy_Blade.label>左臂能量刃</PM_Sentinel.tools.left_Energy_Blade.label>
   <!-- EN: right Energy Blade -->
-  <PMP_Sentinel.tools.right_Energy_Blade.label>右臂能量刃</PMP_Sentinel.tools.right_Energy_Blade.label>
+  <PM_Sentinel.tools.right_Energy_Blade.label>右臂能量刃</PM_Sentinel.tools.right_Energy_Blade.label>
   
   <!-- EN: Umbra -->
-  <PMP_Umbra.label>渊影</PMP_Umbra.label>
+  <PM_Umbra.label>渊影</PM_Umbra.label>
   <!-- EN: The Umbra is the Purifier iteration of the Dark Templar... -->
-  <PMP_Umbra.description>渊影是黑暗圣堂武士的净化者版本。摒弃光学迷彩的依赖，其机体采用激进设计：由局部神经网连接的数百万微型无人机组成的聚合蜂群。利用微观预判闪避，让弹道无害地穿过其变幻形态，再以高密度曲刃发动致命一击。</PMP_Umbra.description>
+  <PM_Umbra.description>渊影是黑暗圣堂武士的净化者版本。摒弃光学迷彩的依赖，其机体采用激进设计：由局部神经网连接的数百万微型无人机组成的聚合蜂群。利用微观预判闪避，让弹道无害地穿过其变幻形态，再以高密度曲刃发动致命一击。</PM_Umbra.description>
   <!-- EN: Warp blade -->
-  <PMP_Umbra.tools.Warp_blade.label>曲刃</PMP_Umbra.tools.Warp_blade.label>
+  <PM_Umbra.tools.Warp_blade.label>曲刃</PM_Umbra.tools.Warp_blade.label>
   
 </LanguageData>

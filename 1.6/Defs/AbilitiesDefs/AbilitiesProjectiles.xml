@@ -3,7 +3,7 @@
 <Defs>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>PMP_ChronoBeamProjectile</defName>
+    <defName>PM_ChronoBeamProjectile</defName>
     <label>ChronoBeam Projectile</label>
     <thingClass>Beam</thingClass>
     <graphicData>

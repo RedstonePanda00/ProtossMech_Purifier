@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>PM_PawnFlyer_CosmicSpiderSwing</defName>
+    <label>cosmic spider swing flyer (internal)</label>
+    <thingClass>ProtossMech.PawnFlyer_CosmicSpiderSwing</thingClass>
+    <selectable>true</selectable>
+    <pawnFlyer>
+      <flightDurationMin>0.25</flightDurationMin>
+      <flightSpeed>28</flightSpeed>
+      <heightFactor>2.4</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+
+</Defs>

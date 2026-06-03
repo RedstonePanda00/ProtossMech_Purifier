@@ -2,7 +2,7 @@
 <Defs>
   <!-- RsPandaLibrary.Thing_Mobile + CompMobile: select + right-click move (Selector patch in PandaLib). -->
   <ThingDef>
-    <defName>PMP_PurificationNova</defName>
+    <defName>PM_PurificationNova</defName>
     <category>Building</category>
     <thingClass>RsPandaLibrary.Thing_Mobile</thingClass>
     <label>Purification Nova</label>
@@ -33,7 +33,7 @@
       <li Class="ProtossMech.CompProperties_TimedDetonator">
         <countdownTicks>180</countdownTicks>
         <explosionRadius>4.9</explosionRadius>
-        <explosionDamageType>PMP_NovaExplosion</explosionDamageType>
+        <explosionDamageType>PM_NovaExplosion</explosionDamageType>
         <pawnDamageAmount>150</pawnDamageAmount>
         <buildingDamageAmount>1500</buildingDamageAmount>
         <secondaryExplosionDelayTicks>60</secondaryExplosionDelayTicks>

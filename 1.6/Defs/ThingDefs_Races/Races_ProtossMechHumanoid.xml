@@ -2,7 +2,7 @@
 <Defs>
     <!-- Legionnaire -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Legionnaire</defName>
+    <defName>PM_Legionnaire</defName>
     <label>Legionnaire</label>
     <description>Legionnaires are among the earliest products of the Purifier Program. Their neural patterns were replicated from the consciousness of the greatest Templar warriors of antiquity. \n\n Following their activation, the Legionnaires participated in numerous brutal campaigns before their involvement in the Great Purifier Rebellion—a conflict that inflicted grievous losses upon the Protoss Empire and led to the indefinite deactivation of the entire Purifier Program. Despite this history, they remain invaluable soldiers, each possessing tens of thousands of years of combat experience.</description>
     <statBases>
@@ -18,7 +18,7 @@
       <ShootingAccuracyFactor_Long>1.5</ShootingAccuracyFactor_Long>
     </statBases>
     <race>
-      <body>PMP_HumanoidBody</body>
+      <body>PM_HumanoidBody</body>
       <baseBodySize>2</baseBodySize>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
@@ -95,9 +95,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>PMP_Legionnaire</defName>
+    <defName>PM_Legionnaire</defName>
     <label>Legionnaire</label>
-    <race>PMP_Legionnaire</race>
+    <race>PM_Legionnaire</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -116,7 +116,7 @@
 
   <!-- Sentinel -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Sentinel</defName>
+    <defName>PM_Sentinel</defName>
     <label>Sentinel</label>
     <description>The Sentinels originated from an offshoot of the Purifier Project, employing positronic AI as an ethical alternative to digital neural patterns transfer. Even if destroyed, they can be rapidly reassembled by reconstruction drones.</description>
     <statBases>
@@ -126,7 +126,7 @@
       <MoveSpeed>6.0</MoveSpeed>
     </statBases>
     <race>
-      <body>PMP_HumanoidBody</body>
+      <body>PM_HumanoidBody</body>
       <baseBodySize>1</baseBodySize>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
@@ -200,9 +200,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>PMP_Sentinel</defName>
+    <defName>PM_Sentinel</defName>
     <label>Sentinel</label>
-    <race>PMP_Sentinel</race>
+    <race>PM_Sentinel</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -221,7 +221,7 @@
 
   <!-- Umbra -->
   <ThingDef ParentName="ProtossMechanoid">
-    <defName>PMP_Umbra</defName>
+    <defName>PM_Umbra</defName>
     <label>Umbra</label>
     <description>The Umbra is the Purifier iteration of the Dark Templar. Discarding the reliance on optical camouflage, its chassis is a radical design: a cohesive swarm of millions of micro-drones linked by a localized neural net. Utilizing micro-predictive evasion, it allows projectiles to pass harmlessly through its shifting form before delivering lethal strikes with condensed warp blades.</description>
     <statBases>
@@ -236,7 +236,7 @@
       <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
     </statBases>
     <race>
-      <body>PMP_HumanoidBody</body>
+      <body>PM_HumanoidBody</body>
       <baseBodySize>1.2</baseBodySize>
       <mechEnabledWorkTypes>
         <li>Hunting</li>
@@ -301,9 +301,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="ProtossMechanoidKind">
-    <defName>PMP_Umbra</defName>
+    <defName>PM_Umbra</defName>
     <label>Umbra</label>
-    <race>PMP_Umbra</race>
+    <race>PM_Umbra</race>
     <combatPower>42</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -316,8 +316,8 @@
       </li>
     </lifeStages>
     <abilities>
-      <li>PMP_UmbraSkip</li>
-      <li>PMP_UmbraTripleStrike</li>
+      <li>PM_UmbraSkip</li>
+      <li>PM_UmbraTripleStrike</li>
     </abilities>
   </PawnKindDef>
 

@@ -16,7 +16,7 @@
     </DamageDef>
 
     <DamageDef>
-        <defName>PMP_NovaExplosion</defName>
+        <defName>PM_NovaExplosion</defName>
         <label>Supernova Explosion</label>
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>false</externalViolence>

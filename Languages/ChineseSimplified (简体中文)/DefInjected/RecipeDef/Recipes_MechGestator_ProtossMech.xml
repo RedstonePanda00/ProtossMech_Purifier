@@ -30,18 +30,18 @@
   <Legionnaire.jobString>建造机械体</Legionnaire.jobString>
   
   <!-- EN: gestate Protoss Disruptor mech -->
-  <PMP_GenDisruptor.label>建造干扰者</PMP_GenDisruptor.label>
+  <PM_GenDisruptor.label>建造干扰者</PM_GenDisruptor.label>
   <!-- EN: Gestate an Protoss Disruptor mechanoid. -->
-  <PMP_GenDisruptor.description>建造干扰者。</PMP_GenDisruptor.description>
+  <PM_GenDisruptor.description>建造干扰者。</PM_GenDisruptor.description>
   <!-- EN: Gestating mech. -->
-  <PMP_GenDisruptor.jobString>建造机械体</PMP_GenDisruptor.jobString>
+  <PM_GenDisruptor.jobString>建造机械体</PM_GenDisruptor.jobString>
   
   <!-- EN: gestate Protoss Servitor mech -->
-  <PMP_GenServitor.label>制造服务机</PMP_GenServitor.label>
+  <PM_GenServitor.label>制造服务机</PM_GenServitor.label>
   <!-- EN: Gestate an Protoss Servitor mechanoid. -->
-  <PMP_GenServitor.description>建造服务机。</PMP_GenServitor.description>
+  <PM_GenServitor.description>建造服务机。</PM_GenServitor.description>
   <!-- EN: Gestating mech. -->
-  <PMP_GenServitor.jobString>建造机械体</PMP_GenServitor.jobString>
+  <PM_GenServitor.jobString>建造机械体</PM_GenServitor.jobString>
   
   <!-- EN: gestate Protoss Probe mech -->
   <Probe.label>建造探机</Probe.label>
@@ -86,10 +86,10 @@
   <Sentry.jobString>复活机械体</Sentry.jobString>
   
   <!-- EN: gestate Protoss Umbra mech -->
-  <PMP_GenUmbra.label>建造渊影</PMP_GenUmbra.label>
+  <PM_GenUmbra.label>建造渊影</PM_GenUmbra.label>
   <!-- EN: Gestate a Protoss Umbra mechanoid. -->
-  <PMP_GenUmbra.description>建造渊影机械体。</PMP_GenUmbra.description>
+  <PM_GenUmbra.description>建造渊影机械体。</PM_GenUmbra.description>
   <!-- EN: Gestating mech. -->
-  <PMP_GenUmbra.jobString>建造机械体</PMP_GenUmbra.jobString>
+  <PM_GenUmbra.jobString>建造机械体</PM_GenUmbra.jobString>
   
 </LanguageData>

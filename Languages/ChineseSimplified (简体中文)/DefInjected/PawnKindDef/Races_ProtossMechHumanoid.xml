@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: Legionnaire -->
-  <PMP_Legionnaire.label>军团士兵</PMP_Legionnaire.label>
+  <PM_Legionnaire.label>军团士兵</PM_Legionnaire.label>
   
   <!-- EN: Sentinel -->
-  <PMP_Sentinel.label>警戒者</PMP_Sentinel.label>
+  <PM_Sentinel.label>警戒者</PM_Sentinel.label>
   
   <!-- EN: Umbra -->
-  <PMP_Umbra.label>渊影</PMP_Umbra.label>
+  <PM_Umbra.label>渊影</PM_Umbra.label>
   
 </LanguageData>

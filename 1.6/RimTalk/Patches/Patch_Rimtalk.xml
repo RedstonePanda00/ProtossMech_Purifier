@@ -10,7 +10,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_ColossusPrototype"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_ColossusPrototype"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>
@@ -22,7 +22,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_PurifierImmortal"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_PurifierImmortal"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>
@@ -34,7 +34,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_Disruptor"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_Disruptor"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>
@@ -46,7 +46,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_Legionnaire"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_Legionnaire"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>
@@ -58,7 +58,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_Sentinel"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_Sentinel"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>
@@ -70,7 +70,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_FellowProbe"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_FellowProbe"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>
@@ -82,7 +82,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PMP_Umbra"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="PM_Umbra"]/comps</xpath>
         <value>
             <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
                 <hediffDefs>

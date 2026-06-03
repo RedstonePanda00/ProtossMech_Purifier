@@ -12,7 +12,7 @@
       <FoodPoisonChance>0</FoodPoisonChance>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>10.0</baseHealthScale>
       <mechEnabledWorkTypes>

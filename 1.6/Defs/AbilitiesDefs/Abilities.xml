@@ -114,7 +114,7 @@
                     <li>Hediff_TemporalSurge</li>
                 </hediffDefNames>
 
-                <projectileDefName>PMP_ChronoBeamProjectile</projectileDefName>
+                <projectileDefName>PM_ChronoBeamProjectile</projectileDefName>
             </li>
         </comps>
     </AbilityDef>
@@ -180,7 +180,7 @@
 
     <!-- Umbra Skip: teleport to cell (through walls), then 45 execute damage to enemies at destination -->
     <AbilityDef>
-        <defName>PMP_UmbraSkip</defName>
+        <defName>PM_UmbraSkip</defName>
         <label>Skip</label>
         <description>Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius.</description>
         <iconPath>UI/Abilities/Skip</iconPath>
@@ -209,7 +209,7 @@
     </AbilityDef>
 
     <AbilityDef>
-        <defName>PMP_UmbraTripleStrike</defName>
+        <defName>PM_UmbraTripleStrike</defName>
         <label>Triple strike</label>
         <description>Lock onto a hostile target and, as soon as the ability finishes warming up, hit it with three anti-armor shock beams (85 damage each to the same body part, default torso). Range and line of sight are checked only when casting; after that, strikes continue even if the target runs away or breaks LOS. Each beam uses the same visual as the Khaydarin monolith. Delays apply only between the 1st and 2nd and between the 2nd and 3rd strike (10 ticks). If the target dies, the nearest hostile pawn in cast range is chosen for remaining hits, otherwise a hostile building. Cannot be recast until the combo finishes. Buildings take normal damage.</description>
         <iconPath>Things/Abilities/ChronoBeam</iconPath>
@@ -322,7 +322,7 @@
     </AbilityDef>
 
     <AbilityDef>
-        <defName>PMP_RestoreShield</defName>
+        <defName>PM_RestoreShield</defName>
         <label>Barrier</label>
         <description>Instantly restores the caster's Protoss shield to its maximum energy level.</description>
         <iconPath>Things/Abilities/Barrier</iconPath>
@@ -347,7 +347,7 @@
     </AbilityDef>
 
     <AbilityDef>
-        <defName>PMP_SummonNova</defName>
+        <defName>PM_SummonNova</defName>
         <label>Summon Purification Nova</label>
         <description>Summon Purification Nova to the location.</description>
         <iconPath>Things/Abilities/PurificationNova</iconPath>
@@ -369,10 +369,170 @@
 
         <comps>
             <li Class="ProtossMech.CompProperties_SpawnAndGo">
-                <thingDefToSpawn>PMP_PurificationNova</thingDefToSpawn>
+                <thingDefToSpawn>PM_PurificationNova</thingDefToSpawn>
             </li>
         </comps>
 
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_ReelWeb</defName>
+        <label>Reel Web</label>
+        <description>Fire a silk line and pull the first unit on the path toward the caster.</description>
+        <iconPath>Things/Abilities/Force_field</iconPath>
+        <cooldownTicksRange>900</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderReelWeb" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_WebLink</defName>
+        <label>Web Link</label>
+        <description>Create a persistent web link to a hostile target and enforce leash control.</description>
+        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <cooldownTicksRange>3600</cooldownTicksRange>
+        <hostile>true</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderWebLink" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_StickyWeb</defName>
+        <label>Sticky Web</label>
+        <description>Place a 3x3 patch of conductive sticky web floor.</description>
+        <iconPath>Things/Abilities/Guardian_shield</iconPath>
+        <cooldownTicksRange>7200</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.4</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderStickyWeb" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_Discharge</defName>
+        <label>Discharge</label>
+        <description>Release electrical energy and trigger conductive effects on linked enemies and web floor.</description>
+        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <cooldownTicksRange>3600</cooldownTicksRange>
+        <hostile>true</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.3</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderDischarge" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_WebSwing</defName>
+        <label>Web Swing</label>
+        <description>Swing from an anchor point to a destination with web-assisted mobility.</description>
+        <iconPath>Things/Abilities/Charge</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.1</warmupTime>
+            <range>7</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderWebSwing">
+                <jumpRangeCells>7</jumpRangeCells>
+                <anchorRangeCells>18</anchorRangeCells>
+                <chargeTicks>60</chargeTicks>
+                <swingFlightTicks>240</swingFlightTicks>
+                <swingPhysics>
+                    <mass>1.0</mass>
+                    <webCompliance>0.0008</webCompliance>
+                    <webDamping>0.08</webDamping>
+                    <webElasticStretchLimit>0.08</webElasticStretchLimit>
+                    <webConstraintIterations>2</webConstraintIterations>
+                    <globalDrag>0.003</globalDrag>
+                    <verticalDrag>0.001</verticalDrag>
+                    <quadraticDrag>0.0008</quadraticDrag>
+                    <maneuverAcceleration>0.015</maneuverAcceleration>
+                    <activeSwingPower>0.035</activeSwingPower>
+                    <maxTangentialForce>0.35</maxTangentialForce>
+                    <launchReferenceTicks>15</launchReferenceTicks>
+                    <launchVelocityScale>1.65</launchVelocityScale>
+                    <launchVerticalVelocity>0.28</launchVerticalVelocity>
+                    <launchArcHeightCells>1.2</launchArcHeightCells>
+                    <minLaunchSpeed>0.65</minLaunchSpeed>
+                    <radiusAdjustStep>1.25</radiusAdjustStep>
+                    <minWebLength>2.0</minWebLength>
+                    <maxWebLength>36.0</maxWebLength>
+                    <anchorHeightCells>-1.0</anchorHeightCells>
+                    <reelSpeed>0.22</reelSpeed>
+                    <reelAcceleration>0.035</reelAcceleration>
+                    <reelMotorPower>0.09</reelMotorPower>
+                    <maxReelForce>0.9</maxReelForce>
+                    <releaseMaxDistance>80.0</releaseMaxDistance>
+                    <releaseMinFlightTicks>4</releaseMinFlightTicks>
+                    <releaseMaxFlightTicks>180</releaseMaxFlightTicks>
+                    <groundFriction>0.06</groundFriction>
+                    <groundSlideStopSpeed>0.18</groundSlideStopSpeed>
+                    <groundSlideMinTicks>8</groundSlideMinTicks>
+                    <gravityAcceleration>0.035</gravityAcceleration>
+                    <numericalVelocityCap>20.0</numericalVelocityCap>
+                    <simulationSubsteps>4</simulationSubsteps>
+                </swingPhysics>
+            </li>
+        </comps>
     </AbilityDef>
 
 </Defs>

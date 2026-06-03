@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ScenarioDef ParentName="ScenarioBase">
-        <defName>PMP_KhalaiMechanitor</defName>
+        <defName>PM_KhalaiMechanitor</defName>
         <label>Khalai Mechanitor</label>
         <description>You were an anomaly: the only human ever to study under a Protoss Khalai Master. He saw in you a unique spark, treating you as his prized pupil and personally guiding you through the advanced arts of psionic machinery.\n\n Upon finishing your training, you boarded a vessel to return to the gilded cities of your glitterworld home. The journey was cut tragically short. A catastrophic failure sent your ship plummeting into the gravity well of this forgotten rimworld.\n\n You awoke in the wreckage, not to the silence of the void, but to the soft, familiar hum of your most important companion. It is the very first Probe you ever constructed, a testament to your hard-won skills and a constant reminder of the life you left behind. Now, with your creation by your side, you must apply your unique knowledge to survive the harsh realities of this planet and, against all odds, engineer an escape.\n\n Accoring to the forcedTraits, its a challenge for your colonists' Mood control.</description>
         <scenario>
@@ -19,10 +19,10 @@
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>4</pawnChoiceCount>
-                    <leftBehindPawnKind>PMP_Khalai</leftBehindPawnKind>
+                    <leftBehindPawnKind>PM_Khalai</leftBehindPawnKind>
                     <kindCounts>
                         <li>
-                            <kindDef>PMP_Khalai</kindDef>
+                            <kindDef>PM_Khalai</kindDef>
                             <count>1</count>
                             <requiredAtStart>true</requiredAtStart>
                         </li>
@@ -45,7 +45,7 @@
                 <!-- Starting mechs -->
                 <li Class="ScenPart_StartingMech">
                     <def>StartingMech</def>
-                    <mechKind>PMP_FellowProbe</mechKind>
+                    <mechKind>PM_FellowProbe</mechKind>
                     <overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
                 </li>
 

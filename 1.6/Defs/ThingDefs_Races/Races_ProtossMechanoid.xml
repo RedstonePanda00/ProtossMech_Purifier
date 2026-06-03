@@ -17,7 +17,7 @@
       <StaggerDurationFactor>0</StaggerDurationFactor>
     </statBases>
     <race>
-      <body>PMP_ProbeBody</body>
+      <body>PM_ProbeBody</body>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>PM_Mechanoid</thinkTreeMain>
       <baseBodySize>1</baseBodySize>
@@ -50,7 +50,7 @@
       <li Class="ProtossMech.CompProperties_WalkAOnCooldown" />
       <li Class="ProtossMech.CompProperties_NoMeleeDodge" />
       <li Class="RsPandaLibrary.CompProperties_ImmuneToMentalBreak">
-        <virtueHediff>PMP_PrideOfTemplar</virtueHediff>
+        <virtueHediff>PM_PrideOfTemplar</virtueHediff>
       </li>
     </comps>
 
