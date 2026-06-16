@@ -15,8 +15,8 @@
   
   <!-- EN: Triple strike -->
   <PM_UmbraTripleStrike.label>三连击</PM_UmbraTripleStrike.label>
-  <!-- EN: Lock onto a hostile target and, after a short delay, hit it with three anti-armor shock beams. Each beam uses the same visual as the Khaydarin monolith. Strikes are spaced by 10 ticks; if the target dies, a new hostile in range is picked for remaining hits. Pawns take direct part injuries; buildings take normal damage. -->
-  <PM_UmbraTripleStrike.description>锁定一名敌对目标：仅在施法时校验射程与视线；三连击进行中即使目标逃离或失去视线仍会命中。预热结束后立刻第一击，第二、第三击之间各间隔10 ticks。三次对同一部位造成85点固定伤害，默认躯干，失败则另选部位。光束与音效同凯达琳巨石。若原目标死亡，在施法时的射程内优先另选敌对单位，其次才是敌对建筑；无可用目标则该次打击落空但不会卡住。三连击结束前无法再次施放；对建筑使用常规伤害。</PM_UmbraTripleStrike.description>
+  <!-- EN: Enter a sniping stance and fire three rapid sniper shots. Each shot is guaranteed to hit the target's head. If the target dies or is lost, automatically acquire another available enemy within range. -->
+  <PM_UmbraTripleStrike.description>进入狙击姿态进行三次快速的狙击。每发子弹都必定会命中目标的头部，目标死亡或是丢失会自动寻找范围内其他可用敌人。</PM_UmbraTripleStrike.description>
   
   <!-- EN: charge -->
   <MechCharge.label>冲锋</MechCharge.label>
@@ -68,14 +68,14 @@
   <Warp_Pylon.label>折跃水晶塔</Warp_Pylon.label>
   
   <!-- EN: Reel Web -->
-  <PM_CosmicSpider_ReelWeb.label>归巢丝</PM_CosmicSpider_ReelWeb.label>
+  <PM_CosmicSpider_ReelWeb.label>钩锁</PM_CosmicSpider_ReelWeb.label>
   <!-- EN: Fire a silk line and pull the first unit on the path toward the caster. -->
   <PM_CosmicSpider_ReelWeb.description>发射蛛丝并拉回路径上的首个单位。</PM_CosmicSpider_ReelWeb.description>
   
   <!-- EN: Web Link -->
-  <PM_CosmicSpider_WebLink.label>蛛丝链接</PM_CosmicSpider_WebLink.label>
-  <!-- EN: Create a persistent web link to a hostile target and enforce leash control. -->
-  <PM_CosmicSpider_WebLink.description>与敌对目标建立持续蛛丝链接并实施牵引控制。</PM_CosmicSpider_WebLink.description>
+  <PM_CosmicSpider_WebLink.label>缚体蛛丝</PM_CosmicSpider_WebLink.label>
+  <!-- EN: Fire silk and bind the first enemy contacted; bound enemies are tethered by the web. -->
+  <PM_CosmicSpider_WebLink.description>发射蛛丝并且捆住接触的第一个敌人，被束缚的敌人会被蛛丝拴住。</PM_CosmicSpider_WebLink.description>
   
   <!-- EN: Sticky Web -->
   <PM_CosmicSpider_StickyWeb.label>黏黏网</PM_CosmicSpider_StickyWeb.label>
@@ -84,11 +84,11 @@
   
   <!-- EN: Discharge -->
   <PM_CosmicSpider_Discharge.label>放电</PM_CosmicSpider_Discharge.label>
-  <!-- EN: Release electrical energy and trigger conductive effects on linked enemies and web floor. -->
-  <PM_CosmicSpider_Discharge.description>释放电能并触发链接目标与网面导电效果。</PM_CosmicSpider_Discharge.description>
+  <!-- EN: Draw charge from the air and discharge around the caster; silk webs conduct the current a second time. -->
+  <PM_CosmicSpider_Discharge.description>以自身为中心牵引空气中的电荷放电，蛛丝能够二次传导电流。</PM_CosmicSpider_Discharge.description>
   
   <!-- EN: Web Swing -->
-  <PM_CosmicSpider_WebSwing.label>支点机动</PM_CosmicSpider_WebSwing.label>
+  <PM_CosmicSpider_WebSwing.label>机动丝</PM_CosmicSpider_WebSwing.label>
   <!-- EN: Swing from an anchor point to a destination with web-assisted mobility. -->
   <PM_CosmicSpider_WebSwing.description>以蛛丝挂点完成摆荡机动并移动到目标位置。</PM_CosmicSpider_WebSwing.description>
   

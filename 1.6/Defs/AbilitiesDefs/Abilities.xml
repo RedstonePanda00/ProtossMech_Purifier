@@ -153,7 +153,7 @@
         <defName>LegionnaireJump</defName>
         <label>Engage</label>
         <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
-        <iconPath>Things/Abilities/KaldalisIntercept</iconPath>
+        <iconPath>Gizmo/Legionaire/Engage</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
@@ -183,7 +183,7 @@
         <defName>PM_UmbraSkip</defName>
         <label>Skip</label>
         <description>Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius.</description>
-        <iconPath>UI/Abilities/Skip</iconPath>
+        <iconPath>Gizmo/Umbra/UmbraSkip</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <groupAbility>true</groupAbility>
         <hostile>false</hostile>
@@ -211,8 +211,8 @@
     <AbilityDef>
         <defName>PM_UmbraTripleStrike</defName>
         <label>Triple strike</label>
-        <description>Lock onto a hostile target and, as soon as the ability finishes warming up, hit it with three anti-armor shock beams (85 damage each to the same body part, default torso). Range and line of sight are checked only when casting; after that, strikes continue even if the target runs away or breaks LOS. Each beam uses the same visual as the Khaydarin monolith. Delays apply only between the 1st and 2nd and between the 2nd and 3rd strike (10 ticks). If the target dies, the nearest hostile pawn in cast range is chosen for remaining hits, otherwise a hostile building. Cannot be recast until the combo finishes. Buildings take normal damage.</description>
-        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <description>Enter a sniping stance and fire three rapid sniper shots. Each shot is guaranteed to hit the target's head. If the target dies or is lost, automatically acquire another available enemy within range.</description>
+        <iconPath>Gizmo/Umbra/TripleStrike</iconPath>
         <cooldownTicksRange>600</cooldownTicksRange>
         <groupAbility>true</groupAbility>
         <hostile>true</hostile>
@@ -238,7 +238,7 @@
         <defName>MechCharge</defName>
         <label>charge</label>
         <description>Speed up in several seconds.</description>
-        <iconPath>Things/Abilities/Charge</iconPath>
+        <iconPath>Gizmo/Legionaire/Charge</iconPath>
         <cooldownTicksRange>1800</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
@@ -325,7 +325,7 @@
         <defName>PM_RestoreShield</defName>
         <label>Barrier</label>
         <description>Instantly restores the caster's Protoss shield to its maximum energy level.</description>
-        <iconPath>Things/Abilities/Barrier</iconPath>
+        <iconPath>Gizmo/Immortal/Barrier</iconPath>
         <cooldownTicksRange>7200</cooldownTicksRange>
         <charges>2</charges>
         <cooldownPerCharge>true</cooldownPerCharge>
@@ -350,7 +350,7 @@
         <defName>PM_SummonNova</defName>
         <label>Summon Purification Nova</label>
         <description>Summon Purification Nova to the location.</description>
-        <iconPath>Things/Abilities/PurificationNova</iconPath>
+        <iconPath>Gizmo/Disruptor/PurificationNova</iconPath>
         <cooldownTicksRange>1260</cooldownTicksRange>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
 
@@ -379,7 +379,7 @@
         <defName>PM_CosmicSpider_ReelWeb</defName>
         <label>Reel Web</label>
         <description>Fire a silk line and pull the first unit on the path toward the caster.</description>
-        <iconPath>Things/Abilities/Force_field</iconPath>
+        <iconPath>Gizmo/Hook</iconPath>
         <cooldownTicksRange>900</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
@@ -402,8 +402,8 @@
     <AbilityDef>
         <defName>PM_CosmicSpider_WebLink</defName>
         <label>Web Link</label>
-        <description>Create a persistent web link to a hostile target and enforce leash control.</description>
-        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <description>Fire silk and bind the first enemy contacted; bound enemies are tethered by the web.</description>
+        <iconPath>Gizmo/WebLink</iconPath>
         <cooldownTicksRange>3600</cooldownTicksRange>
         <hostile>true</hostile>
         <groupAbility>true</groupAbility>
@@ -427,7 +427,7 @@
         <defName>PM_CosmicSpider_StickyWeb</defName>
         <label>Sticky Web</label>
         <description>Place a 3x3 patch of conductive sticky web floor.</description>
-        <iconPath>Things/Abilities/Guardian_shield</iconPath>
+        <iconPath>Gizmo/WebTrap</iconPath>
         <cooldownTicksRange>7200</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
@@ -450,24 +450,30 @@
     <AbilityDef>
         <defName>PM_CosmicSpider_Discharge</defName>
         <label>Discharge</label>
-        <description>Release electrical energy and trigger conductive effects on linked enemies and web floor.</description>
-        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <description>Draw charge from the air and discharge around the caster; silk webs conduct the current a second time.</description>
+        <iconPath>Gizmo/Discharge</iconPath>
         <cooldownTicksRange>3600</cooldownTicksRange>
         <hostile>true</hostile>
         <groupAbility>true</groupAbility>
+        <targetRequired>false</targetRequired>
         <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
-            <warmupTime>0.3</warmupTime>
-            <range>18</range>
+            <warmupTime>0</warmupTime>
             <targetParams>
-                <canTargetLocations>true</canTargetLocations>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetLocations>false</canTargetLocations>
                 <canTargetPawns>false</canTargetPawns>
                 <canTargetBuildings>false</canTargetBuildings>
             </targetParams>
         </verbProperties>
         <comps>
-            <li Class="ProtossMech.CompProperties_CosmicSpiderDischarge" />
+            <li Class="ProtossMech.CompProperties_CosmicSpiderDischarge">
+                <explosionRadius>18</explosionRadius>
+                <empDamage>30</empDamage>
+                <flameDamage>30</flameDamage>
+                <webTerrainDefName>PM_CosmicSpider_WebFloor</webTerrainDefName>
+            </li>
         </comps>
     </AbilityDef>
 
@@ -475,7 +481,7 @@
         <defName>PM_CosmicSpider_WebSwing</defName>
         <label>Web Swing</label>
         <description>Swing from an anchor point to a destination with web-assisted mobility.</description>
-        <iconPath>Things/Abilities/Charge</iconPath>
+        <iconPath>Gizmo/Swing</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
