@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_C7Templar_Barrel_01.label>突击线圈枪管</PM_C7Templar_Barrel_01.label>
+  <PM_C7Templar_Barrel_01.description>为突击射击调校的紧凑型多级线圈枪管，在保持C-7操控性的同时延长弹丸加速路径。</PM_C7Templar_Barrel_01.description>
+
+  <PM_C7Templar_Stock_01.label>框架式战术枪托</PM_C7Templar_Stock_01.label>
+  <PM_C7Templar_Stock_01.description>刚性开放框架枪托，为连续点射提供稳定支撑，同时保持突击步枪应有的平衡。</PM_C7Templar_Stock_01.description>
+
+  <PM_C7Templar_Ammo_01.label>5.8mm钨合金穿甲弹</PM_C7Templar_Ammo_01.label>
+  <PM_C7Templar_Ammo_01.description>供C-7线圈加速器使用的高密度钨合金穿透弹。</PM_C7Templar_Ammo_01.description>
+
+  <PM_C7Templar_Magazine_01.label>30发突击弹匣</PM_C7Templar_Magazine_01.label>
+  <PM_C7Templar_Magazine_01.description>供Combat Extended弹药系统使用的紧凑型30发C-7突击弹匣。</PM_C7Templar_Magazine_01.description>
+
+  <PM_C7Templar_Sight_01.label>毫米波战斗瞄具</PM_C7Templar_Sight_01.label>
+  <PM_C7Templar_Sight_01.description>融合毫米波与光学火控的战斗瞄具，能够穿透恶劣天气、烟雾与主动迷彩，并在各作战距离提供稳定射击解算。</PM_C7Templar_Sight_01.description>
+
+</LanguageData>

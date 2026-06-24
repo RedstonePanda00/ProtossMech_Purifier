@@ -2,35 +2,35 @@
 <Defs>
 
     <ProtossMech.GunSmith.GunSmithPlatformDef>
-        <defName>PM_GunSmith_C31Tempest</defName>
-        <label>C-31 Tempest</label>
-        <weaponThingDef>PM_GunC31Tempest</weaponThingDef>
-        <bodyTexPath>Things/Weapon/C31Tempest/C31Tempest_body</bodyTexPath>
+        <defName>PM_GunSmith_C7Templar</defName>
+        <label>C-7 Templar</label>
+        <weaponThingDef>PM_GunC7Templar</weaponThingDef>
+        <bodyTexPath>Things/Weapon/C7Templar/C7_Body</bodyTexPath>
         <slotAttachmentOffsets>
             <li>
                 <slotId>Barrel</slotId>
-                <offset>(-0.5451, 0.0051)</offset>
-                <gizmoOffset>(-0.0310, -0.2127)</gizmoOffset>
+                <offset>(-0.6110, -0.0565)</offset>
+                <gizmoOffset>(0.0422, -0.3688)</gizmoOffset>
             </li>
             <li>
                 <slotId>Muzzle</slotId>
-                <offset>(-0.4269, 0.0000)</offset>
-                <gizmoOffset>(-1.6916, -0.2764)</gizmoOffset>
+                <offset>(-0.5098, -0.0032)</offset>
+                <gizmoOffset>(-1.7225, -0.3688)</gizmoOffset>
             </li>
             <li>
                 <slotId>Stock</slotId>
-                <offset>(0.5147, 0.0031)</offset>
-                <gizmoOffset>(0.2724, 0.0215)</gizmoOffset>
+                <offset>(0.3505, 0.0733)</offset>
+                <gizmoOffset>(0.2629, -0.0446)</gizmoOffset>
             </li>
             <li>
                 <slotId>Magazine</slotId>
-                <offset>(0.3982, 0.1736)</offset>
-                <gizmoOffset>(0.0358, 0.3226)</gizmoOffset>
+                <offset>(-0.1235, 0.1872)</offset>
+                <gizmoOffset>(-1.0514, 0.2262)</gizmoOffset>
             </li>
             <li>
                 <slotId>Optic</slotId>
-                <offset>(0.0494, -0.1347)</offset>
-                <gizmoOffset>(-0.0502, -0.2223)</gizmoOffset>
+                <offset>(-0.1466, -0.1649)</offset>
+                <gizmoOffset>(-0.5185, -0.2752)</gizmoOffset>
             </li>
         </slotAttachmentOffsets>
         <bakeTextureSize>512</bakeTextureSize>

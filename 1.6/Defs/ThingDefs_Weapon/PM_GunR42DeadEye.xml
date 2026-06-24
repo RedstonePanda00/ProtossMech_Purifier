@@ -43,10 +43,6 @@
         <weaponTags>
             <li>PM_R42_DeadEye</li>
         </weaponTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-            <li>LongShots</li>
-        </weaponClasses>
         <comps>
             <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
                 <platformDef>PM_GunSmith_R42</platformDef>

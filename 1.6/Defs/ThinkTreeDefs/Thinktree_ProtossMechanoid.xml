@@ -89,19 +89,24 @@
                     <emergency>true</emergency>
                   </li>
                   <li Class="JobGiver_Work" />
-                  <li Class="ThinkNode_ConditionalWorkMech"><!-- Combat mechs do patrolling -->
-                    <invert>true</invert>
+                  <!-- Only overseen combat mechs patrol and proactively acquire targets. -->
+                  <li Class="ThinkNode_ConditionalPlayerControlledMech">
                     <subNodes>
-                      <li Class="JobGiver_AIFightEnemies">
-                        <targetAcquireRadius>65</targetAcquireRadius>
-                        <targetKeepRadius>72</targetKeepRadius>
-                      </li>
-                      <li Class="ThinkNode_Tagger">
-                        <tagToGive>MiscWork</tagToGive>
+                      <li Class="ThinkNode_ConditionalWorkMech">
+                        <invert>true</invert>
                         <subNodes>
-                          <li Class="JobGiver_WanderColony">
-                            <maxDanger>Deadly</maxDanger>
-                            <reportStringOverride>Patrolling.</reportStringOverride>
+                          <li Class="JobGiver_AIFightEnemies">
+                            <targetAcquireRadius>65</targetAcquireRadius>
+                            <targetKeepRadius>72</targetKeepRadius>
+                          </li>
+                          <li Class="ThinkNode_Tagger">
+                            <tagToGive>MiscWork</tagToGive>
+                            <subNodes>
+                              <li Class="JobGiver_WanderColony">
+                                <maxDanger>Deadly</maxDanger>
+                                <reportStringOverride>Patrolling.</reportStringOverride>
+                              </li>
+                            </subNodes>
                           </li>
                         </subNodes>
                       </li>
@@ -142,8 +147,8 @@
           </subNodes>
         </li>
 
-        <!-- Non player controlled mechs fight nearby hostiles -->
-        <li Class="ThinkNode_ConditionalPlayerControlledMech">
+        <!-- Mechs without player combat control fight nearby hostiles -->
+        <li Class="ProtossMech.ThinkNode_ConditionalCombatControlledMech">
           <invert>true</invert>
           <subNodes>
             <li Class="JobGiver_AIFightEnemies">
@@ -153,8 +158,8 @@
           </subNodes>
         </li>
 
-        <!-- Idle player mech -->
-        <li Class="ThinkNode_ConditionalPlayerControlledMech">
+        <!-- Idle player combat-controlled mech -->
+        <li Class="ProtossMech.ThinkNode_ConditionalCombatControlledMech">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>Idle</tagToGive>

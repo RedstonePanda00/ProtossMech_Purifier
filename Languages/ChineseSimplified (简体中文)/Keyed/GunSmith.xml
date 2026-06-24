@@ -15,9 +15,15 @@
   <ProtossMech.GunSmithInvalidCell>无法在此格折跃武器。</ProtossMech.GunSmithInvalidCell>
   <ProtossMech.GunSmithWarpSuccess>{0} 折跃成功。</ProtossMech.GunSmithWarpSuccess>
   <ProtossMech.GunSmithSlot.Barrel>枪管</ProtossMech.GunSmithSlot.Barrel>
-  <ProtossMech.GunSmithSlot.Sight>瞄具</ProtossMech.GunSmithSlot.Sight>
+  <ProtossMech.GunSmithSlot.Muzzle>膛口</ProtossMech.GunSmithSlot.Muzzle>
+  <ProtossMech.GunSmithSlot.Rail>导轨</ProtossMech.GunSmithSlot.Rail>
+  <ProtossMech.GunSmithSlot.Optic>瞄具</ProtossMech.GunSmithSlot.Optic>
   <ProtossMech.GunSmithSlot.Stock>枪托</ProtossMech.GunSmithSlot.Stock>
   <ProtossMech.GunSmithSlot.Magazine>弹匣</ProtossMech.GunSmithSlot.Magazine>
+  <ProtossMech.GunSmithSlot.Ammo>弹药</ProtossMech.GunSmithSlot.Ammo>
+  <ProtossMech.GunSmithSlot.None>无</ProtossMech.GunSmithSlot.None>
+  <ProtossMech.GunSmithStats.DetectsCloaked>侦测隐形目标</ProtossMech.GunSmithStats.DetectsCloaked>
+  <ProtossMech.GunSmithStats.SilencesShot>消除枪声</ProtossMech.GunSmithStats.SilencesShot>
   <ProtossMech.GunSmithPreviewFailed>预览不可用。</ProtossMech.GunSmithPreviewFailed>
   <ProtossMech.GunSmithMode.Gunsmith>枪匠模式</ProtossMech.GunSmithMode.Gunsmith>
   <ProtossMech.GunSmithMode.LayoutDev>布局调试</ProtossMech.GunSmithMode.LayoutDev>
@@ -29,5 +35,7 @@
   <ProtossMech.GunSmithPlatformLocked>需要研究：{0}</ProtossMech.GunSmithPlatformLocked>
   <ProtossMech.GunSmithStats.IgnoresWeather>免疫天气影响</ProtossMech.GunSmithStats.IgnoresWeather>
   <ProtossMech.GunSmithStats.IgnoresSmoke>免疫穿烟惩罚</ProtossMech.GunSmithStats.IgnoresSmoke>
+  <ProtossMech.GunSmithStats.AttachmentAdjustment>配件修正</ProtossMech.GunSmithStats.AttachmentAdjustment>
+  <ProtossMech.GunSmithStats.WeaponMultiplier>武器倍率</ProtossMech.GunSmithStats.WeaponMultiplier>
 
 </LanguageData>

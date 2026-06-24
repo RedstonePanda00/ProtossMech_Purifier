@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Barrel_01</defName>
+        <label>assault coil barrel</label>
+        <description>A compact multi-stage coil barrel tuned for assault fire. It extends the acceleration path without compromising the C-7's handling.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_Barrel_01</texPath>
+        <rangeOffset>4</rangeOffset>
+        <projectileDamageOffset>1</projectileDamageOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(0, 0)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.05</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.1</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Stock_01</defName>
+        <label>frame tactical stock</label>
+        <description>A rigid open-frame stock that stabilizes sustained bursts while retaining the balance expected of an assault rifle.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_stock_01</texPath>
+        <statOffsets>
+            <AccuracyTouch>-0.03</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.06</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Ammo_01</defName>
+        <label>5.8 mm tungsten armor-piercing ammunition</label>
+        <description>Dense tungsten-alloy penetrators for the C-7's coil accelerator.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_C7Templar</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Magazine_01</defName>
+        <label>30-round assault magazine</label>
+        <description>A compact 30-round C-7 assault magazine configured for Combat Extended ammunition handling.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Sight_01</defName>
+        <label>millimeter-wave combat sight</label>
+        <description>A fused millimeter-wave and optical fire-control sight. It cuts through weather, smoke and active camouflage while supplying a stable firing solution at every practical range.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Optic</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_Optic_01</texPath>
+        <ignoresWeatherAccuracy>true</ignoresWeatherAccuracy>
+        <ignoresSmokeAccuracy>true</ignoresSmokeAccuracy>
+        <detectsCloaked>true</detectsCloaked>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.04</AccuracyLong>
+            <Mass>0.1</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

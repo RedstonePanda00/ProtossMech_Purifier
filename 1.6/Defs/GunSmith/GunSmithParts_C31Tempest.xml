@@ -12,6 +12,12 @@
         <rangeOffset>6</rangeOffset>
         <projectileDamageOffset>2</projectileDamageOffset>
         <projectileSpeedFactor>1.15</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(0, 0)</offset>
+            </li>
+        </childSlotAnchors>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
@@ -32,6 +38,18 @@
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Ammo_01</defName>
+        <label>30 mm SAPHE ammunition</label>
+        <description>30 mm semi-armor-piercing high-explosive ammunition for the C-31 Tempest.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_C31Tempest</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Magazine_01</defName>
         <label>Standard magazine</label>
         <description>Standard C-31 Tempest magazine loaded with 30 mm SAPHE semi-armor-piercing high-explosive rounds. Holds 8 rounds per magazine.</description>
@@ -39,6 +57,7 @@
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
         <previewDrawSize>1.0</previewDrawSize>
+        <requiresCombatExtended>true</requiresCombatExtended>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
@@ -46,7 +65,7 @@
         <label>Oracle fire control</label>
         <description>An integrated smart sight suite with infrared thermals and digital AI fire control. Targets stay razor-clear through foul weather and smoke. Dense optics and processors add noticeable weight.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
-        <slotId>Sight</slotId>
+        <slotId>Optic</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_sight</texPath>
         <previewDrawSize>1.0</previewDrawSize>
         <ignoresWeatherAccuracy>true</ignoresWeatherAccuracy>

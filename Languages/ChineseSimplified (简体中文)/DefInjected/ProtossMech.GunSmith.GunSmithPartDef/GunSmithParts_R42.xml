@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PM_R42_Barrel_01.label>R-42 强化枪管</PM_R42_Barrel_01.label>
-  <PM_R42_Barrel_01.description>死神之眼的强化磁轨枪管组件，稳定膛内场强以提升出膛速度。</PM_R42_Barrel_01.description>
+  <PM_R42_Barrel_01.label>R-42 长枪管</PM_R42_Barrel_01.label>
+  <PM_R42_Barrel_01.description>为“死神之眼”设计的延长型电磁加速枪管。更长的加速路径可提高弹丸初速、有效射程、终端威力、穿甲能力与远距离稳定性，但会增加重量并拖慢操控。</PM_R42_Barrel_01.description>
+
+  <PM_R42_Barrel_02.label>R-42 短枪管</PM_R42_Barrel_02.label>
+  <PM_R42_Barrel_02.description>紧凑型电磁加速枪管，可减轻武器前端重量并更快地完成瞄准。缩短的加速路径会牺牲射程、初速、穿甲能力与远距离稳定性。</PM_R42_Barrel_02.description>
+
+  <PM_R42_Rail_01.label>R-42 长导轨</PM_R42_Rail_01.label>
+  <PM_R42_Rail_01.description>全长双导轨组件，可提供更强的电磁推力，并在整个加速过程中维持更稳定的磁场。它适合超远距离射击，但额外重量会延长火控解算时间。</PM_R42_Rail_01.description>
+
+  <PM_R42_Rail_02.label>R-42 突击导轨</PM_R42_Rail_02.label>
+  <PM_R42_Rail_02.description>紧凑型磁场约束组件，通过降低前端惯量来加快目标捕获。它在近中距离表现优异，但弹丸初速、穿甲能力和远距离稳定性略有下降。</PM_R42_Rail_02.description>
+
   <PM_R42_Sight_01.label>先进光点瞄具</PM_R42_Sight_01.label>
-  <PM_R42_Sight_01.description>近距离红点瞄具，无屏HUD，视野清晰。</PM_R42_Sight_01.description>
+  <PM_R42_Sight_01.description>无屏光点投射系统，配备可自动识别敌人的 AI 智能火控。在不遮挡视野的同时加快近中距离目标捕获与弹道修正，但不具备穿透烟雾或恶劣天气的能力。</PM_R42_Sight_01.description>
+
+  <PM_R42_Sight_02.label>红点瞄具</PM_R42_Sight_02.label>
+  <PM_R42_Sight_02.description>极为轻便的红点瞄具，拥有宽阔清晰的瞄准视野。它专为近距离快速交战设计，但会牺牲中远距离精度。</PM_R42_Sight_02.description>
+
+  <PM_R42_APEX_ChargedBarrel.label>R-42 充能枪管</PM_R42_APEX_ChargedBarrel.label>
+  <PM_R42_APEX_ChargedBarrel.description>一套尚未开放的 APEX 充能枪管。它会在开火前储存能量，将弹丸加速至极高膛速，并把膛内空气加热到等离子态后与弹丸一同发射，在动能命中后引发第二次等离子爆炸。完成后，它将把 R-42 从反器材步枪转变为真正的等离子—轨道狙击炮。</PM_R42_APEX_ChargedBarrel.description>
 
 </LanguageData>

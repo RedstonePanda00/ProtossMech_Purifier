@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_DarkTemplarSuppressor</defName>
+        <label>DarkTemplar integrated suppressor</label>
+        <description>An integrated suppressor that absorbs the acoustic shock of firing and recovers a portion of projectile-drive kinetic waste, eliminating the weapon report while slightly improving ballistic efficiency.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C31Tempest</li>
+        </compatiblePlatforms>
+        <slotId>Muzzle</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_Muzzle_01</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <rangeOffset>2</rangeOffset>
+        <projectileSpeedFactor>1.05</projectileSpeedFactor>
+        <silencesShotSound>true</silencesShotSound>
+        <statOffsets>
+            <Mass>0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_MarksmanOptic</defName>
+        <label>marksman optic</label>
+        <description>A 4x/6x/8x variable-power optic with infrared thermal imaging. It improves medium- and long-range fire through smoke at the cost of close-range handling, acquisition time, and weight.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_R42</li>
+            <li>PM_GunSmith_C31Tempest</li>
+        </compatiblePlatforms>
+        <slotId>Optic</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_Optic_02</texPath>
+        <ignoresSmokeAccuracy>true</ignoresSmokeAccuracy>
+        <warmupTimeOffset>0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>-0.04</AccuracyTouch>
+            <AccuracyShort>-0.02</AccuracyShort>
+            <AccuracyMedium>0.06</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <Mass>0.3</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

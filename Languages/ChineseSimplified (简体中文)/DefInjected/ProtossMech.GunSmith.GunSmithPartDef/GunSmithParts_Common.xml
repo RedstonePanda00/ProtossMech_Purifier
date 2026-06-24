@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Common_DarkTemplarSuppressor.label>“黑暗圣堂”一体式消音器</PM_Common_DarkTemplarSuppressor.label>
+  <PM_Common_DarkTemplarSuppressor.description>一体式消音器会吸收开火时的声波，并回收一部分弹丸驱动过程中的动能废散，在消除枪声的同时轻微改善弹道效率。</PM_Common_DarkTemplarSuppressor.description>
+
+  <PM_Common_MarksmanOptic.label>神射手瞄具</PM_Common_MarksmanOptic.label>
+  <PM_Common_MarksmanOptic.description>配备4倍、6倍、8倍三种倍率与红外热成像功能的瞄具。它能提高中远距离射击表现并穿透烟雾干扰，但会增加重量、瞄准时间，并削弱近距离操控。</PM_Common_MarksmanOptic.description>
+
+</LanguageData>

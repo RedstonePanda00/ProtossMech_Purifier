@@ -15,9 +15,15 @@
   <ProtossMech.GunSmithInvalidCell>Cannot warp weapon to this cell.</ProtossMech.GunSmithInvalidCell>
   <ProtossMech.GunSmithWarpSuccess>{0} warped successfully.</ProtossMech.GunSmithWarpSuccess>
   <ProtossMech.GunSmithSlot.Barrel>Barrel</ProtossMech.GunSmithSlot.Barrel>
-  <ProtossMech.GunSmithSlot.Sight>Sight</ProtossMech.GunSmithSlot.Sight>
+  <ProtossMech.GunSmithSlot.Muzzle>Muzzle</ProtossMech.GunSmithSlot.Muzzle>
+  <ProtossMech.GunSmithSlot.Rail>Rail</ProtossMech.GunSmithSlot.Rail>
+  <ProtossMech.GunSmithSlot.Optic>Optic</ProtossMech.GunSmithSlot.Optic>
   <ProtossMech.GunSmithSlot.Stock>Stock</ProtossMech.GunSmithSlot.Stock>
   <ProtossMech.GunSmithSlot.Magazine>Magazine</ProtossMech.GunSmithSlot.Magazine>
+  <ProtossMech.GunSmithSlot.Ammo>Ammo</ProtossMech.GunSmithSlot.Ammo>
+  <ProtossMech.GunSmithSlot.None>None</ProtossMech.GunSmithSlot.None>
+  <ProtossMech.GunSmithStats.DetectsCloaked>Detects cloaked targets</ProtossMech.GunSmithStats.DetectsCloaked>
+  <ProtossMech.GunSmithStats.SilencesShot>Silences gunshot</ProtossMech.GunSmithStats.SilencesShot>
   <ProtossMech.GunSmithPreviewFailed>Preview unavailable.</ProtossMech.GunSmithPreviewFailed>
   <ProtossMech.GunSmithMode.Gunsmith>Gunsmith</ProtossMech.GunSmithMode.Gunsmith>
   <ProtossMech.GunSmithMode.LayoutDev>Layout dev</ProtossMech.GunSmithMode.LayoutDev>
@@ -29,5 +35,7 @@
   <ProtossMech.GunSmithPlatformLocked>Requires: {0}</ProtossMech.GunSmithPlatformLocked>
   <ProtossMech.GunSmithStats.IgnoresWeather>Ignores weather</ProtossMech.GunSmithStats.IgnoresWeather>
   <ProtossMech.GunSmithStats.IgnoresSmoke>Ignores smoke penalty</ProtossMech.GunSmithStats.IgnoresSmoke>
+  <ProtossMech.GunSmithStats.AttachmentAdjustment>Attachment adjustment</ProtossMech.GunSmithStats.AttachmentAdjustment>
+  <ProtossMech.GunSmithStats.WeaponMultiplier>Weapon multiplier</ProtossMech.GunSmithStats.WeaponMultiplier>
 
 </LanguageData>

@@ -9,13 +9,18 @@
         <slotAttachmentOffsets>
             <li>
                 <slotId>Barrel</slotId>
-                <offset>(-0.1594, -0.0198)</offset>
-                <gizmoOffset>(-0.0342, -0.0211)</gizmoOffset>
+                <offset>(-0.2568, -0.0455)</offset>
+                <gizmoOffset>(0.2147, -0.1661)</gizmoOffset>
             </li>
             <li>
-                <slotId>Sight</slotId>
-                <offset>(0.1279, -0.0830)</offset>
-                <gizmoOffset>(-0.2818, -0.3107)</gizmoOffset>
+                <slotId>Rail</slotId>
+                <offset>(-0.2847, -0.0454)</offset>
+                <gizmoOffset>(-0.8875, 0.0950)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Optic</slotId>
+                <offset>(-0.0406, -0.1180)</offset>
+                <gizmoOffset>(-0.4529, -0.1437)</gizmoOffset>
             </li>
         </slotAttachmentOffsets>
         <bakeTextureSize>512</bakeTextureSize>
@@ -24,7 +29,8 @@
         <shadowAlpha>1</shadowAlpha>
         <slotIds>
             <li>Barrel</li>
-            <li>Sight</li>
+            <li>Rail</li>
+            <li>Optic</li>
         </slotIds>
         <warpCostList>
             <li>

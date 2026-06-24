@@ -3,32 +3,135 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Barrel_01</defName>
-        <label>R-42 reinforced barrel</label>
-        <description>Reinforced rail barrel assembly for the R-42 DeadEye. Stabilizes the bore field for higher muzzle velocity.</description>
+        <label>R-42 long barrel</label>
+        <description>An extended electromagnetic acceleration barrel for the R-42 DeadEye. Its longer acceleration path drives the slug to greater velocity, improving effective range, terminal force, armor penetration, and long-range consistency at the cost of weight and handling.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/RailGun/R42_Barrel_01</texPath>
         <previewDrawSize>1.0</previewDrawSize>
         <rangeOffset>8</rangeOffset>
-        <projectileDamageOffset>4</projectileDamageOffset>
-        <projectileSpeedFactor>1.1</projectileSpeedFactor>
+        <warmupTimeOffset>0.20</warmupTimeOffset>
+        <projectileDamageOffset>3</projectileDamageOffset>
+        <projectileSpeedFactor>1.15</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.10</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyLong>0.05</AccuracyLong>
+            <Mass>0.8</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Barrel_02</defName>
+        <label>R-42 short barrel</label>
+        <description>A compact electromagnetic acceleration barrel that reduces forward weight and brings the R-42 on target faster. The shortened acceleration path sacrifices range, muzzle velocity, penetration, and long-range stability.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/RailGun/R42_Barrel_02</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>-6</rangeOffset>
+        <warmupTimeOffset>-0.35</warmupTimeOffset>
+        <projectileDamageOffset>-2</projectileDamageOffset>
+        <projectileSpeedFactor>0.90</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>-0.10</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>0.08</AccuracyTouch>
+            <AccuracyShort>0.06</AccuracyShort>
+            <AccuracyLong>-0.10</AccuracyLong>
+            <Mass>-0.8</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Rail_01</defName>
+        <label>R-42 long rail</label>
+        <description>A full-length dual rail assembly that supplies stronger electromagnetic thrust and maintains a more stable acceleration field. It supports extreme-range fire at the cost of additional mass and a slower firing solution.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Rail</slotId>
+        <texPath>Things/Weapon/RailGun/R42_Rail_01</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>6</rangeOffset>
+        <warmupTimeOffset>0.15</warmupTimeOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.05</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>-0.05</AccuracyTouch>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <Mass>1.0</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Rail_02</defName>
+        <label>R-42 assault rail</label>
+        <description>A compact magnetic constraint assembly that reduces forward inertia for faster target acquisition. It remains effective at close and medium range, but gives up some projectile velocity, penetration, and long-range stability.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Rail</slotId>
+        <texPath>Things/Weapon/RailGun/R42_Rail_02</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.20</warmupTimeOffset>
+        <projectileSpeedFactor>0.95</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>-0.05</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>0.08</AccuracyTouch>
+            <AccuracyShort>0.06</AccuracyShort>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <AccuracyLong>-0.06</AccuracyLong>
+            <Mass>-0.6</Mass>
+        </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Sight_01</defName>
         <label>advanced red dot sight</label>
-        <description>Close-range red dot sight with no on-screen HUD overlay for a clear field of view.</description>
+        <description>An unobstructed projected aiming point backed by AI fire control that automatically identifies hostile targets. It accelerates target acquisition and correction at close to medium range without providing environmental penetration.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
-        <slotId>Sight</slotId>
+        <slotId>Optic</slotId>
         <texPath>Things/Weapon/RailGun/R42_Telescope_01</texPath>
         <previewDrawSize>1.0</previewDrawSize>
-        <warmupTimeOffset>-0.15</warmupTimeOffset>
+        <warmupTimeOffset>-0.20</warmupTimeOffset>
         <statOffsets>
-            <AccuracyTouch>0.15</AccuracyTouch>
-            <AccuracyShort>0.12</AccuracyShort>
-            <AccuracyMedium>0.08</AccuracyMedium>
-            <AccuracyLong>0.05</AccuracyLong>
+            <AccuracyTouch>0.12</AccuracyTouch>
+            <AccuracyShort>0.10</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <Mass>0.1</Mass>
         </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Sight_02</defName>
+        <label>red dot sight</label>
+        <description>An exceptionally light red dot sight with a wide, clear sight picture. It is optimized for immediate close-range engagement, trading away medium- and long-range precision.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Optic</slotId>
+        <texPath>Things/Weapon/RailGun/R42_Telescope_02</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.35</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.20</AccuracyTouch>
+            <AccuracyShort>0.14</AccuracyShort>
+            <AccuracyMedium>-0.04</AccuracyMedium>
+            <AccuracyLong>-0.10</AccuracyLong>
+            <Mass>-0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <!--
+      APEX placeholder only. Future target:
+      total warmup 4.0 s, range 60, kinetic damage 32, projectile speed x1.40,
+      armor penetration about 213%, plus a radius 1.9 plasma explosion dealing 18 damage.
+      The APEX barrel will replace only the normal Barrel slot; Rail and Optic remain available.
+    -->
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_APEX_ChargedBarrel</defName>
+        <label>R-42 charged barrel</label>
+        <description>An APEX charging barrel that stores energy before firing, driving the projectile to extreme muzzle velocity. Air trapped in the bore is heated into plasma and expelled with the slug, producing a secondary plasma detonation after the kinetic impact. When complete, this system will transform the R-42 from an anti-materiel rifle into a plasma-rail sniper cannon.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/RailGun/R42_APEX_Barrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
 </Defs>

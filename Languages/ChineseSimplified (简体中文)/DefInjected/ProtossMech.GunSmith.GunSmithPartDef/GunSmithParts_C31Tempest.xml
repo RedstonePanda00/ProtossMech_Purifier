@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <PM_C31Tempest_Ammo_01.label>30mm SAPHE弹药</PM_C31Tempest_Ammo_01.label>
+  <PM_C31Tempest_Ammo_01.description>C-31“风暴”使用的30mm半穿甲高爆弹药。</PM_C31Tempest_Ammo_01.description>
+
   <PM_C31Tempest_Barrel_01.label>C-31 强化枪管</PM_C31Tempest_Barrel_01.label>
   <PM_C31Tempest_Barrel_01.description>C-31 风暴的强化枪管组件，延伸有效射程并提高出膛速度。</PM_C31Tempest_Barrel_01.description>
 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C7Templar</defName>
+        <label>5.8 mm tungsten armor-piercing round</label>
+        <description>A compact tungsten-alloy penetrator accelerated by the C-7 Templar's hybrid coil system.</description>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>9</damageAmountBase>
+            <speed>180</speed>
+            <armorPenetrationBase>0.45</armorPenetrationBase>
+            <stoppingPower>1.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunC7Templar</defName>
+        <label>C-7 Templar</label>
+        <description>A spacer-era automatic coil assault rifle combining proven Terran firearm architecture with Star Eater field-control technology. Its compact accelerator delivers disciplined six-round bursts with unusually high penetration for an infantry rifle.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/C7Templar/C7_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.4, 2.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>1800</MarketValue>
+            <Mass>3.6</Mass>
+            <AccuracyTouch>0.67</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.63</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_C7Templar</li>
+        </weaponTags>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_C7Templar</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_C7Templar</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>30</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>
