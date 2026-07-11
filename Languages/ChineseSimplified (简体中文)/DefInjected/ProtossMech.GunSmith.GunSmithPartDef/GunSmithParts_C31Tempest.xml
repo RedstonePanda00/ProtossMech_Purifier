@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PM_C31Tempest_Ammo_01.label>30mm SAPHE弹药</PM_C31Tempest_Ammo_01.label>
-  <PM_C31Tempest_Ammo_01.description>C-31“风暴”使用的30mm半穿甲高爆弹药。</PM_C31Tempest_Ammo_01.description>
+  <PM_C31Tempest_Barrel_01.label>C-31 &#x5F3A;&#x5316;&#x67AA;&#x7BA1;</PM_C31Tempest_Barrel_01.label>
+  <PM_C31Tempest_Barrel_01.description>C-31 &#x98CE;&#x66B4;&#x7684;&#x5F3A;&#x5316;&#x67AA;&#x7BA1;&#x7EC4;&#x4EF6;&#xFF0C;&#x5EF6;&#x4F38;&#x6709;&#x6548;&#x5C04;&#x7A0B;&#x5E76;&#x63D0;&#x9AD8;&#x51FA;&#x819B;&#x901F;&#x5EA6;&#x3002;</PM_C31Tempest_Barrel_01.description>
 
-  <PM_C31Tempest_Barrel_01.label>C-31 强化枪管</PM_C31Tempest_Barrel_01.label>
-  <PM_C31Tempest_Barrel_01.description>C-31 风暴的强化枪管组件，延伸有效射程并提高出膛速度。</PM_C31Tempest_Barrel_01.description>
+  <PM_C31Tempest_Stock_01.label>&#x201C;&#x6E38;&#x9A91;&#x5175;&#x201D;&#x4F38;&#x7F29;&#x6218;&#x672F;&#x67AA;&#x6258;</PM_C31Tempest_Stock_01.label>
+  <PM_C31Tempest_Stock_01.description>&#x53EF;&#x4F38;&#x7F29;&#x8C03;&#x8282;&#x7684;&#x6218;&#x672F;&#x67AA;&#x6258;&#x3002;&#x6536;&#x62E2;&#x4FBF;&#x4E8E;&#x643A;&#x884C;&#xFF0C;&#x5C55;&#x5F00;&#x540E;&#x63D0;&#x4F9B;&#x7A33;&#x5B9A;&#x5C04;&#x51FB;&#x5E73;&#x53F0;&#xFF0C;&#x7F29;&#x77ED;&#x62C9;&#x6813;&#x5468;&#x671F;&#x5E76;&#x6539;&#x5584;&#x4E2D;&#x8FDC;&#x8DDD;&#x79BB;&#x64CD;&#x63A7;&#x3002;</PM_C31Tempest_Stock_01.description>
 
-  <PM_C31Tempest_Stock_01.label>「游侠」伸缩战术枪托</PM_C31Tempest_Stock_01.label>
-  <PM_C31Tempest_Stock_01.description>可伸缩调节的战术枪托。收拢便于携行，展开后提供稳定射击平台，缩短拉栓周期并改善中远距离操控。</PM_C31Tempest_Stock_01.description>
+  <PM_C31Tempest_Ammo_01.label>30mm SAPHE &#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_01.label>
+  <PM_C31Tempest_Ammo_01.description>C-31 &#x201C;&#x98CE;&#x66B4;&#x201D;&#x4F7F;&#x7528;&#x7684; 30mm &#x53CD;&#x5EFA;&#x7B51;&#x534A;&#x7A7F;&#x7532;&#x9AD8;&#x7206;&#x67AA;&#x69B4;&#x5F39;&#x3002;</PM_C31Tempest_Ammo_01.description>
 
-  <PM_C31Tempest_Magazine_01.label>C-31 标准弹匣</PM_C31Tempest_Magazine_01.label>
-  <PM_C31Tempest_Magazine_01.description>C-31 标准弹匣，装填30mm SAPHE半穿甲高爆弹，一个弹匣8发。</PM_C31Tempest_Magazine_01.description>
+  <PM_C31Tempest_Ammo_Plasma.label>30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_Plasma.label>
+  <PM_C31Tempest_Ammo_Plasma.description>C-31 &#x201C;&#x98CE;&#x66B4;&#x201D;&#x4F7F;&#x7528;&#x7684;&#x5C0F;&#x578B;&#x70BC;&#x72F1;&#x9B54;&#x738B;&#x70AE;&#x5F0F;&#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;&#xFF0C;&#x9020;&#x6210;&#x6C14;&#x5316;&#x70ED;&#x4F24;&#x5BB3;&#xFF0C;&#x5E76;&#x5177;&#x6709;&#x66F4;&#x9AD8;&#x7684;&#x70ED;&#x80FD;&#x7A7F;&#x7532;&#x80FD;&#x529B;&#x3002;</PM_C31Tempest_Ammo_Plasma.description>
 
-  <PM_C31Tempest_Sight_01.label>「先知」智能火控</PM_C31Tempest_Sight_01.label>
-  <PM_C31Tempest_Sight_01.description>一套智能瞄具系统，配备红外热视仪和数字化AI火控，在恶劣天气和烟雾中也能清晰地看见敌人身上的每个毛孔。复杂的仪器加重了它的整体质量。</PM_C31Tempest_Sight_01.description>
+  <PM_C31Tempest_Ammo_Wisp.label>30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_Wisp.label>
+  <PM_C31Tempest_Ammo_Wisp.description>&#x6BCD;&#x5F39;&#x88AB;&#x6467;&#x6BC1;&#x540E;&#x91CA;&#x653E; 5 &#x53D1; Wisp &#x5FAE;&#x578B;&#x5BFC;&#x5F39;&#x3002;&#x5BFC;&#x5F39;&#x6CBF;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x98DE;&#x884C;&#xFF0C;&#x5E76;&#x81EA;&#x52A8;&#x5BFB;&#x627E;&#x6700;&#x8FD1;&#x7684;&#x654C;&#x4EBA;&#x3002;</PM_C31Tempest_Ammo_Wisp.description>
+
+  <PM_C31Tempest_Magazine_01.label>8 &#x53D1; SAPHE &#x67AA;&#x69B4;&#x5F39;&#x5F39;&#x5323;</PM_C31Tempest_Magazine_01.label>
+  <PM_C31Tempest_Magazine_01.description>C-31 &#x6807;&#x51C6;&#x5F39;&#x5323;&#xFF0C;&#x88C5;&#x586B; 30mm SAPHE &#x53CD;&#x5EFA;&#x7B51;&#x67AA;&#x69B4;&#x5F39;&#xFF0C;&#x4E00;&#x4E2A;&#x5F39;&#x5323; 8 &#x53D1;&#x3002;</PM_C31Tempest_Magazine_01.description>
+
+  <PM_C31Tempest_Sight_01.label>&#x201C;&#x5148;&#x77E5;&#x201D;&#x667A;&#x80FD;&#x706B;&#x63A7;</PM_C31Tempest_Sight_01.label>
+  <PM_C31Tempest_Sight_01.description>&#x4E00;&#x5957;&#x667A;&#x80FD;&#x77C4;&#x5177;&#x7CFB;&#x7EDF;&#xFF0C;&#x914D;&#x5907;&#x7EA2;&#x5916;&#x70ED;&#x89C6;&#x4EEA;&#x548C;&#x6570;&#x5B57;&#x5316; AI &#x706B;&#x63A7;&#xFF0C;&#x5728;&#x6076;&#x52A3;&#x5929;&#x6C14;&#x548C;&#x70DF;&#x96FE;&#x4E2D;&#x4E5F;&#x80FD;&#x6E05;&#x6670;&#x9501;&#x5B9A;&#x76EE;&#x6807;&#x3002;&#x590D;&#x6742;&#x7684;&#x4EEA;&#x5668;&#x589E;&#x52A0;&#x4E86;&#x5B83;&#x7684;&#x6574;&#x4F53;&#x8D28;&#x91CF;&#x3002;</PM_C31Tempest_Sight_01.description>
+
+  <PM_C31Tempest_APEX_ATLAS.label>&#x201C;ATLAS&#x201D;&#x673A;&#x70AE;&#x5957;&#x7EC4;</PM_C31Tempest_APEX_ATLAS.label>
+  <PM_C31Tempest_APEX_ATLAS.description>&#x4E00;&#x5957; APEX &#x4E0B;&#x6302;&#x6539;&#x9020;&#x5957;&#x4EF6;&#xFF0C;&#x5C06; C-31 &#x201C;&#x98CE;&#x66B4;&#x201D;&#x91CD;&#x6784;&#x4E3A;&#x8F6C;&#x8F6E;&#x5F0F; 30mm SAPHE &#x67AA;&#x69B4;&#x673A;&#x70AE;&#x3002;&#x5B83;&#x4EE5;&#x5C04;&#x7A0B;&#x3001;&#x64CD;&#x63A7;&#x548C;&#x56DE;&#x590D;&#x901F;&#x5EA6;&#x4E3A;&#x4EE3;&#x4EF7;&#xFF0C;&#x6362;&#x53D6;&#x4E00;&#x6B21;&#x51F6;&#x731B;&#x7684; 20 &#x53D1;&#x8FDE;&#x5C04;&#x3002;</PM_C31Tempest_APEX_ATLAS.description>
+
+  <PM_C31Tempest_APEX_ATLAS_Barrel.label>&#x201C;ATLAS&#x201D;&#x8F6C;&#x8F6E;&#x67AA;&#x7BA1;&#x7EC4;</PM_C31Tempest_APEX_ATLAS_Barrel.label>
+  <PM_C31Tempest_APEX_ATLAS_Barrel.description>ATLAS &#x673A;&#x70AE;&#x5957;&#x7EC4;&#x7684;&#x9690;&#x85CF; APEX &#x7EC4;&#x4EF6;&#x3002;</PM_C31Tempest_APEX_ATLAS_Barrel.description>
+
+  <PM_C31Tempest_APEX_ATLAS_Magazine.label>&#x201C;ATLAS&#x201D;200 &#x53D1;&#x4F9B;&#x5F39;&#x6A21;&#x5757;</PM_C31Tempest_APEX_ATLAS_Magazine.label>
+  <PM_C31Tempest_APEX_ATLAS_Magazine.description>ATLAS &#x673A;&#x70AE;&#x5957;&#x7EC4;&#x7684;&#x9690;&#x85CF; APEX &#x7EC4;&#x4EF6;&#x3002;</PM_C31Tempest_APEX_ATLAS_Magazine.description>
 
 </LanguageData>

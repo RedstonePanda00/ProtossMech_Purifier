@@ -14,10 +14,19 @@
   <PM_R42_Rail_02.description>紧凑型磁场约束组件，通过降低前端惯量来加快目标捕获。它在近中距离表现优异，但弹丸初速、穿甲能力和远距离稳定性略有下降。</PM_R42_Rail_02.description>
 
   <PM_R42_Sight_01.label>先进光点瞄具</PM_R42_Sight_01.label>
-  <PM_R42_Sight_01.description>无屏光点投射系统，配备可自动识别敌人的 AI 智能火控。在不遮挡视野的同时加快近中距离目标捕获与弹道修正，但不具备穿透烟雾或恶劣天气的能力。</PM_R42_Sight_01.description>
+  <PM_R42_Sight_01.description>无屏光点投射系统，配备可自动识别敌人的 AI 智能火控。在不遮挡视野的同时加快近中距离目标捕获与弹道修正。</PM_R42_Sight_01.description>
 
   <PM_R42_Sight_02.label>红点瞄具</PM_R42_Sight_02.label>
   <PM_R42_Sight_02.description>极为轻便的红点瞄具，拥有宽阔清晰的瞄准视野。它专为近距离快速交战设计，但会牺牲中远距离精度。</PM_R42_Sight_02.description>
+
+  <PM_R42_Ammo_8x100.label>8×100mm钨铼合金弹体</PM_R42_Ammo_8x100.label>
+  <PM_R42_Ammo_8x100.description>R-42的标准磁轨弹。100mm钨铼合金侵彻体在弹重、操控和穿甲能力之间取得平衡。</PM_R42_Ammo_8x100.description>
+
+  <PM_R42_Ammo_8x80.label>8×80mm钨铼合金弹体</PM_R42_Ammo_8x80.label>
+  <PM_R42_Ammo_8x80.description>较短的R-42磁轨弹，降低侵彻体长度。它保留武器的射击循环，但穿甲能力较低。</PM_R42_Ammo_8x80.description>
+
+  <PM_R42_Ammo_8x120.label>8×120mm钨铼合金弹体</PM_R42_Ammo_8x120.label>
+  <PM_R42_Ammo_8x120.description>采用120mm钨铼合金侵彻体的加长R-42磁轨弹，在不改变射击循环的前提下最大化穿甲能力。</PM_R42_Ammo_8x120.description>
 
   <PM_R42_APEX_ChargedBarrel.label>R-42 充能枪管</PM_R42_APEX_ChargedBarrel.label>
   <PM_R42_APEX_ChargedBarrel.description>一套尚未开放的 APEX 充能枪管。它会在开火前储存能量，将弹丸加速至极高膛速，并把膛内空气加热到等离子态后与弹丸一同发射，在动能命中后引发第二次等离子爆炸。完成后，它将把 R-42 从反器材步枪转变为真正的等离子—轨道狙击炮。</PM_R42_APEX_ChargedBarrel.description>

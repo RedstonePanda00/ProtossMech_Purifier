@@ -9,13 +9,18 @@
         <slotAttachmentOffsets>
             <li>
                 <slotId>Barrel</slotId>
-                <offset>(-0.6110, -0.0565)</offset>
+                <offset>(-0.7066, -0.0565)</offset>
                 <gizmoOffset>(0.0422, -0.3688)</gizmoOffset>
             </li>
             <li>
                 <slotId>Muzzle</slotId>
-                <offset>(-0.5098, -0.0032)</offset>
+                <offset>(0, 0)</offset>
                 <gizmoOffset>(-1.7225, -0.3688)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0, 0)</offset>
+                <gizmoOffset>(-1.9404, 0.2262)</gizmoOffset>
             </li>
             <li>
                 <slotId>Stock</slotId>
@@ -32,22 +37,58 @@
                 <offset>(-0.1466, -0.1649)</offset>
                 <gizmoOffset>(-0.5185, -0.2752)</gizmoOffset>
             </li>
+            <li>
+                <slotId>RearIronSight</slotId>
+                <offset>(0.0318, -0.1617)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0, 0)</offset>
+            </li>
         </slotAttachmentOffsets>
         <bakeTextureSize>512</bakeTextureSize>
         <bakePadding>0.05</bakePadding>
         <bakeContentScale>0.55</bakeContentScale>
+        <bakeContentOffset>(0.18, 0)</bakeContentOffset>
         <shadowDilatePixels>5</shadowDilatePixels>
         <shadowAlpha>1</shadowAlpha>
         <slotIds>
             <li>Barrel</li>
             <li>Muzzle</li>
+            <li>Laser</li>
             <li>Stock</li>
             <li>Magazine</li>
             <li>Optic</li>
+            <li>RearIronSight</li>
+            <li>FrontIronSight</li>
         </slotIds>
         <optionalSlotIds>
             <li>Muzzle</li>
+            <li>Laser</li>
+            <li>Optic</li>
         </optionalSlotIds>
+        <defaultParts>
+            <li>
+                <slotId>RearIronSight</slotId>
+                <part>PM_Common_IronSight_Rear_Raised</part>
+                <whenSlotEmpty>Optic</whenSlotEmpty>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <part>PM_Common_IronSight_Front_Raised</part>
+                <whenSlotEmpty>Optic</whenSlotEmpty>
+            </li>
+            <li>
+                <slotId>RearIronSight</slotId>
+                <part>PM_Common_IronSight_Rear_Folded</part>
+                <whenSlotOccupied>Optic</whenSlotOccupied>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <part>PM_Common_IronSight_Front_Folded</part>
+                <whenSlotOccupied>Optic</whenSlotOccupied>
+            </li>
+        </defaultParts>
         <warpCostList>
             <li>
                 <thingDef>Steel</thingDef>

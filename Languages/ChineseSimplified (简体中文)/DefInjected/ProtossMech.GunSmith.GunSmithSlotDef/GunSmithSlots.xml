@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Barrel.label>枪管</Barrel.label>
+    <Muzzle.label>枪口</Muzzle.label>
+    <Laser.label>激光指示器</Laser.label>
+    <UnderBarrel.label>下挂</UnderBarrel.label>
+    <Rail.label>导轨</Rail.label>
+    <Optic.label>瞄具</Optic.label>
+    <Stock.label>枪托</Stock.label>
+    <Magazine.label>弹匣</Magazine.label>
+    <Ammo.label>弹药</Ammo.label>
+
+</LanguageData>

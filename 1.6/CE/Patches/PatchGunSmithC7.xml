@@ -14,7 +14,7 @@
             <recoilAmount>1.10</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>PM_Bullet_C7Templar_CE</defaultProjectile>
+            <defaultProjectile>PM_Bullet_C19Dragoon_CE</defaultProjectile>
             <warmupTime>0.8</warmupTime>
             <range>51</range>
             <burstShotCount>6</burstShotCount>
@@ -26,7 +26,7 @@
         <AmmoUser>
             <magazineSize>30</magazineSize>
             <reloadTime>2.4</reloadTime>
-            <ammoSet>PM_AmmoSet_C7Templar</ammoSet>
+            <ammoSet>PM_AmmoSet_C19Dragoon</ammoSet>
         </AmmoUser>
         <FireModes>
             <aimedBurstShotCount>3</aimedBurstShotCount>
@@ -36,6 +36,55 @@
         <weaponTags>
             <li>CE_AI_AR</li>
         </weaponTags>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunC7Templar"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>8</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>5</power>
+                    <cooldownTime>2.02</cooldownTime>
+                    <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>muzzle</label>
+                    <capacities>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>8</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunC7Templar"]</xpath>
+        <value>
+            <li Class="CombatExtended.GunDrawExtension">
+                <DrawSize>4.8,2.4</DrawSize>
+                <DrawOffset>0,0</DrawOffset>
+            </li>
+        </value>
     </Operation>
 
 </Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Ammo_R42DeadEye_Short.label>8&#x00D7;80mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;</PM_Ammo_R42DeadEye_Short.label>
+  <PM_Ammo_R42DeadEye_Short.description>&#x7F29;&#x77ED;&#x578B; 8mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;&#x3002;&#x5B83;&#x4FDD;&#x6301;&#x6B65;&#x67AA;&#x5C04;&#x51FB;&#x5FAA;&#x73AF;&#xFF0C;&#x4F46;&#x964D;&#x4F4E;&#x88C5;&#x7532;&#x7A7F;&#x6DF1;&#x3002;</PM_Ammo_R42DeadEye_Short.description>
+  <PM_Bullet_R42DeadEye_Short_CE.label>8&#x00D7;80mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;</PM_Bullet_R42DeadEye_Short_CE.label>
+
+  <PM_Ammo_R42DeadEye_Standard.label>8&#x00D7;100mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;</PM_Ammo_R42DeadEye_Standard.label>
+  <PM_Ammo_R42DeadEye_Standard.description>&#x6807;&#x51C6; 8mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;&#xFF0C;&#x5728;&#x5F39;&#x82AF;&#x957F;&#x5EA6;&#x3001;&#x8D28;&#x91CF;&#x548C;&#x88C5;&#x7532;&#x7A7F;&#x6DF1;&#x4E4B;&#x95F4;&#x53D6;&#x5F97;&#x5E73;&#x8861;&#x3002;</PM_Ammo_R42DeadEye_Standard.description>
+  <PM_Bullet_R42DeadEye_Standard_CE.label>8&#x00D7;100mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;</PM_Bullet_R42DeadEye_Standard_CE.label>
+
+  <PM_Ammo_R42DeadEye_Long.label>8&#x00D7;120mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;</PM_Ammo_R42DeadEye_Long.label>
+  <PM_Ammo_R42DeadEye_Long.description>&#x52A0;&#x957F;&#x578B; 8mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;&#xFF0C;&#x4E3A;&#x6700;&#x5927;&#x5316;&#x88C5;&#x7532;&#x7A7F;&#x6DF1;&#x800C;&#x8BBE;&#x8BA1;&#x3002;</PM_Ammo_R42DeadEye_Long.description>
+  <PM_Bullet_R42DeadEye_Long_CE.label>8&#x00D7;120mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;</PM_Bullet_R42DeadEye_Long_CE.label>
+
+</LanguageData>

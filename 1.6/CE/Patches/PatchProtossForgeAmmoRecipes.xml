@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ProtossForge"]/recipes</xpath>
+        <value>
+            <li>MakePM_Ammo_C19Dragoon_AP</li>
+            <li>MakePM_Ammo_B25Bulwark_ETC</li>
+            <li>MakePM_Ammo_B9Zealot_Rocket</li>
+            <li>MakePM_Ammo_B12Vanguard_DragonsBreath</li>
+            <li>MakePM_Ammo_C31Tempest_SAPHE</li>
+            <li>MakePM_Ammo_C31Tempest_Plasma</li>
+            <li>MakePM_Ammo_C31Tempest_Wisp</li>
+            <li>MakePM_Ammo_R42DeadEye_Short</li>
+            <li>MakePM_Ammo_R42DeadEye_Standard</li>
+            <li>MakePM_Ammo_R42DeadEye_Long</li>
+        </value>
+    </Operation>
+
+</Patch>

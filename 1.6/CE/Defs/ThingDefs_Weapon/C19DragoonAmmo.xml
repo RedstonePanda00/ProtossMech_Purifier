@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_C19Dragoon_58x42TungstenPenetrator</defName>
+        <label>5.8x42 tungsten-alloy penetrator</label>
+        <labelShort>5.8x42 AP</labelShort>
+        <description>A high-velocity 5.8x42 tungsten-alloy armor-piercing rod. Its dense penetrator is built for narrow wounds and strong plate penetration.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoC19Dragoon</defName>
+        <label>5.8x42 tungsten-alloy penetrators</label>
+        <parent>AmmoRifles</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_C19Dragoon</defName>
+        <label>5.8x42 tungsten-alloy penetrators</label>
+        <ammoTypes>
+            <PM_Ammo_C19Dragoon_AP>PM_Bullet_C19Dragoon_CE</PM_Ammo_C19Dragoon_AP>
+        </ammoTypes>
+        <similarTo>AmmoSet_58x42mmDBP10</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_C19Dragoon_AP</defName>
+        <label>5.8x42 tungsten-alloy penetrator</label>
+        <description>A high-velocity 5.8x42 tungsten-alloy armor-piercing rod. Its dense penetrator is built for narrow wounds and strong plate penetration.</description>
+        <graphicData><texPath>Things/Weapon/Ammo/C19Dragoon/58x42_TungstenPenetrator</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+        <statBases><Mass>0.014</Mass><Bulk>0.014</Bulk></statBases>
+        <ammoClass>PM_C19Dragoon_58x42TungstenPenetrator</ammoClass>
+        <cookOffProjectile>PM_Bullet_C19Dragoon_CE</cookOffProjectile>
+        <tradeTags><li>CE_AutoEnableTrade</li><li>CE_AutoEnableCrafting</li></tradeTags>
+        <thingCategories><li>PM_AmmoC19Dragoon</li></thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_C19Dragoon_AP</defName>
+        <label>make 5.8x42 tungsten-alloy penetrators x500</label>
+        <description>Craft 500 high-velocity 5.8x42 tungsten-alloy armor-piercing rods.</description>
+        <jobString>Making 5.8x42 tungsten-alloy penetrators.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <ingredients>
+            <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>16</count></li>
+            <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>4</count></li>
+        </ingredients>
+        <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+        <products><PM_Ammo_C19Dragoon_AP>500</PM_Ammo_C19Dragoon_AP></products>
+        <workAmount>3400</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_C19Dragoon_CE</defName>
+        <label>5.8x42 tungsten-alloy penetrator</label>
+        <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <armorPenetrationSharp>48</armorPenetrationSharp>
+            <armorPenetrationBlunt>240</armorPenetrationBlunt>
+            <speed>205</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

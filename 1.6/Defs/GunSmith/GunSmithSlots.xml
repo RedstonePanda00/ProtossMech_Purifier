@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Barrel</defName>
+        <label>Barrel</label>
+        <drawsUnderBody>true</drawsUnderBody>
+        <gizmoOnLeft>true</gizmoOnLeft>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Muzzle</defName>
+        <label>Muzzle</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Laser</defName>
+        <label>Laser</label>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>UnderBarrel</defName>
+        <label>UnderBarrel</label>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Rail</defName>
+        <label>Rail</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Optic</defName>
+        <label>Optic</label>
+        <gizmoYOffset>-18</gizmoYOffset>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Stock</defName>
+        <label>Stock</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Magazine</defName>
+        <label>Magazine</label>
+        <drawsUnderBody>true</drawsUnderBody>
+        <noCombatExtendedLabel>Ammo</noCombatExtendedLabel>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Ammo</defName>
+        <label>Ammo</label>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>RearIronSight</defName>
+        <label>Rear iron sight</label>
+        <hidden>true</hidden>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>FrontIronSight</defName>
+        <label>Front iron sight</label>
+        <hidden>true</hidden>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+</Defs>

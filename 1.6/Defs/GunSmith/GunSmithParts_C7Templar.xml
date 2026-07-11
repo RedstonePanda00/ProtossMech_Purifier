@@ -14,7 +14,15 @@
         <childSlotAnchors>
             <li>
                 <slotId>Muzzle</slotId>
-                <offset>(0, 0)</offset>
+                <offset>(-0.4118, 0.0023)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0407, 0.0024)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.0956, -0.0064)</offset>
             </li>
         </childSlotAnchors>
         <statOffsets>
@@ -22,6 +30,41 @@
             <AccuracyMedium>0.03</AccuracyMedium>
             <AccuracyLong>0.02</AccuracyLong>
             <Mass>0.1</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Barrel_02</defName>
+        <label>20-inch long barrel</label>
+        <description>A 20-inch extended coil barrel for deliberate C-7 fire. The longer acceleration path improves velocity, reach, penetration and long-range stability, at the cost of close handling and target acquisition speed.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_Barrel_02</texPath>
+        <rangeOffset>8</rangeOffset>
+        <warmupTimeOffset>0.15</warmupTimeOffset>
+        <projectileDamageOffset>1</projectileDamageOffset>
+        <projectileSpeedFactor>1.15</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.6189, 0.0023)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.1703, -0.0049)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(-0.0733, -0.0064)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.07</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>-0.06</AccuracyTouch>
+            <AccuracyShort>-0.03</AccuracyShort>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <Mass>0.5</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
@@ -42,15 +85,32 @@
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Stock_02</defName>
+        <label>light folding stock</label>
+        <description>A compact folding stock that strips weight from the C-7 and speeds presentation. It favors mobile close engagements over sustained long-range stability.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_stock_02</texPath>
+        <warmupTimeOffset>-0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.02</AccuracyMedium>
+            <AccuracyLong>-0.04</AccuracyLong>
+            <Mass>-0.3</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Ammo_01</defName>
-        <label>5.8 mm tungsten armor-piercing ammunition</label>
-        <description>Dense tungsten-alloy penetrators for the C-7's coil accelerator.</description>
+        <label>5.8x42 tungsten-alloy penetrators</label>
+        <description>5.8x42 tungsten-alloy armor-piercing rods shared with the C19 Dragoon.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
         <iconPath>Things/Projectile/Bullet_Small</iconPath>
         <excludesCombatExtended>true</excludesCombatExtended>
-        <projectileOverride>PM_Bullet_C7Templar</projectileOverride>
+        <projectileOverride>PM_Bullet_C19Dragoon</projectileOverride>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
@@ -64,10 +124,55 @@
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Magazine_02</defName>
+        <label>45-round extended magazine</label>
+        <description>A longer C-7 Combat Extended magazine holding 45 rounds. Its additional capacity increases sustained fire but adds weight and slows reloads.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_02</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>45</ceMagazineSize>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>0.35</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.3</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C7Templar_Laser_01</defName>
+        <label>Ranger box laser</label>
+        <description>A rugged boxed laser designator for fast close-range C-7 target acquisition. It helps the shooter drive bursts onto nearby targets, but contributes little at long range.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>Laser</slotId>
+        <texPath>Things/Weapon/C7Templar/C7_Laser_01</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <warmupTimeOffset>-0.05</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.06</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>-0.02</AccuracyLong>
+            <Mass>0.1</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Sight_01</defName>
         <label>millimeter-wave combat sight</label>
         <description>A fused millimeter-wave and optical fire-control sight. It cuts through weather, smoke and active camouflage while supplying a stable firing solution at every practical range.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
         <slotId>Optic</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Optic_01</texPath>
         <ignoresWeatherAccuracy>true</ignoresWeatherAccuracy>

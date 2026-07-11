@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Bullet_B25Bulwark.label>6.8x42 电热化学能弹</PM_Bullet_B25Bulwark.label>
+  <PM_Bullet_B25Bulwark.description>供 B25“壁垒”使用的 6.8x42 塑料壳埋头电热化学能弹。它的高能化学燃料在不改变武器基本构造的前提下，支撑更高弹速和持续自动火力。</PM_Bullet_B25Bulwark.description>
+
+  <PM_GunB25Bulwark.label>B25 壁垒</PM_GunB25Bulwark.label>
+  <PM_GunB25Bulwark.description>一把用于持续全距离压制的实弹轻机枪。它从箱式弹匣供给 6.8x42 塑料壳埋头电热化学能弹，相比标准步枪弹药更适合长点射，并拥有更强的存速能力。\n\n这把武器是在曙光号上的分子打印机中，直接从能量转化为物质整枪打印的。</PM_GunB25Bulwark.description>
+
+</LanguageData>

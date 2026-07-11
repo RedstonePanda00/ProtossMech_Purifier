@@ -7,6 +7,8 @@
         <description>An integrated suppressor that absorbs the acoustic shock of firing and recovers a portion of projectile-drive kinetic waste, eliminating the weapon report while slightly improving ballistic efficiency.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
             <li>PM_GunSmith_C31Tempest</li>
         </compatiblePlatforms>
         <slotId>Muzzle</slotId>
@@ -28,6 +30,8 @@
         <compatiblePlatforms>
             <li>PM_GunSmith_R42</li>
             <li>PM_GunSmith_C31Tempest</li>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
         <slotId>Optic</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Optic_02</texPath>
@@ -40,6 +44,102 @@
             <AccuracyLong>0.10</AccuracyLong>
             <Mass>0.3</Mass>
         </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_Printer_MagFactory</defName>
+        <label>Printer magazine factory</label>
+        <description>A compact micro-fabricator magazine. After the weapon has stopped firing for one second, it prints fresh rounds directly into the magazine at a steady rate until full. It does not consume carried ammunition and suppresses passive reload attempts when empty.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+        </compatiblePlatforms>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/Common/Printer_MagFactory</texPath>
+        <iconPath>Things/Weapon/Common/Printer_MagFactory</iconPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>45</ceMagazineSize>
+        <ceAmmoPrinterDelayTicks>60</ceAmmoPrinterDelayTicks>
+        <ceAmmoPrinterIntervalTicks>60</ceAmmoPrinterIntervalTicks>
+        <ceAmmoPrinterRoundsPerInterval>10</ceAmmoPrinterRoundsPerInterval>
+        <ceSuppressPassiveReloadWhenEmpty>true</ceSuppressPassiveReloadWhenEmpty>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_IronSight_Rear_Raised</defName>
+        <label>raised rear iron sight</label>
+        <description>Hidden visual default for raised mechanical rear sights.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>RearIronSight</slotId>
+        <texPath>Things/Weapon/Common/IronSight</texPath>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>-5</drawOrder>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_IronSight_Front_Raised</defName>
+        <label>raised front iron sight</label>
+        <description>Hidden visual default for raised mechanical front sights.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>FrontIronSight</slotId>
+        <texPath>Things/Weapon/Common/IronSight</texPath>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>-5</drawOrder>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <localAttachmentOffset>(-0.18, -0.10)</localAttachmentOffset>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_IronSight_Rear_Folded</defName>
+        <label>folded rear iron sight</label>
+        <description>Hidden visual default for folded mechanical rear sights.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>RearIronSight</slotId>
+        <texPath>Things/Weapon/Common/IronSight_folded</texPath>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>-5</drawOrder>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_IronSight_Front_Folded</defName>
+        <label>folded front iron sight</label>
+        <description>Hidden visual default for folded mechanical front sights.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>FrontIronSight</slotId>
+        <texPath>Things/Weapon/Common/IronSight_folded</texPath>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>-5</drawOrder>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <localAttachmentOffset>(-0.18, -0.10)</localAttachmentOffset>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
 </Defs>

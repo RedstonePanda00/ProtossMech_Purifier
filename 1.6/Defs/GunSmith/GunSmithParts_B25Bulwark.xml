@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Barrel_01</defName>
+        <label>B25 Bulwark quick-change barrel</label>
+        <description>A quick-change barrel for sustained all-range suppression. Its standard barrel profile preserves handling while supporting long bursts.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B25/B25_Barrel1</texPath>
+        <rangeOffset>2</rangeOffset>
+        <projectileSpeedFactor>1.05</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.3726, -0.0080)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.0481, 0.0437)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.0681, 0.0495)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.25</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Stock_01</defName>
+        <label>B25 Bulwark support stock</label>
+        <description>Standard B25 Bulwark support stock. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/B25/B25_Stock1</texPath>
+        <warmupTimeOffset>0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>-0.04</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <AccuracyLong>0.03</AccuracyLong>
+            <Mass>0.45</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Ammo_01</defName>
+        <label>6.8x42 ETC rounds</label>
+        <description>6.8x42 electrothermal-chemical rounds for the B25 Bulwark. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B25/B25_Mag1</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_B25Bulwark</projectileOverride>
+        <drawOverBody>true</drawOverBody>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Magazine_01</defName>
+        <label>80-round 6.8x42 box magazine</label>
+        <description>Combat Extended B25 Bulwark box magazine. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B25/B25_Mag1</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <drawOverBody>true</drawOverBody>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

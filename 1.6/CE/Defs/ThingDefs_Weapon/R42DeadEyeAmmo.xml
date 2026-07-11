@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_R42RailSlug_Short</defName>
+        <label>short rail slug (8×80mm)</label>
+        <labelShort>8×80 AP</labelShort>
+        <description>A shortened 8 mm tungsten-rhenium rail slug. It preserves the rifle's firing behavior while reducing armor penetration.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_R42RailSlug_Standard</defName>
+        <label>standard rail slug (8×100mm)</label>
+        <labelShort>8×100 AP</labelShort>
+        <description>The standard 8 mm tungsten-rhenium rail slug, balancing penetrator length, mass, and armor penetration.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_R42RailSlug_Long</defName>
+        <label>long rail slug (8×120mm)</label>
+        <labelShort>8×120 AP</labelShort>
+        <description>An extended 8 mm tungsten-rhenium rail slug built for maximum armor penetration.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoR42DeadEye</defName>
+        <label>8 mm rail ammunition</label>
+        <parent>AmmoRifles</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_R42DeadEye</defName>
+        <label>8 mm tungsten-rhenium rail slugs</label>
+        <ammoTypes>
+            <PM_Ammo_R42DeadEye_Short>PM_Bullet_R42DeadEye_Short_CE</PM_Ammo_R42DeadEye_Short>
+            <PM_Ammo_R42DeadEye_Standard>PM_Bullet_R42DeadEye_Standard_CE</PM_Ammo_R42DeadEye_Standard>
+            <PM_Ammo_R42DeadEye_Long>PM_Bullet_R42DeadEye_Long_CE</PM_Ammo_R42DeadEye_Long>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_R42DeadEye_Short</defName>
+        <label>8×80 mm tungsten-rhenium rail slug</label>
+        <description>A short 8 mm tungsten-rhenium rail slug for the R-42 DeadEye. It preserves the rifle's firing behavior with reduced armor penetration.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/R42DeadEye/8x80_RailSlug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.05</Mass>
+            <Bulk>0.05</Bulk>
+        </statBases>
+        <ammoClass>PM_R42RailSlug_Short</ammoClass>
+        <cookOffProjectile>PM_Bullet_R42DeadEye_Short_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoR42DeadEye</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_R42DeadEye_Standard</defName>
+        <label>8×100 mm tungsten-rhenium rail slug</label>
+        <description>The standard 8 mm tungsten-rhenium rail slug, balancing penetrator length, mass, and armor penetration.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/R42DeadEye/8x100_RailSlug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.06</Mass>
+            <Bulk>0.06</Bulk>
+        </statBases>
+        <ammoClass>PM_R42RailSlug_Standard</ammoClass>
+        <cookOffProjectile>PM_Bullet_R42DeadEye_Standard_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoR42DeadEye</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_R42DeadEye_Long</defName>
+        <label>8×120 mm tungsten-rhenium rail slug</label>
+        <description>An extended 8 mm tungsten-rhenium rail slug built for maximum armor penetration.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/R42DeadEye/8x120_RailSlug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.07</Mass>
+            <Bulk>0.07</Bulk>
+        </statBases>
+        <ammoClass>PM_R42RailSlug_Long</ammoClass>
+        <cookOffProjectile>PM_Bullet_R42DeadEye_Long_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoR42DeadEye</li>
+        </thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_R42DeadEye_Short</defName>
+        <label>make 8×80 mm tungsten-rhenium rail slugs x150</label>
+        <description>Print 150 shortened 8×80 mm tungsten-rhenium rail slugs from one unit of Solarite.</description>
+        <jobString>Making 8×80 mm rail slugs.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PM_Solarite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_R42DeadEye_Short>150</PM_Ammo_R42DeadEye_Short>
+        </products>
+        <workAmount>2500</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_R42DeadEye_Standard</defName>
+        <label>make 8×100 mm tungsten-rhenium rail slugs x120</label>
+        <description>Print 120 standard 8×100 mm tungsten-rhenium rail slugs from one unit of Solarite.</description>
+        <jobString>Making 8×100 mm rail slugs.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PM_Solarite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_R42DeadEye_Standard>120</PM_Ammo_R42DeadEye_Standard>
+        </products>
+        <workAmount>3200</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_R42DeadEye_Long</defName>
+        <label>make 8×120 mm tungsten-rhenium rail slugs x100</label>
+        <description>Print 100 extended 8×120 mm tungsten-rhenium rail slugs from one unit of Solarite.</description>
+        <jobString>Making 8×120 mm rail slugs.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PM_Solarite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_R42DeadEye_Long>100</PM_Ammo_R42DeadEye_Long>
+        </products>
+        <workAmount>3900</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42DeadEye_Short_CE</defName>
+        <label>8×80 mm tungsten-rhenium rail slug</label>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationSharp>126.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>1502</armorPenetrationBlunt>
+            <speed>240</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42DeadEye_Standard_CE</defName>
+        <label>8×100 mm tungsten-rhenium rail slug</label>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationSharp>158.1</armorPenetrationSharp>
+            <armorPenetrationBlunt>1878</armorPenetrationBlunt>
+            <speed>240</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42DeadEye_Long_CE</defName>
+        <label>8×120 mm tungsten-rhenium rail slug</label>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationSharp>189.7</armorPenetrationSharp>
+            <armorPenetrationBlunt>2254</armorPenetrationBlunt>
+            <speed>240</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

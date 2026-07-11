@@ -21,9 +21,24 @@
   <ProtossMech.GunSmithSlot.Stock>Stock</ProtossMech.GunSmithSlot.Stock>
   <ProtossMech.GunSmithSlot.Magazine>Magazine</ProtossMech.GunSmithSlot.Magazine>
   <ProtossMech.GunSmithSlot.Ammo>Ammo</ProtossMech.GunSmithSlot.Ammo>
+  <ProtossMech.GunSmithSlot.Laser>Laser</ProtossMech.GunSmithSlot.Laser>
+  <ProtossMech.GunSmithSlot.UnderBarrel>Underbarrel</ProtossMech.GunSmithSlot.UnderBarrel>
   <ProtossMech.GunSmithSlot.None>None</ProtossMech.GunSmithSlot.None>
   <ProtossMech.GunSmithStats.DetectsCloaked>Detects cloaked targets</ProtossMech.GunSmithStats.DetectsCloaked>
   <ProtossMech.GunSmithStats.SilencesShot>Silences gunshot</ProtossMech.GunSmithStats.SilencesShot>
+  <ProtossMech.GunSmithStats.CeMagazineSize>CE magazine size</ProtossMech.GunSmithStats.CeMagazineSize>
+  <ProtossMech.GunSmithStats.CeReloadTime>CE reload time</ProtossMech.GunSmithStats.CeReloadTime>
+  <ProtossMech.GunSmithStats.CeReloadOneAtATime>CE reloads one round at a time</ProtossMech.GunSmithStats.CeReloadOneAtATime>
+  <ProtossMech.GunSmithStats.CeShotSpread>CE shot spread</ProtossMech.GunSmithStats.CeShotSpread>
+  <ProtossMech.GunSmithStats.CeSwayFactor>CE sway factor</ProtossMech.GunSmithStats.CeSwayFactor>
+  <ProtossMech.GunSmithStats.CeSightsEfficiency>CE sights efficiency</ProtossMech.GunSmithStats.CeSightsEfficiency>
+  <ProtossMech.GunSmithStats.CeRecoil>CE recoil</ProtossMech.GunSmithStats.CeRecoil>
+  <ProtossMech.GunSmithStats.CeAmmoPrinter>CE ammo printer delay / interval / amount</ProtossMech.GunSmithStats.CeAmmoPrinter>
+  <ProtossMech.GunSmithStats.SuppressPassiveReload>Suppresses passive reload when empty</ProtossMech.GunSmithStats.SuppressPassiveReload>
+  <ProtossMech.GunSmithStats.BurstShotCount>Burst shots</ProtossMech.GunSmithStats.BurstShotCount>
+  <ProtossMech.GunSmithStats.BurstShotCount.Desc>Number of shots fired in one burst.</ProtossMech.GunSmithStats.BurstShotCount.Desc>
+  <ProtossMech.GunSmithStats.TicksBetweenBurstShots>Ticks between burst shots</ProtossMech.GunSmithStats.TicksBetweenBurstShots>
+  <ProtossMech.GunSmithStats.TicksBetweenBurstShots.Desc>Delay in ticks between shots inside the same burst.</ProtossMech.GunSmithStats.TicksBetweenBurstShots.Desc>
   <ProtossMech.GunSmithPreviewFailed>Preview unavailable.</ProtossMech.GunSmithPreviewFailed>
   <ProtossMech.GunSmithMode.Gunsmith>Gunsmith</ProtossMech.GunSmithMode.Gunsmith>
   <ProtossMech.GunSmithMode.LayoutDev>Layout dev</ProtossMech.GunSmithMode.LayoutDev>

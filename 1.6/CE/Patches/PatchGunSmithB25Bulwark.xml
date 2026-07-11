@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PM_GunB25Bulwark</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.30</SwayFactor>
+            <Bulk>18</Bulk>
+        </statBases>
+        <Properties>
+            <recoilAmount>1.45</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PM_Bullet_B25Bulwark_CE</defaultProjectile>
+            <warmupTime>1.1</warmupTime>
+            <range>50</range>
+            <burstShotCount>12</burstShotCount>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <soundCast>Shot_AssaultRifle</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>8</muzzleFlashScale>
+            <!-- LMG-style mounted recoil so a sustained 12-round suppression burst stays on target. -->
+            <recoilPattern>Mounted</recoilPattern>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>80</magazineSize>
+            <reloadTime>5.4</reloadTime>
+            <ammoSet>PM_AmmoSet_B25Bulwark</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>6</aimedBurstShotCount>
+            <aiUseBurstMode>true</aiUseBurstMode>
+            <aiAimMode>SuppressFire</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunB25Bulwark"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE"><label>stock</label><capacities><li>Blunt</li></capacities><power>10</power><cooldownTime>2.0</cooldownTime><chanceFactor>1.5</chanceFactor><armorPenetrationBlunt>3.5</armorPenetrationBlunt><linkedBodyPartsGroup>Stock</linkedBodyPartsGroup></li>
+                <li Class="CombatExtended.ToolCE"><label>barrel</label><capacities><li>Blunt</li></capacities><power>8</power><cooldownTime>2.2</cooldownTime><armorPenetrationBlunt>2.5</armorPenetrationBlunt><linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup></li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunB25Bulwark"]</xpath>
+        <value><li Class="CombatExtended.GunDrawExtension"><DrawSize>5.0,2.5</DrawSize><DrawOffset>0,0</DrawOffset></li></value>
+    </Operation>
+
+</Patch>

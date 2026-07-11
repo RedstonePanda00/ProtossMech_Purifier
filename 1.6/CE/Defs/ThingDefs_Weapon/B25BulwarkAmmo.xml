@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_B25Bulwark_68x42ETC</defName>
+        <label>6.8x42 ETC cased telescoped round</label>
+        <labelShort>6.8x42 ETC</labelShort>
+        <description>A 6.8x42 plastic-cased telescoped electrothermal-chemical round. Its high-energy propellant supports strong velocity and sustained automatic fire without changing the weapon's basic operating layout.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoB25Bulwark</defName>
+        <label>6.8x42 ETC cased telescoped rounds</label>
+        <parent>AmmoRifles</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_B25Bulwark</defName>
+        <label>6.8x42 ETC cased telescoped rounds</label>
+        <ammoTypes>
+            <PM_Ammo_B25Bulwark_ETC>PM_Bullet_B25Bulwark_CE</PM_Ammo_B25Bulwark_ETC>
+        </ammoTypes>
+        <similarTo>AmmoSet_277Fury</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_B25Bulwark_ETC</defName>
+        <label>6.8x42 ETC cased telescoped round</label>
+        <description>A 6.8x42 plastic-cased telescoped electrothermal-chemical round. Its high-energy propellant supports strong velocity and sustained automatic fire without changing the weapon's basic operating layout.</description>
+        <graphicData><texPath>Things/Weapon/Ammo/B25Bulwark/68x42_ETC</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+        <statBases><Mass>0.016</Mass><Bulk>0.016</Bulk></statBases>
+        <ammoClass>PM_B25Bulwark_68x42ETC</ammoClass>
+        <cookOffProjectile>PM_Bullet_B25Bulwark_CE</cookOffProjectile>
+        <tradeTags><li>CE_AutoEnableTrade</li><li>CE_AutoEnableCrafting</li></tradeTags>
+        <thingCategories><li>PM_AmmoB25Bulwark</li></thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_B25Bulwark_ETC</defName>
+        <label>make 6.8x42 ETC cased telescoped rounds x500</label>
+        <description>Craft 500 plastic-cased telescoped 6.8x42 electrothermal-chemical rounds.</description>
+        <jobString>Making 6.8x42 ETC cased telescoped rounds.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <ingredients>
+            <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+            <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>16</count></li>
+        </ingredients>
+        <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+        <products><PM_Ammo_B25Bulwark_ETC>500</PM_Ammo_B25Bulwark_ETC></products>
+        <workAmount>4200</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_B25Bulwark_CE</defName>
+        <label>6.8x42 ETC cased telescoped round</label>
+        <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <armorPenetrationSharp>30</armorPenetrationSharp>
+            <armorPenetrationBlunt>260</armorPenetrationBlunt>
+            <speed>215</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

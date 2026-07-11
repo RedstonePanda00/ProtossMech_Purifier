@@ -18,6 +18,11 @@
                 <gizmoOffset>(-1.6916, -0.2764)</gizmoOffset>
             </li>
             <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.0000, 0.0000)</offset>
+                <gizmoOffset>(-1.3056, 0.3421)</gizmoOffset>
+            </li>
+            <li>
                 <slotId>Stock</slotId>
                 <offset>(0.5147, 0.0031)</offset>
                 <gizmoOffset>(0.2724, 0.0215)</gizmoOffset>
@@ -41,12 +46,14 @@
         <slotIds>
             <li>Barrel</li>
             <li>Muzzle</li>
+            <li>UnderBarrel</li>
             <li>Stock</li>
             <li>Magazine</li>
             <li>Optic</li>
         </slotIds>
         <optionalSlotIds>
             <li>Muzzle</li>
+            <li>UnderBarrel</li>
         </optionalSlotIds>
         <warpCostList>
             <li>

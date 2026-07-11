@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C19Dragoon_Barrel_01</defName>
+        <label>C19 Dragoon precision coil barrel</label>
+        <description>A precision coil barrel tuned for the C19 Dragoon's medium-long range firing solution. Its longer acceleration path favors velocity and consistency over close-range handling.</description>
+        <platformDef>PM_GunSmith_C19Dragoon</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/C19/C19_Barrel1</texPath>
+        <rangeOffset>4</rangeOffset>
+        <projectileSpeedFactor>1.08</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.6986, 0.0087)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.1664, -0.0135)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.1083, -0.0191)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.06</AccuracyLong>
+            <Mass>0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C19Dragoon_Stock_01</defName>
+        <label>C19 Dragoon folding stock</label>
+        <description>A compact folding stock for the C19 Dragoon. It keeps the rifle light and quick to present, but gives up some long-range stability compared with rigid marksman stocks.</description>
+        <platformDef>PM_GunSmith_C19Dragoon</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/C19/C19_Stock1</texPath>
+        <warmupTimeOffset>-0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.01</AccuracyMedium>
+            <AccuracyLong>-0.04</AccuracyLong>
+            <Mass>-0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C19Dragoon_Ammo_01</defName>
+        <label>5.8x42 tungsten-alloy penetrators</label>
+        <description>5.8x42 tungsten-alloy armor-piercing rods for the C19 Dragoon. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_C19Dragoon</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C19/C19_Mag1</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_C19Dragoon</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C19Dragoon_Magazine_01</defName>
+        <label>30-round 5.8x42 magazine</label>
+        <description>Combat Extended C19 Dragoon magazine holding 30 rounds of 5.8x42 ammunition.</description>
+        <platformDef>PM_GunSmith_C19Dragoon</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C19/C19_Mag1</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C19Dragoon_Magazine_02</defName>
+        <label>30-round 5.8x42 flip magazine</label>
+        <description>Two opposed C19 Dragoon 30-round magazines bound together for a faster flip reload. It keeps standard loaded capacity but reduces reload time.</description>
+        <platformDef>PM_GunSmith_C19Dragoon</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C19/C19_Mag2</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>-0.45</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

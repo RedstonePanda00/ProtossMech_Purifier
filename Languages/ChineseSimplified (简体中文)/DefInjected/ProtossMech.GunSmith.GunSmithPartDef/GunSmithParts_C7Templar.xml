@@ -4,14 +4,26 @@
   <PM_C7Templar_Barrel_01.label>突击线圈枪管</PM_C7Templar_Barrel_01.label>
   <PM_C7Templar_Barrel_01.description>为突击射击调校的紧凑型多级线圈枪管，在保持C-7操控性的同时延长弹丸加速路径。</PM_C7Templar_Barrel_01.description>
 
+  <PM_C7Templar_Barrel_02.label>20英寸长枪管</PM_C7Templar_Barrel_02.label>
+  <PM_C7Templar_Barrel_02.description>为C-7精确火力配置的20英寸延长线圈枪管。更长的加速路径提升弹速、射程、穿透和远距稳定性，但会牺牲近距离操控与瞄准速度。</PM_C7Templar_Barrel_02.description>
+
   <PM_C7Templar_Stock_01.label>框架式战术枪托</PM_C7Templar_Stock_01.label>
   <PM_C7Templar_Stock_01.description>刚性开放框架枪托，为连续点射提供稳定支撑，同时保持突击步枪应有的平衡。</PM_C7Templar_Stock_01.description>
 
-  <PM_C7Templar_Ammo_01.label>5.8mm钨合金穿甲弹</PM_C7Templar_Ammo_01.label>
-  <PM_C7Templar_Ammo_01.description>供C-7线圈加速器使用的高密度钨合金穿透弹。</PM_C7Templar_Ammo_01.description>
+  <PM_C7Templar_Stock_02.label>轻量折叠枪托</PM_C7Templar_Stock_02.label>
+  <PM_C7Templar_Stock_02.description>紧凑的折叠式枪托，降低C-7重量并加快举枪速度。它更适合机动作战与近距离交战，但会降低持续远距射击的稳定性。</PM_C7Templar_Stock_02.description>
+
+  <PM_C7Templar_Ammo_01.label>5.8x42钨合金穿甲杆</PM_C7Templar_Ammo_01.label>
+  <PM_C7Templar_Ammo_01.description>与C19“龙骑兵”共用的5.8x42钨合金穿甲杆。</PM_C7Templar_Ammo_01.description>
 
   <PM_C7Templar_Magazine_01.label>30发突击弹匣</PM_C7Templar_Magazine_01.label>
   <PM_C7Templar_Magazine_01.description>供Combat Extended弹药系统使用的紧凑型30发C-7突击弹匣。</PM_C7Templar_Magazine_01.description>
+
+  <PM_C7Templar_Magazine_02.label>45发扩容弹匣</PM_C7Templar_Magazine_02.label>
+  <PM_C7Templar_Magazine_02.description>供Combat Extended弹药系统使用的45发C-7扩容弹匣。额外容量提高持续火力，但会增加重量并拖慢换弹。</PM_C7Templar_Magazine_02.description>
+
+  <PM_C7Templar_Laser_01.label>“游骑兵”盒式激光</PM_C7Templar_Laser_01.label>
+  <PM_C7Templar_Laser_01.description>坚固的盒式激光指示器，用于提升C-7近距离快速捕获目标的能力。它能帮助射手把点射压向近处目标，但在远距离价值有限。</PM_C7Templar_Laser_01.description>
 
   <PM_C7Templar_Sight_01.label>毫米波战斗瞄具</PM_C7Templar_Sight_01.label>
   <PM_C7Templar_Sight_01.description>融合毫米波与光学火控的战斗瞄具，能够穿透恶劣天气、烟雾与主动迷彩，并在各作战距离提供稳定射击解算。</PM_C7Templar_Sight_01.description>

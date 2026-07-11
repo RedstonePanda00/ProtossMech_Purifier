@@ -84,7 +84,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Sight_01</defName>
         <label>advanced red dot sight</label>
-        <description>An unobstructed projected aiming point backed by AI fire control that automatically identifies hostile targets. It accelerates target acquisition and correction at close to medium range without providing environmental penetration.</description>
+        <description>An unobstructed projected aiming point backed by AI fire control that automatically identifies hostile targets. It accelerates target acquisition and correction at close to medium range.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Optic</slotId>
         <texPath>Things/Weapon/RailGun/R42_Telescope_01</texPath>
@@ -103,6 +103,13 @@
         <label>red dot sight</label>
         <description>An exceptionally light red dot sight with a wide, clear sight picture. It is optimized for immediate close-range engagement, trading away medium- and long-range precision.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C7Templar</li>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
         <slotId>Optic</slotId>
         <texPath>Things/Weapon/RailGun/R42_Telescope_02</texPath>
         <previewDrawSize>1.0</previewDrawSize>
@@ -116,6 +123,45 @@
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Ammo_8x100</defName>
+        <label>8×100 mm tungsten-rhenium slug</label>
+        <description>The standard R-42 rail slug. Its 100 mm tungsten-rhenium penetrator balances mass, handling and armor penetration.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Ammo</slotId>
+        <texPath>Things/Weapon/RailGun/CE/8x100AP</texPath>
+        <iconPath>Things/Weapon/RailGun/CE/8x100AP</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_RailDeadEye</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Ammo_8x80</defName>
+        <label>8×80 mm tungsten-rhenium slug</label>
+        <description>A shorter R-42 rail slug with reduced penetrator length. It preserves the weapon's firing behavior while reducing armor penetration.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Ammo</slotId>
+        <texPath>Things/Weapon/RailGun/CE/8x80AP</texPath>
+        <iconPath>Things/Weapon/RailGun/CE/8x80AP</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_R42_Short</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_Ammo_8x120</defName>
+        <label>8×120 mm tungsten-rhenium slug</label>
+        <description>An extended R-42 rail slug built around a 120 mm tungsten-rhenium penetrator. It maximizes armor penetration without changing the rifle's firing cycle.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Ammo</slotId>
+        <texPath>Things/Weapon/RailGun/CE/8x120AP</texPath>
+        <iconPath>Things/Weapon/RailGun/CE/8x120AP</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_R42_Long</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
     <!--
       APEX placeholder only. Future target:
       total warmup 4.0 s, range 60, kinetic damage 32, projectile speed x1.40,
@@ -124,11 +170,11 @@
     -->
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_APEX_ChargedBarrel</defName>
-        <label>R-42 charged barrel</label>
+        <label>"DragonBreath" charged barrel</label>
         <description>An APEX charging barrel that stores energy before firing, driving the projectile to extreme muzzle velocity. Air trapped in the bore is heated into plasma and expelled with the slug, producing a secondary plasma detonation after the kinetic impact. When complete, this system will transform the R-42 from an anti-materiel rifle into a plasma-rail sniper cannon.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Barrel</slotId>
-        <texPath>Things/Weapon/RailGun/R42_APEX_Barrel</texPath>
+        <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Barrel</texPath>
         <previewDrawSize>1.0</previewDrawSize>
         <isApex>true</isApex>
         <selectable>false</selectable>

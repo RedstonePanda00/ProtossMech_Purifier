@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Barrel_01</defName>
+        <label>B9 Zealot rocket barrel</label>
+        <description>Standard B9 Zealot barrel for 9x21mm mini airburst rockets. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B9/B9_Barrel1</texPath>
+        <warmupTimeOffset>-0.05</warmupTimeOffset>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0407, 0.0024)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.1759, -0.0224)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.03</AccuracyShort>
+            <AccuracyMedium>-0.02</AccuracyMedium>
+            <AccuracyLong>-0.06</AccuracyLong>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Stock_01</defName>
+        <label>B9 Zealot compact stock</label>
+        <description>Compact stock for close assault. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/B9/B9_Stock1</texPath>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.02</AccuracyMedium>
+            <AccuracyLong>-0.04</AccuracyLong>
+            <Mass>-0.2</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Ammo_01</defName>
+        <label>9x21mm mini airburst rockets</label>
+        <description>9x21mm mini airburst rockets for the B9 Zealot. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B9/B9_Mag1</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_B9Zealot</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Magazine_01</defName>
+        <label>32-round 9x21mm rocket magazine</label>
+        <description>Combat Extended B9 Zealot magazine. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B9/B9_Mag1</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Magazine_02</defName>
+        <label>32-round 9x21mm flip magazine</label>
+        <description>Two opposed B9 Zealot magazines bound together for a faster flip reload. It keeps standard loaded capacity but reduces reload time. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B9/B9_Mag2</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>-0.40</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.25</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

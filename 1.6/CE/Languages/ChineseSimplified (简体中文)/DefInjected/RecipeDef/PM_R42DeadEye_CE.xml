@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakePM_Ammo_R42DeadEye_Short.label>制造 8×80mm 钨铼合金磁轨弹 x150</MakePM_Ammo_R42DeadEye_Short.label>
+  <MakePM_Ammo_R42DeadEye_Short.description>用 1 单位太阳素打印 150 发缩短型 8×80mm 钨铼合金磁轨弹。</MakePM_Ammo_R42DeadEye_Short.description>
+  <MakePM_Ammo_R42DeadEye_Short.jobString>正在制造 8×80mm 磁轨弹。</MakePM_Ammo_R42DeadEye_Short.jobString>
+
+  <MakePM_Ammo_R42DeadEye_Standard.label>制造 8×100mm 钨铼合金磁轨弹 x120</MakePM_Ammo_R42DeadEye_Standard.label>
+  <MakePM_Ammo_R42DeadEye_Standard.description>用 1 单位太阳素打印 120 发标准 8×100mm 钨铼合金磁轨弹。</MakePM_Ammo_R42DeadEye_Standard.description>
+  <MakePM_Ammo_R42DeadEye_Standard.jobString>正在制造 8×100mm 磁轨弹。</MakePM_Ammo_R42DeadEye_Standard.jobString>
+
+  <MakePM_Ammo_R42DeadEye_Long.label>制造 8×120mm 钨铼合金磁轨弹 x100</MakePM_Ammo_R42DeadEye_Long.label>
+  <MakePM_Ammo_R42DeadEye_Long.description>用 1 单位太阳素打印 100 发加长型 8×120mm 钨铼合金磁轨弹。</MakePM_Ammo_R42DeadEye_Long.description>
+  <MakePM_Ammo_R42DeadEye_Long.jobString>正在制造 8×120mm 磁轨弹。</MakePM_Ammo_R42DeadEye_Long.jobString>
+
+</LanguageData>

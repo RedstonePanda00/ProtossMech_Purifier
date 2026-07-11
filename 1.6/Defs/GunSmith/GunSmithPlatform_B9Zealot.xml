@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPlatformDef>
+        <defName>PM_GunSmith_B9Zealot</defName>
+        <label>B9 Zealot</label>
+        <weaponThingDef>PM_GunB9Zealot</weaponThingDef>
+        <bodyTexPath>Things/Weapon/B9/B9_Body</bodyTexPath>
+        <slotAttachmentOffsets>
+            <li><slotId>Barrel</slotId><offset>(-0.3455, -0.1248)</offset><gizmoOffset>(0.0262, -0.4335)</gizmoOffset></li>
+            <li><slotId>Laser</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.5086, 0.3882)</gizmoOffset></li>
+            <li><slotId>Stock</slotId><offset>(0.5470, -0.0928)</offset><gizmoOffset>(0.3440, -0.0904)</gizmoOffset></li>
+            <li><slotId>Magazine</slotId><offset>(-0.0544, 0.2015)</offset><gizmoOffset>(-1.1140, 0.3843)</gizmoOffset></li>
+            <li><slotId>Optic</slotId><offset>(0.0544, -0.2303)</offset><gizmoOffset>(-0.5638, -0.4143)</gizmoOffset></li>
+            <li><slotId>RearIronSight</slotId><offset>(0.3218, -0.2188)</offset></li>
+            <li><slotId>FrontIronSight</slotId><offset>(0.04, 0.02)</offset></li>
+        </slotAttachmentOffsets>
+        <bakeTextureSize>512</bakeTextureSize>
+        <bakePadding>0.05</bakePadding>
+        <bakeContentScale>0.55</bakeContentScale>
+        <shadowDilatePixels>5</shadowDilatePixels>
+        <shadowAlpha>1</shadowAlpha>
+        <slotIds>
+            <li>Barrel</li>
+            <li>Laser</li>
+            <li>Stock</li>
+            <li>Magazine</li>
+            <li>Optic</li>
+            <li>RearIronSight</li>
+            <li>FrontIronSight</li>
+        </slotIds>
+        <optionalSlotIds>
+            <li>Laser</li>
+            <li>Optic</li>
+        </optionalSlotIds>
+        <defaultParts>
+            <li><slotId>RearIronSight</slotId><part>PM_Common_IronSight_Rear_Raised</part><whenSlotEmpty>Optic</whenSlotEmpty></li>
+            <li><slotId>FrontIronSight</slotId><part>PM_Common_IronSight_Front_Raised</part><whenSlotEmpty>Optic</whenSlotEmpty></li>
+            <li><slotId>RearIronSight</slotId><part>PM_Common_IronSight_Rear_Folded</part><whenSlotOccupied>Optic</whenSlotOccupied></li>
+            <li><slotId>FrontIronSight</slotId><part>PM_Common_IronSight_Front_Folded</part><whenSlotOccupied>Optic</whenSlotOccupied></li>
+        </defaultParts>
+        <warpCostList><li><thingDef>Steel</thingDef><count>1</count></li></warpCostList>
+    </ProtossMech.GunSmith.GunSmithPlatformDef>
+
+</Defs>

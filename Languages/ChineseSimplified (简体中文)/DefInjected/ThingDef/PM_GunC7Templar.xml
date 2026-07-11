@@ -2,9 +2,5 @@
 <LanguageData>
 
   <PM_GunC7Templar.label>C-7“圣堂武士”</PM_GunC7Templar.label>
-  <PM_GunC7Templar.description>一把融合成熟地球枪械结构与噬星者场控制技术的太空时代全自动线圈突击步枪。紧凑的加速器能够以六发点射投射高穿透弹药，保持突击步枪级别的操控性。</PM_GunC7Templar.description>
-
-  <PM_Bullet_C7Templar.label>5.8mm钨合金穿甲弹</PM_Bullet_C7Templar.label>
-  <PM_Bullet_C7Templar.description>由C-7“圣堂武士”混合线圈系统加速的紧凑型钨合金穿透弹。</PM_Bullet_C7Templar.description>
-
+  <PM_GunC7Templar.description>一把设计灵感来源于古代地球的全自动线圈突击步枪。它的加速器发射与C19“龙骑兵”一致的5.8x42钨合金穿甲杆。\n\n这把武器是在曙光号上的分子打印机中，直接从能量转化为物质整枪打印的。</PM_GunC7Templar.description>
 </LanguageData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_B12Vanguard</defName>
+        <label>12 gauge dragon's breath shell</label>
+        <description>An incendiary 12 gauge dragon's breath shell for the B12 Vanguard. It scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition.</description>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Flame</damageDef>
+            <damageAmountBase>7</damageAmountBase>
+            <speed>90</speed>
+            <armorPenetrationBase>0.10</armorPenetrationBase>
+            <stoppingPower>1.6</stoppingPower>
+            <explosionRadius>0.3</explosionRadius>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunB12Vanguard</defName>
+        <label>B12 Vanguard</label>
+        <description>A modular bullpup ballistic shotgun platform built for close assault. Its barrel assemblies can trade between compact automatic fire and high-capacity bolt-action handling, while its default 12 gauge dragon's breath shells scatter incendiary pellets at point-blank range.\n\nEach B12 Vanguard is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/B12/B12_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.1, 2.1)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>1500</MarketValue>
+            <Mass>4.3</Mass>
+            <AccuracyTouch>0.78</AccuracyTouch>
+            <AccuracyShort>0.58</AccuracyShort>
+            <AccuracyMedium>0.34</AccuracyMedium>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_B12</li>
+        </weaponTags>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li Class="ProtossMech.VerbProperties_Shotgun">
+                <verbClass>ProtossMech.Verb_ShootShotgun</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_B12Vanguard</defaultProjectile>
+                <warmupTime>0.75</warmupTime>
+                <range>16</range>
+                <burstShotCount>1</burstShotCount>
+                <pelletCount>8</pelletCount>
+                <soundCast>Shot_Shotgun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li><label>stock</label><capacities><li>Blunt</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime></li>
+        </tools>
+    </ThingDef>
+
+</Defs>

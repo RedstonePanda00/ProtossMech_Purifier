@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_B9Zealot_9x21ProximityRocket</defName>
+        <label>9x21mm mini airburst rocket</label>
+        <labelShort>9x21 airburst</labelShort>
+        <description>A 9x21mm mini airburst rocket with a compact proximity fuze. It sacrifices penetrator mass for a small close-range burst around exposed targets.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoB9Zealot</defName>
+        <label>9x21mm mini airburst rockets</label>
+        <parent>AmmoPistols</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_B9Zealot</defName>
+        <label>9x21mm mini airburst rockets</label>
+        <ammoTypes>
+            <PM_Ammo_B9Zealot_Rocket>PM_Bullet_B9Zealot_CE</PM_Ammo_B9Zealot_Rocket>
+        </ammoTypes>
+        <similarTo>AmmoSet_9x21mmGyurza</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_B9Zealot_Rocket</defName>
+        <label>9x21mm mini airburst rocket</label>
+        <description>A 9x21mm mini airburst rocket with a compact proximity fuze. It sacrifices penetrator mass for a small close-range burst around exposed targets.</description>
+        <graphicData><texPath>Things/Weapon/Ammo/B9Zealot/9x21_MiniAirburstRocket</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+        <statBases><Mass>0.025</Mass><Bulk>0.025</Bulk></statBases>
+        <ammoClass>PM_B9Zealot_9x21ProximityRocket</ammoClass>
+        <cookOffProjectile>PM_Bullet_B9Zealot_CE</cookOffProjectile>
+        <tradeTags><li>CE_AutoEnableTrade</li><li>CE_AutoEnableCrafting</li></tradeTags>
+        <thingCategories><li>PM_AmmoB9Zealot</li></thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_B9Zealot_Rocket</defName>
+        <label>make 9x21mm mini airburst rockets x200</label>
+        <description>Craft 200 compact 9x21mm proximity-fuzed mini airburst rockets.</description>
+        <jobString>Making 9x21mm mini airburst rockets.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <ingredients>
+            <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>14</count></li>
+            <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>12</count></li>
+        </ingredients>
+        <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+        <products><PM_Ammo_B9Zealot_Rocket>200</PM_Ammo_B9Zealot_Rocket></products>
+        <workAmount>4800</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_B9Zealot_CE</defName>
+        <label>9x21mm mini airburst rocket</label>
+        <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <armorPenetrationSharp>10</armorPenetrationSharp>
+            <armorPenetrationBlunt>60</armorPenetrationBlunt>
+            <speed>130</speed>
+            <secondaryDamage><li><def>Bomb_Secondary</def><amount>6</amount></li></secondaryDamage>
+            <explosionRadius>0.5</explosionRadius>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

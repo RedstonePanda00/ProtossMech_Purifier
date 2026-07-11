@@ -2,8 +2,25 @@
 <Defs>
 
     <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42_Short</defName>
+        <label>8×80 mm tungsten-rhenium rail slug</label>
+        <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.26</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_RailDeadEye</defName>
-        <label>R-42 rail slug</label>
+        <label>8×100 mm tungsten-rhenium rail slug</label>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -14,6 +31,23 @@
             <damageAmountBase>20</damageAmountBase>
             <speed>240</speed>
             <armorPenetrationBase>1.58</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42_Long</defName>
+        <label>8×120 mm tungsten-rhenium rail slug</label>
+        <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.90</armorPenetrationBase>
             <stoppingPower>2.2</stoppingPower>
         </projectile>
     </ThingDef>

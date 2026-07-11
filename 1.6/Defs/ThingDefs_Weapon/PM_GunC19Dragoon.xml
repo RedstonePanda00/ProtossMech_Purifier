@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C19Dragoon</defName>
+        <label>5.8x42 tungsten-alloy penetrator</label>
+        <description>A high-velocity 5.8x42 tungsten-alloy armor-piercing rod. Its dense penetrator is built for narrow wounds and strong plate penetration.</description>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>190</speed>
+            <armorPenetrationBase>0.82</armorPenetrationBase>
+            <stoppingPower>1.3</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunC19Dragoon</defName>
+        <label>C19 Dragoon</label>
+        <description>A coil marksman rifle built for medium-long precision fire. Its accelerator fires 5.8x42 tungsten-alloy armor-piercing rods at high velocity, bridging compact assault rifles and heavier sniper systems.\n\nEach C19 Dragoon is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/C19/C19_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.3, 2.3)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>1900</MarketValue>
+            <Mass>5.0</Mass>
+            <AccuracyTouch>0.54</AccuracyTouch>
+            <AccuracyShort>0.64</AccuracyShort>
+            <AccuracyMedium>0.78</AccuracyMedium>
+            <AccuracyLong>0.74</AccuracyLong>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_C19</li>
+        </weaponTags>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_C19Dragoon</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_C19Dragoon</defaultProjectile>
+                <warmupTime>1.35</warmupTime>
+                <range>38</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Shot_BoltActionRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li><label>stock</label><capacities><li>Blunt</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime></li>
+        </tools>
+    </ThingDef>
+
+</Defs>

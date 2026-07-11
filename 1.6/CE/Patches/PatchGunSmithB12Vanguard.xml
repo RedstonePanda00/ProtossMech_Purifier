@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- CE's MakeGunCECompatible only strips verbs whose verbClass is Verb_Shoot / Verb_ShootOneUse / Verb_LaunchProjectile.
+         The B12 ships with a custom ProtossMech.Verb_ShootShotgun, so CE would leave it in place and append a second CE verb.
+         The pawn then keeps firing through the vanilla shotgun verb (no ammo use, no CE burst). Remove it first so only the CE verb remains. -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PM_GunB12Vanguard"]/verbs/li[verbClass="ProtossMech.Verb_ShootShotgun"]</xpath>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PM_GunB12Vanguard</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.18</ShotSpread>
+            <SwayFactor>1.10</SwayFactor>
+            <Bulk>10</Bulk>
+        </statBases>
+        <Properties>
+            <recoilAmount>1.95</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PM_Bullet_B12Vanguard_CE</defaultProjectile>
+            <warmupTime>0.75</warmupTime>
+            <range>22</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Shot_Shotgun</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>8</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>8</magazineSize>
+            <reloadTime>3.4</reloadTime>
+            <ammoSet>PM_AmmoSet_B12Vanguard</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>1</aimedBurstShotCount>
+            <aiUseBurstMode>false</aiUseBurstMode>
+            <aiAimMode>Snapshot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunB12Vanguard"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE"><label>stock</label><capacities><li>Blunt</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime><chanceFactor>1.5</chanceFactor><armorPenetrationBlunt>3</armorPenetrationBlunt><linkedBodyPartsGroup>Stock</linkedBodyPartsGroup></li>
+                <li Class="CombatExtended.ToolCE"><label>barrel</label><capacities><li>Blunt</li></capacities><power>6</power><cooldownTime>2.0</cooldownTime><armorPenetrationBlunt>2</armorPenetrationBlunt><linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup></li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunB12Vanguard"]</xpath>
+        <value><li Class="CombatExtended.GunDrawExtension"><DrawSize>4.2,2.1</DrawSize><DrawOffset>0,0</DrawOffset></li></value>
+    </Operation>
+
+</Patch>

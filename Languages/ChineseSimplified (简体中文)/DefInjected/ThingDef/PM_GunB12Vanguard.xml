@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Bullet_B12Vanguard.label>12 口径龙息弹</PM_Bullet_B12Vanguard.label>
+  <PM_Bullet_B12Vanguard.description>供 B12“先锋”使用的 12 口径燃烧龙息弹。它在短距离锥形区域内散布燃烧弹丸，以牺牲穿甲能力换取近距离即时点燃效果。</PM_Bullet_B12Vanguard.description>
+
+  <PM_GunB12Vanguard.label>B12 先锋</PM_GunB12Vanguard.label>
+  <PM_GunB12Vanguard.description>一把模块化无托实弹霰弹枪平台，用于近距离突击。它的枪管组件可以在紧凑全自动火力和高容量栓动操控之间切换，默认 12 口径龙息弹则在极近距离散布燃烧弹丸。\n\n这把武器是在曙光号上的分子打印机中，直接从能量转化为物质整枪打印的。</PM_GunB12Vanguard.description>
+
+</LanguageData>

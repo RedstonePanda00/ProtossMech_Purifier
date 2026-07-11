@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_B9Zealot</defName>
+        <label>9x21mm mini airburst rocket</label>
+        <description>A 9x21mm mini airburst rocket with a compact proximity fuze. It sacrifices penetrator mass for a small close-range burst around exposed targets.</description>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <speed>130</speed>
+            <armorPenetrationBase>0.20</armorPenetrationBase>
+            <stoppingPower>0.8</stoppingPower>
+            <explosionRadius>0.5</explosionRadius>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunB9Zealot</defName>
+        <label>B9 Zealot</label>
+        <description>A compact ballistic submachine gun built for aggressive close assault. It throws rapid bursts of 9x21mm mini airburst rockets, saturating corridors and exposed targets with proximity detonations rather than relying on conventional pistol-caliber impact.\n\nEach B9 Zealot is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/B9/B9_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.9, 1.9)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>1400</MarketValue>
+            <Mass>2.8</Mass>
+            <AccuracyTouch>0.72</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.48</AccuracyMedium>
+            <AccuracyLong>0.28</AccuracyLong>
+            <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_B9Zealot</li>
+        </weaponTags>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_B9Zealot</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_B9Zealot</defaultProjectile>
+                <warmupTime>0.45</warmupTime>
+                <range>20</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li><label>stock</label><capacities><li>Blunt</li></capacities><power>7</power><cooldownTime>1.5</cooldownTime></li>
+        </tools>
+    </ThingDef>
+
+</Defs>

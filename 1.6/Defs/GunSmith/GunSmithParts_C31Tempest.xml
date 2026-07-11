@@ -15,7 +15,7 @@
         <childSlotAnchors>
             <li>
                 <slotId>Muzzle</slotId>
-                <offset>(0, 0)</offset>
+                <offset>(-0.4394, -0.0051)</offset>
             </li>
         </childSlotAnchors>
     </ProtossMech.GunSmith.GunSmithPartDef>
@@ -39,8 +39,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Ammo_01</defName>
-        <label>30 mm SAPHE ammunition</label>
-        <description>30 mm semi-armor-piercing high-explosive ammunition for the C-31 Tempest.</description>
+        <label>30 mm SAPHE gun grenades</label>
+        <description>30 mm anti-structure semi-armor-piercing high-explosive gun grenades for the C-31 Tempest.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
@@ -50,9 +50,33 @@
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Ammo_Plasma</defName>
+        <label>30 mm plasma gun grenades</label>
+        <description>Compact plasma gun grenades for the C-31 Tempest. They trade the SAPHE charge for vaporizing thermal damage and much higher heat penetration.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_C31Tempest_Plasma</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_Ammo_Wisp</defName>
+        <label>30 mm Wisp swarm grenades</label>
+        <description>Carrier grenades that split into five Wisp micro-missiles on destruction. Each Wisp curves along a Bezier path and seeks the nearest hostile target.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectileOverride>PM_Bullet_C31Tempest_Wisp</projectileOverride>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Magazine_01</defName>
-        <label>Standard magazine</label>
-        <description>Standard C-31 Tempest magazine loaded with 30 mm SAPHE semi-armor-piercing high-explosive rounds. Holds 8 rounds per magazine.</description>
+        <label>8-round SAPHE grenade magazine</label>
+        <description>Standard C-31 Tempest magazine loaded with 30 mm SAPHE anti-structure gun grenades. Holds 8 rounds per magazine.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
@@ -65,6 +89,9 @@
         <label>Oracle fire control</label>
         <description>An integrated smart sight suite with infrared thermals and digital AI fire control. Targets stay razor-clear through foul weather and smoke. Dense optics and processors add noticeable weight.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
         <slotId>Optic</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_sight</texPath>
         <previewDrawSize>1.0</previewDrawSize>
@@ -79,6 +106,84 @@
             <AccuracyMedium>0.10</AccuracyMedium>
             <AccuracyLong>0.06</AccuracyLong>
         </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_APEX_ATLAS</defName>
+        <label>"ATLAS" autocannon kit</label>
+        <description>An APEX underbarrel conversion kit that rebuilds the C-31 Tempest into a rotary 30 mm SAPHE grenade autocannon. It trades range, handling and recovery time for a brutal twenty-round burst.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/C31Tempest/APEX/C31_APEX_UnderBarrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <localAttachmentOffset>(-0.2673, 0.1018)</localAttachmentOffset>
+        <isApex>true</isApex>
+        <isApexEntry>true</isApexEntry>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>30</drawOrder>
+        <rangeOffset>-15</rangeOffset>
+        <warmupTimeOffset>1.8</warmupTimeOffset>
+        <burstShotCountOverride>20</burstShotCountOverride>
+        <ticksBetweenBurstShotsOverride>2</ticksBetweenBurstShotsOverride>
+        <ceShotSpreadOverride>0.018</ceShotSpreadOverride>
+        <ceSwayFactorOverride>0.75</ceSwayFactorOverride>
+        <ceRecoilOverride>0.45</ceRecoilOverride>
+        <apexForcedParts>
+            <li>
+                <slotId>Barrel</slotId>
+                <part>PM_C31Tempest_APEX_ATLAS_Barrel</part>
+            </li>
+            <li>
+                <slotId>Magazine</slotId>
+                <part>PM_C31Tempest_APEX_ATLAS_Magazine</part>
+            </li>
+        </apexForcedParts>
+        <apexDisabledSlotIds>
+            <li>Muzzle</li>
+        </apexDisabledSlotIds>
+        <apexHiddenSlotIds>
+            <li>Barrel</li>
+            <li>Magazine</li>
+            <li>Muzzle</li>
+        </apexHiddenSlotIds>
+        <statOffsets>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+            <Mass>4.0</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_APEX_ATLAS_Barrel</defName>
+        <label>"ATLAS" rotary barrel cluster</label>
+        <description>Hidden APEX component for the ATLAS autocannon kit.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/C31Tempest/APEX/C31_APEX_Barrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <localAttachmentOffset>(-0.1697, -0.0042)</localAttachmentOffset>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>10</drawOrder>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_C31Tempest_APEX_ATLAS_Magazine</defName>
+        <label>"ATLAS" 200-round feed module</label>
+        <description>Hidden APEX component for the ATLAS autocannon kit.</description>
+        <platformDef>PM_GunSmith_C31Tempest</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/C31Tempest/APEX/C31_APEX_Magzine</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <localAttachmentOffset>(-0.0891, 0.0170)</localAttachmentOffset>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>20</drawOrder>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>200</ceMagazineSize>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>3.8</ceReloadTimeOffset>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
 </Defs>

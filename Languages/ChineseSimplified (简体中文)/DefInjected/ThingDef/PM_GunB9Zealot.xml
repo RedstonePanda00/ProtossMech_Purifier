@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Bullet_B9Zealot.label>9x21mm 迷你空爆火箭</PM_Bullet_B9Zealot.label>
+  <PM_Bullet_B9Zealot.description>带有紧凑近炸引信的 9x21mm 迷你空爆火箭。它牺牲弹芯质量，换取对近距离暴露目标的小范围爆破效果。</PM_Bullet_B9Zealot.description>
+
+  <PM_GunB9Zealot.label>B9 狂热者</PM_GunB9Zealot.label>
+  <PM_GunB9Zealot.description>一把紧凑的实弹冲锋枪，用于主动近距离突击。它快速倾泻 9x21mm 迷你空爆火箭，用近炸爆破压制走廊和暴露目标，而不是依赖传统手枪口径弹药的直接命中。\n\n这把武器是在曙光号上的分子打印机中，直接从能量转化为物质整枪打印的。</PM_GunB9Zealot.description>
+
+</LanguageData>

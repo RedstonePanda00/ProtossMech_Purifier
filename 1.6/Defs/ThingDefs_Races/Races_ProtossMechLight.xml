@@ -96,6 +96,7 @@
           <li>PM_PurifierImmortal</li>
         </DetectList>
         <targetDef>Persona_Probius</targetDef>
+        <enableHeroPooling>false</enableHeroPooling>
       </li>
 
       <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">

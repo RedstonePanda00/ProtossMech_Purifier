@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_C31Tempest_30mmSAPHE</defName>
+        <label>30 mm SAPHE gun grenade</label>
+        <labelShort>30 mm SAPHE</labelShort>
+        <description>A 30 mm anti-structure semi-armor-piercing high-explosive gun grenade. A small tungsten core provides limited direct penetration before the grenade detonates.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_C31Tempest_30mmPlasma</defName>
+        <label>30 mm plasma gun grenade</label>
+        <labelShort>30 mm plasma</labelShort>
+        <description>A miniature inferno-cannon plasma grenade. It deals vaporizing thermal damage with triple the heat penetration of the standard SAPHE grenade.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_C31Tempest_30mmWisp</defName>
+        <label>30 mm Wisp swarm grenade</label>
+        <labelShort>30 mm Wisp</labelShort>
+        <description>A carrier grenade that releases five Wisp micro-missiles on impact. Each Wisp curves toward the nearest hostile target.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoC31Tempest</defName>
+        <label>30 mm special gun grenades</label>
+        <parent>AmmoRifles</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_C31Tempest</defName>
+        <label>30 mm special gun grenades</label>
+        <ammoTypes>
+            <PM_Ammo_C31Tempest_SAPHE>PM_Bullet_C31Tempest_CE</PM_Ammo_C31Tempest_SAPHE>
+            <PM_Ammo_C31Tempest_Plasma>PM_Bullet_C31Tempest_Plasma_CE</PM_Ammo_C31Tempest_Plasma>
+            <PM_Ammo_C31Tempest_Wisp>PM_Bullet_C31Tempest_Wisp_CE</PM_Ammo_C31Tempest_Wisp>
+        </ammoTypes>
+        <similarTo>AmmoSet_Rifle</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_C31Tempest_SAPHE</defName>
+        <label>30 mm SAPHE gun grenade</label>
+        <description>A 30 mm anti-structure semi-armor-piercing high-explosive gun grenade. A small tungsten core provides limited direct penetration before the grenade detonates.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/C31Tempest/30mmAP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.18</Mass>
+            <Bulk>0.18</Bulk>
+        </statBases>
+        <ammoClass>PM_C31Tempest_30mmSAPHE</ammoClass>
+        <cookOffProjectile>PM_Bullet_C31Tempest_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoC31Tempest</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_C31Tempest_Plasma</defName>
+        <label>30 mm plasma gun grenade</label>
+        <description>A miniature inferno-cannon plasma grenade. It deals vaporizing thermal damage with triple the heat penetration of the standard SAPHE grenade.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/C31Tempest/30mmPlasmaGrenade</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.20</Mass>
+            <Bulk>0.20</Bulk>
+        </statBases>
+        <ammoClass>PM_C31Tempest_30mmPlasma</ammoClass>
+        <cookOffProjectile>PM_Bullet_C31Tempest_Plasma_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoC31Tempest</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_C31Tempest_Wisp</defName>
+        <label>30 mm Wisp swarm grenade</label>
+        <description>A carrier grenade that releases five Wisp micro-missiles on impact. Each Wisp curves toward the nearest hostile target.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/C31Tempest/30mmWisp</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.22</Mass>
+            <Bulk>0.22</Bulk>
+        </statBases>
+        <ammoClass>PM_C31Tempest_30mmWisp</ammoClass>
+        <cookOffProjectile>PM_Bullet_C31Tempest_Wisp_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoC31Tempest</li>
+        </thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_C31Tempest_SAPHE</defName>
+        <label>make 30 mm SAPHE gun grenades x80</label>
+        <description>Craft 80 anti-structure 30 mm SAPHE gun grenades.</description>
+        <jobString>Making C-31 30 mm SAPHE gun grenades.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>48</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_C31Tempest_SAPHE>80</PM_Ammo_C31Tempest_SAPHE>
+        </products>
+        <workAmount>7000</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_C31Tempest_Plasma</defName>
+        <label>make 30 mm plasma gun grenades x60</label>
+        <description>Craft 60 miniature inferno-cannon plasma grenades.</description>
+        <jobString>Making 30 mm plasma gun grenades.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>36</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>18</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+                <li>Neutroamine</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_C31Tempest_Plasma>60</PM_Ammo_C31Tempest_Plasma>
+        </products>
+        <workAmount>7600</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_C31Tempest_Wisp</defName>
+        <label>make 30 mm Wisp swarm grenades x30</label>
+        <description>Craft 30 Wisp carrier grenades, each loaded with five guided micro-missiles.</description>
+        <jobString>Making 30 mm Wisp swarm grenades.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>12</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+                <li>ComponentSpacer</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_C31Tempest_Wisp>30</PM_Ammo_C31Tempest_Wisp>
+        </products>
+        <workAmount>9000</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_C31Tempest_CE</defName>
+        <label>30 mm SAPHE gun grenade</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationSharp>35</armorPenetrationSharp>
+            <armorPenetrationBlunt>600</armorPenetrationBlunt>
+            <speed>240</speed>
+            <secondaryDamage>
+                <li>
+                    <def>Bomb_Secondary</def>
+                    <amount>19</amount>
+                </li>
+            </secondaryDamage>
+            <explosionRadius>1.09</explosionRadius>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_C31Tempest_Plasma_CE</defName>
+        <label>30 mm plasma gun grenade</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>34</damageAmountBase>
+            <armorPenetrationSharp>105</armorPenetrationSharp>
+            <armorPenetrationBlunt>1800</armorPenetrationBlunt>
+            <speed>210</speed>
+            <secondaryDamage>
+                <li>
+                    <def>Vaporize</def>
+                    <amount>26</amount>
+                </li>
+            </secondaryDamage>
+            <explosionRadius>1.25</explosionRadius>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_C31Tempest_Wisp_CE</defName>
+        <label>30 mm Wisp swarm grenade</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <armorPenetrationSharp>8</armorPenetrationSharp>
+            <armorPenetrationBlunt>80</armorPenetrationBlunt>
+            <speed>190</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

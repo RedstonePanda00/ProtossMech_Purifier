@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PM_GunR42DeadEye</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <Bulk>18</Bulk>
+        </statBases>
+        <Properties>
+            <recoilAmount>2.40</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PM_Bullet_R42DeadEye_Standard_CE</defaultProjectile>
+            <warmupTime>1.8</warmupTime>
+            <range>90</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>ChargeLance_Fire</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>1</magazineSize>
+            <reloadTime>0.4</reloadTime>
+            <ammoSet>PM_AmmoSet_R42DeadEye</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>1</aimedBurstShotCount>
+            <aiUseBurstMode>false</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunR42DeadEye"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>1.75</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>7</power>
+                    <cooldownTime>2.1</cooldownTime>
+                    <armorPenetrationBlunt>2.2</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>muzzle</label>
+                    <capacities>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>9</power>
+                    <cooldownTime>1.75</cooldownTime>
+                    <armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunR42DeadEye"]</xpath>
+        <value>
+            <li Class="CombatExtended.GunDrawExtension">
+                <DrawSize>4.4,2.2</DrawSize>
+                <DrawOffset>0,0</DrawOffset>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PM_GunC31Tempest</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.04</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <Bulk>22</Bulk>
+        </statBases>
+        <Properties>
+            <recoilAmount>2.80</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PM_Bullet_C31Tempest_CE</defaultProjectile>
+            <warmupTime>2.6</warmupTime>
+            <range>75</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>ChargeLance_Fire</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>8</magazineSize>
+            <reloadTime>4.2</reloadTime>
+            <ammoSet>PM_AmmoSet_C31Tempest</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>1</aimedBurstShotCount>
+            <aiUseBurstMode>false</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunC31Tempest"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>11</power>
+                    <cooldownTime>1.85</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>8</power>
+                    <cooldownTime>2.2</cooldownTime>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>muzzle</label>
+                    <capacities>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>1.85</cooldownTime>
+                    <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunC31Tempest"]</xpath>
+        <value>
+            <li Class="CombatExtended.GunDrawExtension">
+                <DrawSize>4.4,2.2</DrawSize>
+                <DrawOffset>0,0</DrawOffset>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- The 5 Wisp micro-missiles stay vanilla projectiles (spawned via the vanilla Launch in
+         C31WispMissileUtility, mirrored under CE by Patch_ProjectileCE_C31WispImpact). Their vanilla
+         armorPenetrationBase (0.28) is meaningless on CE's sharp-penetration scale, so retune the
+         numbers here for CE without converting them to a ProjectileCE. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_Bullet_C31Tempest_WispMini"]/projectile</xpath>
+        <value>
+            <projectile>
+                <damageDef>Bullet</damageDef>
+                <damageAmountBase>9</damageAmountBase>
+                <speed>40</speed>
+                <armorPenetrationBase>10</armorPenetrationBase>
+                <stoppingPower>0.5</stoppingPower>
+            </projectile>
+        </value>
+    </Operation>
+
+</Patch>

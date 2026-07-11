@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Barrel_01</defName>
+        <label>B12 Vanguard 8-round automatic shotgun barrel</label>
+        <description>Standard B12 Vanguard bullpup shotgun barrel with an integrated 8-round tube and a three-shot automatic firing cycle. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B12/B12_Barrel1</texPath>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>8</ceMagazineSize>
+        <burstShotCountOverride>3</burstShotCountOverride>
+        <ticksBetweenBurstShotsOverride>8</ticksBetweenBurstShotsOverride>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.0481, -0.0100)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(-0.0021, 0.0062)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>0.06</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.04</AccuracyMedium>
+            <AccuracyLong>-0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Barrel_02</defName>
+        <label>B12 Vanguard 15-round bolt-action barrel</label>
+        <description>High-capacity B12 Vanguard bullpup shotgun barrel with an integrated 15-round tube, a bolt-action firing cycle, and improved short-to-medium range consistency. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B12/B12_Barrel2</texPath>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>15</ceMagazineSize>
+        <ceReloadOneAtATime>true</ceReloadOneAtATime>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>-2.90</ceReloadTimeOffset>
+        <warmupTimeOffset>0.20</warmupTimeOffset>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.1703, -0.0049)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(-0.0701, 0.0053)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>-0.03</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.08</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.35</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Stock_01</defName>
+        <label>B12 Vanguard bullpup stock</label>
+        <description>Standard B12 Vanguard stock and rear receiver module. Placeholder balance.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/B12/B12_Stock1</texPath>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <Mass>0.1</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+</Defs>

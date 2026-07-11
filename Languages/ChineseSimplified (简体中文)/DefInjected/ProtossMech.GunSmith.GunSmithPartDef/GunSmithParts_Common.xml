@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PM_Common_DarkTemplarSuppressor.label>“黑暗圣堂”一体式消音器</PM_Common_DarkTemplarSuppressor.label>
-  <PM_Common_DarkTemplarSuppressor.description>一体式消音器会吸收开火时的声波，并回收一部分弹丸驱动过程中的动能废散，在消除枪声的同时轻微改善弹道效率。</PM_Common_DarkTemplarSuppressor.description>
+  <PM_Common_DarkTemplarSuppressor.label>&#x201C;&#x9ED1;&#x6697;&#x5723;&#x5802;&#x201D;&#x4E00;&#x4F53;&#x5F0F;&#x6D88;&#x97F3;&#x5668;</PM_Common_DarkTemplarSuppressor.label>
+  <PM_Common_DarkTemplarSuppressor.description>&#x4E00;&#x4F53;&#x5F0F;&#x6D88;&#x97F3;&#x5668;&#x4F1A;&#x5438;&#x6536;&#x5F00;&#x706B;&#x65F6;&#x7684;&#x58F0;&#x6CE2;&#xFF0C;&#x5E76;&#x56DE;&#x6536;&#x4E00;&#x90E8;&#x5206;&#x52A8;&#x80FD;&#xFF0C;&#x5728;&#x6D88;&#x9664;&#x67AA;&#x58F0;&#x7684;&#x540C;&#x65F6;&#x8F7B;&#x5FAE;&#x6539;&#x5584;&#x5F39;&#x9053;&#x6548;&#x7387;&#x3002;</PM_Common_DarkTemplarSuppressor.description>
 
-  <PM_Common_MarksmanOptic.label>神射手瞄具</PM_Common_MarksmanOptic.label>
-  <PM_Common_MarksmanOptic.description>配备4倍、6倍、8倍三种倍率与红外热成像功能的瞄具。它能提高中远距离射击表现并穿透烟雾干扰，但会增加重量、瞄准时间，并削弱近距离操控。</PM_Common_MarksmanOptic.description>
+  <PM_Common_MarksmanOptic.label>&#x795E;&#x5C04;&#x624B;&#x77C4;&#x5177;</PM_Common_MarksmanOptic.label>
+  <PM_Common_MarksmanOptic.description>&#x914D;&#x5907; 4 &#x500D;&#x3001;6 &#x500D;&#x3001;8 &#x500D;&#x4E09;&#x79CD;&#x500D;&#x7387;&#x4E0E;&#x7EA2;&#x5916;&#x70ED;&#x6210;&#x50CF;&#x529F;&#x80FD;&#x7684;&#x77C4;&#x5177;&#x3002;&#x5B83;&#x80FD;&#x63D0;&#x9AD8;&#x4E2D;&#x8FDC;&#x8DDD;&#x79BB;&#x5C04;&#x51FB;&#x8868;&#x73B0;&#x5E76;&#x7A7F;&#x900F;&#x70DF;&#x96FE;&#x5E72;&#x6270;&#xFF0C;&#x4F46;&#x4F1A;&#x589E;&#x52A0;&#x91CD;&#x91CF;&#x3001;&#x77C4;&#x51C6;&#x65F6;&#x95F4;&#xFF0C;&#x5E76;&#x524A;&#x5F31;&#x8FD1;&#x8DDD;&#x79BB;&#x64CD;&#x63A7;&#x3002;</PM_Common_MarksmanOptic.description>
+
+  <PM_Common_Printer_MagFactory.label>&#x201C;&#x6253;&#x5370;&#x673A;&#x201D;&#x5F39;&#x5323;&#x5DE5;&#x5382;</PM_Common_Printer_MagFactory.label>
+  <PM_Common_Printer_MagFactory.description>&#x4E00;&#x6B3E;&#x7D27;&#x51D1;&#x7684;&#x5FAE;&#x578B;&#x5236;&#x9020;&#x5F39;&#x5323;&#x3002;&#x6B66;&#x5668;&#x505C;&#x6B62;&#x5C04;&#x51FB;&#x4E00;&#x79D2;&#x540E;&#xFF0C;&#x5B83;&#x4F1A;&#x76F4;&#x63A5;&#x5728;&#x5F39;&#x5323;&#x5185;&#x6253;&#x5370;&#x65B0;&#x5F39;&#x836F;&#x76F4;&#x5230;&#x6EE1;&#x4ED3;&#x3002;&#x5B83;&#x4E0D;&#x6D88;&#x8017;&#x643A;&#x884C;&#x5F39;&#x836F;&#xFF0C;&#x5E76;&#x4F1A;&#x5728;&#x7A7A;&#x4ED3;&#x65F6;&#x963B;&#x6B62;&#x88AB;&#x52A8;&#x6362;&#x5F39;&#x3002;</PM_Common_Printer_MagFactory.description>
 
 </LanguageData>

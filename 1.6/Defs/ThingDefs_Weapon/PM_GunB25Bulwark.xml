@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_B25Bulwark</defName>
+        <label>6.8x42 ETC round</label>
+        <description>A 6.8x42 plastic-cased telescoped electrothermal-chemical round for the B25 Bulwark. Its high-energy propellant supports strong velocity and sustained automatic fire without changing the weapon's basic operating layout.</description>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>210</speed>
+            <armorPenetrationBase>0.50</armorPenetrationBase>
+            <stoppingPower>1.1</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunB25Bulwark</defName>
+        <label>B25 Bulwark</label>
+        <description>A ballistic light machine gun built for sustained all-range suppression. It feeds 6.8x42 plastic-cased telescoped electrothermal-chemical rounds from box magazines, delivering longer bursts and stronger retained velocity than standard rifle ammunition.\n\nEach B25 Bulwark is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Weapon/B25/B25_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.5, 2.5)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>2300</MarketValue>
+            <Mass>8.2</Mass>
+            <AccuracyTouch>0.46</AccuracyTouch>
+            <AccuracyShort>0.58</AccuracyShort>
+            <AccuracyMedium>0.62</AccuracyMedium>
+            <AccuracyLong>0.50</AccuracyLong>
+            <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_B25</li>
+        </weaponTags>
+        <comps>
+            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_B25Bulwark</defaultProjectile>
+                <warmupTime>1.1</warmupTime>
+                <range>32</range>
+                <burstShotCount>12</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li><label>stock</label><capacities><li>Blunt</li></capacities><power>10</power><cooldownTime>2.0</cooldownTime></li>
+        </tools>
+    </ThingDef>
+
+</Defs>

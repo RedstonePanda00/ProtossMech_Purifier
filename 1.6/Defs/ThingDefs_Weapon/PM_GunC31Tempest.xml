@@ -3,25 +3,80 @@
 
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_C31Tempest</defName>
-        <label>30 mm SAPHE round</label>
-        <description>Semi-armor-piercing high-explosive round for the C-31 Tempest. Rated muzzle velocity 900–1,300 m/s.</description>
+        <label>30 mm SAPHE gun grenade</label>
+        <description>Anti-structure semi-armor-piercing high-explosive gun grenade for the C-31 Tempest. A small tungsten core provides limited direct penetration before the grenade detonates.</description>
+        <thingClass>ProtossMech.Bullet_C31TempestGunGrenade</thingClass>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>45</damageAmountBase>
-            <speed>200</speed>
-            <armorPenetrationBase>1.28</armorPenetrationBase>
+            <damageAmountBase>40</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.10</armorPenetrationBase>
             <stoppingPower>2.75</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest_Plasma</defName>
+        <label>30 mm plasma gun grenade</label>
+        <description>A compact plasma gun grenade for the C-31 Tempest. It behaves like a miniature inferno cannon shell, replacing fragmentation with vaporizing thermal damage and much higher heat penetration.</description>
+        <thingClass>ProtossMech.Bullet_C31TempestPlasmaGrenade</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>34</damageAmountBase>
+            <speed>210</speed>
+            <armorPenetrationBase>3.30</armorPenetrationBase>
+            <stoppingPower>2.25</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest_Wisp</defName>
+        <label>30 mm Wisp swarm grenade</label>
+        <description>A 30 mm carrier grenade for the C-31 Tempest. When destroyed, it releases five Wisp micro-missiles that arc toward the nearest hostile target.</description>
+        <thingClass>ProtossMech.Bullet_C31TempestWispGrenade</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <speed>190</speed>
+            <armorPenetrationBase>0.35</armorPenetrationBase>
+            <stoppingPower>0.7</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest_WispMini</defName>
+        <label>Wisp micro-missile</label>
+        <thingClass>ProtossMech.Bullet_C31TempestWispMiniMissile</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.45,0.45)</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>9</damageAmountBase>
+            <speed>40</speed>
+            <armorPenetrationBase>0.28</armorPenetrationBase>
+            <stoppingPower>0.5</stoppingPower>
         </projectile>
     </ThingDef>
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunC31Tempest</defName>
         <label>C-31 Tempest</label>
-        <description>A bolt-action coil sniper cannon fitted with a compact solarite battery. It fires 30 mm SAPHE semi-armor-piercing high-explosive rounds at 900–1,300 m/s, built to kill enemies behind cover and punch through lightly armored vehicles.\n\nEach C-31 Tempest is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <description>A bolt-action coil sniper cannon fitted with a compact solarite battery. It fires 30 mm SAPHE anti-structure gun grenades at high velocity, built to break cover, punish hardpoints and finish exposed targets with direct hits.\n\nEach C-31 Tempest is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <destroyOnDrop>false</destroyOnDrop>

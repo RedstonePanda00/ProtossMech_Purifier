@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_R42RailSlug_Short.label>&#x77ED;&#x78C1;&#x8F68;&#x5F39;&#xFF08;8&#x00D7;80mm&#xFF09;</PM_R42RailSlug_Short.label>
+  <PM_R42RailSlug_Short.labelShort>8&#x00D7;80 &#x7A7F;&#x7532;</PM_R42RailSlug_Short.labelShort>
+  <PM_R42RailSlug_Short.description>&#x7F29;&#x77ED;&#x578B; 8mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;&#x3002;&#x5B83;&#x4FDD;&#x6301;&#x6B65;&#x67AA;&#x5C04;&#x51FB;&#x5FAA;&#x73AF;&#xFF0C;&#x4F46;&#x964D;&#x4F4E;&#x88C5;&#x7532;&#x7A7F;&#x6DF1;&#x3002;</PM_R42RailSlug_Short.description>
+
+  <PM_R42RailSlug_Standard.label>&#x6807;&#x51C6;&#x78C1;&#x8F68;&#x5F39;&#xFF08;8&#x00D7;100mm&#xFF09;</PM_R42RailSlug_Standard.label>
+  <PM_R42RailSlug_Standard.labelShort>8&#x00D7;100 &#x7A7F;&#x7532;</PM_R42RailSlug_Standard.labelShort>
+  <PM_R42RailSlug_Standard.description>&#x6807;&#x51C6; 8mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;&#xFF0C;&#x5728;&#x5F39;&#x82AF;&#x957F;&#x5EA6;&#x3001;&#x8D28;&#x91CF;&#x548C;&#x88C5;&#x7532;&#x7A7F;&#x6DF1;&#x4E4B;&#x95F4;&#x53D6;&#x5F97;&#x5E73;&#x8861;&#x3002;</PM_R42RailSlug_Standard.description>
+
+  <PM_R42RailSlug_Long.label>&#x957F;&#x78C1;&#x8F68;&#x5F39;&#xFF08;8&#x00D7;120mm&#xFF09;</PM_R42RailSlug_Long.label>
+  <PM_R42RailSlug_Long.labelShort>8&#x00D7;120 &#x7A7F;&#x7532;</PM_R42RailSlug_Long.labelShort>
+  <PM_R42RailSlug_Long.description>&#x52A0;&#x957F;&#x578B; 8mm &#x94A8;&#x94FC;&#x5408;&#x91D1;&#x78C1;&#x8F68;&#x5F39;&#xFF0C;&#x4E3A;&#x6700;&#x5927;&#x5316;&#x88C5;&#x7532;&#x7A7F;&#x6DF1;&#x800C;&#x8BBE;&#x8BA1;&#x3002;</PM_R42RailSlug_Long.description>
+
+  <PM_C31Tempest_30mmSAPHE.label>30mm SAPHE &#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_30mmSAPHE.label>
+  <PM_C31Tempest_30mmSAPHE.labelShort>30mm SAPHE</PM_C31Tempest_30mmSAPHE.labelShort>
+  <PM_C31Tempest_30mmSAPHE.description>30mm &#x53CD;&#x5EFA;&#x7B51;&#x534A;&#x7A7F;&#x7532;&#x9AD8;&#x7206;&#x67AA;&#x69B4;&#x5F39;&#x3002;&#x5C0F;&#x578B;&#x94A8;&#x82AF;&#x5148;&#x63D0;&#x4F9B;&#x6709;&#x9650;&#x76F4;&#x5C04;&#x7A7F;&#x900F;&#xFF0C;&#x968F;&#x540E;&#x69B4;&#x5F39;&#x7206;&#x70B8;&#x3002;</PM_C31Tempest_30mmSAPHE.description>
+
+  <PM_C31Tempest_30mmPlasma.label>30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_30mmPlasma.label>
+  <PM_C31Tempest_30mmPlasma.labelShort>30mm &#x7535;&#x6D46;</PM_C31Tempest_30mmPlasma.labelShort>
+  <PM_C31Tempest_30mmPlasma.description>&#x5C0F;&#x578B;&#x70BC;&#x72F1;&#x9B54;&#x738B;&#x70AE;&#x5F0F;&#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;&#x3002;&#x9020;&#x6210;&#x6C14;&#x5316;&#x70ED;&#x4F24;&#x5BB3;&#xFF0C;&#x5E76;&#x5177;&#x6709;&#x6807;&#x51C6; SAPHE &#x67AA;&#x69B4;&#x5F39;&#x4E09;&#x500D;&#x7EA7;&#x522B;&#x7684;&#x70ED;&#x80FD;&#x7A7F;&#x7532;&#x3002;</PM_C31Tempest_30mmPlasma.description>
+
+  <PM_C31Tempest_30mmWisp.label>30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_30mmWisp.label>
+  <PM_C31Tempest_30mmWisp.labelShort>30mm Wisp</PM_C31Tempest_30mmWisp.labelShort>
+  <PM_C31Tempest_30mmWisp.description>&#x6BCD;&#x5F39;&#x88AB;&#x6467;&#x6BC1;&#x540E;&#x91CA;&#x653E; 5 &#x53D1; Wisp &#x5FAE;&#x578B;&#x5BFC;&#x5F39;&#x3002;&#x6BCF;&#x53D1; Wisp &#x6CBF;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x98DE;&#x884C;&#xFF0C;&#x5E76;&#x81EA;&#x52A8;&#x5BFB;&#x627E;&#x6700;&#x8FD1;&#x654C;&#x4EBA;&#x3002;</PM_C31Tempest_30mmWisp.description>
+
+</LanguageData>
