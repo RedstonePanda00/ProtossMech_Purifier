@@ -21,6 +21,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunB9Zealot</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>B9 Zealot</label>
         <description>A compact ballistic submachine gun built for aggressive close assault. It throws rapid bursts of 9x21mm mini airburst rockets, saturating corridors and exposed targets with proximity detonations rather than relying on conventional pistol-caliber impact.\n\nEach B9 Zealot is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>

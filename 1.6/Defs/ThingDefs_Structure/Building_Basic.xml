@@ -10,6 +10,7 @@
         <drawerType>RealtimeOnly</drawerType>
         <graphicData>
             <texPath>Things/Structure/Pylon</texPath>
+            <shaderType>Transparent</shaderType>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(2.0, 2.0)</drawSize>
             <drawOffset>(0,0,-0.1)</drawOffset>
@@ -47,6 +48,14 @@
 
             <li Class="ProtossMech.CompProperties_ProtossPylon">
                 <radius>20.0</radius>
+            </li>
+
+            <li Class="ProtossMech.CompProperties_PylonRingRailRenderer">
+                <texPath>Things/Structure/Pylon_RingRails</texPath>
+                <drawSize>(2.0, 2.0)</drawSize>
+                <wobbleAmplitude>0.035</wobbleAmplitude>
+                <wobblePeriodTicks>180</wobblePeriodTicks>
+                <altitudeOffset>0.01</altitudeOffset>
             </li>
             
             <li Class="CompProperties_Glower">

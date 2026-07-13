@@ -20,6 +20,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunC19Dragoon</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>C19 Dragoon</label>
         <description>A coil marksman rifle built for medium-long precision fire. Its accelerator fires 5.8x42 tungsten-alloy armor-piercing rods at high velocity, bridging compact assault rifles and heavier sniper systems.\n\nEach C19 Dragoon is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>

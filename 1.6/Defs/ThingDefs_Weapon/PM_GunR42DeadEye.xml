@@ -54,6 +54,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunR42DeadEye</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>R-42 DeadEye</label>
         <description>An anti-materiel electromagnetic sniper rifle that fires 8 mm tungsten-rhenium alloy slugs and carries a compact solarite battery. It delivers excellent long-range accuracy with strong armor penetration.\n\nEach rifle is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>

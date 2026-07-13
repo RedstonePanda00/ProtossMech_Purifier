@@ -8,6 +8,7 @@
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Barrel_01</texPath>
+        <ceFullAuto>true</ceFullAuto>
         <rangeOffset>4</rangeOffset>
         <projectileDamageOffset>1</projectileDamageOffset>
         <projectileSpeedFactor>1.10</projectileSpeedFactor>
@@ -40,6 +41,7 @@
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Barrel_02</texPath>
+        <ceFullAuto>true</ceFullAuto>
         <rangeOffset>8</rangeOffset>
         <warmupTimeOffset>0.15</warmupTimeOffset>
         <projectileDamageOffset>1</projectileDamageOffset>

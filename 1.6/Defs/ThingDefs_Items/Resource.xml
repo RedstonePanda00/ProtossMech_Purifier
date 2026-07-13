@@ -6,7 +6,7 @@
     <description>A highly condensed, crystalline energy substance. The Star Eaters squad typically extracts it directly from the iron-based fusion reactor of their flagship, the "Aurora"—a reactor that achieves full mass-energy conversion by warping the Planck constant and the gravitational constant to force massive black holes into extreme Hawking radiation. Solarite is the primary energy source for most Purifier-aligned Protoss machinery. Fundamentally it is simply crystallized energy with no special tech lock: it can be produced from any high-energy device (ZPE, cold fusion, antimatter reactors, etc.), and even ordinary fusion events can crudely trigger a small emergency yield.</description>
     <graphicData>
       <texPath>Things/Resource/Solarite</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -34,7 +34,7 @@
     <description>Adanium is a kind of gravitational lattice material derived from Project Purifier. Rather than relying on physical hardness, Adanium encapsulates microscopic singularities to severely curve local spacetime. This "gravity shield" deflects kinetic and beam attacks via lensing effects and shreds targets at the atomic level using immense tidal forces upon contact. Its critical weakness is disintegration weaponry; rupturing the lattice triggers a catastrophic spatial collapse. While retaining a manageable physical mass, the material generates massive spacetime drag, making it impossible for unaugmented humans to wield and restricting its use to heavy machinery and warships.</description>
     <graphicData>
       <texPath>Things/Resource/Adanium</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>

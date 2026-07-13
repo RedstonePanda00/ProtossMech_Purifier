@@ -8,6 +8,7 @@
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/B9/B9_Barrel1</texPath>
+        <ceFullAuto>true</ceFullAuto>
         <warmupTimeOffset>-0.05</warmupTimeOffset>
         <childSlotAnchors>
             <li>

@@ -21,6 +21,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunB12Vanguard</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>B12 Vanguard</label>
         <description>A modular bullpup ballistic shotgun platform built for close assault. Its barrel assemblies can trade between compact automatic fire and high-capacity bolt-action handling, while its default 12 gauge dragon's breath shells scatter incendiary pellets at point-blank range.\n\nEach B12 Vanguard is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>

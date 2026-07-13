@@ -20,6 +20,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunB25Bulwark</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>B25 Bulwark</label>
         <description>A ballistic light machine gun built for sustained all-range suppression. It feeds 6.8x42 plastic-cased telescoped electrothermal-chemical rounds from box magazines, delivering longer bursts and stronger retained velocity than standard rifle ammunition.\n\nEach B25 Bulwark is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>

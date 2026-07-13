@@ -3,6 +3,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunC7Templar</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>C-7 Templar</label>
         <description>An automatic coil assault rifle whose design draws inspiration from ancient Earth firearms. Its accelerator fires the same 5.8x42 tungsten-alloy armor-piercing rods as the C19 Dragoon.\n\nEach C-7 Templar is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>

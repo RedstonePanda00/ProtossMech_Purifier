@@ -125,6 +125,7 @@
         <warmupTimeOffset>1.8</warmupTimeOffset>
         <burstShotCountOverride>20</burstShotCountOverride>
         <ticksBetweenBurstShotsOverride>2</ticksBetweenBurstShotsOverride>
+        <ceFullAuto>true</ceFullAuto>
         <ceShotSpreadOverride>0.018</ceShotSpreadOverride>
         <ceSwayFactorOverride>0.75</ceSwayFactorOverride>
         <ceRecoilOverride>0.45</ceRecoilOverride>

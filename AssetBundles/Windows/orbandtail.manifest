@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2025232349
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e79a1f3fbce6b00c803f4d1340994997
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e79a1f3fbce6b00c803f4d1340994997
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shaders/OrbTrail/OrbTrail.shader
+- Assets/Shaders/OrbTrail/GlowOrb.mat
+- Assets/Shaders/OrbTrail/GlowOrb.shader
+- Assets/Shaders/OrbTrail/OrbTrail.mat
+Dependencies: []

@@ -75,6 +75,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunC31Tempest</defName>
+        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
         <label>C-31 Tempest</label>
         <description>A bolt-action coil sniper cannon fitted with a compact solarite battery. It fires 30 mm SAPHE anti-structure gun grenades at high velocity, built to break cover, punish hardpoints and finish exposed targets with direct hits.\n\nEach C-31 Tempest is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>
