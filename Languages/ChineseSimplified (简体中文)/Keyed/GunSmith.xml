@@ -19,6 +19,7 @@
   <ProtossMech.GunSmithSlot.Rail>&#x5BFC;&#x8F68;</ProtossMech.GunSmithSlot.Rail>
   <ProtossMech.GunSmithSlot.Optic>&#x77C4;&#x5177;</ProtossMech.GunSmithSlot.Optic>
   <ProtossMech.GunSmithSlot.Stock>&#x67AA;&#x6258;</ProtossMech.GunSmithSlot.Stock>
+  <ProtossMech.GunSmithSlot.Grip>&#x63E1;&#x628A;</ProtossMech.GunSmithSlot.Grip>
   <ProtossMech.GunSmithSlot.Magazine>&#x5F39;&#x5323;</ProtossMech.GunSmithSlot.Magazine>
   <ProtossMech.GunSmithSlot.Ammo>&#x5F39;&#x836F;</ProtossMech.GunSmithSlot.Ammo>
   <ProtossMech.GunSmithSlot.Laser>&#x6FC0;&#x5149;&#x6307;&#x793A;&#x5668;</ProtossMech.GunSmithSlot.Laser>
@@ -33,6 +34,7 @@
   <ProtossMech.GunSmithStats.CeSwayFactor>CE &#x6447;&#x6446;&#x7CFB;&#x6570;</ProtossMech.GunSmithStats.CeSwayFactor>
   <ProtossMech.GunSmithStats.CeSightsEfficiency>CE &#x77C4;&#x5177;&#x6548;&#x7387;</ProtossMech.GunSmithStats.CeSightsEfficiency>
   <ProtossMech.GunSmithStats.CeRecoil>CE &#x540E;&#x5750;</ProtossMech.GunSmithStats.CeRecoil>
+  <ProtossMech.GunSmithStats.CeAmmoSet>CE &#x5F39;&#x836F;&#x96C6;</ProtossMech.GunSmithStats.CeAmmoSet>
   <ProtossMech.GunSmithStats.CeAmmoPrinter>CE &#x5F39;&#x836F;&#x6253;&#x5370;&#xFF1A;&#x5EF6;&#x8FDF; / &#x95F4;&#x9694; / &#x6570;&#x91CF;</ProtossMech.GunSmithStats.CeAmmoPrinter>
   <ProtossMech.GunSmithStats.SuppressPassiveReload>&#x7A7A;&#x4ED3;&#x65F6;&#x963B;&#x6B62;&#x88AB;&#x52A8;&#x6362;&#x5F39;</ProtossMech.GunSmithStats.SuppressPassiveReload>
   <ProtossMech.GunSmithStats.BurstShotCount>&#x8FDE;&#x53D1;&#x6570;</ProtossMech.GunSmithStats.BurstShotCount>
@@ -52,5 +54,20 @@
   <ProtossMech.GunSmithStats.IgnoresSmoke>&#x514D;&#x75AB;&#x70DF;&#x96FE;&#x60E9;&#x7F5A;</ProtossMech.GunSmithStats.IgnoresSmoke>
   <ProtossMech.GunSmithStats.AttachmentAdjustment>&#x914D;&#x4EF6;&#x4FEE;&#x6B63;</ProtossMech.GunSmithStats.AttachmentAdjustment>
   <ProtossMech.GunSmithStats.WeaponMultiplier>&#x6B66;&#x5668;&#x500D;&#x7387;</ProtossMech.GunSmithStats.WeaponMultiplier>
+  <ProtossMech.GunSmithStats.EqualizeAccuracy>全距离精度等于最高精度项</ProtossMech.GunSmithStats.EqualizeAccuracy>
+  <ProtossMech.GunSmithStats.CeEliminatesRecoil>CE 后坐力完全消除</ProtossMech.GunSmithStats.CeEliminatesRecoil>
+  <PM_GunSmith_UB_Unavailable>下挂发射器当前不可用。</PM_GunSmith_UB_Unavailable>
+  <PM_GunSmith_UB_Cooldown>下挂发射器冷却中：{0} 秒。</PM_GunSmith_UB_Cooldown>
+  <PM_GunSmith_UB_InvalidTarget>请选择射程内且视线可达的有效目标。</PM_GunSmith_UB_InvalidTarget>
+  <PM_GunSmith_UB_HE_Command>发射破片手雷</PM_GunSmith_UB_HE_Command>
+  <PM_GunSmith_UB_HE_Desc>向 {0} 格内的目标发射一枚破片手雷。</PM_GunSmith_UB_HE_Desc>
+  <PM_GunSmith_UB_Shotgun_Command>发射集束霰弹</PM_GunSmith_UB_Shotgun_Command>
+  <PM_GunSmith_UB_Shotgun_Desc>在 {0} 格内选择射击方向，向高亮锥形范围发射十二枚投射物。投射物采用正常的碰撞与命中逻辑。</PM_GunSmith_UB_Shotgun_Desc>
+  <PM_GunSmith_UB_Laser_Command>启动激光炮（热量 {0}%）</PM_GunSmith_UB_Laser_Command>
+  <PM_GunSmith_UB_Laser_Desc>持续灼烧 {0} 格内的敌对单位。射击时热量逐渐上升，停止后逐渐下降；达到 100% 时会向最后目标发射一枚帝王业火炮弹，并锁定系统直到热量完全归零。</PM_GunSmith_UB_Laser_Desc>
+  <PM_GunSmith_UB_Laser_Stop>停止激光炮（热量 {0}%）</PM_GunSmith_UB_Laser_Stop>
+  <PM_GunSmith_UB_Laser_StopDesc>松开扳机，使累积热量开始消散。</PM_GunSmith_UB_Laser_StopDesc>
+  <PM_GunSmith_UB_Laser_Locked>热锁定中（热量 {0}%），热量归零后才会解除。</PM_GunSmith_UB_Laser_Locked>
+  <PM_GunSmith_UB_Laser_HeatInspect>下挂激光炮热量：{0}%</PM_GunSmith_UB_Laser_HeatInspect>
 
 </LanguageData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PM_Projectile_Common_UB_HE</defName>
+    <label>underbarrel fragmentation grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Grenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>36</damageAmountBase>
+      <armorPenetrationBase>0.40</armorPenetrationBase>
+      <speed>32</speed>
+      <flyOverhead>true</flyOverhead>
+      <explosionRadius>2.35</explosionRadius>
+      <soundExplode>Explosion_Bomb</soundExplode>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PM_Projectile_Common_UB_ShotgunPellet</defName>
+    <label>underbarrel cluster pellet</label>
+    <thingClass>Bullet</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <armorPenetrationBase>0.18</armorPenetrationBase>
+      <stoppingPower>0.5</stoppingPower>
+      <speed>88</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

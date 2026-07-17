@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>PM_Mote_GunSmithUnderbarrelLaser</defName>
+    <label>underbarrel laser beam (internal)</label>
+    <thingClass>ProtossMech.GunSmith.Mote_GunSmithUnderbarrelLaser</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <fadeOutTime>0</fadeOutTime>
+      <solidTime>999999</solidTime>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <texPath>Things/Mote/GraserBeam</texPath>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>MoteBeam</shaderType>
+      <color>(1,1,1,1)</color>
+    </graphicData>
+  </ThingDef>
+
+</Defs>

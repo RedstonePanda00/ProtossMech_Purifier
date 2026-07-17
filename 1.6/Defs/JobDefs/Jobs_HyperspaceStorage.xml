@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>PM_HaulToHyperspaceStorage</defName>
+    <driverClass>ProtossMech.JobDriver_HaulToHyperspaceStorage</driverClass>
+    <reportString>depositing TargetA in hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>PM_WithdrawHyperspaceResource</defName>
+    <driverClass>ProtossMech.JobDriver_WithdrawHyperspaceResource</driverClass>
+    <reportString>retrieving materials from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>PM_RefuelFromHyperspaceStorage</defName>
+    <driverClass>ProtossMech.JobDriver_RefuelFromHyperspaceStorage</driverClass>
+    <reportString>refueling TargetB from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>PM_ReloadFromHyperspaceStorage</defName>
+    <driverClass>ProtossMech.JobDriver_ReloadFromHyperspaceStorage</driverClass>
+    <reportString>reloading TargetB from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>PM_LoadTransporterFromHyperspaceStorage</defName>
+    <driverClass>ProtossMech.JobDriver_LoadTransporterFromHyperspaceStorage</driverClass>
+    <reportString>loading TargetB from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>PM_LoadCaravanFromHyperspaceStorage</defName>
+    <driverClass>ProtossMech.JobDriver_LoadCaravanFromHyperspaceStorage</driverClass>
+    <reportString>packing caravan cargo from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>PM_CEReloadFromHyperspaceStorage</defName>
+    <driverClass>ProtossMech.JobDriver_CEReloadFromHyperspaceStorage</driverClass>
+    <reportString>reloading TargetB from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+</Defs>

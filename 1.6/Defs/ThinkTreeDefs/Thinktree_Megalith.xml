@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThinkTreeDef>
+    <defName>PM_Megalith</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+
+        <li Class="ThinkNode_ConditionalDeactivated" MayRequire="Ludeon.RimWorld.Odyssey">
+          <subNodes>
+            <li Class="JobGiver_Deactivated" />
+          </subNodes>
+        </li>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+
+        <li Class="ThinkNode_ConditionalLowEnergy" MayRequire="Ludeon.RimWorld.Biotech">
+          <subNodes>
+            <li Class="JobGiver_SelfShutdown" />
+          </subNodes>
+        </li>
+
+        <li Class="ThinkNode_ConditionalMentalState">
+          <state>BerserkMechanoid</state>
+          <subNodes>
+            <li Class="ThinkNode_Priority">
+              <subNodes>
+                <li Class="JobGiver_Berserk" />
+                <li Class="JobGiver_WanderAnywhere">
+                  <maxDanger>Deadly</maxDanger>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+
+        <li Class="ThinkNode_QueuedJob" />
+
+        <li Class="ThinkNode_ConditionalOfPlayerFaction">
+          <subNodes>
+            <li Class="ThinkNode_Tagger">
+              <tagToGive>DraftedOrder</tagToGive>
+              <subNodes>
+                <li Class="JobGiver_MoveToStandable" />
+                <li Class="JobGiver_Orders" />
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>LordDuty</treeDef>
+        </li>
+
+        <li Class="ThinkNode_ConditionalOfPlayerFaction">
+          <subNodes>
+            <li Class="ThinkNode_ConditionalNotFormingCaravan">
+              <subNodes>
+                <li Class="ThinkNode_ConditionalRecharging">
+                  <subNodes>
+                    <li Class="JobGiver_GetEnergy_Charger" />
+                  </subNodes>
+                </li>
+
+                <li Class="RsPandaLibrary.ThinkNode_ConditionalWorkMode_Flexible">
+                  <workMode>Work</workMode>
+                  <subNodes>
+                    <li Class="JobGiver_SeekAllowedArea" />
+                    <li Class="JobGiver_GetEnergy_Charger" />
+                    <li Class="ProtossMech.JobGiver_MegalithHarvest" />
+                  </subNodes>
+                </li>
+
+                <li Class="ThinkNode_ConditionalWorkMode" MayRequire="Ludeon.RimWorld.Biotech">
+                  <workMode>SelfShutdown</workMode>
+                  <subNodes>
+                    <li Class="JobGiver_SeekAllowedArea" />
+                    <li Class="JobGiver_SelfShutdown" />
+                  </subNodes>
+                </li>
+
+                <li Class="ThinkNode_ConditionalWorkMode" MayRequire="Ludeon.RimWorld.Biotech">
+                  <workMode>Recharge</workMode>
+                  <subNodes>
+                    <li Class="JobGiver_SeekAllowedArea" />
+                    <li Class="JobGiver_GetEnergy_Charger" />
+                    <li Class="JobGiver_GetEnergy_SelfShutdown">
+                      <forced>true</forced>
+                    </li>
+                  </subNodes>
+                </li>
+
+                <li Class="ThinkNode_ConditionalWorkMode" MayRequire="Ludeon.RimWorld.Biotech">
+                  <workMode>Escort</workMode>
+                  <subNodes>
+                    <li Class="JobGiver_ExitMapFollowOverseer" />
+                    <li Class="JobGiver_AIDefendOverseer" />
+                    <li Class="JobGiver_AIFollowOverseer" />
+                    <li Class="JobGiver_AIWaitWithOverseer" />
+                    <li Class="JobGiver_WanderOverseer" />
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+
+        <li Class="ThinkNode_Tagger">
+          <tagToGive>Idle</tagToGive>
+          <subNodes>
+            <li Class="JobGiver_WanderColony">
+              <maxDanger>None</maxDanger>
+            </li>
+          </subNodes>
+        </li>
+
+        <li Class="JobGiver_IdleError" />
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+</Defs>

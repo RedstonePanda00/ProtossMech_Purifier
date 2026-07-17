@@ -3,4 +3,6 @@
 
   <PM_GunC7Templar.label>C-7“圣堂武士”</PM_GunC7Templar.label>
   <PM_GunC7Templar.description>一把设计灵感来源于古代地球的全自动线圈突击步枪。它的加速器发射与C19“龙骑兵”一致的5.8x42钨合金穿甲杆。\n\n这把武器是在曙光号上的分子打印机中，直接从能量转化为物质整枪打印的。</PM_GunC7Templar.description>
+  <PM_Bullet_C7Templar_APEX_MicroMissile.label>5.8x42 微型导弹</PM_Bullet_C7Templar_APEX_MicroMissile.label>
+  <PM_Bullet_C7Templar_APEX_MicroMissile.description>由双核心系统制导的 C-7 APEX 5.8x42 微型导弹。其紧凑穿透体拥有高于 C-31 Wisp 子弹头的冲击和穿甲能力，命中后还会引爆小范围二段聚能装药。</PM_Bullet_C7Templar_APEX_MicroMissile.description>
 </LanguageData>

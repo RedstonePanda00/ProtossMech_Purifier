@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <PM_MegalithHarvesting.label>麦加利斯采集</PM_MegalithHarvesting.label>
+  <PM_MegalithHarvesting.labelShort>采集</PM_MegalithHarvesting.labelShort>
+  <PM_MegalithHarvesting.pawnLabel>麦加利斯采集者</PM_MegalithHarvesting.pawnLabel>
+  <PM_MegalithHarvesting.gerundLabel>正在远程采集</PM_MegalithHarvesting.gerundLabel>
+  <PM_MegalithHarvesting.verb>远程采集</PM_MegalithHarvesting.verb>
+</LanguageData>

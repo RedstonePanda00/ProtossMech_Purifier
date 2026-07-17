@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>PM_MegalithHarvest</defName>
+    <driverClass>ProtossMech.JobDriver_MegalithHarvest</driverClass>
+    <reportString>remote harvesting resources.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C7Templar_APEX_MicroMissile</defName>
+        <label>5.8x42 micro-missile</label>
+        <description>A twin-core-guided 5.8x42 micro-missile for the C-7 APEX system. Its compact penetrator strikes harder than a C-31 Wisp submunition before a secondary shaped charge bursts across the immediate impact area.</description>
+        <thingClass>ProtossMech.Bullet_C7TemplarApexMicroMissile</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.45,0.45)</drawSize>
+        </graphicData>
+        <comps>
+            <li Class="ProtossMech.CompProperties_C7ApexSmartMissile"/>
+        </comps>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>14</damageAmountBase>
+            <speed>80</speed>
+            <armorPenetrationBase>0.42</armorPenetrationBase>
+            <stoppingPower>1.0</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+</Defs>

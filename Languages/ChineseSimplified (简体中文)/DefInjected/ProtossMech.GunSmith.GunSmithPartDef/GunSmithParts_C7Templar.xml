@@ -7,6 +7,15 @@
   <PM_C7Templar_Barrel_02.label>20英寸长枪管</PM_C7Templar_Barrel_02.label>
   <PM_C7Templar_Barrel_02.description>为C-7精确火力配置的20英寸延长线圈枪管。更长的加速路径提升弹速、射程、穿透和远距稳定性，但会牺牲近距离操控与瞄准速度。</PM_C7Templar_Barrel_02.description>
 
+  <PM_C7Templar_Grip_01.label>C-7 圣堂武士标准握把</PM_C7Templar_Grip_01.label>
+  <PM_C7Templar_Grip_01.description>C-7 的标准手枪式握把，提供稳定且可预测的操控，不改变步枪原有的人机工效。</PM_C7Templar_Grip_01.description>
+
+  <PM_C7Templar_Grip_02.label>C-7 圣堂武士人体工学握把</PM_C7Templar_Grip_02.label>
+  <PM_C7Templar_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换，使 C-7 在各个有效距离上都更容易操控，但会增加少量重量。</PM_C7Templar_Grip_02.description>
+
+  <PM_C7Templar_Grip_03.label>C-7 圣堂武士镂空轻量握把</PM_C7Templar_Grip_03.label>
+  <PM_C7Templar_Grip_03.description>移除所有非必要材料的镂空握把，使 C-7 能更快完成举枪，但会牺牲中远距离精确射击所需的刚性支撑。</PM_C7Templar_Grip_03.description>
+
   <PM_C7Templar_Stock_01.label>框架式战术枪托</PM_C7Templar_Stock_01.label>
   <PM_C7Templar_Stock_01.description>刚性开放框架枪托，为连续点射提供稳定支撑，同时保持突击步枪应有的平衡。</PM_C7Templar_Stock_01.description>
 
@@ -24,6 +33,12 @@
 
   <PM_C7Templar_Laser_01.label>“游骑兵”盒式激光</PM_C7Templar_Laser_01.label>
   <PM_C7Templar_Laser_01.description>坚固的盒式激光指示器，用于提升C-7近距离快速捕获目标的能力。它能帮助射手把点射压向近处目标，但在远距离价值有限。</PM_C7Templar_Laser_01.description>
+
+  <PM_C7Templar_APEX_TwinCore.label>C-7 APEX 双核心智能导弹系统</PM_C7Templar_APEX_TwinCore.label>
+  <PM_C7Templar_APEX_TwinCore.description>围绕两台微型超级计算机定制的 APEX 火控改装。启用后会锁定 C-7 的长枪管、专用 APEX 激光和 APEX 智能瞄具，并以制导 5.8x42 微型导弹取代常规穿甲杆。每枚导弹都会沿计算出的弧形路线逼近目标，以高于 C-31 Wisp 子弹头的冲击和穿透命中，随后产生一次小范围二段爆炸。</PM_C7Templar_APEX_TwinCore.description>
+
+  <PM_C7Templar_APEX_Laser.label>C-7 APEX 预测激光器</PM_C7Templar_APEX_Laser.label>
+  <PM_C7Templar_APEX_Laser.description>C-7 APEX 系统的锁定激光组件。其测距脉冲会持续向双超级计算机提供近场弹道解算数据。</PM_C7Templar_APEX_Laser.description>
 
   <PM_C7Templar_Sight_01.label>毫米波战斗瞄具</PM_C7Templar_Sight_01.label>
   <PM_C7Templar_Sight_01.description>融合毫米波与光学火控的战斗瞄具，能够穿透恶劣天气、烟雾与主动迷彩，并在各作战距离提供稳定射击解算。</PM_C7Templar_Sight_01.description>

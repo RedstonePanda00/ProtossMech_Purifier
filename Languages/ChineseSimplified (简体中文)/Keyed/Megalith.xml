@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <PM_MegalithHarvest_Command>远程采集</PM_MegalithHarvest_Command>
+  <PM_MegalithHarvest_CommandDesc>选择距麦加利斯不超过{0}格的中心点。麦加利斯会在半径{1}格内采集至多{2}个连续资源格。</PM_MegalithHarvest_CommandDesc>
+  <PM_MegalithAutoHarvestMode>自动开采：{0}</PM_MegalithAutoHarvestMode>
+  <PM_MegalithAutoHarvestMode_Surface>作物和矿物</PM_MegalithAutoHarvestMode_Surface>
+  <PM_MegalithAutoHarvestMode_Deep>作物、矿物和深层矿物</PM_MegalithAutoHarvestMode_Deep>
+  <PM_MegalithAutoHarvestMode_Desc>切换自动采集是否会寻找深层矿物。自动开采深层矿物不需要开采指定。</PM_MegalithAutoHarvestMode_Desc>
+  <PM_MegalithHarvest_Unavailable>麦加利斯当前无法执行采集。</PM_MegalithHarvest_Unavailable>
+  <PM_MegalithHarvest_Busy>远程采集序列已经在执行。</PM_MegalithHarvest_Busy>
+  <PM_MegalithHarvest_CoolingDown>远程采集还需冷却{0}秒。</PM_MegalithHarvest_CoolingDown>
+  <PM_MegalithHarvest_CooldownInspect>远程采集冷却：{0}秒</PM_MegalithHarvest_CooldownInspect>
+  <PM_MegalithHarvest_InvalidCenter>采集中心必须位于麦加利斯的有效距离内。</PM_MegalithHarvest_InvalidCenter>
+  <PM_MegalithHarvest_NoResources>目标区域内没有找到有效且连续的资源格。</PM_MegalithHarvest_NoResources>
+</LanguageData>

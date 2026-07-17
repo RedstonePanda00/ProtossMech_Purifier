@@ -19,6 +19,7 @@
   <ProtossMech.GunSmithSlot.Rail>Rail</ProtossMech.GunSmithSlot.Rail>
   <ProtossMech.GunSmithSlot.Optic>Optic</ProtossMech.GunSmithSlot.Optic>
   <ProtossMech.GunSmithSlot.Stock>Stock</ProtossMech.GunSmithSlot.Stock>
+  <ProtossMech.GunSmithSlot.Grip>Grip</ProtossMech.GunSmithSlot.Grip>
   <ProtossMech.GunSmithSlot.Magazine>Magazine</ProtossMech.GunSmithSlot.Magazine>
   <ProtossMech.GunSmithSlot.Ammo>Ammo</ProtossMech.GunSmithSlot.Ammo>
   <ProtossMech.GunSmithSlot.Laser>Laser</ProtossMech.GunSmithSlot.Laser>
@@ -33,6 +34,7 @@
   <ProtossMech.GunSmithStats.CeSwayFactor>CE sway factor</ProtossMech.GunSmithStats.CeSwayFactor>
   <ProtossMech.GunSmithStats.CeSightsEfficiency>CE sights efficiency</ProtossMech.GunSmithStats.CeSightsEfficiency>
   <ProtossMech.GunSmithStats.CeRecoil>CE recoil</ProtossMech.GunSmithStats.CeRecoil>
+  <ProtossMech.GunSmithStats.CeAmmoSet>CE ammunition set</ProtossMech.GunSmithStats.CeAmmoSet>
   <ProtossMech.GunSmithStats.CeAmmoPrinter>CE ammo printer delay / interval / amount</ProtossMech.GunSmithStats.CeAmmoPrinter>
   <ProtossMech.GunSmithStats.SuppressPassiveReload>Suppresses passive reload when empty</ProtossMech.GunSmithStats.SuppressPassiveReload>
   <ProtossMech.GunSmithStats.BurstShotCount>Burst shots</ProtossMech.GunSmithStats.BurstShotCount>
@@ -52,5 +54,20 @@
   <ProtossMech.GunSmithStats.IgnoresSmoke>Ignores smoke penalty</ProtossMech.GunSmithStats.IgnoresSmoke>
   <ProtossMech.GunSmithStats.AttachmentAdjustment>Attachment adjustment</ProtossMech.GunSmithStats.AttachmentAdjustment>
   <ProtossMech.GunSmithStats.WeaponMultiplier>Weapon multiplier</ProtossMech.GunSmithStats.WeaponMultiplier>
+  <ProtossMech.GunSmithStats.EqualizeAccuracy>All range accuracy equals best band</ProtossMech.GunSmithStats.EqualizeAccuracy>
+  <ProtossMech.GunSmithStats.CeEliminatesRecoil>CE recoil eliminated</ProtossMech.GunSmithStats.CeEliminatesRecoil>
+  <PM_GunSmith_UB_Unavailable>Launcher unavailable.</PM_GunSmith_UB_Unavailable>
+  <PM_GunSmith_UB_Cooldown>Launcher cooling down: {0}s.</PM_GunSmith_UB_Cooldown>
+  <PM_GunSmith_UB_InvalidTarget>Choose a valid target in range and line of sight.</PM_GunSmith_UB_InvalidTarget>
+  <PM_GunSmith_UB_HE_Command>Fire fragmentation grenade</PM_GunSmith_UB_HE_Command>
+  <PM_GunSmith_UB_HE_Desc>Launch one fragmentation grenade at a target within {0} cells.</PM_GunSmith_UB_HE_Desc>
+  <PM_GunSmith_UB_Shotgun_Command>Fire cluster shotgun</PM_GunSmith_UB_Shotgun_Command>
+  <PM_GunSmith_UB_Shotgun_Desc>Choose a firing direction within {0} cells and release twelve projectiles through the highlighted cone. Projectiles use normal collision and impact behavior.</PM_GunSmith_UB_Shotgun_Desc>
+  <PM_GunSmith_UB_Laser_Command>Fire laser cannon ({0}% heat)</PM_GunSmith_UB_Laser_Command>
+  <PM_GunSmith_UB_Laser_Desc>Continuously burn a hostile pawn within {0} cells. Heat rises while firing and falls after stopping. Reaching 100% fires a hellsphere shot and locks the system until heat returns to zero.</PM_GunSmith_UB_Laser_Desc>
+  <PM_GunSmith_UB_Laser_Stop>Stop laser cannon ({0}% heat)</PM_GunSmith_UB_Laser_Stop>
+  <PM_GunSmith_UB_Laser_StopDesc>Release the trigger and allow accumulated heat to dissipate.</PM_GunSmith_UB_Laser_StopDesc>
+  <PM_GunSmith_UB_Laser_Locked>Thermal lock active ({0}% heat). It will release at 0%.</PM_GunSmith_UB_Laser_Locked>
+  <PM_GunSmith_UB_Laser_HeatInspect>Underbarrel laser heat: {0}%</PM_GunSmith_UB_Laser_HeatInspect>
 
 </LanguageData>

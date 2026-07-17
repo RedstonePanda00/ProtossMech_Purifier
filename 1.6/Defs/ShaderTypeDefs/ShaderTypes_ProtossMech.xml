@@ -8,4 +8,8 @@
     <defName>PM_ProtossMechShield</defName>
     <shaderPath>ProtossMech/ProtossShieldQuad</shaderPath>
   </ShaderTypeDef>
+  <ShaderTypeDef>
+    <defName>PM_HyperspaceStorageDisplay</defName>
+    <shaderPath>ProtossMech/HyperspaceStorageDisplay</shaderPath>
+  </ShaderTypeDef>
 </Defs>

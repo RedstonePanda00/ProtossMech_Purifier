@@ -10,4 +10,21 @@
   <PM_Common_Printer_MagFactory.label>&#x201C;&#x6253;&#x5370;&#x673A;&#x201D;&#x5F39;&#x5323;&#x5DE5;&#x5382;</PM_Common_Printer_MagFactory.label>
   <PM_Common_Printer_MagFactory.description>&#x4E00;&#x6B3E;&#x7D27;&#x51D1;&#x7684;&#x5FAE;&#x578B;&#x5236;&#x9020;&#x5F39;&#x5323;&#x3002;&#x6B66;&#x5668;&#x505C;&#x6B62;&#x5C04;&#x51FB;&#x4E00;&#x79D2;&#x540E;&#xFF0C;&#x5B83;&#x4F1A;&#x76F4;&#x63A5;&#x5728;&#x5F39;&#x5323;&#x5185;&#x6253;&#x5370;&#x65B0;&#x5F39;&#x836F;&#x76F4;&#x5230;&#x6EE1;&#x4ED3;&#x3002;&#x5B83;&#x4E0D;&#x6D88;&#x8017;&#x643A;&#x884C;&#x5F39;&#x836F;&#xFF0C;&#x5E76;&#x4F1A;&#x5728;&#x7A7A;&#x4ED3;&#x65F6;&#x963B;&#x6B62;&#x88AB;&#x52A8;&#x6362;&#x5F39;&#x3002;</PM_Common_Printer_MagFactory.description>
 
+  <PM_Common_BoxLaser.label>盒式战术激光器</PM_Common_BoxLaser.label>
+  <PM_Common_BoxLaser.description>紧凑的封闭式激光模块，允许射手在不妨碍枪械操作的情况下采用稳定战术姿态。它能提高中近距离目标捕获与落点精度，且没有额外操控惩罚。</PM_Common_BoxLaser.description>
+  <PM_Common_MuzzleBrake_01.label>多腔制退器</PM_Common_MuzzleBrake_01.label>
+  <PM_Common_MuzzleBrake_01.description>多级膨胀腔会迅速排出枪口热量并抑制垂直跳动，体现为缩短开火冷却时间并改善远距离精度。</PM_Common_MuzzleBrake_01.description>
+  <PM_Common_UB_FrontGrip01.label>轻型三角前握把</PM_Common_UB_FrontGrip01.label>
+  <PM_Common_UB_FrontGrip01.description>轻便的三角结构为支撑手提供稳定着力点，在几乎不增加负担的情况下改善人机工效并加快举枪。</PM_Common_UB_FrontGrip01.description>
+  <PM_Common_UB_JetGrip.label>太阳素矢量喷气握把</PM_Common_UB_JetGrip.label>
+  <PM_Common_UB_JetGrip.description>由太阳素电池供能、装有两具矢量喷口的下挂握把。推力控制器能完全抵消后坐力，并令枪械所有距离的精度都等于当前最高的那一项。</PM_Common_UB_JetGrip.description>
+  <PM_Common_UB_Launcher_HE.label>下挂破片榴弹发射器</PM_Common_UB_Launcher_HE.label>
+  <PM_Common_UB_Launcher_HE.description>由独立 Gizmo 控制的下挂发射器，能够向指定位置发射一枚破片手雷。</PM_Common_UB_Launcher_HE.description>
+  <PM_Common_UB_Launcher_Shotgun.label>下挂集束霰弹发射器</PM_Common_UB_Launcher_Shotgun.label>
+  <PM_Common_UB_Launcher_Shotgun.description>由独立 Gizmo 控制的紧凑霰弹发射器，一次指令会向目标区域释放十二枚集束弹丸。</PM_Common_UB_Launcher_Shotgun.description>
+  <PM_Common_UB_Launcher_LaserCannon.label>下挂持续激光炮</PM_Common_UB_Launcher_LaserCannon.label>
+  <PM_Common_UB_Launcher_LaserCannon.description>由独立热管理 worker 控制的持续射击激光炮。射击时热量逐步上升，停止后逐步回落；热量达到 100% 会向最后目标发射一枚帝王业火炮弹，并锁定系统直到完全冷却。</PM_Common_UB_Launcher_LaserCannon.description>
+  <PM_Common_ViperSight.label>“毒牙”虚拟瞄具</PM_Common_ViperSight.label>
+  <PM_Common_ViperSight.description>采用无框悬浮电子准心的无镜片虚拟瞄具，可在全距离提供清晰视野。极轻的发射组件能显著改善人机工效，并可发现隐身单位。</PM_Common_ViperSight.description>
+
 </LanguageData>

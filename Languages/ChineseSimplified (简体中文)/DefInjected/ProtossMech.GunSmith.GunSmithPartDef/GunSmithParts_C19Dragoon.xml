@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PM_C19Dragoon_Barrel_01.label>C19 龙骑兵精密线圈枪管</PM_C19Dragoon_Barrel_01.label>
+  <PM_C19Dragoon_Grip_01.label>C19 龙骑兵标准握把</PM_C19Dragoon_Grip_01.label>
+  <PM_C19Dragoon_Grip_01.description>C19 的标准手枪式握把，提供稳定且可预测的操控，不改变步枪原有的人机工效。</PM_C19Dragoon_Grip_01.description>
+  <PM_C19Dragoon_Grip_02.label>C19 龙骑兵人体工学握把</PM_C19Dragoon_Grip_02.label>
+  <PM_C19Dragoon_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换，使 C19 在各个有效距离上都更容易操控，但会增加少量重量。</PM_C19Dragoon_Grip_02.description>
+  <PM_C19Dragoon_Grip_03.label>C19 龙骑兵镂空轻量握把</PM_C19Dragoon_Grip_03.label>
+  <PM_C19Dragoon_Grip_03.description>移除所有非必要材料的镂空握把，使 C19 能更快完成举枪，但会牺牲中远距离精确射击所需的刚性支撑。</PM_C19Dragoon_Grip_03.description>
   <PM_C19Dragoon_Stock_01.label>C19 龙骑兵射手枪托</PM_C19Dragoon_Stock_01.label>
   <PM_C19Dragoon_Ammo_01.label>5.8x42 钨合金穿甲杆</PM_C19Dragoon_Ammo_01.label>
   <PM_C19Dragoon_Magazine_01.label>30 发 5.8x42 弹匣</PM_C19Dragoon_Magazine_01.label>

@@ -319,6 +319,47 @@
         </descriptionHyperlinks>
     </RecipeDef>
 
+    <!-- Megalith: research-display recipe only. No building lists this recipe. -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PM_GenMegalith</defName>
+        <label>gestate Protoss Megalith mech</label>
+        <description>Gestate a Protoss Megalith mechanoid.</description>
+        <gestationCycles>8</gestationCycles>
+        <researchPrerequisite>PM_PurifierProject</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>250</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Megalith>1</PM_Megalith>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Megalith</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
     <!-- Disruptor -->
      <RecipeDef ParentName="ProtossMechanoidRecipe">
         <defName>PM_GenDisruptor</defName>

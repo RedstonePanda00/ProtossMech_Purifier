@@ -77,13 +77,14 @@
     <ThingDef ParentName="BenchBase">
         <defName>ProtossForge</defName>
         <label>Forge</label>
-        <description>Protoss Forge.</description>
+        <description>The Star Devourer's forge is a compact printing unit capable of converting energy directly into matter. In theory, it should require no material input at all—only power. When questioned, the Executor offers only a perfunctory explanation: something called the “Khalai tax.”</description>
         <thingClass>Building_WorkTable</thingClass>
         <tickerType>Normal</tickerType>
         <altitudeLayer>Building</altitudeLayer>
         <passability>PassThroughOnly</passability>
         <rotatable>true</rotatable>
         <pathCost>50</pathCost>
+        <drawerType>MapMeshAndRealTime</drawerType>
         <statBases>
             <MaxHitPoints>4000</MaxHitPoints>
             <WorkToBuild>10000</WorkToBuild>

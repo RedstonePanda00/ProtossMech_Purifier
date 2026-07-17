@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_HyperspaceStorage</defName>
+    <label>hyperspace storage cabinet</label>
+    <description>A structure that stores matter in a higher dimension, granting it an almost unimaginable capacity. Its visual interface displays the stored quantity. The safety manual notes that each cabinet may hold only one type of item, and strictly forbids the storage of living beings.</description>
+    <thingClass>Building</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/HyperspaceStorage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.04,2.04)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>30</pathCost>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <canOverlapZones>false</canOverlapZones>
+    <rotatable>false</rotatable>
+    <stealable>false</stealable>
+    <notifyMapRemoved>true</notifyMapRemoved>
+    <designationCategory>Furniture</designationCategory>
+    <uiOrder>3040</uiOrder>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <PM_Adanium>10</PM_Adanium>
+    </costList>
+    <researchPrerequisites>
+      <li>PM_PurifierProject</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="ProtossMech.CompProperties_HyperspaceStorage">
+        <maxStacks>1800</maxStacks>
+      </li>
+      <li Class="ProtossMech.CompProperties_HyperspaceStorageDisplay">
+        <onlyWhenPowered>false</onlyWhenPowered>
+      </li>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>100</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>2</minDrawSize>
+        <maxDrawSize>2.5</maxDrawSize>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <constructEffect>ConstructMetal</constructEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+  </ThingDef>
+
+</Defs>

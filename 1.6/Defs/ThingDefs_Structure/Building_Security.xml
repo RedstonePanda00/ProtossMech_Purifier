@@ -142,7 +142,7 @@
   <ThingDef ParentName="PhotonCannon">
     <defName>PM_KhaydarinMonolith</defName>
     <label>Khaydarin monolith</label>
-    <description>A massive Khaydarin monolith turret that fires an anti-armor shock beam.</description>
+    <description>The Star Devourer's engineers have faithfully recreated this traditional Nerazim defensive structure. The Khaydarin monolith embedded within fires high-energy armor-piercing beams at approaching enemies.</description>
     <uiIconPath>Things/Structure/Khaydarin</uiIconPath>
     <graphicData>
       <texPath>Things/Structure/Khaydarin</texPath>
@@ -372,7 +372,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>PM_ShieldBattery</defName>
     <label>Shield battery</label>
-    <description>Consumes power from the grid to recharge Protoss shields. Restores 20 shield energy per second to one target at a time (1 W per 1 energy). A beam links the building to the target while charging.</description>
+    <description>A shield battery restores energy to nearby Protoss shields. This reliable support structure keeps warriors combat-effective for longer.</description>
     <thingClass>Building</thingClass>
     <tickerType>Normal</tickerType>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -421,6 +421,19 @@
         <radius>12</radius>
         <energyPerSecond>20</energyPerSecond>
         <powerConsumptionWhenCharging>20</powerConsumptionWhenCharging>
+      </li>
+      <li Class="ProtossMech.CompProperties_AnimatedOverlayRenderer">
+        <frameTexPathPrefix>Things/Structure/Overlays/YellowEnergyOrb/YellowEnergyOrb_</frameTexPathPrefix>
+        <frameCount>4</frameCount>
+        <ticksPerKeyFrame>20</ticksPerKeyFrame>
+        <drawSize>(0.60,0.60)</drawSize>
+        <drawOffset>(0,0,0.14)</drawOffset>
+        <altitudeOffset>0.015</altitudeOffset>
+        <scaleMin>0.97</scaleMin>
+        <scaleMax>1.03</scaleMax>
+        <rotationSpeed>12</rotationSpeed>
+        <bobAmplitude>0.01</bobAmplitude>
+        <onlyWhenPowered>true</onlyWhenPowered>
       </li>
     </comps>
     <researchPrerequisites>

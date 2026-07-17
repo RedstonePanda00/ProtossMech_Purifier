@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>PM_HaulToHyperspaceStorage</defName>
+    <label>deposit resources in hyperspace storage</label>
+    <giverClass>ProtossMech.WorkGiver_HaulToHyperspaceStorage</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>145</priorityInType>
+    <verb>deposit</verb>
+    <gerund>depositing resources in</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>PM_HyperspaceConstructionResources</defName>
+    <label>retrieve construction resources from hyperspace storage</label>
+    <giverClass>ProtossMech.WorkGiver_HyperspaceConstructionResources</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>75</priorityInType>
+    <verb>retrieve</verb>
+    <gerund>retrieving construction resources for</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+
+</Defs>

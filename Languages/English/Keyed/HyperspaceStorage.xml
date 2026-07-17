@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <PM_HyperspaceStorage_EmptyInspect>Unassigned. Select an item stack to set the stored resource.</PM_HyperspaceStorage_EmptyInspect>
+  <PM_HyperspaceStorage_StoredInspect>Stored: {0} x{1} / {2}\nStacks used: {3} / {4}</PM_HyperspaceStorage_StoredInspect>
+  <PM_HyperspaceStorage_EjectingInspect>Ejection in progress. Deposits and withdrawals are temporarily disabled.</PM_HyperspaceStorage_EjectingInspect>
+  <PM_HyperspaceStorage_SelectItem>Select first item</PM_HyperspaceStorage_SelectItem>
+  <PM_HyperspaceStorage_SelectItemDesc>Select an eligible item stack on this map. This locks the cabinet to that resource and requests its first hauling job.</PM_HyperspaceStorage_SelectItemDesc>
+  <PM_HyperspaceStorage_EjectOne>Eject 1 stack</PM_HyperspaceStorage_EjectOne>
+  <PM_HyperspaceStorage_EjectOneDesc>Eject up to one full stack. The resource assignment is cleared only if the cabinet becomes empty.</PM_HyperspaceStorage_EjectOneDesc>
+  <PM_HyperspaceStorage_EjectTen>Eject 10 stacks</PM_HyperspaceStorage_EjectTen>
+  <PM_HyperspaceStorage_EjectTenDesc>Eject up to ten full stacks. The resource assignment is cleared only if the cabinet becomes empty.</PM_HyperspaceStorage_EjectTenDesc>
+  <PM_HyperspaceStorage_EjectAll>Eject all</PM_HyperspaceStorage_EjectAll>
+  <PM_HyperspaceStorage_EjectAllDesc>Eject all stored resources over time, then clear the cabinet's resource assignment.</PM_HyperspaceStorage_EjectAllDesc>
+  <PM_HyperspaceStorage_AlreadyEjecting>An ejection request is already in progress.</PM_HyperspaceStorage_AlreadyEjecting>
+  <PM_HyperspaceStorage_InvalidItem>This item cannot be virtualized safely by hyperspace storage.</PM_HyperspaceStorage_InvalidItem>
+  <PM_HyperspaceStorage_Reject_Null>No valid item was selected.</PM_HyperspaceStorage_Reject_Null>
+  <PM_HyperspaceStorage_Reject_Forbidden>A forbidden item cannot be assigned to hyperspace storage.</PM_HyperspaceStorage_Reject_Forbidden>
+  <PM_HyperspaceStorage_Reject_ForceDeny>This item's mod explicitly disallows hyperspace storage.</PM_HyperspaceStorage_Reject_ForceDeny>
+  <PM_HyperspaceStorage_Reject_Food>Food cannot be stored in hyperspace storage.</PM_HyperspaceStorage_Reject_Food>
+  <PM_HyperspaceStorage_Reject_Rottable>Items with a rot timer cannot be stored in hyperspace storage.</PM_HyperspaceStorage_Reject_Rottable>
+  <PM_HyperspaceStorage_Reject_MedicalConsumable>Medicine and drugs cannot be stored.</PM_HyperspaceStorage_Reject_MedicalConsumable>
+  <PM_HyperspaceStorage_Reject_NotItem>Only haulable items can be stored.</PM_HyperspaceStorage_Reject_NotItem>
+  <PM_HyperspaceStorage_Reject_NotStackable>Only stackable items with a stack limit above one can be stored.</PM_HyperspaceStorage_Reject_NotStackable>
+  <PM_HyperspaceStorage_Reject_PerInstance>Items whose concrete material must be preserved cannot be stored safely.</PM_HyperspaceStorage_Reject_PerInstance>
+  <PM_HyperspaceStorage_Reject_StatefulComp>Items with quality, art, ingredients, biocoding, or other unique component state cannot be stored safely.</PM_HyperspaceStorage_Reject_StatefulComp>
+  <PM_HyperspaceStorage_Assigned>Hyperspace storage assigned to {0}.</PM_HyperspaceStorage_Assigned>
+  <PM_HyperspaceStorage_CancelAssignment>Cancel assignment</PM_HyperspaceStorage_CancelAssignment>
+  <PM_HyperspaceStorage_CancelAssignmentDesc>Clear the selected resource before the first item is deposited.</PM_HyperspaceStorage_CancelAssignmentDesc>
+
+</LanguageData>

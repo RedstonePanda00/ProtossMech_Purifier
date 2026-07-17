@@ -4,7 +4,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>PM_SolariteBattery</defName>
         <label>Solarite battery</label>
-        <description>Stores energy condensed from fusion-scale reactions. Automatically feeds the grid when power is in deficit and absorbs surplus at 100% efficiency. Slowly charges within Pylon range. At high charge, energy may be crystallized into Solarite.</description>
+        <description>This structure stores energy in any form, then crystallizes and encapsulates it as Solarite.</description>
         <thingClass>Building</thingClass>
         <tickerType>Normal</tickerType>
         <drawerType>MapMeshAndRealTime</drawerType>

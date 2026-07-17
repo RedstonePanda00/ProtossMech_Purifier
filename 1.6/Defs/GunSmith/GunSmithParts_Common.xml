@@ -142,4 +142,173 @@
         <localAttachmentOffset>(-0.18, -0.10)</localAttachmentOffset>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_BoxLaser</defName>
+        <label>box tactical laser</label>
+        <description>A compact enclosed laser module that permits a stable tactical stance without obstructing the weapon. It improves target acquisition and shot placement at close and medium range without imposing a handling penalty.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>Laser</slotId>
+        <texPath>Things/Weapon/Common/Laser_01</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>10</drawOrder>
+        <ceShotSpreadFactor>0.92</ceShotSpreadFactor>
+        <ceSwayFactor>0.92</ceSwayFactor>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.07</AccuracyShort>
+            <AccuracyMedium>0.04</AccuracyMedium>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_MuzzleBrake_01</defName>
+        <label>vented muzzle brake</label>
+        <description>A multi-baffle muzzle brake that rapidly vents propellant heat and counters vertical climb. Its improved recovery is represented by shorter firing cooldown and more consistent long-range fire.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_C31Tempest</li>
+        </compatiblePlatforms>
+        <slotId>Muzzle</slotId>
+        <texPath>Things/Weapon/Common/MuzzleBrake_01</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <ceRecoilFactor>0.75</ceRecoilFactor>
+        <statOffsets>
+            <AccuracyLong>0.06</AccuracyLong>
+            <RangedWeapon_Cooldown>-0.12</RangedWeapon_Cooldown>
+            <Mass>0.12</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_UB_FrontGrip01</defName>
+        <label>light triangular foregrip</label>
+        <description>A light triangular foregrip that braces the support hand without burdening the weapon, improving ergonomics and bringing the gun on target faster.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/Common/UB_FrontGrip01</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <warmupTimeOffset>-0.12</warmupTimeOffset>
+        <statOffsets>
+            <Mass>0.05</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_UB_JetGrip</defName>
+        <label>solarite vector-thrust grip</label>
+        <description>A solarite-cell-powered underbarrel grip with two vectoring nozzles. Its thrust controller cancels recoil completely and continuously stabilizes the weapon, raising every range band to whichever accuracy band is currently highest.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/Common/UB_JetGrip</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <equalizeAccuracyToBest>true</equalizeAccuracyToBest>
+        <ceEliminatesRecoil>true</ceEliminatesRecoil>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <Mass>0.35</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_UB_Launcher_HE</defName>
+        <label>underbarrel fragmentation launcher</label>
+        <description>A dedicated underbarrel launcher controlled through its own firing gizmo. It launches a single fragmentation grenade at the selected location.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/Common/UB_Laucher_HE</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_UnderbarrelHE</workerClass>
+        <statOffsets>
+            <Mass>1.0</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_UB_Launcher_Shotgun</defName>
+        <label>underbarrel cluster shotgun</label>
+        <description>A compact underbarrel scatter launcher controlled through its own firing gizmo. One trigger command releases a twelve-pellet cluster across the selected target area.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/Common/UB_Laucher_Shotgun</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_UnderbarrelShotgun</workerClass>
+        <statOffsets>
+            <Mass>0.9</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_UB_Launcher_LaserCannon</defName>
+        <label>underbarrel continuous laser cannon</label>
+        <description>A sustained-fire laser cannon governed by an independent thermal worker. Firing gradually raises heat while releasing the trigger cools it toward zero. It may be restarted at any heat below 100%; reaching full heat locks the system until completely cooled and discharges a final Biotech hellsphere shot at the last target.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/Common/UB_Laucher_LaserCannon</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_UnderbarrelLaserCannon</workerClass>
+        <statOffsets>
+            <Mass>1.5</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_Common_ViperSight</defName>
+        <label>"Viper" virtual sight</label>
+        <description>A lensless virtual sight whose frameless electronic reticle floats above the weapon. Its unobstructed picture remains clear at every range, while the extremely light emitter markedly improves handling and reveals cloaked targets.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_R42</li>
+            <li>PM_GunSmith_C31Tempest</li>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotId>Optic</slotId>
+        <texPath>Things/Weapon/Common/Viper_Sight</texPath>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>20</drawOrder>
+        <warmupTimeOffset>-0.18</warmupTimeOffset>
+        <detectsCloaked>true</detectsCloaked>
+        <ceShotSpreadFactor>0.90</ceShotSpreadFactor>
+        <ceSwayFactor>0.80</ceSwayFactor>
+        <ceSightsEfficiencyFactor>1.20</ceSightsEfficiencyFactor>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.05</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <AccuracyLong>0.05</AccuracyLong>
+            <Mass>0.05</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
 </Defs>

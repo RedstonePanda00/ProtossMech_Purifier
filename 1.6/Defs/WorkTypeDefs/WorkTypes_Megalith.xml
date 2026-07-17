@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkTypeDef>
+    <defName>PM_MegalithHarvesting</defName>
+    <label>Megalith harvesting</label>
+    <labelShort>harvest</labelShort>
+    <pawnLabel>Megalith harvester</pawnLabel>
+    <gerundLabel>remote harvesting</gerundLabel>
+    <verb>remote harvest</verb>
+    <visible>false</visible>
+    <alwaysStartActive>true</alwaysStartActive>
+    <naturalPriority>1000</naturalPriority>
+  </WorkTypeDef>
+
+</Defs>

@@ -3,8 +3,8 @@
   
   <!-- EN: Forge -->
   <ProtossForge.label>锻炉</ProtossForge.label>
-  <!-- EN: Protoss Forge. -->
-  <ProtossForge.description>星灵锻炉</ProtossForge.description>
+  <!-- EN: The Star Devourer's forge is a compact printing unit capable of converting energy directly into matter. In theory, it should require no material input at all—only power. When questioned, the Executor offers only a perfunctory explanation: something called the “Khalai tax.” -->
+  <ProtossForge.description>噬星者的锻炉是一个小巧的打印单元，能够直接使能量转化为对应的物质。理论上来说这使得它根本不需要接受材料作为输入，只需要供能即可。执行官对此仅有一个敷衍的解释，说是什么“卡莱税”。</ProtossForge.description>
   
   <!-- EN: Pylon -->
   <Pylon.label>水晶塔</Pylon.label>

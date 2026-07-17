@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <PM_HaulToHyperspaceStorage.label>将资源存入超空间存储柜</PM_HaulToHyperspaceStorage.label>
+  <PM_HaulToHyperspaceStorage.verb>存入</PM_HaulToHyperspaceStorage.verb>
+  <PM_HaulToHyperspaceStorage.gerund>正在将资源存入</PM_HaulToHyperspaceStorage.gerund>
+  <PM_HyperspaceConstructionResources.label>从超空间存储柜取出建造资源</PM_HyperspaceConstructionResources.label>
+  <PM_HyperspaceConstructionResources.verb>取出</PM_HyperspaceConstructionResources.verb>
+  <PM_HyperspaceConstructionResources.gerund>正在为目标取出建造资源</PM_HyperspaceConstructionResources.gerund>
+
+</LanguageData>

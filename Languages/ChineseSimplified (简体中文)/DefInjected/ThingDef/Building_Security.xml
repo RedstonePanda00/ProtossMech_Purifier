@@ -30,13 +30,13 @@
 
   <!-- EN: Shield battery -->
   <PM_ShieldBattery.label>护盾充能器</PM_ShieldBattery.label>
-  <!-- EN: Consumes power (1 W per 1 shield/s) to recharge one target at a time; beam links building and target. -->
-  <PM_ShieldBattery.description>消耗电网电力为星灵护盾充能。每秒为单个目标恢复 20 点护盾能量，每 1 点能量消耗 1 W 电力；充能时建筑与目标之间会显示连接光束。</PM_ShieldBattery.description>
+  <!-- EN: A shield battery restores energy to nearby Protoss shields. This reliable support structure keeps warriors combat-effective for longer. -->
+  <PM_ShieldBattery.description>护盾充能器为周围的星灵护盾恢复能量，这座可靠的支援建筑能有效地增加战士们在战场上的活跃时间。</PM_ShieldBattery.description>
 
   <!-- EN: Tesseract Space Cannon -->
   <PM_TesseractSpaceCannon.label>超维空间炮</PM_TesseractSpaceCannon.label>
-  <!-- EN: Fires a traceless beam once per second, dealing 5 bullet-type damage. Hit targets are briefly locked in place and interrupted for 0.5 seconds. -->
-  <PM_TesseractSpaceCannon.description>每秒发射一发无弹道光束，造成 5 点子弹类型伤害。被命中的目标会在 0.5 秒内被锁定并打断动作。</PM_TesseractSpaceCannon.description>
+  <!-- EN: This heavy cannon briefly dislodges a target's consciousness from its body, leaving it dazed for an instant. -->
+  <PM_TesseractSpaceCannon.description>这座重炮能够将目标的意志短暂地打离躯体，这会造成一瞬间的恍惚。</PM_TesseractSpaceCannon.description>
   <!-- EN: Tesseract Space Cannon -->
   <Gun_TesseractSpaceCannon.label>超维空间炮</Gun_TesseractSpaceCannon.label>
   <!-- EN: Turret gun: single instant beam, 5 damage. -->
@@ -44,8 +44,8 @@
 
   <!-- EN: Khaydarin monolith -->
   <PM_KhaydarinMonolith.label>凯达琳巨石</PM_KhaydarinMonolith.label>
-  <!-- EN: A massive Khaydarin monolith turret that fires an anti-armor shock beam. -->
-  <PM_KhaydarinMonolith.description>一座巨型的凯达琳巨石炮塔，发射反装甲震击光束。</PM_KhaydarinMonolith.description>
+  <!-- EN: The Star Devourer's engineers have faithfully recreated this traditional Nerazim defensive structure. The Khaydarin monolith embedded within fires high-energy armor-piercing beams at approaching enemies. -->
+  <PM_KhaydarinMonolith.description>噬星者的工程师忠实地还原了这座奈拉齐姆的传统防御建筑，它镶嵌的凯达琳巨石会向来袭的敌人发射高能穿甲光束。</PM_KhaydarinMonolith.description>
 
   <!-- EN: Khaydarin monolith -->
   <Gun_KhaydarinMonolith.label>凯达琳巨石炮</Gun_KhaydarinMonolith.label>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <PM_MegalithHarvest_Command>Remote harvest</PM_MegalithHarvest_Command>
+  <PM_MegalithHarvest_CommandDesc>Select a center within {0} cells. The Megalith will harvest up to {2} connected resource cells inside a {1}-cell radius.</PM_MegalithHarvest_CommandDesc>
+  <PM_MegalithAutoHarvestMode>Auto harvest: {0}</PM_MegalithAutoHarvestMode>
+  <PM_MegalithAutoHarvestMode_Surface>crops and minerals</PM_MegalithAutoHarvestMode_Surface>
+  <PM_MegalithAutoHarvestMode_Deep>crops, minerals and deep resources</PM_MegalithAutoHarvestMode_Deep>
+  <PM_MegalithAutoHarvestMode_Desc>Switches whether autonomous harvesting may target deep resources. Deep resources do not require a mining designation.</PM_MegalithAutoHarvestMode_Desc>
+  <PM_MegalithHarvest_Unavailable>The Megalith cannot harvest in its current state.</PM_MegalithHarvest_Unavailable>
+  <PM_MegalithHarvest_Busy>A remote harvest sequence is already in progress.</PM_MegalithHarvest_Busy>
+  <PM_MegalithHarvest_CoolingDown>Remote harvesting is cooling down for {0} seconds.</PM_MegalithHarvest_CoolingDown>
+  <PM_MegalithHarvest_CooldownInspect>Remote harvest cooldown: {0} seconds</PM_MegalithHarvest_CooldownInspect>
+  <PM_MegalithHarvest_InvalidCenter>The harvest center must be within range of the Megalith.</PM_MegalithHarvest_InvalidCenter>
+  <PM_MegalithHarvest_NoResources>No valid connected resources were found in that area.</PM_MegalithHarvest_NoResources>
+</LanguageData>

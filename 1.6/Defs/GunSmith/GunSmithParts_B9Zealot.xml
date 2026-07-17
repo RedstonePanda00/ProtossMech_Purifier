@@ -13,11 +13,11 @@
         <childSlotAnchors>
             <li>
                 <slotId>Laser</slotId>
-                <offset>(0.0407, 0.0024)</offset>
+                <offset>(0.1686, 0.0152)</offset>
             </li>
             <li>
                 <slotId>FrontIronSight</slotId>
-                <offset>(0.1759, -0.0224)</offset>
+                <offset>(0.2783, -0.0192)</offset>
             </li>
         </childSlotAnchors>
         <statOffsets>
@@ -25,6 +25,83 @@
             <AccuracyShort>0.03</AccuracyShort>
             <AccuracyMedium>-0.02</AccuracyMedium>
             <AccuracyLong>-0.06</AccuracyLong>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Barrel_02</defName>
+        <label>B9 Zealot reinforced barrel</label>
+        <description>A rigid, thermally reinforced barrel assembly for the B9. Its heavier structure reduces dispersion and recoil while carrying heat away from sustained automatic fire, but the added forward mass makes the weapon slower to shoulder and redirect.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B9/B9_Barrel2</texPath>
+        <drawOverBody>true</drawOverBody>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>4</rangeOffset>
+        <warmupTimeOffset>0.10</warmupTimeOffset>
+        <projectileSpeedFactor>1.08</projectileSpeedFactor>
+        <ceShotSpreadOverride>0.075</ceShotSpreadOverride>
+        <ceRecoilOverride>0.58</ceRecoilOverride>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0407, 0.0024)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.0096, -0.0160)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>-0.06</AccuracyTouch>
+            <AccuracyShort>-0.03</AccuracyShort>
+            <AccuracyMedium>0.06</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>-0.12</RangedWeapon_Cooldown>
+            <Mass>0.45</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_01</defName>
+        <label>B9 Zealot standard grip</label>
+        <description>The B9's standard pistol grip, providing predictable control without altering the weapon's original handling.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B9/B9_Grip1</texPath>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_02</defName>
+        <label>B9 Zealot ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing. It improves leverage, presentation and target transitions across the B9's engagement envelope, at the cost of a small increase in weight.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B9/B9_Grip2</texPath>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>0.01</AccuracyLong>
+            <Mass>0.08</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_03</defName>
+        <label>B9 Zealot skeletonized grip</label>
+        <description>A hollowed grip that removes every nonessential section of material. It makes the B9 faster to present, but sacrifices the rigid support needed for deliberate medium- and long-range fire.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B9/B9_Grip3</texPath>
+        <warmupTimeOffset>-0.12</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.03</AccuracyMedium>
+            <AccuracyLong>-0.05</AccuracyLong>
+            <Mass>-0.20</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
@@ -79,6 +156,23 @@
         <ceReloadTimeOffset>-0.40</ceReloadTimeOffset>
         <statOffsets>
             <Mass>0.25</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Magazine_03</defName>
+        <label>75-round 9x21mm rocket drum</label>
+        <description>A 75-round drum for sustained B9 automatic fire. Its compact helical feed more than doubles the standard magazine's capacity, but the loaded drum adds substantial weight and takes longer to lock into place.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B9/B9_Mag3</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>75</ceMagazineSize>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>0.75</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.75</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 

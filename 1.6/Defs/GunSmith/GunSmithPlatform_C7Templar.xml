@@ -9,37 +9,47 @@
         <slotAttachmentOffsets>
             <li>
                 <slotId>Barrel</slotId>
-                <offset>(-0.7066, -0.0565)</offset>
-                <gizmoOffset>(0.0422, -0.3688)</gizmoOffset>
+                <offset>(-0.7831, -0.0629)</offset>
+                <gizmoOffset>(-0.1330, -0.4230)</gizmoOffset>
             </li>
             <li>
                 <slotId>Muzzle</slotId>
                 <offset>(0, 0)</offset>
-                <gizmoOffset>(-1.7225, -0.3688)</gizmoOffset>
+                <gizmoOffset>(-2.0124, -0.4007)</gizmoOffset>
             </li>
             <li>
                 <slotId>Laser</slotId>
                 <offset>(0, 0)</offset>
-                <gizmoOffset>(-1.9404, 0.2262)</gizmoOffset>
+                <gizmoOffset>(-2.0615, 0.3951)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(-0.7933, 0.0797)</offset>
+                <gizmoOffset>(-1.5148, 0.3932)</gizmoOffset>
             </li>
             <li>
                 <slotId>Stock</slotId>
-                <offset>(0.3505, 0.0733)</offset>
-                <gizmoOffset>(0.2629, -0.0446)</gizmoOffset>
+                <offset>(0.4939, 0.0765)</offset>
+                <gizmoOffset>(0.3872, -0.0223)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Grip</slotId>
+                <offset>(0.2124, 0.1751)</offset>
+                <gizmoOffset>(-0.1112, 0.4780)</gizmoOffset>
             </li>
             <li>
                 <slotId>Magazine</slotId>
                 <offset>(-0.1235, 0.1872)</offset>
-                <gizmoOffset>(-1.0514, 0.2262)</gizmoOffset>
+                <gizmoOffset>(-1.0100, 0.4575)</gizmoOffset>
             </li>
             <li>
                 <slotId>Optic</slotId>
-                <offset>(-0.1466, -0.1649)</offset>
-                <gizmoOffset>(-0.5185, -0.2752)</gizmoOffset>
+                <offset>(-0.1562, -0.1776)</offset>
+                <gizmoOffset>(-0.4962, -0.3644)</gizmoOffset>
             </li>
             <li>
                 <slotId>RearIronSight</slotId>
-                <offset>(0.0318, -0.1617)</offset>
+                <offset>(0.0892, -0.1776)</offset>
             </li>
             <li>
                 <slotId>FrontIronSight</slotId>
@@ -56,7 +66,9 @@
             <li>Barrel</li>
             <li>Muzzle</li>
             <li>Laser</li>
+            <li>UnderBarrel</li>
             <li>Stock</li>
+            <li>Grip</li>
             <li>Magazine</li>
             <li>Optic</li>
             <li>RearIronSight</li>
@@ -65,6 +77,7 @@
         <optionalSlotIds>
             <li>Muzzle</li>
             <li>Laser</li>
+            <li>UnderBarrel</li>
             <li>Optic</li>
         </optionalSlotIds>
         <defaultParts>

@@ -56,6 +56,13 @@
   <PurifierImmortal.description>建造净化者不朽者。</PurifierImmortal.description>
   <!-- EN: Gestating mech. -->
   <PurifierImmortal.jobString>建造机械体</PurifierImmortal.jobString>
+
+  <!-- EN: gestate Protoss Megalith mech -->
+  <PM_GenMegalith.label>建造麦加利斯</PM_GenMegalith.label>
+  <!-- EN: Gestate a Protoss Megalith mechanoid. -->
+  <PM_GenMegalith.description>建造一台麦加利斯机械体。</PM_GenMegalith.description>
+  <!-- EN: Gestating mech. -->
+  <PM_GenMegalith.jobString>建造机械体</PM_GenMegalith.jobString>
   
   <!-- EN: resurrect Light Protoss mechanoid -->
   <ResurrectProtossMechLight.label>复活轻型星灵机械体</ResurrectProtossMechLight.label>

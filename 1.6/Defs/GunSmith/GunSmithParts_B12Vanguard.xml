@@ -65,6 +65,86 @@
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Barrel_03</defName>
+        <label>B12 Vanguard magazine-fed long bolt-action barrel</label>
+        <description>An extended development of the B12's bolt-action assembly. Its longer barrel improves reach and shot consistency, while a detachable-magazine feed interface allows the operator to replace the entire ammunition supply instead of loading shells one at a time. The additional length and feed hardware make the weapon heavier and slower to bring on target.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B12/B12_Barrel3</texPath>
+        <rangeOffset>4</rangeOffset>
+        <warmupTimeOffset>0.30</warmupTimeOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <providedSlots>
+            <li>
+                <slotId>Magazine</slotId>
+            </li>
+        </providedSlots>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.0760, -0.0363)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(-0.0542, -0.0011)</offset>
+            </li>
+            <li>
+                <slotId>Magazine</slotId>
+                <offset>(0.2120, 0.1150)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>-0.08</AccuracyTouch>
+            <AccuracyShort>0.01</AccuracyShort>
+            <AccuracyMedium>0.10</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <Mass>0.65</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Grip_01</defName>
+        <label>B12 Vanguard standard grip</label>
+        <description>The B12's standard polymer pistol grip, shaped for reliable control without changing the weapon's balance.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B12/B12_Grip1</texPath>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Grip_02</defName>
+        <label>B12 Vanguard threaded traction grip</label>
+        <description>A deeply threaded anti-slip grip that locks the weapon into the firing hand. It improves close-range acquisition and control, at the cost of a small amount of added material and weight.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B12/B12_Grip2</texPath>
+        <warmupTimeOffset>-0.04</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.03</AccuracyShort>
+            <AccuracyMedium>0.01</AccuracyMedium>
+            <Mass>0.05</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Grip_03</defName>
+        <label>B12 Vanguard skeletonized grip</label>
+        <description>A hollowed, skeletonized grip that reduces weight and speeds presentation. Its open structure provides less support during deliberate fire, trading medium- and long-range stability for mobility.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B12/B12_Grip3</texPath>
+        <warmupTimeOffset>-0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.02</AccuracyTouch>
+            <AccuracyShort>0.01</AccuracyShort>
+            <AccuracyMedium>-0.03</AccuracyMedium>
+            <AccuracyLong>-0.04</AccuracyLong>
+            <Mass>-0.15</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B12Vanguard_Stock_01</defName>
         <label>B12 Vanguard bullpup stock</label>
         <description>Standard B12 Vanguard stock and rear receiver module. Placeholder balance.</description>
@@ -75,6 +155,68 @@
             <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
             <Mass>0.1</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Stock_02</defName>
+        <label>B12 Vanguard ergonomic recoil pad</label>
+        <description>A contoured ergonomic buttpad that spreads recoil across the shoulder and improves repeat-shot recovery. It adds some weight behind the receiver, but makes the B12 steadier throughout its practical engagement envelope.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Stock</slotId>
+        <texPath>Things/Weapon/B12/B12_Stock2</texPath>
+        <warmupTimeOffset>-0.05</warmupTimeOffset>
+        <ceRecoilOverride>1.70</ceRecoilOverride>
+        <statOffsets>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <AccuracyLong>0.03</AccuracyLong>
+            <RangedWeapon_Cooldown>-0.10</RangedWeapon_Cooldown>
+            <Mass>0.25</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Ammo_01</defName>
+        <label>B12 Vanguard short detachable magazine</label>
+        <description>The standard short magazine used by the magazine-fed B12 barrel when Combat Extended is not active.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B12/B12_Mag1</texPath>
+        <iconPath>Things/Weapon/B12/B12_Ammo_DragonBreath</iconPath>
+        <selectable>false</selectable>
+        <excludesCombatExtended>true</excludesCombatExtended>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Magazine_01</defName>
+        <label>10-round B12 detachable magazine</label>
+        <description>A compact 10-round detachable magazine for the B12's magazine-fed barrel. It replaces the weapon's full ammunition supply in one operation instead of requiring individual shells to be loaded.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B12/B12_Mag1</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>10</ceMagazineSize>
+        <statOffsets>
+            <Mass>0.15</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B12Vanguard_Magazine_02</defName>
+        <label>20-round B12 extended magazine</label>
+        <description>An extended 20-round detachable magazine for the B12. It doubles the short magazine's capacity for sustained fighting, but its larger shell stack adds weight and takes longer to seat securely.</description>
+        <platformDef>PM_GunSmith_B12Vanguard</platformDef>
+        <slotId>Magazine</slotId>
+        <texPath>Things/Weapon/B12/B12_Mag2</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>20</ceMagazineSize>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>0.65</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.55</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 

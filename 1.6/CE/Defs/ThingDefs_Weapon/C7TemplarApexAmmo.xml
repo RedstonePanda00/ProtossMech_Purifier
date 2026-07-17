@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_C7Templar_58x42MicroMissile</defName>
+        <label>5.8x42 micro-missile</label>
+        <labelShort>5.8x42 missile</labelShort>
+        <description>A miniature guided missile built for the C-7 APEX twin-core fire-control system. It combines a hardened penetrator with a compact secondary shaped charge.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoC7TemplarApex</defName>
+        <label>5.8x42 micro-missiles</label>
+        <parent>AmmoRifles</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_C7Templar_APEX_MicroMissile</defName>
+        <label>5.8x42 micro-missiles</label>
+        <ammoTypes>
+            <PM_Ammo_C7Templar_APEX_MicroMissile>PM_Bullet_C7Templar_APEX_MicroMissile_CE</PM_Ammo_C7Templar_APEX_MicroMissile>
+        </ammoTypes>
+        <similarTo>PM_AmmoSet_C19Dragoon</similarTo>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_C7Templar_APEX_MicroMissile</defName>
+        <label>5.8x42 micro-missile</label>
+        <description>A twin-core-guided 5.8x42 micro-missile for the C-7 APEX system. Its hardened nose exceeds a Wisp submunition's impact and penetration before a compact secondary charge detonates.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/C19Dragoon/58x42_TungstenPenetrator</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.020</Mass>
+            <Bulk>0.020</Bulk>
+        </statBases>
+        <ammoClass>PM_C7Templar_58x42MicroMissile</ammoClass>
+        <cookOffProjectile>PM_Bullet_C7Templar_APEX_MicroMissile_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoC7TemplarApex</li>
+        </thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_C7Templar_APEX_MicroMissile</defName>
+        <label>make 5.8x42 micro-missiles x300</label>
+        <description>Craft 300 guided 5.8x42 micro-missiles for the C-7 APEX twin-core system.</description>
+        <jobString>Making 5.8x42 micro-missiles.</jobString>
+        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <ingredients>
+            <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>18</count></li>
+            <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>6</count></li>
+            <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>12</count></li>
+            <li><filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter><count>1</count></li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Plasteel</li>
+                <li>Chemfuel</li>
+                <li>ComponentSpacer</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_C7Templar_APEX_MicroMissile>300</PM_Ammo_C7Templar_APEX_MicroMissile>
+        </products>
+        <workAmount>6800</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_C7Templar_APEX_MicroMissile_CE</defName>
+        <label>5.8x42 micro-missile</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.45,0.45)</drawSize>
+        </graphicData>
+        <comps>
+            <li Class="ProtossMech.CompProperties_C7ApexSmartMissile"/>
+        </comps>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>14</damageAmountBase>
+            <armorPenetrationSharp>24</armorPenetrationSharp>
+            <armorPenetrationBlunt>120</armorPenetrationBlunt>
+            <speed>80</speed>
+            <secondaryDamage>
+                <li>
+                    <def>Bomb_Secondary</def>
+                    <amount>10</amount>
+                </li>
+            </secondaryDamage>
+            <explosionRadius>0.65</explosionRadius>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

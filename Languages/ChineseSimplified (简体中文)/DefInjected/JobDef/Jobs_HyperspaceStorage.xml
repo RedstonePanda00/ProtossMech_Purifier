@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <PM_HaulToHyperspaceStorage.reportString>正在将TargetA存入超空间存储柜。</PM_HaulToHyperspaceStorage.reportString>
+  <PM_WithdrawHyperspaceResource.reportString>正在从超空间存储柜取出材料。</PM_WithdrawHyperspaceResource.reportString>
+  <PM_RefuelFromHyperspaceStorage.reportString>正在用超空间存储柜中的资源为TargetB补充燃料。</PM_RefuelFromHyperspaceStorage.reportString>
+  <PM_ReloadFromHyperspaceStorage.reportString>正在用超空间存储柜中的资源为TargetB装填。</PM_ReloadFromHyperspaceStorage.reportString>
+  <PM_LoadTransporterFromHyperspaceStorage.reportString>正在用超空间存储柜中的资源装载TargetB。</PM_LoadTransporterFromHyperspaceStorage.reportString>
+  <PM_LoadCaravanFromHyperspaceStorage.reportString>正在从超空间存储柜打包商队物资。</PM_LoadCaravanFromHyperspaceStorage.reportString>
+  <PM_CEReloadFromHyperspaceStorage.reportString>正在用超空间存储柜中的弹药装填TargetB。</PM_CEReloadFromHyperspaceStorage.reportString>
+
+</LanguageData>

@@ -43,6 +43,12 @@
     </ProtossMech.GunSmith.GunSmithSlotDef>
 
     <ProtossMech.GunSmith.GunSmithSlotDef>
+        <defName>Grip</defName>
+        <label>Grip</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </ProtossMech.GunSmith.GunSmithSlotDef>
+
+    <ProtossMech.GunSmith.GunSmithSlotDef>
         <defName>Magazine</defName>
         <label>Magazine</label>
         <drawsUnderBody>true</drawsUnderBody>

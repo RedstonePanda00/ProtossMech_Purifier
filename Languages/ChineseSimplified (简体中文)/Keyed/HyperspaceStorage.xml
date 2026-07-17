@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <PM_HyperspaceStorage_EmptyInspect>尚未指定。请选择一堆物品来设定存储类型。</PM_HyperspaceStorage_EmptyInspect>
+  <PM_HyperspaceStorage_StoredInspect>已存储：{0} x{1} / {2}\n已用堆数：{3} / {4}</PM_HyperspaceStorage_StoredInspect>
+  <PM_HyperspaceStorage_EjectingInspect>正在弹出物资，暂时禁止存入和取出。</PM_HyperspaceStorage_EjectingInspect>
+  <PM_HyperspaceStorage_SelectItem>选择首件物品</PM_HyperspaceStorage_SelectItem>
+  <PM_HyperspaceStorage_SelectItemDesc>选择本地图上的一堆合格物品。存储柜将锁定为该物资，并请求第一次搬运。</PM_HyperspaceStorage_SelectItemDesc>
+  <PM_HyperspaceStorage_EjectOne>弹出1堆</PM_HyperspaceStorage_EjectOne>
+  <PM_HyperspaceStorage_EjectOneDesc>最多弹出一整堆。仅在存储柜因此清空时解除物资类型锁定。</PM_HyperspaceStorage_EjectOneDesc>
+  <PM_HyperspaceStorage_EjectTen>弹出10堆</PM_HyperspaceStorage_EjectTen>
+  <PM_HyperspaceStorage_EjectTenDesc>最多弹出十整堆。仅在存储柜因此清空时解除物资类型锁定。</PM_HyperspaceStorage_EjectTenDesc>
+  <PM_HyperspaceStorage_EjectAll>弹出全部</PM_HyperspaceStorage_EjectAll>
+  <PM_HyperspaceStorage_EjectAllDesc>逐步弹出全部库存，完成后解除存储柜的物资类型锁定。</PM_HyperspaceStorage_EjectAllDesc>
+  <PM_HyperspaceStorage_AlreadyEjecting>已有弹出请求正在执行。</PM_HyperspaceStorage_AlreadyEjecting>
+  <PM_HyperspaceStorage_InvalidItem>该物品包含无法安全虚拟化的状态，不能存入超空间存储柜。</PM_HyperspaceStorage_InvalidItem>
+  <PM_HyperspaceStorage_Reject_Null>未选择有效物品。</PM_HyperspaceStorage_Reject_Null>
+  <PM_HyperspaceStorage_Reject_Forbidden>被禁用的物品不能用于指定超空间存储柜。</PM_HyperspaceStorage_Reject_Forbidden>
+  <PM_HyperspaceStorage_Reject_ForceDeny>该物品所属模组明确禁止其进入超空间存储柜。</PM_HyperspaceStorage_Reject_ForceDeny>
+  <PM_HyperspaceStorage_Reject_Food>食物不能存入超空间存储柜。</PM_HyperspaceStorage_Reject_Food>
+  <PM_HyperspaceStorage_Reject_Rottable>带有腐烂计时的物品不能存入超空间存储柜。</PM_HyperspaceStorage_Reject_Rottable>
+  <PM_HyperspaceStorage_Reject_MedicalConsumable>药物不可储存。</PM_HyperspaceStorage_Reject_MedicalConsumable>
+  <PM_HyperspaceStorage_Reject_NotItem>仅可存储能够搬运的物品。</PM_HyperspaceStorage_Reject_NotItem>
+  <PM_HyperspaceStorage_Reject_NotStackable>仅可存储堆叠上限大于1的可堆叠物品。</PM_HyperspaceStorage_Reject_NotStackable>
+  <PM_HyperspaceStorage_Reject_PerInstance>需要保留具体材质的物品无法安全存储。</PM_HyperspaceStorage_Reject_PerInstance>
+  <PM_HyperspaceStorage_Reject_StatefulComp>带有品质、艺术、原料记录、生物编码或其他独特组件状态的物品无法安全存储。</PM_HyperspaceStorage_Reject_StatefulComp>
+  <PM_HyperspaceStorage_Assigned>超空间存储柜已指定为：{0}。</PM_HyperspaceStorage_Assigned>
+  <PM_HyperspaceStorage_CancelAssignment>取消指定</PM_HyperspaceStorage_CancelAssignment>
+  <PM_HyperspaceStorage_CancelAssignmentDesc>在第一件物品存入之前，清除当前选择的物资类型。</PM_HyperspaceStorage_CancelAssignmentDesc>
+
+</LanguageData>

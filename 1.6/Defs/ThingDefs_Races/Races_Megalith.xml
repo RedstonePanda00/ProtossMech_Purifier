@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ProtossMechanoid">
+    <defName>PM_Megalith</defName>
+    <label>Megalith</label>
+    <description>A towering Purifier industrial mech built for remote mass excavation. Its seven coherent harvesting beams can lock onto crops, buried machinery, deep deposits, and stone formations, then route compatible products directly into assigned hyperspace storage.</description>
+    <statBases>
+      <BandwidthCost>8</BandwidthCost>
+    </statBases>
+    <race>
+      <body>PM_ColossusBody</body>
+      <thinkTreeMain>PM_Megalith</thinkTreeMain>
+      <mechWeightClass>UltraHeavy</mechWeightClass>
+      <baseBodySize>12</baseBodySize>
+      <mechEnabledWorkTypes>
+        <li>PM_MegalithHarvesting</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Apocriton_Wounded</soundWounded>
+          <soundAngry>Pawn_Mech_Apocriton_Call</soundAngry>
+          <soundDeath>Pawn_Mech_Apocriton_Death</soundDeath>
+          <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools Inherit="False">
+      <li>
+        <label>massive frame</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>400</energyMax>
+        <energyGainPerTick>0.25</energyGainPerTick>
+        <ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>0</minDrawSize>
+        <maxDrawSize>3.4</maxDrawSize>
+      </li>
+      <li Class="ProtossMech.CompProperties_MegalithHarvester">
+        <selectionRange>8</selectionRange>
+        <harvestRadius>4</harvestRadius>
+        <maxTargets>7</maxTargets>
+        <scanTicks>60</scanTicks>
+        <lockWaitTicks>30</lockWaitTicks>
+        <cooldownTicks>30</cooldownTicks>
+      </li>
+      <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
+        <hediffDefs>
+          <li>PM_Floating</li>
+        </hediffDefs>
+        <checkInterval>240</checkInterval>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="NonCombatProtossMechanoidKind">
+    <defName>PM_Megalith</defName>
+    <label>Megalith</label>
+    <race>PM_Megalith</race>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Megalith</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Cutout</shaderType>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>0</weaponMoney>
+    <weaponTags Inherit="False" />
+    <techHediffsChance>0</techHediffsChance>
+    <techHediffsMoney>0</techHediffsMoney>
+  </PawnKindDef>
+
+</Defs>

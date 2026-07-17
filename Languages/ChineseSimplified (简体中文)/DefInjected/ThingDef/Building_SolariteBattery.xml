@@ -3,7 +3,7 @@
 
   <!-- EN: Solarite battery -->
   <PM_SolariteBattery.label>太阳素电池</PM_SolariteBattery.label>
-  <!-- EN: Stores energy condensed from fusion-scale reactions and feeds it into the power grid at a player-set wattage. Slowly charges within Pylon range. At high charge, energy may be crystallized into Solarite. -->
-  <PM_SolariteBattery.description>储存聚变量级反应凝结的能量。电网缺电时自动向电网送电直至平衡；以 100% 效率吸收电网余电。在水晶塔范围内可缓慢充能；蓄能足够高时可将能量结晶化为太阳素。</PM_SolariteBattery.description>
+  <!-- EN: This structure stores energy in any form, then crystallizes and encapsulates it as Solarite. -->
+  <PM_SolariteBattery.description>这座建筑存储任何形式的能量，并且把它们结晶并封装为太阳素。</PM_SolariteBattery.description>
 
 </LanguageData>

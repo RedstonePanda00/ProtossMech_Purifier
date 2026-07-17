@@ -87,4 +87,15 @@
         </value>
     </Operation>
 
+    <!-- Vanilla APEX forces a visual-only magazine while it owns ammunition behavior. Under CE
+         the Magazine slot represents detachable magazine hardware, while ammo type is constrained
+         by ceAmmoSetOverride, so restore the real magazine slot only in the CE load folder. -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ProtossMech.GunSmith.GunSmithPartDef[defName="PM_C7Templar_APEX_TwinCore"]/apexForcedParts/li[slotId="Magazine"]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ProtossMech.GunSmith.GunSmithPartDef[defName="PM_C7Templar_APEX_TwinCore"]/apexHiddenSlotIds/li[text()="Magazine"]</xpath>
+    </Operation>
+
 </Patch>

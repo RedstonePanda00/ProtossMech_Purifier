@@ -271,6 +271,32 @@
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
+    <ProtossMech.WarpReinforcementDef>
+        <defName>PM_WarpMegalith</defName>
+        <label>Megalith</label>
+        <description>Warp in a Megalith remote harvesting mech.</description>
+        <pawnDefName>PM_Megalith</pawnDefName>
+        <costList>
+            <li>
+                <thingDef>PM_Adanium</thingDef>
+                <count>250</count>
+            </li>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>100</count>
+            </li>
+            <li>
+                <thingDef>AIPersonaCore</thingDef>
+                <count>1</count>
+            </li>
+        </costList>
+        <warpInTicks>300</warpInTicks>
+        <researchPrerequisites>
+            <li>PM_PurifierProject</li>
+        </researchPrerequisites>
+        <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
+    </ProtossMech.WarpReinforcementDef>
+
     <!-- Umbra -->
     <ProtossMech.WarpReinforcementDef>
         <defName>PM_WarpUmbra</defName>

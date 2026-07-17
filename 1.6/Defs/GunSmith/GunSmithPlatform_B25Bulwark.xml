@@ -7,13 +7,15 @@
         <weaponThingDef>PM_GunB25Bulwark</weaponThingDef>
         <bodyTexPath>Things/Weapon/B25/B25_Body</bodyTexPath>
         <slotAttachmentOffsets>
-            <li><slotId>Barrel</slotId><offset>(-0.2911, -0.0826)</offset><gizmoOffset>(-0.0937, -0.2462)</gizmoOffset></li>
+            <li><slotId>Barrel</slotId><offset>(-0.4005, -0.0372)</offset><gizmoOffset>(-0.0937, -0.2462)</gizmoOffset></li>
             <li><slotId>Muzzle</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.4900, -0.2421)</gizmoOffset></li>
             <li><slotId>Laser</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.4756, 0.2353)</gizmoOffset></li>
-            <li><slotId>Stock</slotId><offset>(0.4459, -0.0557)</offset><gizmoOffset>(0.0916, -0.0819)</gizmoOffset></li>
-            <li><slotId>Magazine</slotId><offset>(-0.0413, 0.0454)</offset><gizmoOffset>(-0.8831, 0.2546)</gizmoOffset></li>
-            <li><slotId>Optic</slotId><offset>(-0.0062, -0.1507)</offset><gizmoOffset>(-0.3514, -0.2870)</gizmoOffset></li>
-            <li><slotId>RearIronSight</slotId><offset>(0.1406, -0.1536)</offset></li>
+            <li><slotId>UnderBarrel</slotId><offset>(-0.2374, 0.0619)</offset><gizmoOffset>(-1.1695, 0.2642)</gizmoOffset></li>
+            <li><slotId>Stock</slotId><offset>(0.4480, -0.0062)</offset><gizmoOffset>(0.0916, -0.0819)</gizmoOffset></li>
+            <li><slotId>Grip</slotId><offset>(0.2066, 0.1154)</offset><gizmoOffset>(-0.2383, 0.2801)</gizmoOffset></li>
+            <li><slotId>Magazine</slotId><offset>(-0.0372, 0.0867)</offset><gizmoOffset>(-0.8831, 0.2546)</gizmoOffset></li>
+            <li><slotId>Optic</slotId><offset>(-0.0041, -0.1094)</offset><gizmoOffset>(-0.3514, -0.2870)</gizmoOffset></li>
+            <li><slotId>RearIronSight</slotId><offset>(0.1406, -0.1082)</offset></li>
             <li><slotId>FrontIronSight</slotId><offset>(-0.05, -0.02)</offset></li>
         </slotAttachmentOffsets>
         <bakeTextureSize>512</bakeTextureSize>
@@ -25,7 +27,9 @@
             <li>Barrel</li>
             <li>Muzzle</li>
             <li>Laser</li>
+            <li>UnderBarrel</li>
             <li>Stock</li>
+            <li>Grip</li>
             <li>Magazine</li>
             <li>Optic</li>
             <li>RearIronSight</li>
@@ -34,6 +38,7 @@
         <optionalSlotIds>
             <li>Muzzle</li>
             <li>Laser</li>
+            <li>UnderBarrel</li>
             <li>Optic</li>
         </optionalSlotIds>
         <defaultParts>

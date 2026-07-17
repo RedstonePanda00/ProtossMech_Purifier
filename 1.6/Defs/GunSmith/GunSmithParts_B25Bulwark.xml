@@ -14,21 +14,109 @@
         <childSlotAnchors>
             <li>
                 <slotId>Muzzle</slotId>
-                <offset>(-0.3726, -0.0080)</offset>
+                <offset>(-0.2570, -0.0080)</offset>
             </li>
             <li>
                 <slotId>Laser</slotId>
-                <offset>(-0.0481, 0.0437)</offset>
+                <offset>(0.0758, 0.0499)</offset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.1631, 0.0991)</offset>
             </li>
             <li>
                 <slotId>FrontIronSight</slotId>
-                <offset>(0.0681, 0.0495)</offset>
+                <offset>(0.1445, 0.0577)</offset>
             </li>
         </childSlotAnchors>
         <statOffsets>
             <AccuracyMedium>0.03</AccuracyMedium>
             <AccuracyLong>0.02</AccuracyLong>
             <Mass>0.25</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Barrel_02</defName>
+        <label>B25 Bulwark reinforced long barrel</label>
+        <description>A longer, heavily reinforced B25 barrel with an expanded thermal jacket and rigid truss. The additional mass lowers dispersion, absorbs recoil and carries heat away during sustained bursts, but makes the weapon heavier and slower to shoulder or redirect.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Barrel</slotId>
+        <texPath>Things/Weapon/B25/B25_Barrel2</texPath>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>5</rangeOffset>
+        <warmupTimeOffset>0.20</warmupTimeOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <ceShotSpreadOverride>0.045</ceShotSpreadOverride>
+        <ceRecoilOverride>1.15</ceRecoilOverride>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.3987, 0.0001)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0717, 0.0524)</offset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.1631, 0.0991)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.0124, 0.0668)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>-0.08</AccuracyTouch>
+            <AccuracyShort>-0.05</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <RangedWeapon_Cooldown>-0.20</RangedWeapon_Cooldown>
+            <Mass>0.90</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_01</defName>
+        <label>B25 Bulwark standard grip</label>
+        <description>The B25's standard heavy-weapon pistol grip, providing predictable control without shifting the platform's handling characteristics.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B25/B25_Grip1</texPath>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_02</defName>
+        <label>B25 Bulwark ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing. It improves leverage and target transitions across the B25's engagement envelope, at the cost of a small increase in weight.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B25/B25_Grip2</texPath>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>0.01</AccuracyLong>
+            <Mass>0.08</Mass>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_03</defName>
+        <label>B25 Bulwark skeletonized grip</label>
+        <description>A hollowed grip that removes every nonessential section of material. It makes the heavy B25 faster to present, but sacrifices the rigid support needed for precise medium- and long-range suppression.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B25/B25_Grip3</texPath>
+        <warmupTimeOffset>-0.12</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.03</AccuracyMedium>
+            <AccuracyLong>-0.05</AccuracyLong>
+            <Mass>-0.20</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 

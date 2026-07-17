@@ -7,13 +7,15 @@
         <weaponThingDef>PM_GunC19Dragoon</weaponThingDef>
         <bodyTexPath>Things/Weapon/C19/C19_Body</bodyTexPath>
         <slotAttachmentOffsets>
-            <li><slotId>Barrel</slotId><offset>(-0.9017, -0.1338)</offset><gizmoOffset>(-0.3251, -0.5331)</gizmoOffset></li>
-            <li><slotId>Muzzle</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.9901, -0.5235)</gizmoOffset></li>
-            <li><slotId>Laser</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.9786, 0.3710)</gizmoOffset></li>
-            <li><slotId>Stock</slotId><offset>(0.5385, -0.0414)</offset><gizmoOffset>(0.3786, -0.1538)</gizmoOffset></li>
-            <li><slotId>Magazine</slotId><offset>(-0.2676, 0.0255)</offset><gizmoOffset>(-1.4054, 0.3724)</gizmoOffset></li>
-            <li><slotId>Optic</slotId><offset>(-0.2963, -0.2581)</offset><gizmoOffset>(-0.4763, -0.4156)</gizmoOffset></li>
-            <li><slotId>RearIronSight</slotId><offset>(0.0016, -0.2582)</offset></li>
+            <li><slotId>Barrel</slotId><offset>(-0.9056, -0.0439)</offset><gizmoOffset>(-0.5792, -0.5096)</gizmoOffset></li>
+            <li><slotId>Muzzle</slotId><offset>(0, 0)</offset><gizmoOffset>(-2.3850, -0.5079)</gizmoOffset></li>
+            <li><slotId>Laser</slotId><offset>(0, 0)</offset><gizmoOffset>(-2.4243, 0.4101)</gizmoOffset></li>
+            <li><slotId>UnderBarrel</slotId><offset>(-0.7936, 0.0782)</offset><gizmoOffset>(-1.8992, 0.4318)</gizmoOffset></li>
+            <li><slotId>Stock</slotId><offset>(0.4369, 0.0642)</offset><gizmoOffset>(0.3903, -0.0287)</gizmoOffset></li>
+            <li><slotId>Grip</slotId><offset>(0.1315, 0.1677)</offset><gizmoOffset>(-0.2095, 0.4727)</gizmoOffset></li>
+            <li><slotId>Magazine</slotId><offset>(-0.2363, 0.1037)</offset><gizmoOffset>(-1.4093, 0.4428)</gizmoOffset></li>
+            <li><slotId>Optic</slotId><offset>(-0.2846, -0.1682)</offset><gizmoOffset>(-0.4763, -0.4156)</gizmoOffset></li>
+            <li><slotId>RearIronSight</slotId><offset>(0.0094, -0.1761)</offset></li>
             <li><slotId>FrontIronSight</slotId><offset>(-0.02, -0.01)</offset></li>
         </slotAttachmentOffsets>
         <bakeTextureSize>512</bakeTextureSize>
@@ -26,7 +28,9 @@
             <li>Barrel</li>
             <li>Muzzle</li>
             <li>Laser</li>
+            <li>UnderBarrel</li>
             <li>Stock</li>
+            <li>Grip</li>
             <li>Magazine</li>
             <li>Optic</li>
             <li>RearIronSight</li>
@@ -35,6 +39,7 @@
         <optionalSlotIds>
             <li>Muzzle</li>
             <li>Laser</li>
+            <li>UnderBarrel</li>
             <li>Optic</li>
         </optionalSlotIds>
         <defaultParts>

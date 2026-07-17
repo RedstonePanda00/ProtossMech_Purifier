@@ -37,6 +37,19 @@
             <li Class="ProtossMech.CompProperties_WarpGate">
                 <cooldownTicks>5000</cooldownTicks>
             </li>
+            <li Class="ProtossMech.CompProperties_AnimatedOverlayRenderer">
+                <frameTexPathPrefix>Things/Structure/Overlays/YellowEnergyOrb/YellowEnergyOrb_</frameTexPathPrefix>
+                <frameCount>4</frameCount>
+                <ticksPerKeyFrame>20</ticksPerKeyFrame>
+                <drawSize>(0.95,0.95)</drawSize>
+                <drawOffset>(0.08,0,0.2)</drawOffset>
+                <altitudeOffset>0.015</altitudeOffset>
+                <scaleMin>0.97</scaleMin>
+                <scaleMax>1.03</scaleMax>
+                <rotationSpeed>12</rotationSpeed>
+                <bobAmplitude>0.01</bobAmplitude>
+                <onlyWhenPowered>false</onlyWhenPowered>
+            </li>
 
             <li Class="CompProperties_Glower">
                 <overlightRadius>5</overlightRadius>
@@ -90,6 +103,19 @@
         <comps>
             <li Class="ProtossMech.CompProperties_WarpGate">
                 <cooldownTicks>5000</cooldownTicks>
+            </li>
+            <li Class="ProtossMech.CompProperties_AnimatedOverlayRenderer">
+                <frameTexPathPrefix>Things/Structure/Overlays/YellowEnergyOrb/YellowEnergyOrb_</frameTexPathPrefix>
+                <frameCount>4</frameCount>
+                <ticksPerKeyFrame>20</ticksPerKeyFrame>
+                <drawSize>(1.00,1.00)</drawSize>
+                <drawOffset>(-0.05,0,-0.18)</drawOffset>
+                <altitudeOffset>0.015</altitudeOffset>
+                <scaleMin>0.97</scaleMin>
+                <scaleMax>1.03</scaleMax>
+                <rotationSpeed>12</rotationSpeed>
+                <bobAmplitude>0.01</bobAmplitude>
+                <onlyWhenPowered>false</onlyWhenPowered>
             </li>
 
             <li Class="CompProperties_Glower">

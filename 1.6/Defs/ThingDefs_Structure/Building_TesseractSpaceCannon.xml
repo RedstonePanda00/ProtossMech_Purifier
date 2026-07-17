@@ -5,7 +5,7 @@
   <ThingDef ParentName="PhotonCannon">
     <defName>PM_TesseractSpaceCannon</defName>
     <label>Tesseract Space Cannon</label>
-    <description>Fires a traceless beam once per second, dealing 5 bullet-type damage. Hit targets are briefly locked in place and interrupted for 0.5 seconds.</description>
+    <description>This heavy cannon briefly dislodges a target's consciousness from its body, leaving it dazed for an instant.</description>
     <uiIconPath>Things/Structure/TesseractCannon</uiIconPath>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
@@ -38,6 +38,7 @@
     <building>
       <turretGunDef>Gun_TesseractSpaceCannon</turretGunDef>
       <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+      <turretTopDrawSize>2.0</turretTopDrawSize>
     </building>
     <researchPrerequisites>
       <li>PM_PurifierProject</li>
