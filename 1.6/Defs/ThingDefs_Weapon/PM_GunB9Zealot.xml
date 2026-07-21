@@ -3,6 +3,7 @@
 
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_B9Zealot</defName>
+        <thingClass>ProtossMech.Bullet_B9ZealotAirburst</thingClass>
         <label>9x21mm mini airburst rocket</label>
         <description>A 9x21mm mini airburst rocket with a compact proximity fuze. It sacrifices penetrator mass for a small close-range burst around exposed targets.</description>
         <graphicData>
@@ -15,7 +16,6 @@
             <speed>130</speed>
             <armorPenetrationBase>0.20</armorPenetrationBase>
             <stoppingPower>0.8</stoppingPower>
-            <explosionRadius>0.5</explosionRadius>
         </projectile>
     </ThingDef>
 

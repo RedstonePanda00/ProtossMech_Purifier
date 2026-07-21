@@ -3,8 +3,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Barrel_01</defName>
-        <label>C19 Dragoon precision coil barrel</label>
-        <description>A precision coil barrel tuned for the C19 Dragoon's medium-long range firing solution. Its longer acceleration path favors velocity and consistency over close-range handling.</description>
+        <label>precision coil barrel</label>
+        <description>A precision coil barrel tuned for medium- and long-range firing solutions. Its longer acceleration path provides higher projectile velocity, but the added weight sacrifices close-range handling.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/C19/C19_Barrel1</texPath>
@@ -29,6 +29,7 @@
             </li>
         </childSlotAnchors>
         <statOffsets>
+            <AccuracyTouch>-0.03</AccuracyTouch>
             <AccuracyMedium>0.04</AccuracyMedium>
             <AccuracyLong>0.06</AccuracyLong>
             <Mass>0.2</Mass>
@@ -37,8 +38,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Grip_01</defName>
-        <label>C19 Dragoon standard grip</label>
-        <description>The C19's standard pistol grip, providing predictable control without altering the rifle's original handling.</description>
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/C19/C19_Grip1</texPath>
@@ -46,8 +47,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Grip_02</defName>
-        <label>C19 Dragoon ergonomic grip</label>
-        <description>A contoured ergonomic grip with pronounced finger indexing. It improves leverage, presentation and target transitions across the C19's engagement envelope, at the cost of a small increase in weight.</description>
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/C19/C19_Grip2</texPath>
@@ -63,8 +64,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Grip_03</defName>
-        <label>C19 Dragoon skeletonized grip</label>
-        <description>A hollowed grip that removes every nonessential section of material. It makes the C19 faster to present, but sacrifices the rigid support needed for deliberate medium- and long-range fire.</description>
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/C19/C19_Grip3</texPath>
@@ -72,7 +73,6 @@
         <statOffsets>
             <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
-            <AccuracyMedium>-0.03</AccuracyMedium>
             <AccuracyLong>-0.05</AccuracyLong>
             <Mass>-0.20</Mass>
         </statOffsets>
@@ -80,20 +80,19 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Stock_01</defName>
-        <label>C19 Dragoon folding stock</label>
-        <description>A compact folding stock for the C19 Dragoon. It keeps the rifle light and quick to present, but gives up some long-range stability compared with rigid marksman stocks.</description>
+        <label>light folding stock</label>
+        <description>A compact folding stock that provides stable support and increases movement speed. It can also be folded while moving to improve portability.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C7Templar</li>
         </compatiblePlatforms>
         <slotId>Stock</slotId>
         <texPath>Things/Weapon/C19/C19_Stock1</texPath>
-        <warmupTimeOffset>-0.10</warmupTimeOffset>
+        <wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset>
         <statOffsets>
             <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
-            <AccuracyMedium>-0.01</AccuracyMedium>
-            <AccuracyLong>-0.04</AccuracyLong>
+            <AccuracyMedium>0.02</AccuracyMedium>
             <Mass>-0.2</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
@@ -101,7 +100,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Ammo_01</defName>
         <label>5.8x42 tungsten-alloy penetrators</label>
-        <description>5.8x42 tungsten-alloy armor-piercing rods for the C19 Dragoon. Placeholder balance.</description>
+        <description>A tungsten-alloy armor-piercing projectile capable of penetrating the armor of light infantry fighting vehicles and robots.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C19/C19_Mag1</texPath>
@@ -113,7 +112,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Magazine_01</defName>
         <label>30-round 5.8x42 magazine</label>
-        <description>Combat Extended C19 Dragoon magazine holding 30 rounds of 5.8x42 ammunition.</description>
+        <description>A standard transparent polymer magazine.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C19/C19_Mag1</texPath>
@@ -123,7 +122,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C19Dragoon_Magazine_02</defName>
         <label>30-round 5.8x42 flip magazine</label>
-        <description>Two opposed C19 Dragoon 30-round magazines bound together for a faster flip reload. It keeps standard loaded capacity but reduces reload time.</description>
+        <description>Two opposed 30-round magazines bound together for a faster flip reload. It reduces reload time but adds weight.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C19/C19_Mag2</texPath>

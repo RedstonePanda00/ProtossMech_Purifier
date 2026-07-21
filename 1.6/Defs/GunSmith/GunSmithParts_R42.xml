@@ -3,8 +3,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Barrel_01</defName>
-        <label>R-42 long barrel</label>
-        <description>An extended electromagnetic acceleration barrel for the R-42 DeadEye. Its longer acceleration path drives the slug to greater velocity, improving effective range, terminal force, armor penetration, and long-range consistency at the cost of weight and handling.</description>
+        <label>long barrel</label>
+        <description>An extended electromagnetic acceleration barrel. Its longer acceleration path drives the slug to greater velocity, improving effective range, terminal force, armor penetration, and long-range consistency at the cost of weight and handling.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/RailGun/R42_Barrel_01</texPath>
@@ -22,8 +22,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Barrel_02</defName>
-        <label>R-42 short barrel</label>
-        <description>A compact electromagnetic acceleration barrel that reduces forward weight and brings the R-42 on target faster. The shortened acceleration path sacrifices range, muzzle velocity, penetration, and long-range stability.</description>
+        <label>short barrel</label>
+        <description>A compact electromagnetic acceleration barrel that reduces forward weight and brings the weapon on target faster. The shortened acceleration path sacrifices range, muzzle velocity, penetration, and long-range stability.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/RailGun/R42_Barrel_02</texPath>
@@ -43,7 +43,7 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Rail_01</defName>
-        <label>R-42 long rail</label>
+        <label>long rail</label>
         <description>A full-length dual rail assembly that supplies stronger electromagnetic thrust and maintains a more stable acceleration field. It supports extreme-range fire at the cost of additional mass and a slower firing solution.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Rail</slotId>
@@ -63,7 +63,7 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Rail_02</defName>
-        <label>R-42 assault rail</label>
+        <label>assault rail</label>
         <description>A compact magnetic constraint assembly that reduces forward inertia for faster target acquisition. It remains effective at close and medium range, but gives up some projectile velocity, penetration, and long-range stability.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Rail</slotId>
@@ -126,7 +126,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x100</defName>
         <label>8×100 mm tungsten-rhenium slug</label>
-        <description>The standard R-42 rail slug. Its 100 mm tungsten-rhenium penetrator balances mass, handling and armor penetration.</description>
+        <description>A standard rail slug. Its 100 mm tungsten-rhenium penetrator balances mass, handling and armor penetration.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Ammo</slotId>
         <texPath>Things/Weapon/RailGun/CE/8x100AP</texPath>
@@ -139,7 +139,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x80</defName>
         <label>8×80 mm tungsten-rhenium slug</label>
-        <description>A shorter R-42 rail slug with reduced penetrator length. It preserves the weapon's firing behavior while reducing armor penetration.</description>
+        <description>A shorter rail slug with reduced penetrator length. It preserves the weapon's firing behavior while reducing armor penetration.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Ammo</slotId>
         <texPath>Things/Weapon/RailGun/CE/8x80AP</texPath>
@@ -152,7 +152,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x120</defName>
         <label>8×120 mm tungsten-rhenium slug</label>
-        <description>An extended R-42 rail slug built around a 120 mm tungsten-rhenium penetrator. It maximizes armor penetration without changing the rifle's firing cycle.</description>
+        <description>An extended rail slug built around a 120 mm tungsten-rhenium penetrator. It maximizes armor penetration without changing the rifle's firing cycle.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Ammo</slotId>
         <texPath>Things/Weapon/RailGun/CE/8x120AP</texPath>
@@ -171,7 +171,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_APEX_ChargedBarrel</defName>
         <label>"DragonBreath" charged barrel</label>
-        <description>An APEX charging barrel that stores energy before firing, driving the projectile to extreme muzzle velocity. Air trapped in the bore is heated into plasma and expelled with the slug, producing a secondary plasma detonation after the kinetic impact. When complete, this system will transform the R-42 from an anti-materiel rifle into a plasma-rail sniper cannon.</description>
+        <description>An APEX charging barrel that stores energy before firing, driving the projectile to extreme muzzle velocity. Air trapped in the bore is heated into plasma and expelled with the slug, producing a secondary plasma detonation after the kinetic impact. When complete, this system will transform an anti-materiel rifle into a plasma-rail sniper cannon.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Barrel</texPath>

@@ -29,7 +29,7 @@
         <label>5.8x42 micro-missile</label>
         <description>A twin-core-guided 5.8x42 micro-missile for the C-7 APEX system. Its hardened nose exceeds a Wisp submunition's impact and penetration before a compact secondary charge detonates.</description>
         <graphicData>
-            <texPath>Things/Weapon/Ammo/C19Dragoon/58x42_TungstenPenetrator</texPath>
+            <texPath>Things/Weapon/Ammo/C7APEX/58x42_Missile</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>

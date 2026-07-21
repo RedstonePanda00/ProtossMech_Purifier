@@ -55,6 +55,15 @@
   <ProtossMech.GunSmithStats.AttachmentAdjustment>&#x914D;&#x4EF6;&#x4FEE;&#x6B63;</ProtossMech.GunSmithStats.AttachmentAdjustment>
   <ProtossMech.GunSmithStats.WeaponMultiplier>&#x6B66;&#x5668;&#x500D;&#x7387;</ProtossMech.GunSmithStats.WeaponMultiplier>
   <ProtossMech.GunSmithStats.EqualizeAccuracy>全距离精度等于最高精度项</ProtossMech.GunSmithStats.EqualizeAccuracy>
+  <ProtossMech.DualWield.PrimaryHoldFire>主枪：停火</ProtossMech.DualWield.PrimaryHoldFire>
+  <ProtossMech.DualWield.SecondaryHoldFire>副枪：停火</ProtossMech.DualWield.SecondaryHoldFire>
+  <ProtossMech.DualWield.PrimaryHoldFireDesc>阻止主枪开火；副枪仍可攻击共享目标。</ProtossMech.DualWield.PrimaryHoldFireDesc>
+  <ProtossMech.DualWield.SecondaryHoldFireDesc>阻止镜像副枪开火；主枪仍可攻击共享目标。</ProtossMech.DualWield.SecondaryHoldFireDesc>
+  <ProtossMech.DualWield.Ammo>双持弹药：{0}/{1} | {2}/{3}</ProtossMech.DualWield.Ammo>
+  <ProtossMech.DualWield.AmmoDesc>主枪与镜像副枪的独立弹匣。</ProtossMech.DualWield.AmmoDesc>
+        <ProtossMech.DualWield.AmmoUnavailable>双持弹药：等待 CE 弹匣</ProtossMech.DualWield.AmmoUnavailable>
+        <ProtossMech.DualWield.SecondaryAmmo>副枪弹药</ProtossMech.DualWield.SecondaryAmmo>
+        <ProtossMech.DualWield.SecondaryAmmoDesc>镜像副枪独立弹匣中的剩余弹药。</ProtossMech.DualWield.SecondaryAmmoDesc>
   <ProtossMech.GunSmithStats.CeEliminatesRecoil>CE 后坐力完全消除</ProtossMech.GunSmithStats.CeEliminatesRecoil>
   <PM_GunSmith_UB_Unavailable>下挂发射器当前不可用。</PM_GunSmith_UB_Unavailable>
   <PM_GunSmith_UB_Cooldown>下挂发射器冷却中：{0} 秒。</PM_GunSmith_UB_Cooldown>

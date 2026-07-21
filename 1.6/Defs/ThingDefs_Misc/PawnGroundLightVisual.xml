@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- One attached visual layer. It never registers with GlowGrid. -->
+  <ThingDef ParentName="MoteBase">
+    <defName>PM_PawnGroundLightVisual</defName>
+    <label>pawn ground light visual</label>
+    <thingClass>MoteAttached</thingClass>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Mote/BrightFlash</texPath>
+      <graphicClass>Graphic_Mote</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(2, 2)</drawSize>
+      <color>(255, 180, 80, 85)</color>
+    </graphicData>
+    <mote>
+      <fadeInTime>0.08</fadeInTime>
+      <solidTime>999999</solidTime>
+      <fadeOutTime>0.08</fadeOutTime>
+      <needsMaintenance>true</needsMaintenance>
+    </mote>
+  </ThingDef>
+</Defs>

@@ -28,7 +28,7 @@
         <defName>PM_Ammo_B12Vanguard_DragonsBreath</defName>
         <label>12 gauge dragon's breath shell</label>
         <description>An incendiary 12 gauge dragon's breath shell that scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition.</description>
-        <graphicData><texPath>Things/Weapon/B12/B12_Ammo_DragonBreath</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+        <graphicData><texPath>Things/Weapon/Ammo/B12/DragonBreath</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
         <statBases><Mass>0.045</Mass><Bulk>0.045</Bulk></statBases>
         <ammoClass>PM_B12Vanguard_12GaugeDragonsBreath</ammoClass>
         <cookOffProjectile>PM_Bullet_B12Vanguard_CE</cookOffProjectile>

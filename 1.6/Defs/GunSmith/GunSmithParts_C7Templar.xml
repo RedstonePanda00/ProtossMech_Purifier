@@ -4,7 +4,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Barrel_01</defName>
         <label>assault coil barrel</label>
-        <description>A compact multi-stage coil barrel tuned for assault fire. It extends the acceleration path without compromising the C-7's handling.</description>
+        <description>A compact multi-stage coil barrel tuned for assault fire.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Barrel_01</texPath>
@@ -41,7 +41,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Barrel_02</defName>
         <label>20-inch long barrel</label>
-        <description>A 20-inch extended coil barrel for deliberate C-7 fire. The longer acceleration path improves velocity, reach, penetration and long-range stability, at the cost of close handling and target acquisition speed.</description>
+        <description>A 20-inch extended coil barrel. Its longer acceleration path improves velocity, range, penetration, and long-range stability, but sacrifices close-range handling and aiming speed.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Barrel_02</texPath>
@@ -80,8 +80,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Grip_01</defName>
-        <label>C-7 Templar standard grip</label>
-        <description>The C-7's standard pistol grip, providing predictable control without altering the rifle's original handling.</description>
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Grip1</texPath>
@@ -89,8 +89,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Grip_02</defName>
-        <label>C-7 Templar ergonomic grip</label>
-        <description>A contoured ergonomic grip with pronounced finger indexing. It improves leverage, presentation and target transitions across the C-7's engagement envelope, at the cost of a small increase in weight.</description>
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Grip2</texPath>
@@ -106,8 +106,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Grip_03</defName>
-        <label>C-7 Templar skeletonized grip</label>
-        <description>A hollowed grip that removes every nonessential section of material. It makes the C-7 faster to present, but sacrifices the rigid support needed for deliberate medium- and long-range fire.</description>
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/C7Templar/C7_Grip3</texPath>
@@ -115,7 +115,6 @@
         <statOffsets>
             <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
-            <AccuracyMedium>-0.03</AccuracyMedium>
             <AccuracyLong>-0.05</AccuracyLong>
             <Mass>-0.20</Mass>
         </statOffsets>
@@ -124,7 +123,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Stock_01</defName>
         <label>frame tactical stock</label>
-        <description>A rigid open-frame stock that stabilizes sustained bursts while retaining the balance expected of an assault rifle.</description>
+        <description>A rigid open-frame stock that provides stable support, increases firing accuracy, and slightly increases weight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -133,7 +132,7 @@
         <texPath>Things/Weapon/C7Templar/C7_stock_01</texPath>
         <drawOverBody>true</drawOverBody>
         <statOffsets>
-            <AccuracyTouch>-0.03</AccuracyTouch>
+            <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.04</AccuracyShort>
             <AccuracyMedium>0.06</AccuracyMedium>
             <AccuracyLong>0.02</AccuracyLong>
@@ -144,7 +143,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Stock_02</defName>
         <label>light folding stock</label>
-        <description>A compact folding stock that strips weight from the C-7 and speeds presentation. It favors mobile close engagements over sustained long-range stability.</description>
+        <description>A compact telescoping stock that reduces weight and increases movement speed. It suits mobile operations and close-range engagements, but reduces long-range stability.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -152,7 +151,7 @@
         <slotId>Stock</slotId>
         <texPath>Things/Weapon/C7Templar/C7_stock_02</texPath>
         <drawOverBody>true</drawOverBody>
-        <warmupTimeOffset>-0.10</warmupTimeOffset>
+        <wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset>
         <statOffsets>
             <AccuracyTouch>0.04</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
@@ -165,7 +164,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Ammo_01</defName>
         <label>5.8x42 tungsten-alloy penetrators</label>
-        <description>5.8x42 tungsten-alloy armor-piercing rods shared with the C19 Dragoon.</description>
+        <description>A tungsten-alloy armor-piercing projectile capable of penetrating the armor of light infantry fighting vehicles and robots.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
@@ -177,7 +176,7 @@
     <!-- Visual-only magazine used while vanilla APEX owns the ammunition behavior. -->
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_APEX_MagazineVisual</defName>
-        <label>C-7 APEX locked magazine</label>
+        <label>APEX locked magazine</label>
         <description>The retained magazine housing while the APEX twin-core system controls ammunition selection.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Magazine</slotId>
@@ -189,7 +188,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Magazine_01</defName>
         <label>30-round assault magazine</label>
-        <description>A compact 30-round C-7 assault magazine configured for Combat Extended ammunition handling.</description>
+        <description>The default 30-round assault magazine.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
@@ -199,7 +198,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Magazine_02</defName>
         <label>45-round extended magazine</label>
-        <description>A longer C-7 Combat Extended magazine holding 45 rounds. Its additional capacity increases sustained fire but adds weight and slows reloads.</description>
+        <description>A 45-round extended magazine that improves sustained fire but adds weight and slows reloading.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C7Templar/C7_magazine_02</texPath>
@@ -216,7 +215,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Laser_01</defName>
         <label>Ranger box laser</label>
-        <description>A rugged boxed laser designator for fast close-range C-7 target acquisition. It helps the shooter drive bursts onto nearby targets, but contributes little at long range.</description>
+        <description>A boxed laser designator that provides fast close-range pointing but offers limited value at long range.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -239,8 +238,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_APEX_TwinCore</defName>
-        <label>C-7 APEX twin-core smart missile system</label>
-        <description>A bespoke APEX fire-control conversion built around two miniature supercomputers. Activating it locks the C-7 into its long barrel, dedicated APEX laser and APEX smart sight, then replaces conventional 5.8x42 penetrators with guided 5.8x42 micro-missiles. Each missile follows a computed curved approach, punches harder than a C-31 Wisp submunition and finishes with a compact secondary blast.</description>
+        <label>APEX twin-core smart missile system</label>
+        <description>A bespoke APEX fire-control conversion built around two miniature supercomputers. It replaces conventional penetrators with 5.8x42mm micro-missiles fitted with plasma warheads. Each missile tracks the current target and flies toward a vital body part.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Optic</slotId>
         <texPath>Things/Weapon/C7Templar/APEX/C7_APEX_Sight</texPath>
@@ -288,8 +287,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_APEX_Laser</defName>
-        <label>C-7 APEX predictive laser</label>
-        <description>The locked laser component of the C-7 APEX system. Its ranging pulses feed the twin supercomputers a continuous near-field trajectory solution.</description>
+        <label>APEX guidance calculation unit</label>
+        <description>The supercomputer at the muzzle assigns targets to missiles and calculates their paths and swarm behavior.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <slotId>Laser</slotId>
         <texPath>Things/Weapon/C7Templar/APEX/C7_APEX_Laser</texPath>

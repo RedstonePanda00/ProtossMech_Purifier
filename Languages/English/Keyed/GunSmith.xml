@@ -55,6 +55,15 @@
   <ProtossMech.GunSmithStats.AttachmentAdjustment>Attachment adjustment</ProtossMech.GunSmithStats.AttachmentAdjustment>
   <ProtossMech.GunSmithStats.WeaponMultiplier>Weapon multiplier</ProtossMech.GunSmithStats.WeaponMultiplier>
   <ProtossMech.GunSmithStats.EqualizeAccuracy>All range accuracy equals best band</ProtossMech.GunSmithStats.EqualizeAccuracy>
+  <ProtossMech.DualWield.PrimaryHoldFire>Primary gun: hold fire</ProtossMech.DualWield.PrimaryHoldFire>
+  <ProtossMech.DualWield.SecondaryHoldFire>Secondary gun: hold fire</ProtossMech.DualWield.SecondaryHoldFire>
+  <ProtossMech.DualWield.PrimaryHoldFireDesc>Prevent the primary gun from firing. The secondary gun can still attack the shared target.</ProtossMech.DualWield.PrimaryHoldFireDesc>
+  <ProtossMech.DualWield.SecondaryHoldFireDesc>Prevent the mirrored secondary gun from firing. The primary gun can still attack the shared target.</ProtossMech.DualWield.SecondaryHoldFireDesc>
+  <ProtossMech.DualWield.Ammo>Dual ammo: {0}/{1} | {2}/{3}</ProtossMech.DualWield.Ammo>
+  <ProtossMech.DualWield.AmmoDesc>Primary and mirrored secondary magazines.</ProtossMech.DualWield.AmmoDesc>
+        <ProtossMech.DualWield.AmmoUnavailable>Dual ammo: waiting for CE magazine</ProtossMech.DualWield.AmmoUnavailable>
+        <ProtossMech.DualWield.SecondaryAmmo>Secondary gun ammo</ProtossMech.DualWield.SecondaryAmmo>
+        <ProtossMech.DualWield.SecondaryAmmoDesc>Remaining rounds in the independent mirrored secondary-gun magazine.</ProtossMech.DualWield.SecondaryAmmoDesc>
   <ProtossMech.GunSmithStats.CeEliminatesRecoil>CE recoil eliminated</ProtossMech.GunSmithStats.CeEliminatesRecoil>
   <PM_GunSmith_UB_Unavailable>Launcher unavailable.</PM_GunSmith_UB_Unavailable>
   <PM_GunSmith_UB_Cooldown>Launcher cooling down: {0}s.</PM_GunSmith_UB_Cooldown>

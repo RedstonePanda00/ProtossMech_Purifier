@@ -6,6 +6,8 @@
         <label>B25 Bulwark</label>
         <weaponThingDef>PM_GunB25Bulwark</weaponThingDef>
         <bodyTexPath>Things/Weapon/B25/B25_Body</bodyTexPath>
+        <dualWieldSeparation>0.38</dualWieldSeparation>
+        <dualWieldMuzzleOffset>(0.82, 0)</dualWieldMuzzleOffset>
         <slotAttachmentOffsets>
             <li><slotId>Barrel</slotId><offset>(-0.4005, -0.0372)</offset><gizmoOffset>(-0.0937, -0.2462)</gizmoOffset></li>
             <li><slotId>Muzzle</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.4900, -0.2421)</gizmoOffset></li>

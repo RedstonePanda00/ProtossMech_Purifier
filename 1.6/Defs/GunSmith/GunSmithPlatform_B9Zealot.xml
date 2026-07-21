@@ -6,6 +6,8 @@
         <label>B9 Zealot</label>
         <weaponThingDef>PM_GunB9Zealot</weaponThingDef>
         <bodyTexPath>Things/Weapon/B9/B9_Body</bodyTexPath>
+        <dualWieldSeparation>0.29</dualWieldSeparation>
+        <dualWieldMuzzleOffset>(0.67, 0)</dualWieldMuzzleOffset>
         <slotAttachmentOffsets>
             <li><slotId>Barrel</slotId><offset>(-0.4383, -0.0704)</offset><gizmoOffset>(0.0262, -0.4335)</gizmoOffset></li>
             <li><slotId>Laser</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.5086, 0.3882)</gizmoOffset></li>

@@ -3,8 +3,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Barrel_01</defName>
-        <label>B25 Bulwark quick-change barrel</label>
-        <description>A quick-change barrel for sustained all-range suppression. Its standard barrel profile preserves handling while supporting long bursts.</description>
+        <label>quick-change barrel</label>
+        <description>A quick-change barrel for sustained all-range suppression that can be replaced rapidly in the field.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/B25/B25_Barrel1</texPath>
@@ -38,8 +38,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Barrel_02</defName>
-        <label>B25 Bulwark reinforced long barrel</label>
-        <description>A longer, heavily reinforced B25 barrel with an expanded thermal jacket and rigid truss. The additional mass lowers dispersion, absorbs recoil and carries heat away during sustained bursts, but makes the weapon heavier and slower to shoulder or redirect.</description>
+        <label>reinforced long barrel</label>
+        <description>A longer barrel and handguard that increase muzzle velocity while improving recoil control and heat dissipation. The extra weight slows aim and makes the weapon harder to carry.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/B25/B25_Barrel2</texPath>
@@ -79,8 +79,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_01</defName>
-        <label>B25 Bulwark standard grip</label>
-        <description>The B25's standard heavy-weapon pistol grip, providing predictable control without shifting the platform's handling characteristics.</description>
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/B25/B25_Grip1</texPath>
@@ -88,8 +88,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_02</defName>
-        <label>B25 Bulwark ergonomic grip</label>
-        <description>A contoured ergonomic grip with pronounced finger indexing. It improves leverage and target transitions across the B25's engagement envelope, at the cost of a small increase in weight.</description>
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/B25/B25_Grip2</texPath>
@@ -105,8 +105,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_03</defName>
-        <label>B25 Bulwark skeletonized grip</label>
-        <description>A hollowed grip that removes every nonessential section of material. It makes the heavy B25 faster to present, but sacrifices the rigid support needed for precise medium- and long-range suppression.</description>
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/B25/B25_Grip3</texPath>
@@ -114,16 +114,32 @@
         <statOffsets>
             <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
-            <AccuracyMedium>-0.03</AccuracyMedium>
             <AccuracyLong>-0.05</AccuracyLong>
             <Mass>-0.20</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_04</defName>
+        <label>"Titan" dual-wield grip</label>
+        <description>Allows the user to fire two weapons simultaneously, trading long-range precision for extreme close-range firepower. It is a technique normally reserved for legion soldiers.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B25/B25_Grip1</texPath>
+        <iconPath>Things/Weapon/B25/B25_DualGrip_Icon</iconPath>
+        <enablesDualWield>true</enablesDualWield>
+        <ceShotSpreadFactor>1.50</ceShotSpreadFactor>
+        <ceSwayFactor>1.35</ceSwayFactor>
+        <statOffsets>
+            <AccuracyMedium>-0.35</AccuracyMedium>
+            <AccuracyLong>-0.50</AccuracyLong>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Stock_01</defName>
-        <label>B25 Bulwark support stock</label>
-        <description>Standard B25 Bulwark support stock. Placeholder balance.</description>
+        <label>standard stock</label>
+        <description>A standard stock with soft materials for a more comfortable shooting experience.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Stock</slotId>
         <texPath>Things/Weapon/B25/B25_Stock1</texPath>
@@ -139,8 +155,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Ammo_01</defName>
-        <label>6.8x42 ETC rounds</label>
-        <description>6.8x42 electrothermal-chemical rounds for the B25 Bulwark. Placeholder balance.</description>
+        <label>6.8x42 electrothermal-chemical caseless telescoped rounds</label>
+        <description>6.8x42 electrothermal-chemical caseless telescoped rounds. Their caseless construction reduces mass and volume, while high-density chemical fuel produces greater muzzle velocity than conventional propellant.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/B25/B25_Mag1</texPath>
@@ -152,8 +168,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Magazine_01</defName>
-        <label>80-round 6.8x42 box magazine</label>
-        <description>Combat Extended B25 Bulwark box magazine. Placeholder balance.</description>
+        <label>80-round box magazine</label>
+        <description>A standard 80-round magazine for belt-fed machine guns.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/B25/B25_Mag1</texPath>

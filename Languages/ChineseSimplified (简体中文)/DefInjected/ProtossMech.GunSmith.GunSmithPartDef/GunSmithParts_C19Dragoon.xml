@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PM_C19Dragoon_Barrel_01.label>C19 龙骑兵精密线圈枪管</PM_C19Dragoon_Barrel_01.label>
-  <PM_C19Dragoon_Grip_01.label>C19 龙骑兵标准握把</PM_C19Dragoon_Grip_01.label>
-  <PM_C19Dragoon_Grip_01.description>C19 的标准手枪式握把，提供稳定且可预测的操控，不改变步枪原有的人机工效。</PM_C19Dragoon_Grip_01.description>
-  <PM_C19Dragoon_Grip_02.label>C19 龙骑兵人体工学握把</PM_C19Dragoon_Grip_02.label>
-  <PM_C19Dragoon_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换，使 C19 在各个有效距离上都更容易操控，但会增加少量重量。</PM_C19Dragoon_Grip_02.description>
-  <PM_C19Dragoon_Grip_03.label>C19 龙骑兵镂空轻量握把</PM_C19Dragoon_Grip_03.label>
-  <PM_C19Dragoon_Grip_03.description>移除所有非必要材料的镂空握把，使 C19 能更快完成举枪，但会牺牲中远距离精确射击所需的刚性支撑。</PM_C19Dragoon_Grip_03.description>
-  <PM_C19Dragoon_Stock_01.label>C19 龙骑兵射手枪托</PM_C19Dragoon_Stock_01.label>
+  <PM_C19Dragoon_Barrel_01.label>加长线圈枪管</PM_C19Dragoon_Barrel_01.label>
+  <PM_C19Dragoon_Barrel_01.description>为中远距离射击解算调校的精密线圈枪管。更长的加速路径提供更高的弹速，但增加的重量会牺牲近距离操控。</PM_C19Dragoon_Barrel_01.description>
+  <PM_C19Dragoon_Grip_01.label>标准握把</PM_C19Dragoon_Grip_01.label>
+  <PM_C19Dragoon_Grip_01.description>标准手枪式握把，提供稳定且可预测的操控。</PM_C19Dragoon_Grip_01.description>
+  <PM_C19Dragoon_Grip_02.label>人体工学握把</PM_C19Dragoon_Grip_02.label>
+  <PM_C19Dragoon_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换。</PM_C19Dragoon_Grip_02.description>
+  <PM_C19Dragoon_Grip_03.label>镂空轻量握把</PM_C19Dragoon_Grip_03.label>
+  <PM_C19Dragoon_Grip_03.description>移除所有非必要材料的镂空握把，使射手能更快完成举枪，但会牺牲远距离精确射击所需的刚性支撑。</PM_C19Dragoon_Grip_03.description>
+  <PM_C19Dragoon_Stock_01.label>轻型折叠枪托</PM_C19Dragoon_Stock_01.label>
+  <PM_C19Dragoon_Stock_01.description>紧凑折叠枪托。提供稳定的支撑，并且增加移动速度，也可以在移动时折叠枪托来增加便携性。</PM_C19Dragoon_Stock_01.description>
   <PM_C19Dragoon_Ammo_01.label>5.8x42 钨合金穿甲杆</PM_C19Dragoon_Ammo_01.label>
-  <PM_C19Dragoon_Magazine_01.label>30 发 5.8x42 弹匣</PM_C19Dragoon_Magazine_01.label>
-  <PM_C19Dragoon_Magazine_02.label>30 发 5.8x42 翻转弹匣</PM_C19Dragoon_Magazine_02.label>
+  <PM_C19Dragoon_Ammo_01.description>钨合金穿甲弹头，能够穿透轻型步战车和机器人的护甲。</PM_C19Dragoon_Ammo_01.description>
+  <PM_C19Dragoon_Magazine_01.label>30 发突击弹匣</PM_C19Dragoon_Magazine_01.label>
+  <PM_C19Dragoon_Magazine_01.description>标准的聚合物透明弹匣。</PM_C19Dragoon_Magazine_01.description>
+  <PM_C19Dragoon_Magazine_02.label>30 发翻转弹匣</PM_C19Dragoon_Magazine_02.label>
+  <PM_C19Dragoon_Magazine_02.description>两只反向并联的 30 发弹匣，可通过翻转快速换弹。加快换弹时间，但会增加重量。</PM_C19Dragoon_Magazine_02.description>
 </LanguageData>

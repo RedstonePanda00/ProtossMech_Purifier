@@ -3,8 +3,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Barrel_01</defName>
-        <label>B9 Zealot rocket barrel</label>
-        <description>Standard B9 Zealot barrel for 9x21mm mini airburst rockets. Placeholder balance.</description>
+        <label>standard barrel</label>
+        <description>A standard, very short barrel suited to close-range assaults.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/B9/B9_Barrel1</texPath>
@@ -30,8 +30,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Barrel_02</defName>
-        <label>B9 Zealot reinforced barrel</label>
-        <description>A rigid, thermally reinforced barrel assembly for the B9. Its heavier structure reduces dispersion and recoil while carrying heat away from sustained automatic fire, but the added forward mass makes the weapon slower to shoulder and redirect.</description>
+        <label>9-inch reinforced barrel</label>
+        <description>An extended handguard and barrel that improves balance, reduces dispersion and recoil, and increases rocket velocity. Its added mass slows weapon handling.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/B9/B9_Barrel2</texPath>
@@ -64,8 +64,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_01</defName>
-        <label>B9 Zealot standard grip</label>
-        <description>The B9's standard pistol grip, providing predictable control without altering the weapon's original handling.</description>
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/B9/B9_Grip1</texPath>
@@ -73,8 +73,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_02</defName>
-        <label>B9 Zealot ergonomic grip</label>
-        <description>A contoured ergonomic grip with pronounced finger indexing. It improves leverage, presentation and target transitions across the B9's engagement envelope, at the cost of a small increase in weight.</description>
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/B9/B9_Grip2</texPath>
@@ -90,8 +90,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_03</defName>
-        <label>B9 Zealot skeletonized grip</label>
-        <description>A hollowed grip that removes every nonessential section of material. It makes the B9 faster to present, but sacrifices the rigid support needed for deliberate medium- and long-range fire.</description>
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Grip</slotId>
         <texPath>Things/Weapon/B9/B9_Grip3</texPath>
@@ -99,19 +99,36 @@
         <statOffsets>
             <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
-            <AccuracyMedium>-0.03</AccuracyMedium>
             <AccuracyLong>-0.05</AccuracyLong>
             <Mass>-0.20</Mass>
         </statOffsets>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_04</defName>
+        <label>dual-wield grip</label>
+        <description>Allows the user to fire two weapons simultaneously, trading long-range precision for double the firepower.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotId>Grip</slotId>
+        <texPath>Things/Weapon/B9/B9_Grip1</texPath>
+        <iconPath>Things/Weapon/B9/B9_DualGrip_Icon</iconPath>
+        <enablesDualWield>true</enablesDualWield>
+        <ceShotSpreadFactor>1.50</ceShotSpreadFactor>
+        <ceSwayFactor>1.35</ceSwayFactor>
+        <statOffsets>
+            <AccuracyMedium>-0.35</AccuracyMedium>
+            <AccuracyLong>-0.50</AccuracyLong>
+        </statOffsets>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+
+    <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Stock_01</defName>
-        <label>B9 Zealot compact stock</label>
-        <description>Compact stock for close assault. Placeholder balance.</description>
+        <label>light stock</label>
+        <description>A light stock for close-range assaults that increases movement speed.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Stock</slotId>
         <texPath>Things/Weapon/B9/B9_Stock1</texPath>
+        <wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset>
         <warmupTimeOffset>-0.08</warmupTimeOffset>
         <statOffsets>
             <AccuracyTouch>0.04</AccuracyTouch>
@@ -125,7 +142,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Ammo_01</defName>
         <label>9x21mm mini airburst rockets</label>
-        <description>9x21mm mini airburst rockets for the B9 Zealot. Placeholder balance.</description>
+        <description>9x21mm mini airburst rockets with impact fuzes as their default configuration.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/B9/B9_Mag1</texPath>
@@ -136,8 +153,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Magazine_01</defName>
-        <label>32-round 9x21mm rocket magazine</label>
-        <description>Combat Extended B9 Zealot magazine. Placeholder balance.</description>
+        <label>32-round rocket magazine</label>
+        <description>A standard 32-round magazine.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/B9/B9_Mag1</texPath>
@@ -146,8 +163,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Magazine_02</defName>
-        <label>32-round 9x21mm flip magazine</label>
-        <description>Two opposed B9 Zealot magazines bound together for a faster flip reload. It keeps standard loaded capacity but reduces reload time. Placeholder balance.</description>
+        <label>32-round flip magazine</label>
+        <description>Two opposed magazines bound together for a faster flip reload. It adds weight but reduces reload time.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/B9/B9_Mag2</texPath>
@@ -161,8 +178,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Magazine_03</defName>
-        <label>75-round 9x21mm rocket drum</label>
-        <description>A 75-round drum for sustained B9 automatic fire. Its compact helical feed more than doubles the standard magazine's capacity, but the loaded drum adds substantial weight and takes longer to lock into place.</description>
+        <label>75-round drum</label>
+        <description>A 75-round drum for sustained automatic fire. Its compact helical feed more than doubles the standard magazine's capacity, but adds weight and reload time.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/B9/B9_Mag3</texPath>

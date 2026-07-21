@@ -3,8 +3,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Barrel_01</defName>
-        <label>C-31 Tempest reinforced barrel</label>
-        <description>Reinforced C-31 Tempest barrel. Extends effective range and muzzle velocity.</description>
+        <label>reinforced barrel</label>
+        <description>A reinforced barrel. Extends effective range and muzzle velocity.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_barrel</texPath>
@@ -40,7 +40,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Ammo_01</defName>
         <label>30 mm SAPHE gun grenades</label>
-        <description>30 mm anti-structure semi-armor-piercing high-explosive gun grenades for the C-31 Tempest.</description>
+        <description>30 mm anti-structure semi-armor-piercing high-explosive gun grenades.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
@@ -52,7 +52,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Ammo_Plasma</defName>
         <label>30 mm plasma gun grenades</label>
-        <description>Compact plasma gun grenades for the C-31 Tempest. They trade the SAPHE charge for vaporizing thermal damage and much higher heat penetration.</description>
+        <description>Compact plasma gun grenades. They trade the SAPHE charge for vaporizing thermal damage and much higher heat penetration.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
@@ -76,7 +76,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Magazine_01</defName>
         <label>8-round SAPHE grenade magazine</label>
-        <description>Standard C-31 Tempest magazine loaded with 30 mm SAPHE anti-structure gun grenades. Holds 8 rounds per magazine.</description>
+        <description>A standard magazine loaded with 30 mm SAPHE anti-structure gun grenades. Holds 8 rounds per magazine.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>Magazine</slotId>
         <texPath>Things/Weapon/C31Tempest/C31Tempest_magazine</texPath>
@@ -111,7 +111,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_APEX_ATLAS</defName>
         <label>"ATLAS" autocannon kit</label>
-        <description>An APEX underbarrel conversion kit that rebuilds the C-31 Tempest into a rotary 30 mm SAPHE grenade autocannon. It trades range, handling and recovery time for a brutal twenty-round burst.</description>
+        <description>An APEX underbarrel conversion kit that rebuilds the weapon into a rotary 30 mm SAPHE grenade autocannon. It trades range, handling and recovery time for a brutal twenty-round burst.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotId>UnderBarrel</slotId>
         <texPath>Things/Weapon/C31Tempest/APEX/C31_APEX_UnderBarrel</texPath>

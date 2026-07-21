@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PM_B25Bulwark_Barrel_01.label>B25 壁垒快拆枪管</PM_B25Bulwark_Barrel_01.label>
-  <PM_B25Bulwark_Barrel_02.label>B25 壁垒强化长枪管</PM_B25Bulwark_Barrel_02.label>
-  <PM_B25Bulwark_Barrel_02.description>配备扩展散热套和刚性桁架的加长型 B25 强化枪管。额外质量可以降低弹着散布、吸收后坐并在持续点射中更快导出热量，但也会让武器更重、更难快速举枪或转移目标。</PM_B25Bulwark_Barrel_02.description>
-  <PM_B25Bulwark_Grip_01.label>B25 壁垒标准握把</PM_B25Bulwark_Grip_01.label>
-  <PM_B25Bulwark_Grip_01.description>B25 的标准重武器手枪式握把，提供稳定且可预测的操控，不改变平台原有的人机工效。</PM_B25Bulwark_Grip_01.description>
-  <PM_B25Bulwark_Grip_02.label>B25 壁垒人体工学握把</PM_B25Bulwark_Grip_02.label>
-  <PM_B25Bulwark_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力和目标切换，使 B25 在各个有效距离上都更容易操控，但会增加少量重量。</PM_B25Bulwark_Grip_02.description>
-  <PM_B25Bulwark_Grip_03.label>B25 壁垒镂空轻量握把</PM_B25Bulwark_Grip_03.label>
-  <PM_B25Bulwark_Grip_03.description>移除所有非必要材料的镂空握把，使沉重的 B25 能更快完成举枪，但会牺牲中远距离压制射击所需的刚性支撑。</PM_B25Bulwark_Grip_03.description>
-  <PM_B25Bulwark_Stock_01.label>B25 壁垒支援枪托</PM_B25Bulwark_Stock_01.label>
-  <PM_B25Bulwark_Ammo_01.label>6.8x42 电热化学能弹</PM_B25Bulwark_Ammo_01.label>
-  <PM_B25Bulwark_Magazine_01.label>80 发 6.8x42 箱式弹匣</PM_B25Bulwark_Magazine_01.label>
+  <PM_B25Bulwark_Barrel_01.label>快拆枪管</PM_B25Bulwark_Barrel_01.label>
+  <PM_B25Bulwark_Barrel_01.description>用于全距离持续压制的快拆枪管，能够在战场上快速更换。</PM_B25Bulwark_Barrel_01.description>
+  <PM_B25Bulwark_Barrel_02.label>强化长枪管</PM_B25Bulwark_Barrel_02.label>
+  <PM_B25Bulwark_Barrel_02.description>更长的枪管和护木使得子弹拥有更高的膛速，并且改善后坐力和散热。额外的重量会降低举枪瞄准速度，也使得它更难以携行。</PM_B25Bulwark_Barrel_02.description>
+  <PM_B25Bulwark_Grip_01.label>标准握把</PM_B25Bulwark_Grip_01.label>
+  <PM_B25Bulwark_Grip_01.description>标准手枪式握把，提供稳定且可预测的操控。</PM_B25Bulwark_Grip_01.description>
+  <PM_B25Bulwark_Grip_02.label>人体工学握把</PM_B25Bulwark_Grip_02.label>
+  <PM_B25Bulwark_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换。</PM_B25Bulwark_Grip_02.description>
+  <PM_B25Bulwark_Grip_03.label>镂空轻量握把</PM_B25Bulwark_Grip_03.label>
+  <PM_B25Bulwark_Grip_03.description>移除所有非必要材料的镂空握把，使射手能更快完成举枪，但会牺牲远距离精确射击所需的刚性支撑。</PM_B25Bulwark_Grip_03.description>
+  <PM_B25Bulwark_Stock_01.label>制式枪托</PM_B25Bulwark_Stock_01.label>
+  <PM_B25Bulwark_Stock_01.description>标准枪托，软材料提供舒适的射击体验。</PM_B25Bulwark_Stock_01.description>
+  <PM_B25Bulwark_Ammo_01.label>6.8x42 电热化学能埋头弹</PM_B25Bulwark_Ammo_01.label>
+  <PM_B25Bulwark_Ammo_01.description>6.8x42 电热化学能埋头弹，无壳结构减小了重量和体积，高密度化学燃料使得它拥有比传统火药更好的初速。</PM_B25Bulwark_Ammo_01.description>
+  <PM_B25Bulwark_Magazine_01.label>80 发箱式弹匣</PM_B25Bulwark_Magazine_01.label>
+  <PM_B25Bulwark_Magazine_01.description>弹链供弹机枪使用的标准的80发弹匣。</PM_B25Bulwark_Magazine_01.description>
+  <PM_B25Bulwark_Grip_04.label>“泰坦”双持握把</PM_B25Bulwark_Grip_04.label>
+  <PM_B25Bulwark_Grip_04.description>同时使用两把武器射击，牺牲远距离精度换取极致的近距离火力。通常，只有军团士兵会这么使用。</PM_B25Bulwark_Grip_04.description>
 </LanguageData>

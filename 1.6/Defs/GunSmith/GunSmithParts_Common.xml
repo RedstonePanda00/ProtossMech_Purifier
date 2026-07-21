@@ -3,7 +3,7 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_DarkTemplarSuppressor</defName>
-        <label>DarkTemplar integrated suppressor</label>
+        <label>integrated suppressor</label>
         <description>An integrated suppressor that absorbs the acoustic shock of firing and recovers a portion of projectile-drive kinetic waste, eliminating the weapon report while slightly improving ballistic efficiency.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
@@ -49,7 +49,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_Printer_MagFactory</defName>
         <label>Printer magazine factory</label>
-        <description>A compact micro-fabricator magazine. After the weapon has stopped firing for one second, it prints fresh rounds directly into the magazine at a steady rate until full. It does not consume carried ammunition and suppresses passive reload attempts when empty.</description>
+        <description>A compact micro-fabricator magazine powered by a solarite cell. It can print fresh rounds while the weapon is not firing.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -68,8 +68,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_IronSight_Rear_Raised</defName>
-        <label>raised rear iron sight</label>
-        <description>Hidden visual default for raised mechanical rear sights.</description>
+        <label>rear sight_raised</label>
+        <description>Hidden visual default for a raised rear sight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -86,8 +86,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_IronSight_Front_Raised</defName>
-        <label>raised front iron sight</label>
-        <description>Hidden visual default for raised mechanical front sights.</description>
+        <label>iron sight_raised</label>
+        <description>Hidden visual default for a raised iron sight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -106,8 +106,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_IronSight_Rear_Folded</defName>
-        <label>folded rear iron sight</label>
-        <description>Hidden visual default for folded mechanical rear sights.</description>
+        <label>rear sight_folded</label>
+        <description>Hidden visual default for a folded rear sight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -124,8 +124,8 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_IronSight_Front_Folded</defName>
-        <label>folded front iron sight</label>
-        <description>Hidden visual default for folded mechanical front sights.</description>
+        <label>iron sight_folded</label>
+        <description>Hidden visual default for a folded iron sight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -145,7 +145,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_BoxLaser</defName>
         <label>box tactical laser</label>
-        <description>A compact enclosed laser module that permits a stable tactical stance without obstructing the weapon. It improves target acquisition and shot placement at close and medium range without imposing a handling penalty.</description>
+        <description>A high-power tactical laser that provides clear pointing at close and medium range. This device emits visible light.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -170,7 +170,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_MuzzleBrake_01</defName>
         <label>vented muzzle brake</label>
-        <description>A multi-baffle muzzle brake that rapidly vents propellant heat and counters vertical climb. Its improved recovery is represented by shorter firing cooldown and more consistent long-range fire.</description>
+        <description>A multi-baffle muzzle brake captures propellant gases to reduce recoil and improves muzzle cooling to extend sustained fire duration.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -209,7 +209,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_JetGrip</defName>
         <label>solarite vector-thrust grip</label>
-        <description>A solarite-cell-powered underbarrel grip with two vectoring nozzles. Its thrust controller cancels recoil completely and continuously stabilizes the weapon, raising every range band to whichever accuracy band is currently highest.</description>
+        <description>An underbarrel device with two vectoring nozzles, powered by a solarite cell and fitted with a small triangular foregrip. Its thrust controller completely cancels recoil, greatly improving weapon performance at all ranges.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -229,7 +229,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_Launcher_HE</defName>
         <label>underbarrel fragmentation launcher</label>
-        <description>A dedicated underbarrel launcher controlled through its own firing gizmo. It launches a single fragmentation grenade at the selected location.</description>
+        <description>An underbarrel grenade launcher fitted with a solarite cell. It fires 40x53mm grenades, replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -247,7 +247,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_Launcher_Shotgun</defName>
         <label>underbarrel cluster shotgun</label>
-        <description>A compact underbarrel scatter launcher controlled through its own firing gizmo. One trigger command releases a twelve-pellet cluster across the selected target area.</description>
+        <description>An underbarrel shotgun launcher fitted with a solarite cell. It fires 40x42mm cluster shotgun shells containing twelve .300 subsonic projectiles, replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -265,7 +265,7 @@
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_Launcher_LaserCannon</defName>
         <label>underbarrel continuous laser cannon</label>
-        <description>A sustained-fire laser cannon governed by an independent thermal worker. Firing gradually raises heat while releasing the trigger cools it toward zero. It may be restarted at any heat below 100%; reaching full heat locks the system until completely cooled and discharges a final Biotech hellsphere shot at the last target.</description>
+        <description>An underbarrel laser cannon fitted with a solarite cell. It emits a sustained laser beam that provides continuous fire until the emitter overheats. Sustained fire causes the emitter to overheat and release all stored internal energy at once. After overheating, its emitter is replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
