@@ -5,7 +5,7 @@
         <defName>MechForceFieldWall</defName>
         <label>project Force Field Wall</label>
         <description>Projects a 3x3 Force Field Wall structures.</description>
-        <iconPath>Things/Abilities/Force_field</iconPath>
+        <iconPath>Gizmo/Sentry/ForceField</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
@@ -42,7 +42,7 @@
         <defName>PM_GuardianShield</defName>
         <label>Guardian Shield</label>
         <description>activate shield generator, which can block projectile.</description>
-        <iconPath>Things/Abilities/Guardian_shield</iconPath>
+        <iconPath>Gizmo/Sentry/GuardianShield</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <targetRequired>false</targetRequired>
@@ -68,7 +68,7 @@
         <defName>PM_PhaseMode</defName>
         <label>Phase mode</label>
         <description>Enter phase mode. While phased, this unit cannot move but projects a stronger shield field.</description>
-        <iconPath>Things/Abilities/Guardian_shield</iconPath>
+        <iconPath>Gizmo/Energizer/PhaseMode</iconPath>
         <cooldownTicksRange>60</cooldownTicksRange>
         <hostile>false</hostile>
         <targetRequired>false</targetRequired>
@@ -91,7 +91,7 @@
         <defName>MechChronoBeam</defName>
         <label>Chrono Beam</label>
         <description>The beam that can speed up the time flow of target.</description>
-        <iconPath>Things/Abilities/ChronoBeam</iconPath>
+        <iconPath>Gizmo/Energizer/ChronoBeam</iconPath>
         <cooldownTicksRange>60</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
@@ -123,7 +123,7 @@
         <defName>PM_HavocTargetLock</defName>
         <label>target lock</label>
         <description>Lock onto a hostile target. While locked, that target takes increased damage from all sources. Only one target at a time.</description>
-        <iconPath>Things/Abilities/Force_field</iconPath>
+        <iconPath>Gizmo/Havoc/TargetLock</iconPath>
         <cooldownTicksRange>120</cooldownTicksRange>
         <hostile>true</hostile>
         <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
@@ -265,7 +265,7 @@
     <AbilityDef>
         <defName>Warp_Pylon</defName>
         <label>Warp Pylon</label>
-        <iconPath>Things/Abilities/WarpPylon</iconPath>
+        <iconPath>Gizmo/Probius/WarpPylon</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
@@ -287,7 +287,7 @@
     <AbilityDef>
         <defName>Warp_Photon</defName>
         <label>Warp Photon</label>
-        <iconPath>Things/Abilities/WarpPhoton</iconPath>
+        <iconPath>Gizmo/Probius/WarpPhoton</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
@@ -310,7 +310,7 @@
     <AbilityDef>
         <defName>OverchargeAllPylons</defName>
         <label>Overcharge All Pylons</label>
-        <iconPath>Things/Abilities/PylonOvercharge</iconPath>
+        <iconPath>Gizmo/Probius/PylonOvercharge</iconPath>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
         <targetRequired>false</targetRequired>
@@ -379,7 +379,7 @@
         <defName>PM_CosmicSpider_ReelWeb</defName>
         <label>Reel Web</label>
         <description>Fire a silk line and pull the first unit on the path toward the caster.</description>
-        <iconPath>Gizmo/Hook</iconPath>
+        <iconPath>Gizmo/CosmicSpider/Hook</iconPath>
         <cooldownTicksRange>900</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
@@ -403,7 +403,7 @@
         <defName>PM_CosmicSpider_WebLink</defName>
         <label>Web Link</label>
         <description>Fire silk and bind the first enemy contacted; bound enemies are tethered by the web.</description>
-        <iconPath>Gizmo/WebLink</iconPath>
+        <iconPath>Gizmo/CosmicSpider/WebLink</iconPath>
         <cooldownTicksRange>3600</cooldownTicksRange>
         <hostile>true</hostile>
         <groupAbility>true</groupAbility>
@@ -427,7 +427,7 @@
         <defName>PM_CosmicSpider_StickyWeb</defName>
         <label>Sticky Web</label>
         <description>Place a 3x3 patch of conductive sticky web floor.</description>
-        <iconPath>Gizmo/WebTrap</iconPath>
+        <iconPath>Gizmo/CosmicSpider/WebTrap</iconPath>
         <cooldownTicksRange>7200</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
@@ -451,7 +451,7 @@
         <defName>PM_CosmicSpider_Discharge</defName>
         <label>Discharge</label>
         <description>Draw charge from the air and discharge around the caster; silk webs conduct the current a second time.</description>
-        <iconPath>Gizmo/Discharge</iconPath>
+        <iconPath>Gizmo/CosmicSpider/Discharge</iconPath>
         <cooldownTicksRange>3600</cooldownTicksRange>
         <hostile>true</hostile>
         <groupAbility>true</groupAbility>
@@ -481,7 +481,7 @@
         <defName>PM_CosmicSpider_WebSwing</defName>
         <label>Web Swing</label>
         <description>Swing from an anchor point to a destination with web-assisted mobility.</description>
-        <iconPath>Gizmo/Swing</iconPath>
+        <iconPath>Gizmo/CosmicSpider/Swing</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
         <groupAbility>true</groupAbility>
