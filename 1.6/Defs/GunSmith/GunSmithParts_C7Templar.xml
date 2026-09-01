@@ -3,6 +3,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Barrel_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>assault coil barrel</label>
         <description>A compact multi-stage coil barrel tuned for assault fire.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -40,6 +43,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Barrel_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
         <label>20-inch long barrel</label>
         <description>A 20-inch extended coil barrel. Its longer acceleration path improves velocity, range, penetration, and long-range stability, but sacrifices close-range handling and aiming speed.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -80,6 +86,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Grip_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>standard grip</label>
         <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -89,6 +98,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Grip_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>ergonomic grip</label>
         <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -106,6 +118,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Grip_03</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>skeletonized lightweight grip</label>
         <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -122,6 +137,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Stock_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>frame tactical stock</label>
         <description>A rigid open-frame stock that provides stable support, increases firing accuracy, and slightly increases weight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -142,6 +160,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Stock_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>light folding stock</label>
         <description>A compact telescoping stock that reduces weight and increases movement speed. It suits mobile operations and close-range engagements, but reduces long-range stability.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -163,6 +184,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Ammo_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>5.8x42 tungsten-alloy penetrators</label>
         <description>A tungsten-alloy armor-piercing projectile capable of penetrating the armor of light infantry fighting vehicles and robots.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -187,6 +211,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Magazine_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>30-round assault magazine</label>
         <description>The default 30-round assault magazine.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -197,6 +224,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Magazine_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>45-round extended magazine</label>
         <description>A 45-round extended magazine that improves sustained fire but adds weight and slows reloading.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -214,6 +244,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Laser_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>Ranger box laser</label>
         <description>A boxed laser designator that provides fast close-range pointing but offers limited value at long range.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -238,6 +271,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_APEX_TwinCore</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>100</count></li>
+        </costList>
         <label>APEX twin-core smart missile system</label>
         <description>A bespoke APEX fire-control conversion built around two miniature supercomputers. It replaces conventional penetrators with 5.8x42mm micro-missiles fitted with plasma warheads. Each missile tracks the current target and flies toward a vital body part.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -308,6 +344,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C7Templar_Sight_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
         <label>millimeter-wave combat sight</label>
         <description>A fused millimeter-wave and optical fire-control sight. It cuts through weather, smoke and active camouflage while supplying a stable firing solution at every practical range.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>

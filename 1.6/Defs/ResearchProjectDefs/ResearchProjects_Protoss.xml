@@ -186,14 +186,39 @@
     <ResearchProjectDef>
         <defName>PM_PurifierProjectFinal</defName>
         <label>Eclipse and Apocalypse</label>
-        <description>The last packet is unexpectedly simple: a string of access keys and a voice message. Perhaps we should listen.</description>
+        <description>The last packet is unexpectedly brief: a set of access keys and a voice message.</description>
         <discoveredLetterTitle>Message from the Executor</discoveredLetterTitle>
-        <discoveredLetterText>They call us the Star Devourers; others name us the Cosmic Crisis—for we once ended a universe already beyond saving, tainted by warp entities.\n\nAs for why we aid you: I have grown fond of humanity. Petty, selfish, warlike—yet brave, tenacious, hungry for the unknown. If the Mantle were mine to pass on, I might choose you.\n\nLet me tell a story. Once a foolish pilot ranged the void and met a bio-fleet bound to devour an unremarkable system: an ordinary star, seven worlds, life barely ripened into thought. He rashly chose to shield them, detonated his drives to die with the enemy, and became the first volunteer of a digitization craft he himself had devised.\n\nYet that pilot's life was never his alone. His legions lost their leader, soon broke apart; civil war came, and civilization fell back into savagery.\n\nIf you asked him to choose again, he would still spend himself. That solar system was beautiful. Humanity was beautiful.\n\nThe future belongs to you young ones. I will send you the blueprints for the Colossus and the Disruptor. My people once feared these weapons of war we forged with our own hands—but I hope they may help you find your way home.\n\nMay the stars bless your journey. En Taro To Artanis.</discoveredLetterText>
+        <discoveredLetterText>You may have heard the names: Star Devourers, Cosmic Crisis. Both were given to us by others. We have no name—only a hunt without end.\n\nWe do not hunt evil. We hunt any will powerful enough to make reality submit. At times, only an anomaly can stand against another anomaly. May you never have to walk that path.\n\nLong ago, I gave my life for an unremarkable star system. You now call it the Solar System. Given the choice, I would do so again. Humanity is imperfect, but brave, tenacious, and forever reaching toward the unknown.\n\nThe access keys are yours. Blueprints for the Colossus, Disruptor, and Cosmic Spider accompany this message. May they help you find your way home.\n\nMay the stars bless your journey. En Taro Artanis.</discoveredLetterText>
         <tab>ProtossTech</tab>
         <baseCost>7887</baseCost>
         <techLevel>Ultra</techLevel>
         <researchViewX>11.00</researchViewX>
         <researchViewY>2.90</researchViewY>
+        <prerequisites>
+            <li>PM_PurifierProject</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->deciphering transmitted formulae</li>
+                <li>subject_story->deciphering a cipher from an unknown benefactor</li>
+                <li>subject_gerund->deciphering formulae</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_Replicator</defName>
+        <label>Replicator</label>
+        <description>The Star Devourers have granted us access to their replicator. This advanced device can fabricate items in an instant; a single unit can sustain all the logistical needs of an army.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>10000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <researchViewX>11.00</researchViewX>
+        <researchViewY>4.00</researchViewY>
         <prerequisites>
             <li>PM_PurifierProject</li>
         </prerequisites>

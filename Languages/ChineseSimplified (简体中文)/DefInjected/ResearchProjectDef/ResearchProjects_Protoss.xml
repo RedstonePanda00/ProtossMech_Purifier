@@ -86,9 +86,9 @@
   
   <!-- EN: Eclipse and Apocalypse -->
   <PM_PurifierProjectFinal.label>日食与启示录</PM_PurifierProjectFinal.label>
-  <PM_PurifierProjectFinal.description>最后一个数据包意外的简单，一串权限密钥，和一段语音信息。\n\n也许我们应该听听。</PM_PurifierProjectFinal.description>
-  <PM_PurifierProjectFinal.discoveredLetterTitle>来自执行官的消息</PM_PurifierProjectFinal.discoveredLetterTitle>
-  <PM_PurifierProjectFinal.discoveredLetterText>他们称我们为噬星者，也有人唤作星海天罚——只因我们曾亲手终结一个被亚空间实体污染、早已没救的宇宙。\n\n至于为何要帮助你们：我很喜欢你们人类。虽然卑劣、自私、好斗，却也勇敢、顽强，对未知充满好奇。如果要传承我的衣钵，我可能会选择你们。\n\n且听我讲一个故事。曾有一位愚蠢的飞行员在星海间穿梭，遇见一支生物舰队——它们要去吞噬一个普普通通的星系：一颗普普通通的恒星，七颗行星，上面的生物刚发展出智慧。飞行员鲁莽地决定保护那些生灵，引爆自己的引擎与敌群同归于尽，被迫成为他自己所研数字化技术的第一位志愿者。\n\n然而那位飞行员的命从来不是他自己的。他的军队失去了领袖，很快群龙无首；内战爆发，文明退步回到原始时期。\n\n不过，如果还让那位飞行员再选一次，他应该还是会选择牺牲。因为那片太阳系很美，人类也很美。\n\n未来是属于你们这些年轻人的。我会将巨像和干扰者的蓝图传给你们；我的族人曾恐惧这些我们亲手铸就的战争兵器，但我希望它们能帮助你们回到家乡。\n\n愿群星祝愿你们的旅途，En Taro To Artanis.</PM_PurifierProjectFinal.discoveredLetterText>
+  <PM_PurifierProjectFinal.description>最后一个数据包出乎意料地简短：一组权限密钥，以及一段语音留言。</PM_PurifierProjectFinal.description>
+  <PM_PurifierProjectFinal.discoveredLetterTitle>执行官的留言</PM_PurifierProjectFinal.discoveredLetterTitle>
+  <PM_PurifierProjectFinal.discoveredLetterText>你们或许听过那些称呼：噬星者，星海天罚。它们都来自旁观者。我们没有名字，只有一场尚未结束的狩猎。\n\n我们追逐的不是邪恶，而是足以让现实屈从于自身意志的存在。有时，只有异常能够对抗异常——但愿你们永远不必走到那一步。\n\n很久以前，我曾为一个无名的恒星系献出生命。如今，你们称那里为太阳系。若能重新选择，我仍会如此。人类并不完美，但你们勇敢、顽强，始终愿意迈向未知。\n\n权限已经开放。巨像、干扰者与宇宙蛛的蓝图将随讯息一同传达。愿它们帮助你们找到回家的路。\n\n愿群星祝福你们的旅途。En Taro Artanis.</PM_PurifierProjectFinal.discoveredLetterText>
   <PM_PurifierProjectFinal.generalRules.rulesStrings>
     <li>subject->破译传输公式</li>
     <li>subject_story->破译来自未知援手的公式</li>

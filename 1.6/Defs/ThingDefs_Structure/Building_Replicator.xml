@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>PM_Replicator</defName>
+        <label>Replicator</label>
+        <description>A Star Devourer matter-replication device. While covered by an energy field, it can transform stored resources into finished products almost instantly without an operator.</description>
+        <thingClass>Building</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <graphicData>
+            <texPath>Things/Structure/Replicator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Cutout</shaderType>
+            <drawSize>(5.0,5.0)</drawSize>
+        </graphicData>
+        <uiIconPath>Gizmo/Replicator</uiIconPath>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <fillPercent>1</fillPercent>
+        <rotatable>false</rotatable>
+        <stealable>false</stealable>
+        <size>(5,5)</size>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+        <designationCategory>Production</designationCategory>
+        <uiOrder>5000</uiOrder>
+        <statBases>
+            <MaxHitPoints>2000</MaxHitPoints>
+            <WorkToBuild>20000</WorkToBuild>
+            <Mass>1000</Mass>
+            <Flammability>0</Flammability>
+            <Beauty>100</Beauty>
+        </statBases>
+        <costList>
+            <PM_Solarite>1000</PM_Solarite>
+        </costList>
+        <researchPrerequisites>
+            <li>PM_Replicator</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="ProtossMech.CompProperties_Replicator">
+                <cycleTicks>60</cycleTicks>
+                <gizmoIconPath>Gizmo/Replicator</gizmoIconPath>
+            </li>
+            <li Class="ProtossMech.CompProperties_ReplicatorVisuals">
+                <prefabAssetName>assets/protossmechreplicator/pm_replicatorring.prefab</prefabAssetName>
+                <orbFrameTexPathPrefix>Things/Structure/Overlays/YellowEnergyOrb/YellowEnergyOrb_</orbFrameTexPathPrefix>
+                <orbFrameCount>4</orbFrameCount>
+                <orbTicksPerFrame>20</orbTicksPerFrame>
+                <centerOffset>(0,2.2,0.08)</centerOffset>
+                <orbSize>1.6</orbSize>
+                <innerRingSize>3.0</innerRingSize>
+                <middleRingSize>3.6</middleRingSize>
+                <outerRingSize>4.2</outerRingSize>
+                <innerRingSpeed>6</innerRingSpeed>
+                <middleRingSpeed>-9</middleRingSpeed>
+                <outerRingSpeed>13</outerRingSpeed>
+                <workingSpeedMultiplier>7.5</workingSpeedMultiplier>
+            </li>
+            <li Class="ProtossMech.CompProperties_ProtossMechShield">
+                <energyMax>2000</energyMax>
+                <energyGainPerTick>0.2</energyGainPerTick>
+                <ticksToBeginRecharge>600</ticksToBeginRecharge>
+                <minDrawSize>5.0</minDrawSize>
+                <maxDrawSize>5.5</maxDrawSize>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

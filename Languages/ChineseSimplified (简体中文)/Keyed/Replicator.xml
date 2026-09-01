@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <ProtossMech.ReplicatorTitle>复制器</ProtossMech.ReplicatorTitle>
+    <ProtossMech.ReplicatorOpen>配置复制器</ProtossMech.ReplicatorOpen>
+    <ProtossMech.ReplicatorOpenDesc>浏览可用配方并管理复制器的生产队列。</ProtossMech.ReplicatorOpenDesc>
+    <ProtossMech.ReplicatorEnabled>启用复制器</ProtossMech.ReplicatorEnabled>
+    <ProtossMech.ReplicatorEnabledDesc>开启或关闭自主复制。关闭会清零当前进度。</ProtossMech.ReplicatorEnabledDesc>
+    <ProtossMech.ReplicatorSearch>搜索</ProtossMech.ReplicatorSearch>
+    <ProtossMech.ReplicatorAllSources>所有已加载模组</ProtossMech.ReplicatorAllSources>
+    <ProtossMech.ReplicatorRecipeCount>{0} 个配方</ProtossMech.ReplicatorRecipeCount>
+    <ProtossMech.ReplicatorCatalog>配方目录</ProtossMech.ReplicatorCatalog>
+    <ProtossMech.ReplicatorConfigure>配置配方</ProtossMech.ReplicatorConfigure>
+    <ProtossMech.ReplicatorEditQueueItem>编辑队列项目</ProtossMech.ReplicatorEditQueueItem>
+    <ProtossMech.ReplicatorSelectRecipe>请选择一个当前可用的配方。</ProtossMech.ReplicatorSelectRecipe>
+    <ProtossMech.ReplicatorNoRecipes>没有符合当前筛选条件的配方。</ProtossMech.ReplicatorNoRecipes>
+    <ProtossMech.ReplicatorRepeat>生产次数</ProtossMech.ReplicatorRepeat>
+    <ProtossMech.ReplicatorChoose>选择物料</ProtossMech.ReplicatorChoose>
+    <ProtossMech.ReplicatorQuality>品质</ProtossMech.ReplicatorQuality>
+    <ProtossMech.ReplicatorQualityOption>{0}（{1}原料消耗）</ProtossMech.ReplicatorQualityOption>
+    <ProtossMech.ReplicatorCost>单次消耗：{0}</ProtossMech.ReplicatorCost>
+    <ProtossMech.ReplicatorNoIngredients>无原料</ProtossMech.ReplicatorNoIngredients>
+    <ProtossMech.ReplicatorAdd>加入队列</ProtossMech.ReplicatorAdd>
+    <ProtossMech.ReplicatorUpdate>更新项目</ProtossMech.ReplicatorUpdate>
+    <ProtossMech.ReplicatorCancelEdit>取消编辑</ProtossMech.ReplicatorCancelEdit>
+    <ProtossMech.ReplicatorQueue>生产队列（{0}）</ProtossMech.ReplicatorQueue>
+    <ProtossMech.ReplicatorQueueEmpty>生产队列为空。</ProtossMech.ReplicatorQueueEmpty>
+    <ProtossMech.ReplicatorSuspend>暂停</ProtossMech.ReplicatorSuspend>
+    <ProtossMech.ReplicatorResume>继续</ProtossMech.ReplicatorResume>
+    <ProtossMech.ReplicatorEdit>编辑</ProtossMech.ReplicatorEdit>
+    <ProtossMech.ReplicatorDelete>删除</ProtossMech.ReplicatorDelete>
+    <ProtossMech.ReplicatorQueueSuspended>已暂停</ProtossMech.ReplicatorQueueSuspended>
+    <ProtossMech.ReplicatorQueueBlocked>阻塞：资源不足，后续项目将等待。</ProtossMech.ReplicatorQueueBlocked>
+    <ProtossMech.ReplicatorQueueWaiting>正在等待前方首个有效项目。</ProtossMech.ReplicatorQueueWaiting>
+    <ProtossMech.ReplicatorQueueReady>就绪</ProtossMech.ReplicatorQueueReady>
+    <ProtossMech.ReplicatorOtherCategory>其他</ProtossMech.ReplicatorOtherCategory>
+    <ProtossMech.ReplicatorCoreSource>核心</ProtossMech.ReplicatorCoreSource>
+    <ProtossMech.ReplicatorRequires>需要：{0}</ProtossMech.ReplicatorRequires>
+    <ProtossMech.ReplicatorPrerequisiteLocked>存在未满足的通用前置条件，当前不可用。</ProtossMech.ReplicatorPrerequisiteLocked>
+    <ProtossMech.ReplicatorInvalidRecipe>此配方已无法安全复制。</ProtossMech.ReplicatorInvalidRecipe>
+    <ProtossMech.ReplicatorChooseIngredients>请为每条原料选择唯一的具体物料。</ProtossMech.ReplicatorChooseIngredients>
+    <ProtossMech.ReplicatorInvalidIngredient>{0} 没有有效的原料单位价值。</ProtossMech.ReplicatorInvalidIngredient>
+    <ProtossMech.ReplicatorCostOverflow>计算出的原料需求过大。</ProtossMech.ReplicatorCostOverflow>
+    <ProtossMech.ReplicatorStatusDisabled>已关闭</ProtossMech.ReplicatorStatusDisabled>
+    <ProtossMech.ReplicatorStatusNoField>未运行：附近没有能量场</ProtossMech.ReplicatorStatusNoField>
+    <ProtossMech.ReplicatorStatusIdle>待机：队列为空或全部暂停</ProtossMech.ReplicatorStatusIdle>
+    <ProtossMech.ReplicatorStatusWorking>正在复制 {0}：{1}</ProtossMech.ReplicatorStatusWorking>
+    <ProtossMech.ReplicatorStatusWaiting>等待资源：{0}</ProtossMech.ReplicatorStatusWaiting>
+</LanguageData>

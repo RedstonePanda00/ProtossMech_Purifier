@@ -3,6 +3,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Barrel_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>standard barrel</label>
         <description>A standard, very short barrel suited to close-range assaults.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -30,6 +33,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Barrel_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>9-inch reinforced barrel</label>
         <description>An extended handguard and barrel that improves balance, reduces dispersion and recoil, and increases rocket velocity. Its added mass slows weapon handling.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -64,6 +70,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>standard grip</label>
         <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -73,6 +82,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>ergonomic grip</label>
         <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -90,6 +102,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_03</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>skeletonized lightweight grip</label>
         <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -106,6 +121,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Grip_04</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>40</count></li>
+        </costList>
         <label>dual-wield grip</label>
         <description>Allows the user to fire two weapons simultaneously, trading long-range precision for double the firepower.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -123,6 +141,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Stock_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>light stock</label>
         <description>A light stock for close-range assaults that increases movement speed.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -141,6 +162,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Ammo_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>9x21mm mini airburst rockets</label>
         <description>9x21mm mini airburst rockets with impact fuzes as their default configuration.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -153,6 +177,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Magazine_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>32-round rocket magazine</label>
         <description>A standard 32-round magazine.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -163,6 +190,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Magazine_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>32-round flip magazine</label>
         <description>Two opposed magazines bound together for a faster flip reload. It adds weight but reduces reload time.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>
@@ -178,6 +208,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B9Zealot_Magazine_03</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>75-round drum</label>
         <description>A 75-round drum for sustained automatic fire. Its compact helical feed more than doubles the standard magazine's capacity, but adds weight and reload time.</description>
         <platformDef>PM_GunSmith_B9Zealot</platformDef>

@@ -3,6 +3,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Barrel_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>reinforced barrel</label>
         <description>A reinforced barrel. Extends effective range and muzzle velocity.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -22,6 +25,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Stock_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>Ranger telescopic stock</label>
         <description>Adjustable tactical stock. Collapses for carry and extends for a stable firing platform, shortening the bolt cycle and improving medium-to-long handling.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -39,6 +45,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Ammo_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>30 mm SAPHE gun grenades</label>
         <description>30 mm anti-structure semi-armor-piercing high-explosive gun grenades.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -51,6 +60,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Ammo_Plasma</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>30 mm plasma gun grenades</label>
         <description>Compact plasma gun grenades. They trade the SAPHE charge for vaporizing thermal damage and much higher heat penetration.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -63,6 +75,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Ammo_Wisp</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
         <label>30 mm Wisp swarm grenades</label>
         <description>Carrier grenades that split into five Wisp micro-missiles on destruction. Each Wisp curves along a Bezier path and seeks the nearest hostile target.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -75,6 +90,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Magazine_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>8-round SAPHE grenade magazine</label>
         <description>A standard magazine loaded with 30 mm SAPHE anti-structure gun grenades. Holds 8 rounds per magazine.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -86,6 +104,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_Sight_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
         <label>Oracle fire control</label>
         <description>An integrated smart sight suite with infrared thermals and digital AI fire control. Targets stay razor-clear through foul weather and smoke. Dense optics and processors add noticeable weight.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
@@ -110,6 +131,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_C31Tempest_APEX_ATLAS</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>100</count></li>
+        </costList>
         <label>"ATLAS" autocannon kit</label>
         <description>An APEX underbarrel conversion kit that rebuilds the weapon into a rotary 30 mm SAPHE grenade autocannon. It trades range, handling and recovery time for a brutal twenty-round burst.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>

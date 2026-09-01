@@ -1,2 +1,4 @@
 .agents/
 Source/
+ArtSource/**/*.log
+TestResults/

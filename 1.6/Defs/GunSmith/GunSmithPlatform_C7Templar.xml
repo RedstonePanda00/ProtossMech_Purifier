@@ -104,8 +104,8 @@
         </defaultParts>
         <warpCostList>
             <li>
-                <thingDef>Steel</thingDef>
-                <count>1</count>
+                <thingDef>PM_Solarite</thingDef>
+                <count>50</count>
             </li>
         </warpCostList>
     </ProtossMech.GunSmith.GunSmithPlatformDef>

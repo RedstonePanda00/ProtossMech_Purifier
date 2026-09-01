@@ -4,7 +4,14 @@
   <ProtossMech.GunSmithTab>&#x67AA;&#x5320;&#x6253;&#x5370;</ProtossMech.GunSmithTab>
   <ProtossMech.GunSmithWarp>&#x6298;&#x8DC3;&#x6B66;&#x5668;</ProtossMech.GunSmithWarp>
   <ProtossMech.GunSmithSave>&#x4FDD;&#x5B58;&#x914D;&#x7F6E;</ProtossMech.GunSmithSave>
+  <ProtossMech.GunSmithWarpCost>跃迁总价：{0}</ProtossMech.GunSmithWarpCost>
+  <ProtossMech.GunSmithTopUp>补价：{0}</ProtossMech.GunSmithTopUp>
+  <ProtossMech.GunSmithRefund>退款：{0}</ProtossMech.GunSmithRefund>
+  <ProtossMech.GunSmithNoDifference>无差价</ProtossMech.GunSmithNoDifference>
+  <ProtossMech.GunSmithNotEnoughResources>资源不足，无法支付改装补价：{0}。</ProtossMech.GunSmithNotEnoughResources>
   <ProtossMech.GunSmithSaved>&#x5DF2;&#x4FDD;&#x5B58; {0} &#x7684;&#x914D;&#x4EF6;&#x914D;&#x7F6E;&#x3002;</ProtossMech.GunSmithSaved>
+  <ProtossMech.GunSmithTargetUnavailable>所选武器已不可用。</ProtossMech.GunSmithTargetUnavailable>
+  <ProtossMech.GunSmithApplyFailed>武器改装失败；已全额退还本次扣除的资源。</ProtossMech.GunSmithApplyFailed>
   <ProtossMech.GunSmithForge>&#x67AA;&#x5320;&#x6539;&#x88C5;</ProtossMech.GunSmithForge>
   <ProtossMech.GunSmithForgeDesc>&#x8FDC;&#x7A0B;&#x914D;&#x7F6E;&#x6B96;&#x6C11;&#x5730;&#x5185;&#x4EFB;&#x610F;&#x5730;&#x56FE;&#x4E0A;&#x7684;&#x6A21;&#x5757;&#x5316;&#x6B66;&#x5668;&#x3002;</ProtossMech.GunSmithForgeDesc>
   <ProtossMech.GunSmithWeaponList>&#x6B96;&#x6C11;&#x5730;&#x6B66;&#x5668;</ProtossMech.GunSmithWeaponList>
@@ -79,4 +86,42 @@
   <PM_GunSmith_UB_Laser_Locked>热锁定中（热量 {0}%），热量归零后才会解除。</PM_GunSmith_UB_Laser_Locked>
   <PM_GunSmith_UB_Laser_HeatInspect>下挂激光炮热量：{0}%</PM_GunSmith_UB_Laser_HeatInspect>
 
+  <ProtossMech.GunSmithStats.R42SharpPenetration>锐性穿深（毫米 RHA）</ProtossMech.GunSmithStats.R42SharpPenetration>
+  <ProtossMech.GunSmithStats.R42BluntPenetration>钝性穿透（MPa）</ProtossMech.GunSmithStats.R42BluntPenetration>
+  <ProtossMech.GunSmithPreset.Import>导入</ProtossMech.GunSmithPreset.Import>
+  <ProtossMech.GunSmithPreset.ImportedName>导入预设{0}</ProtossMech.GunSmithPreset.ImportedName>
+  <ProtossMech.GunSmithPreset.ImportHint>粘贴改枪码。导入仅创建新预设，不会改变当前草稿或武器。</ProtossMech.GunSmithPreset.ImportHint>
+  <ProtossMech.GunSmithPreset.Copied>改枪码已复制。</ProtossMech.GunSmithPreset.Copied>
+  <ProtossMech.GunSmithPreset.RepairConfirm>此配装无法完整还原。是否接受以下变更？\n\n{0}</ProtossMech.GunSmithPreset.RepairConfirm>
+  <ProtossMech.GunSmithPreset.DiscardDraft>是否放弃当前草稿的改动？若需保留，请取消后先导出改枪码。</ProtossMech.GunSmithPreset.DiscardDraft>
+  <ProtossMech.GunSmithPreset.ConfirmDelete>删除预设“{0}”？这不会改变任何武器。</ProtossMech.GunSmithPreset.ConfirmDelete>
+  <ProtossMech.GunSmithPreset.NoDraft>当前没有可编辑的配装草稿。</ProtossMech.GunSmithPreset.NoDraft>
+  <ProtossMech.GunSmithPreset.InvalidCode>改枪码格式错误、不完整或校验失败。</ProtossMech.GunSmithPreset.InvalidCode>
+  <ProtossMech.GunSmithPreset.UnsupportedVersion>不支持此数据版本，请更新模组后再使用此改枪码或预设。</ProtossMech.GunSmithPreset.UnsupportedVersion>
+  <ProtossMech.GunSmithPreset.WrongEnvironment>CE码与原版码不能跨环境导入。</ProtossMech.GunSmithPreset.WrongEnvironment>
+  <ProtossMech.GunSmithPreset.TooLarge>改枪码超过长度、解压体积或配件数量限制。</ProtossMech.GunSmithPreset.TooLarge>
+  <ProtossMech.GunSmithPreset.DuplicateSlot>改枪码包含重复槽位。</ProtossMech.GunSmithPreset.DuplicateSlot>
+  <ProtossMech.GunSmithPreset.MissingPlatform>缺少武器平台：{0}</ProtossMech.GunSmithPreset.MissingPlatform>
+  <ProtossMech.GunSmithPreset.MissingPart>{0}：配件 {1} 缺失，已移除。</ProtossMech.GunSmithPreset.MissingPart>
+  <ProtossMech.GunSmithPreset.IncompatiblePart>{0}：配件 {1} 不可选择或不兼容，已移除。</ProtossMech.GunSmithPreset.IncompatiblePart>
+  <ProtossMech.GunSmithPreset.RemovedPart>{0}：配件 {1} 的槽位依赖失效或已被套件覆盖，已移除。</ProtossMech.GunSmithPreset.RemovedPart>
+  <ProtossMech.GunSmithPreset.DefaultPart>{0}：恢复默认配件 {1}。</ProtossMech.GunSmithPreset.DefaultPart>
+  <ProtossMech.GunSmithPreset.InvalidLoadout>这些配件无法组成合法配装。</ProtossMech.GunSmithPreset.InvalidLoadout>
+  <ProtossMech.GunSmithPreset.InvalidRequiredSlot>无法还原必需槽位：{0}</ProtossMech.GunSmithPreset.InvalidRequiredSlot>
+  <ProtossMech.GunSmithPreset.PresetUnavailable>该预设已不可用。</ProtossMech.GunSmithPreset.PresetUnavailable>
+  <ProtossMech.GunSmithPreset.PresetMismatch>只能覆盖当前平台及环境的预设。</ProtossMech.GunSmithPreset.PresetMismatch>
+  <ProtossMech.GunSmithPreset.InvalidName>请输入1–80个字符的名称，不得包含控制字符。</ProtossMech.GunSmithPreset.InvalidName>
+  <ProtossMech.GunSmithPreset.DuplicateName>此平台下已有同名预设。</ProtossMech.GunSmithPreset.DuplicateName>
+  <ProtossMech.GunSmithPreset.SaveFailed>无法保存预设库。本次修改未生效，请检查日志后重试。</ProtossMech.GunSmithPreset.SaveFailed>
+  <ProtossMech.GunSmithPreset.CopyFailed>无法访问剪贴板。</ProtossMech.GunSmithPreset.CopyFailed>
+  <ProtossMech.GunSmithPreset.Presets>预设</ProtossMech.GunSmithPreset.Presets>
+  <ProtossMech.GunSmithPreset.Export>导出</ProtossMech.GunSmithPreset.Export>
+  <ProtossMech.GunSmithPreset.CodePlaceholder>粘贴改枪码</ProtossMech.GunSmithPreset.CodePlaceholder>
+  <ProtossMech.GunSmithPreset.PresetListHint>点击载入草稿；右键删除。* 表示草稿有改动。</ProtossMech.GunSmithPreset.PresetListHint>
+  <ProtossMech.GunSmithPreset.ExportHint>复制当前草稿的改枪码并填入输入框，不保存预设。若需保存到本机，导出后点击导入。</ProtossMech.GunSmithPreset.ExportHint>
+  <ProtossMech.GunSmithPreset.EmptyPlatform>当前武器平台尚无预设。</ProtossMech.GunSmithPreset.EmptyPlatform>
+  <ProtossMech.GunSmithPreset.ImportedAtPlatform>已创建 {0} · {1}</ProtossMech.GunSmithPreset.ImportedAtPlatform>
+  <ProtossMech.GunSmithPreset.DeleteNamed>删除“{0}”</ProtossMech.GunSmithPreset.DeleteNamed>
+  <ProtossMech.GunSmithPreset.Confirm>确认</ProtossMech.GunSmithPreset.Confirm>
+  <ProtossMech.GunSmithPreset.Cancel>取消</ProtossMech.GunSmithPreset.Cancel>
 </LanguageData>

@@ -40,4 +40,25 @@
             </shaderParameters>
         </graphicData>
     </FleckDef>
+
+    <!-- Static, exactly one 20-frame loop at 24 FPS. Used only on physical resource stacks. -->
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>PM_WarpResourceExtractionFleck</defName>
+        <collide>false</collide>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.0</fadeInTime>
+        <solidTime>0.8333333</solidTime>
+        <fadeOutTime>0.0</fadeOutTime>
+        <graphicData>
+            <graphicClass>Graphic_FleckPulse</graphicClass>
+            <shaderType>GlowAnimated</shaderType>
+            <texPath>Things/Mote/WarpFrame</texPath>
+            <drawSize>(4.0,16.0)</drawSize>
+            <color>(0.25,0.6,1)</color>
+            <shaderParameters>
+                <_NumFrames>20</_NumFrames>
+                <_FramesPerSec>24</_FramesPerSec>
+            </shaderParameters>
+        </graphicData>
+    </FleckDef>
 </Defs>

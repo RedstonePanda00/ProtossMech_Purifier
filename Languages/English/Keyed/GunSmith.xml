@@ -4,7 +4,14 @@
   <ProtossMech.GunSmithTab>Gun Smith</ProtossMech.GunSmithTab>
   <ProtossMech.GunSmithWarp>Warp weapon</ProtossMech.GunSmithWarp>
   <ProtossMech.GunSmithSave>Save loadout</ProtossMech.GunSmithSave>
+  <ProtossMech.GunSmithWarpCost>Warp total: {0}</ProtossMech.GunSmithWarpCost>
+  <ProtossMech.GunSmithTopUp>Top-up: {0}</ProtossMech.GunSmithTopUp>
+  <ProtossMech.GunSmithRefund>Refund: {0}</ProtossMech.GunSmithRefund>
+  <ProtossMech.GunSmithNoDifference>No price difference</ProtossMech.GunSmithNoDifference>
+  <ProtossMech.GunSmithNotEnoughResources>Not enough resources to pay the top-up: {0}.</ProtossMech.GunSmithNotEnoughResources>
   <ProtossMech.GunSmithSaved>Saved loadout for {0}.</ProtossMech.GunSmithSaved>
+  <ProtossMech.GunSmithTargetUnavailable>The selected weapon is no longer available.</ProtossMech.GunSmithTargetUnavailable>
+  <ProtossMech.GunSmithApplyFailed>The weapon modification failed; any charged resources were refunded.</ProtossMech.GunSmithApplyFailed>
   <ProtossMech.GunSmithForge>Gun Smith</ProtossMech.GunSmithForge>
   <ProtossMech.GunSmithForgeDesc>Configure modular weapons anywhere in the colony.</ProtossMech.GunSmithForgeDesc>
   <ProtossMech.GunSmithWeaponList>Colony weapons</ProtossMech.GunSmithWeaponList>
@@ -79,4 +86,42 @@
   <PM_GunSmith_UB_Laser_Locked>Thermal lock active ({0}% heat). It will release at 0%.</PM_GunSmith_UB_Laser_Locked>
   <PM_GunSmith_UB_Laser_HeatInspect>Underbarrel laser heat: {0}%</PM_GunSmith_UB_Laser_HeatInspect>
 
+  <ProtossMech.GunSmithStats.R42SharpPenetration>Sharp penetration (mm RHA)</ProtossMech.GunSmithStats.R42SharpPenetration>
+  <ProtossMech.GunSmithStats.R42BluntPenetration>Blunt penetration (MPa)</ProtossMech.GunSmithStats.R42BluntPenetration>
+  <ProtossMech.GunSmithPreset.Import>Import</ProtossMech.GunSmithPreset.Import>
+  <ProtossMech.GunSmithPreset.ImportedName>Imported preset {0}</ProtossMech.GunSmithPreset.ImportedName>
+  <ProtossMech.GunSmithPreset.ImportHint>Paste a gunsmith code. Importing only creates a new preset; it never changes your current draft or weapon.</ProtossMech.GunSmithPreset.ImportHint>
+  <ProtossMech.GunSmithPreset.Copied>Gunsmith code copied.</ProtossMech.GunSmithPreset.Copied>
+  <ProtossMech.GunSmithPreset.RepairConfirm>This configuration cannot be restored exactly. Continue with these changes?\n\n{0}</ProtossMech.GunSmithPreset.RepairConfirm>
+  <ProtossMech.GunSmithPreset.DiscardDraft>Discard changes to this draft? Cancel and export the code first if you want to keep them.</ProtossMech.GunSmithPreset.DiscardDraft>
+  <ProtossMech.GunSmithPreset.ConfirmDelete>Delete preset “{0}”? This does not change any weapon.</ProtossMech.GunSmithPreset.ConfirmDelete>
+  <ProtossMech.GunSmithPreset.NoDraft>No editable loadout is selected.</ProtossMech.GunSmithPreset.NoDraft>
+  <ProtossMech.GunSmithPreset.InvalidCode>The code is malformed, incomplete, or failed its checksum.</ProtossMech.GunSmithPreset.InvalidCode>
+  <ProtossMech.GunSmithPreset.UnsupportedVersion>Unsupported data version. Update the mod before using this code or preset.</ProtossMech.GunSmithPreset.UnsupportedVersion>
+  <ProtossMech.GunSmithPreset.WrongEnvironment>CE codes and vanilla codes cannot be imported into each other’s environment.</ProtossMech.GunSmithPreset.WrongEnvironment>
+  <ProtossMech.GunSmithPreset.TooLarge>The code exceeds the size or attachment limit.</ProtossMech.GunSmithPreset.TooLarge>
+  <ProtossMech.GunSmithPreset.DuplicateSlot>The code contains more than one entry for the same slot.</ProtossMech.GunSmithPreset.DuplicateSlot>
+  <ProtossMech.GunSmithPreset.MissingPlatform>Weapon platform is missing: {0}</ProtossMech.GunSmithPreset.MissingPlatform>
+  <ProtossMech.GunSmithPreset.MissingPart>{0}: missing attachment {1}; removed.</ProtossMech.GunSmithPreset.MissingPart>
+  <ProtossMech.GunSmithPreset.IncompatiblePart>{0}: attachment {1} is not selectable or compatible; removed.</ProtossMech.GunSmithPreset.IncompatiblePart>
+  <ProtossMech.GunSmithPreset.RemovedPart>{0}: attachment {1} lost its slot dependency or is overridden by the active kit; removed.</ProtossMech.GunSmithPreset.RemovedPart>
+  <ProtossMech.GunSmithPreset.DefaultPart>{0}: restored default attachment {1}.</ProtossMech.GunSmithPreset.DefaultPart>
+  <ProtossMech.GunSmithPreset.InvalidLoadout>These attachments cannot form a valid loadout.</ProtossMech.GunSmithPreset.InvalidLoadout>
+  <ProtossMech.GunSmithPreset.InvalidRequiredSlot>Required slot cannot be restored: {0}</ProtossMech.GunSmithPreset.InvalidRequiredSlot>
+  <ProtossMech.GunSmithPreset.PresetUnavailable>The preset is no longer available.</ProtossMech.GunSmithPreset.PresetUnavailable>
+  <ProtossMech.GunSmithPreset.PresetMismatch>Only presets of the current platform and environment can be overwritten.</ProtossMech.GunSmithPreset.PresetMismatch>
+  <ProtossMech.GunSmithPreset.InvalidName>Enter a name of 1–80 characters without control characters.</ProtossMech.GunSmithPreset.InvalidName>
+  <ProtossMech.GunSmithPreset.DuplicateName>A preset with this name already exists for this platform.</ProtossMech.GunSmithPreset.DuplicateName>
+  <ProtossMech.GunSmithPreset.SaveFailed>Could not save the preset library. No changes were accepted; check the log and try again.</ProtossMech.GunSmithPreset.SaveFailed>
+  <ProtossMech.GunSmithPreset.CopyFailed>Could not access the clipboard.</ProtossMech.GunSmithPreset.CopyFailed>
+  <ProtossMech.GunSmithPreset.Presets>Presets</ProtossMech.GunSmithPreset.Presets>
+  <ProtossMech.GunSmithPreset.Export>Export</ProtossMech.GunSmithPreset.Export>
+  <ProtossMech.GunSmithPreset.CodePlaceholder>Paste gunsmith code</ProtossMech.GunSmithPreset.CodePlaceholder>
+  <ProtossMech.GunSmithPreset.PresetListHint>Click to load into the draft; right-click to delete. * marks changes to the draft.</ProtossMech.GunSmithPreset.PresetListHint>
+  <ProtossMech.GunSmithPreset.ExportHint>Copy the current draft and fill the code field. Does not save a preset. To save locally, export and then import.</ProtossMech.GunSmithPreset.ExportHint>
+  <ProtossMech.GunSmithPreset.EmptyPlatform>No presets for this weapon platform.</ProtossMech.GunSmithPreset.EmptyPlatform>
+  <ProtossMech.GunSmithPreset.ImportedAtPlatform>Created {0} · {1}</ProtossMech.GunSmithPreset.ImportedAtPlatform>
+  <ProtossMech.GunSmithPreset.DeleteNamed>Delete “{0}”</ProtossMech.GunSmithPreset.DeleteNamed>
+  <ProtossMech.GunSmithPreset.Confirm>Confirm</ProtossMech.GunSmithPreset.Confirm>
+  <ProtossMech.GunSmithPreset.Cancel>Cancel</ProtossMech.GunSmithPreset.Cancel>
 </LanguageData>

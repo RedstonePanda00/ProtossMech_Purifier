@@ -6,7 +6,7 @@
         <label>12 gauge dragon's breath shell</label>
         <description>An incendiary 12 gauge dragon's breath shell for the B12 Vanguard. It scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition.</description>
         <graphicData>
-            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <texPath>Things/Weapon/B12/B12_Ammo_DragonBreath</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>

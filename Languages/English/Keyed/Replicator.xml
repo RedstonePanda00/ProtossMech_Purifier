@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <ProtossMech.ReplicatorTitle>Replicator</ProtossMech.ReplicatorTitle>
+    <ProtossMech.ReplicatorOpen>Configure replicator</ProtossMech.ReplicatorOpen>
+    <ProtossMech.ReplicatorOpenDesc>Browse available recipes and manage the replicator's production queue.</ProtossMech.ReplicatorOpenDesc>
+    <ProtossMech.ReplicatorEnabled>Replicator enabled</ProtossMech.ReplicatorEnabled>
+    <ProtossMech.ReplicatorEnabledDesc>Enable or disable autonomous replication. Disabling resets current progress.</ProtossMech.ReplicatorEnabledDesc>
+    <ProtossMech.ReplicatorSearch>Search</ProtossMech.ReplicatorSearch>
+    <ProtossMech.ReplicatorAllSources>All loaded mods</ProtossMech.ReplicatorAllSources>
+    <ProtossMech.ReplicatorRecipeCount>{0} recipes</ProtossMech.ReplicatorRecipeCount>
+    <ProtossMech.ReplicatorCatalog>Recipe catalog</ProtossMech.ReplicatorCatalog>
+    <ProtossMech.ReplicatorConfigure>Configure recipe</ProtossMech.ReplicatorConfigure>
+    <ProtossMech.ReplicatorEditQueueItem>Edit queued recipe</ProtossMech.ReplicatorEditQueueItem>
+    <ProtossMech.ReplicatorSelectRecipe>Select an available recipe.</ProtossMech.ReplicatorSelectRecipe>
+    <ProtossMech.ReplicatorNoRecipes>No recipes match the current filters.</ProtossMech.ReplicatorNoRecipes>
+    <ProtossMech.ReplicatorRepeat>Iterations</ProtossMech.ReplicatorRepeat>
+    <ProtossMech.ReplicatorChoose>Choose material</ProtossMech.ReplicatorChoose>
+    <ProtossMech.ReplicatorQuality>Quality</ProtossMech.ReplicatorQuality>
+    <ProtossMech.ReplicatorQualityOption>{0} ({1} material cost)</ProtossMech.ReplicatorQualityOption>
+    <ProtossMech.ReplicatorCost>Cost per iteration: {0}</ProtossMech.ReplicatorCost>
+    <ProtossMech.ReplicatorNoIngredients>No ingredients</ProtossMech.ReplicatorNoIngredients>
+    <ProtossMech.ReplicatorAdd>Add to queue</ProtossMech.ReplicatorAdd>
+    <ProtossMech.ReplicatorUpdate>Update item</ProtossMech.ReplicatorUpdate>
+    <ProtossMech.ReplicatorCancelEdit>Cancel edit</ProtossMech.ReplicatorCancelEdit>
+    <ProtossMech.ReplicatorQueue>Production queue ({0})</ProtossMech.ReplicatorQueue>
+    <ProtossMech.ReplicatorQueueEmpty>The production queue is empty.</ProtossMech.ReplicatorQueueEmpty>
+    <ProtossMech.ReplicatorSuspend>Pause</ProtossMech.ReplicatorSuspend>
+    <ProtossMech.ReplicatorResume>Resume</ProtossMech.ReplicatorResume>
+    <ProtossMech.ReplicatorEdit>Edit</ProtossMech.ReplicatorEdit>
+    <ProtossMech.ReplicatorDelete>Delete</ProtossMech.ReplicatorDelete>
+    <ProtossMech.ReplicatorQueueSuspended>Paused</ProtossMech.ReplicatorQueueSuspended>
+    <ProtossMech.ReplicatorQueueBlocked>Blocked: insufficient resources; later items will wait.</ProtossMech.ReplicatorQueueBlocked>
+    <ProtossMech.ReplicatorQueueWaiting>Waiting behind the first active item.</ProtossMech.ReplicatorQueueWaiting>
+    <ProtossMech.ReplicatorQueueReady>Ready</ProtossMech.ReplicatorQueueReady>
+    <ProtossMech.ReplicatorOtherCategory>Other</ProtossMech.ReplicatorOtherCategory>
+    <ProtossMech.ReplicatorCoreSource>Core</ProtossMech.ReplicatorCoreSource>
+    <ProtossMech.ReplicatorRequires>Requires: {0}</ProtossMech.ReplicatorRequires>
+    <ProtossMech.ReplicatorPrerequisiteLocked>Currently unavailable due to unmet prerequisites.</ProtossMech.ReplicatorPrerequisiteLocked>
+    <ProtossMech.ReplicatorInvalidRecipe>This recipe can no longer be replicated.</ProtossMech.ReplicatorInvalidRecipe>
+    <ProtossMech.ReplicatorChooseIngredients>Choose one exact material for every ingredient.</ProtossMech.ReplicatorChooseIngredients>
+    <ProtossMech.ReplicatorInvalidIngredient>{0} has no valid ingredient value.</ProtossMech.ReplicatorInvalidIngredient>
+    <ProtossMech.ReplicatorCostOverflow>The calculated ingredient cost is too large.</ProtossMech.ReplicatorCostOverflow>
+    <ProtossMech.ReplicatorStatusDisabled>Disabled</ProtossMech.ReplicatorStatusDisabled>
+    <ProtossMech.ReplicatorStatusNoField>Inactive: no nearby energy field</ProtossMech.ReplicatorStatusNoField>
+    <ProtossMech.ReplicatorStatusIdle>Idle: queue empty or paused</ProtossMech.ReplicatorStatusIdle>
+    <ProtossMech.ReplicatorStatusWorking>Replicating {0}: {1}</ProtossMech.ReplicatorStatusWorking>
+    <ProtossMech.ReplicatorStatusWaiting>Waiting for resources: {0}</ProtossMech.ReplicatorStatusWaiting>
+</LanguageData>

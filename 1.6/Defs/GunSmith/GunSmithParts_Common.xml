@@ -3,6 +3,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_DarkTemplarSuppressor</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>integrated suppressor</label>
         <description>An integrated suppressor that absorbs the acoustic shock of firing and recovers a portion of projectile-drive kinetic waste, eliminating the weapon report while slightly improving ballistic efficiency.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -24,6 +27,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_MarksmanOptic</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>marksman optic</label>
         <description>A 4x/6x/8x variable-power optic with infrared thermal imaging. It improves medium- and long-range fire through smoke at the cost of close-range handling, acquisition time, and weight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -48,6 +54,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_Printer_MagFactory</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>50</count></li>
+        </costList>
         <label>Printer magazine factory</label>
         <description>A compact micro-fabricator magazine powered by a solarite cell. It can print fresh rounds while the weapon is not firing.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -144,6 +153,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_BoxLaser</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>box tactical laser</label>
         <description>A high-power tactical laser that provides clear pointing at close and medium range. This device emits visible light.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -169,6 +181,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_MuzzleBrake_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>vented muzzle brake</label>
         <description>A multi-baffle muzzle brake captures propellant gases to reduce recoil and improves muzzle cooling to extend sustained fire duration.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -190,6 +205,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_FrontGrip01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>light triangular foregrip</label>
         <description>A light triangular foregrip that braces the support hand without burdening the weapon, improving ergonomics and bringing the gun on target faster.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -208,6 +226,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_JetGrip</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>35</count></li>
+        </costList>
         <label>solarite vector-thrust grip</label>
         <description>An underbarrel device with two vectoring nozzles, powered by a solarite cell and fitted with a small triangular foregrip. Its thrust controller completely cancels recoil, greatly improving weapon performance at all ranges.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -228,6 +249,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_Launcher_HE</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>35</count></li>
+        </costList>
         <label>underbarrel fragmentation launcher</label>
         <description>An underbarrel grenade launcher fitted with a solarite cell. It fires 40x53mm grenades, replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -246,6 +270,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_Launcher_Shotgun</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>30</count></li>
+        </costList>
         <label>underbarrel cluster shotgun</label>
         <description>An underbarrel shotgun launcher fitted with a solarite cell. It fires 40x42mm cluster shotgun shells containing twelve .300 subsonic projectiles, replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -264,6 +291,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_UB_Launcher_LaserCannon</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>45</count></li>
+        </costList>
         <label>underbarrel continuous laser cannon</label>
         <description>An underbarrel laser cannon fitted with a solarite cell. It emits a sustained laser beam that provides continuous fire until the emitter overheats. Sustained fire causes the emitter to overheat and release all stored internal energy at once. After overheating, its emitter is replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -282,6 +312,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_Common_ViperSight</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>30</count></li>
+        </costList>
         <label>"Viper" virtual sight</label>
         <description>A lensless virtual sight whose frameless electronic reticle floats above the weapon. Its unobstructed picture remains clear at every range, while the extremely light emitter markedly improves handling and reveals cloaked targets.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>

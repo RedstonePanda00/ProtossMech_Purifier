@@ -28,7 +28,11 @@
   <PM_R42_Ammo_8x120.label>8×120mm钨铼合金弹体</PM_R42_Ammo_8x120.label>
   <PM_R42_Ammo_8x120.description>采用120mm钨铼合金侵彻体的加长磁轨弹，在不改变射击循环的前提下最大化穿甲能力。</PM_R42_Ammo_8x120.description>
 
-  <PM_R42_APEX_ChargedBarrel.label>充能枪管</PM_R42_APEX_ChargedBarrel.label>
-  <PM_R42_APEX_ChargedBarrel.description>一套尚未开放的 APEX 充能枪管。它会在开火前储存能量，将弹丸加速至极高膛速，并把膛内空气加热到等离子态后与弹丸一同发射，在动能命中后引发第二次等离子爆炸。完成后，它将把反器材步枪转变为真正的等离子—轨道狙击炮。</PM_R42_APEX_ChargedBarrel.description>
+  <PM_R42_APEX_ChargedBarrel.label>“龙息”充能枪管</PM_R42_APEX_ChargedBarrel.label>
+  <PM_R42_APEX_ChargedBarrel.description>充能枪管通过蓄能在一瞬间达到匪夷所思的能量强度，将钨铼合金柱体加速到10-20倍音速，急速弹丸会撕裂枪口方向的空气造成局部真空，使得膛内的等离子态空气在消散前能喷射更远的距离。作为测试员的净化者军团不朽者评价说“像被一辆超音速的攻城坦克击中”。</PM_R42_APEX_ChargedBarrel.description>
 
+  <PM_R42_APEX_Rail.label>APEX 加速导轨</PM_R42_APEX_Rail.label>
+  <PM_R42_APEX_Rail.description>与充能枪管配套的专用磁约束导轨，其成本和性能已计入完整套件。</PM_R42_APEX_Rail.description>
+  <PM_R42_APEX_Bipod.label>APEX 脚架</PM_R42_APEX_Bipod.label>
+  <PM_R42_APEX_Bipod.description>与“龙息”充能枪管配套的专用脚架，其成本和质量已计入完整套件。</PM_R42_APEX_Bipod.description>
 </LanguageData>

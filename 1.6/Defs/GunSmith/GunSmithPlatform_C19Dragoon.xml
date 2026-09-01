@@ -48,7 +48,7 @@
             <li><slotId>RearIronSight</slotId><part>PM_Common_IronSight_Rear_Folded</part><whenSlotOccupied>Optic</whenSlotOccupied></li>
             <li><slotId>FrontIronSight</slotId><part>PM_Common_IronSight_Front_Folded</part><whenSlotOccupied>Optic</whenSlotOccupied></li>
         </defaultParts>
-        <warpCostList><li><thingDef>Steel</thingDef><count>1</count></li></warpCostList>
+        <warpCostList><li><thingDef>PM_Solarite</thingDef><count>50</count></li></warpCostList>
     </ProtossMech.GunSmith.GunSmithPlatformDef>
 
 </Defs>

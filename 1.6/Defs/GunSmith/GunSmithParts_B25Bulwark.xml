@@ -3,6 +3,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Barrel_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>quick-change barrel</label>
         <description>A quick-change barrel for sustained all-range suppression that can be replaced rapidly in the field.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -38,6 +41,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Barrel_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
         <label>reinforced long barrel</label>
         <description>A longer barrel and handguard that increase muzzle velocity while improving recoil control and heat dissipation. The extra weight slows aim and makes the weapon harder to carry.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -79,6 +85,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>standard grip</label>
         <description>A standard pistol grip that provides stable, predictable handling.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -88,6 +97,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>ergonomic grip</label>
         <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -105,6 +117,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_03</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>skeletonized lightweight grip</label>
         <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -121,6 +136,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Grip_04</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>50</count></li>
+        </costList>
         <label>"Titan" dual-wield grip</label>
         <description>Allows the user to fire two weapons simultaneously, trading long-range precision for extreme close-range firepower. It is a technique normally reserved for legion soldiers.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -138,6 +156,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Stock_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>standard stock</label>
         <description>A standard stock with soft materials for a more comfortable shooting experience.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -155,6 +176,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Ammo_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>6.8x42 electrothermal-chemical caseless telescoped rounds</label>
         <description>6.8x42 electrothermal-chemical caseless telescoped rounds. Their caseless construction reduces mass and volume, while high-density chemical fuel produces greater muzzle velocity than conventional propellant.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>
@@ -168,6 +192,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_B25Bulwark_Magazine_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>80-round box magazine</label>
         <description>A standard 80-round magazine for belt-fed machine guns.</description>
         <platformDef>PM_GunSmith_B25Bulwark</platformDef>

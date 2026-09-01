@@ -3,6 +3,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Barrel_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
         <label>long barrel</label>
         <description>An extended electromagnetic acceleration barrel. Its longer acceleration path drives the slug to greater velocity, improving effective range, terminal force, armor penetration, and long-range consistency at the cost of weight and handling.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -22,6 +25,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Barrel_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>short barrel</label>
         <description>A compact electromagnetic acceleration barrel that reduces forward weight and brings the weapon on target faster. The shortened acceleration path sacrifices range, muzzle velocity, penetration, and long-range stability.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -43,6 +49,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Rail_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>long rail</label>
         <description>A full-length dual rail assembly that supplies stronger electromagnetic thrust and maintains a more stable acceleration field. It supports extreme-range fire at the cost of additional mass and a slower firing solution.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -63,6 +72,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Rail_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>assault rail</label>
         <description>A compact magnetic constraint assembly that reduces forward inertia for faster target acquisition. It remains effective at close and medium range, but gives up some projectile velocity, penetration, and long-range stability.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -83,6 +95,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Sight_01</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>advanced red dot sight</label>
         <description>An unobstructed projected aiming point backed by AI fire control that automatically identifies hostile targets. It accelerates target acquisition and correction at close to medium range.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -100,6 +115,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Sight_02</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
         <label>red dot sight</label>
         <description>An exceptionally light red dot sight with a wide, clear sight picture. It is optimized for immediate close-range engagement, trading away medium- and long-range precision.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -125,6 +143,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x100</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
         <label>8×100 mm tungsten-rhenium slug</label>
         <description>A standard rail slug. Its 100 mm tungsten-rhenium penetrator balances mass, handling and armor penetration.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -138,6 +159,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x80</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
         <label>8×80 mm tungsten-rhenium slug</label>
         <description>A shorter rail slug with reduced penetrator length. It preserves the weapon's firing behavior while reducing armor penetration.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -151,6 +175,9 @@
 
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x120</defName>
+        <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
         <label>8×120 mm tungsten-rhenium slug</label>
         <description>An extended rail slug built around a 120 mm tungsten-rhenium penetrator. It maximizes armor penetration without changing the rifle's firing cycle.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
@@ -162,22 +189,52 @@
         <projectileOverride>PM_Bullet_R42_Long</projectileOverride>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
-    <!--
-      APEX placeholder only. Future target:
-      total warmup 4.0 s, range 60, kinetic damage 32, projectile speed x1.40,
-      armor penetration about 213%, plus a radius 1.9 plasma explosion dealing 18 damage.
-      The APEX barrel will replace only the normal Barrel slot; Rail and Optic remain available.
-    -->
     <ProtossMech.GunSmith.GunSmithPartDef>
         <defName>PM_R42_APEX_ChargedBarrel</defName>
         <label>"DragonBreath" charged barrel</label>
-        <description>An APEX charging barrel that stores energy before firing, driving the projectile to extreme muzzle velocity. Air trapped in the bore is heated into plasma and expelled with the slug, producing a secondary plasma detonation after the kinetic impact. When complete, this system will transform an anti-materiel rifle into a plasma-rail sniper cannon.</description>
+        <description>The charged barrel releases stored energy at an almost inconceivable intensity, accelerating a tungsten-rhenium alloy slug to Mach 10–20. The projectile tears through the air ahead of the muzzle, leaving a local vacuum that lets the plasma in the bore travel farther before dissipating. An Immortal of the Purifier Legions who tested it described the impact as “being hit by a supersonic siege tank.”</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Barrel</texPath>
         <previewDrawSize>1.0</previewDrawSize>
         <isApex>true</isApex>
-        <selectable>false</selectable>
+        <isApexEntry>true</isApexEntry>
+        <costList><li><thingDef>PM_Solarite</thingDef><count>150</count></li></costList>
+        <warmupTimeOffset>3.2</warmupTimeOffset>
+        <rangeOffset>18</rangeOffset>
+        <statOffsets><Mass>2</Mass></statOffsets>
+        <ceAmmoSetOverride>PM_AmmoSet_R42Apex</ceAmmoSetOverride>
+        <providedSlots><li><slotId>UnderBarrel</slotId><optional>true</optional></li></providedSlots>
+        <childSlotAnchors><li><slotId>UnderBarrel</slotId><offset>(-0.2964, 0.0878)</offset></li></childSlotAnchors>
+        <apexForcedParts>
+            <li><slotId>Rail</slotId><part>PM_R42_APEX_Rail</part></li>
+            <li><slotId>UnderBarrel</slotId><part>PM_R42_APEX_Bipod</part></li>
+        </apexForcedParts>
+        <apexHiddenSlotIds><li>Rail</li><li>UnderBarrel</li></apexHiddenSlotIds>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_APEX_Rail</defName>
+        <label>APEX acceleration rail</label>
+        <description>Dedicated magnetic constraint rails supplied with the DragonBreath charged barrel. Their cost and performance are included in the complete kit.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>Rail</slotId>
+        <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Rail</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+    </ProtossMech.GunSmith.GunSmithPartDef>
+    <ProtossMech.GunSmith.GunSmithPartDef>
+        <defName>PM_R42_APEX_Bipod</defName>
+        <label>APEX bipod</label>
+        <description>The dedicated bipod supplied with the DragonBreath charged barrel. Included in the kit cost and mass.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotId>UnderBarrel</slotId>
+        <texPath>Things/Weapon/RailGun/APEX/R42_APEX_UnderBarrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>30</drawOrder>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+    </ProtossMech.GunSmith.GunSmithPartDef>
 </Defs>

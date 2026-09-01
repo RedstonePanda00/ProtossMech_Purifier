@@ -25,7 +25,7 @@
         <uiOrder>3020</uiOrder>
         <size>(1,1)</size>
         <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
+            <MaxHitPoints>150</MaxHitPoints>
             <WorkToBuild>4000</WorkToBuild>
             <Flammability>0</Flammability>
             <Beauty>-5</Beauty>
@@ -47,12 +47,21 @@
                 <!-- 2.092e14 J at 1000 J/Wd (one RimWorld watt-day) -->
                 <storedEnergyMax>209200000000</storedEnergyMax>
                 <pylonChargePercentPerDay>0.10</pylonChargePercentPerDay>
+                <maxOutputPower>100000</maxOutputPower>
+                <outputPowerStep>100</outputPowerStep>
                 <crystallizeThreshold>0.95</crystallizeThreshold>
                 <crystallizeSolariteCount>25</crystallizeSolariteCount>
                 <crystallizeProduct>PM_Solarite</crystallizeProduct>
             </li>
             <li Class="CompProperties_Flickable"/>
             <li Class="CompProperties_Breakdownable"/>
+            <li Class="ProtossMech.CompProperties_ProtossMechShield">
+                <energyMax>150</energyMax>
+                <energyGainPerTick>0.2</energyGainPerTick>
+                <ticksToBeginRecharge>600</ticksToBeginRecharge>
+                <minDrawSize>1.2</minDrawSize>
+                <maxDrawSize>2.0</maxDrawSize>
+            </li>
         </comps>
         <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
         <constructEffect>ConstructMetal</constructEffect>
