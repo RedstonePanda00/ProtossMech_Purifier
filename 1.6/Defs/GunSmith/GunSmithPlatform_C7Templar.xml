@@ -81,6 +81,11 @@
             <li>Optic</li>
         </optionalSlotIds>
         <defaultParts>
+            <li><slotId>Barrel</slotId><part>PM_C7Templar_Barrel_01</part></li>
+            <li><slotId>Stock</slotId><part>PM_C7Templar_Stock_01</part></li>
+            <li><slotId>Grip</slotId><part>PM_C7Templar_Grip_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C7Templar_Ammo_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C7Templar_Magazine_01</part></li>
             <li>
                 <slotId>RearIronSight</slotId>
                 <part>PM_Common_IronSight_Rear_Raised</part>

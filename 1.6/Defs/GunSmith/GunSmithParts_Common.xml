@@ -73,6 +73,7 @@
         <ceAmmoPrinterIntervalTicks>60</ceAmmoPrinterIntervalTicks>
         <ceAmmoPrinterRoundsPerInterval>10</ceAmmoPrinterRoundsPerInterval>
         <ceSuppressPassiveReloadWhenEmpty>true</ceSuppressPassiveReloadWhenEmpty>
+        <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_CeAmmoPrinter</workerClass>
     </ProtossMech.GunSmith.GunSmithPartDef>
 
     <ProtossMech.GunSmith.GunSmithPartDef>

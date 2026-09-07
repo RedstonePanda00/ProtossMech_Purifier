@@ -55,6 +55,13 @@
             <li>Muzzle</li>
             <li>UnderBarrel</li>
         </optionalSlotIds>
+        <defaultParts>
+            <li><slotId>Barrel</slotId><part>PM_C31Tempest_Barrel_01</part></li>
+            <li><slotId>Stock</slotId><part>PM_C31Tempest_Stock_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C31Tempest_Ammo_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C31Tempest_Magazine_01</part></li>
+            <li><slotId>Optic</slotId><part>PM_C31Tempest_Sight_01</part></li>
+        </defaultParts>
         <warpCostList>
             <li>
                 <thingDef>PM_Solarite</thingDef>

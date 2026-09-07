@@ -194,6 +194,13 @@
         <label>"DragonBreath" charged barrel</label>
         <description>The charged barrel releases stored energy at an almost inconceivable intensity, accelerating a tungsten-rhenium alloy slug to Mach 10–20. The projectile tears through the air ahead of the muzzle, leaving a local vacuum that lets the plasma in the bore travel farther before dissipating. An Immortal of the Purifier Legions who tested it described the impact as “being hit by a supersonic siege tank.”</description>
         <platformDef>PM_GunSmith_R42</platformDef>
+        <requiredPlatformCapabilities>
+            <li>PhysicalAmmoVariants</li>
+            <li>LinearPenetratingProjectile</li>
+        </requiredPlatformCapabilities>
+        <behaviorClass>ProtossMech.GunSmith.GunSmithPartBehavior_R42Apex</behaviorClass>
+        <secondaryProjectileDefName>PM_Bullet_R42Apex_Plasma</secondaryProjectileDefName>
+        <ceSecondaryProjectileDefName>PM_Bullet_R42Apex_Plasma_CE</ceSecondaryProjectileDefName>
         <slotId>Barrel</slotId>
         <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Barrel</texPath>
         <previewDrawSize>1.0</previewDrawSize>

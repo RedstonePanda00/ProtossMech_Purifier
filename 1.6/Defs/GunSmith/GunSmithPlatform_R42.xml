@@ -4,7 +4,13 @@
     <ProtossMech.GunSmith.GunSmithPlatformDef>
         <defName>PM_GunSmith_R42</defName>
         <label>R-42 DeadEye</label>
+        <isDefault>true</isDefault>
         <weaponThingDef>PM_GunR42DeadEye</weaponThingDef>
+        <capabilities>
+            <li>PhysicalAmmoVariants</li>
+            <li>LinearPenetratingProjectile</li>
+        </capabilities>
+        <behaviorClass>ProtossMech.GunSmith.GunSmithPlatformBehavior_R42</behaviorClass>
         <bodyTexPath>Things/Weapon/RailGun/R42_Body</bodyTexPath>
         <slotAttachmentOffsets>
             <li>
@@ -38,6 +44,12 @@
             <li>Ammo</li>
             <li>Optic</li>
         </slotIds>
+        <defaultParts>
+            <li><slotId>Barrel</slotId><part>PM_R42_Barrel_01</part></li>
+            <li><slotId>Rail</slotId><part>PM_R42_Rail_01</part></li>
+            <li><slotId>Ammo</slotId><part>PM_R42_Ammo_8x100</part></li>
+            <li><slotId>Optic</slotId><part>PM_R42_Sight_01</part></li>
+        </defaultParts>
         <warpCostList>
             <li>
                 <thingDef>PM_Solarite</thingDef>
