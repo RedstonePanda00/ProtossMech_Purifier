@@ -55,7 +55,7 @@
                 <innerRingSpeed>6</innerRingSpeed>
                 <middleRingSpeed>-9</middleRingSpeed>
                 <outerRingSpeed>13</outerRingSpeed>
-                <workingSpeedMultiplier>7.5</workingSpeedMultiplier>
+                <workingSpeedMultiplier>22.5</workingSpeedMultiplier>
             </li>
             <li Class="ProtossMech.CompProperties_ProtossMechShield">
                 <energyMax>2000</energyMax>

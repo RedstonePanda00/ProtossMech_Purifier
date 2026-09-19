@@ -45,9 +45,7 @@
   <ProtossMech.GunSmithStats.CeAmmoPrinter>CE &#x5F39;&#x836F;&#x6253;&#x5370;&#xFF1A;&#x5EF6;&#x8FDF; / &#x95F4;&#x9694; / &#x6570;&#x91CF;</ProtossMech.GunSmithStats.CeAmmoPrinter>
   <ProtossMech.GunSmithStats.SuppressPassiveReload>&#x7A7A;&#x4ED3;&#x65F6;&#x963B;&#x6B62;&#x88AB;&#x52A8;&#x6362;&#x5F39;</ProtossMech.GunSmithStats.SuppressPassiveReload>
   <ProtossMech.GunSmithStats.BurstShotCount>&#x8FDE;&#x53D1;&#x6570;</ProtossMech.GunSmithStats.BurstShotCount>
-  <ProtossMech.GunSmithStats.BurstShotCount.Desc>&#x6BCF;&#x6B21;&#x70B9;&#x5C04;&#x53D1;&#x5C04;&#x7684;&#x5B50;&#x5F39;&#x6570;&#x3002;</ProtossMech.GunSmithStats.BurstShotCount.Desc>
   <ProtossMech.GunSmithStats.TicksBetweenBurstShots>&#x8FDE;&#x53D1;&#x95F4;&#x9694; tick</ProtossMech.GunSmithStats.TicksBetweenBurstShots>
-  <ProtossMech.GunSmithStats.TicksBetweenBurstShots.Desc>&#x540C;&#x4E00;&#x6B21;&#x70B9;&#x5C04;&#x4E2D;&#x4E24;&#x53D1;&#x4E4B;&#x95F4;&#x7684; tick &#x95F4;&#x9694;&#x3002;</ProtossMech.GunSmithStats.TicksBetweenBurstShots.Desc>
   <ProtossMech.GunSmithPreviewFailed>&#x9884;&#x89C8;&#x4E0D;&#x53EF;&#x7528;&#x3002;</ProtossMech.GunSmithPreviewFailed>
   <ProtossMech.GunSmithMode.Gunsmith>&#x67AA;&#x5320;&#x6A21;&#x5F0F;</ProtossMech.GunSmithMode.Gunsmith>
   <ProtossMech.GunSmithMode.LayoutDev>&#x5E03;&#x5C40;&#x8C03;&#x8BD5;</ProtossMech.GunSmithMode.LayoutDev>
@@ -59,18 +57,10 @@
   <ProtossMech.GunSmithPlatformLocked>&#x9700;&#x8981;&#x7814;&#x7A76;&#xFF1A;{0}</ProtossMech.GunSmithPlatformLocked>
   <ProtossMech.GunSmithStats.IgnoresWeather>&#x514D;&#x75AB;&#x5929;&#x6C14;&#x5F71;&#x54CD;</ProtossMech.GunSmithStats.IgnoresWeather>
   <ProtossMech.GunSmithStats.IgnoresSmoke>&#x514D;&#x75AB;&#x70DF;&#x96FE;&#x60E9;&#x7F5A;</ProtossMech.GunSmithStats.IgnoresSmoke>
-  <ProtossMech.GunSmithStats.AttachmentAdjustment>&#x914D;&#x4EF6;&#x4FEE;&#x6B63;</ProtossMech.GunSmithStats.AttachmentAdjustment>
-  <ProtossMech.GunSmithStats.WeaponMultiplier>&#x6B66;&#x5668;&#x500D;&#x7387;</ProtossMech.GunSmithStats.WeaponMultiplier>
   <ProtossMech.GunSmithStats.EqualizeAccuracy>全距离精度等于最高精度项</ProtossMech.GunSmithStats.EqualizeAccuracy>
-  <ProtossMech.DualWield.PrimaryHoldFire>主枪：停火</ProtossMech.DualWield.PrimaryHoldFire>
-  <ProtossMech.DualWield.SecondaryHoldFire>副枪：停火</ProtossMech.DualWield.SecondaryHoldFire>
-  <ProtossMech.DualWield.PrimaryHoldFireDesc>阻止主枪开火；副枪仍可攻击共享目标。</ProtossMech.DualWield.PrimaryHoldFireDesc>
-  <ProtossMech.DualWield.SecondaryHoldFireDesc>阻止镜像副枪开火；主枪仍可攻击共享目标。</ProtossMech.DualWield.SecondaryHoldFireDesc>
   <ProtossMech.DualWield.Ammo>双持弹药：{0}/{1} | {2}/{3}</ProtossMech.DualWield.Ammo>
   <ProtossMech.DualWield.AmmoDesc>主枪与镜像副枪的独立弹匣。</ProtossMech.DualWield.AmmoDesc>
         <ProtossMech.DualWield.AmmoUnavailable>双持弹药：等待 CE 弹匣</ProtossMech.DualWield.AmmoUnavailable>
-        <ProtossMech.DualWield.SecondaryAmmo>副枪弹药</ProtossMech.DualWield.SecondaryAmmo>
-        <ProtossMech.DualWield.SecondaryAmmoDesc>镜像副枪独立弹匣中的剩余弹药。</ProtossMech.DualWield.SecondaryAmmoDesc>
   <ProtossMech.GunSmithStats.CeEliminatesRecoil>CE 后坐力完全消除</ProtossMech.GunSmithStats.CeEliminatesRecoil>
   <PM_GunSmith_UB_Unavailable>下挂发射器当前不可用。</PM_GunSmith_UB_Unavailable>
   <PM_GunSmith_UB_Cooldown>下挂发射器冷却中：{0} 秒。</PM_GunSmith_UB_Cooldown>
@@ -124,4 +114,16 @@
   <ProtossMech.GunSmithPreset.DeleteNamed>删除“{0}”</ProtossMech.GunSmithPreset.DeleteNamed>
   <ProtossMech.GunSmithPreset.Confirm>确认</ProtossMech.GunSmithPreset.Confirm>
   <ProtossMech.GunSmithPreset.Cancel>取消</ProtossMech.GunSmithPreset.Cancel>
+  <PM_GunSmith_UB_Grenade_Command>下挂榴弹：{0}</PM_GunSmith_UB_Grenade_Command>
+  <PM_GunSmith_UB_Grenade_Frag>破片</PM_GunSmith_UB_Grenade_Frag>
+  <PM_GunSmith_UB_Grenade_Plasma>电浆</PM_GunSmith_UB_Grenade_Plasma>
+  <PM_GunSmith_UB_Grenade_Concussion>震撼</PM_GunSmith_UB_Grenade_Concussion>
+  <PM_GunSmith_UB_Grenade_EMP>EMP</PM_GunSmith_UB_Grenade_EMP>
+  <PM_GunSmith_UB_Grenade_Frag_Desc>从爆心向四周释放 20 个弹片，伤害实际命中的目标。</PM_GunSmith_UB_Grenade_Frag_Desc>
+  <PM_GunSmith_UB_Grenade_Plasma_Desc>引发大范围热能汽化爆炸，相当于小型帝王业火炮。</PM_GunSmith_UB_Grenade_Plasma_Desc>
+  <PM_GunSmith_UB_Grenade_Concussion_Desc>大幅降低移动速度，禁止转身和使用主动技能。锁定枪口朝向，只能瞄准、射击锁定方向前方 90° 扇形内的目标。</PM_GunSmith_UB_Grenade_Concussion_Desc>
+  <PM_GunSmith_UB_Grenade_EMP_Desc>使用原版 EMP 宕机效果；机械体额外受到电路熔断，持续承受超高穿透热能伤害。</PM_GunSmith_UB_Grenade_EMP_Desc>
+  <PM_GunSmith_UB_Grenade_Help>左键瞄准发射；右键按破片、电浆、震撼、EMP 顺序轮切。所有弹种共享冷却。</PM_GunSmith_UB_Grenade_Help>
+  <PM_GunSmith_UB_Concussed>震撼期间无法使用技能。</PM_GunSmith_UB_Concussed>
+    <ProtossMech.GunSmithEliteMode>精英枪匠模式（仅支持的平台，功能预留）</ProtossMech.GunSmithEliteMode>
 </LanguageData>

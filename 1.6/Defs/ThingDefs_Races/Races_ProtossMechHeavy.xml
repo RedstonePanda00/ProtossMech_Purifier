@@ -290,6 +290,9 @@
       </li>
     </tools>
     <comps>
+      <li Class="ProtossMech.CompProperties_CosmicSpiderRenderer">
+        <rig>PM_CosmicSpiderRig</rig>
+      </li>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>70</energyMax>
         <energyGainPerTick>0.25</energyGainPerTick>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Keyed strings owned by GunSmithFramework.dll. Keep this file with the framework when it ships separately. -->
+  <GunSmithFramework.Stats.BurstShotCount>&#x8FDE;&#x53D1;&#x6570;</GunSmithFramework.Stats.BurstShotCount>
+  <GunSmithFramework.Stats.BurstShotCount.Desc>&#x6BCF;&#x6B21;&#x70B9;&#x5C04;&#x53D1;&#x5C04;&#x7684;&#x5B50;&#x5F39;&#x6570;&#x3002;</GunSmithFramework.Stats.BurstShotCount.Desc>
+  <GunSmithFramework.Stats.TicksBetweenBurstShots>&#x8FDE;&#x53D1;&#x95F4;&#x9694; tick</GunSmithFramework.Stats.TicksBetweenBurstShots>
+  <GunSmithFramework.Stats.TicksBetweenBurstShots.Desc>&#x540C;&#x4E00;&#x6B21;&#x70B9;&#x5C04;&#x4E2D;&#x4E24;&#x53D1;&#x4E4B;&#x95F4;&#x7684; tick &#x95F4;&#x9694;&#x3002;</GunSmithFramework.Stats.TicksBetweenBurstShots.Desc>
+  <GunSmithFramework.Stats.AttachmentAdjustment>&#x914D;&#x4EF6;&#x4FEE;&#x6B63;</GunSmithFramework.Stats.AttachmentAdjustment>
+  <GunSmithFramework.Stats.WeaponMultiplier>&#x6B66;&#x5668;&#x500D;&#x7387;</GunSmithFramework.Stats.WeaponMultiplier>
+  <GunSmithFramework.DualWield.PrimaryHoldFire>主枪：停火</GunSmithFramework.DualWield.PrimaryHoldFire>
+  <GunSmithFramework.DualWield.SecondaryHoldFire>副枪：停火</GunSmithFramework.DualWield.SecondaryHoldFire>
+  <GunSmithFramework.DualWield.PrimaryHoldFireDesc>阻止主枪开火；副枪仍可攻击共享目标。</GunSmithFramework.DualWield.PrimaryHoldFireDesc>
+  <GunSmithFramework.DualWield.SecondaryHoldFireDesc>阻止镜像副枪开火；主枪仍可攻击共享目标。</GunSmithFramework.DualWield.SecondaryHoldFireDesc>
+  <GunSmithFramework.DualWield.SecondaryAmmo>副枪弹药</GunSmithFramework.DualWield.SecondaryAmmo>
+  <GunSmithFramework.DualWield.SecondaryAmmoDesc>镜像副枪独立弹匣中的剩余弹药。</GunSmithFramework.DualWield.SecondaryAmmoDesc>
+</LanguageData>

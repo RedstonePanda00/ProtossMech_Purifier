@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ProtossMech.GunSmith.GunSmithPlatformDef>
+    <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_C31Tempest</defName>
         <label>C-31 Tempest</label>
         <weaponThingDef>PM_GunC31Tempest</weaponThingDef>
@@ -43,18 +43,14 @@
         <bakeContentScale>0.55</bakeContentScale>
         <shadowDilatePixels>5</shadowDilatePixels>
         <shadowAlpha>1</shadowAlpha>
-        <slotIds>
-            <li>Barrel</li>
-            <li>Muzzle</li>
-            <li>UnderBarrel</li>
-            <li>Stock</li>
-            <li>Magazine</li>
-            <li>Optic</li>
-        </slotIds>
-        <optionalSlotIds>
-            <li>Muzzle</li>
-            <li>UnderBarrel</li>
-        </optionalSlotIds>
+        <slots>
+            <li><slotId>Barrel</slotId><slotType>Barrel</slotType><optional>false</optional></li>
+            <li><slotId>Muzzle</slotId><slotType>Muzzle</slotType><optional>true</optional></li>
+            <li><slotId>UnderBarrel</slotId><slotType>UnderBarrel</slotType><optional>true</optional></li>
+            <li><slotId>Stock</slotId><slotType>Stock</slotType><optional>false</optional></li>
+            <li><slotId>Magazine</slotId><slotType>Magazine</slotType><optional>false</optional></li>
+            <li><slotId>Optic</slotId><slotType>Optic</slotType><optional>false</optional></li>
+        </slots>
         <defaultParts>
             <li><slotId>Barrel</slotId><part>PM_C31Tempest_Barrel_01</part></li>
             <li><slotId>Stock</slotId><part>PM_C31Tempest_Stock_01</part></li>
@@ -62,12 +58,17 @@
             <li><slotId>Magazine</slotId><part>PM_C31Tempest_Magazine_01</part></li>
             <li><slotId>Optic</slotId><part>PM_C31Tempest_Sight_01</part></li>
         </defaultParts>
-        <warpCostList>
+        
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
             <li>
                 <thingDef>PM_Solarite</thingDef>
                 <count>50</count>
             </li>
-        </warpCostList>
-    </ProtossMech.GunSmith.GunSmithPlatformDef>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPlatformDef>
 
 </Defs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ProtossMech.GunSmith.GunSmithPlatformDef>
+    <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_R42</defName>
         <label>R-42 DeadEye</label>
         <isDefault>true</isDefault>
@@ -38,24 +38,29 @@
         <bakePadding>0.05</bakePadding>
         <shadowDilatePixels>5</shadowDilatePixels>
         <shadowAlpha>1</shadowAlpha>
-        <slotIds>
-            <li>Barrel</li>
-            <li>Rail</li>
-            <li>Ammo</li>
-            <li>Optic</li>
-        </slotIds>
+        <slots>
+            <li><slotId>Barrel</slotId><slotType>Barrel</slotType><optional>false</optional></li>
+            <li><slotId>Rail</slotId><slotType>Rail</slotType><optional>false</optional></li>
+            <li><slotId>Ammo</slotId><slotType>Ammo</slotType><optional>false</optional></li>
+            <li><slotId>Optic</slotId><slotType>Optic</slotType><optional>false</optional></li>
+        </slots>
         <defaultParts>
             <li><slotId>Barrel</slotId><part>PM_R42_Barrel_01</part></li>
             <li><slotId>Rail</slotId><part>PM_R42_Rail_01</part></li>
             <li><slotId>Ammo</slotId><part>PM_R42_Ammo_8x100</part></li>
             <li><slotId>Optic</slotId><part>PM_R42_Sight_01</part></li>
         </defaultParts>
-        <warpCostList>
+        
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
             <li>
                 <thingDef>PM_Solarite</thingDef>
                 <count>50</count>
             </li>
-        </warpCostList>
-    </ProtossMech.GunSmith.GunSmithPlatformDef>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPlatformDef>
 
 </Defs>

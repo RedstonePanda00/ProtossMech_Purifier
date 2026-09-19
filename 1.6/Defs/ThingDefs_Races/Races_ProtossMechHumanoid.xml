@@ -237,6 +237,7 @@
     </statBases>
     <race>
       <body>PM_HumanoidBody</body>
+      <renderTree>PM_Umbra</renderTree>
       <baseBodySize>1.2</baseBodySize>
       <mechEnabledWorkTypes>
         <li>Hunting</li>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PM_Projectile_Common_UB_HE.label>下挂破片手雷</PM_Projectile_Common_UB_HE.label>
+  <PM_Projectile_Common_UB_HE.label>下挂破片榴弹</PM_Projectile_Common_UB_HE.label>
   <PM_Projectile_Common_UB_ShotgunPellet.label>下挂集束弹丸</PM_Projectile_Common_UB_ShotgunPellet.label>
+  <PM_Projectile_Common_UB_Grenade_Plasma.label>下挂电浆榴弹</PM_Projectile_Common_UB_Grenade_Plasma.label>
+  <PM_Projectile_Common_UB_Grenade_Concussion.label>下挂震撼榴弹</PM_Projectile_Common_UB_Grenade_Concussion.label>
+  <PM_Projectile_Common_UB_Grenade_EMP.label>下挂 EMP 榴弹</PM_Projectile_Common_UB_Grenade_EMP.label>
+  <PM_Projectile_Common_UB_Grenade_Frag_Shard.label>榴弹破片</PM_Projectile_Common_UB_Grenade_Frag_Shard.label>
 </LanguageData>

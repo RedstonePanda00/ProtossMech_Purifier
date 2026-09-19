@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Keyed strings owned by GunSmithFramework.dll. Keep this file with the framework when it ships separately. -->
+  <GunSmithFramework.Stats.BurstShotCount>Burst shots</GunSmithFramework.Stats.BurstShotCount>
+  <GunSmithFramework.Stats.BurstShotCount.Desc>Number of shots fired in one burst.</GunSmithFramework.Stats.BurstShotCount.Desc>
+  <GunSmithFramework.Stats.TicksBetweenBurstShots>Ticks between burst shots</GunSmithFramework.Stats.TicksBetweenBurstShots>
+  <GunSmithFramework.Stats.TicksBetweenBurstShots.Desc>Delay in ticks between shots inside the same burst.</GunSmithFramework.Stats.TicksBetweenBurstShots.Desc>
+  <GunSmithFramework.Stats.AttachmentAdjustment>Attachment adjustment</GunSmithFramework.Stats.AttachmentAdjustment>
+  <GunSmithFramework.Stats.WeaponMultiplier>Weapon multiplier</GunSmithFramework.Stats.WeaponMultiplier>
+  <GunSmithFramework.DualWield.PrimaryHoldFire>Primary gun: hold fire</GunSmithFramework.DualWield.PrimaryHoldFire>
+  <GunSmithFramework.DualWield.SecondaryHoldFire>Secondary gun: hold fire</GunSmithFramework.DualWield.SecondaryHoldFire>
+  <GunSmithFramework.DualWield.PrimaryHoldFireDesc>Prevent the primary gun from firing. The secondary gun can still attack the shared target.</GunSmithFramework.DualWield.PrimaryHoldFireDesc>
+  <GunSmithFramework.DualWield.SecondaryHoldFireDesc>Prevent the mirrored secondary gun from firing. The primary gun can still attack the shared target.</GunSmithFramework.DualWield.SecondaryHoldFireDesc>
+  <GunSmithFramework.DualWield.SecondaryAmmo>Secondary gun ammo</GunSmithFramework.DualWield.SecondaryAmmo>
+  <GunSmithFramework.DualWield.SecondaryAmmoDesc>Remaining rounds in the independent mirrored secondary-gun magazine.</GunSmithFramework.DualWield.SecondaryAmmoDesc>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<PM_UnderbarrelConcussion.label>震撼</PM_UnderbarrelConcussion.label>
+<PM_UnderbarrelCircuitPulse.label>电路过载</PM_UnderbarrelCircuitPulse.label>
+<PM_UnderbarrelCircuitBurn.label>电路熔断</PM_UnderbarrelCircuitBurn.label>
+<PM_UnderbarrelCircuitBurn.deathMessage>{0}因电路熔断而死亡。</PM_UnderbarrelCircuitBurn.deathMessage>
+</LanguageData>

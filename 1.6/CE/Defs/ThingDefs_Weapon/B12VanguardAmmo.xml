@@ -5,7 +5,7 @@
         <defName>PM_B12Vanguard_12GaugeDragonsBreath</defName>
         <label>12 gauge dragon's breath shell</label>
         <labelShort>12g DB</labelShort>
-        <description>An incendiary 12 gauge dragon's breath shell that scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition.</description>
+        <description>An incendiary 12 gauge dragon's breath shell that scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition. Each pellet coats the target in liquid dragon's breath, reducing heat armor by 5 percentage points for 10 seconds, up to 40 stacks. Every hit refreshes the duration.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <ThingCategoryDef>
@@ -27,7 +27,7 @@
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_B12Vanguard_DragonsBreath</defName>
         <label>12 gauge dragon's breath shell</label>
-        <description>An incendiary 12 gauge dragon's breath shell that scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition.</description>
+        <description>An incendiary 12 gauge dragon's breath shell that scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition. Each pellet coats the target in liquid dragon's breath, reducing heat armor by 5 percentage points for 10 seconds, up to 40 stacks. Every hit refreshes the duration.</description>
         <graphicData>
             <texPath>Things/Weapon/Ammo/B12/DragonBreath</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -101,6 +101,10 @@
                 <li>
                     <def>Flame</def>
                     <amount>5</amount>
+                </li>
+                <li>
+                    <def>PM_B12LiquidDragonBreathHit</def>
+                    <amount>1</amount>
                 </li>
             </secondaryDamage>
             <dropsCasings>false</dropsCasings>

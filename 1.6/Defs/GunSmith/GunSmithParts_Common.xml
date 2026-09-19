@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ProtossMech.GunSmith.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_Common_DarkTemplarSuppressor</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
-        </costList>
+        
         <label>integrated suppressor</label>
         <description>An integrated suppressor that absorbs the acoustic shock of firing and recovers a portion of projectile-drive kinetic waste, eliminating the weapon report while slightly improving ballistic efficiency.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -14,7 +12,8 @@
             <li>PM_GunSmith_B25Bulwark</li>
             <li>PM_GunSmith_C31Tempest</li>
         </compatiblePlatforms>
-        <slotId>Muzzle</slotId>
+        <slotType>Muzzle</slotType>
+        <effectPriority>20</effectPriority>
         <texPath>Things/Weapon/C7Templar/C7_Muzzle_01</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <rangeOffset>2</rangeOffset>
@@ -23,13 +22,18 @@
         <statOffsets>
             <Mass>0.2</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_MarksmanOptic</defName>
-        <costList>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
             <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_MarksmanOptic</defName>
+        
         <label>marksman optic</label>
         <description>A 4x/6x/8x variable-power optic with infrared thermal imaging. It improves medium- and long-range fire through smoke at the cost of close-range handling, acquisition time, and weight.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -39,7 +43,8 @@
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
-        <slotId>Optic</slotId>
+        <slotType>Optic</slotType>
+        <effectPriority>90</effectPriority>
         <texPath>Things/Weapon/C7Templar/C7_Optic_02</texPath>
         <ignoresSmokeAccuracy>true</ignoresSmokeAccuracy>
         <warmupTimeOffset>0.10</warmupTimeOffset>
@@ -50,20 +55,26 @@
             <AccuracyLong>0.10</AccuracyLong>
             <Mass>0.3</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_Printer_MagFactory</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>50</count></li>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_Printer_MagFactory</defName>
+        
         <label>Printer magazine factory</label>
         <description>A compact micro-fabricator magazine powered by a solarite cell. It can print fresh rounds while the weapon is not firing.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
         </compatiblePlatforms>
-        <slotId>Magazine</slotId>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
         <texPath>Things/Weapon/Common/Printer_MagFactory</texPath>
         <iconPath>Things/Weapon/Common/Printer_MagFactory</iconPath>
         <requiresCombatExtended>true</requiresCombatExtended>
@@ -73,10 +84,17 @@
         <ceAmmoPrinterIntervalTicks>60</ceAmmoPrinterIntervalTicks>
         <ceAmmoPrinterRoundsPerInterval>10</ceAmmoPrinterRoundsPerInterval>
         <ceSuppressPassiveReloadWhenEmpty>true</ceSuppressPassiveReloadWhenEmpty>
-        <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_CeAmmoPrinter</workerClass>
-    </ProtossMech.GunSmith.GunSmithPartDef>
+        <workerClass>GunSmithFramework.GunSmithPartWorker_CeAmmoPrinter</workerClass>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>50</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
 
-    <ProtossMech.GunSmith.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_Common_IronSight_Rear_Raised</defName>
         <label>rear sight_raised</label>
         <description>Hidden visual default for a raised rear sight.</description>
@@ -87,14 +105,15 @@
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
         </compatiblePlatforms>
-        <slotId>RearIronSight</slotId>
+        <slotType>RearIronSight</slotType>
+        <effectPriority>0</effectPriority>
         <texPath>Things/Weapon/Common/IronSight</texPath>
         <selectable>false</selectable>
         <drawOverBody>true</drawOverBody>
         <drawOrder>-5</drawOrder>
-    </ProtossMech.GunSmith.GunSmithPartDef>
+    </GunSmithFramework.GunSmithPartDef>
 
-    <ProtossMech.GunSmith.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_Common_IronSight_Front_Raised</defName>
         <label>iron sight_raised</label>
         <description>Hidden visual default for a raised iron sight.</description>
@@ -105,16 +124,17 @@
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
         </compatiblePlatforms>
-        <slotId>FrontIronSight</slotId>
+        <slotType>FrontIronSight</slotType>
+        <effectPriority>0</effectPriority>
         <texPath>Things/Weapon/Common/IronSight</texPath>
         <selectable>false</selectable>
         <drawOverBody>true</drawOverBody>
         <drawOrder>-5</drawOrder>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <localAttachmentOffset>(-0.18, -0.10)</localAttachmentOffset>
-    </ProtossMech.GunSmith.GunSmithPartDef>
+    </GunSmithFramework.GunSmithPartDef>
 
-    <ProtossMech.GunSmith.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_Common_IronSight_Rear_Folded</defName>
         <label>rear sight_folded</label>
         <description>Hidden visual default for a folded rear sight.</description>
@@ -125,14 +145,15 @@
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
         </compatiblePlatforms>
-        <slotId>RearIronSight</slotId>
+        <slotType>RearIronSight</slotType>
+        <effectPriority>0</effectPriority>
         <texPath>Things/Weapon/Common/IronSight_folded</texPath>
         <selectable>false</selectable>
         <drawOverBody>true</drawOverBody>
         <drawOrder>-5</drawOrder>
-    </ProtossMech.GunSmith.GunSmithPartDef>
+    </GunSmithFramework.GunSmithPartDef>
 
-    <ProtossMech.GunSmith.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_Common_IronSight_Front_Folded</defName>
         <label>iron sight_folded</label>
         <description>Hidden visual default for a folded iron sight.</description>
@@ -143,20 +164,19 @@
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
         </compatiblePlatforms>
-        <slotId>FrontIronSight</slotId>
+        <slotType>FrontIronSight</slotType>
+        <effectPriority>0</effectPriority>
         <texPath>Things/Weapon/Common/IronSight_folded</texPath>
         <selectable>false</selectable>
         <drawOverBody>true</drawOverBody>
         <drawOrder>-5</drawOrder>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <localAttachmentOffset>(-0.18, -0.10)</localAttachmentOffset>
-    </ProtossMech.GunSmith.GunSmithPartDef>
+    </GunSmithFramework.GunSmithPartDef>
 
-    <ProtossMech.GunSmith.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_Common_BoxLaser</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
-        </costList>
+        
         <label>box tactical laser</label>
         <description>A high-power tactical laser that provides clear pointing at close and medium range. This device emits visible light.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -166,7 +186,8 @@
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
         </compatiblePlatforms>
-        <slotId>Laser</slotId>
+        <slotType>Laser</slotType>
+        <effectPriority>30</effectPriority>
         <texPath>Things/Weapon/Common/Laser_01</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <drawOverBody>true</drawOverBody>
@@ -178,13 +199,18 @@
             <AccuracyShort>0.07</AccuracyShort>
             <AccuracyMedium>0.04</AccuracyMedium>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_MuzzleBrake_01</defName>
-        <costList>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
             <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_MuzzleBrake_01</defName>
+        
         <label>vented muzzle brake</label>
         <description>A multi-baffle muzzle brake captures propellant gases to reduce recoil and improves muzzle cooling to extend sustained fire duration.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -193,7 +219,8 @@
             <li>PM_GunSmith_B25Bulwark</li>
             <li>PM_GunSmith_C31Tempest</li>
         </compatiblePlatforms>
-        <slotId>Muzzle</slotId>
+        <slotType>Muzzle</slotType>
+        <effectPriority>20</effectPriority>
         <texPath>Things/Weapon/Common/MuzzleBrake_01</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <ceRecoilFactor>0.75</ceRecoilFactor>
@@ -202,13 +229,18 @@
             <RangedWeapon_Cooldown>-0.12</RangedWeapon_Cooldown>
             <Mass>0.12</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_UB_FrontGrip01</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_UB_FrontGrip01</defName>
+        
         <label>light triangular foregrip</label>
         <description>A light triangular foregrip that braces the support hand without burdening the weapon, improving ergonomics and bringing the gun on target faster.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -216,20 +248,26 @@
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
-        <slotId>UnderBarrel</slotId>
+        <slotType>UnderBarrel</slotType>
+        <effectPriority>40</effectPriority>
         <texPath>Things/Weapon/Common/UB_FrontGrip01</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <warmupTimeOffset>-0.12</warmupTimeOffset>
         <statOffsets>
             <Mass>0.05</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_UB_JetGrip</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>35</count></li>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_UB_JetGrip</defName>
+        
         <label>solarite vector-thrust grip</label>
         <description>An underbarrel device with two vectoring nozzles, powered by a solarite cell and fitted with a small triangular foregrip. Its thrust controller completely cancels recoil, greatly improving weapon performance at all ranges.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -237,7 +275,8 @@
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
-        <slotId>UnderBarrel</slotId>
+        <slotType>UnderBarrel</slotType>
+        <effectPriority>40</effectPriority>
         <texPath>Things/Weapon/Common/UB_JetGrip</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <equalizeAccuracyToBest>true</equalizeAccuracyToBest>
@@ -246,34 +285,45 @@
         <statOffsets>
             <Mass>0.35</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_UB_Launcher_HE</defName>
-        <costList>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
             <li><thingDef>PM_Solarite</thingDef><count>35</count></li>
         </costList>
-        <label>underbarrel fragmentation launcher</label>
-        <description>An underbarrel grenade launcher fitted with a solarite cell. It fires 40x53mm grenades, replenished by an integrated printing module.</description>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_UB_Launcher_HE</defName>
+        
+        <label>underbarrel grenade launcher</label>
+        <description>An underbarrel grenade launcher fitted with a solarite cell. It switches between fragmentation, plasma, concussion and EMP grenades, replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
-        <slotId>UnderBarrel</slotId>
+        <slotType>UnderBarrel</slotType>
+        <effectPriority>40</effectPriority>
         <texPath>Things/Weapon/Common/UB_Laucher_HE</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_UnderbarrelHE</workerClass>
         <statOffsets>
             <Mass>1.0</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_UB_Launcher_Shotgun</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>30</count></li>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>35</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_UB_Launcher_Shotgun</defName>
+        
         <label>underbarrel cluster shotgun</label>
         <description>An underbarrel shotgun launcher fitted with a solarite cell. It fires 40x42mm cluster shotgun shells containing twelve .300 subsonic projectiles, replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -281,20 +331,26 @@
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
-        <slotId>UnderBarrel</slotId>
+        <slotType>UnderBarrel</slotType>
+        <effectPriority>40</effectPriority>
         <texPath>Things/Weapon/Common/UB_Laucher_Shotgun</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_UnderbarrelShotgun</workerClass>
         <statOffsets>
             <Mass>0.9</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_UB_Launcher_LaserCannon</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>45</count></li>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>30</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_UB_Launcher_LaserCannon</defName>
+        
         <label>underbarrel continuous laser cannon</label>
         <description>An underbarrel laser cannon fitted with a solarite cell. It emits a sustained laser beam that provides continuous fire until the emitter overheats. Sustained fire causes the emitter to overheat and release all stored internal energy at once. After overheating, its emitter is replenished by an integrated printing module.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -302,20 +358,26 @@
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
         </compatiblePlatforms>
-        <slotId>UnderBarrel</slotId>
+        <slotType>UnderBarrel</slotType>
+        <effectPriority>40</effectPriority>
         <texPath>Things/Weapon/Common/UB_Laucher_LaserCannon</texPath>
         <relativeToSlotId>Barrel</relativeToSlotId>
         <workerClass>ProtossMech.GunSmith.GunSmithPartWorker_UnderbarrelLaserCannon</workerClass>
         <statOffsets>
             <Mass>1.5</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
-
-    <ProtossMech.GunSmith.GunSmithPartDef>
-        <defName>PM_Common_ViperSight</defName>
-        <costList>
-            <li><thingDef>PM_Solarite</thingDef><count>30</count></li>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>45</count></li>
         </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_Common_ViperSight</defName>
+        
         <label>"Viper" virtual sight</label>
         <description>A lensless virtual sight whose frameless electronic reticle floats above the weapon. Its unobstructed picture remains clear at every range, while the extremely light emitter markedly improves handling and reveals cloaked targets.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
@@ -327,7 +389,8 @@
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
         </compatiblePlatforms>
-        <slotId>Optic</slotId>
+        <slotType>Optic</slotType>
+        <effectPriority>90</effectPriority>
         <texPath>Things/Weapon/Common/Viper_Sight</texPath>
         <drawOverBody>true</drawOverBody>
         <drawOrder>20</drawOrder>
@@ -343,6 +406,13 @@
             <AccuracyLong>0.05</AccuracyLong>
             <Mass>0.05</Mass>
         </statOffsets>
-    </ProtossMech.GunSmith.GunSmithPartDef>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>30</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
 
 </Defs>

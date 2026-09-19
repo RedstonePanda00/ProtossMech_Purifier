@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>PM_UnderbarrelConcussion</defName><label>concussion</label>
+    <workerClass>ProtossMech.GunSmith.DamageWorker_UnderbarrelConcussion</workerClass>
+    <harmsHealth>false</harmsHealth><externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive><makesBlood>false</makesBlood>
+    <soundExplosion>Explosion_Bomb</soundExplosion><explosionCellFleck>BlastEMP</explosionCellFleck>
+  </DamageDef>
+  <DamageDef>
+    <defName>PM_UnderbarrelCircuitPulse</defName><label>circuit overload</label>
+    <workerClass>ProtossMech.GunSmith.DamageWorker_UnderbarrelCircuitPulse</workerClass>
+    <harmsHealth>false</harmsHealth><ignoreShields>true</ignoreShields><makesBlood>false</makesBlood>
+  </DamageDef>
+  <DamageDef>
+    <defName>PM_UnderbarrelCircuitBurn</defName><label>circuit burnout</label>
+    <workerClass>DamageWorker_AddInjury</workerClass><armorCategory>Heat</armorCategory>
+    <hediff>Burn</hediff><defaultArmorPenetration>10</defaultArmorPenetration>
+    <externalViolence>true</externalViolence><ignoreShields>true</ignoreShields><makesBlood>false</makesBlood>
+    <deathMessage>{0} died from circuit burnout.</deathMessage>
+  </DamageDef>
+  <HediffDef>
+    <defName>PM_UnderbarrelConcussion</defName><label>concussed</label>
+    <description>Movement is heavily slowed. Active abilities and turning are disabled. Weapon aim is locked; ranged targets must stay within 45 degrees of the locked aim direction.</description>
+    <hediffClass>ProtossMech.GunSmith.Hediff_UnderbarrelConcussion</hediffClass>
+    <isBad>true</isBad><initialSeverity>1</initialSeverity>
+    <stages><li><statFactors><MoveSpeed>0.2</MoveSpeed></statFactors></li></stages>
+    <modExtensions><li Class="ProtossMech.GunSmith.UnderbarrelGrenadeProperties"><durationTicks>240</durationTicks><firingHalfAngle>45</firingHalfAngle></li></modExtensions>
+  </HediffDef>
+  <HediffDef>
+    <defName>PM_UnderbarrelCircuitFuse</defName><label>circuit burnout</label>
+    <description>Overloaded circuits suffer repeated heat damage with extremely high armor penetration.</description>
+    <hediffClass>ProtossMech.GunSmith.Hediff_UnderbarrelCircuitFuse</hediffClass>
+    <isBad>true</isBad><initialSeverity>1</initialSeverity>
+    <modExtensions><li Class="ProtossMech.GunSmith.UnderbarrelGrenadeProperties">
+      <durationTicks>300</durationTicks><damageIntervalTicks>60</damageIntervalTicks>
+      <damagePerPulse>8</damagePerPulse><armorPenetration>10</armorPenetration>
+    </li></modExtensions>
+  </HediffDef>
+</Defs>

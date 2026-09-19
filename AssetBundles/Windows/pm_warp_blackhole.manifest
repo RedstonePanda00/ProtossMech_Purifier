@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1331256889
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d2b9edc7bc7f5cf82615eef4ccaf855
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d27d605e56b00c7d193d3604b99a7461
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2d2b9edc7bc7f5cf82615eef4ccaf855
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PMWarpBlackHole/PM_WarpBlackHole.prefab
+Dependencies: []

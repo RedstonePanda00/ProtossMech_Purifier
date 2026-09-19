@@ -27,8 +27,8 @@
   <PM_Common_UB_FrontGrip01.description>轻便的三角结构为支撑手提供稳定着力点，在几乎不增加负担的情况下改善人机工效并加快举枪。</PM_Common_UB_FrontGrip01.description>
   <PM_Common_UB_JetGrip.label>太阳素矢量喷气握把</PM_Common_UB_JetGrip.label>
   <PM_Common_UB_JetGrip.description>装有两具矢量喷口的下挂装置，由一个太阳素电池供能，有一个小型的三角握把。推力控制器能完全抵消后坐力，大幅提高枪械在全距离的表现。</PM_Common_UB_JetGrip.description>
-  <PM_Common_UB_Launcher_HE.label>下挂破片榴弹发射器</PM_Common_UB_Launcher_HE.label>
-  <PM_Common_UB_Launcher_HE.description>一个下挂榴弹发射器，配备一个太阳素电池。发射 40x53mm 榴弹，由内置的打印模块补充。</PM_Common_UB_Launcher_HE.description>
+  <PM_Common_UB_Launcher_HE.label>下挂榴弹发射器</PM_Common_UB_Launcher_HE.label>
+  <PM_Common_UB_Launcher_HE.description>一个下挂榴弹发射器，配备一个太阳素电池。可切换破片、电浆、震撼和 EMP 榴弹，由内置的打印模块补充。</PM_Common_UB_Launcher_HE.description>
   <PM_Common_UB_Launcher_Shotgun.label>下挂集束霰弹发射器</PM_Common_UB_Launcher_Shotgun.label>
   <PM_Common_UB_Launcher_Shotgun.description>一个下挂霰弹发射器，配备一个太阳素电池。发射 40x42mm 集束霰弹，包含 12 枚 .300 亚音速弹头，由内置的打印模块补充。</PM_Common_UB_Launcher_Shotgun.description>
   <PM_Common_UB_Launcher_LaserCannon.label>下挂持续激光炮</PM_Common_UB_Launcher_LaserCannon.label>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<PM_UnderbarrelConcussion.label>震撼</PM_UnderbarrelConcussion.label>
+<PM_UnderbarrelConcussion.description>移动速度大幅降低，无法转身或使用主动技能。枪口朝向锁定，只能瞄准、射击锁定方向前方 90° 扇形内的目标。</PM_UnderbarrelConcussion.description>
+<PM_UnderbarrelCircuitFuse.label>电路熔断</PM_UnderbarrelCircuitFuse.label>
+<PM_UnderbarrelCircuitFuse.description>过载电路持续受到超高穿透热能伤害。</PM_UnderbarrelCircuitFuse.description>
+</LanguageData>

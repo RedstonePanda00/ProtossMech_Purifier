@@ -4,13 +4,16 @@
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_B12Vanguard</defName>
         <label>12 gauge dragon's breath shell</label>
-        <description>An incendiary 12 gauge dragon's breath shell for the B12 Vanguard. It scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition.</description>
+        <description>An incendiary 12 gauge dragon's breath shell for the B12 Vanguard. It scatters burning shot across a short cone, trading armor penetration for immediate close-range ignition. Each pellet coats the target in liquid dragon's breath, reducing heat armor by 5 percentage points for 10 seconds, up to 40 stacks. Every hit refreshes the duration.</description>
         <graphicData>
             <texPath>Things/Weapon/B12/B12_Ammo_DragonBreath</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
             <damageDef>Flame</damageDef>
+            <extraDamages>
+                <li><def>PM_B12LiquidDragonBreathHit</def><amount>1</amount><chance>1</chance></li>
+            </extraDamages>
             <damageAmountBase>7</damageAmountBase>
             <speed>90</speed>
             <armorPenetrationBase>0.10</armorPenetrationBase>
@@ -21,7 +24,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>PM_GunB12Vanguard</defName>
-        <thingClass>ProtossMech.GunSmith.Thing_ModularGun</thingClass>
+        <thingClass>GunSmithFramework.Thing_ModularGun</thingClass>
         <label>B12 Vanguard</label>
         <description>A modular bullpup ballistic shotgun platform built for close assault. Its barrel assemblies can trade between compact automatic fire and high-capacity bolt-action handling, while its default 12 gauge dragon's breath shells scatter incendiary pellets at point-blank range.\n\nEach B12 Vanguard is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
         <techLevel>Spacer</techLevel>
@@ -46,7 +49,7 @@
             <li>PM_B12</li>
         </weaponTags>
         <comps>
-            <li Class="ProtossMech.GunSmith.CompProperties_ModularGun">
+            <li Class="GunSmithFramework.CompProperties_ModularGun">
                 <platformDef>PM_GunSmith_B12Vanguard</platformDef>
             </li>
         </comps>
