@@ -25,10 +25,11 @@
   <PM_PurifierImmortal.tools.head.label>不朽者头部</PM_PurifierImmortal.tools.head.label>
   
   <!-- EN: Cosmic Spider -->
-  <PM_CosmicSpider.label>寰宇蛛</PM_CosmicSpider.label>
+  <PM_CosmicSpider.label>星灵蛛</PM_CosmicSpider.label>
   <!-- EN: The Cosmic Spider is a medium Purifier control unit specialized in forced movement and battlefield disruption. It has no fixed weapon system and relies on equipped armaments while weaving conductive web terrain. -->
-  <PM_CosmicSpider.description>寰宇蛛是一种中型净化者控场机械体，专精于强制位移与战术打断。它没有固定武器系统，依赖装备武器作战，同时铺设可导电的蛛网地面。</PM_CosmicSpider.description>
-  <!-- EN: frame -->
-  <PM_CosmicSpider.tools.frame.label>寰宇蛛机体</PM_CosmicSpider.tools.frame.label>
+  <PM_CosmicSpider.description>星灵蛛是一种中型净化者控场机械体，专精于强制位移与战术打断。它没有固定武器系统，依赖装备武器作战，同时铺设可导电的蛛网地面。</PM_CosmicSpider.description>
+  <PM_CosmicSpider.tools.bite.label>啃咬</PM_CosmicSpider.tools.bite.label>
+  <PM_CosmicSpider.tools.scratch.label>抓挠</PM_CosmicSpider.tools.scratch.label>
+  <PM_CosmicSpider.tools.body_slam.label>撞击</PM_CosmicSpider.tools.body_slam.label>
   
 </LanguageData>

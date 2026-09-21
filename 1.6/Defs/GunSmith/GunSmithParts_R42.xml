@@ -2,6 +2,46 @@
 <Defs>
 
     <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Bolt_Heavy</defName>
+        <label>smooth slide heavy bolt</label>
+        <description>A smoothly guided heavy bolt that preserves the R-42's standard firing cadence while improving long-range precision.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Bolt</slotType>
+        <effectPriority>50</effectPriority>
+        <iconPath>Things/Weapon/RailGun/R42_Bolt_Heavy</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <statOffsets>
+            <RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
+            <AccuracyLong>0.03</AccuracyLong>
+        </statOffsets>
+        <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList><li><thingDef>PM_Solarite</thingDef><count>10</count></li></costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Bolt_Quick</defName>
+        <label>quick bolt</label>
+        <description>A fast-cycling bolt that reduces the delay after each shot at a very small cost to long-range precision. It does not shorten aiming or charging time.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Bolt</slotType>
+        <effectPriority>50</effectPriority>
+        <iconPath>Things/Weapon/RailGun/R42_Bolt_Quick</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <statOffsets>
+            <RangedWeapon_Cooldown>-0.10</RangedWeapon_Cooldown>
+            <AccuracyLong>-0.01</AccuracyLong>
+        </statOffsets>
+        <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList><li><thingDef>PM_Solarite</thingDef><count>10</count></li></costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
         <defName>PM_R42_Barrel_01</defName>
         
         <label>long barrel</label>
@@ -141,6 +181,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -175,13 +225,23 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x100</defName>
         
-        <label>8×100 mm tungsten-rhenium slug</label>
-        <description>A standard rail slug. Its 100 mm tungsten-rhenium penetrator balances mass, handling and armor penetration.</description>
+        <label>W-5Re penetrator 8×100mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×100mm.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>Ammo</slotType>
         <effectPriority>80</effectPriority>
@@ -203,8 +263,8 @@
     <GunSmithFramework.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x80</defName>
         
-        <label>8×80 mm tungsten-rhenium slug</label>
-        <description>A shorter rail slug with reduced penetrator length. It preserves the weapon's firing behavior while reducing armor penetration.</description>
+        <label>W-5Re penetrator 8×80mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×80mm.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>Ammo</slotType>
         <effectPriority>80</effectPriority>
@@ -226,8 +286,8 @@
     <GunSmithFramework.GunSmithPartDef>
         <defName>PM_R42_Ammo_8x120</defName>
         
-        <label>8×120 mm tungsten-rhenium slug</label>
-        <description>An extended rail slug built around a 120 mm tungsten-rhenium penetrator. It maximizes armor penetration without changing the rifle's firing cycle.</description>
+        <label>W-5Re penetrator 8×120mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×120mm.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>Ammo</slotType>
         <effectPriority>80</effectPriority>
@@ -269,13 +329,19 @@
         <rangeOffset>18</rangeOffset>
         <statOffsets><Mass>2</Mass></statOffsets>
         <ceAmmoSetOverride>PM_AmmoSet_R42Apex</ceAmmoSetOverride>
-        <providedSlots><li><slotId>UnderBarrel</slotId><slotType>UnderBarrel</slotType><optional>true</optional></li></providedSlots>
-        <childSlotAnchors><li><slotId>UnderBarrel</slotId><offset>(-0.2964, 0.0878)</offset></li></childSlotAnchors>
+        <providedSlots>
+            <li><slotId>UnderBarrel</slotId><slotType>UnderBarrel</slotType><optional>true</optional></li>
+            <li><slotId>Laser</slotId><slotType>Laser</slotType><optional>true</optional></li>
+        </providedSlots>
+        <childSlotAnchors>
+            <li><slotId>UnderBarrel</slotId><offset>(-0.2964, 0.0878)</offset></li>
+            <li><slotId>Laser</slotId><offset>(-0.1418, 0.0095)</offset></li>
+        </childSlotAnchors>
         <apexForcedParts>
             <li><slotId>Rail</slotId><part>PM_R42_APEX_Rail</part></li>
-            <li><slotId>UnderBarrel</slotId><part>PM_R42_APEX_Bipod</part></li>
         </apexForcedParts>
-        <apexHiddenSlotIds><li>Rail</li><li>UnderBarrel</li></apexHiddenSlotIds>
+        <apexDefaultParts><li><slotId>UnderBarrel</slotId><part>PM_R42_APEX_Bipod</part></li></apexDefaultParts>
+        <apexHiddenSlotIds><li>Rail</li></apexHiddenSlotIds>
             <modExtensions>
             <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
                 <costList><li><thingDef>PM_Solarite</thingDef><count>150</count></li></costList>
@@ -297,8 +363,8 @@
     </GunSmithFramework.GunSmithPartDef>
     <GunSmithFramework.GunSmithPartDef>
         <defName>PM_R42_APEX_Bipod</defName>
-        <label>APEX bipod</label>
-        <description>The dedicated bipod supplied with the DragonBreath charged barrel. Included in the kit cost and mass.</description>
+        <label>adaptive bipod</label>
+        <description>An all-terrain adaptive bipod with an integrated gyroscope. Deploying it effectively improves long-range sniping performance.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>UnderBarrel</slotType>
         <effectPriority>40</effectPriority>
@@ -307,6 +373,11 @@
         <drawOverBody>true</drawOverBody>
         <drawOrder>30</drawOrder>
         <isApex>true</isApex>
-        <selectable>false</selectable>
+        <statOffsets>
+            <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
+            <AccuracyShort>0.05</AccuracyShort>
+            <AccuracyMedium>0.12</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+        </statOffsets>
     </GunSmithFramework.GunSmithPartDef>
 </Defs>

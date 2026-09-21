@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_C19Dragoon</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>C19 Dragoon</label>
         <weaponThingDef>PM_GunC19Dragoon</weaponThingDef>
         <bodyTexPath>Things/Weapon/C19/C19_Body</bodyTexPath>

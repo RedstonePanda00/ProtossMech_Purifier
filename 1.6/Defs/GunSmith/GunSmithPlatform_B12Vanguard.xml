@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_B12Vanguard</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>B12 Vanguard</label>
         <weaponThingDef>PM_GunB12Vanguard</weaponThingDef>
         <bodyTexPath>Things/Weapon/B12/B12_Body</bodyTexPath>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyDef>
+    <defName>PM_CosmicSpiderBody</defName>
+    <label>Cosmic Spider</label>
+    <corePart>
+      <def>PM_CosmicSpiderFrame</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups><li>Torso</li></groups>
+      <parts>
+        <li>
+          <def>ArtificialBrain</def>
+          <customLabel>personality core</customLabel>
+          <coverage>0.04</coverage>
+          <height>Middle</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Reactor</def>
+          <customLabel>solarite reactor</customLabel>
+          <coverage>0.06</coverage>
+          <height>Middle</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <customLabel>supercomputer</customLabel>
+          <coverage>0.04</coverage>
+          <height>Middle</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>SightSensor</def>
+          <customLabel>left sight sensor</customLabel>
+          <coverage>0.025</coverage>
+          <height>Top</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>SightSensor</def>
+          <customLabel>right sight sensor</customLabel>
+          <coverage>0.025</coverage>
+          <height>Top</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>HearingSensor</def>
+          <coverage>0.02</coverage>
+          <height>Top</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderArm</def>
+          <customLabel>left arm</customLabel>
+          <coverage>0.06</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+          <groups />
+          <parts>
+        <li>
+          <def>PM_CosmicSpiderHand</def>
+          <customLabel>left hand</customLabel>
+          <coverage>0.3</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+          <groups><li>PM_CosmicSpiderHands</li></groups>
+        </li>
+          </parts>
+        </li>
+        <li>
+          <def>PM_CosmicSpiderArm</def>
+          <customLabel>right arm</customLabel>
+          <coverage>0.06</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+          <groups />
+          <parts>
+        <li>
+          <def>PM_CosmicSpiderHand</def>
+          <customLabel>right hand</customLabel>
+          <coverage>0.3</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+          <groups><li>PM_CosmicSpiderHands</li></groups>
+        </li>
+          </parts>
+        </li>
+        <li>
+          <def>PM_CosmicSpiderLeg</def>
+          <customLabel>left front leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderLeg</def>
+          <customLabel>right front leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderLeg</def>
+          <customLabel>left middle leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderLeg</def>
+          <customLabel>right middle leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderLeg</def>
+          <customLabel>left rear leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderLeg</def>
+          <customLabel>right rear leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+        <li>
+          <def>PM_CosmicSpiderWebGenerator</def>
+          <coverage>0.05</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+          <groups />
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

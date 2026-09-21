@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>PM_CosmicSpiderFrame</defName>
+    <label>Cosmic Spider frame</label>
+    <hitPoints>50</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PM_CosmicSpiderArm</defName>
+    <label>manipulator arm</label>
+    <hitPoints>15</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags><li>ManipulationLimbCore</li></tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PM_CosmicSpiderHand</defName>
+    <label>mechanical hand</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags><li>ManipulationLimbSegment</li></tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PM_CosmicSpiderLeg</defName>
+    <label>bearing leg</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags><li>MovingLimbCore</li></tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PM_CosmicSpiderWebGenerator</defName>
+    <label>web generator</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+</Defs>

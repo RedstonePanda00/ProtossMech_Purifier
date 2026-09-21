@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_C7Templar</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>C-7 Templar</label>
         <weaponThingDef>PM_GunC7Templar</weaponThingDef>
         <bodyTexPath>Things/Weapon/C7Templar/C7_Body</bodyTexPath>

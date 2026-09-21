@@ -22,7 +22,7 @@
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_C31Tempest_Plasma</defName>
         <label>30 mm plasma gun grenade</label>
-        <description>A compact plasma gun grenade for the C-31 Tempest. It behaves like a miniature inferno cannon shell, replacing fragmentation with vaporizing thermal damage and much higher heat penetration.</description>
+        <description>The plasma grenade's warhead produces a devastating plasma explosion, vaporizing the target's armor and causing irreversible damage to electronic equipment.</description>
         <thingClass>ProtossMech.Bullet_C31TempestPlasmaGrenade</thingClass>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -40,7 +40,7 @@
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_C31Tempest_Wisp</defName>
         <label>30 mm Wisp swarm grenade</label>
-        <description>A 30 mm carrier grenade for the C-31 Tempest. When destroyed, it releases five Wisp micro-missiles that arc toward the nearest hostile target.</description>
+        <description>The Wisp swarm grenade contains five submunitions. The carrier releases them as it approaches the target, and the submunitions automatically home in on nearby heat signatures to strike them.</description>
         <thingClass>ProtossMech.Bullet_C31TempestWispGrenade</thingClass>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>

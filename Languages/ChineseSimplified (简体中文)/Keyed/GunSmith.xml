@@ -125,5 +125,5 @@
   <PM_GunSmith_UB_Grenade_EMP_Desc>使用原版 EMP 宕机效果；机械体额外受到电路熔断，持续承受超高穿透热能伤害。</PM_GunSmith_UB_Grenade_EMP_Desc>
   <PM_GunSmith_UB_Grenade_Help>左键瞄准发射；右键按破片、电浆、震撼、EMP 顺序轮切。所有弹种共享冷却。</PM_GunSmith_UB_Grenade_Help>
   <PM_GunSmith_UB_Concussed>震撼期间无法使用技能。</PM_GunSmith_UB_Concussed>
-    <ProtossMech.GunSmithEliteMode>精英枪匠模式（仅支持的平台，功能预留）</ProtossMech.GunSmithEliteMode>
+    <ProtossMech.GunSmithEliteMode>精英枪匠（右键现有武器以微调配件）</ProtossMech.GunSmithEliteMode>
 </LanguageData>

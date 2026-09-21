@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_APEX_Bipod"]/statOffsets</xpath>
+        <value><statOffsets><RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown></statOffsets></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_APEX_Bipod"]</xpath>
+        <value><ceSwayFactor>0.50</ceSwayFactor></value>
+    </Operation>
+</Patch>

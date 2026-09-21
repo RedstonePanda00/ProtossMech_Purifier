@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ProtossMech.Settings.Title>Mod settings</ProtossMech.Settings.Title>
+  <ProtossMech.Settings.Combat>Combat</ProtossMech.Settings.Combat>
+  <ProtossMech.Settings.Gunsmith>Gunsmith</ProtossMech.Settings.Gunsmith>
+  <ProtossMech.Settings.Compatibility>Hediff compatibility</ProtossMech.Settings.Compatibility>
+  <ProtossMech.Settings.CombatDesc>Configure special mech combat features.</ProtossMech.Settings.CombatDesc>
+  <ProtossMech.Settings.GunsmithDesc>Configure gunsmith features and personal part tuning.</ProtossMech.Settings.GunsmithDesc>
+  <ProtossMech.Settings.CompatibilityDesc>Select hediffs allowed on this mod’s mechs.</ProtossMech.Settings.CompatibilityDesc>
+  <ProtossMech.Settings.Overheat>Apocalypse: Purifier Colossus</ProtossMech.Settings.Overheat>
+  <ProtossMech.Settings.OverheatDesc>Enable the Purifier Colossus special combat mode.</ProtossMech.Settings.OverheatDesc>
+  <ProtossMech.Settings.Elite>Elite gunsmith</ProtossMech.Settings.Elite>
+  <ProtossMech.Settings.EliteDesc>Allows finer weapon customization through expanded gunsmith options and elite tuning.</ProtossMech.Settings.EliteDesc>
+  <ProtossMech.Settings.Search>Search name or DefName</ProtossMech.Settings.Search>
+  <ProtossMech.Settings.Source>Source mod</ProtossMech.Settings.Source>
+  <ProtossMech.Settings.All>All sources</ProtossMech.Settings.All>
+  <ProtossMech.Settings.Unknown>Unknown source</ProtossMech.Settings.Unknown>
+  <ProtossMech.Settings.Empty>No matching hediffs</ProtossMech.Settings.Empty>
+  <ProtossMech.Settings.Count>Matching entries: {0}</ProtossMech.Settings.Count>
+</LanguageData>

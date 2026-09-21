@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="PM_CosmicSpider"]/statBases</xpath>
+    <value>
+      <AimingAccuracy>0.95</AimingAccuracy>
+      <ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+      <NightVisionEfficiency>1.0</NightVisionEfficiency>
+    </value>
+  </Operation>
+</Patch>

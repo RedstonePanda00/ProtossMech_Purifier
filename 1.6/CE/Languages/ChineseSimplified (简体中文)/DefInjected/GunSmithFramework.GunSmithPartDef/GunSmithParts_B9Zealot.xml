@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_B9Zealot_Barrel_01.label>标准枪管</PM_B9Zealot_Barrel_01.label>
+  <PM_B9Zealot_Barrel_01.description>制式枪管，极短的枪管适合近距离突击。</PM_B9Zealot_Barrel_01.description>
+  <PM_B9Zealot_Barrel_02.label>9英寸强化枪管</PM_B9Zealot_Barrel_02.label>
+  <PM_B9Zealot_Barrel_02.description>加长的护木和枪管，能够改善重心，降低射击散布和后坐，增加火箭初速，但增加的质量会拖慢举枪速度。</PM_B9Zealot_Barrel_02.description>
+  <PM_B9Zealot_Grip_01.label>标准握把</PM_B9Zealot_Grip_01.label>
+  <PM_B9Zealot_Grip_01.description>标准手枪式握把，提供稳定且可预测的操控。</PM_B9Zealot_Grip_01.description>
+  <PM_B9Zealot_Grip_02.label>人体工学握把</PM_B9Zealot_Grip_02.label>
+  <PM_B9Zealot_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换。</PM_B9Zealot_Grip_02.description>
+  <PM_B9Zealot_Grip_03.label>镂空轻量握把</PM_B9Zealot_Grip_03.label>
+  <PM_B9Zealot_Grip_03.description>移除所有非必要材料的镂空握把，使射手能更快完成举枪，但会牺牲远距离精确射击所需的刚性支撑。</PM_B9Zealot_Grip_03.description>
+  <PM_B9Zealot_Stock_01.label>轻型枪托</PM_B9Zealot_Stock_01.label>
+  <PM_B9Zealot_Stock_01.description>为近距离突击设计的轻型枪托，提高移动与瞄准速度，代价是少量枪口晃动。</PM_B9Zealot_Stock_01.description>
+  <PM_B9Zealot_Ammo_01.label>9x21mm 迷你空爆火箭</PM_B9Zealot_Ammo_01.label>
+  <PM_B9Zealot_Ammo_01.description>9x21mm 迷你空爆火箭，默认为碰炸引信。</PM_B9Zealot_Ammo_01.description>
+  <PM_B9Zealot_Magazine_01.label>32 发火箭弹匣</PM_B9Zealot_Magazine_01.label>
+  <PM_B9Zealot_Magazine_01.description>32发标准弹匣。</PM_B9Zealot_Magazine_01.description>
+  <PM_B9Zealot_Magazine_02.label>32 发翻转弹匣</PM_B9Zealot_Magazine_02.label>
+  <PM_B9Zealot_Magazine_02.description>两只反向并联的弹匣，可通过翻转快速换弹。增加重量，但是会加快换弹速度。</PM_B9Zealot_Magazine_02.description>
+  <PM_B9Zealot_Magazine_03.label>75 发弹鼓</PM_B9Zealot_Magazine_03.label>
+  <PM_B9Zealot_Magazine_03.description>用于持续自动射击的 75 发弹鼓。紧凑型螺旋供弹结构使容量达到标准弹匣的两倍以上，会增加重量和换弹时间。</PM_B9Zealot_Magazine_03.description>
+  <PM_B9Zealot_Grip_04.label>双持握把</PM_B9Zealot_Grip_04.label>
+  <PM_B9Zealot_Grip_04.description>同时使用两把武器进行射击，牺牲远距离精度换取双倍火力。</PM_B9Zealot_Grip_04.description>
+</LanguageData>

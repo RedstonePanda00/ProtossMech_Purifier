@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_R42</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>R-42 DeadEye</label>
         <isDefault>true</isDefault>
         <weaponThingDef>PM_GunR42DeadEye</weaponThingDef>
@@ -13,6 +14,19 @@
         <behaviorClass>ProtossMech.GunSmith.GunSmithPlatformBehavior_R42</behaviorClass>
         <bodyTexPath>Things/Weapon/RailGun/R42_Body</bodyTexPath>
         <slotAttachmentOffsets>
+            <li>
+                <slotId>Laser</slotId>
+                <gizmoOffset>(-1.1909, -0.2287)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <gizmoOffset>(-1.1361, 0.2112)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Bolt</slotId>
+                <offset>(0.10, 0)</offset>
+                <gizmoOffset>(-0.2379, -0.1978)</gizmoOffset>
+            </li>
             <li>
                 <slotId>Barrel</slotId>
                 <offset>(-0.2568, -0.0455)</offset>
@@ -39,12 +53,14 @@
         <shadowDilatePixels>5</shadowDilatePixels>
         <shadowAlpha>1</shadowAlpha>
         <slots>
+            <li><slotId>Bolt</slotId><slotType>Bolt</slotType><optional>false</optional></li>
             <li><slotId>Barrel</slotId><slotType>Barrel</slotType><optional>false</optional></li>
             <li><slotId>Rail</slotId><slotType>Rail</slotType><optional>false</optional></li>
             <li><slotId>Ammo</slotId><slotType>Ammo</slotType><optional>false</optional></li>
             <li><slotId>Optic</slotId><slotType>Optic</slotType><optional>false</optional></li>
         </slots>
         <defaultParts>
+            <li><slotId>Bolt</slotId><part>PM_R42_Bolt_Heavy</part></li>
             <li><slotId>Barrel</slotId><part>PM_R42_Barrel_01</part></li>
             <li><slotId>Rail</slotId><part>PM_R42_Rail_01</part></li>
             <li><slotId>Ammo</slotId><part>PM_R42_Ammo_8x100</part></li>

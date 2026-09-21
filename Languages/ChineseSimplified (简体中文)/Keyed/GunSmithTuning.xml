@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ProtossMech.GunSmithTuning.Title>精英枪匠 · 配件微调</ProtossMech.GunSmithTuning.Title>
+  <ProtossMech.GunSmithTuning.LiveHint>拖动即生效，微调仅保存在这把武器上。标准值：1.00。</ProtossMech.GunSmithTuning.LiveHint>
+  <ProtossMech.GunSmithTuning.Unavailable>当前武器暂时无法微调。</ProtossMech.GunSmithTuning.Unavailable>
+  <ProtossMech.GunSmithTuning.Reset>恢复 1.00</ProtossMech.GunSmithTuning.Reset>
+  <ProtossMech.GunSmithTuning.Magnification>放大倍率</ProtossMech.GunSmithTuning.Magnification>
+  <ProtossMech.GunSmithTuning.Weight>配件配重</ProtossMech.GunSmithTuning.Weight>
+  <ProtossMech.GunSmithTuning.LowZoom>较低倍率</ProtossMech.GunSmithTuning.LowZoom>
+  <ProtossMech.GunSmithTuning.HighZoom>较高倍率</ProtossMech.GunSmithTuning.HighZoom>
+  <ProtossMech.GunSmithTuning.Light>偏轻量</ProtossMech.GunSmithTuning.Light>
+  <ProtossMech.GunSmithTuning.Stable>偏稳定</ProtossMech.GunSmithTuning.Stable>
+  <ProtossMech.GunSmithTuning.Standard>标准配置</ProtossMech.GunSmithTuning.Standard>
+  <ProtossMech.GunSmithTuning.Warmup>瞄准准备</ProtossMech.GunSmithTuning.Warmup>
+  <ProtossMech.GunSmithTuning.PercentagePoints>百分点</ProtossMech.GunSmithTuning.PercentagePoints>
+  <ProtossMech.GunSmithTuning.RightClick>右键打开这把武器的配件微调。</ProtossMech.GunSmithTuning.RightClick>
+</LanguageData>

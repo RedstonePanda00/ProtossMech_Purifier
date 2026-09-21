@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ProtossMech.GunSmithTuning.Title>Elite gunsmith</ProtossMech.GunSmithTuning.Title>
+  <ProtossMech.GunSmithTuning.LiveHint>Changes apply immediately to this weapon. Standard: 1.00.</ProtossMech.GunSmithTuning.LiveHint>
+  <ProtossMech.GunSmithTuning.Unavailable>This weapon is no longer available for tuning.</ProtossMech.GunSmithTuning.Unavailable>
+  <ProtossMech.GunSmithTuning.Reset>Reset 1.00</ProtossMech.GunSmithTuning.Reset>
+  <ProtossMech.GunSmithTuning.Magnification>Magnification</ProtossMech.GunSmithTuning.Magnification>
+  <ProtossMech.GunSmithTuning.Weight>Balance weight</ProtossMech.GunSmithTuning.Weight>
+  <ProtossMech.GunSmithTuning.LowZoom>Lower magnification</ProtossMech.GunSmithTuning.LowZoom>
+  <ProtossMech.GunSmithTuning.HighZoom>Higher magnification</ProtossMech.GunSmithTuning.HighZoom>
+  <ProtossMech.GunSmithTuning.Light>Lighter</ProtossMech.GunSmithTuning.Light>
+  <ProtossMech.GunSmithTuning.Stable>More stable</ProtossMech.GunSmithTuning.Stable>
+  <ProtossMech.GunSmithTuning.Standard>Standard configuration</ProtossMech.GunSmithTuning.Standard>
+  <ProtossMech.GunSmithTuning.Warmup>Preparation</ProtossMech.GunSmithTuning.Warmup>
+  <ProtossMech.GunSmithTuning.PercentagePoints>pp</ProtossMech.GunSmithTuning.PercentagePoints>
+  <ProtossMech.GunSmithTuning.RightClick>Right-click to fine-tune this weapon.</ProtossMech.GunSmithTuning.RightClick>
+</LanguageData>

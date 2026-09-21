@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_C31Tempest</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>C-31 Tempest</label>
         <weaponThingDef>PM_GunC31Tempest</weaponThingDef>
         <bodyTexPath>Things/Weapon/C31Tempest/C31Tempest_body</bodyTexPath>

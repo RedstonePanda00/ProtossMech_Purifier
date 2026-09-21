@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_CosmicSpiderBody.label>星灵蛛</PM_CosmicSpiderBody.label>
+  <PM_CosmicSpiderBody.corePart.parts.left_sight_sensor.customLabel>左视觉传感器</PM_CosmicSpiderBody.corePart.parts.left_sight_sensor.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.right_sight_sensor.customLabel>右视觉传感器</PM_CosmicSpiderBody.corePart.parts.right_sight_sensor.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.left_arm.customLabel>左操作臂</PM_CosmicSpiderBody.corePart.parts.left_arm.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.left_arm.parts.left_hand.customLabel>左机械手</PM_CosmicSpiderBody.corePart.parts.left_arm.parts.left_hand.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.right_arm.customLabel>右操作臂</PM_CosmicSpiderBody.corePart.parts.right_arm.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.right_arm.parts.right_hand.customLabel>右机械手</PM_CosmicSpiderBody.corePart.parts.right_arm.parts.right_hand.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.left_front_leg.customLabel>左前腿</PM_CosmicSpiderBody.corePart.parts.left_front_leg.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.right_front_leg.customLabel>右前腿</PM_CosmicSpiderBody.corePart.parts.right_front_leg.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.left_middle_leg.customLabel>左中腿</PM_CosmicSpiderBody.corePart.parts.left_middle_leg.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.right_middle_leg.customLabel>右中腿</PM_CosmicSpiderBody.corePart.parts.right_middle_leg.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.left_rear_leg.customLabel>左后腿</PM_CosmicSpiderBody.corePart.parts.left_rear_leg.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.right_rear_leg.customLabel>右后腿</PM_CosmicSpiderBody.corePart.parts.right_rear_leg.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.personality_core.customLabel>人格核心</PM_CosmicSpiderBody.corePart.parts.personality_core.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.solarite_reactor.customLabel>太阳素反应堆</PM_CosmicSpiderBody.corePart.parts.solarite_reactor.customLabel>
+  <PM_CosmicSpiderBody.corePart.parts.supercomputer.customLabel>超级计算机</PM_CosmicSpiderBody.corePart.parts.supercomputer.customLabel>
+</LanguageData>

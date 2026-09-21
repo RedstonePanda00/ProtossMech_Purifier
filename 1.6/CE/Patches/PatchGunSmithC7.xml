@@ -87,11 +87,12 @@
         </value>
     </Operation>
 
-    <!-- Keep the kit's magazine locked under CE too. Its real magazine hardware contributes
-         normally and is included in the kit price; ceAmmoSetOverride still owns ammo type. -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_APEX_TwinCore"]/apexForcedParts/li[slotId="Magazine"]/part</xpath>
-        <value><part>PM_C7Templar_Magazine_01</part></value>
+    <!-- CE magazines remain selectable hardware; the APEX ammo set still owns ammo type. -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_APEX_TwinCore"]/apexForcedParts/li[slotId="Magazine"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_APEX_TwinCore"]/apexHiddenSlotIds/li[text()="Magazine"]</xpath>
     </Operation>
 
 </Patch>

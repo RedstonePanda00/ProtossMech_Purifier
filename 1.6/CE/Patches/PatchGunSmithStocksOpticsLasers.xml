@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <!--CE-only stability, optics and laser roles. No mechanical spread bonuses are added.-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_01"]</xpath>
+    <value>
+      <ceSwayFactor>0.85</ceSwayFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_02"]</xpath>
+    <value>
+      <ceSwayFactor>1.08</ceSwayFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C19Dragoon_Stock_01"]</xpath>
+    <value>
+      <ceSwayFactor>1.03</ceSwayFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B9Zealot_Stock_01"]</xpath>
+    <value>
+      <ceSwayFactor>1.06</ceSwayFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B25Bulwark_Stock_01"]</xpath>
+    <value>
+      <ceSwayFactor>0.80</ceSwayFactor>
+      <ceRecoilFactor>0.95</ceRecoilFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B12Vanguard_Stock_01"]</xpath>
+    <value>
+      <ceSwayFactor>0.95</ceSwayFactor>
+      <ceRecoilFactor>0.95</ceRecoilFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B12Vanguard_Stock_02"]</xpath>
+    <value>
+      <ceSwayFactor>0.90</ceSwayFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C31Tempest_Stock_01"]</xpath>
+    <value>
+      <ceSwayFactor>0.90</ceSwayFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_MarksmanOptic"]</xpath>
+    <value>
+      <ceSightsEfficiencyFactor>1.25</ceSightsEfficiencyFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C31Tempest_Sight_01"]</xpath>
+    <value>
+      <ceSwayFactor>0.75</ceSwayFactor>
+      <ceSightsEfficiencyFactor>1.30</ceSightsEfficiencyFactor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C31Tempest_Sight_01"]/warmupTimeOffset</xpath>
+    <value>
+      <warmupTimeOffset>-0.20</warmupTimeOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C31Tempest_Sight_01"]/modExtensions/li[@Class="ProtossMech.GunSmith.GunSmithContentExtension"]/costList/li[thingDef="PM_Solarite"]/count</xpath>
+    <value>
+      <count>40</count>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Laser_01"]/warmupTimeOffset</xpath>
+    <value>
+      <warmupTimeOffset>-0.10</warmupTimeOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]/ceShotSpreadFactor</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]/ceSwayFactor</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]</xpath>
+    <value>
+      <warmupTimeOffset>-0.15</warmupTimeOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]/statOffsets</xpath>
+    <value>
+      <Mass>0.15</Mass>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_01"]/description</xpath>
+    <value>
+      <description>A rigid open-frame stock that reduces muzzle sway through stable shoulder support, at the cost of additional weight.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_02"]/description</xpath>
+    <value>
+      <description>An aggressively lightweight telescoping stock for mobile fighting. It improves movement and acquisition speed, but its reduced support slightly increases muzzle sway.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C19Dragoon_Stock_01"]/description</xpath>
+    <value>
+      <description>A lightweight folding stock with balanced shoulder support. It improves mobility with a smaller weight saving and a milder sway penalty than the lightweight telescoping stock.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B9Zealot_Stock_01"]/description</xpath>
+    <value>
+      <description>A lightweight assault stock that improves movement and acquisition speed, with a small increase in muzzle sway.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B25Bulwark_Stock_01"]/description</xpath>
+    <value>
+      <description>A substantial shoulder stock with a soft buttpad. It reduces muzzle sway and slightly improves recoil control, at the cost of weight and slower acquisition.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B12Vanguard_Stock_01"]/description</xpath>
+    <value>
+      <description>A standard bullpup buttpad that provides modest improvements to shoulder stability and recoil control.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_B12Vanguard_Stock_02"]/description</xpath>
+    <value>
+      <description>A contoured ergonomic buttpad that improves acquisition speed, shoulder stability and recoil control.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C31Tempest_Stock_01"]/description</xpath>
+    <value>
+      <description>An adjustable tactical stock that extends into a stable shoulder support. It reduces muzzle sway and improves acquisition and recovery between shots.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_MarksmanOptic"]/description</xpath>
+    <value>
+      <description>A 4x/6x/8x variable-power optic with infrared thermal imaging. It improves aiming efficiency and ignores smoke interference, at the cost of acquisition time and weight.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C31Tempest_Sight_01"]/description</xpath>
+    <value>
+      <description>An AI fire-control suite with thermal imaging, automatic target recognition, active pointing correction and automatic firing at the selected moment. It accelerates acquisition, reduces muzzle sway and improves aiming efficiency through smoke and poor weather. Its sensors and actuators add substantial weight.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Laser_01"]/description</xpath>
+    <value>
+      <description>A basic visible aiming laser that speeds up target acquisition by providing a direct pointing reference.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]/description</xpath>
+    <value>
+      <description>A multifunction tactical module combining visible and infrared aiming lasers with infrared illumination. Linked to the wielder's compatible sensors, it provides faster target acquisition.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Laser_01"]/label</xpath>
+    <value>
+      <label>Ranger visible aiming laser</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]/label</xpath>
+    <value>
+      <label>multifunction visible/infrared laser module</label>
+    </value>
+  </Operation>
+</Patch>

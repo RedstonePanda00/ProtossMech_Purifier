@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_B9Zealot</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>B9 Zealot</label>
         <weaponThingDef>PM_GunB9Zealot</weaponThingDef>
         <bodyTexPath>Things/Weapon/B9/B9_Body</bodyTexPath>

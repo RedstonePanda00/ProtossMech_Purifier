@@ -20,7 +20,7 @@
   <PM_C7Templar_Stock_01.description>刚性开放框架枪托，提供稳定的支撑，增加射击精度，略微提升重量。</PM_C7Templar_Stock_01.description>
 
   <PM_C7Templar_Stock_02.label>轻量伸缩枪托</PM_C7Templar_Stock_02.label>
-  <PM_C7Templar_Stock_02.description>紧凑的伸缩式枪托，降低重量并加快移动速度。它更适合机动作战与近距离交战，但会降低远距射击的稳定性。</PM_C7Templar_Stock_02.description>
+  <PM_C7Templar_Stock_02.description>面向近距离机动作战的紧凑伸缩枪托。轻量结构着重提升机动性，但会牺牲中远距离射击的稳定性。</PM_C7Templar_Stock_02.description>
 
   <PM_C7Templar_Ammo_01.label>5.8x42钨合金穿甲杆</PM_C7Templar_Ammo_01.label>
   <PM_C7Templar_Ammo_01.description>钨合金穿甲弹头，能够穿透轻型步战车和机器人的护甲。</PM_C7Templar_Ammo_01.description>
@@ -38,7 +38,7 @@
   <PM_C7Templar_Laser_01.description>盒式激光指示器，提供近距离的快速指向，但在远距离价值有限。</PM_C7Templar_Laser_01.description>
 
   <PM_C7Templar_APEX_TwinCore.label>双核心智能导弹系统</PM_C7Templar_APEX_TwinCore.label>
-  <PM_C7Templar_APEX_TwinCore.description>围绕两台微型超级计算机定制的 APEX 火控改装。以装填了电浆战斗部的5.8x42mm 微型导弹取代常规穿甲杆。每枚导弹都会追踪并且飞向当前目标的致命部位。</PM_C7Templar_APEX_TwinCore.description>
+  <PM_C7Templar_APEX_TwinCore.description>围绕两台微型超级计算机定制的 APEX 火控改装。5.8x42mm微型导弹接受来自迷你超级计算机的指令寻找锁定敌人的头部，其弹头装填的等离子体会在命中目标后爆开，造成二次电离辐射和爆炸伤害。</PM_C7Templar_APEX_TwinCore.description>
 
   <PM_C7Templar_APEX_Laser.label>导向计算单元</PM_C7Templar_APEX_Laser.label>
   <PM_C7Templar_APEX_Laser.description>枪口前端的超级计算机负责为导弹分配目标，计算路径和集群行为。</PM_C7Templar_APEX_Laser.description>

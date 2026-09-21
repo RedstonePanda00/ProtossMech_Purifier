@@ -61,6 +61,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -87,6 +97,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -112,13 +132,23 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
         <defName>PM_C19Dragoon_Stock_01</defName>
         
         <label>light folding stock</label>
-        <description>A compact folding stock that provides stable support and increases movement speed. It can also be folded while moving to improve portability.</description>
+        <description>A lightweight folding stock that balances portability with stable shoulder support. It provides a modest movement-speed bonus while favoring controlled, deliberate fire.</description>
         <platformDef>PM_GunSmith_C19Dragoon</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C7Templar</li>
@@ -126,11 +156,11 @@
         <slotType>Stock</slotType>
         <effectPriority>50</effectPriority>
         <texPath>Things/Weapon/C19/C19_Stock1</texPath>
-        <wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset>
+        <wielderMoveSpeedOffset>0.10</wielderMoveSpeedOffset>
         <statOffsets>
-            <AccuracyTouch>0.03</AccuracyTouch>
             <AccuracyShort>0.02</AccuracyShort>
-            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.03</AccuracyLong>
             <Mass>-0.2</Mass>
         </statOffsets>
             <modExtensions>

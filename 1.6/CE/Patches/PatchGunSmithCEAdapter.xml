@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- The worker lives in GunSmithFramework.CE.dll, loaded only with this folder. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_Printer_MagFactory"]</xpath>
+        <value><workerClass>GunSmithFramework.GunSmithPartWorker_CeAmmoPrinter</workerClass></value>
+    </Operation>
+</Patch>

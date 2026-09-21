@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <Bolt.label>枪机</Bolt.label>
 
     <Barrel.label>枪管</Barrel.label>
     <Muzzle.label>枪口</Muzzle.label>

@@ -81,7 +81,7 @@
         <defName>PM_C31Tempest_Ammo_Plasma</defName>
         
         <label>30 mm plasma gun grenades</label>
-        <description>Compact plasma gun grenades. They trade the SAPHE charge for vaporizing thermal damage and much higher heat penetration.</description>
+        <description>The plasma grenade's warhead produces a devastating plasma explosion, vaporizing the target's armor and causing irreversible damage to electronic equipment.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotType>Magazine</slotType>
         <effectPriority>70</effectPriority>
@@ -103,7 +103,7 @@
         <defName>PM_C31Tempest_Ammo_Wisp</defName>
         
         <label>30 mm Wisp swarm grenades</label>
-        <description>Carrier grenades that split into five Wisp micro-missiles on destruction. Each Wisp curves along a Bezier path and seeks the nearest hostile target.</description>
+        <description>The Wisp swarm grenade contains five submunitions. The carrier releases them as it approaches the target, and the submunitions automatically home in on nearby heat signatures to strike them.</description>
         <platformDef>PM_GunSmith_C31Tempest</platformDef>
         <slotType>Magazine</slotType>
         <effectPriority>70</effectPriority>

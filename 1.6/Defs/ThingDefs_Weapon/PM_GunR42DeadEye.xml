@@ -3,7 +3,8 @@
 
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42_Short</defName>
-        <label>8×80 mm tungsten-rhenium rail slug</label>
+        <label>W-5Re penetrator 8×80mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×80mm.</description>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -20,7 +21,8 @@
 
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_RailDeadEye</defName>
-        <label>8×100 mm tungsten-rhenium rail slug</label>
+        <label>W-5Re penetrator 8×100mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×100mm.</description>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -37,7 +39,8 @@
 
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42_Long</defName>
-        <label>8×120 mm tungsten-rhenium rail slug</label>
+        <label>W-5Re penetrator 8×120mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×120mm.</description>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -56,7 +59,7 @@
         <defName>PM_GunR42DeadEye</defName>
         <thingClass>GunSmithFramework.Thing_ModularGun</thingClass>
         <label>R-42 DeadEye</label>
-        <description>An anti-materiel electromagnetic sniper rifle that fires 8 mm tungsten-rhenium alloy slugs and carries a compact solarite battery. It delivers excellent long-range accuracy with strong armor penetration.\n\nEach rifle is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <description>An enhanced anti-materiel railgun that uses multiple sets of parallel rails and superconducting coils to accelerate its projectile simultaneously. It is powered by a compact solarite battery. The R42 offers excellent long-range accuracy and exceptional armor penetration.\n\nIt is printed as a complete weapon aboard the Aurora, with its replicator converting energy directly into matter.</description>
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <destroyOnDrop>false</destroyOnDrop>
@@ -73,7 +76,7 @@
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.85</AccuracyMedium>
             <AccuracyLong>0.92</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
             <li>PM_R42_DeadEye</li>

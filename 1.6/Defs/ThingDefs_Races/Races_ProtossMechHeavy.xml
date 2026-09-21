@@ -258,11 +258,12 @@
     <statBases>
       <MoveSpeed>6.2</MoveSpeed>
       <BandwidthCost>3</BandwidthCost>
-      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <ArmorRating_Heat>2.0</ArmorRating_Heat>
     </statBases>
     <race>
-      <body>PM_ProbeBody</body>
+      <body>PM_CosmicSpiderBody</body>
       <mechWeightClass>Heavy</mechWeightClass>
       <baseBodySize>2</baseBodySize>
       <baseHealthScale>3.5</baseHealthScale>
@@ -277,14 +278,31 @@
         </li>
       </lifeStageAges>
     </race>
-    <tools>
+    <tools Inherit="False">
       <li>
-        <label>frame</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>6</power>
+        <label>bite</label>
+        <capacities><li>Bite</li></capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>1</armorPenetration>
+        <chanceFactor>1</chanceFactor>
+      </li>
+      <li>
+        <label>scratch</label>
+        <capacities><li>Scratch</li></capacities>
+        <power>7</power>
         <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
+        <chanceFactor>1</chanceFactor>
+        <linkedBodyPartsGroup>PM_CosmicSpiderHands</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>body slam</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.2</armorPenetration>
+        <chanceFactor>0.6</chanceFactor>
         <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>

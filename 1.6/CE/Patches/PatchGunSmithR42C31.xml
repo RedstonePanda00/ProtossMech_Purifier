@@ -4,7 +4,7 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>PM_GunR42DeadEye</defName>
         <statBases>
-            <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.07</RangedWeapon_Cooldown>
             <SightsEfficiency>1</SightsEfficiency>
             <ShotSpread>0.02</ShotSpread>
             <SwayFactor>1.0</SwayFactor>

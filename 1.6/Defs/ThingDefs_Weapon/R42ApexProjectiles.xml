@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42Apex_Short</defName>
-        <label>8×80 mm APEX rail slug</label>
+        <label>W-5Re penetrator 8×80mm (APEX)</label>
         <thingClass>ProtossMech.Bullet_R42Apex</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -19,7 +19,7 @@
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42Apex_Standard</defName>
-        <label>8×100 mm APEX rail slug</label>
+        <label>W-5Re penetrator 8×100mm (APEX)</label>
         <thingClass>ProtossMech.Bullet_R42Apex</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -36,7 +36,7 @@
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42Apex_Long</defName>
-        <label>8×120 mm APEX rail slug</label>
+        <label>W-5Re penetrator 8×120mm (APEX)</label>
         <thingClass>ProtossMech.Bullet_R42Apex</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>

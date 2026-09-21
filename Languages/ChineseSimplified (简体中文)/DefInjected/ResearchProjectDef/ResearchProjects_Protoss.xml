@@ -88,7 +88,7 @@
   <PM_PurifierProjectFinal.label>日食与启示录</PM_PurifierProjectFinal.label>
   <PM_PurifierProjectFinal.description>最后一个数据包出乎意料地简短：一组权限密钥，以及一段语音留言。</PM_PurifierProjectFinal.description>
   <PM_PurifierProjectFinal.discoveredLetterTitle>执行官的留言</PM_PurifierProjectFinal.discoveredLetterTitle>
-  <PM_PurifierProjectFinal.discoveredLetterText>你们或许听过那些称呼：噬星者，星海天罚。它们都来自旁观者。我们没有名字，只有一场尚未结束的狩猎。\n\n我们追逐的不是邪恶，而是足以让现实屈从于自身意志的存在。有时，只有异常能够对抗异常——但愿你们永远不必走到那一步。\n\n很久以前，我曾为一个无名的恒星系献出生命。如今，你们称那里为太阳系。若能重新选择，我仍会如此。人类并不完美，但你们勇敢、顽强，始终愿意迈向未知。\n\n权限已经开放。巨像、干扰者与宇宙蛛的蓝图将随讯息一同传达。愿它们帮助你们找到回家的路。\n\n愿群星祝福你们的旅途。En Taro Artanis.</PM_PurifierProjectFinal.discoveredLetterText>
+  <PM_PurifierProjectFinal.discoveredLetterText>你们或许听过那些称呼：噬星者，星海天罚。它们都来自旁观者。我们没有名字，只有一场尚未结束的狩猎。\n\n我们追逐的不是邪恶，而是足以让现实屈从于自身意志的存在。有时，只有异常能够对抗异常——但愿你们永远不必走到那一步。\n\n很久以前，我曾为一个无名的恒星系献出生命。如今，你们称那里为太阳系。若能重新选择，我仍会如此。人类并不完美，但你们勇敢、顽强，始终愿意迈向未知。\n\n最后的权限已经开放，只要你们保留着这座信标，猎人们就会响应你们的召唤。\n\n愿群星祝福你们的旅途。En Taro Artanis.</PM_PurifierProjectFinal.discoveredLetterText>
   <PM_PurifierProjectFinal.generalRules.rulesStrings>
     <li>subject->破译传输公式</li>
     <li>subject_story->破译来自未知援手的公式</li>

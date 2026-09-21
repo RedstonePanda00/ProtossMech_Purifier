@@ -3,23 +3,23 @@
 
     <CombatExtended.AmmoCategoryDef>
         <defName>PM_R42RailSlug_Short</defName>
-        <label>short rail slug (8×80mm)</label>
+        <label>W-5Re penetrator 8×80mm</label>
         <labelShort>8×80 AP</labelShort>
-        <description>A shortened 8 mm tungsten-rhenium rail slug. It preserves the rifle's firing behavior while reducing armor penetration.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×80mm.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <CombatExtended.AmmoCategoryDef>
         <defName>PM_R42RailSlug_Standard</defName>
-        <label>standard rail slug (8×100mm)</label>
+        <label>W-5Re penetrator 8×100mm</label>
         <labelShort>8×100 AP</labelShort>
-        <description>The standard 8 mm tungsten-rhenium rail slug, balancing penetrator length, mass, and armor penetration.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×100mm.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <CombatExtended.AmmoCategoryDef>
         <defName>PM_R42RailSlug_Long</defName>
-        <label>long rail slug (8×120mm)</label>
+        <label>W-5Re penetrator 8×120mm</label>
         <labelShort>8×120 AP</labelShort>
-        <description>An extended 8 mm tungsten-rhenium rail slug built for maximum armor penetration.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×120mm.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <ThingCategoryDef>
@@ -41,8 +41,8 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_R42DeadEye_Short</defName>
-        <label>8×80 mm tungsten-rhenium rail slug</label>
-        <description>A short 8 mm tungsten-rhenium rail slug for the R-42 DeadEye. It preserves the rifle's firing behavior with reduced armor penetration.</description>
+        <label>W-5Re penetrator 8×80mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×80mm.</description>
         <graphicData>
             <texPath>Things/Weapon/Ammo/R42DeadEye/8x80_RailSlug</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -63,8 +63,8 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_R42DeadEye_Standard</defName>
-        <label>8×100 mm tungsten-rhenium rail slug</label>
-        <description>The standard 8 mm tungsten-rhenium rail slug, balancing penetrator length, mass, and armor penetration.</description>
+        <label>W-5Re penetrator 8×100mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×100mm.</description>
         <graphicData>
             <texPath>Things/Weapon/Ammo/R42DeadEye/8x100_RailSlug</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -85,8 +85,8 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_R42DeadEye_Long</defName>
-        <label>8×120 mm tungsten-rhenium rail slug</label>
-        <description>An extended 8 mm tungsten-rhenium rail slug built for maximum armor penetration.</description>
+        <label>W-5Re penetrator 8×120mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×120mm.</description>
         <graphicData>
             <texPath>Things/Weapon/Ammo/R42DeadEye/8x120_RailSlug</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -107,9 +107,9 @@
 
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakePM_Ammo_R42DeadEye_Short</defName>
-        <label>make 8×80 mm tungsten-rhenium rail slugs x150</label>
-        <description>Print 150 shortened 8×80 mm tungsten-rhenium rail slugs from one unit of Solarite.</description>
-        <jobString>Making 8×80 mm rail slugs.</jobString>
+        <label>make W-5Re penetrator 8×80mm x150</label>
+        <description>Print 150 W-5Re penetrator 8×80mm rounds from one unit of Solarite.</description>
+        <jobString>Making W-5Re penetrator 8×80mm rounds.</jobString>
         <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
         <recipeUsers Inherit="false">
             <li>ProtossForge</li>
@@ -137,9 +137,9 @@
 
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakePM_Ammo_R42DeadEye_Standard</defName>
-        <label>make 8×100 mm tungsten-rhenium rail slugs x120</label>
-        <description>Print 120 standard 8×100 mm tungsten-rhenium rail slugs from one unit of Solarite.</description>
-        <jobString>Making 8×100 mm rail slugs.</jobString>
+        <label>make W-5Re penetrator 8×100mm x120</label>
+        <description>Print 120 W-5Re penetrator 8×100mm rounds from one unit of Solarite.</description>
+        <jobString>Making W-5Re penetrator 8×100mm rounds.</jobString>
         <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
         <recipeUsers Inherit="false">
             <li>ProtossForge</li>
@@ -167,9 +167,9 @@
 
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakePM_Ammo_R42DeadEye_Long</defName>
-        <label>make 8×120 mm tungsten-rhenium rail slugs x100</label>
-        <description>Print 100 extended 8×120 mm tungsten-rhenium rail slugs from one unit of Solarite.</description>
-        <jobString>Making 8×120 mm rail slugs.</jobString>
+        <label>make W-5Re penetrator 8×120mm x100</label>
+        <description>Print 100 W-5Re penetrator 8×120mm rounds from one unit of Solarite.</description>
+        <jobString>Making W-5Re penetrator 8×120mm rounds.</jobString>
         <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
         <recipeUsers Inherit="false">
             <li>ProtossForge</li>
@@ -197,7 +197,7 @@
 
     <ThingDef ParentName="BaseBulletCE">
         <defName>PM_Bullet_R42DeadEye_Short_CE</defName>
-        <label>8×80 mm tungsten-rhenium rail slug</label>
+        <label>W-5Re penetrator 8×80mm</label>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -214,7 +214,7 @@
 
     <ThingDef ParentName="BaseBulletCE">
         <defName>PM_Bullet_R42DeadEye_Standard_CE</defName>
-        <label>8×100 mm tungsten-rhenium rail slug</label>
+        <label>W-5Re penetrator 8×100mm</label>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -231,7 +231,7 @@
 
     <ThingDef ParentName="BaseBulletCE">
         <defName>PM_Bullet_R42DeadEye_Long_CE</defName>
-        <label>8×120 mm tungsten-rhenium rail slug</label>
+        <label>W-5Re penetrator 8×120mm</label>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>

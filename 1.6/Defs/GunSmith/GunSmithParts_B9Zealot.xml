@@ -96,6 +96,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -122,6 +132,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -147,6 +167,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>

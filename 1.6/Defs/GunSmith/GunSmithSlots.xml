@@ -2,6 +2,11 @@
 <Defs>
 
     <GunSmithFramework.GunSmithSlotDef>
+        <defName>Bolt</defName>
+        <label>Bolt</label>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
         <defName>Barrel</defName>
         <label>Barrel</label>
         <drawsUnderBody>true</drawsUnderBody>

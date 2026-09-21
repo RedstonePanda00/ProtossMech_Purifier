@@ -5,7 +5,7 @@
         <defName>PM_C7Templar_58x42MicroMissile</defName>
         <label>5.8x42 micro-missile</label>
         <labelShort>5.8x42 missile</labelShort>
-        <description>A miniature guided missile built for the C-7 APEX twin-core fire-control system. It combines a hardened penetrator with a compact secondary shaped charge.</description>
+        <description>The 5.8x42mm micro-missile follows instructions from a miniature supercomputer to seek out and lock onto an enemy's head. Its plasma-filled warhead bursts on impact, inflicting secondary ionizing radiation and blast damage.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <ThingCategoryDef>
@@ -27,7 +27,7 @@
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_C7Templar_APEX_MicroMissile</defName>
         <label>5.8x42 micro-missile</label>
-        <description>A twin-core-guided 5.8x42 micro-missile for the C-7 APEX system. Its hardened nose exceeds a Wisp submunition's impact and penetration before a compact secondary charge detonates.</description>
+        <description>The 5.8x42mm micro-missile follows instructions from a miniature supercomputer to seek out and lock onto an enemy's head. Its plasma-filled warhead bursts on impact, inflicting secondary ionizing radiation and blast damage.</description>
         <!-- This ammo set is selected dynamically by GunSmith, so CE's static ammo injector does
              not discover it and clear AmmoBase.destroyOnDrop for us. -->
         <destroyOnDrop>false</destroyOnDrop>

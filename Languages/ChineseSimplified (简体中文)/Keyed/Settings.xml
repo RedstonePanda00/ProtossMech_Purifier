@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ProtossMech.Settings.Title>模组设置</ProtossMech.Settings.Title>
+  <ProtossMech.Settings.Combat>战斗</ProtossMech.Settings.Combat>
+  <ProtossMech.Settings.Gunsmith>枪匠</ProtossMech.Settings.Gunsmith>
+  <ProtossMech.Settings.Compatibility>状态兼容</ProtossMech.Settings.Compatibility>
+  <ProtossMech.Settings.CombatDesc>调整机械体的特殊战斗功能。</ProtossMech.Settings.CombatDesc>
+  <ProtossMech.Settings.GunsmithDesc>调整枪匠功能与私人配件微调。</ProtossMech.Settings.GunsmithDesc>
+  <ProtossMech.Settings.CompatibilityDesc>勾选允许作用于本模组机械体的健康状态。</ProtossMech.Settings.CompatibilityDesc>
+  <ProtossMech.Settings.Overheat>启示录：净化者巨像</ProtossMech.Settings.Overheat>
+  <ProtossMech.Settings.OverheatDesc>启用净化者巨像的特殊战斗模式。</ProtossMech.Settings.OverheatDesc>
+  <ProtossMech.Settings.Elite>精英枪匠</ProtossMech.Settings.Elite>
+  <ProtossMech.Settings.EliteDesc>允许更细致地对枪械进行客制化，包括更细节的枪匠系统和精英微调。</ProtossMech.Settings.EliteDesc>
+  <ProtossMech.Settings.Search>搜索名称或 DefName</ProtossMech.Settings.Search>
+  <ProtossMech.Settings.Source>来源模组</ProtossMech.Settings.Source>
+  <ProtossMech.Settings.All>全部来源</ProtossMech.Settings.All>
+  <ProtossMech.Settings.Unknown>未知来源</ProtossMech.Settings.Unknown>
+  <ProtossMech.Settings.Empty>没有匹配的健康状态</ProtossMech.Settings.Empty>
+  <ProtossMech.Settings.Count>匹配条目：{0}</ProtossMech.Settings.Count>
+</LanguageData>

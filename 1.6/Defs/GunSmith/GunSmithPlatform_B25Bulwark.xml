@@ -3,6 +3,7 @@
 
     <GunSmithFramework.GunSmithPlatformDef>
         <defName>PM_GunSmith_B25Bulwark</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>B25 Bulwark</label>
         <weaponThingDef>PM_GunB25Bulwark</weaponThingDef>
         <bodyTexPath>Things/Weapon/B25/B25_Body</bodyTexPath>

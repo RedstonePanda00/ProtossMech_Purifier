@@ -62,6 +62,26 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+            <magnification>
+                <warmupAtMax>0.02</warmupAtMax>
+                <displayMin>4</displayMin>
+                <displayDefault>6</displayDefault>
+                <displayMax>8</displayMax>
+                <statOffsetsAtMax>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </magnification>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -84,7 +104,6 @@
         <ceAmmoPrinterIntervalTicks>60</ceAmmoPrinterIntervalTicks>
         <ceAmmoPrinterRoundsPerInterval>10</ceAmmoPrinterRoundsPerInterval>
         <ceSuppressPassiveReloadWhenEmpty>true</ceSuppressPassiveReloadWhenEmpty>
-        <workerClass>GunSmithFramework.GunSmithPartWorker_CeAmmoPrinter</workerClass>
             <modExtensions>
             <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
                 <costList>
@@ -185,6 +204,7 @@
             <li>PM_GunSmith_B25Bulwark</li>
             <li>PM_GunSmith_B9Zealot</li>
             <li>PM_GunSmith_B12Vanguard</li>
+            <li>PM_GunSmith_R42</li>
         </compatiblePlatforms>
         <slotType>Laser</slotType>
         <effectPriority>30</effectPriority>
@@ -263,6 +283,16 @@
         </costList>
             </li>
         </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>
@@ -274,6 +304,7 @@
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
             <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_R42</li>
         </compatiblePlatforms>
         <slotType>UnderBarrel</slotType>
         <effectPriority>40</effectPriority>

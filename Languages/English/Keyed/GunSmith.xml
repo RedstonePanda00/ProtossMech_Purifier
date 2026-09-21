@@ -125,5 +125,5 @@
   <PM_GunSmith_UB_Grenade_EMP_Desc>Standard EMP disruption. Mechanoids also suffer circuit burnout, dealing repeated heat damage with extremely high penetration.</PM_GunSmith_UB_Grenade_EMP_Desc>
   <PM_GunSmith_UB_Grenade_Help>Left-click: aim and fire. Right-click: cycle fragmentation, plasma, concussion and EMP. All types share a cooldown.</PM_GunSmith_UB_Grenade_Help>
   <PM_GunSmith_UB_Concussed>Cannot use abilities while concussed.</PM_GunSmith_UB_Concussed>
-    <ProtossMech.GunSmithEliteMode>Elite gunsmith mode (supported platforms only; reserved)</ProtossMech.GunSmithEliteMode>
+    <ProtossMech.GunSmithEliteMode>Elite gunsmith (right-click an existing weapon to fine-tune)</ProtossMech.GunSmithEliteMode>
 </LanguageData>

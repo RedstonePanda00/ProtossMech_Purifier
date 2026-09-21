@@ -11,7 +11,7 @@
     </CombatExtended.AmmoSetDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>PM_Bullet_R42Apex_Short_CE</defName>
-        <label>8×80 mm APEX rail slug</label>
+        <label>W-5Re penetrator 8×80mm (APEX)</label>
         <thingClass>CombatExtended.BulletCE</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -31,7 +31,7 @@
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>PM_Bullet_R42Apex_Standard_CE</defName>
-        <label>8×100 mm APEX rail slug</label>
+        <label>W-5Re penetrator 8×100mm (APEX)</label>
         <thingClass>CombatExtended.BulletCE</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -51,7 +51,7 @@
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>PM_Bullet_R42Apex_Long_CE</defName>
-        <label>8×120 mm APEX rail slug</label>
+        <label>W-5Re penetrator 8×120mm (APEX)</label>
         <thingClass>CombatExtended.BulletCE</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>

@@ -12,14 +12,14 @@
         <defName>PM_C31Tempest_30mmPlasma</defName>
         <label>30 mm plasma gun grenade</label>
         <labelShort>30 mm plasma</labelShort>
-        <description>A miniature inferno-cannon plasma grenade. It deals vaporizing thermal damage with triple the heat penetration of the standard SAPHE grenade.</description>
+        <description>The plasma grenade's warhead produces a devastating plasma explosion, vaporizing the target's armor and causing irreversible damage to electronic equipment.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <CombatExtended.AmmoCategoryDef>
         <defName>PM_C31Tempest_30mmWisp</defName>
         <label>30 mm Wisp swarm grenade</label>
         <labelShort>30 mm Wisp</labelShort>
-        <description>A carrier grenade that releases five Wisp micro-missiles on impact. Each Wisp curves toward the nearest hostile target.</description>
+        <description>The Wisp swarm grenade contains five submunitions. The carrier releases them as it approaches the target, and the submunitions automatically home in on nearby heat signatures to strike them.</description>
     </CombatExtended.AmmoCategoryDef>
 
     <ThingCategoryDef>
@@ -66,7 +66,7 @@
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_C31Tempest_Plasma</defName>
         <label>30 mm plasma gun grenade</label>
-        <description>A miniature inferno-cannon plasma grenade. It deals vaporizing thermal damage with triple the heat penetration of the standard SAPHE grenade.</description>
+        <description>The plasma grenade's warhead produces a devastating plasma explosion, vaporizing the target's armor and causing irreversible damage to electronic equipment.</description>
         <graphicData>
             <texPath>Things/Weapon/Ammo/C31Tempest/30mmPlasmaGrenade</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -89,7 +89,7 @@
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
         <defName>PM_Ammo_C31Tempest_Wisp</defName>
         <label>30 mm Wisp swarm grenade</label>
-        <description>A carrier grenade that releases five Wisp micro-missiles on impact. Each Wisp curves toward the nearest hostile target.</description>
+        <description>The Wisp swarm grenade contains five submunitions. The carrier releases them as it approaches the target, and the submunitions automatically home in on nearby heat signatures to strike them.</description>
         <graphicData>
             <texPath>Things/Weapon/Ammo/C31Tempest/30mmWisp</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>

@@ -11,10 +11,10 @@
   <PM_C31Tempest_Ammo_01.description>30mm 反建筑半穿甲高爆枪榴弹。</PM_C31Tempest_Ammo_01.description>
 
   <PM_C31Tempest_Ammo_Plasma.label>30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_Plasma.label>
-  <PM_C31Tempest_Ammo_Plasma.description>小型炼狱魔王炮式电浆枪榴弹，造成气化热伤害，并具有更高的热能穿甲能力。</PM_C31Tempest_Ammo_Plasma.description>
+  <PM_C31Tempest_Ammo_Plasma.description>电浆榴弹的战斗部会造成严重的等离子爆炸，汽化目标的护甲并且对电子设备造成不可逆的损害。</PM_C31Tempest_Ammo_Plasma.description>
 
   <PM_C31Tempest_Ammo_Wisp.label>30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_Wisp.label>
-  <PM_C31Tempest_Ammo_Wisp.description>&#x6BCD;&#x5F39;&#x88AB;&#x6467;&#x6BC1;&#x540E;&#x91CA;&#x653E; 5 &#x53D1; Wisp &#x5FAE;&#x578B;&#x5BFC;&#x5F39;&#x3002;&#x5BFC;&#x5F39;&#x6CBF;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x98DE;&#x884C;&#xFF0C;&#x5E76;&#x81EA;&#x52A8;&#x5BFB;&#x627E;&#x6700;&#x8FD1;&#x7684;&#x654C;&#x4EBA;&#x3002;</PM_C31Tempest_Ammo_Wisp.description>
+  <PM_C31Tempest_Ammo_Wisp.description>wisp蜂群榴弹包含5枚子弹头，母弹在接近目标后释放子弹头，子弹头会自动跟踪附近的热能信号撞击。</PM_C31Tempest_Ammo_Wisp.description>
 
   <PM_C31Tempest_Magazine_01.label>8 &#x53D1; SAPHE &#x67AA;&#x69B4;&#x5F39;&#x5F39;&#x5323;</PM_C31Tempest_Magazine_01.label>
   <PM_C31Tempest_Magazine_01.description>标准弹匣，装填 30mm SAPHE 反建筑枪榴弹，每个弹匣 8 发。</PM_C31Tempest_Magazine_01.description>

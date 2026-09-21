@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_C31Tempest_Barrel_01.label>强化枪管</PM_C31Tempest_Barrel_01.label>
+  <PM_C31Tempest_Barrel_01.description>强化枪管组件，可延长有效射程并提高初速。</PM_C31Tempest_Barrel_01.description>
+
+  <PM_C31Tempest_Stock_01.label>&#x201C;&#x6E38;&#x9A91;&#x5175;&#x201D;&#x4F38;&#x7F29;&#x6218;&#x672F;&#x67AA;&#x6258;</PM_C31Tempest_Stock_01.label>
+  <PM_C31Tempest_Stock_01.description>可调节战术枪托，展开后提供稳定抵肩支撑，减少枪口晃动并改善瞄准与射击后的恢复速度。</PM_C31Tempest_Stock_01.description>
+
+  <PM_C31Tempest_Ammo_01.label>30mm SAPHE &#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_01.label>
+  <PM_C31Tempest_Ammo_01.description>30mm 反建筑半穿甲高爆枪榴弹。</PM_C31Tempest_Ammo_01.description>
+
+  <PM_C31Tempest_Ammo_Plasma.label>30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_Plasma.label>
+  <PM_C31Tempest_Ammo_Plasma.description>小型炼狱魔王炮式电浆枪榴弹，造成气化热伤害，并具有更高的热能穿甲能力。</PM_C31Tempest_Ammo_Plasma.description>
+
+  <PM_C31Tempest_Ammo_Wisp.label>30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_Ammo_Wisp.label>
+  <PM_C31Tempest_Ammo_Wisp.description>&#x6BCD;&#x5F39;&#x88AB;&#x6467;&#x6BC1;&#x540E;&#x91CA;&#x653E; 5 &#x53D1; Wisp &#x5FAE;&#x578B;&#x5BFC;&#x5F39;&#x3002;&#x5BFC;&#x5F39;&#x6CBF;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x98DE;&#x884C;&#xFF0C;&#x5E76;&#x81EA;&#x52A8;&#x5BFB;&#x627E;&#x6700;&#x8FD1;&#x7684;&#x654C;&#x4EBA;&#x3002;</PM_C31Tempest_Ammo_Wisp.description>
+
+  <PM_C31Tempest_Magazine_01.label>8 &#x53D1; SAPHE &#x67AA;&#x69B4;&#x5F39;&#x5F39;&#x5323;</PM_C31Tempest_Magazine_01.label>
+  <PM_C31Tempest_Magazine_01.description>标准弹匣，装填 30mm SAPHE 反建筑枪榴弹，每个弹匣 8 发。</PM_C31Tempest_Magazine_01.description>
+
+  <PM_C31Tempest_Sight_01.label>&#x201C;&#x5148;&#x77E5;&#x201D;&#x667A;&#x80FD;&#x706B;&#x63A7;</PM_C31Tempest_Sight_01.label>
+  <PM_C31Tempest_Sight_01.description>集成热成像、AI 图像识别、自动指向修正与择机自动开火的火控系统，加快目标捕获，减少枪口晃动并提高瞄准效率，能排除烟雾与恶劣天气的精度干扰。传感器与执行机构带来明显的重量负担。</PM_C31Tempest_Sight_01.description>
+
+  <PM_C31Tempest_APEX_ATLAS.label>&#x201C;ATLAS&#x201D;&#x673A;&#x70AE;&#x5957;&#x7EC4;</PM_C31Tempest_APEX_ATLAS.label>
+  <PM_C31Tempest_APEX_ATLAS.description>一套 APEX 下挂改造套件，将武器重构为转轮式 30mm SAPHE 枪榴机炮。它以射程、操控和回复速度为代价，换取一次凶猛的 20 发连射。</PM_C31Tempest_APEX_ATLAS.description>
+
+  <PM_C31Tempest_APEX_ATLAS_Barrel.label>&#x201C;ATLAS&#x201D;&#x8F6C;&#x8F6E;&#x67AA;&#x7BA1;&#x7EC4;</PM_C31Tempest_APEX_ATLAS_Barrel.label>
+  <PM_C31Tempest_APEX_ATLAS_Barrel.description>ATLAS &#x673A;&#x70AE;&#x5957;&#x7EC4;&#x7684;&#x9690;&#x85CF; APEX &#x7EC4;&#x4EF6;&#x3002;</PM_C31Tempest_APEX_ATLAS_Barrel.description>
+
+  <PM_C31Tempest_APEX_ATLAS_Magazine.label>&#x201C;ATLAS&#x201D;200 &#x53D1;&#x4F9B;&#x5F39;&#x6A21;&#x5757;</PM_C31Tempest_APEX_ATLAS_Magazine.label>
+  <PM_C31Tempest_APEX_ATLAS_Magazine.description>ATLAS &#x673A;&#x70AE;&#x5957;&#x7EC4;&#x7684;&#x9690;&#x85CF; APEX &#x7EC4;&#x4EF6;&#x3002;</PM_C31Tempest_APEX_ATLAS_Magazine.description>
+
+</LanguageData>
