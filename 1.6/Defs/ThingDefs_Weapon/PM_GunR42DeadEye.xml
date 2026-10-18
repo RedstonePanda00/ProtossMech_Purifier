@@ -4,7 +4,7 @@
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42_Short</defName>
         <label>W-5Re penetrator 8×80mm</label>
-        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×80mm.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×80mm.</description>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -22,7 +22,7 @@
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_RailDeadEye</defName>
         <label>W-5Re penetrator 8×100mm</label>
-        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×100mm.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×100mm.</description>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -40,7 +40,7 @@
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_R42_Long</defName>
         <label>W-5Re penetrator 8×120mm</label>
-        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×120mm.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×120mm.</description>
         <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
@@ -63,6 +63,7 @@
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <destroyOnDrop>false</destroyOnDrop>
+        <relicChance>0</relicChance>
         <graphicData>
             <texPath>Things/Weapon/RailGun/R42_Body</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +97,7 @@
                 <burstShotCount>1</burstShotCount>
                 <soundCast>ChargeLance_Fire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
-                <muzzleFlashScale>9</muzzleFlashScale>
+                <muzzleFlashScale>0</muzzleFlashScale>
             </li>
         </verbs>
         <tools>

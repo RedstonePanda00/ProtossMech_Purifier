@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apparel_SmartPointTurret.label>智能火力点背包</PM_Apparel_SmartPointTurret.label>
+  <PM_Apparel_SmartPointTurret.description>便携式智能火力点，投出后自动锁定敌人，以三连发方式发射9mm Hammer微型导弹。</PM_Apparel_SmartPointTurret.description>
+  <PM_Apparel_SmartPointTurret.verbs.0.label>部署智能火力点</PM_Apparel_SmartPointTurret.verbs.0.label>
+  <PM_Projectile_SmartPointTurret.label>智能火力点部署舱</PM_Projectile_SmartPointTurret.label>
+  <PM_SmartPointTurret.label>智能火力点</PM_SmartPointTurret.label>
+  <PM_SmartPointTurret.description>一个被部署的智能火力点，利用半环加速器三连发射出9mm Hammer微型导弹，追击被锁定的目标。这个装置的超级电容用尽后会自毁。</PM_SmartPointTurret.description>
+  <PM_Gun_SmartPointTurret.label>Hammer微型导弹加速器</PM_Gun_SmartPointTurret.label>
+  <PM_Bullet_HammerMicroMissile.label>9mm Hammer微型导弹</PM_Bullet_HammerMicroMissile.label>
+  <PM_Bullet_HammerMicroMissile.description>由半环加速器发射的制导微型导弹，能够绕过障碍追击锁定目标，飞行超过5秒后自毁。</PM_Bullet_HammerMicroMissile.description>
+</LanguageData>

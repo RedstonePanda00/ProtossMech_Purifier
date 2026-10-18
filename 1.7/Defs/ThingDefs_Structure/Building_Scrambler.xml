@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_Scrambler</defName>
+    <label>scrambler</label>
+    <description>A powered wide-area interference array. It stops hostile turrets and prevents nearby enemies from using their innate and equipment abilities, including psycasts and genetic abilities. Ordinary weapon attacks remain possible. The field passes through walls and shuts down when power is lost.</description>
+    <thingClass>ProtossMech.Building_Scrambler</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/Scrambler/ScramblerBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <uiOrder>2995</uiOrder>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <specialDisplayRadius>30</specialDisplayRadius>
+
+    <researchPrerequisites><li>PM_PurifierProjectFinal</li></researchPrerequisites>
+    <costList><PM_Adanium>25</PM_Adanium><ComponentIndustrial>6</ComponentIndustrial><ComponentSpacer>2</ComponentSpacer></costList>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power"><compClass>CompPowerTrader</compClass><basePowerConsumption>6000</basePowerConsumption></li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_ProtossMechShieldBuilding">
+        <energyMax>300</energyMax><energyGainPerTick>0.2</energyGainPerTick><ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>2</minDrawSize><maxDrawSize>2.4</maxDrawSize>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

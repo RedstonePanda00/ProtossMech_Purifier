@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2242695929
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62ecd9d8c2138e28d2219dff142693dc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 62ecd9d8c2138e28d2219dff142693dc
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PMEcho/EchoHologram.shader
+Dependencies: []

@@ -50,4 +50,12 @@
     <suspendable>false</suspendable>
   </JobDef>
 
+  <JobDef>
+    <defName>PM_DoBillFromHyperspaceStorage</defName>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <driverClass>ProtossMech.JobDriver_DoBillFromHyperspaceStorage</driverClass>
+    <reportString>doing bill at TargetA.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
 </Defs>

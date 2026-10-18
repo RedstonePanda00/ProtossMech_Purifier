@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <AbilityDef>
+        <defName>MechForceFieldWall</defName>
+        <label>project Force Field Wall</label>
+        <description>Projects a 3x3 Force Field Wall structures.</description>
+        <iconPath>Gizmo/Sentry/ForceField</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.5</warmupTime>
+            <range>20</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_PlacingBuilding">
+                <thingToSpawn>ForceFieldWall</thingToSpawn>
+                <pattern>
+                    <li>(-1, -1)</li>
+                    <li>(0, -1)</li>
+                    <li>(1, -1)</li>
+                    <li>(-1, 0)</li>
+                    <li>(0, 0)</li>
+                    <li>(1, 0)</li>
+                    <li>(-1, 1)</li>
+                    <li>(0, 1)</li>
+                    <li>(1, 1)</li>
+                </pattern>
+                <fleckDefOnSpawn>DustPuffThick</fleckDefOnSpawn>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_GuardianShield</defName>
+        <label>Guardian Shield</label>
+        <description>activate shield generator, which can block projectile.</description>
+        <iconPath>Gizmo/Sentry/GuardianShield</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ApplyHediff">
+                <targetType>Self</targetType>
+                <hediffDefNames>
+                    <li>PM_Hediff_GuardianShieldActive</li>
+                </hediffDefNames>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_PhaseMode</defName>
+        <label>Phase mode</label>
+        <description>Enter phase mode. While phased, this unit cannot move but projects a stronger shield field.</description>
+        <iconPath>Gizmo/Energizer/PhaseMode</iconPath>
+        <cooldownTicksRange>60</cooldownTicksRange>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ToggleHediff">
+                <hediffDefName>PM_Hediff_EnergizerPhaseMode</hediffDefName>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>MechChronoBeam</defName>
+        <label>Chrono Beam</label>
+        <description>The beam that can speed up the time flow of target.</description>
+        <iconPath>Gizmo/Energizer/ChronoBeam</iconPath>
+        <cooldownTicksRange>60</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>30</range>
+            <warmupTime>0.5</warmupTime>
+            <requireLineOfSight>false</requireLineOfSight>
+            <targetParams>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>true</canTargetPawns>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ApplyHediff">
+                <targetType>Target</targetType>
+
+                <hediffDefNames>
+                    <li>Hediff_TemporalSurge</li>
+                </hediffDefNames>
+
+                <projectileDefName>PM_ChronoBeamProjectile</projectileDefName>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_HavocTargetLock</defName>
+        <label>target lock</label>
+        <description>Lock onto a hostile target. While locked, that target takes increased damage from all sources. Only one target at a time.</description>
+        <iconPath>Gizmo/Havoc/TargetLock</iconPath>
+        <cooldownTicksRange>120</cooldownTicksRange>
+        <hostile>true</hostile>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.25</warmupTime>
+            <range>50</range>
+            <requireLineOfSight>true</requireLineOfSight>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_AbilityTargetLock" />
+        </comps>
+        <modExtensions>
+            <li Class="ProtossMech.AbilityExtension_TargetLockSettings">
+                <maxLockRangeCells>50</maxLockRangeCells>
+                <incomingDamageMultiplier>1.3</incomingDamageMultiplier>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>LegionnaireJump</defName>
+        <label>Engage</label>
+        <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
+        <iconPath>Gizmo/Legionaire/Engage</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbilityJump</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
+            <label>jump</label>
+            <violent>false</violent>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <warmupTime>0</warmupTime>
+            <minRange>0</minRange>
+            <range>20</range>
+            <requireLineOfSight>true</requireLineOfSight>
+            <soundCast>Longjump_Jump</soundCast>
+            <soundLanding>Longjump_Land</soundLanding>
+            <flyWithCarriedThing>false</flyWithCarriedThing>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+    </AbilityDef>
+
+
+    <AbilityDef>
+        <defName>PM_UmbraSkip</defName>
+        <label>Skip</label>
+        <description>Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius.</description>
+        <iconPath>Gizmo/Umbra/UmbraSkip</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <groupAbility>true</groupAbility>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
+            <range>25</range>
+            <warmupTime>0.25</warmupTime>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_UmbraSkip">
+                <damageAmount>45</damageAmount>
+                <damageRadius>2.9</damageRadius>
+                <damageDef>ExecutionCut</damageDef>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_UmbraTripleStrike</defName>
+        <label>Triple strike</label>
+        <description>Enter a sniping stance and fire three rapid sniper shots. Each shot is guaranteed to hit the target's head. If the target dies or is lost, automatically acquire another available enemy within range.</description>
+        <iconPath>Gizmo/Umbra/TripleStrike</iconPath>
+        <cooldownTicksRange>600</cooldownTicksRange>
+        <groupAbility>true</groupAbility>
+        <hostile>true</hostile>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>true</requireLineOfSight>
+            <range>40</range>
+            <warmupTime>1.5</warmupTime>
+            <targetParams>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetBuildings>true</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_UmbraTripleStrike" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>MechCharge</defName>
+        <label>charge</label>
+        <description>Speed up in several seconds.</description>
+        <iconPath>Gizmo/Legionaire/Charge</iconPath>
+        <cooldownTicksRange>1800</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <targetRequired>false</targetRequired>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_ApplyHediff">
+                <targetType>Self</targetType>
+                <hediffDefNames>
+                    <li>Hediff_Charging</li>
+                </hediffDefNames>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>Warp_Pylon</defName>
+        <label>Warp Pylon</label>
+        <iconPath>Gizmo/Probius/WarpPylon</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>1</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_PlacingBuilding">
+                <thingToSpawn>WarpBeacon_Pylon</thingToSpawn>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>Warp_Photon</defName>
+        <label>Warp Photon</label>
+        <iconPath>Gizmo/Probius/WarpPhoton</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>1</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_PlacingBuilding">
+                <thingToSpawn>WarpBeacon_Photon</thingToSpawn>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>OverchargeAllPylons</defName>
+        <label>Overcharge All Pylons</label>
+        <iconPath>Gizmo/Probius/PylonOvercharge</iconPath>
+        <hostile>false</hostile>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <targetRequired>false</targetRequired>
+        <verbProperties>
+            <verbClass>ProtossMech.Verb_CastAbilityOverchargeAllPylons</verbClass>
+            <range>999</range>
+        </verbProperties>
+        <cooldownTicksRange>3600</cooldownTicksRange>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_RestoreShield</defName>
+        <label>Barrier</label>
+        <description>Instantly restores the caster's Protoss shield to its maximum energy level.</description>
+        <iconPath>Gizmo/Immortal/Barrier</iconPath>
+        <cooldownTicksRange>7200</cooldownTicksRange>
+        <charges>2</charges>
+        <cooldownPerCharge>true</cooldownPerCharge>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <targetRequired>false</targetRequired>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_AbilityRestoreShield" />
+        </comps>
+
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_SummonNova</defName>
+        <label>Summon Purification Nova</label>
+        <description>Summon Purification Nova to the location.</description>
+        <iconPath>Gizmo/Disruptor/PurificationNova</iconPath>
+        <cooldownTicksRange>1260</cooldownTicksRange>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
+            <warmupTime>0</warmupTime>
+            <range>30.0</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+
+        <comps>
+            <li Class="ProtossMech.CompProperties_SpawnAndGo">
+                <thingDefToSpawn>PM_PurificationNova</thingDefToSpawn>
+            </li>
+        </comps>
+
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_ReelWeb</defName>
+        <label>Reel Web</label>
+        <description>Fire a silk line and pull the first unit on the path toward the caster.</description>
+        <iconPath>Gizmo/CosmicSpider/Hook</iconPath>
+        <cooldownTicksRange>900</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderReelWeb" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_WebLink</defName>
+        <label>Web Link</label>
+        <description>Fire silk and bind the first enemy contacted; bound enemies are tethered by the web.</description>
+        <iconPath>Gizmo/CosmicSpider/WebLink</iconPath>
+        <cooldownTicksRange>3600</cooldownTicksRange>
+        <hostile>true</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderWebLink" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_StickyWeb</defName>
+        <label>Sticky Web</label>
+        <description>Place a 3x3 patch of conductive sticky web floor.</description>
+        <iconPath>Gizmo/CosmicSpider/WebTrap</iconPath>
+        <cooldownTicksRange>7200</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.4</warmupTime>
+            <range>18</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderStickyWeb" />
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_Discharge</defName>
+        <label>Discharge</label>
+        <description>Create a psionic storm within 18 tiles of the caster for 4 seconds. Each 20-tick damage round deals 10 heat damage with 200% armor penetration to non-allied pawns and buildings. Conductive web floors retain the storm for 1 extra second. When the main storm ends, the bound enemy receives a radius-3 storm lasting 1 second, with damage every 5 ticks.</description>
+        <iconPath>Gizmo/CosmicSpider/Discharge</iconPath>
+        <cooldownTicksRange>3600</cooldownTicksRange>
+        <hostile>true</hostile>
+        <groupAbility>true</groupAbility>
+        <targetRequired>false</targetRequired>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0</warmupTime>
+            <range>18</range>
+            <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderDischarge">
+                <radius>18</radius>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>PM_CosmicSpider_WebSwing</defName>
+        <label>Web Swing</label>
+        <description>Swing from an anchor point to a destination with web-assisted mobility.</description>
+        <iconPath>Gizmo/CosmicSpider/Swing</iconPath>
+        <cooldownTicksRange>300</cooldownTicksRange>
+        <hostile>false</hostile>
+        <groupAbility>true</groupAbility>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>0.1</warmupTime>
+            <range>7</range>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="ProtossMech.CompProperties_CosmicSpiderWebSwing">
+                <jumpRangeCells>7</jumpRangeCells>
+                <anchorRangeCells>18</anchorRangeCells>
+                <chargeTicks>60</chargeTicks>
+                <swingFlightTicks>240</swingFlightTicks>
+                <swingPhysics>
+                    <mass>1.0</mass>
+                    <webCompliance>0.0008</webCompliance>
+                    <webDamping>0.08</webDamping>
+                    <webElasticStretchLimit>0.08</webElasticStretchLimit>
+                    <webConstraintIterations>2</webConstraintIterations>
+                    <globalDrag>0.003</globalDrag>
+                    <verticalDrag>0.001</verticalDrag>
+                    <quadraticDrag>0.0008</quadraticDrag>
+                    <maneuverAcceleration>0.015</maneuverAcceleration>
+                    <activeSwingPower>0.035</activeSwingPower>
+                    <maxTangentialForce>0.35</maxTangentialForce>
+                    <launchReferenceTicks>15</launchReferenceTicks>
+                    <launchVelocityScale>1.65</launchVelocityScale>
+                    <launchVerticalVelocity>0.28</launchVerticalVelocity>
+                    <launchArcHeightCells>1.2</launchArcHeightCells>
+                    <minLaunchSpeed>0.65</minLaunchSpeed>
+                    <radiusAdjustStep>1.25</radiusAdjustStep>
+                    <minWebLength>2.0</minWebLength>
+                    <maxWebLength>36.0</maxWebLength>
+                    <anchorHeightCells>-1.0</anchorHeightCells>
+                    <reelSpeed>0.22</reelSpeed>
+                    <reelAcceleration>0.035</reelAcceleration>
+                    <reelMotorPower>0.09</reelMotorPower>
+                    <maxReelForce>0.9</maxReelForce>
+                    <releaseMaxDistance>80.0</releaseMaxDistance>
+                    <releaseMinFlightTicks>4</releaseMinFlightTicks>
+                    <releaseMaxFlightTicks>180</releaseMaxFlightTicks>
+                    <groundFriction>0.06</groundFriction>
+                    <groundSlideStopSpeed>0.18</groundSlideStopSpeed>
+                    <groundSlideMinTicks>8</groundSlideMinTicks>
+                    <gravityAcceleration>0.035</gravityAcceleration>
+                    <numericalVelocityCap>20.0</numericalVelocityCap>
+                    <simulationSubsteps>4</simulationSubsteps>
+                </swingPhysics>
+            </li>
+        </comps>
+    </AbilityDef>
+
+</Defs>

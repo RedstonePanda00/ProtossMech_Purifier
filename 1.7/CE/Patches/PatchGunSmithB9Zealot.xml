@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PM_GunB9Zealot</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.11</ShotSpread>
+            <SwayFactor>0.90</SwayFactor>
+            <Bulk>6</Bulk>
+        </statBases>
+        <Properties>
+            <recoilAmount>0.75</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PM_Bullet_B9Zealot_CE</defaultProjectile>
+            <warmupTime>0.45</warmupTime>
+            <range>28</range>
+            <burstShotCount>5</burstShotCount>
+            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+            <soundCast>Shot_AssaultRifle</soundCast>
+            <soundCastTail>GunTail_Light</soundCastTail>
+            <muzzleFlashScale>5</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>32</magazineSize>
+            <reloadTime>2.6</reloadTime>
+            <ammoSet>PM_AmmoSet_B9Zealot</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+            <aiUseBurstMode>true</aiUseBurstMode>
+            <aiAimMode>Snapshot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunB9Zealot"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE"><label>stock</label><capacities><li>Blunt</li></capacities><power>7</power><cooldownTime>1.5</cooldownTime><chanceFactor>1.5</chanceFactor><armorPenetrationBlunt>2.5</armorPenetrationBlunt><linkedBodyPartsGroup>Stock</linkedBodyPartsGroup></li>
+                <li Class="CombatExtended.ToolCE"><label>barrel</label><capacities><li>Blunt</li></capacities><power>5</power><cooldownTime>1.8</cooldownTime><armorPenetrationBlunt>1.5</armorPenetrationBlunt><linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup></li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunB9Zealot"]</xpath>
+        <value><li Class="CombatExtended.GunDrawExtension"><DrawSize>3.8,1.9</DrawSize><DrawOffset>0,0</DrawOffset></li></value>
+    </Operation>
+
+</Patch>

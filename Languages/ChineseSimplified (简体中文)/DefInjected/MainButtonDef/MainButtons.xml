@@ -3,7 +3,7 @@
   
   <!-- EN: Warp -->
   <ProtossMech_Warp.label>折跃</ProtossMech_Warp.label>
-  <!-- EN: Open the tab to select the unit you want to Warp. You must place the unit in the energy field. -->
-  <ProtossMech_Warp.description>选择机械体折跃，你必须把目标地点设在能量场中。</ProtossMech_Warp.description>
+  <!-- EN: Manage mech work assignments and warp units into an energy field. -->
+  <ProtossMech_Warp.description>管理机械体的工作分配，并将单位传送至能量场内。</ProtossMech_Warp.description>
   
 </LanguageData>

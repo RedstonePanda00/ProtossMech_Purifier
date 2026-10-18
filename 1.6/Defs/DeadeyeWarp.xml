@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ProtossMech.WarpReinforcementDef>
+    <defName>PM_WarpDeadeyeDrone</defName><label>Deadeye drone</label><description>Commission a military Servitor with a fixed A.R.C. beam cannon from the Aurora.</description><pawnDefName>PM_DeadeyeDrone</pawnDefName>
+    <costList><li><thingDef>Plasteel</thingDef><count>100</count></li><li><thingDef>ComponentSpacer</thingDef><count>2</count></li></costList>
+    <warpInTicks>240</warpInTicks><researchPrerequisites><li>PM_NuclearFusion</li></researchPrerequisites><requiredGateDef>PM_WarpGate</requiredGateDef>
+  </ProtossMech.WarpReinforcementDef>
+  <!-- Research hyperlink only: no building calls this recipe. -->
+  <RecipeDef ParentName="ProtossMechanoidRecipe">
+    <defName>PM_DeadeyeDroneWarpCosts</defName><label>Deadeye drone warp-in costs</label><description>View the resources required to warp in a Deadeye drone from the Aurora.</description><jobString>Warping in a Deadeye drone.</jobString>
+
+    <ingredients Inherit="False"><li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>100</count></li><li><filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter><count>2</count></li></ingredients>
+    <products><PM_DeadeyeDrone>1</PM_DeadeyeDrone></products><descriptionHyperlinks><ThingDef>PM_DeadeyeDrone</ThingDef></descriptionHyperlinks>
+    <researchPrerequisites><li>PM_NuclearFusion</li></researchPrerequisites>
+  </RecipeDef>
+</Defs>

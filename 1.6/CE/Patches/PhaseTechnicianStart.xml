@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="PM_KhalaiMechanitor"]/scenario/parts</xpath>
+    <value><li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Ammo_762x51mmNATO_FMJ</thingDef><count>200</count></li></value>
+  </Operation>
+</Patch>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42_Short</defName>
+        <label>W-5Re penetrator 8×80mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×80mm.</description>
+        <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.26</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_RailDeadEye</defName>
+        <label>W-5Re penetrator 8×100mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×100mm.</description>
+        <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.58</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42_Long</defName>
+        <label>W-5Re penetrator 8×120mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×120mm.</description>
+        <thingClass>ProtossMech.Bullet_RailDeadEye</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.90</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunR42DeadEye</defName>
+        <thingClass>GunSmithFramework.Thing_ModularGun</thingClass>
+        <label>R-42 DeadEye</label>
+        <description>An enhanced anti-materiel railgun that uses multiple sets of parallel rails and superconducting coils to accelerate its projectile simultaneously. It is powered by a compact solarite battery. The R42 offers excellent long-range accuracy and exceptional armor penetration.\n\nIt is printed as a complete weapon aboard the Aurora, with its replicator converting energy directly into matter.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <relicChance>0</relicChance>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42_Body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.2, 2.2)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>2400</MarketValue>
+            <Mass>8.5</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.92</AccuracyLong>
+            <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_R42_DeadEye</li>
+        </weaponTags>
+        <comps>
+            <li Class="GunSmithFramework.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_R42</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_RailDeadEye</defaultProjectile>
+                <warmupTime>1.8</warmupTime>
+                <range>42</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>ChargeLance_Fire</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>0</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

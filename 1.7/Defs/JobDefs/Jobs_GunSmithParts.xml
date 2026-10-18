@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <JobDef>
+    <defName>PM_GunSmithPartContinuousUse</defName>
+    <driverClass>ProtossMech.GunSmith.JobDriver_GunSmithPartContinuousUse</driverClass>
+    <reportString>firing an underbarrel laser at TargetA.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+</Defs>

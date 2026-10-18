@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>PM_Apparel_Trophy</defName>
+    <label>automatic defense system backpack</label>
+    <description>A portable automatic defense system that detects nearby low-speed targets and detonates them with an X-laser.</description>
+    <graphicData>
+      <texPath>Things/Apparel/TacticalEquipment/Trophy/Trophy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
+    <tickerType>Normal</tickerType>
+    <mergeVerbGizmos>false</mergeVerbGizmos>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <EquipDelay>2</EquipDelay>
+      <MarketValue>400</MarketValue>
+      <WorkToMake>4000</WorkToMake>
+    </statBases>
+    <thingCategories><li>ApparelUtility</li></thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups><li>Waist</li></bodyPartGroups>
+      <layers><li>Belt</li></layers>
+      <wornGraphicPath>Things/Apparel/TacticalEquipment/Trophy/Trophy</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north><offset>(0,-0.15)</offset><scale>(0.55,0.55)</scale></north>
+        <south><offset>(0,0.10)</offset><scale>(0.55,0.55)</scale></south>
+        <east>
+          <offset>(-0.30,-0.10)</offset><scale>(0.55,0.55)</scale>
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.10,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset><scale>(0.55,0.55)</scale>
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.10,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+        </west>
+        <female><scale>(0.94,0.94)</scale></female>
+        <thin><scale>(0.90,0.90)</scale></thin>
+      </wornGraphicData>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_ApparelVerbOwnerCharged">
+        <hotKey>Misc4</hotKey>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_LaunchProjectileStaticOneUse</verbClass>
+        <label>deploy automatic defense system</label>
+        <defaultProjectile>PM_Projectile_Trophy</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>22.9</range>
+        <burstShotCount>1</burstShotCount>
+        <onlyManualCast>true</onlyManualCast>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>true</targetable>
+        <targetParams>
+          <canTargetPawns>false</canTargetPawns>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>ThrowGrenade</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <canGoWild>false</canGoWild>
+      </li>
+    </verbs>
+    <costList><Steel>45</Steel><ComponentIndustrial>3</ComponentIndustrial></costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers><li>ProtossForge</li></recipeUsers>
+      <skillRequirements><Crafting>6</Crafting></skillRequirements>
+      <researchPrerequisites><li>PM_SmartFireControl</li></researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>PM_Projectile_Trophy</defName>
+    <label>automatic defense system capsule</label>
+    <thingClass>ProtossMech.Projectile_Trophy</thingClass>
+    <!-- The vanilla one-use apparel gizmo takes its icon from the projectile. -->
+    <uiIconPath>Gizmo/Trophy/Deploy</uiIconPath>
+    <uiIconAngle>0</uiIconAngle>
+    <graphicData>
+      <texPath>Things/Structure/Trophy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.45,0.45)</drawSize>
+    </graphicData>
+    <projectile><speed>41</speed><damageAmountBase>0</damageAmountBase></projectile>
+  </ThingDef>
+</Defs>

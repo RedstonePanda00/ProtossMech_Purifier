@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Barrel_01</defName>
+        
+        <label>standard barrel</label>
+        <description>A standard, very short barrel suited to close-range assaults.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Barrel1</texPath>
+        <ceFullAuto>true</ceFullAuto>
+        <warmupTimeOffset>-0.05</warmupTimeOffset>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.1686, 0.0152)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.2783, -0.0192)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.03</AccuracyShort>
+            <AccuracyMedium>-0.02</AccuracyMedium>
+            <AccuracyLong>-0.06</AccuracyLong>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Barrel_02</defName>
+        
+        <label>9-inch reinforced barrel</label>
+        <description>An extended handguard and barrel that improves balance, reduces dispersion and recoil, and increases rocket velocity. Its added mass slows weapon handling.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Barrel2</texPath>
+        <drawOverBody>true</drawOverBody>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>4</rangeOffset>
+        <warmupTimeOffset>0.10</warmupTimeOffset>
+        <projectileSpeedFactor>1.08</projectileSpeedFactor>
+        <ceShotSpreadOverride>0.075</ceShotSpreadOverride>
+        <ceRecoilOverride>0.58</ceRecoilOverride>
+        <childSlotAnchors>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0407, 0.0024)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.0096, -0.0160)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>-0.06</AccuracyTouch>
+            <AccuracyShort>-0.03</AccuracyShort>
+            <AccuracyMedium>0.06</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>-0.12</RangedWeapon_Cooldown>
+            <Mass>0.45</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_01</defName>
+        
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Grip1</texPath>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_02</defName>
+        
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Grip2</texPath>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>0.01</AccuracyLong>
+            <Mass>0.08</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_03</defName>
+        
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Grip3</texPath>
+        <warmupTimeOffset>-0.12</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyLong>-0.05</AccuracyLong>
+            <Mass>-0.20</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Grip_04</defName>
+        
+        <label>dual-wield grip</label>
+        <description>Allows the user to fire two weapons simultaneously, trading long-range precision for double the firepower.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Grip1</texPath>
+        <iconPath>Things/Weapon/B9/B9_DualGrip_Icon</iconPath>
+        <enablesDualWield>true</enablesDualWield>
+        <ceShotSpreadFactor>1.50</ceShotSpreadFactor>
+        <ceSwayFactor>1.35</ceSwayFactor>
+        <statOffsets>
+            <AccuracyMedium>-0.35</AccuracyMedium>
+            <AccuracyLong>-0.50</AccuracyLong>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>40</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Stock_01</defName>
+        
+        <label>light stock</label>
+        <description>A light stock for close-range assaults that increases movement speed.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Stock</slotType>
+        <effectPriority>50</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Stock1</texPath>
+        <wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.02</AccuracyMedium>
+            <AccuracyLong>-0.04</AccuracyLong>
+            <Mass>-0.2</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Ammo_01</defName>
+        
+        <label>9x21mm mini airburst rockets</label>
+        <description>9x21mm mini airburst rockets with impact fuzes as their default configuration.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Mag1</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectilePriority>20</projectilePriority>
+        <projectileOverride>PM_Bullet_B9Zealot</projectileOverride>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Magazine_01</defName>
+        
+        <label>32-round rocket magazine</label>
+        <description>A standard 32-round magazine.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Mag1</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Magazine_02</defName>
+        
+        <label>32-round flip magazine</label>
+        <description>Two opposed magazines bound together for a faster flip reload. It adds weight but reduces reload time.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Mag2</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>-0.40</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.25</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B9Zealot_Magazine_03</defName>
+        
+        <label>75-round drum</label>
+        <description>A 75-round drum for sustained automatic fire. Its compact helical feed more than doubles the standard magazine's capacity, but adds weight and reload time.</description>
+        <platformDef>PM_GunSmith_B9Zealot</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/B9/B9_Mag3</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>75</ceMagazineSize>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>0.75</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.75</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+</Defs>

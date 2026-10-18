@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- CE mobility values; stability is tuned in PatchGunSmithStocksOpticsLasers.xml. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_02"]/wielderMoveSpeedOffset</xpath>
+        <value><wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset></value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_02"]/warmupTimeOffset</xpath>
+        <value><warmupTimeOffset>-0.08</warmupTimeOffset></value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_02"]/statOffsets</xpath>
+        <value>
+            <statOffsets>
+                <AccuracyTouch>0.04</AccuracyTouch>
+                <AccuracyShort>0.02</AccuracyShort>
+                <AccuracyMedium>-0.02</AccuracyMedium>
+                <AccuracyLong>-0.04</AccuracyLong>
+                <Mass>-0.3</Mass>
+            </statOffsets>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C19Dragoon_Stock_01"]/wielderMoveSpeedOffset</xpath>
+        <value><wielderMoveSpeedOffset>0.15</wielderMoveSpeedOffset></value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C19Dragoon_Stock_01"]/statOffsets</xpath>
+        <value>
+            <statOffsets>
+                <AccuracyTouch>0.03</AccuracyTouch>
+                <AccuracyShort>0.02</AccuracyShort>
+                <AccuracyMedium>0.02</AccuracyMedium>
+                <Mass>-0.2</Mass>
+            </statOffsets>
+        </value>
+    </Operation>
+</Patch>

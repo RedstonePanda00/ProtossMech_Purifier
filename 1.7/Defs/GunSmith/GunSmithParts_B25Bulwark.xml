@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Barrel_01</defName>
+        
+        <label>quick-change barrel</label>
+        <description>A quick-change barrel for sustained all-range suppression that can be replaced rapidly in the field.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Barrel1</texPath>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>2</rangeOffset>
+        <projectileSpeedFactor>1.05</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.2570, -0.0080)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0758, 0.0499)</offset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.3476, 0.0346)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.1445, 0.0577)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.25</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Barrel_02</defName>
+        
+        <label>reinforced long barrel</label>
+        <description>A longer barrel and handguard that increase muzzle velocity while improving recoil control and heat dissipation. The extra weight slows aim and makes the weapon harder to carry.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Barrel2</texPath>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>5</rangeOffset>
+        <warmupTimeOffset>0.20</warmupTimeOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <ceShotSpreadOverride>0.045</ceShotSpreadOverride>
+        <ceRecoilOverride>1.15</ceRecoilOverride>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.3987, 0.0001)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0717, 0.0524)</offset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.3387, 0.0413)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.0124, 0.0668)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <AccuracyTouch>-0.08</AccuracyTouch>
+            <AccuracyShort>-0.05</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <RangedWeapon_Cooldown>-0.20</RangedWeapon_Cooldown>
+            <Mass>0.90</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_01</defName>
+        
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Grip1</texPath>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_02</defName>
+        
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Grip2</texPath>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>0.01</AccuracyLong>
+            <Mass>0.08</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_03</defName>
+        
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Grip3</texPath>
+        <warmupTimeOffset>-0.12</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyLong>-0.05</AccuracyLong>
+            <Mass>-0.20</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Grip_04</defName>
+        
+        <label>"Titan" dual-wield grip</label>
+        <description>Allows the user to fire two weapons simultaneously, trading long-range precision for extreme close-range firepower. It is a technique normally reserved for legion soldiers.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Grip1</texPath>
+        <iconPath>Things/Weapon/B25/B25_DualGrip_Icon</iconPath>
+        <enablesDualWield>true</enablesDualWield>
+        <ceShotSpreadFactor>1.50</ceShotSpreadFactor>
+        <ceSwayFactor>1.35</ceSwayFactor>
+        <statOffsets>
+            <AccuracyMedium>-0.35</AccuracyMedium>
+            <AccuracyLong>-0.50</AccuracyLong>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>50</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Stock_01</defName>
+        
+        <label>standard stock</label>
+        <description>A standard stock with soft materials for a more comfortable shooting experience.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Stock</slotType>
+        <effectPriority>50</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Stock1</texPath>
+        <warmupTimeOffset>0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>-0.04</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <AccuracyLong>0.03</AccuracyLong>
+            <Mass>0.45</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Ammo_01</defName>
+        
+        <label>6.8x42 electrothermal-chemical caseless telescoped rounds</label>
+        <description>6.8x42 electrothermal-chemical caseless telescoped rounds. Their caseless construction reduces mass and volume, while high-density chemical fuel produces greater muzzle velocity than conventional propellant.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Mag1</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectilePriority>20</projectilePriority>
+        <projectileOverride>PM_Bullet_B25Bulwark</projectileOverride>
+        <drawOverBody>true</drawOverBody>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_B25Bulwark_Magazine_01</defName>
+        
+        <label>80-round box magazine</label>
+        <description>A standard 80-round magazine for belt-fed machine guns.</description>
+        <platformDef>PM_GunSmith_B25Bulwark</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/B25/B25_Mag1</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <drawOverBody>true</drawOverBody>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+</Defs>

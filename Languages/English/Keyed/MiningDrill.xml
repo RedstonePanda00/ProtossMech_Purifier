@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Drill_Fuel>Fuel</PM_Drill_Fuel>
+  <PM_Drill_Heat>Heat</PM_Drill_Heat>
+  <PM_Drill_Cooling>Cooling down</PM_Drill_Cooling>
+  <PM_Drill_NoFuel>Mining drill needs chemfuel.</PM_Drill_NoFuel>
+  <PM_Drill_HeatInspect>Heat: {0} / {1}</PM_Drill_HeatInspect>
+  <PM_Drill_RefuelNow>Refuel mining drill to {0}</PM_Drill_RefuelNow>
+  <PM_Drill_RefuelUnavailable>Requires an undrafted, able operator with the drill equipped.</PM_Drill_RefuelUnavailable>
+  <PM_Drill_RefuelAtTarget>Fuel is already at or above the target.</PM_Drill_RefuelAtTarget>
+  <PM_Drill_NoAvailableFuel>No usable chemfuel is available.</PM_Drill_NoAvailableFuel>
+  <PM_Drill_FuelControlsTip>Left-click and drag the slider to set the refueling limit.</PM_Drill_FuelControlsTip>
+</LanguageData>

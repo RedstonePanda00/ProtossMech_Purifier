@@ -45,4 +45,6 @@
     <ProtossMech.ReplicatorStatusIdle>待机：队列为空或全部暂停</ProtossMech.ReplicatorStatusIdle>
     <ProtossMech.ReplicatorStatusWorking>正在复制 {0}：{1}</ProtossMech.ReplicatorStatusWorking>
     <ProtossMech.ReplicatorStatusWaiting>等待资源：{0}</ProtossMech.ReplicatorStatusWaiting>
+    <ProtossMech.ReplicatorOnlyAvailable>仅显示可用配方</ProtossMech.ReplicatorOnlyAvailable>
+    <ProtossMech.ReplicatorOnlyAvailableDesc>勾选后隐藏研究或其他前置条件尚未满足的配方。此筛选不检查当前材料库存。</ProtossMech.ReplicatorOnlyAvailableDesc>
 </LanguageData>

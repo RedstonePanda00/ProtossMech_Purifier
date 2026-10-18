@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchTabDef>
+    <defName>ProtossTech</defName>
+    <label>Protoss technologies</label>
+    <generalTitle>Deciphered transmissions</generalTitle>
+    <generalDescription>Not invention—verification. Each project cross-checks formulae from an unseen benefactor before the colony may deploy what was lent.</generalDescription>
+  </ResearchTabDef>
+
+</Defs>

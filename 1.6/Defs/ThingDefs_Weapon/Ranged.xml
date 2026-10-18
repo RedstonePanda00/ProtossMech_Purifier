@@ -122,7 +122,7 @@
         <range>44.9</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
+        <muzzleFlashScale>0</muzzleFlashScale>
       </li>
     </verbs>
     <tools>

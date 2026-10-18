@@ -26,8 +26,8 @@
   
   <!-- EN: Cosmic Spider -->
   <PM_CosmicSpider.label>星灵蛛</PM_CosmicSpider.label>
-  <!-- EN: The Cosmic Spider is a medium Purifier control unit specialized in forced movement and battlefield disruption. It has no fixed weapon system and relies on equipped armaments while weaving conductive web terrain. -->
-  <PM_CosmicSpider.description>星灵蛛是一种中型净化者控场机械体，专精于强制位移与战术打断。它没有固定武器系统，依赖装备武器作战，同时铺设可导电的蛛网地面。</PM_CosmicSpider.description>
+  <!-- EN: The Cosmic Spider is a medium-sized battlefield control mech designed by Executor Sigmar and an AI member of the Star Devourers. The technology it uses remains a mystery to us.\n\nIts silk can restrain enemies, aid its own mobility, and form conductive webs that slow their advance. This little fellow is equipped with an advanced fire-control system and a complete persona core, making its shots almost unfailingly accurate. -->
+  <PM_CosmicSpider.description>星灵蛛是由执行官 Sigmar 设计的中型控场机械体，也是噬星者的 AI 成员。它所使用的技术，对我们来说仍然是个谜。\n\n星灵蛛的蛛丝能够牵制敌人的行动、帮助自身机动，也能铺设可导电的蛛网，迟滞敌人。这个小家伙搭载了先进的火控系统和完整的人格核心，射击几乎百发百中。</PM_CosmicSpider.description>
   <PM_CosmicSpider.tools.bite.label>啃咬</PM_CosmicSpider.tools.bite.label>
   <PM_CosmicSpider.tools.scratch.label>抓挠</PM_CosmicSpider.tools.scratch.label>
   <PM_CosmicSpider.tools.body_slam.label>撞击</PM_CosmicSpider.tools.body_slam.label>

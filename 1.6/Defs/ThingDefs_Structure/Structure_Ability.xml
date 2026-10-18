@@ -38,66 +38,28 @@
         </building>
     </ThingDef>
 
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="PM_WarpConstructionBeaconBase">
         <defName>WarpBeacon_Pylon</defName>
         <label>Warp Beacon Pylon</label>
-        <graphicData>
-            <texPath>Things/Structure/WarpBeacon</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(2.0, 2.0)</drawSize>
-        </graphicData>
-        <tickerType>Normal</tickerType>
-        <destroyable>true</destroyable>
-        <useHitPoints>false</useHitPoints>
-        <altitudeLayer>Building</altitudeLayer>
-        <passability>Impassable</passability>
-        <blockWind>true</blockWind>
-        <castEdgeShadows>false</castEdgeShadows>
-        <fillPercent>0</fillPercent>
-        <selectable>true</selectable>
-        <rotatable>false</rotatable>
-        <statBases>
-            <Flammability>0</Flammability>
-        </statBases>
         <size>(2,2)</size>
-        <comps>
-            <li Class="ProtossMech.CompProperties_TransformAfterTick">
-                <tick>300</tick>
-                <defName>Pylon</defName>
-                <countdownLabel>Will Warp in</countdownLabel>
-                <displayCountdownOnLabel>true</displayCountdownOnLabel>
+        <rotatable>false</rotatable>
+        <comps Inherit="False">
+            <li Class="ProtossMech.CompProperties_WarpConstructionBeacon">
+                <buildingToSpawn>Pylon</buildingToSpawn>
+                <warpTicks>300</warpTicks>
             </li>
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="PM_WarpConstructionBeaconBase">
         <defName>WarpBeacon_Photon</defName>
         <label>Warp Beacon Photon</label>
-        <graphicData>
-            <texPath>Things/Structure/WarpBeacon</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(2.0, 2.0)</drawSize>
-        </graphicData>
-        <tickerType>Normal</tickerType>
-        <destroyable>true</destroyable>
-        <useHitPoints>false</useHitPoints>
-        <altitudeLayer>Building</altitudeLayer>
-        <passability>Impassable</passability>
-        <blockWind>true</blockWind>
-        <castEdgeShadows>false</castEdgeShadows>
-        <fillPercent>0</fillPercent>
-        <selectable>true</selectable>
-        <rotatable>false</rotatable>
-        <statBases>
-            <Flammability>0</Flammability>
-        </statBases>
         <size>(2,2)</size>
-        <comps>
-            <li Class="ProtossMech.CompProperties_TransformAfterTick">
-                <tick>300</tick>
-                <defName>Photon_Cannon</defName>
-                <countdownLabel>Will Warp in</countdownLabel>
-                <displayCountdownOnLabel>true</displayCountdownOnLabel>
+        <rotatable>false</rotatable>
+        <comps Inherit="False">
+            <li Class="ProtossMech.CompProperties_WarpConstructionBeacon">
+                <buildingToSpawn>Photon_Cannon</buildingToSpawn>
+                <warpTicks>300</warpTicks>
             </li>
         </comps>
     </ThingDef>
@@ -202,7 +164,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="MoteBase">
+    <ThingDef ParentName="MoteBase" Name="PM_OverchargedPylonLaser">
         <defName>Mote_OverchargedPylonlaser</defName>
         <thingClass>MoteDualAttached</thingClass>
         <altitudeLayer>MoteOverhead</altitudeLayer>

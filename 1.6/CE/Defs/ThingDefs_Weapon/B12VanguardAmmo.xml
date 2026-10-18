@@ -52,7 +52,7 @@
         <label>make 12 gauge dragon's breath shells x100</label>
         <description>Craft 100 incendiary 12 gauge dragon's breath shells.</description>
         <jobString>Making 12 gauge dragon's breath shells.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li>
                 <filter>

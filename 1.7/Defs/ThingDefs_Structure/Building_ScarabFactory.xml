@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_ScarabFactory</defName>
+    <label>scarab factory</label>
+    <description>An active automated printing unit that continuously manufactures Scarab drones to attack enemies. The unit self-destructs when its supercapacitor is depleted.</description>
+    <thingClass>ProtossMech.Building_ScarabFactory</thingClass>
+    <graphicData>
+      <texPath>Things/Structure/ScarabFactory/ScarabFactory</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.15,1.15)</drawSize>
+    </graphicData>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0.10</fillPercent>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <holdsRoof>false</holdsRoof>
+    <coversFloor>false</coversFloor>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <modExtensions>
+      <li Class="ProtossMech.ScarabFactoryProperties">
+        <projectile>PM_Projectile_Scarab</projectile><range>28</range>
+        <firstPrintTicks>180</firstPrintTicks><printTicks>360</printTicks>
+        <capacity>3</capacity><fireIntervalTicks>120</fireIntervalTicks><outletOffsetZ>-0.33</outletOffsetZ>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>100</energyMax><energyGainPerTick>0.1</energyGainPerTick>
+        <ticksToBeginRecharge>300</ticksToBeginRecharge><minDrawSize>0.7</minDrawSize><maxDrawSize>1.1</maxDrawSize>
+      </li>
+      <li Class="CompProperties_DestroyAfterDelay">
+        <delayTicks>10800</delayTicks><displayCountdownOnLabel>true</displayCountdownOnLabel><destroyMode>Vanish</destroyMode>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

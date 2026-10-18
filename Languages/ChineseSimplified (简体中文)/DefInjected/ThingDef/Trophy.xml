@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Trophy.label>自动防御系统</PM_Trophy.label>
+  <PM_Trophy.description>一个被部署的“战利品”防御系统，会检测附近的低速目标并且用X激光引爆。这个装置的超级电容用尽后会自毁。</PM_Trophy.description>
+  <PM_Apparel_Trophy.label>自动防御系统背包</PM_Apparel_Trophy.label>
+  <PM_Apparel_Trophy.description>一个便携式的自动防御系统，会检测附近的低速目标并且用X激光引爆。</PM_Apparel_Trophy.description>
+  <PM_Apparel_Trophy.verbs.0.label>部署自动防御系统</PM_Apparel_Trophy.verbs.0.label>
+  <PM_Projectile_Trophy.label>自动防御系统部署舱</PM_Projectile_Trophy.label>
+</LanguageData>

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 482607586
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 999a4c83bba980e9ac97d12cecc5fac1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 999a4c83bba980e9ac97d12cecc5fac1
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PMPortableShield/PortableShield.shader
+Dependencies: []

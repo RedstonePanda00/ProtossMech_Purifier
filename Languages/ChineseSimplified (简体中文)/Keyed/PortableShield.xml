@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Cover_Reboot>护盾重启倒计时：{0}</PM_Cover_Reboot>
+  <PM_Cover_Remaining>剩余运作时间：{0}</PM_Cover_Remaining>
+  <PM_Cover_Blocked>屏障发生器的展开区域被占用，已回收为部署包。</PM_Cover_Blocked>
+</LanguageData>

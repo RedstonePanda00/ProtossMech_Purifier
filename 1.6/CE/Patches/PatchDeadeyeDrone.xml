@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="PM_Gun_DeadeyeBeam"]/verbs/li/range</xpath><value><range>60</range></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="PM_DeadeyeDrone"]/statBases/ArmorRating_Sharp</xpath><value><ArmorRating_Sharp>8</ArmorRating_Sharp></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="PM_DeadeyeDrone"]/statBases/ArmorRating_Blunt</xpath><value><ArmorRating_Blunt>15</ArmorRating_Blunt></value></Operation>
+</Patch>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>PM_UmbraFlash</defName>
+    <label>Flash</label>
+    <description>Enter a defensive stance for 4 seconds. Face the nearest visible enemy while moving, and return hostile projectiles entering the forward semicircle within 1 tile to their shooters. Reflected projectiles retain their damage, armor penetration and speed, but can miss or be blocked. Also blocks melee attacks from every direction. Cannot attack or use other abilities during the stance. Click again to end early. Cooldown: 20 seconds after the stance ends.</description>
+    <abilityClass>ProtossMech.Ability_UmbraFlash</abilityClass>
+    <gizmoClass>ProtossMech.Command_UmbraFlash</gizmoClass>
+    <iconPath>Gizmo/Umbra/UmbraFlash</iconPath>
+    <targetRequired>false</targetRequired>
+    <groupAbility>false</groupAbility>
+    <hostile>false</hostile>
+    <aiCanUse>false</aiCanUse>
+    <cooldownTicksRange>1200</cooldownTicksRange>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <range>0</range>
+      <targetParams><canTargetSelf>true</canTargetSelf></targetParams>
+    </verbProperties>
+  </AbilityDef>
+</Defs>

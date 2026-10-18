@@ -38,12 +38,13 @@
         <products>
             <PM_Solarite>25</PM_Solarite>
         </products>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+
         <skillRequirements>
             <Crafting>10</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
         <displayPriority>10</displayPriority>
+        <researchPrerequisites><li>PM_NuclearFusion</li></researchPrerequisites>
     </RecipeDef>
 
     <!-- Neutron Material -->
@@ -74,9 +75,18 @@
                 </filter>
                 <count>75</count>
             </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>3265</count>
+            </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
+                <li>Steel</li>
                 <li>PM_Solarite</li>
                 <li>Plasteel</li>
             </thingDefs>
@@ -84,12 +94,13 @@
         <products>
             <PM_Adanium>75</PM_Adanium>
         </products>
-        <researchPrerequisite>PM_PurifierProject</researchPrerequisite>
+
         <skillRequirements>
             <Crafting>10</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
         <displayPriority>10</displayPriority>
+        <researchPrerequisites><li>PM_HigherDimensionalSpacetime</li></researchPrerequisites>
     </RecipeDef>
 
     <!-- Subcore High -->
@@ -130,12 +141,13 @@
         <products>
             <SubcoreHigh>1</SubcoreHigh>
         </products>
-        <researchPrerequisite>PM_PositronicAI</researchPrerequisite>
+
         <skillRequirements>
             <Crafting>8</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
         <displayPriority>10</displayPriority>
+        <researchPrerequisites><li>PM_PositronicAI</li></researchPrerequisites>
     </RecipeDef>
 
     <!-- AIPersonaCore -->
@@ -147,54 +159,25 @@
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
-        <workAmount>10000</workAmount>
+        <workAmount>12000</workAmount>
         <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>PM_Solarite</li>
-                    </thingDefs>
-                </filter>
-                <count>25</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Plasteel</li>
-                    </thingDefs>
-                </filter>
-                <count>100</count>
-            </li>
+            <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>50</count></li>
+            <li><filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter><count>3</count></li>
         </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>ComponentSpacer</li>
-                <li>Plasteel</li>
-            </thingDefs>
-        </fixedIngredientFilter>
+        <fixedIngredientFilter><thingDefs><li>Plasteel</li><li>ComponentSpacer</li></thingDefs></fixedIngredientFilter>
         <products>
             <AIPersonaCore>1</AIPersonaCore>
         </products>
-        <researchPrerequisite>PM_SyntheticPersonality</researchPrerequisite>
-        <skillRequirements>
-            <Crafting>15</Crafting>
-            <Intellectual>15</Intellectual>
-        </skillRequirements>
-        <workSkill>Crafting</workSkill>
+
+        <skillRequirements><Crafting>6</Crafting><Intellectual>8</Intellectual></skillRequirements>
+        <workSkill>Intellectual</workSkill>
         <displayPriority>10</displayPriority>
+        <researchPrerequisites><li>PM_SyntheticPersonality</li></researchPrerequisites>
     </RecipeDef>
 
     <!-- Techprof subpersona core -->
-     <RecipeDef>
+    <RecipeDef>
         <defName>PMPMake_TechprofSubpersonaCore</defName>
         <label>make Techprof Subpersona Core</label>
         <description>Make Techprof Subpersona Core.</description>
@@ -202,50 +185,21 @@
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
-        <workAmount>10000</workAmount>
+        <workAmount>30000</workAmount>
         <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>PM_Solarite</li>
-                    </thingDefs>
-                </filter>
-                <count>25</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Plasteel</li>
-                    </thingDefs>
-                </filter>
-                <count>100</count>
-            </li>
+            <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>50</count></li>
+            <li><filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter><count>3</count></li>
         </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>ComponentSpacer</li>
-                <li>Plasteel</li>
-            </thingDefs>
-        </fixedIngredientFilter>
+        <fixedIngredientFilter><thingDefs><li>Plasteel</li><li>ComponentSpacer</li></thingDefs></fixedIngredientFilter>
         <products>
             <TechprofSubpersonaCore>1</TechprofSubpersonaCore>
         </products>
-        <researchPrerequisite>PM_SyntheticPersonality</researchPrerequisite>
-        <skillRequirements>
-            <Crafting>15</Crafting>
-            <Intellectual>15</Intellectual>
-        </skillRequirements>
-        <workSkill>Crafting</workSkill>
+
+        <skillRequirements><Crafting>6</Crafting><Intellectual>12</Intellectual></skillRequirements>
+        <workSkill>Intellectual</workSkill>
         <displayPriority>10</displayPriority>
+        <researchPrerequisites><li>PM_Replicator</li></researchPrerequisites>
     </RecipeDef>
 
 </Defs>

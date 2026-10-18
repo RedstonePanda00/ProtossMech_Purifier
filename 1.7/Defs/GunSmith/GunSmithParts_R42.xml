@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Bolt_Heavy</defName>
+        <label>smooth slide heavy bolt</label>
+        <description>A smoothly guided heavy bolt that preserves the R-42's standard firing cadence while improving long-range precision.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Bolt</slotType>
+        <effectPriority>50</effectPriority>
+        <iconPath>Things/Weapon/RailGun/R42_Bolt_Heavy</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <statOffsets>
+            <RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
+            <AccuracyLong>0.03</AccuracyLong>
+        </statOffsets>
+        <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList><li><thingDef>PM_Solarite</thingDef><count>10</count></li></costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Bolt_Quick</defName>
+        <label>quick bolt</label>
+        <description>A fast-cycling bolt that reduces the delay after each shot at a very small cost to long-range precision. It does not shorten aiming or charging time.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Bolt</slotType>
+        <effectPriority>50</effectPriority>
+        <iconPath>Things/Weapon/RailGun/R42_Bolt_Quick</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <statOffsets>
+            <RangedWeapon_Cooldown>-0.10</RangedWeapon_Cooldown>
+            <AccuracyLong>-0.01</AccuracyLong>
+        </statOffsets>
+        <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList><li><thingDef>PM_Solarite</thingDef><count>10</count></li></costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Barrel_01</defName>
+        
+        <label>long barrel</label>
+        <description>An extended electromagnetic acceleration barrel. Its longer acceleration path drives the slug to greater velocity, improving effective range, terminal force, armor penetration, and long-range consistency at the cost of weight and handling.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/RailGun/R42_Barrel_01</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>8</rangeOffset>
+        <warmupTimeOffset>0.20</warmupTimeOffset>
+        <projectileDamageOffset>3</projectileDamageOffset>
+        <projectileSpeedFactor>1.15</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.10</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyLong>0.05</AccuracyLong>
+            <Mass>0.8</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Barrel_02</defName>
+        
+        <label>short barrel</label>
+        <description>A compact electromagnetic acceleration barrel that reduces forward weight and brings the weapon on target faster. The shortened acceleration path sacrifices range, muzzle velocity, penetration, and long-range stability.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/RailGun/R42_Barrel_02</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>-6</rangeOffset>
+        <warmupTimeOffset>-0.35</warmupTimeOffset>
+        <projectileDamageOffset>-2</projectileDamageOffset>
+        <projectileSpeedFactor>0.90</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>-0.10</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>0.08</AccuracyTouch>
+            <AccuracyShort>0.06</AccuracyShort>
+            <AccuracyLong>-0.10</AccuracyLong>
+            <Mass>-0.8</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Rail_01</defName>
+        
+        <label>long rail</label>
+        <description>A full-length dual rail assembly that supplies stronger electromagnetic thrust and maintains a more stable acceleration field. It supports extreme-range fire at the cost of additional mass and a slower firing solution.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Rail</slotType>
+        <effectPriority>0</effectPriority>
+        <texPath>Things/Weapon/RailGun/R42_Rail_01</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <rangeOffset>6</rangeOffset>
+        <warmupTimeOffset>0.15</warmupTimeOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.05</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>-0.05</AccuracyTouch>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <Mass>1.0</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Rail_02</defName>
+        
+        <label>assault rail</label>
+        <description>A compact magnetic constraint assembly that reduces forward inertia for faster target acquisition. It remains effective at close and medium range, but gives up some projectile velocity, penetration, and long-range stability.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Rail</slotType>
+        <effectPriority>0</effectPriority>
+        <texPath>Things/Weapon/RailGun/R42_Rail_02</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.20</warmupTimeOffset>
+        <projectileSpeedFactor>0.95</projectileSpeedFactor>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>-0.05</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>0.08</AccuracyTouch>
+            <AccuracyShort>0.06</AccuracyShort>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <AccuracyLong>-0.06</AccuracyLong>
+            <Mass>-0.6</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Sight_01</defName>
+        
+        <label>advanced red dot sight</label>
+        <description>An unobstructed projected aiming point backed by AI fire control that automatically identifies hostile targets. It accelerates target acquisition and correction at close to medium range.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Optic</slotType>
+        <effectPriority>90</effectPriority>
+        <texPath>Things/Weapon/RailGun/R42_Telescope_01</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.20</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.12</AccuracyTouch>
+            <AccuracyShort>0.10</AccuracyShort>
+            <AccuracyMedium>0.05</AccuracyMedium>
+            <Mass>0.1</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Sight_02</defName>
+        
+        <label>red dot sight</label>
+        <description>An exceptionally light red dot sight with a wide, clear sight picture. It is optimized for immediate close-range engagement, trading away medium- and long-range precision.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C7Templar</li>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+        </compatiblePlatforms>
+        <slotType>Optic</slotType>
+        <effectPriority>90</effectPriority>
+        <texPath>Things/Weapon/RailGun/R42_Telescope_02</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <warmupTimeOffset>-0.35</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.20</AccuracyTouch>
+            <AccuracyShort>0.14</AccuracyShort>
+            <AccuracyMedium>-0.04</AccuracyMedium>
+            <AccuracyLong>-0.10</AccuracyLong>
+            <Mass>-0.2</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Ammo_8x100</defName>
+        
+        <label>W-5Re penetrator 8×100mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×100mm.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Ammo</slotType>
+        <effectPriority>80</effectPriority>
+        <texPath>Things/Weapon/RailGun/CE/8x100AP</texPath>
+        <iconPath>Things/Weapon/RailGun/CE/8x100AP</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectilePriority>30</projectilePriority>
+        <projectileOverride>PM_Bullet_RailDeadEye</projectileOverride>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Ammo_8x80</defName>
+        
+        <label>W-5Re penetrator 8×80mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×80mm.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Ammo</slotType>
+        <effectPriority>80</effectPriority>
+        <texPath>Things/Weapon/RailGun/CE/8x80AP</texPath>
+        <iconPath>Things/Weapon/RailGun/CE/8x80AP</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectilePriority>30</projectilePriority>
+        <projectileOverride>PM_Bullet_R42_Short</projectileOverride>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_Ammo_8x120</defName>
+        
+        <label>W-5Re penetrator 8×120mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×120mm.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Ammo</slotType>
+        <effectPriority>80</effectPriority>
+        <texPath>Things/Weapon/RailGun/CE/8x120AP</texPath>
+        <iconPath>Things/Weapon/RailGun/CE/8x120AP</iconPath>
+        <drawOnWeapon>false</drawOnWeapon>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectilePriority>30</projectilePriority>
+        <projectileOverride>PM_Bullet_R42_Long</projectileOverride>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>20</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_APEX_ChargedBarrel</defName>
+        <label>"DragonBreath" charged barrel</label>
+        <description>The charged barrel releases stored energy at an almost inconceivable intensity, accelerating a tungsten-rhenium alloy slug to Mach 10–20. The projectile tears through the air ahead of the muzzle, leaving a local vacuum that lets the plasma in the bore travel farther before dissipating. An Immortal of the Purifier Legions who tested it described the impact as “being hit by a supersonic siege tank.”</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <requiredPlatformCapabilities>
+            <li>PhysicalAmmoVariants</li>
+            <li>LinearPenetratingProjectile</li>
+        </requiredPlatformCapabilities>
+        <behaviorClass>ProtossMech.GunSmith.GunSmithPartBehavior_R42Apex</behaviorClass>
+        <secondaryProjectileDefName>PM_Bullet_R42Apex_Plasma</secondaryProjectileDefName>
+        <ceSecondaryProjectileDefName>PM_Bullet_R42Apex_Plasma_CE</ceSecondaryProjectileDefName>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Barrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <isApex>true</isApex>
+        <isApexEntry>true</isApexEntry>
+        
+        <warmupTimeOffset>3.2</warmupTimeOffset>
+        <rangeOffset>18</rangeOffset>
+        <statOffsets><Mass>2</Mass></statOffsets>
+        <ceAmmoSetOverride>PM_AmmoSet_R42Apex</ceAmmoSetOverride>
+        <providedSlots>
+            <li><slotId>UnderBarrel</slotId><slotType>UnderBarrel</slotType><optional>true</optional></li>
+            <li><slotId>Laser</slotId><slotType>Laser</slotType><optional>true</optional></li>
+        </providedSlots>
+        <childSlotAnchors>
+            <li><slotId>UnderBarrel</slotId><offset>(-0.2964, 0.0878)</offset></li>
+            <li><slotId>Laser</slotId><offset>(-0.1418, 0.0095)</offset></li>
+        </childSlotAnchors>
+        <apexForcedParts>
+            <li><slotId>Rail</slotId><part>PM_R42_APEX_Rail</part></li>
+        </apexForcedParts>
+        <apexDefaultParts><li><slotId>UnderBarrel</slotId><part>PM_R42_APEX_Bipod</part></li></apexDefaultParts>
+        <apexHiddenSlotIds><li>Rail</li></apexHiddenSlotIds>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList><li><thingDef>PM_Solarite</thingDef><count>150</count></li></costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_APEX_Rail</defName>
+        <label>APEX acceleration rail</label>
+        <description>Dedicated magnetic constraint rails supplied with the DragonBreath charged barrel. Their cost and performance are included in the complete kit.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>Rail</slotType>
+        <effectPriority>0</effectPriority>
+        <texPath>Things/Weapon/RailGun/APEX/R42_APEX_Rail</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+    </GunSmithFramework.GunSmithPartDef>
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_R42_APEX_Bipod</defName>
+        <label>adaptive bipod</label>
+        <description>An all-terrain adaptive bipod with an integrated gyroscope. Deploying it effectively improves long-range sniping performance.</description>
+        <platformDef>PM_GunSmith_R42</platformDef>
+        <slotType>UnderBarrel</slotType>
+        <effectPriority>40</effectPriority>
+        <texPath>Things/Weapon/RailGun/APEX/R42_APEX_UnderBarrel</texPath>
+        <previewDrawSize>1.0</previewDrawSize>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>30</drawOrder>
+        <isApex>true</isApex>
+        <statOffsets>
+            <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
+            <AccuracyShort>0.05</AccuracyShort>
+            <AccuracyMedium>0.12</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+        </statOffsets>
+    </GunSmithFramework.GunSmithPartDef>
+</Defs>

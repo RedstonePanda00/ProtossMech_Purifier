@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef><defName>PM_RepairSynthetic</defName><driverClass>ProtossMech.JobDriver_RepairSynthetic</driverClass><reportString>Repairing TargetA.</reportString><casualInterruptible>true</casualInterruptible></JobDef>
+</Defs>

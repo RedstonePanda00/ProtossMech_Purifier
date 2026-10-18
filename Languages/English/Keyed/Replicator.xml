@@ -45,4 +45,6 @@
     <ProtossMech.ReplicatorStatusIdle>Idle: queue empty or paused</ProtossMech.ReplicatorStatusIdle>
     <ProtossMech.ReplicatorStatusWorking>Replicating {0}: {1}</ProtossMech.ReplicatorStatusWorking>
     <ProtossMech.ReplicatorStatusWaiting>Waiting for resources: {0}</ProtossMech.ReplicatorStatusWaiting>
+    <ProtossMech.ReplicatorOnlyAvailable>Only show available recipes</ProtossMech.ReplicatorOnlyAvailable>
+    <ProtossMech.ReplicatorOnlyAvailableDesc>Hide recipes with unmet research or other prerequisites. This filter does not check current material stocks.</ProtossMech.ReplicatorOnlyAvailableDesc>
 </LanguageData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ShaderDef>
+    <defName>PM17N_PylonEnergyField</defName>
+    <shaderProgram>
+      <vertexShaderFileName>PM17N_PylonEnergyField.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17N_PylonEnergyField.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST>
+      <transparent>true</transparent>
+      <depthTest>false</depthTest>
+      <depthWrite>false</depthWrite>
+      <cullMode>None</cullMode>
+      <renderQueue>3600</renderQueue>
+      <blendMode>Custom</blendMode>
+      <blendSrcFactor>SrcAlpha</blendSrcFactor>
+      <blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef>
+    <defName>PM17N_PylonEnergyField</defName>
+    <shader>PM17N_PylonEnergyField</shader>
+  </MaterialDef>
+</Defs>

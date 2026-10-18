@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_R42RailSlug_Short.label>W-5Re穿甲杆 8×80mm</PM_R42RailSlug_Short.label>
+  <PM_R42RailSlug_Short.labelShort>8&#x00D7;80 &#x7A7F;&#x7532;</PM_R42RailSlug_Short.labelShort>
+  <PM_R42RailSlug_Short.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×80mm的</PM_R42RailSlug_Short.description>
+
+  <PM_R42RailSlug_Standard.label>W-5Re穿甲杆 8×100mm</PM_R42RailSlug_Standard.label>
+  <PM_R42RailSlug_Standard.labelShort>8&#x00D7;100 &#x7A7F;&#x7532;</PM_R42RailSlug_Standard.labelShort>
+  <PM_R42RailSlug_Standard.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×100mm的</PM_R42RailSlug_Standard.description>
+
+  <PM_R42RailSlug_Long.label>W-5Re穿甲杆 8×120mm</PM_R42RailSlug_Long.label>
+  <PM_R42RailSlug_Long.labelShort>8&#x00D7;120 &#x7A7F;&#x7532;</PM_R42RailSlug_Long.labelShort>
+  <PM_R42RailSlug_Long.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×120mm的</PM_R42RailSlug_Long.description>
+
+  <PM_C31Tempest_30mmSAPHE.label>30mm SAPHE &#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_30mmSAPHE.label>
+  <PM_C31Tempest_30mmSAPHE.labelShort>30mm SAPHE</PM_C31Tempest_30mmSAPHE.labelShort>
+  <PM_C31Tempest_30mmSAPHE.description>30mm &#x53CD;&#x5EFA;&#x7B51;&#x534A;&#x7A7F;&#x7532;&#x9AD8;&#x7206;&#x67AA;&#x69B4;&#x5F39;&#x3002;&#x5C0F;&#x578B;&#x94A8;&#x82AF;&#x5148;&#x63D0;&#x4F9B;&#x6709;&#x9650;&#x76F4;&#x5C04;&#x7A7F;&#x900F;&#xFF0C;&#x968F;&#x540E;&#x69B4;&#x5F39;&#x7206;&#x70B8;&#x3002;</PM_C31Tempest_30mmSAPHE.description>
+
+  <PM_C31Tempest_30mmPlasma.label>30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_30mmPlasma.label>
+  <PM_C31Tempest_30mmPlasma.labelShort>30mm &#x7535;&#x6D46;</PM_C31Tempest_30mmPlasma.labelShort>
+  <PM_C31Tempest_30mmPlasma.description>电浆榴弹的战斗部会造成严重的等离子爆炸，汽化目标的护甲并且对电子设备造成不可逆的损害。</PM_C31Tempest_30mmPlasma.description>
+
+  <PM_C31Tempest_30mmWisp.label>30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39;</PM_C31Tempest_30mmWisp.label>
+  <PM_C31Tempest_30mmWisp.labelShort>30mm Wisp</PM_C31Tempest_30mmWisp.labelShort>
+  <PM_C31Tempest_30mmWisp.description>wisp蜂群榴弹包含5枚子弹头，母弹在接近目标后释放子弹头，子弹头会自动跟踪附近的热能信号撞击。</PM_C31Tempest_30mmWisp.description>
+
+</LanguageData>

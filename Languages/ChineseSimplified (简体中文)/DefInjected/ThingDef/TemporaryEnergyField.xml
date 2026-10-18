@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_TemporaryEnergyFieldProjector.label>战术节点</PM_TemporaryEnergyFieldProjector.label>
+  <PM_TemporaryEnergyFieldProjector.description>一个临时的能量场投射器，用于开辟前线阵地，需要消耗大量电力。</PM_TemporaryEnergyFieldProjector.description>
+</LanguageData>

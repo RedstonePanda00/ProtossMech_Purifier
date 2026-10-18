@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_DeadeyeDrone.label>死期</PM_DeadeyeDrone.label>
+  <PM_DeadeyeDrone.description>“死期”由服务机改造而来，挂载了一门光束炮，它装备的反重力核心允许它从空中发动远程狙击，作为伴随的反载具空中支援。</PM_DeadeyeDrone.description>
+  <PM_Gun_DeadeyeBeam.label>A.R.C.光束炮</PM_Gun_DeadeyeBeam.label>
+  <PM_Gun_DeadeyeBeam.description>由蓄力光束发射器改装而来的机载武器，固定安装在死期的中央挂点上。蓄力后发射一束短促的贯穿光束。</PM_Gun_DeadeyeBeam.description>
+</LanguageData>

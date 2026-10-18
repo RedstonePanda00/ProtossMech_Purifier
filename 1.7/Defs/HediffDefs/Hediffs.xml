@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>Hediff_TemporalSurge</defName>
+        <label>temporal surge</label>
+        <description>The pawn is moving and working at hyperspeed. Time flows rapidly around them, accelerating all processes—including aging.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>900</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <AimingDelayFactor>0.67</AimingDelayFactor>
+                    <MoveSpeed>1.5</MoveSpeed>
+                    <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+                </statFactors>
+                <statOffsets>
+                    <MeleeCooldownFactor>-0.37</MeleeCooldownFactor>
+                    <RangedCooldownFactor>-0.37</RangedCooldownFactor>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_Floating</defName>
+        <label>Floating</label>
+        <description>This unit is floating with its anti-gravity core.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <defaultLabelColor>(0.6,0.8,0.6)</defaultLabelColor>
+        <comps>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
+        </comps>
+    </HediffDef>
+
+
+    <HediffDef>
+        <defName>PM_Hediff_GuardianShieldActive</defName>
+        <label>guardian shield active</label>
+        <description>This mechanoid is activated its shield component.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="ProtossMech.HediffCompProperties_ShieldControl" />
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>900</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_Hediff_EnergizerPhaseMode</defName>
+        <label>phase mode</label>
+        <description>This unit is in phase mode and cannot move while projecting a strong shield field.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 0.9)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="ProtossMech.HediffCompProperties_EnergizerPhaseMode">
+                <autoChronoIntervalTicks>60</autoChronoIntervalTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <MoveSpeed>0</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+  <HediffDef>
+    <defName>PM_Hediff_SquadSight</defName>
+    <label>squad sight</label>
+    <description>This pawn is benefiting from Squad Sight, extending ranged weapon effective range while nearby.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.86, 0.08, 0.24)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="ProtossMech.HediffCompProperties_HavocRangeBoost" />
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PM_Hediff_TargetLockVictim</defName>
+    <label>target lock</label>
+    <description>Marked by a Havoc: incoming damage uses at least full vulnerability, then takes an extra 30%.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.95, 0.15, 0.12)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="ProtossMech.HediffCompProperties_TargetLockVictim" />
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PM_Hediff_TargetLockCaster</defName>
+    <label>target lock (active)</label>
+    <description>Maintaining a target lock on a hostile unit.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.95, 0.15, 0.12)</defaultLabelColor>
+    <comps>
+      <li Class="ProtossMech.HediffCompProperties_TargetLockCaster" />
+    </comps>
+  </HediffDef>
+
+    <HediffDef>
+        <defName>Hediff_Reconstruct</defName>
+        <label>Reconstruct NanoMachine Swarm</label>
+        <description>This pawn just got reconstructed—its body's still made up of active nanomachines, so no matter how beat up it gets, it heals super fast.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>90</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="ProtossMech.HediffCompProperties_ReconstructLockdown">
+                <stanceTicks>90</stanceTicks>
+                <waitJobTicks>90</waitJobTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <IncomingDamageFactor>0</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>Hediff_Charging</defName>
+        <label>charging</label>
+        <description>This unit is charging.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>180</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <MoveSpeed>6.0</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_DisruptorInvisibility</defName>
+        <label>DisruptorInvisibility</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <description>A light-distorting field renders this unit invisible to the naked eye.</description>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Invisibility">
+                <visibleToPlayer>true</visibleToPlayer>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="RsPandaLibrary.HediffCompProperties_IgnorePathCost" />
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_HelperAssist</defName>
+        <label>Helper assistant</label>
+        <description>Servitor Drone is assisting with this mechanitor's work.</description>
+        <hediffClass>ProtossMech.Hediff_PM_HelperAssist</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <minSeverity>1</minSeverity>
+                <label>x1</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>2</minSeverity>
+                <label>x2</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>3</minSeverity>
+                <label>x3</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.30</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>4</minSeverity>
+                <label>x4</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>5</minSeverity>
+                <label>x5</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>6</minSeverity>
+                <label>x6</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.60</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>7</minSeverity>
+                <label>x7</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.70</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>8</minSeverity>
+                <label>x8</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.80</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>9</minSeverity>
+                <label>x9</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.90</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>10</minSeverity>
+                <label>x10</label>
+                <statOffsets>
+                    <WorkSpeedGlobal>1.00</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_PrideOfTemplar</defName>
+        <label>Pride of the Templar</label>
+        <description>We embrace the glory of battle!</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.8, 0.6, 0.2)</defaultLabelColor>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>60000</disappearsAfterTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>activate</label>
+                <statFactors>
+                    <IncomingDamageFactor>0.5</IncomingDamageFactor>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.5</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+
+
+
+
+    <HediffDef>
+        <defName>PM_Hediff_UmbraTripleStrikeAiming</defName>
+        <label>Umbra triple strike (aiming)</label>
+        <description>Internal: disrupt pulses while the triple strike ability is warming up.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>0.01</initialSeverity>
+        <isBad>false</isBad>
+        <makesAlert>false</makesAlert>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+        <comps>
+            <li Class="ProtossMech.HediffCompProperties_DisruptShieldPulse">
+                <pulseIntervalTicks>5</pulseIntervalTicks>
+                <pulseDamage>30</pulseDamage>
+                <damageDefName>PM_DisruptShield</damageDefName>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>PM_Hediff_UmbraTripleStrikeQueue</defName>
+        <label>Umbra triple strike (internal)</label>
+        <description>Internal scheduling hediff for the Umbra triple strike ability.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>0.01</initialSeverity>
+        <isBad>false</isBad>
+        <makesAlert>false</makesAlert>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+        <comps>
+            <li Class="ProtossMech.HediffCompProperties_UmbraTripleStrikeQueue">
+                <intervalTicks>60</intervalTicks>
+                <strikeCount>3</strikeCount>
+                <firstStrikeDelayTicks>0</firstStrikeDelayTicks>
+                <vfxBallTravelTicks>15</vfxBallTravelTicks>
+                <pawnFixedDamagePerStrike>45</pawnFixedDamagePerStrike>
+                <preferredBodyPart>Head</preferredBodyPart>
+                <buildingDamageAmount>500</buildingDamageAmount>
+                <beamProjectile>Bullet_KhaydarinMonolith</beamProjectile>
+                <beamMoteColor>(1, 0.9, 0.22)</beamMoteColor>
+                <soundCast>ChargeLance_Fire</soundCast>
+                <damageDef>AntiArmorShock</damageDef>
+            </li>
+            <li Class="ProtossMech.HediffCompProperties_DisruptShieldPulse">
+                <pulseIntervalTicks>5</pulseIntervalTicks>
+                <pulseDamage>30</pulseDamage>
+                <damageDefName>PM_DisruptShield</damageDefName>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

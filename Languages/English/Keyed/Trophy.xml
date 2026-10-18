@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Trophy_Ammunition>Interceptors: {0} / {1}</PM_Trophy_Ammunition>
+  <PM_Trophy_Cooldown>Interception cooldown: {0}</PM_Trophy_Cooldown>
+  <PM_Trophy_Ready>Ready to intercept</PM_Trophy_Ready>
+  <PM_Trophy_Blocked>The automatic defense system landing area was obstructed. The deployment pack has been recovered nearby.</PM_Trophy_Blocked>
+</LanguageData>

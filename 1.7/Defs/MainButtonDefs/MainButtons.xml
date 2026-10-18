@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>ProtossMech_Warp</defName>
+    <label>Warp</label>
+    <description>Manage mech work assignments and warp units into an energy field.</description>
+
+    <workerClass>ProtossMech.MainButtonWorker_OpenWarpDialog</workerClass>
+
+    <order>80</order>
+  </MainButtonDef>
+
+</Defs>

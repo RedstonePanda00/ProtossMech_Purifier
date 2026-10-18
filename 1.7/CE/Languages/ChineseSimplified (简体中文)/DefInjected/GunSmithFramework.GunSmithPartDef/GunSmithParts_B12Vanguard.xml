@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_B12Vanguard_Barrel_01.label>8 发全自动枪管</PM_B12Vanguard_Barrel_01.label>
+  <PM_B12Vanguard_Barrel_01.description>内置 8 发管式弹仓的短枪管，采用三发自动射击循环，适合狭窄环境下的突破。</PM_B12Vanguard_Barrel_01.description>
+  <PM_B12Vanguard_Barrel_02.label>15 发泵动枪管</PM_B12Vanguard_Barrel_02.label>
+  <PM_B12Vanguard_Barrel_02.description>内置 15 发管式弹仓的长枪管，采用泵动射击循环，提供更高的膛速的同时，枪口噪音和火焰更小，并且提供更好的后坐控制。</PM_B12Vanguard_Barrel_02.description>
+  <PM_B12Vanguard_Barrel_03.label>强化泵动枪管</PM_B12Vanguard_Barrel_03.label>
+  <PM_B12Vanguard_Barrel_03.description>泵动组件的加长型。更长的枪管提供更高的膛速的同时，枪口噪音和火焰更小，并且提供更好的后坐控制，可拆卸弹匣供弹接口则允许一次更换全部弹药，而不必逐发装填。额外的枪管长度和供弹机构会增加重量，并降低举枪速度。</PM_B12Vanguard_Barrel_03.description>
+  <PM_B12Vanguard_Grip_01.label>标准握把</PM_B12Vanguard_Grip_01.label>
+  <PM_B12Vanguard_Grip_01.description>标准手枪式握把，提供稳定且可预测的操控。</PM_B12Vanguard_Grip_01.description>
+  <PM_B12Vanguard_Grip_02.label>人体工学握把</PM_B12Vanguard_Grip_02.label>
+  <PM_B12Vanguard_Grip_02.description>带有明显指位结构的轮廓化人体工学握把，可改善发力、举枪和目标切换。</PM_B12Vanguard_Grip_02.description>
+  <PM_B12Vanguard_Grip_03.label>镂空轻量握把</PM_B12Vanguard_Grip_03.label>
+  <PM_B12Vanguard_Grip_03.description>移除所有非必要材料的镂空握把，使射手能更快完成举枪，但会牺牲远距离精确射击所需的刚性支撑。</PM_B12Vanguard_Grip_03.description>
+  <PM_B12Vanguard_Stock_01.label>制式枪托垫</PM_B12Vanguard_Stock_01.label>
+  <PM_B12Vanguard_Stock_01.description>标准无托式枪械托垫，略微改善抵肩稳定性与后坐控制。</PM_B12Vanguard_Stock_01.description>
+  <PM_B12Vanguard_Stock_02.label>人体工学枪托垫</PM_B12Vanguard_Stock_02.label>
+  <PM_B12Vanguard_Stock_02.description>贴合肩部的人体工学托垫，改善瞄准速度、抵肩稳定性与后坐控制。</PM_B12Vanguard_Stock_02.description>
+  <PM_B12Vanguard_Ammo_01.label>短可拆卸弹匣</PM_B12Vanguard_Ammo_01.label>
+  <PM_B12Vanguard_Ammo_01.description>未启用战斗拓展时，弹匣供弹型枪管默认使用的短弹匣。</PM_B12Vanguard_Ammo_01.description>
+  <PM_B12Vanguard_Magazine_01.label>10 发可拆卸弹匣</PM_B12Vanguard_Magazine_01.label>
+  <PM_B12Vanguard_Magazine_01.description>紧凑的 10 发弹匣。</PM_B12Vanguard_Magazine_01.description>
+  <PM_B12Vanguard_Magazine_02.label>20 发加长弹匣</PM_B12Vanguard_Magazine_02.label>
+  <PM_B12Vanguard_Magazine_02.description>20 发加长弹匣。增加火力持续时间，但更大的重量会增加换弹时间。</PM_B12Vanguard_Magazine_02.description>
+</LanguageData>

@@ -1,0 +1,153 @@
+ManifestFileVersion: 0
+CRC: 2504235197
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b67c84d81103f79f38fbdb780dd66248
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c68b4bec212468892a95bd142b24d0f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b67c84d81103f79f38fbdb780dd66248
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 117
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PMPhaseCannon/Baked/single1_22.asset
+- Assets/PMPhaseCannon/Baked/dual0_13.asset
+- Assets/PMPhaseCannon/Baked/dual0_arc1.asset
+- Assets/PMPhaseCannon/Baked/single0_09.asset
+- Assets/PMPhaseCannon/Baked/single0_14.asset
+- Assets/PMPhaseCannon/Baked/single1_arc2.asset
+- Assets/PMPhaseCannon/Baked/single1_06.asset
+- Assets/PMPhaseCannon/Baked/single0_11.asset
+- Assets/PMPhaseCannon/Baked/dual0_18.asset
+- Assets/PMPhaseCannon/Baked/single1_14.asset
+- Assets/PMPhaseCannon/Baked/dual1_arc1.asset
+- Assets/PMPhaseCannon/Baked/dual1_11.asset
+- Assets/PMPhaseCannon/Baked/dual1_06.asset
+- Assets/PMPhaseCannon/Baked/single0_04.asset
+- Assets/PMPhaseCannon/Baked/dual1_arc0.asset
+- Assets/PMPhaseCannon/Baked/dual1_18.asset
+- Assets/PMPhaseCannon/Baked/dual0_21.asset
+- Assets/PMPhaseCannon/Baked/dual1_17.asset
+- Assets/PMPhaseCannon/Baked/single1_00.asset
+- Assets/PMPhaseCannon/Baked/single1_19.asset
+- Assets/PMPhaseCannon/Baked/single1_10.asset
+- Assets/PMPhaseCannon/Baked/single1_20.asset
+- Assets/PMPhaseCannon/Baked/dual1_14.asset
+- Assets/PMPhaseCannon/Baked/single0_21.asset
+- Assets/PMPhaseCannon/Baked/single1_16.asset
+- Assets/PMPhaseCannon/Baked/dual1_00.asset
+- Assets/PMPhaseCannon/Baked/dual0_08.asset
+- Assets/PMPhaseCannon/Baked/dual0_12.asset
+- Assets/PMPhaseCannon/Baked/dual1_10.asset
+- Assets/PMPhaseCannon/Baked/dual1_07.asset
+- Assets/PMPhaseCannon/Baked/single0_16.asset
+- Assets/PMPhaseCannon/Baked/single1_23.asset
+- Assets/PMPhaseCannon/Baked/single0_23.asset
+- Assets/PMPhaseCannon/Baked/volume_box.asset
+- Assets/PMPhaseCannon/Baked/single0_arc3.asset
+- Assets/PMPhaseCannon/Baked/single0_13.asset
+- Assets/PMPhaseCannon/Baked/dual0_20.asset
+- Assets/PMPhaseCannon/Baked/dual1_22.asset
+- Assets/PMPhaseCannon/Baked/dual1_04.asset
+- Assets/PMPhaseCannon/Baked/dual1_09.asset
+- Assets/PMPhaseCannon/Baked/single0_17.asset
+- Assets/PMPhaseCannon/Baked/single0_24.asset
+- Assets/PMPhaseCannon/Baked/single1_17.asset
+- Assets/PMPhaseCannon/Baked/dual1_01.asset
+- Assets/PMPhaseCannon/Baked/dual0_00.asset
+- Assets/PMPhaseCannon/Baked/dual0_01.asset
+- Assets/PMPhaseCannon/Baked/dual0_11.asset
+- Assets/PMPhaseCannon/Baked/dual0_arc0.asset
+- Assets/PMPhaseCannon/Baked/dual1_03.asset
+- Assets/PMPhaseCannon/Baked/volume.mat
+- Assets/PMPhaseCannon/Baked/single0_arc2.asset
+- Assets/PMPhaseCannon/Baked/single0_20.asset
+- Assets/PMPhaseCannon/Baked/dual1_13.asset
+- Assets/PMPhaseCannon/Baked/dual1_15.asset
+- Assets/PMPhaseCannon/Baked/single1_18.asset
+- Assets/PMPhaseCannon/Baked/single0_12.asset
+- Assets/PMPhaseCannon/Baked/dual0_10.asset
+- Assets/PMPhaseCannon/Baked/dual1_12.asset
+- Assets/PMPhaseCannon/Baked/single1_07.asset
+- Assets/PMPhaseCannon/Baked/dual0_14.asset
+- Assets/PMPhaseCannon/Baked/single1_arc0.asset
+- Assets/PMPhaseCannon/Baked/single1_02.asset
+- Assets/PMPhaseCannon/Baked/dual1_21.asset
+- Assets/PMPhaseCannon/Baked/dual0_09.asset
+- Assets/PMPhaseCannon/Baked/single0_05.asset
+- Assets/PMPhaseCannon/Baked/single1_05.asset
+- Assets/PMPhaseCannon/Baked/dual0_03.asset
+- Assets/PMPhaseCannon/Baked/single0_00.asset
+- Assets/PMPhaseCannon/Baked/single0_arc1.asset
+- Assets/PMPhaseCannon/Baked/single1_09.asset
+- Assets/PMPhaseCannon/Baked/single1_04.asset
+- Assets/PMPhaseCannon/Baked/single0_08.asset
+- Assets/PMPhaseCannon/Baked/dual0_04.asset
+- Assets/PMPhaseCannon/Baked/dual0_22.asset
+- Assets/PMPhaseCannon/Baked/dual0_15.asset
+- Assets/PMPhaseCannon/Baked/single0_02.asset
+- Assets/PMPhaseCannon/Baked/dual0_23.asset
+- Assets/PMPhaseCannon/Baked/single0_07.asset
+- Assets/PMPhaseCannon/Baked/single0_06.asset
+- Assets/PMPhaseCannon/Baked/single1_08.asset
+- Assets/PMPhaseCannon/Baked/dual0_16.asset
+- Assets/PMPhaseCannon/Baked/dual1_20.asset
+- Assets/PMPhaseCannon/Baked/dual1_19.asset
+- Assets/PMPhaseCannon/Baked/dual1_02.asset
+- Assets/PMPhaseCannon/Baked/single0_arc0.asset
+- Assets/PMPhaseCannon/Baked/single1_arc3.asset
+- Assets/PMPhaseCannon/Baked/dual1_arc3.asset
+- Assets/PMPhaseCannon/Baked/arc.mat
+- Assets/PMPhaseCannon/Baked/single0_01.asset
+- Assets/PMPhaseCannon/Baked/single1_03.asset
+- Assets/PMPhaseCannon/Baked/single0_22.asset
+- Assets/PMPhaseCannon/Baked/single1_15.asset
+- Assets/PMPhaseCannon/Baked/dual1_05.asset
+- Assets/PMPhaseCannon/Baked/dual0_07.asset
+- Assets/PMPhaseCannon/Baked/single1_01.asset
+- Assets/PMPhaseCannon/Baked/single0_15.asset
+- Assets/PMPhaseCannon/Baked/single0_19.asset
+- Assets/PMPhaseCannon/Baked/dual0_19.asset
+- Assets/PMPhaseCannon/Baked/single1_arc1.asset
+- Assets/PMPhaseCannon/Baked/single0_10.asset
+- Assets/PMPhaseCannon/Baked/single1_13.asset
+- Assets/PMPhaseCannon/Baked/dual1_24.asset
+- Assets/PMPhaseCannon/Baked/dual0_02.asset
+- Assets/PMPhaseCannon/Baked/dual1_23.asset
+- Assets/PMPhaseCannon/Baked/dual0_17.asset
+- Assets/PMPhaseCannon/Baked/dual1_08.asset
+- Assets/PMPhaseCannon/Baked/dual0_arc2.asset
+- Assets/PMPhaseCannon/Baked/single1_11.asset
+- Assets/PMPhaseCannon/Baked/dual0_24.asset
+- Assets/PMPhaseCannon/Baked/dual0_05.asset
+- Assets/PMPhaseCannon/Baked/dual0_06.asset
+- Assets/PMPhaseCannon/Baked/muzzle.prefab
+- Assets/PMPhaseCannon/Baked/single0_18.asset
+- Assets/PMPhaseCannon/Baked/dual0_arc3.asset
+- Assets/PMPhaseCannon/Baked/dual1_16.asset
+- Assets/PMPhaseCannon/Baked/dual1_arc2.asset
+- Assets/PMPhaseCannon/Baked/single1_12.asset
+- Assets/PMPhaseCannon/Baked/single0_03.asset
+- Assets/PMPhaseCannon/Baked/single1_24.asset
+- Assets/PMPhaseCannon/Baked/single1_21.asset
+Dependencies: []

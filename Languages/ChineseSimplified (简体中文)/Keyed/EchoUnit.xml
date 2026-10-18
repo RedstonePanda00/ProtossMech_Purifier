@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Echo_Source>投影对象：{0}</PM_Echo_Source>
+  <PM_Echo_NoProjection>尚未记录投影外观</PM_Echo_NoProjection>
+  <PM_Echo_Remaining>自毁倒计时：{0}</PM_Echo_Remaining>
+  <PM_Echo_PreviewHelp>先选中一名存活的角色，再用此开发者工具点击可通行的空地，部署其回声装置。</PM_Echo_PreviewHelp>
+</LanguageData>

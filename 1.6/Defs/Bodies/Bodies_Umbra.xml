@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Preserve the original body topology and part order for saved injury indices. -->
+  <BodyPartDef><defName>PM_NaniteHead</defName><label>head</label><hitPoints>30</hitPoints><permanentInjuryChanceFactor>0</permanentInjuryChanceFactor><skinCovered>false</skinCovered><solid>true</solid><bleedRate>0</bleedRate><alive>false</alive><tags><li>TalkingSource</li></tags></BodyPartDef>
+  <BodyDef>
+    <defName>PM_UmbraBody</defName>
+    <label>Umbra</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <groups><li>Torso</li></groups>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>MechanicalNeck</def>
+          <groups><li>Neck</li></groups>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>PM_NaniteHead</def>
+              <coverage>0.80</coverage>
+              <groups><li>HeadAttackTool</li><li>UpperHead</li><li>FullHead</li></groups>
+              <parts>
+                <li>
+                  <def>ArtificialBrain</def>
+                  <groups><li>UpperHead</li><li>Eyes</li><li>FullHead</li></groups>
+                  <coverage>0.10</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>SightSensor</def>
+                  <groups><li>FullHead</li><li>Eyes</li></groups>
+                  <customLabel>left sight sensor</customLabel>
+                  <coverage>0.13</coverage>
+                </li>
+                <li>
+                  <def>SightSensor</def>
+                  <groups><li>FullHead</li><li>Eyes</li></groups>
+                  <customLabel>right sight sensor</customLabel>
+                  <coverage>0.13</coverage>
+                </li>
+                <li>
+                  <def>HearingSensor</def>
+                  <groups><li>UpperHead</li><li>FullHead</li></groups>
+                  <customLabel>hearing sensor</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>SmellSensor</def>
+                  <groups><li>FullHead</li></groups>
+                  <coverage>0.10</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalShoulder</def>
+          <groups><li>Shoulders</li></groups>
+          <customLabel>left mechanical shoulder</customLabel>
+          <coverage>0.17</coverage>
+          <parts>
+            <li>
+              <def>MechanicalArm</def>
+              <groups><li>Arms</li></groups>
+              <customLabel>left arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>MechanicalHand</def>
+                  <groups><li>Hands</li></groups>
+                  <customLabel>left hand</customLabel>
+                  <coverage>0.2</coverage>
+                  <height>Bottom</height>
+                  <parts>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>left pinky</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>LeftHand</li><li>Hands</li></groups>
+                    </li>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>left middle finger</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>LeftHand</li><li>MiddleFingers</li><li>Hands</li></groups>
+                    </li>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>left index finger</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>LeftHand</li><li>Hands</li></groups>
+                    </li>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>left thumb</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>LeftHand</li><li>Hands</li></groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalShoulder</def>
+          <groups><li>Shoulders</li></groups>
+          <customLabel>right mechanical shoulder</customLabel>
+          <coverage>0.17</coverage>
+          <parts>
+            <li>
+              <def>MechanicalArm</def>
+              <groups><li>Arms</li></groups>
+              <customLabel>right arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>MechanicalHand</def>
+                  <groups><li>Hands</li></groups>
+                  <customLabel>right hand</customLabel>
+                  <coverage>0.2</coverage>
+                  <height>Bottom</height>
+                  <parts>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>right pinky</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>RightHand</li><li>Hands</li></groups>
+                    </li>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>right middle finger</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>RightHand</li><li>MiddleFingers</li><li>Hands</li></groups>
+                    </li>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>right index finger</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>RightHand</li><li>Hands</li></groups>
+                    </li>
+                    <li>
+                      <def>MechanicalFinger</def>
+                      <customLabel>right thumb</customLabel>
+                      <coverage>0.15</coverage>
+                      <groups><li>RightHand</li><li>Hands</li></groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Waist</def>
+          <coverage>0</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>Waist</li>
+          </groups>
+        </li>
+        <li>
+          <def>MechanicalLeg</def>
+          <groups><li>Legs</li></groups>
+          <customLabel>left leg</customLabel>
+          <coverage>0.2</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <groups><li>Feet</li></groups>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalLeg</def>
+          <groups><li>Legs</li></groups>
+          <customLabel>right leg</customLabel>
+          <coverage>0.2</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <groups><li>Feet</li></groups>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Reactor</def>
+          <groups><li>Torso</li></groups>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <groups><li>Torso</li></groups>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <groups><li>Torso</li></groups>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

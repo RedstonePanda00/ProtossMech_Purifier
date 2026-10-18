@@ -35,7 +35,7 @@
   <PM_C7Templar_Magazine_02.description>45发扩容弹匣，提高持续火力，但会增加重量并拖慢换弹。</PM_C7Templar_Magazine_02.description>
 
   <PM_C7Templar_Laser_01.label>“游骑兵”可见光瞄准激光</PM_C7Templar_Laser_01.label>
-  <PM_C7Templar_Laser_01.description>基础可见光瞄准激光，通过直观的指向参考加快目标捕获与瞄准。</PM_C7Templar_Laser_01.description>
+  <PM_C7Templar_Laser_01.description>基础可见光瞄准激光，通过直观的指向参考加快目标捕获与瞄准。近距离的瞄准参考提供基础指向精度保障，辅助效果随距离增加而减弱。</PM_C7Templar_Laser_01.description>
 
   <PM_C7Templar_APEX_TwinCore.label>双核心智能导弹系统</PM_C7Templar_APEX_TwinCore.label>
   <PM_C7Templar_APEX_TwinCore.description>围绕两台微型超级计算机定制的 APEX 火控改装。以装填了电浆战斗部的5.8x42mm 微型导弹取代常规穿甲杆。每枚导弹都会追踪并且飞向当前目标的致命部位。</PM_C7Templar_APEX_TwinCore.description>

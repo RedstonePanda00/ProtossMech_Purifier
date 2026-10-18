@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_Sight_01"]</xpath>
+        <value><ceSightsEfficiencyFactor>1.15</ceSightsEfficiencyFactor></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Grip_02" or defName="PM_C19Dragoon_Grip_02" or defName="PM_B9Zealot_Grip_02" or defName="PM_B12Vanguard_Grip_02" or defName="PM_B25Bulwark_Grip_02"]</xpath>
+        <value><ceSwayFactor>0.90</ceSwayFactor></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Grip_03" or defName="PM_C19Dragoon_Grip_03" or defName="PM_B9Zealot_Grip_03" or defName="PM_B12Vanguard_Grip_03" or defName="PM_B25Bulwark_Grip_03"]</xpath>
+        <value><ceSwayFactor>1.05</ceSwayFactor></value>
+    </Operation>
+</Patch>

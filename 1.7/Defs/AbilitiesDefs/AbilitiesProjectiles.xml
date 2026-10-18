@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PM_ChronoBeamProjectile</defName>
+    <label>ChronoBeam Projectile</label>
+    <thingClass>Beam</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <beamMoteDef>PMPMote_ChronoBeam</beamMoteDef>
+      <stoppingPower>0</stoppingPower>
+      <!-- <beamStartOffset>0.5</beamStartOffset> -->
+      <armorPenetrationBase>0</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+</Defs>

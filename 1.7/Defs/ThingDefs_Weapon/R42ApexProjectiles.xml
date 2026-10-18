@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42Apex_Short</defName>
+        <label>W-5Re penetrator 8×80mm (APEX)</label>
+        <thingClass>ProtossMech.Bullet_R42Apex</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile" /></comps>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>120</damageAmountBase>
+            <speed>2400</speed>
+            <armorPenetrationBase>2.52</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42Apex_Standard</defName>
+        <label>W-5Re penetrator 8×100mm (APEX)</label>
+        <thingClass>ProtossMech.Bullet_R42Apex</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile" /></comps>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>120</damageAmountBase>
+            <speed>2400</speed>
+            <armorPenetrationBase>3.16</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42Apex_Long</defName>
+        <label>W-5Re penetrator 8×120mm (APEX)</label>
+        <thingClass>ProtossMech.Bullet_R42Apex</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile" /></comps>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>120</damageAmountBase>
+            <speed>2400</speed>
+            <armorPenetrationBase>3.8</armorPenetrationBase>
+            <stoppingPower>2.2</stoppingPower>
+        </projectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_R42Apex_Plasma</defName>
+        <label>miniature hellsphere</label>
+        <thingClass>ProtossMech.Projectile_R42ApexPlasma</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/HellsphereCannon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>(0.6, 1.2)</drawSize>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile"><secondary>true</secondary></li></comps>
+        <projectile>
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>80</damageAmountBase>
+            <speed>120</speed>
+            <armorPenetrationBase>3.3</armorPenetrationBase>
+            <explosionRadius>1.9</explosionRadius>
+            <screenShakeFactor>0.3</screenShakeFactor>
+
+        </projectile>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>PM_UmbraFocus</defName>
+    <driverClass>ProtossMech.Slash.JobDriver_UmbraFocus</driverClass>
+    <reportString>focusing on combat.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

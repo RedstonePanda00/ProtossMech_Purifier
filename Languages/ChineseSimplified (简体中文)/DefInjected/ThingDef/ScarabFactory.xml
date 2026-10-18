@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apparel_ScarabFactory.label>便携式金甲虫工厂</PM_Apparel_ScarabFactory.label>
+  <PM_Apparel_ScarabFactory.description>一个便携式的自动工厂，扔出部署，这台设备会打印“金甲虫”自爆无人机攻击敌人。</PM_Apparel_ScarabFactory.description>
+  <PM_Apparel_ScarabFactory.verbs.0.label>部署金甲虫工厂</PM_Apparel_ScarabFactory.verbs.0.label>
+  <PM_ScarabFactory.label>金甲虫工厂</PM_ScarabFactory.label>
+  <PM_ScarabFactory.description>一个激活了的自动打印单元，不断打印金甲虫无人机攻击敌人。这台设备的超级电容耗尽后会自毁。</PM_ScarabFactory.description>
+  <PM_Projectile_ScarabFactory.label>金甲虫工厂部署舱</PM_Projectile_ScarabFactory.label>
+  <PM_Projectile_Scarab.label>金甲虫</PM_Projectile_Scarab.label>
+  <PM_Projectile_Scarab.description>自动工厂打印的自爆无人机，沿地面以蛇形路径前进并绕过障碍。目标失效后会继续前往目标最后的位置并引爆。</PM_Projectile_Scarab.description>
+</LanguageData>

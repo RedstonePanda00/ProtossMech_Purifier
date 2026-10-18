@@ -34,9 +34,7 @@
         <costList>
             <PM_Solarite>1000</PM_Solarite>
         </costList>
-        <researchPrerequisites>
-            <li>PM_Replicator</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_Replicator</li></researchPrerequisites>
         <comps>
             <li Class="ProtossMech.CompProperties_Replicator">
                 <cycleTicks>60</cycleTicks>
@@ -51,7 +49,7 @@
                 <orbSize>1.6</orbSize>
                 <innerRingSize>3.0</innerRingSize>
                 <middleRingSize>3.6</middleRingSize>
-                <outerRingSize>4.2</outerRingSize>
+                <outerRingSize>4.3</outerRingSize>
                 <innerRingSpeed>6</innerRingSpeed>
                 <middleRingSpeed>-9</middleRingSpeed>
                 <outerRingSpeed>13</outerRingSpeed>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_SmartPointTurret</defName>
+    <label>smart point turret</label>
+    <description>A deployed smart point turret. Its half-ring accelerator fires three-round bursts of 9mm Hammer micro-missiles that pursue locked targets around obstacles. The device self-destructs when its supercapacitor is depleted.</description>
+    <thingClass>ProtossMech.Building_SmartPointTurret</thingClass>
+    <graphicData>
+      <texPath>Things/Structure/SmartPointTurret/Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.15,1.15)</drawSize>
+    </graphicData>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0.10</fillPercent>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <holdsRoof>false</holdsRoof>
+    <coversFloor>false</coversFloor>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <turretGunDef>PM_Gun_SmartPointTurret</turretGunDef>
+      <turretTopDrawSize>1.8</turretTopDrawSize>
+      <turretBurstWarmupTime>0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>2</turretBurstCooldownTime>
+      <turretInitialCooldownTime>0</turretInitialCooldownTime>
+      <playTargetAcquiredSound>false</playTargetAcquiredSound>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>200</energyMax><energyGainPerTick>0.1</energyGainPerTick>
+        <ticksToBeginRecharge>300</ticksToBeginRecharge><minDrawSize>0.7</minDrawSize><maxDrawSize>1.1</maxDrawSize>
+      </li>
+      <li Class="CompProperties_DestroyAfterDelay">
+        <delayTicks>10800</delayTicks><displayCountdownOnLabel>true</displayCountdownOnLabel><destroyMode>Vanish</destroyMode>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

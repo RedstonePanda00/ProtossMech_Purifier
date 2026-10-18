@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ShaderDef>
+    <defName>PM17_ScramblerLens</defName>
+    <shaderProgram>
+      <vertexShaderFileName>PM17_ScramblerLens.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17_ScramblerLens.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST>
+      <transparent>true</transparent><blendMode>Custom</blendMode>
+      <blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+      <depthTest>false</depthTest><depthWrite>false</depthWrite><cullMode>None</cullMode>
+      <renderQueue>3101</renderQueue>
+      <sceneGrab><name>_PMScramblerBackground</name><queue>3101</queue></sceneGrab>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef><defName>PM17_ScramblerLens</defName><shader>PM17_ScramblerLens</shader></MaterialDef>
+  <ShaderDef>
+    <defName>PM17_TargetOutline</defName>
+    <shaderProgram>
+      <vertexShaderFileName>PM17_Effect.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17_TargetOutline.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST>
+      <transparent>true</transparent><blendMode>Custom</blendMode>
+      <blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+      <depthTest>false</depthTest><depthWrite>false</depthWrite><cullMode>None</cullMode>
+      <renderQueue>4000</renderQueue>
+      <textureWrapOverrides><li><key>_MainTex</key><value>Clamp</value></li></textureWrapOverrides>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef><defName>PM17_TargetOutline</defName><shader>PM17_TargetOutline</shader></MaterialDef>
+  <ShaderDef>
+    <defName>PM17_EnergyArc</defName>
+    <shaderProgram>
+      <vertexShaderFileName>PM17_Effect.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17_EnergyArc.frag.glsl</fragmentShaderFileName>
+      <useTexture>false</useTexture><flipTextureST>false</flipTextureST>
+      <transparent>true</transparent><blendMode>Custom</blendMode>
+      <blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>One</blendDstFactor>
+      <depthWrite>false</depthWrite><cullMode>None</cullMode><renderQueue>3000</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef><defName>PM17_EnergyArc</defName><shader>PM17_EnergyArc</shader></MaterialDef>
+</Defs>

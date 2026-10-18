@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>PM_Apparel_EchoUnit</defName>
+    <label>Echo backpack</label>
+    <description>A portable holographic decoy. Its lifelike projection is almost indistinguishable from a real person and effectively draws enemy fire.</description>
+    <graphicData>
+      <texPath>Things/Apparel/TacticalEquipment/EchoUnit/EchoUnit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
+    <tickerType>Normal</tickerType>
+    <mergeVerbGizmos>false</mergeVerbGizmos>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <EquipDelay>2</EquipDelay>
+      <MarketValue>400</MarketValue>
+      <WorkToMake>3000</WorkToMake>
+    </statBases>
+    <thingCategories><li>ApparelUtility</li></thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups><li>Waist</li></bodyPartGroups>
+      <layers><li>Belt</li></layers>
+      <wornGraphicPath>Things/Apparel/TacticalEquipment/EchoUnit/EchoUnit</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north><offset>(0,-0.15)</offset><scale>(0.55,0.55)</scale></north>
+        <south><offset>(0,0.10)</offset><scale>(0.55,0.55)</scale></south>
+        <east>
+          <offset>(-0.30,-0.10)</offset><scale>(0.55,0.55)</scale>
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.10,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset><scale>(0.55,0.55)</scale>
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.10,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+        </west>
+        <female><scale>(0.94,0.94)</scale></female>
+        <thin><scale>(0.90,0.90)</scale></thin>
+      </wornGraphicData>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_ApparelVerbOwnerCharged">
+        <hotKey>Misc4</hotKey>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_LaunchProjectileStaticOneUse</verbClass>
+        <label>deploy Echo unit</label>
+        <defaultProjectile>PM_Projectile_EchoUnit</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>22.9</range>
+        <burstShotCount>1</burstShotCount>
+        <onlyManualCast>true</onlyManualCast>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>true</targetable>
+        <targetParams>
+          <canTargetPawns>false</canTargetPawns>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>ThrowGrenade</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <canGoWild>false</canGoWild>
+      </li>
+    </verbs>
+    <costList><Steel>35</Steel><ComponentIndustrial>2</ComponentIndustrial></costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers><li>ProtossForge</li></recipeUsers>
+      <skillRequirements><Crafting>5</Crafting></skillRequirements>
+      <researchPrerequisites><li>PM_ElectronicWarfare</li><li>PM_KhalaiMechAdvance</li></researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>PM_Projectile_EchoUnit</defName>
+    <label>Echo unit capsule</label>
+    <thingClass>ProtossMech.Projectile_EchoUnit</thingClass>
+    <!-- The vanilla one-use apparel gizmo takes its icon from the projectile. -->
+    <uiIconPath>Gizmo/EchoUnit/Deploy</uiIconPath>
+    <uiIconAngle>0</uiIconAngle>
+    <graphicData>
+      <texPath>Things/Structure/EchoUnit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.45,0.45)</drawSize>
+    </graphicData>
+    <projectile><speed>41</speed><damageAmountBase>0</damageAmountBase></projectile>
+  </ThingDef>
+</Defs>

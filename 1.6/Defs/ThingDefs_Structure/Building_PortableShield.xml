@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_PortableShield</defName>
+    <label>barrier generator</label>
+    <description>A portable shield projector projecting a barrier for cover. The device self-destructs when its supercapacitor is depleted.</description>
+    <thingClass>ProtossMech.Building_PortableShield</thingClass>
+    <graphicData>
+      <texPath>Things/Structure/PortableShield/Projector</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.95,0.95)</drawSize>
+    </graphicData>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(3,1)</size>
+    <rotatable>true</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>2</pathCost>
+    <fillPercent>0.90</fillPercent>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <holdsRoof>false</holdsRoof>
+    <coversFloor>false</coversFloor>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="ProtossMech.CompProperties_PortableCoverShield">
+        <energyMax>600</energyMax>
+        <energyGainPerTick>0.2</energyGainPerTick>
+        <ticksToBeginRecharge>300</ticksToBeginRecharge>
+        <restartTicks>900</restartTicks>
+      </li>
+      <li Class="CompProperties_DestroyAfterDelay">
+        <delayTicks>10800</delayTicks>
+        <displayCountdownOnLabel>true</displayCountdownOnLabel>
+        <destroyMode>Vanish</destroyMode>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

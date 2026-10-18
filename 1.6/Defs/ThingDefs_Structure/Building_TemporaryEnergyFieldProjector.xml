@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_TemporaryEnergyFieldProjector</defName>
+    <label>tactical node</label>
+    <description>A temporary energy field projector used to establish frontline positions. It requires a large amount of electricity.</description>
+    <thingClass>ProtossMech.Building_TemporaryEnergyFieldProjector</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/TemporaryEnergyField/ProjectorBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <passability>PassThroughOnly</passability>
+    <pathCost>40</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2990</uiOrder>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <specialDisplayRadius>8</specialDisplayRadius>
+    <researchPrerequisites><li>PM_Fundamentals</li></researchPrerequisites>
+    <costList><Steel>120</Steel><ComponentIndustrial>4</ComponentIndustrial></costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>4000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="ProtossMech.CompProperties_AnimatedOverlayRenderer">
+        <frameTexPathPrefix>Things/Structure/Overlays/YellowEnergyOrb/YellowEnergyOrb_</frameTexPathPrefix>
+        <frameCount>4</frameCount>
+        <ticksPerKeyFrame>20</ticksPerKeyFrame>
+        <drawSize>(0.95,0.95)</drawSize>
+        <drawOffset>(0,0,-0.29)</drawOffset>
+        <altitudeOffset>0.015</altitudeOffset>
+        <scaleMin>0.97</scaleMin>
+        <scaleMax>1.03</scaleMax>
+        <rotationSpeed>12</rotationSpeed>
+        <bobAmplitude>0.01</bobAmplitude>
+        <onlyWhenPowered>true</onlyWhenPowered>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

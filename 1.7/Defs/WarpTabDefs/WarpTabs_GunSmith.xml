@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ProtossMech.WarpTabDef>
+        <defName>PM_WarpTab_GunSmith</defName>
+        <label>Gun Smith</label>
+        <order>5</order>
+        <workerClass>ProtossMech.GunSmith.WarpTabWorker_GunSmith</workerClass>
+        <researchPrerequisites>
+            <li>PM_PrinterCertificate</li>
+        </researchPrerequisites>
+    </ProtossMech.WarpTabDef>
+
+</Defs>

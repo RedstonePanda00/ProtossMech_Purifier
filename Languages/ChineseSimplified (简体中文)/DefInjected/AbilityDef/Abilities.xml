@@ -84,8 +84,8 @@
   
   <!-- EN: Discharge -->
   <PM_CosmicSpider_Discharge.label>放电</PM_CosmicSpider_Discharge.label>
-  <!-- EN: Draw charge from the air and discharge around the caster; silk webs conduct the current a second time. -->
-  <PM_CosmicSpider_Discharge.description>以自身为中心牵引空气中的电荷放电，蛛丝能够二次传导电流。</PM_CosmicSpider_Discharge.description>
+  <!-- EN: Generate a one-second psionic storm. Webs retain electricity for one additional second; the bound target receives a smaller follow-up storm. -->
+  <PM_CosmicSpider_Discharge.description>以自身为中心生成半径18格、持续4秒的灵能风暴，每20 tick对非友方单位及建筑造成一轮10点热能伤害，穿甲200%。蛛网地面上的风暴额外持续1秒。主风暴结束后，在缚体蛛丝目标的位置生成一次半径3格、持续1秒的小型风暴，每5 tick造成一次伤害。</PM_CosmicSpider_Discharge.description>
   
   <!-- EN: Web Swing -->
   <PM_CosmicSpider_WebSwing.label>机动丝</PM_CosmicSpider_WebSwing.label>

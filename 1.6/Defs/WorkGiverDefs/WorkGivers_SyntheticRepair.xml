@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef><defName>PM_RepairSynthetic</defName><label>repair synthetic colonists</label><giverClass>ProtossMech.WorkGiver_RepairSynthetic</giverClass><workType>Doctor</workType><priorityInType>105</priorityInType><verb>repair</verb><gerund>repairing</gerund><scanThings>true</scanThings><canBeDoneByMechs>false</canBeDoneByMechs><requiredCapacities><li>Manipulation</li></requiredCapacities></WorkGiverDef>
+</Defs>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPlatformDef>
+        <defName>PM_GunSmith_B9Zealot</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
+        <label>B9 Zealot</label>
+        <weaponThingDef>PM_GunB9Zealot</weaponThingDef>
+        <bodyTexPath>Things/Weapon/B9/B9_Body</bodyTexPath>
+        <dualWieldSeparation>0.29</dualWieldSeparation>
+        <dualWieldMuzzleOffset>(0.67, 0)</dualWieldMuzzleOffset>
+        <slotAttachmentOffsets>
+            <li><slotId>Barrel</slotId><offset>(-0.4383, -0.0704)</offset><gizmoOffset>(0.0262, -0.4335)</gizmoOffset></li>
+            <li><slotId>Laser</slotId><offset>(0, 0)</offset><gizmoOffset>(-1.5086, 0.3882)</gizmoOffset></li>
+            <li><slotId>Stock</slotId><offset>(0.5406, -0.0224)</offset><gizmoOffset>(0.3440, -0.0904)</gizmoOffset></li>
+            <li><slotId>Grip</slotId><offset>(0.1710, 0.1468)</offset><gizmoOffset>(-0.1234, 0.4619)</gizmoOffset></li>
+            <li><slotId>Magazine</slotId><offset>(-0.0544, 0.2015)</offset><gizmoOffset>(-1.1140, 0.3843)</gizmoOffset></li>
+            <li><slotId>Optic</slotId><offset>(0.0544, -0.1631)</offset><gizmoOffset>(-0.5638, -0.4143)</gizmoOffset></li>
+            <li><slotId>RearIronSight</slotId><offset>(0.2994, -0.1676)</offset></li>
+            <li><slotId>FrontIronSight</slotId><offset>(0.04, 0.02)</offset></li>
+        </slotAttachmentOffsets>
+        <bakeTextureSize>512</bakeTextureSize>
+        <bakePadding>0.05</bakePadding>
+        <bakeContentScale>0.55</bakeContentScale>
+        <shadowDilatePixels>5</shadowDilatePixels>
+        <shadowAlpha>1</shadowAlpha>
+        <slots>
+            <li><slotId>Barrel</slotId><slotType>Barrel</slotType><optional>false</optional></li>
+            <li><slotId>Laser</slotId><slotType>Laser</slotType><optional>true</optional></li>
+            <li><slotId>Stock</slotId><slotType>Stock</slotType><optional>false</optional></li>
+            <li><slotId>Grip</slotId><slotType>Grip</slotType><optional>false</optional></li>
+            <li><slotId>Magazine</slotId><slotType>Magazine</slotType><optional>false</optional></li>
+            <li><slotId>Optic</slotId><slotType>Optic</slotType><optional>true</optional></li>
+            <li><slotId>RearIronSight</slotId><slotType>RearIronSight</slotType><optional>false</optional></li>
+            <li><slotId>FrontIronSight</slotId><slotType>FrontIronSight</slotType><optional>false</optional></li>
+        </slots>
+        <defaultParts>
+            <li><slotId>Barrel</slotId><part>PM_B9Zealot_Barrel_01</part></li>
+            <li><slotId>Stock</slotId><part>PM_B9Zealot_Stock_01</part></li>
+            <li><slotId>Grip</slotId><part>PM_B9Zealot_Grip_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_B9Zealot_Ammo_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_B9Zealot_Magazine_01</part></li>
+            <li><slotId>RearIronSight</slotId><part>PM_Common_IronSight_Rear_Raised</part><whenSlotEmpty>Optic</whenSlotEmpty></li>
+            <li><slotId>FrontIronSight</slotId><part>PM_Common_IronSight_Front_Raised</part><whenSlotEmpty>Optic</whenSlotEmpty></li>
+            <li><slotId>RearIronSight</slotId><part>PM_Common_IronSight_Rear_Folded</part><whenSlotOccupied>Optic</whenSlotOccupied></li>
+            <li><slotId>FrontIronSight</slotId><part>PM_Common_IronSight_Front_Folded</part><whenSlotOccupied>Optic</whenSlotOccupied></li>
+        </defaultParts>
+        
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList><li><thingDef>PM_Solarite</thingDef><count>50</count></li></costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPlatformDef>
+
+</Defs>

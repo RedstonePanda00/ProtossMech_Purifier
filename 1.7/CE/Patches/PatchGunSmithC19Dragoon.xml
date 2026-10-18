@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>PM_GunC19Dragoon</defName>
+        <statBases>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.045</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <Bulk>9</Bulk>
+        </statBases>
+        <Properties>
+            <recoilAmount>1.65</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>PM_Bullet_C19Dragoon_CE</defaultProjectile>
+            <warmupTime>1.35</warmupTime>
+            <range>60</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Shot_BoltActionRifle</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>7</muzzleFlashScale>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>30</magazineSize>
+            <reloadTime>3.1</reloadTime>
+            <ammoSet>PM_AmmoSet_C19Dragoon</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aimedBurstShotCount>1</aimedBurstShotCount>
+            <aiUseBurstMode>false</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="PM_GunC19Dragoon"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE"><label>stock</label><capacities><li>Blunt</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime><chanceFactor>1.5</chanceFactor><armorPenetrationBlunt>3</armorPenetrationBlunt><linkedBodyPartsGroup>Stock</linkedBodyPartsGroup></li>
+                <li Class="CombatExtended.ToolCE"><label>barrel</label><capacities><li>Blunt</li></capacities><power>7</power><cooldownTime>2.0</cooldownTime><armorPenetrationBlunt>2</armorPenetrationBlunt><linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup></li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="PM_GunC19Dragoon"]</xpath>
+        <value><li Class="CombatExtended.GunDrawExtension"><DrawSize>4.6,2.3</DrawSize><DrawOffset>0,0</DrawOffset></li></value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>PM_Mote_CosmicSpiderSilkStrand</defName>
+    <label>cosmic spider silk strand (internal)</label>
+    <thingClass>ProtossMech.Mote_CosmicSpiderSilkStrand</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <fadeOutTime>0</fadeOutTime>
+      <solidTime>999999</solidTime>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <!-- Required by schema; actual DrawAt is custom and uses spidersilk bundle material. -->
+      <texPath>Things/Mote/GraserBeam</texPath>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(1,1,1,1)</color>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>PM_Mote_CosmicSpiderWebNet</defName>
+    <label>cosmic spider web net (internal)</label>
+    <thingClass>ProtossMech.Mote_CosmicSpiderWebNet</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <fadeOutTime>0</fadeOutTime>
+      <solidTime>999999</solidTime>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <!-- Required by schema; actual DrawAt uses spidersilk WebNet material. -->
+      <texPath>Things/Mote/GraserBeam</texPath>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(1,1,1,1)</color>
+    </graphicData>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>PM_RefuelMiningDrill_Mining</defName>
+    <label>refuel mining drill</label>
+    <giverClass>ProtossMech.WorkGiver_MiningDrillRefuel</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>110</priorityInType>
+    <verb>refuel mining drill</verb>
+    <gerund>refueling mining drill</gerund>
+    <requiredCapacities><li>Manipulation</li></requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>PM_RefuelMiningDrill_PlantCutting</defName>
+    <label>refuel mining drill</label>
+    <giverClass>ProtossMech.WorkGiver_MiningDrillRefuel</giverClass>
+    <workType>PlantCutting</workType>
+    <priorityInType>110</priorityInType>
+    <verb>refuel mining drill</verb>
+    <gerund>refueling mining drill</gerund>
+    <requiredCapacities><li>Manipulation</li></requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>PM_RefuelMiningDrill_Growing</defName>
+    <label>refuel mining drill</label>
+    <giverClass>ProtossMech.WorkGiver_MiningDrillRefuel</giverClass>
+    <workType>Growing</workType>
+    <priorityInType>110</priorityInType>
+    <verb>refuel mining drill</verb>
+    <gerund>refueling mining drill</gerund>
+    <requiredCapacities><li>Manipulation</li></requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>PM_MiningDrillDeep</defName>
+    <label>extract deep resources</label>
+    <giverClass>ProtossMech.WorkGiver_MiningDrillDeep</giverClass>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+    <workType>Mining</workType>
+    <priorityInType>90</priorityInType>
+    <verb>extract deep resources</verb>
+    <gerund>extracting deep resources</gerund>
+    <requiredCapacities><li>Manipulation</li></requiredCapacities>
+    <tagToGive>Fieldwork</tagToGive>
+  </WorkGiverDef>
+</Defs>

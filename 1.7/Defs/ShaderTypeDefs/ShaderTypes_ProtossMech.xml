@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ShaderTypeDef>
+    <defName>PM_ReconstructPrintCutout</defName>
+    <shaderPath>ProtossMech/ReconstructPrintCutout</shaderPath>
+  </ShaderTypeDef>
+  <ShaderTypeDef>
+    <defName>PM_ProtossMechShield</defName>
+    <shaderPath>ProtossMech/ProtossShieldQuad</shaderPath>
+  </ShaderTypeDef>
+  <ShaderTypeDef>
+    <defName>PM_HyperspaceStorageDisplay</defName>
+    <shaderPath>ProtossMech/HyperspaceStorageDisplay</shaderPath>
+  </ShaderTypeDef>
+</Defs>

@@ -83,9 +83,7 @@
       <turretGunDef>Gun_PhotonCannon</turretGunDef>
       <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
     </building>
-    <researchPrerequisites>
-      <li>PM_Fundamentals</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>PM_NuclearFusion</li></researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
@@ -143,17 +141,29 @@
     <defName>PM_KhaydarinMonolith</defName>
     <label>Khaydarin monolith</label>
     <description>The Star Devourer's engineers have faithfully recreated this traditional Nerazim defensive structure. The Khaydarin monolith embedded within fires high-energy armor-piercing beams at approaching enemies.</description>
-    <uiIconPath>Things/Structure/Khaydarin</uiIconPath>
+    <uiIconPath>Things/Structure/Khaydarin/KhaydarinUpper</uiIconPath>
     <graphicData>
-      <texPath>Things/Structure/Khaydarin</texPath>
+      <texPath>Things/Structure/Khaydarin/KhaydarinBase</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4.0, 4.0)</drawSize>
+      <drawSize>(5.5, 5.5)</drawSize>
       <drawOffset>(0,0,-0.1)</drawOffset>
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
     <size>(3,3)</size>
+    <modExtensions>
+      <li Class="ProtossMech.KhaydarinTopExtension">
+        <!-- 512px artwork: collar pivot at (256,320), side tips at (156,184) / (356,184). -->
+        <spriteCenterOffset>(0, 0.125)</spriteCenterOffset>
+        <leftMuzzle>(-0.1953125, 0.140625)</leftMuzzle>
+        <rightMuzzle>(0.1953125, 0.140625)</rightMuzzle>
+      </li>
+    </modExtensions>
+    <placeWorkers Inherit="False">
+      <li>ProtossMech.PlaceWorker_KhaydarinTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
@@ -177,12 +187,10 @@
     <building>
       <turretGunDef>Gun_KhaydarinMonolith</turretGunDef>
       <turretBurstCooldownTime>2.0</turretBurstCooldownTime>
-      <turretTopDrawSize>1.0</turretTopDrawSize>
-      <turretTopOffset>(0, 0.05)</turretTopOffset>
+      <turretTopDrawSize>5.5</turretTopDrawSize>
+      <turretTopOffset>(0, 0.9)</turretTopOffset>
     </building>
-    <researchPrerequisites>
-      <li>PM_NerazimMechStart</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>PM_NerazimMechStart</li></researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -190,7 +198,7 @@
     <label>Khaydarin monolith</label>
     <description>Turret gun: anti-armor shock beam.</description>
     <graphicData>
-      <texPath>Things/Weapon/ThermalLances</texPath>
+      <texPath>Things/Structure/Khaydarin/KhaydarinUpper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -215,7 +223,7 @@
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>6</muzzleFlashScale>
+        <muzzleFlashScale>0</muzzleFlashScale>
       </li>
     </verbs>
   </ThingDef>
@@ -223,7 +231,7 @@
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_KhaydarinMonolith</defName>
     <label>Khaydarin beam</label>
-    <thingClass>Beam</thingClass>
+    <thingClass>ProtossMech.Beam_Khaydarin</thingClass>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -231,10 +239,15 @@
     <projectile>
       <damageDef>AntiArmorShock</damageDef>
       <damageAmountBase>100</damageAmountBase>
-      <beamMoteDef>Mote_OverchargedPylonlaser</beamMoteDef>
+      <beamMoteDef>PM_Mote_KhaydarinBeam</beamMoteDef>
       <beamStartOffset>0.5</beamStartOffset>
       <armorPenetrationBase>0.5</armorPenetrationBase>
     </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="PM_OverchargedPylonLaser">
+    <defName>PM_Mote_KhaydarinBeam</defName>
+    <thingClass>ProtossMech.Mote_KhaydarinBeam</thingClass>
   </ThingDef>
 
   <!-- PhaseCannon -->
@@ -292,6 +305,13 @@
     <label>Phase Cannon</label>
     <description>This energy cannon disrupts armor at the atomic level - the higher the alloy's atomic bond energy, the greater the destruction.</description>
     <uiIconPath>Things/Weapon/PhaseCannon</uiIconPath>
+    <modExtensions>
+      <li Class="ProtossMech.PhaseCannonTopExtension">
+        <recoilDistance>0.18</recoilDistance>
+        <kickTicks>3</kickTicks>
+        <recoveryTicks>21</recoveryTicks>
+      </li>
+    </modExtensions>
     <statBases>
       <ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
     </statBases>
@@ -323,9 +343,7 @@
       <turretGunDef>Turret_PhaseCannon</turretGunDef>
       <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
     </building>
-    <researchPrerequisites>
-      <li>PM_PositronicAI</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>PM_GrandUnification</li></researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -363,12 +381,12 @@
         <hasStandardCommand>true</hasStandardCommand>
         <soundCast>Shot_NeedleGun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
+        <muzzleFlashScale>0</muzzleFlashScale>
       </li>
     </verbs>
   </ThingDef>
 
-  <!-- Shield Battery: consumes power (1 W per 1 shield/s) to recharge one target at a time; beam links building and target -->
+
   <ThingDef ParentName="BuildingBase">
     <defName>PM_ShieldBattery</defName>
     <label>Shield battery</label>
@@ -436,9 +454,7 @@
         <onlyWhenPowered>true</onlyWhenPowered>
       </li>
     </comps>
-    <researchPrerequisites>
-      <li>PM_Fundamentals</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>PM_KhalaiMechAdvance</li></researchPrerequisites>
   </ThingDef>
 
 </Defs>

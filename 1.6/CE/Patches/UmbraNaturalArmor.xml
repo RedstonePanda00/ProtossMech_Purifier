@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- CE requires this group for both per-part damage mitigation and the gear tab armor summary.
+       Only the outer shell is armored; preserve internal organs and body part ordering. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BodyDef[defName="PM_UmbraBody"]/corePart[not(depth="Inside")]/groups[not(li="CoveredByNaturalArmor")] | Defs/BodyDef[defName="PM_UmbraBody"]/corePart//parts/li[not(depth="Inside")]/groups[not(li="CoveredByNaturalArmor")]</xpath>
+    <value>
+      <li>CoveredByNaturalArmor</li>
+    </value>
+  </Operation>
+</Patch>

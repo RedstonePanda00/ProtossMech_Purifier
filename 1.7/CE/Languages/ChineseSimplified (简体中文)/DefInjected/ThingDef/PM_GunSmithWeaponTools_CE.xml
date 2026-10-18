@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CE melee tools injected by the CE patches; only present when CE is active. -->
+  <PM_GunC7Templar.tools.stock.label>枪托</PM_GunC7Templar.tools.stock.label>
+  <PM_GunC7Templar.tools.barrel.label>枪管</PM_GunC7Templar.tools.barrel.label>
+  <PM_GunC7Templar.tools.muzzle.label>枪口</PM_GunC7Templar.tools.muzzle.label>
+
+  <PM_GunC31Tempest.tools.stock.label>枪托</PM_GunC31Tempest.tools.stock.label>
+  <PM_GunC31Tempest.tools.barrel.label>枪管</PM_GunC31Tempest.tools.barrel.label>
+  <PM_GunC31Tempest.tools.muzzle.label>枪口</PM_GunC31Tempest.tools.muzzle.label>
+
+  <PM_GunR42DeadEye.tools.stock.label>枪托</PM_GunR42DeadEye.tools.stock.label>
+  <PM_GunR42DeadEye.tools.barrel.label>枪管</PM_GunR42DeadEye.tools.barrel.label>
+  <PM_GunR42DeadEye.tools.muzzle.label>枪口</PM_GunR42DeadEye.tools.muzzle.label>
+
+</LanguageData>

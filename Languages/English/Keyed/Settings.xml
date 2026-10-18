@@ -9,6 +9,37 @@
   <ProtossMech.Settings.CompatibilityDesc>Select hediffs allowed on this mod’s mechs.</ProtossMech.Settings.CompatibilityDesc>
   <ProtossMech.Settings.Overheat>Apocalypse: Purifier Colossus</ProtossMech.Settings.Overheat>
   <ProtossMech.Settings.OverheatDesc>Enable the Purifier Colossus special combat mode.</ProtossMech.Settings.OverheatDesc>
+  <ProtossMech.Settings.UmbraFocus>Umbra: Focus mode</ProtossMech.Settings.UmbraFocus>
+  <ProtossMech.Settings.UmbraFocusDesc>When enabled, entering Blade form starts focus mode for direct manual control.</ProtossMech.Settings.UmbraFocusDesc>
+  <ProtossMech.Settings.Focus.Title>Focus mode bindings</ProtossMech.Settings.Focus.Title>
+  <ProtossMech.Settings.Focus.Description>Click a binding to change it. Movement uses screen directions and gradually turns Umbra; the arc shows actual facing. Exiting returns to curved-blade form.</ProtossMech.Settings.Focus.Description>
+  <ProtossMech.Settings.Focus.MoveForward>Move up on screen</ProtossMech.Settings.Focus.MoveForward>
+  <ProtossMech.Settings.Focus.MoveBack>Move down on screen</ProtossMech.Settings.Focus.MoveBack>
+  <ProtossMech.Settings.Focus.MoveLeft>Move left</ProtossMech.Settings.Focus.MoveLeft>
+  <ProtossMech.Settings.Focus.MoveRight>Move right</ProtossMech.Settings.Focus.MoveRight>
+  <ProtossMech.Settings.Focus.Slash>Slash</ProtossMech.Settings.Focus.Slash>
+  <ProtossMech.Settings.Focus.Thrust>Thrust / Rising slash</ProtossMech.Settings.Focus.Thrust>
+  <ProtossMech.Settings.Focus.Spirit>Spirit attack</ProtossMech.Settings.Focus.Spirit>
+  <ProtossMech.Settings.Focus.Evade>Evade / Roll</ProtossMech.Settings.Focus.Evade>
+  <ProtossMech.Settings.Focus.Exit>Exit focus mode</ProtossMech.Settings.Focus.Exit>
+  <ProtossMech.Settings.Focus.Foresight>Foresight slash</ProtossMech.Settings.Focus.Foresight>
+  <ProtossMech.Settings.Focus.SpiritThrust>Spirit thrust</ProtossMech.Settings.Focus.SpiritThrust>
+  <ProtossMech.Settings.Focus.SpecialSheathe>Special sheathe</ProtossMech.Settings.Focus.SpecialSheathe>
+  <ProtossMech.Settings.Focus.ChargedSheathe>Hold {0} for Spirit Charge; release at full charge for Spirit Roundslash. Press {1} during the charge to enter Radiant Sheathe. Alternatively, chord {0} + {1} and hold {0} for 1 second. Radiant Sheathe stays latched when keys are released; press {0} again for Offset Slash [Flash].</ProtossMech.Settings.Focus.ChargedSheathe>
+  <ProtossMech.Settings.Focus.ComboRule>Press two keys within the 0.15-second input window while the first remains held to perform a combo. The first action waits until the window expires or the key is released. Holding one key for longer does not form a combo.</ProtossMech.Settings.Focus.ComboRule>
+  <ProtossMech.Settings.Focus.Reset>Reset bindings</ProtossMech.Settings.Focus.Reset>
+  <ProtossMech.Settings.Focus.Capture>Press a keyboard key, or a mouse button over the empty area of this window. Esc cancels.</ProtossMech.Settings.Focus.Capture>
+  <ProtossMech.Settings.Focus.CaptureExit>Press a keyboard key, or a mouse button over the empty area of this window. Esc can be assigned here; use the button below to cancel.</ProtossMech.Settings.Focus.CaptureExit>
+  <ProtossMech.Settings.Focus.Conflict>This key is already assigned to {0}. Choose a different key.</ProtossMech.Settings.Focus.Conflict>
+  <ProtossMech.Settings.Focus.InvalidKey>Choose a valid keyboard or mouse button. Esc is reserved for exiting.</ProtossMech.Settings.Focus.InvalidKey>
+  <ProtossMech.Settings.Focus.Mouse0>Left mouse</ProtossMech.Settings.Focus.Mouse0>
+  <ProtossMech.Settings.Focus.Mouse1>Right mouse</ProtossMech.Settings.Focus.Mouse1>
+  <ProtossMech.Settings.Focus.Mouse2>Middle mouse</ProtossMech.Settings.Focus.Mouse2>
+  <ProtossMech.Settings.Focus.Mouse3>Mouse button 4</ProtossMech.Settings.Focus.Mouse3>
+  <ProtossMech.Settings.Focus.Mouse4>Mouse button 5</ProtossMech.Settings.Focus.Mouse4>
+  <ProtossMech.Settings.Focus.Mouse5>Mouse button 6</ProtossMech.Settings.Focus.Mouse5>
+  <ProtossMech.Settings.Focus.Mouse6>Mouse button 7</ProtossMech.Settings.Focus.Mouse6>
+  <ProtossMech.Settings.Focus.Space>Space</ProtossMech.Settings.Focus.Space>
   <ProtossMech.Settings.Elite>Elite gunsmith</ProtossMech.Settings.Elite>
   <ProtossMech.Settings.EliteDesc>Allows finer weapon customization through expanded gunsmith options and elite tuning.</ProtossMech.Settings.EliteDesc>
   <ProtossMech.Settings.Search>Search name or DefName</ProtossMech.Settings.Search>
@@ -17,4 +48,6 @@
   <ProtossMech.Settings.Unknown>Unknown source</ProtossMech.Settings.Unknown>
   <ProtossMech.Settings.Empty>No matching hediffs</ProtossMech.Settings.Empty>
   <ProtossMech.Settings.Count>Matching entries: {0}</ProtossMech.Settings.Count>
+  <ProtossMech.Settings.Focus.Active>Focus mode</ProtossMech.Settings.Focus.Active>
+  <ProtossMech.Settings.Focus.FadeSlash>Fade Slash</ProtossMech.Settings.Focus.FadeSlash>
 </LanguageData>

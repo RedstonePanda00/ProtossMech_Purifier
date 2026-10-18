@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Conversion_Title>质能转换</PM_Conversion_Title>
+  <PM_Conversion_Description>将存储中的多种材料按质量转换为一种目标材料。整批扣料，每个周期输出一组，优先送入已指定同类材料的超空间柜；余量直接舍弃。</PM_Conversion_Description>
+  <PM_Conversion_MapStorage>存储区</PM_Conversion_MapStorage>
+  <PM_Conversion_Hyperspace>超空间</PM_Conversion_Hyperspace>
+  <PM_Conversion_Combined>汇总</PM_Conversion_Combined>
+  <PM_Conversion_SearchInputs>搜索已有材料…</PM_Conversion_SearchInputs>
+  <PM_Conversion_SearchTargets>搜索目标材料…</PM_Conversion_SearchTargets>
+  <PM_Conversion_InputHeader>材料 / 库存 / 单位质量</PM_Conversion_InputHeader>
+  <PM_Conversion_Target>输出目标</PM_Conversion_Target>
+  <PM_Conversion_All>全选</PM_Conversion_All>
+  <PM_Conversion_Clear>清空</PM_Conversion_Clear>
+  <PM_Conversion_NoInputs>此来源没有可用材料。</PM_Conversion_NoInputs>
+  <PM_Conversion_DragTip>按住复选框拖过多行可批量勾选或取消。首次勾选投入全部可用数量；可逐行修改。全选、清空和拖选仅影响当前来源。</PM_Conversion_DragTip>
+  <PM_Conversion_StockTip>存储区库存：{0}
+超空间库存：{1}
+两页所选数量分别记忆，并按各自来源扣取。</PM_Conversion_StockTip>
+  <PM_Conversion_InputTotal>已选 {0} 种材料，共 {1}</PM_Conversion_InputTotal>
+  <PM_Conversion_Preview>产出 {0} 个{1}（{2}）；舍弃余量 {3}</PM_Conversion_Preview>
+  <PM_Conversion_DiscardNotice>产量向下取整；多余质量直接舍弃。</PM_Conversion_DiscardNotice>
+  <PM_Conversion_Convert>开始转换</PM_Conversion_Convert>
+  <PM_Conversion_Cancel>取消转换</PM_Conversion_Cancel>
+  <PM_Conversion_Busy>复制器已有待完成的转换。</PM_Conversion_Busy>
+  <PM_Conversion_Progress>质能转换：{0}，{1}</PM_Conversion_Progress>
+  <PM_Conversion_StockChanged>所选来源库存不足或已失效，本批次未扣料。</PM_Conversion_StockChanged>
+  <PM_Conversion_Invalid>所选材料无法用于本次转换。</PM_Conversion_Invalid>
+  <PM_Conversion_TooLittle>投入质量不足以产出 1 个目标物品。</PM_Conversion_TooLittle>
+  <PM_Conversion_TooLarge>本批次产量过大，请减少投入数量（最多产出 4096 堆）。</PM_Conversion_TooLarge>
+  <PM_Conversion_FinalProduct>最终产物：{0} × {1}</PM_Conversion_FinalProduct>
+  <PM_Conversion_Pause>暂停输出</PM_Conversion_Pause>
+  <PM_Conversion_Resume>继续输出</PM_Conversion_Resume>
+  <PM_Conversion_Paused>质能转换：输出已暂停</PM_Conversion_Paused>
+  <PM_Conversion_RemainingStacks>待输出：{0} 组</PM_Conversion_RemainingStacks>
+  <PM_Conversion_CommittedNotice>材料已经扣除，剩余产物保存在复制器内部，每个周期输出一组；可暂停输出。</PM_Conversion_CommittedNotice>
+</LanguageData>

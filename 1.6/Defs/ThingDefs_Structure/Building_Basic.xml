@@ -12,7 +12,7 @@
             <texPath>Things/Structure/Pylon</texPath>
             <shaderType>Transparent</shaderType>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(2.0, 2.0)</drawSize>
+            <drawSize>(4.0, 4.0)</drawSize>
             <drawOffset>(0,0,-0.1)</drawOffset>
         </graphicData>
         <altitudeLayer>Building</altitudeLayer>
@@ -36,9 +36,7 @@
             <PM_Solarite>100</PM_Solarite>
             <Plasteel>100</Plasteel>
         </costList>
-        <researchPrerequisites>
-            <li>PM_Fundamentals</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_KhalaiMechStart</li></researchPrerequisites>
         <comps>
             <li Class="RimWorld.CompProperties_Power">
                 <compClass>ProtossMech.CompPowerPlant_Pylon</compClass>
@@ -52,12 +50,12 @@
 
             <li Class="ProtossMech.CompProperties_PylonRingRailRenderer">
                 <texPath>Things/Structure/Pylon_RingRails</texPath>
-                <drawSize>(2.0, 2.0)</drawSize>
+                <drawSize>(4.0, 4.0)</drawSize>
                 <wobbleAmplitude>0.035</wobbleAmplitude>
                 <wobblePeriodTicks>180</wobblePeriodTicks>
                 <altitudeOffset>0.01</altitudeOffset>
             </li>
-            
+
             <li Class="CompProperties_Glower">
                 <overlightRadius>20</overlightRadius>
                 <glowRadius>20</glowRadius>
@@ -77,7 +75,7 @@
     <ThingDef ParentName="BenchBase">
         <defName>ProtossForge</defName>
         <label>Forge</label>
-        <description>The Star Devourer's forge is a compact printing unit capable of converting energy directly into matter. In theory, it should require no material input at all—only power. When questioned, the Executor offers only a perfunctory explanation: something called the “Khalai tax.”</description>
+        <description>The Protoss forge is where phase-smiths work. It comes with a full set of tools, AI assistants, a matter printer, and an extensive built-in library of technological blueprints—most of them locked, of course.\n\nIn theory, this technology needs only energy to generate matter, yet the bill always lists an assortment of materials. The Executor offers only a perfunctory explanation: the so-called “Khalai tax.”</description>
         <thingClass>Building_WorkTable</thingClass>
         <tickerType>Normal</tickerType>
         <altitudeLayer>Building</altitudeLayer>
@@ -95,8 +93,8 @@
         <thingCategories Inherit="false" />
         <size>(3,2)</size>
         <costList>
-            <Uranium>235</Uranium>
             <Plasteel>150</Plasteel>
+            <Uranium>100</Uranium>
         </costList>
         <comps>
             <li Class="CompProperties_AffectedByFacilities">
@@ -127,10 +125,10 @@
             <li>Make_ComponentIndustrial</li>
             <li>Make_ComponentSpacer</li>
             <li>PM_Make_Solarite</li>
-			<li>PM_Make_Adanium</li>
-			<li>Make_SubcoreHigh</li>
-			<li>Make_AIPersonaCore</li>
-			<li>PMPMake_TechprofSubpersonaCore</li>
+            <li>PM_Make_Adanium</li>
+            <li>Make_SubcoreHigh</li>
+            <li>Make_AIPersonaCore</li>
+            <li>PMPMake_TechprofSubpersonaCore</li>
         </recipes>
         <graphicData>
             <texPath>Things/Structure/Forge</texPath>
@@ -148,14 +146,12 @@
         <designationCategory>Production</designationCategory>
         <uiOrder>3000</uiOrder>
         <surfaceType>Item</surfaceType>
-        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
         <placeWorkers>
             <li>PlaceWorker_ShowFacilitiesConnections</li>
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
-        <researchPrerequisites>
-            <li>PM_NuclearFusion</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_Fundamentals</li></researchPrerequisites>
     </ThingDef>
 
 </Defs>

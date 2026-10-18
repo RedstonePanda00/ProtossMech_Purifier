@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Eight appendages total: three bearing pairs plus one small hand pair.
+       Pixel coordinates use the original 512x512 canvas, with Y downward.
+       South limb 2 is 16px above limb 1; north limb 1 is 16px above limb 2.
+       northOffset is added to offset in the north view. Side far limbs overlap the near silhouettes.
+       Higher layers cover lower layers.
+       South: hands, limb 1, body, limb 3, limb 2 (front to back).
+       North: limb 2, limb 3, body, limb 1, hands. Side: near 3 legs + hand, body, far 3 legs + hand. -->
+  <ProtossMech.CosmicSpiderRigDef>
+    <defName>PM_CosmicSpiderRig</defName>
+    <drawSize>1.8</drawSize>
+    <strideCells>2.1</strideCells>
+    <stridePixels>3</stridePixels>
+    <liftPixels>8</liftPixels>
+    <swingDegrees>9</swingDegrees>
+    <parts>
+      <li>
+        <name>body-south</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Body_south</texPath>
+        <view>South</view>
+        <role>Body</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(256, 256)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>20</layer>
+      </li>
+      <li>
+        <name>body-north</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Body_north</texPath>
+        <view>North</view>
+        <role>Body</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(256, 256)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>20</layer>
+      </li>
+      <li>
+        <name>body-side</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Body_west</texPath>
+        <view>Side</view>
+        <role>Body</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(256, 256)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>20</layer>
+      </li>
+      <li>
+        <name>vertical-hand-left</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Hand_left</texPath>
+        <view>Vertical</view>
+        <role>Hand</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(205, 269)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>28</layer>
+        <northLayer>10</northLayer>
+      </li>
+      <li>
+        <name>vertical-leg-left-0</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegMiddle_left</texPath>
+        <view>Vertical</view>
+        <role>Leg</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(185, 231)</pivot>
+        <offset>(0, 0)</offset>
+        <northOffset>(0, -16)</northOffset>
+        <layer>24</layer>
+        <northLayer>14</northLayer>
+      </li>
+      <li>
+        <name>vertical-leg-left-1</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegMiddle_left</texPath>
+        <view>Vertical</view>
+        <role>Leg</role>
+        <side>-1</side>
+        <pair>1</pair>
+        <pivot>(185, 231)</pivot>
+        <offset>(0, -16)</offset>
+        <northOffset>(0, 16)</northOffset>
+        <layer>12</layer>
+        <northLayer>26</northLayer>
+      </li>
+      <li>
+        <name>vertical-leg-left-2</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegRear_left</texPath>
+        <view>Vertical</view>
+        <role>Leg</role>
+        <side>-1</side>
+        <pair>2</pair>
+        <pivot>(147, 216)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>14</layer>
+        <northLayer>24</northLayer>
+      </li>
+      <li>
+        <name>side-hand-left</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Hand_west</texPath>
+        <view>Side</view>
+        <role>Hand</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(149, 313)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>28</layer>
+      </li>
+      <li>
+        <name>side-leg-left-0</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegMiddle_west</texPath>
+        <view>Side</view>
+        <role>Leg</role>
+        <side>-1</side>
+        <pair>0</pair>
+        <pivot>(213, 280)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>26</layer>
+      </li>
+      <li>
+        <name>side-leg-left-1</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegRear_west</texPath>
+        <view>Side</view>
+        <role>Leg</role>
+        <side>-1</side>
+        <pair>1</pair>
+        <pivot>(282, 280)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>25</layer>
+      </li>
+      <li>
+        <name>side-leg-left-2</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegRear_west</texPath>
+        <view>Side</view>
+        <role>Leg</role>
+        <side>-1</side>
+        <pair>2</pair>
+        <pivot>(282, 280)</pivot>
+        <offset>(74, -1)</offset>
+        <layer>24</layer>
+      </li>
+      <li>
+        <name>vertical-hand-right</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Hand_right</texPath>
+        <view>Vertical</view>
+        <role>Hand</role>
+        <side>1</side>
+        <pair>0</pair>
+        <pivot>(307, 269)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>28</layer>
+        <northLayer>10</northLayer>
+      </li>
+      <li>
+        <name>vertical-leg-right-0</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegMiddle_right</texPath>
+        <view>Vertical</view>
+        <role>Leg</role>
+        <side>1</side>
+        <pair>0</pair>
+        <pivot>(327, 231)</pivot>
+        <offset>(0, 0)</offset>
+        <northOffset>(0, -16)</northOffset>
+        <layer>24</layer>
+        <northLayer>14</northLayer>
+      </li>
+      <li>
+        <name>vertical-leg-right-1</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegMiddle_right</texPath>
+        <view>Vertical</view>
+        <role>Leg</role>
+        <side>1</side>
+        <pair>1</pair>
+        <pivot>(327, 231)</pivot>
+        <offset>(0, -16)</offset>
+        <northOffset>(0, 16)</northOffset>
+        <layer>12</layer>
+        <northLayer>26</northLayer>
+      </li>
+      <li>
+        <name>vertical-leg-right-2</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegRear_right</texPath>
+        <view>Vertical</view>
+        <role>Leg</role>
+        <side>1</side>
+        <pair>2</pair>
+        <pivot>(365, 216)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>14</layer>
+        <northLayer>24</northLayer>
+      </li>
+      <li>
+        <name>side-hand-right</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/Hand_west</texPath>
+        <view>Side</view>
+        <role>Hand</role>
+        <side>1</side>
+        <pair>0</pair>
+        <pivot>(149, 313)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>8</layer>
+      </li>
+      <li>
+        <name>side-leg-right-0</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegMiddle_west</texPath>
+        <view>Side</view>
+        <role>Leg</role>
+        <side>1</side>
+        <pair>0</pair>
+        <pivot>(213, 280)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>10</layer>
+      </li>
+      <li>
+        <name>side-leg-right-1</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegRear_west</texPath>
+        <view>Side</view>
+        <role>Leg</role>
+        <side>1</side>
+        <pair>1</pair>
+        <pivot>(282, 280)</pivot>
+        <offset>(0, 0)</offset>
+        <layer>11</layer>
+      </li>
+      <li>
+        <name>side-leg-right-2</name>
+        <texPath>Things/Pawn/Mechanoid/CosmicSpider/LegRear_west</texPath>
+        <view>Side</view>
+        <role>Leg</role>
+        <side>1</side>
+        <pair>2</pair>
+        <pivot>(282, 280)</pivot>
+        <offset>(74, -1)</offset>
+        <layer>12</layer>
+      </li>
+    </parts>
+  </ProtossMech.CosmicSpiderRigDef>
+</Defs>

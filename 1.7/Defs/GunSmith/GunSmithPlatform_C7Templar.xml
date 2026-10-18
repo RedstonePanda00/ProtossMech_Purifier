@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPlatformDef>
+        <defName>PM_GunSmith_C7Templar</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
+        <label>C-7 Templar</label>
+        <weaponThingDef>PM_GunC7Templar</weaponThingDef>
+        <bodyTexPath>Things/Weapon/C7Templar/C7_Body</bodyTexPath>
+        <slotAttachmentOffsets>
+            <li>
+                <slotId>Barrel</slotId>
+                <offset>(-0.7831, -0.0629)</offset>
+                <gizmoOffset>(-0.1330, -0.4230)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(0, 0)</offset>
+                <gizmoOffset>(-2.0124, -0.4007)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0, 0)</offset>
+                <gizmoOffset>(-2.0615, 0.3951)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(-0.7933, 0.0797)</offset>
+                <gizmoOffset>(-1.5148, 0.3932)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Stock</slotId>
+                <offset>(0.4939, 0.0765)</offset>
+                <gizmoOffset>(0.3872, -0.0223)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Grip</slotId>
+                <offset>(0.2124, 0.1751)</offset>
+                <gizmoOffset>(-0.1112, 0.4780)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Magazine</slotId>
+                <offset>(-0.1235, 0.1872)</offset>
+                <gizmoOffset>(-1.0100, 0.4575)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Optic</slotId>
+                <offset>(-0.1562, -0.1776)</offset>
+                <gizmoOffset>(-0.4962, -0.3644)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>RearIronSight</slotId>
+                <offset>(0.0892, -0.1776)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0, 0)</offset>
+            </li>
+        </slotAttachmentOffsets>
+        <bakeTextureSize>512</bakeTextureSize>
+        <bakePadding>0.05</bakePadding>
+        <bakeContentScale>0.55</bakeContentScale>
+        <bakeContentOffset>(0.18, 0)</bakeContentOffset>
+        <shadowDilatePixels>5</shadowDilatePixels>
+        <shadowAlpha>1</shadowAlpha>
+        <slots>
+            <li><slotId>Barrel</slotId><slotType>Barrel</slotType><optional>false</optional></li>
+            <li><slotId>Muzzle</slotId><slotType>Muzzle</slotType><optional>true</optional></li>
+            <li><slotId>Laser</slotId><slotType>Laser</slotType><optional>true</optional></li>
+            <li><slotId>UnderBarrel</slotId><slotType>UnderBarrel</slotType><optional>true</optional></li>
+            <li><slotId>Stock</slotId><slotType>Stock</slotType><optional>false</optional></li>
+            <li><slotId>Grip</slotId><slotType>Grip</slotType><optional>false</optional></li>
+            <li><slotId>Magazine</slotId><slotType>Magazine</slotType><optional>false</optional></li>
+            <li><slotId>Optic</slotId><slotType>Optic</slotType><optional>true</optional></li>
+            <li><slotId>RearIronSight</slotId><slotType>RearIronSight</slotType><optional>false</optional></li>
+            <li><slotId>FrontIronSight</slotId><slotType>FrontIronSight</slotType><optional>false</optional></li>
+        </slots>
+        <defaultParts>
+            <li><slotId>Barrel</slotId><part>PM_C7Templar_Barrel_01</part></li>
+            <li><slotId>Stock</slotId><part>PM_C7Templar_Stock_01</part></li>
+            <li><slotId>Grip</slotId><part>PM_C7Templar_Grip_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C7Templar_Ammo_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C7Templar_Magazine_01</part></li>
+            <li>
+                <slotId>RearIronSight</slotId>
+                <part>PM_Common_IronSight_Rear_Raised</part>
+                <whenSlotEmpty>Optic</whenSlotEmpty>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <part>PM_Common_IronSight_Front_Raised</part>
+                <whenSlotEmpty>Optic</whenSlotEmpty>
+            </li>
+            <li>
+                <slotId>RearIronSight</slotId>
+                <part>PM_Common_IronSight_Rear_Folded</part>
+                <whenSlotOccupied>Optic</whenSlotOccupied>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <part>PM_Common_IronSight_Front_Folded</part>
+                <whenSlotOccupied>Optic</whenSlotOccupied>
+            </li>
+        </defaultParts>
+        
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>50</count>
+            </li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPlatformDef>
+
+</Defs>

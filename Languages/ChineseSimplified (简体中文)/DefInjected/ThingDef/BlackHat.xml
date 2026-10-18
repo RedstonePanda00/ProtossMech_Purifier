@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apparel_BlackHat.label>黑帽</PM_Apparel_BlackHat.label>
+  <PM_Apparel_BlackHat.description>背包式电子战设备，能够入侵敌方电子设备的系统。</PM_Apparel_BlackHat.description>
+  <PM_Apparel_BlackHat.verbs.0.label>骇入</PM_Apparel_BlackHat.verbs.0.label>
+</LanguageData>

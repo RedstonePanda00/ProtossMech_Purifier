@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Legacy defNames are retained for saved research and the unchanged Khalai scenario. -->
+    <ResearchProjectDef>
+        <defName>PM_Fundamentals</defName>
+        <label>Deciphered: Cybernetics</label>
+        <description>This archive begins with feedback, measurement and stability, followed by operating interfaces and safety checks for the Aurora's sealed equipment.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Electricity</li>
+            <li>Machining</li>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_InformationTheory</defName>
+        <label>Deciphered: Information theory</label>
+        <description>Coding, transmission, storage and error correction turn the Aurora's data interfaces into a language the colony can validate. Meaning is distinguished from its physical carrier, and complex systems acquire traceable inputs and outputs.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>MicroelectronicsBasics</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_NuclearFusion</defName>
+        <label>Deciphered: Quantum electrodynamics</label>
+        <description>The archive opens with quantum interactions between charged particles and electromagnetic fields. Engineering appendices describe directed-energy systems and the sealed module used for implosion-based Solarite production.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1800</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_Fundamentals</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_PositronicAI</defName>
+        <label>Deciphered: Artificial general intelligence</label>
+        <description>These systems understand varied tasks, transfer experience and plan independently. The archive examines task boundaries, fallback behavior and supervision interfaces, and how they keep a system reliable in unfamiliar environments.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1600</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_Fundamentals</li>
+            <li>PM_InformationTheory</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_ArtificialSuperintelligence</defName>
+        <label>Deciphered: Artificial superintelligence</label>
+        <description>An intelligence whose capabilities vastly exceed those of ordinary sapient beings, able to address almost any well-defined problem. The Aurora's ASI services encompass extensive knowledge and equipment interfaces, operating within constraints set by the Executor.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>3200</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_PositronicAI</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>4</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_SyntheticPersonality</defName>
+        <label>Synthetic personality matrix</label>
+        <description>This data packet questions whether the soul exists—the technology it discusses reproduces, one to one, the "soul" of a still-living sapient being.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1800</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_PositronicAI</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>4</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_KhalaiMechAdvance</defName>
+        <label>Coherent projection</label>
+        <description>This archive describes synchronized emitters, energy confinement and stable field boundaries, with calibration procedures for shields, remote recharging and holographic light fields.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1600</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_NuclearFusion</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_KhalaiMechStart</defName>
+        <label>Deciphered: Quantum vacuum theory</label>
+        <description>The internal structure of Khaydarin crystal makes this archive read like a reactor manual. Its model describes energy drawn from the environment and distributed through a stable field: a crystalline zero-point reactor.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>2800</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>6</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_EnergyCrystallization</defName>
+        <label>High-efficiency energy storage</label>
+        <description>An operation and validation dossier for the Solarite battery, documenting storage within a pylon field and the procedures for materializing stored energy and encapsulating it as Solarite.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1600</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_KhalaiMechStart</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>8</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_GrandUnification</defName>
+        <label>Deciphered: Grand unified theory</label>
+        <description>Electromagnetic, weak and strong interactions are described within a common framework. Engineering chapters specify controlled interventions in matter and the operating limits of phase-disruption weapons.\n\nThe fixed cannon damages targets by disrupting atomic bonds and shares its weapon technology with the Immortal.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_KhalaiMechStart</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>8</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_HigherDimensionalSpacetime</defName>
+        <label>Deciphered: Higher-dimensional spacetime theory</label>
+        <description>Space is treated as more than a container for objects. The archive examines additional dimensions, spatial enclosures and stable boundaries, including their effects on material structure and response.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>3200</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_KhalaiMechStart</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>8</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_QuantumGravity</defName>
+        <label>Deciphered: Quantum gravity theory</label>
+        <description>The archive describes quantum processes and spacetime curvature in a common language. Engineering chapters examine local time adjustment, phase coordination and controlled spacetime coupling, together with the conditions needed to keep these processes stable.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4200</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_HigherDimensionalSpacetime</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>10</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_PurifierProject</defName>
+        <label>Purifier coordination protocol</label>
+        <description>These plans include the Purifiers' history: copied warriors treated as tools, followed by rebellion, confinement and eventual freedom.\n\nThe Daelaam contingent brings assistance while observing the Star Devourers.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>2600</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_GrandUnification</li>
+            <li>PM_HigherDimensionalSpacetime</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>10</researchViewX>
+        <researchViewY>6</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_PurifierSiege</defName>
+        <label>Purifier siege authorization</label>
+        <description>Heavy Purifier siege formations combine area-effect firepower with coordinated heavy platforms. The archive documents fire coverage, friendly identification and coordinated operations.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>4200</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_PurifierProject</li>
+            <li>PM_QuantumGravity</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>12</researchViewX>
+        <researchViewY>6</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_PurifierProjectFinal</defName>
+        <label>Eclipse and Apocalypse</label>
+        <description>The last packet is unexpectedly brief: a set of access keys and a voice message.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>6000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_ArtificialSuperintelligence</li>
+            <li>PM_GrandUnification</li>
+            <li>PM_QuantumGravity</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>12</researchViewX>
+        <researchViewY>3</researchViewY>
+        <discoveredLetterTitle>Message from the Executor</discoveredLetterTitle>
+        <discoveredLetterText>You may have heard the names: Star Devourers, Cosmic Crisis. Both were given to us by others. We have no name—only a hunt without end.\n\nWe do not hunt evil. We hunt any will powerful enough to make reality submit. At times, only an anomaly can stand against another anomaly. May you never have to walk that path.\n\nLong ago, I gave my life for an unremarkable star system. You now call it the Solar System. Given the choice, I would do so again. Humanity is imperfect, but brave, tenacious, and forever reaching toward the unknown.\n\nThe final access permissions have been granted. As long as you keep this beacon, the hunters will answer your call.\n\nMay the stars bless your journey. En Taro Artanis.</discoveredLetterText>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_Replicator</defName>
+        <label>Deciphered: Theory of everything</label>
+        <description>Matter interactions and quantum spacetime are brought into a unified theoretical framework. The engineering models describe material structures, forms of energy and conversion processes in terms that can be calculated and verified.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>6000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>PM_PurifierProjectFinal</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+        <researchViewX>14</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_ElectronicWarfare</defName>
+        <label>Electronic countermeasures</label>
+        <description>Recognizing, deceiving and disrupting hostile information processing connects these Gestalt systems. Procedures cover electronic intrusion, target-signature simulation and friendly identification.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_InformationTheory</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>2</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_SmartFireControl</defName>
+        <label>Intelligent fire control</label>
+        <description>Autonomous decisions meet directed-energy control in this archive. Systems must identify threats, select interception or guidance strategies and safely terminate attacks after losing a target.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1400</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_PositronicAI</li>
+            <li>PM_NuclearFusion</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>4</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_PrinterCertificate</defName>
+        <label>Stellar Forge authorization</label>
+        <description>An authorization packet for the Aurora's Stellar Forge, containing access keys, calibration tables, modular weapon assembly protocols, and a mountain of safety instructions and operating guidelines.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_NuclearFusion</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>4</researchViewY>
+        <customUnlockTexts>
+            <li>Unlocks weapon customization in the warp interface.</li>
+            <li>Unlocks gunsmith modification at the forge.</li>
+        </customUnlockTexts>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_NerazimMechStart</defName>
+        <label>Nerazim technology archive</label>
+        <description>An independent Nerazim archive of void-related operating practices and traditional defensive blueprints.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1400</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>6</researchViewX>
+        <researchViewY>5.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PM_TaldarimMechStart</defName>
+        <label>Taldarim technology archive</label>
+        <description>An independent Taldarim archive organized around forceful combat requirements.</description>
+        <tab>ProtossTech</tab>
+        <baseCost>1400</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PM_KhalaiMechAdvance</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>6</researchViewX>
+        <researchViewY>6.5</researchViewY>
+    </ResearchProjectDef>
+</Defs>

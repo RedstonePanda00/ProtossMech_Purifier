@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_RefuelMiningDrill_Mining.label>为矿枪补充燃料</PM_RefuelMiningDrill_Mining.label>
+  <PM_RefuelMiningDrill_Mining.verb>为矿枪补充燃料</PM_RefuelMiningDrill_Mining.verb>
+  <PM_RefuelMiningDrill_Mining.gerund>为矿枪补充燃料</PM_RefuelMiningDrill_Mining.gerund>
+  <PM_RefuelMiningDrill_PlantCutting.label>为矿枪补充燃料</PM_RefuelMiningDrill_PlantCutting.label>
+  <PM_RefuelMiningDrill_PlantCutting.verb>为矿枪补充燃料</PM_RefuelMiningDrill_PlantCutting.verb>
+  <PM_RefuelMiningDrill_PlantCutting.gerund>为矿枪补充燃料</PM_RefuelMiningDrill_PlantCutting.gerund>
+  <PM_RefuelMiningDrill_Growing.label>为矿枪补充燃料</PM_RefuelMiningDrill_Growing.label>
+  <PM_RefuelMiningDrill_Growing.verb>为矿枪补充燃料</PM_RefuelMiningDrill_Growing.verb>
+  <PM_RefuelMiningDrill_Growing.gerund>为矿枪补充燃料</PM_RefuelMiningDrill_Growing.gerund>
+  <PM_MiningDrillDeep.label>采集深层矿物</PM_MiningDrillDeep.label>
+  <PM_MiningDrillDeep.verb>采集深层矿物</PM_MiningDrillDeep.verb>
+  <PM_MiningDrillDeep.gerund>采集深层矿物</PM_MiningDrillDeep.gerund>
+</LanguageData>

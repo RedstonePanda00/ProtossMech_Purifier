@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>PM_KhalaiMechanitor</defName>
+    <label>Phase-smith</label>
+    <description>You studied under a Khalai phase-smith, learning to assemble, calibrate and maintain Protoss machinery. When your training ended, you set out for home with the Probe you had built yourself.\n\nInstead of a flight back to your glitterworld, a band of space pirates arrived. Before they could find you, you and your Probe scrambled aboard a shuttle and fled toward the rimworld below.</description>
+    <scenario>
+      <summary>Start with a young phase-smith and his faithful Probe.</summary>
+      <parts>
+      <li Class="ScenPart_GameStartDialog"><def>GameStartDialog</def><text>Clearly, you never learned how to fly a shuttle. You have done your best to keep it steady, but a crash seems inevitable. After crawling out of the wreckage, you take stock of what remains: some supplies and weapons, and an inactive warp beacon.\n\nYou and your companion are on your own now.</text><closeSound>GameStartSting</closeSound></li>
+      <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+        <def>ConfigurePawnsKindDefs</def><pawnChoiceCount>4</pawnChoiceCount><leftBehindPawnKind>PM_Khalai</leftBehindPawnKind>
+        <kindCounts><li><kindDef>PM_Khalai</kindDef><count>1</count><requiredAtStart>true</requiredAtStart></li></kindCounts>
+      </li>
+      <li Class="ProtossMech.ScenPart_PhaseTechnicianArrival"><def>PM_PhaseTechnicianArrival</def><visible>false</visible></li>
+      <li Class="ScenPart_StartingResearch"><def>StartingResearch</def><project>Electricity</project></li>
+      <li Class="ScenPart_StartingResearch"><def>StartingResearch</def><project>Smithing</project></li>
+      <li Class="ScenPart_StartingResearch"><def>StartingResearch</def><project>Machining</project></li>
+      <li Class="ScenPart_StartingResearch"><def>StartingResearch</def><project>MicroelectronicsBasics</project></li>
+      <li Class="ScenPart_StartingResearch"><def>StartingResearch</def><project>PM_Fundamentals</project></li>
+      <li Class="ScenPart_StartingMech"><def>StartingMech</def><mechKind>PM_FellowProbe</mechKind><overseenByPlayerPawnChance>1</overseenByPlayerPawnChance></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Silver</thingDef><count>800</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>MealSurvivalPack</thingDef><count>40</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>MedicineUltratech</thingDef><count>30</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>ComponentIndustrial</thingDef><count>20</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Gun_SniperRifle</thingDef><count>1</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Plasteel</thingDef><count>150</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>VanometricPowerCell</thingDef><count>4</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Steel</thingDef><count>600</count></li>
+      <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>WoodLog</thingDef><count>300</count></li>
+      <li Class="ScenPart_DisableMapGen"><def>DisableExostriderRemains</def></li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

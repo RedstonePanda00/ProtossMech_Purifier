@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_TemporaryField_Active>折跃能量场已开启：半径 {0} 格</PM_TemporaryField_Active>
+  <PM_TemporaryField_Offline>折跃能量场已关闭：需要供电</PM_TemporaryField_Offline>
+</LanguageData>

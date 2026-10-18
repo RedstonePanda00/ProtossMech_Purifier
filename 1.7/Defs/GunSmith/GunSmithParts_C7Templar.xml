@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Barrel_01</defName>
+        
+        <label>assault coil barrel</label>
+        <description>A compact multi-stage coil barrel tuned for assault fire.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Barrel_01</texPath>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>4</rangeOffset>
+        <projectileDamageOffset>1</projectileDamageOffset>
+        <projectileSpeedFactor>1.10</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.3570, 0.0018)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(0.0407, 0.0024)</offset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.9682, 0.0605)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(0.1912, -0.0096)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.05</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.1</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Barrel_02</defName>
+        
+        <label>20-inch long barrel</label>
+        <description>A 20-inch extended coil barrel. Its longer acceleration path improves velocity, range, penetration, and long-range stability, but sacrifices close-range handling and aiming speed.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Barrel</slotType>
+        <effectPriority>10</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Barrel_02</texPath>
+        <ceFullAuto>true</ceFullAuto>
+        <rangeOffset>8</rangeOffset>
+        <warmupTimeOffset>0.15</warmupTimeOffset>
+        <projectileDamageOffset>1</projectileDamageOffset>
+        <projectileSpeedFactor>1.15</projectileSpeedFactor>
+        <childSlotAnchors>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.6189, 0.0023)</offset>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <offset>(-0.1703, -0.0049)</offset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.8167, 0.0671)</offset>
+            </li>
+            <li>
+                <slotId>FrontIronSight</slotId>
+                <offset>(-0.0733, -0.0064)</offset>
+            </li>
+        </childSlotAnchors>
+        <statOffsets>
+            <RangedWeapon_ArmorPenetrationMultiplier>0.07</RangedWeapon_ArmorPenetrationMultiplier>
+            <AccuracyTouch>-0.06</AccuracyTouch>
+            <AccuracyShort>-0.03</AccuracyShort>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <Mass>0.5</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Grip_01</defName>
+        
+        <label>standard grip</label>
+        <description>A standard pistol grip that provides stable, predictable handling.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Grip1</texPath>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Grip_02</defName>
+        
+        <label>ergonomic grip</label>
+        <description>A contoured ergonomic grip with pronounced finger indexing, improving leverage, presentation, and target transitions.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Grip2</texPath>
+        <warmupTimeOffset>-0.08</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>0.01</AccuracyLong>
+            <Mass>0.08</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Grip_03</defName>
+        
+        <label>skeletonized lightweight grip</label>
+        <description>A skeletonized lightweight grip that removes all nonessential material, letting the shooter shoulder the weapon faster but sacrificing the rigid support needed for accurate long-range fire.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Grip</slotType>
+        <effectPriority>60</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Grip3</texPath>
+        <warmupTimeOffset>-0.12</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyLong>-0.05</AccuracyLong>
+            <Mass>-0.20</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+        <eliteTuning>
+            <weight>
+                <warmupAtMax>0.02</warmupAtMax>
+                <statOffsetsAtMax>
+                    <Mass>0.02</Mass>
+                    <AccuracyMedium>0.01</AccuracyMedium>
+                    <AccuracyLong>0.01</AccuracyLong>
+                </statOffsetsAtMax>
+            </weight>
+        </eliteTuning>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Stock_01</defName>
+        
+        <label>frame tactical stock</label>
+        <description>A rigid open-frame stock that provides stable support, increases firing accuracy, and slightly increases weight.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+        </compatiblePlatforms>
+        <slotType>Stock</slotType>
+        <effectPriority>50</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_stock_01</texPath>
+        <drawOverBody>true</drawOverBody>
+        <statOffsets>
+            <AccuracyTouch>0.03</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.06</AccuracyMedium>
+            <AccuracyLong>0.02</AccuracyLong>
+            <Mass>0.2</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Stock_02</defName>
+        
+        <label>light telescoping stock</label>
+        <description>A compact telescoping stock optimized for mobile close-range fighting. Its lightweight construction favors mobility over medium- and long-range stability.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+        </compatiblePlatforms>
+        <slotType>Stock</slotType>
+        <effectPriority>50</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_stock_02</texPath>
+        <drawOverBody>true</drawOverBody>
+        <wielderMoveSpeedOffset>0.20</wielderMoveSpeedOffset>
+        <warmupTimeOffset>-0.15</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.02</AccuracyShort>
+            <AccuracyMedium>-0.04</AccuracyMedium>
+            <AccuracyLong>-0.08</AccuracyLong>
+            <Mass>-0.3</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Ammo_01</defName>
+        
+        <label>5.8x42 tungsten-alloy penetrators</label>
+        <description>A tungsten-alloy armor-piercing projectile capable of penetrating the armor of light infantry fighting vehicles and robots.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
+        <iconPath>Things/Projectile/Bullet_Small</iconPath>
+        <excludesCombatExtended>true</excludesCombatExtended>
+        <projectilePriority>20</projectilePriority>
+        <projectileOverride>PM_Bullet_C19Dragoon</projectileOverride>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <!-- Visual-only magazine used while vanilla APEX owns the ammunition behavior. -->
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_APEX_MagazineVisual</defName>
+        <label>APEX locked magazine</label>
+        <description>The retained magazine housing while the APEX twin-core system controls ammunition selection.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Magazine_01</defName>
+        
+        <label>30-round assault magazine</label>
+        <description>The default 30-round assault magazine.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_01</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>5</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Magazine_02</defName>
+        
+        <label>45-round extended magazine</label>
+        <description>A 45-round extended magazine that improves sustained fire but adds weight and slows reloading.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Magazine</slotType>
+        <effectPriority>70</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_magazine_02</texPath>
+        <requiresCombatExtended>true</requiresCombatExtended>
+        <ceProvidesMagazineSize>true</ceProvidesMagazineSize>
+        <ceMagazineSize>45</ceMagazineSize>
+        <ceProvidesReloadTimeOffset>true</ceProvidesReloadTimeOffset>
+        <ceReloadTimeOffset>0.35</ceReloadTimeOffset>
+        <statOffsets>
+            <Mass>0.3</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>15</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Laser_01</defName>
+        
+        <label>Ranger box laser</label>
+        <description>A boxed laser designator that provides fast close-range pointing but offers limited value at long range. At close range, the aiming reference provides a minimum level of weapon pointing precision; its assistance fades with distance.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+            <li>PM_GunSmith_B9Zealot</li>
+            <li>PM_GunSmith_B12Vanguard</li>
+            <li>PM_GunSmith_R42</li>
+        </compatiblePlatforms>
+        <slotType>Laser</slotType>
+        <effectPriority>30</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Laser_01</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <warmupTimeOffset>-0.05</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.06</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.02</AccuracyMedium>
+            <AccuracyLong>-0.02</AccuracyLong>
+            <Mass>0.1</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>10</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    <aimingLaser>
+            <color>(0.10, 0.35, 1)</color>
+            <alpha>.25</alpha>
+            <emitterUV>(0.421875, 0.50)</emitterUV>
+            <width>0.035</width>
+            <attenuationDistance>10</attenuationDistance>
+            <maxDistance>60</maxDistance>
+            <dotSize>0.12</dotSize>
+            <cqbFullDistance>5</cqbFullDistance>
+            <cqbEndDistance>12</cqbEndDistance>
+            <accuracyFloor>0.80</accuracyFloor>
+            <ceSwayCap>1</ceSwayCap>
+        </aimingLaser>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_APEX_TwinCore</defName>
+        
+        <label>APEX twin-core smart missile system</label>
+        <description>An APEX fire-control conversion built around two miniature supercomputers. The 5.8x42mm micro-missile follows instructions from a miniature supercomputer to seek out and lock onto an enemy's head. Its plasma-filled warhead bursts on impact, inflicting secondary ionizing radiation and blast damage.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Optic</slotType>
+        <effectPriority>90</effectPriority>
+        <texPath>Things/Weapon/C7Templar/APEX/C7_APEX_Sight</texPath>
+        <isApex>true</isApex>
+        <isApexEntry>true</isApexEntry>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>30</drawOrder>
+        <projectilePriority>100</projectilePriority>
+        <projectileOverride>PM_Bullet_C7Templar_APEX_MicroMissile</projectileOverride>
+        <ceAmmoSetOverride>PM_AmmoSet_C7Templar_APEX_MicroMissile</ceAmmoSetOverride>
+        <rangeOffset>3</rangeOffset>
+        <warmupTimeOffset>-0.18</warmupTimeOffset>
+        <ignoresWeatherAccuracy>true</ignoresWeatherAccuracy>
+        <ignoresSmokeAccuracy>true</ignoresSmokeAccuracy>
+        <detectsCloaked>true</detectsCloaked>
+        <ceShotSpreadOverride>0.020</ceShotSpreadOverride>
+        <ceSwayFactorOverride>0.55</ceSwayFactorOverride>
+        <ceSightsEfficiencyOverride>1.40</ceSightsEfficiencyOverride>
+        <apexForcedParts>
+            <li>
+                <slotId>Barrel</slotId>
+                <part>PM_C7Templar_Barrel_02</part>
+            </li>
+            <li>
+                <slotId>Laser</slotId>
+                <part>PM_C7Templar_APEX_Laser</part>
+            </li>
+            <li>
+                <slotId>Magazine</slotId>
+                <part>PM_C7Templar_APEX_MagazineVisual</part>
+            </li>
+        </apexForcedParts>
+        <apexHiddenSlotIds>
+            <li>Barrel</li>
+            <li>Laser</li>
+            <li>Magazine</li>
+        </apexHiddenSlotIds>
+        <statOffsets>
+            <AccuracyTouch>0.06</AccuracyTouch>
+            <AccuracyShort>0.08</AccuracyShort>
+            <AccuracyMedium>0.10</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <Mass>0.75</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>100</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_APEX_Laser</defName>
+        <label>APEX guidance calculation unit</label>
+        <description>The supercomputer at the muzzle assigns targets to missiles and calculates their paths and swarm behavior.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <slotType>Laser</slotType>
+        <effectPriority>30</effectPriority>
+        <texPath>Things/Weapon/C7Templar/APEX/C7_APEX_Laser</texPath>
+        <relativeToSlotId>Barrel</relativeToSlotId>
+        <isApex>true</isApex>
+        <selectable>false</selectable>
+        <drawOverBody>true</drawOverBody>
+        <drawOrder>20</drawOrder>
+        <warmupTimeOffset>-0.10</warmupTimeOffset>
+        <statOffsets>
+            <AccuracyTouch>0.05</AccuracyTouch>
+            <AccuracyShort>0.05</AccuracyShort>
+            <AccuracyMedium>0.03</AccuracyMedium>
+            <Mass>0.20</Mass>
+        </statOffsets>
+    </GunSmithFramework.GunSmithPartDef>
+
+    <GunSmithFramework.GunSmithPartDef>
+        <defName>PM_C7Templar_Sight_01</defName>
+        
+        <label>millimeter-wave combat sight</label>
+        <description>A fused millimeter-wave and optical fire-control sight. It cuts through weather, smoke and active camouflage while supplying a stable firing solution at every practical range.</description>
+        <platformDef>PM_GunSmith_C7Templar</platformDef>
+        <compatiblePlatforms>
+            <li>PM_GunSmith_C19Dragoon</li>
+            <li>PM_GunSmith_B25Bulwark</li>
+        </compatiblePlatforms>
+        <slotType>Optic</slotType>
+        <effectPriority>90</effectPriority>
+        <texPath>Things/Weapon/C7Templar/C7_Optic_01</texPath>
+        <ignoresWeatherAccuracy>true</ignoresWeatherAccuracy>
+        <ignoresSmokeAccuracy>true</ignoresSmokeAccuracy>
+        <detectsCloaked>true</detectsCloaked>
+        <statOffsets>
+            <AccuracyTouch>0.04</AccuracyTouch>
+            <AccuracyShort>0.04</AccuracyShort>
+            <AccuracyMedium>0.04</AccuracyMedium>
+            <AccuracyLong>0.04</AccuracyLong>
+            <Mass>0.1</Mass>
+        </statOffsets>
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li><thingDef>PM_Solarite</thingDef><count>25</count></li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPartDef>
+
+</Defs>

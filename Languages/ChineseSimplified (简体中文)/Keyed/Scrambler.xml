@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Scrambler_Active>干扰场运作中：半径 {0} 格</PM_Scrambler_Active>
+  <PM_Scrambler_Offline>干扰场已关闭</PM_Scrambler_Offline>
+  <PM_Scrambler_Blocked>敌方干扰器封锁了主动技能</PM_Scrambler_Blocked>
+</LanguageData>

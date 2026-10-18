@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- An adult synthetic body has no human childhood transition. -->
+  <LifeStageDef>
+    <defName>PM_SyntheticAdult</defName><label>adult</label>
+    <developmentalStage>Adult</developmentalStage><visible>false</visible>
+    <reproductive>true</reproductive><sittingOffset>0.18</sittingOffset>
+    <silhouetteGraphicData><texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1</drawSize></silhouetteGraphicData>
+  </LifeStageDef>
+</Defs>

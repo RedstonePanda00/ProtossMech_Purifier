@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Patch>
-  <!--Replace vanilla accuracy tuning with CE stat factors; no CE types are added to the core tuning system.-->
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Grip_01" or defName="PM_C7Templar_Grip_02" or defName="PM_C7Templar_Grip_03" or defName="PM_C19Dragoon_Grip_01" or defName="PM_C19Dragoon_Grip_02" or defName="PM_C19Dragoon_Grip_03" or defName="PM_B9Zealot_Grip_01" or defName="PM_B9Zealot_Grip_02" or defName="PM_B9Zealot_Grip_03" or defName="PM_B12Vanguard_Grip_01" or defName="PM_B12Vanguard_Grip_02" or defName="PM_B12Vanguard_Grip_03" or defName="PM_B25Bulwark_Grip_01" or defName="PM_B25Bulwark_Grip_02" or defName="PM_B25Bulwark_Grip_03" or defName="PM_Common_UB_FrontGrip01" or defName="PM_R42_Sight_01" or defName="PM_R42_Sight_02" or defName="PM_Common_MarksmanOptic"]/eliteTuning/weight/statOffsetsAtMax</xpath>
     <value>

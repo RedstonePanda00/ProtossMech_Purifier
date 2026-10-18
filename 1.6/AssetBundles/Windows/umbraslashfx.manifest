@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3633619793
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 084097b5816e674475e6a62f26bae748
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 084097b5816e674475e6a62f26bae748
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Umbra/Shaders/ModelAntialias.shader
+- Assets/Umbra/Shaders/UmbraMapLight.shader
+- Assets/Umbra/Shaders/UmbraForesightGlow.shader
+- Assets/Umbra/Shaders/UmbraHyperArmorGlow.shader
+Dependencies: []

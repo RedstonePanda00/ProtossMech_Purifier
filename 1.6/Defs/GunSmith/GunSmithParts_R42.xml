@@ -241,7 +241,7 @@
         <defName>PM_R42_Ammo_8x100</defName>
         
         <label>W-5Re penetrator 8×100mm</label>
-        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×100mm.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×100mm.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>Ammo</slotType>
         <effectPriority>80</effectPriority>
@@ -264,7 +264,7 @@
         <defName>PM_R42_Ammo_8x80</defName>
         
         <label>W-5Re penetrator 8×80mm</label>
-        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×80mm.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×80mm.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>Ammo</slotType>
         <effectPriority>80</effectPriority>
@@ -287,7 +287,7 @@
         <defName>PM_R42_Ammo_8x120</defName>
         
         <label>W-5Re penetrator 8×120mm</label>
-        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures and a superconducting composite coating. This projectile measures 8×120mm.</description>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×120mm.</description>
         <platformDef>PM_GunSmith_R42</platformDef>
         <slotType>Ammo</slotType>
         <effectPriority>80</effectPriority>

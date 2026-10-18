@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_MiningDrill.label>矿枪</PM_MiningDrill.label>
+  <PM_MiningDrill.description>发射采矿光束的手提式采矿枪，它使用化合燃料供能，长时间工作会导致过热。</PM_MiningDrill.description>
+  <PM_MiningDrill.tools.0.label>外壳</PM_MiningDrill.tools.0.label>
+</LanguageData>

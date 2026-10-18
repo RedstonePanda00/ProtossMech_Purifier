@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_BlackHat_InvalidTarget>请选择敌方未倒地的机械体或自动炮台。</PM_BlackHat_InvalidTarget>
+  <PM_BlackHat_Recharging>黑帽 充能中：{0}</PM_BlackHat_Recharging>
+  <PM_BlackHat_Disabled>系统遭 黑帽 禁用：{0}</PM_BlackHat_Disabled>
+  <PM_BlackHat_SystemDisabled>系统遭 黑帽 禁用。</PM_BlackHat_SystemDisabled>
+</LanguageData>

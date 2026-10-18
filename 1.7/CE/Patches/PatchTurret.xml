@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/ThingDef[defName="Turret_PhaseCannon"]/verbs/li/range</xpath>
+  <value>
+    <range>75</range>
+  </value>
+</Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Photon_Cannon"]/statBases</xpath>
+    <value>
+      <AimingAccuracy>1.00</AimingAccuracy>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Photon_Cannon"]/statBases/ShootingAccuracyTurret</xpath>
+    <value>
+      <ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gun_PhotonCannon"]</xpath>
+    <value>
+      <ThingDef ParentName="BaseWeaponTurret">
+        <defName>Gun_PhotonCannon</defName>
+        <label>PhotonCannon</label>
+        <description>A mannable autocannon.</description>
+        <graphicData>
+          <texPath>Things/Structure/Photon_Top</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+          <SightsEfficiency>1</SightsEfficiency>
+          <ShotSpread>0.01</ShotSpread>
+          <SwayFactor>1.61</SwayFactor>
+          <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+          <DeteriorationRate>0</DeteriorationRate>
+          <Mass>40</Mass>
+        </statBases>
+        <verbs>
+          <li Class="CombatExtended.VerbPropertiesCE">
+            <recoilAmount>1.5</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_20mmPhoton</defaultProjectile>
+            <warmupTime>0</warmupTime>
+            <range>64</range>
+            <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Shot_Autocannon</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>16</muzzleFlashScale>
+            <recoilPattern>Mounted</recoilPattern>
+          </li>
+        </verbs>
+        <comps>
+          <li Class="CombatExtended.CompProperties_FireModes">
+            <aiAimMode>AimedShot</aiAimMode>
+            <noSnapshot>true</noSnapshot>
+            <noSingleShot>true</noSingleShot>
+          </li>
+        </comps>
+      </ThingDef>
+    </value>
+  </Operation>
+
+  <!-- OverCharge Pylon -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Pylon_OverCharged"]/statBases</xpath>
+    <value>
+      <AimingAccuracy>1.00</AimingAccuracy>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Pylon_OverCharged"]/statBases/ShootingAccuracyTurret</xpath>
+    <value>
+      <ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gun_OverchargePylon"]</xpath>
+    <value>
+      <ThingDef ParentName="BaseWeaponTurret">
+        <defName>Gun_OverchargePylon</defName>
+        <label>OverCharged Pylon</label>
+        <description>This Pylon is overcharged.</description>
+        <graphicData>
+          <texPath>Things/Structure/OCP_Ele</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+          <SightsEfficiency>1</SightsEfficiency>
+          <ShotSpread>0.01</ShotSpread>
+          <SwayFactor>1.61</SwayFactor>
+          <RangedWeapon_Cooldown>0.33</RangedWeapon_Cooldown>
+          <DeteriorationRate>0</DeteriorationRate>
+          <Mass>40</Mass>
+        </statBases>
+        <verbs>
+          <li Class="CombatExtended.VerbPropertiesCE">
+            <recoilAmount>1.5</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_20mmPhoton</defaultProjectile>
+            <warmupTime>0</warmupTime>
+            <range>72</range>
+            <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Shot_Autocannon</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>16</muzzleFlashScale>
+            <recoilPattern>Mounted</recoilPattern>
+          </li>
+        </verbs>
+        <comps>
+          <li Class="CombatExtended.CompProperties_FireModes">
+            <aiAimMode>AimedShot</aiAimMode>
+            <noSnapshot>true</noSnapshot>
+            <noSingleShot>true</noSingleShot>
+          </li>
+        </comps>
+      </ThingDef>
+    </value>
+  </Operation>
+
+</Patch>

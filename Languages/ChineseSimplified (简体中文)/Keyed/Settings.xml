@@ -9,6 +9,37 @@
   <ProtossMech.Settings.CompatibilityDesc>勾选允许作用于本模组机械体的健康状态。</ProtossMech.Settings.CompatibilityDesc>
   <ProtossMech.Settings.Overheat>启示录：净化者巨像</ProtossMech.Settings.Overheat>
   <ProtossMech.Settings.OverheatDesc>启用净化者巨像的特殊战斗模式。</ProtossMech.Settings.OverheatDesc>
+  <ProtossMech.Settings.UmbraFocus>渊影:集中模式</ProtossMech.Settings.UmbraFocus>
+  <ProtossMech.Settings.UmbraFocusDesc>开启后，渊影进入斩形态时自动启用集中模式，以按键手动控制。</ProtossMech.Settings.UmbraFocusDesc>
+  <ProtossMech.Settings.Focus.Title>集中模式键位</ProtossMech.Settings.Focus.Title>
+  <ProtossMech.Settings.Focus.Description>点击按键修改。方向键按屏幕方向移动并逐渐转向；弧形显示实际朝向。退出后切回曲刃。</ProtossMech.Settings.Focus.Description>
+  <ProtossMech.Settings.Focus.MoveForward>向屏幕上方移动</ProtossMech.Settings.Focus.MoveForward>
+  <ProtossMech.Settings.Focus.MoveBack>向屏幕下方移动</ProtossMech.Settings.Focus.MoveBack>
+  <ProtossMech.Settings.Focus.MoveLeft>向左移动</ProtossMech.Settings.Focus.MoveLeft>
+  <ProtossMech.Settings.Focus.MoveRight>向右移动</ProtossMech.Settings.Focus.MoveRight>
+  <ProtossMech.Settings.Focus.Slash>斩击</ProtossMech.Settings.Focus.Slash>
+  <ProtossMech.Settings.Focus.Thrust>突刺／上撩</ProtossMech.Settings.Focus.Thrust>
+  <ProtossMech.Settings.Focus.Spirit>气刃</ProtossMech.Settings.Focus.Spirit>
+  <ProtossMech.Settings.Focus.Evade>回避／翻滚</ProtossMech.Settings.Focus.Evade>
+  <ProtossMech.Settings.Focus.Exit>退出集中模式</ProtossMech.Settings.Focus.Exit>
+  <ProtossMech.Settings.Focus.Foresight>看破</ProtossMech.Settings.Focus.Foresight>
+  <ProtossMech.Settings.Focus.SpiritThrust>气刃突刺</ProtossMech.Settings.Focus.SpiritThrust>
+  <ProtossMech.Settings.Focus.SpecialSheathe>特殊纳刀</ProtossMech.Settings.Focus.SpecialSheathe>
+  <ProtossMech.Settings.Focus.ChargedSheathe>长按 {0} 进行蓄力气刃斩，蓄满松开后发动大回旋；蓄力中按 {1} 直接进入光芒纳刀。也可组合按下 {0} + {1}，保持 {0} 1 秒进入。光芒纳刀可松键保持，再次按下 {0} 发动相杀斩[一闪]。</ProtossMech.Settings.Focus.ChargedSheathe>
+  <ProtossMech.Settings.Focus.ComboRule>两键在 0.15 秒输入窗口内按下且有重叠保持，即触发组合招式；第一个键会暂缓执行，超时或提前松开才执行单键动作。长期按住一个键再按另一键不算组合。</ProtossMech.Settings.Focus.ComboRule>
+  <ProtossMech.Settings.Focus.Reset>恢复默认键位</ProtossMech.Settings.Focus.Reset>
+  <ProtossMech.Settings.Focus.Capture>按下要使用的键盘按键，或在此窗口空白处按鼠标键。Esc 取消。</ProtossMech.Settings.Focus.Capture>
+  <ProtossMech.Settings.Focus.CaptureExit>按下要使用的键盘按键，或在此窗口空白处按鼠标键。Esc 可绑定为退出键；点击下方按钮取消。</ProtossMech.Settings.Focus.CaptureExit>
+  <ProtossMech.Settings.Focus.Conflict>这个按键已用于“{0}”，请换一个按键。</ProtossMech.Settings.Focus.Conflict>
+  <ProtossMech.Settings.Focus.InvalidKey>请选择有效的键盘或鼠标按键；Esc 仅用于退出。</ProtossMech.Settings.Focus.InvalidKey>
+  <ProtossMech.Settings.Focus.Mouse0>鼠标左键</ProtossMech.Settings.Focus.Mouse0>
+  <ProtossMech.Settings.Focus.Mouse1>鼠标右键</ProtossMech.Settings.Focus.Mouse1>
+  <ProtossMech.Settings.Focus.Mouse2>鼠标中键</ProtossMech.Settings.Focus.Mouse2>
+  <ProtossMech.Settings.Focus.Mouse3>鼠标侧键 1</ProtossMech.Settings.Focus.Mouse3>
+  <ProtossMech.Settings.Focus.Mouse4>鼠标侧键 2</ProtossMech.Settings.Focus.Mouse4>
+  <ProtossMech.Settings.Focus.Mouse5>鼠标键 6</ProtossMech.Settings.Focus.Mouse5>
+  <ProtossMech.Settings.Focus.Mouse6>鼠标键 7</ProtossMech.Settings.Focus.Mouse6>
+  <ProtossMech.Settings.Focus.Space>空格</ProtossMech.Settings.Focus.Space>
   <ProtossMech.Settings.Elite>精英枪匠</ProtossMech.Settings.Elite>
   <ProtossMech.Settings.EliteDesc>允许更细致地对枪械进行客制化，包括更细节的枪匠系统和精英微调。</ProtossMech.Settings.EliteDesc>
   <ProtossMech.Settings.Search>搜索名称或 DefName</ProtossMech.Settings.Search>
@@ -17,4 +48,6 @@
   <ProtossMech.Settings.Unknown>未知来源</ProtossMech.Settings.Unknown>
   <ProtossMech.Settings.Empty>没有匹配的健康状态</ProtossMech.Settings.Empty>
   <ProtossMech.Settings.Count>匹配条目：{0}</ProtossMech.Settings.Count>
+  <ProtossMech.Settings.Focus.Active>集中模式</ProtossMech.Settings.Focus.Active>
+  <ProtossMech.Settings.Focus.FadeSlash>袈裟斩</ProtossMech.Settings.Focus.FadeSlash>
 </LanguageData>

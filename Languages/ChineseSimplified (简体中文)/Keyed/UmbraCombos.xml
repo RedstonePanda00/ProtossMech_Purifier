@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM.Combo.Slot>连招槽位 {0}</PM.Combo.Slot>
+  <PM.Combo.GizmoDesc>左键选定目标，自动执行一整套连招。右键配置招式顺序。目标死亡后继续攻击其最后位置；条件不足时中断。空槽左键也可配置。</PM.Combo.GizmoDesc>
+  <PM.Combo.CounterIai>居合拔刀气刃斩（等待反击）</PM.Combo.CounterIai>
+  <PM.Combo.ReleaseRadiant>结束光芒纳刀 → 无双终结连段</PM.Combo.ReleaseRadiant>
+  <PM.Combo.Empty>请先配置这个连招槽位。</PM.Combo.Empty>
+  <PM.Combo.InvalidTarget>请选择可攻击的目标。</PM.Combo.InvalidTarget>
+  <PM.Combo.InvalidRoute>连招顺序不合法，请右键重新配置。</PM.Combo.InvalidRoute>
+  <PM.Combo.Interrupted>连招已中断：当前无法操控斩形态。</PM.Combo.Interrupted>
+  <PM.Combo.Timeout>连招已中断：追击或等待时间过长。</PM.Combo.Timeout>
+  <PM.Combo.CounterFailed>连招已中断：未满足反击成功并命中的衔接条件。</PM.Combo.CounterFailed>
+  <PM.Combo.Conditions>连招已中断：当前刃色、练气或招式衔接条件不满足。</PM.Combo.Conditions>
+  <PM.Combo.Unreachable>连招已中断：无法到达目标位置。</PM.Combo.Unreachable>
+  <PM.Combo.EditorTitle>斩形态 · 连招配置</PM.Combo.EditorTitle>
+  <PM.Combo.Name>连招名称</PM.Combo.Name>
+  <PM.Combo.StartGrade>起手刃色预览</PM.Combo.StartGrade>
+  <PM.Combo.Sequence>招式顺序</PM.Combo.Sequence>
+  <PM.Combo.NextMoves>可衔接的下一式</PM.Combo.NextMoves>
+  <PM.Combo.Cost>练气总消耗：{0}　｜　预计结束刃色：{1}</PM.Combo.Cost>
+  <PM.Combo.InvalidAt>第 {0} 式无法衔接。请删除或调整该式，或修改起手刃色。</PM.Combo.InvalidAt>
+  <PM.Combo.PreviewAssumptions>预览按所选刃色、满练气、每式命中计算；实战资源与刃色以实际状态为准。兜割和无双终结包含原有的自动后续动作。</PM.Combo.PreviewAssumptions>
+  <PM.Combo.CounterNote>包含条件分支：看破需成功反击并命中才能继续；居合“等待反击”仅在纳刀反击窗口内触发，失败会中断。</PM.Combo.CounterNote>
+  <PM.Combo.Clear>清空</PM.Combo.Clear>
+  <PM.Combo.Cancel>取消</PM.Combo.Cancel>
+  <PM.Combo.Save>保存</PM.Combo.Save>
+  <PM.Combo.UnfinishedStance>纳刀姿态尚未结束，请添加后续招式再保存。</PM.Combo.UnfinishedStance>
+</LanguageData>

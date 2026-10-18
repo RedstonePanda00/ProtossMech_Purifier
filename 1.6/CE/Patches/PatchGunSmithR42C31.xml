@@ -20,7 +20,7 @@
             <burstShotCount>1</burstShotCount>
             <soundCast>ChargeLance_Fire</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
-            <muzzleFlashScale>9</muzzleFlashScale>
+            <muzzleFlashScale>0</muzzleFlashScale>
         </Properties>
         <AmmoUser>
             <magazineSize>1</magazineSize>

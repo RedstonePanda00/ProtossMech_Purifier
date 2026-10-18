@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>PM_UmbraChildhood</defName><title>new-generation protoss</title><titleShort>young protoss</titleShort><slot>Childhood</slot>
+    <baseDesc>Young protoss born after the End War are often uninterested in ancient protoss culture and traditions. They eagerly embrace new things.</baseDesc>
+    <spawnCategories><li>PM_UmbraOnly</li></spawnCategories><requiresSpawnCategory>true</requiresSpawnCategory>
+    <skillGains><Intellectual>4</Intellectual><Social>2</Social></skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>PM_UmbraAdulthood</defName><title>Star Devourer Umbra</title><titleShort>Umbra</titleShort><slot>Adulthood</slot>
+    <baseDesc>{PAWN_nameDef} emerged from a rigorous selection process to become an Umbra.</baseDesc>
+    <spawnCategories><li>PM_UmbraOnly</li></spawnCategories><requiresSpawnCategory>true</requiresSpawnCategory>
+    <skillGains><Crafting>4</Crafting><Medicine>2</Medicine><Social>2</Social></skillGains>
+  </BackstoryDef>
+</Defs>

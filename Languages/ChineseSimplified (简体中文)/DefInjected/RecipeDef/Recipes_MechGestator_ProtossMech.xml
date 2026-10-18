@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: gestate Protoss colossus mech -->
-  <Colossus.label>建造净化者巨像</Colossus.label>
-  <!-- EN: Gestate an Protoss colossus mechanoid. -->
-  <Colossus.description>建造净化者巨像。</Colossus.description>
-  <!-- EN: Gestating mech. -->
-  <Colossus.jobString>建造机械体</Colossus.jobString>
+  <!-- EN: Purifier Colossus warp-in costs -->
+  <Colossus.label>净化者巨像折跃消耗</Colossus.label>
+  <!-- EN: View the resources required to warp in a Purifier Colossus from the Aurora. -->
+  <Colossus.description>查看从曙光号折跃一台净化者巨像所需的资源。</Colossus.description>
+  <!-- EN: Warping in a Purifier Colossus. -->
+  <Colossus.jobString>折跃净化者巨像</Colossus.jobString>
   
-  <!-- EN: gestate Protoss Havoc mech -->
-  <Havoc.label>建造浩劫</Havoc.label>
-  <!-- EN: Gestate a Tal'darim Havoc mechanoid. -->
-  <Havoc.description>建造一台塔达林浩劫机械哨兵。</Havoc.description>
-  <!-- EN: Gestating mech. -->
-  <Havoc.jobString>建造机械体</Havoc.jobString>
+  <!-- EN: Havoc warp-in costs -->
+  <Havoc.label>浩劫折跃消耗</Havoc.label>
+  <!-- EN: View the resources required to warp in a Havoc from the Aurora. -->
+  <Havoc.description>查看从曙光号折跃一台浩劫所需的资源。</Havoc.description>
+  <!-- EN: Warping in a Havoc. -->
+  <Havoc.jobString>折跃浩劫</Havoc.jobString>
   
-  <!-- EN: gestate Protoss Energizer mech -->
-  <Energizer.label>建造鼓舞者</Energizer.label>
-  <!-- EN: Gestate an Protoss Energizer mechanoid. -->
-  <Energizer.description>建造鼓舞者。</Energizer.description>
-  <!-- EN: Gestating mech. -->
-  <Energizer.jobString>建造机械体</Energizer.jobString>
+  <!-- EN: Energizer warp-in costs -->
+  <Energizer.label>激励者折跃消耗</Energizer.label>
+  <!-- EN: View the resources required to warp in an Energizer from the Aurora. -->
+  <Energizer.description>查看从曙光号折跃一台激励者所需的资源。</Energizer.description>
+  <!-- EN: Warping in an Energizer. -->
+  <Energizer.jobString>折跃激励者</Energizer.jobString>
   
-  <!-- EN: gestate Protoss Legionnaire mech -->
-  <Legionnaire.label>建造军团士兵</Legionnaire.label>
-  <!-- EN: Gestate an Protoss Legionnaire mechanoid. -->
-  <Legionnaire.description>建造军团士兵。</Legionnaire.description>
-  <!-- EN: Gestating mech. -->
-  <Legionnaire.jobString>建造机械体</Legionnaire.jobString>
+  <!-- EN: Legionnaire warp-in costs -->
+  <Legionnaire.label>军团士兵折跃消耗</Legionnaire.label>
+  <!-- EN: View the resources required to warp in a Legionnaire from the Aurora. -->
+  <Legionnaire.description>查看从曙光号折跃一位军团士兵所需的资源。</Legionnaire.description>
+  <!-- EN: Warping in a Legionnaire. -->
+  <Legionnaire.jobString>折跃军团士兵</Legionnaire.jobString>
   
-  <!-- EN: gestate Protoss Disruptor mech -->
-  <PM_GenDisruptor.label>建造干扰者</PM_GenDisruptor.label>
-  <!-- EN: Gestate an Protoss Disruptor mechanoid. -->
-  <PM_GenDisruptor.description>建造干扰者。</PM_GenDisruptor.description>
-  <!-- EN: Gestating mech. -->
-  <PM_GenDisruptor.jobString>建造机械体</PM_GenDisruptor.jobString>
+  <!-- EN: Disruptor warp-in costs -->
+  <PM_GenDisruptor.label>干扰者折跃消耗</PM_GenDisruptor.label>
+  <!-- EN: View the resources required to warp in a Disruptor from the Aurora. -->
+  <PM_GenDisruptor.description>查看从曙光号折跃一台干扰者所需的资源。</PM_GenDisruptor.description>
+  <!-- EN: Warping in a Disruptor. -->
+  <PM_GenDisruptor.jobString>折跃干扰者</PM_GenDisruptor.jobString>
   
-  <!-- EN: gestate Protoss Servitor mech -->
-  <PM_GenServitor.label>制造服务机</PM_GenServitor.label>
-  <!-- EN: Gestate an Protoss Servitor mechanoid. -->
-  <PM_GenServitor.description>建造服务机。</PM_GenServitor.description>
-  <!-- EN: Gestating mech. -->
-  <PM_GenServitor.jobString>建造机械体</PM_GenServitor.jobString>
+  <!-- EN: Servitor warp-in costs -->
+  <PM_GenServitor.label>服务机折跃消耗</PM_GenServitor.label>
+  <!-- EN: View the resources required to warp in a Servitor from the Aurora. -->
+  <PM_GenServitor.description>查看从曙光号折跃一架服务机所需的资源。</PM_GenServitor.description>
+  <!-- EN: Warping in a Servitor. -->
+  <PM_GenServitor.jobString>折跃服务机</PM_GenServitor.jobString>
   
-  <!-- EN: gestate Protoss Probe mech -->
-  <Probe.label>建造探机</Probe.label>
-  <!-- EN: Gestate an Protoss Probe mechanoid. -->
-  <Probe.description>建造探机。</Probe.description>
-  <!-- EN: Gestating mech. -->
-  <Probe.jobString>建造机械体</Probe.jobString>
+  <!-- EN: Probe warp-in costs -->
+  <Probe.label>探机折跃消耗</Probe.label>
+  <!-- EN: View the resources required to warp in a Probe from the Aurora. -->
+  <Probe.description>查看从曙光号折跃一台探机所需的资源。</Probe.description>
+  <!-- EN: Warping in a Probe. -->
+  <Probe.jobString>折跃探机</Probe.jobString>
   
-  <!-- EN: gestate Protoss PurifierImmortal mech -->
-  <PurifierImmortal.label>建造净化者不朽者</PurifierImmortal.label>
-  <!-- EN: Gestate an Protoss PurifierImmortal mechanoid. -->
-  <PurifierImmortal.description>建造净化者不朽者。</PurifierImmortal.description>
-  <!-- EN: Gestating mech. -->
-  <PurifierImmortal.jobString>建造机械体</PurifierImmortal.jobString>
+  <!-- EN: Purifier Immortal warp-in costs -->
+  <PurifierImmortal.label>净化者不朽者折跃消耗</PurifierImmortal.label>
+  <!-- EN: View the resources required to warp in a Purifier Immortal from the Aurora. -->
+  <PurifierImmortal.description>查看从曙光号折跃一位净化者不朽者所需的资源。</PurifierImmortal.description>
+  <!-- EN: Warping in a Purifier Immortal. -->
+  <PurifierImmortal.jobString>折跃净化者不朽者</PurifierImmortal.jobString>
 
-  <!-- EN: gestate Protoss Megalith mech -->
-  <PM_GenMegalith.label>建造麦加利斯</PM_GenMegalith.label>
-  <!-- EN: Gestate a Protoss Megalith mechanoid. -->
-  <PM_GenMegalith.description>建造一台麦加利斯机械体。</PM_GenMegalith.description>
-  <!-- EN: Gestating mech. -->
-  <PM_GenMegalith.jobString>建造机械体</PM_GenMegalith.jobString>
+  <!-- EN: Megalith warp-in costs -->
+  <PM_GenMegalith.label>麦加利斯折跃消耗</PM_GenMegalith.label>
+  <!-- EN: View the resources required to warp in a Megalith from the Aurora. -->
+  <PM_GenMegalith.description>查看从曙光号折跃一台麦加利斯所需的资源。</PM_GenMegalith.description>
+  <!-- EN: Warping in a Megalith. -->
+  <PM_GenMegalith.jobString>折跃麦加利斯</PM_GenMegalith.jobString>
   
   <!-- EN: resurrect Light Protoss mechanoid -->
   <ResurrectProtossMechLight.label>复活轻型星灵机械体</ResurrectProtossMechLight.label>
@@ -78,25 +78,31 @@
   <!-- EN: Resurrecting mech. -->
   <ResurrectPurifierMechHeavy.jobString>复活机械体</ResurrectPurifierMechHeavy.jobString>
   
-  <!-- EN: gestate Protoss Sentinel mech -->
-  <Sentinel.label>建造警戒者</Sentinel.label>
-  <!-- EN: Gestate an Protoss Sentinel mechanoid. -->
-  <Sentinel.description>建造警戒者。</Sentinel.description>
-  <!-- EN: Gestating mech. -->
-  <Sentinel.jobString>复活机械体</Sentinel.jobString>
+  <!-- EN: Sentinel warp-in costs -->
+  <Sentinel.label>警戒者折跃消耗</Sentinel.label>
+  <!-- EN: View the resources required to warp in a Sentinel from the Aurora. -->
+  <Sentinel.description>查看从曙光号折跃一台警戒者所需的资源。</Sentinel.description>
+  <!-- EN: Warping in a Sentinel. -->
+  <Sentinel.jobString>折跃警戒者</Sentinel.jobString>
   
-  <!-- EN: gestate Protoss Sentry mech -->
-  <Sentry.label>建造机械哨兵</Sentry.label>
-  <!-- EN: Gestate an Protoss Sentry mechanoid. -->
-  <Sentry.description>建造机械哨兵。</Sentry.description>
-  <!-- EN: Gestating mech. -->
-  <Sentry.jobString>复活机械体</Sentry.jobString>
+  <!-- EN: Sentry warp-in costs -->
+  <Sentry.label>机械哨兵折跃消耗</Sentry.label>
+  <!-- EN: View the resources required to warp in a Sentry from the Aurora. -->
+  <Sentry.description>查看从曙光号折跃一台机械哨兵所需的资源。</Sentry.description>
+  <!-- EN: Warping in a Sentry. -->
+  <Sentry.jobString>折跃机械哨兵</Sentry.jobString>
   
-  <!-- EN: gestate Protoss Umbra mech -->
-  <PM_GenUmbra.label>建造渊影</PM_GenUmbra.label>
-  <!-- EN: Gestate a Protoss Umbra mechanoid. -->
-  <PM_GenUmbra.description>建造渊影机械体。</PM_GenUmbra.description>
-  <!-- EN: Gestating mech. -->
-  <PM_GenUmbra.jobString>建造机械体</PM_GenUmbra.jobString>
+  <!-- EN: Umbra warp-in costs -->
+  <PM_GenUmbra.label>渊影折跃消耗</PM_GenUmbra.label>
+  <!-- EN: View the resources required to warp in an Umbra from the Aurora. -->
+  <PM_GenUmbra.description>查看从曙光号折跃一位渊影所需的资源。</PM_GenUmbra.description>
+  <!-- EN: Warping in an Umbra. -->
+  <PM_GenUmbra.jobString>折跃渊影</PM_GenUmbra.jobString>
   
+  <!-- EN: Cosmic Spider warp-in costs -->
+  <PM_GenCosmicSpider.label>星灵蛛折跃消耗</PM_GenCosmicSpider.label>
+  <!-- EN: View the resources required to warp in a Cosmic Spider from the Aurora. -->
+  <PM_GenCosmicSpider.description>查看从曙光号折跃一只星灵蛛所需的资源。</PM_GenCosmicSpider.description>
+  <!-- EN: Warping in a Cosmic Spider. -->
+  <PM_GenCosmicSpider.jobString>折跃星灵蛛</PM_GenCosmicSpider.jobString>
 </LanguageData>

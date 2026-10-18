@@ -26,6 +26,7 @@
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <destroyOnDrop>false</destroyOnDrop>
+        <relicChance>0</relicChance>
         <graphicData>
             <texPath>Things/Weapon/C19/C19_Body</texPath>
             <graphicClass>Graphic_Single</graphicClass>

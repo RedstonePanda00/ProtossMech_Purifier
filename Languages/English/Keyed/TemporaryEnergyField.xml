@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_TemporaryField_Active>Warp field active: radius {0} cells</PM_TemporaryField_Active>
+  <PM_TemporaryField_Offline>Warp field offline: requires power</PM_TemporaryField_Offline>
+</LanguageData>

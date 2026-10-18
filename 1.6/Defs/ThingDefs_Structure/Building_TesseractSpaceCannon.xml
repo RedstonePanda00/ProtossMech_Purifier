@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Tesseract Space Cannon: single-target instant beam, 5 Bullet damage, 1/sec; locks target in Stance_Cooldown + Wait 0.5 sec -->
+
   <ThingDef ParentName="PhotonCannon">
     <defName>PM_TesseractSpaceCannon</defName>
     <label>Tesseract Space Cannon</label>
@@ -40,9 +40,7 @@
       <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
       <turretTopDrawSize>2.0</turretTopDrawSize>
     </building>
-    <researchPrerequisites>
-      <li>PM_PurifierProject</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>PM_QuantumGravity</li></researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">

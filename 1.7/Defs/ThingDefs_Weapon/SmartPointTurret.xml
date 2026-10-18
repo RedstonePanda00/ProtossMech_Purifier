@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>PM_Gun_SmartPointTurret</defName><label>Hammer micro-missile accelerator</label>
+    <graphicData><texPath>Things/Structure/SmartPointTurret/Top</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <statBases><RangedWeapon_Cooldown>2</RangedWeapon_Cooldown><Mass>5</Mass></statBases>
+    <weaponTags><li>Patched</li></weaponTags>
+    <verbs><li>
+      <verbClass>ProtossMech.Verb_SmartPointTurret</verbClass><hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PM_Bullet_HammerMicroMissile</defaultProjectile>
+      <warmupTime>0</warmupTime><range>24.9</range><burstShotCount>3</burstShotCount><ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+      <soundCast>Shot_AssaultRifle</soundCast><soundCastTail>GunTail_Medium</soundCastTail><muzzleFlashScale>5</muzzleFlashScale>
+    </li></verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PM_Bullet_HammerMicroMissile</defName><label>9mm Hammer micro-missile</label>
+    <description>A guided micro-missile launched by a half-ring accelerator. It follows its locked target around obstacles and self-destructs after five seconds in flight.</description>
+    <thingClass>ProtossMech.Bullet_HammerMicroMissile</thingClass>
+    <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(0.3,0.3)</drawSize></graphicData>
+    <comps><li Class="ProtossMech.CompProperties_HammerGuidance" /></comps>
+    <projectile><damageDef>Bullet</damageDef><damageAmountBase>18</damageAmountBase><armorPenetrationBase>0.25</armorPenetrationBase><speed>80</speed><stoppingPower>1</stoppingPower></projectile>
+  </ThingDef>
+</Defs>

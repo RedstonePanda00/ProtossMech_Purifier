@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Point_Locking>Locking: {0}</PM_Point_Locking>
+  <PM_Point_Remaining>Remaining duration: {0}</PM_Point_Remaining>
+  <PM_Point_Blocked>The smart point turret could not deploy. Its backpack has been returned.</PM_Point_Blocked>
+</LanguageData>

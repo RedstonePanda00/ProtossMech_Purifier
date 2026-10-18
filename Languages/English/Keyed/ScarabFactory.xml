@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Scarab_Stock>Scarabs: {0} / {1}</PM_Scarab_Stock>
+  <PM_Scarab_Printing>Printing: {0}</PM_Scarab_Printing>
+  <PM_Scarab_Remaining>Supercapacitor: {0}</PM_Scarab_Remaining>
+  <PM_Scarab_Blocked>The landing area is blocked. The portable Scarab factory has been recovered.</PM_Scarab_Blocked>
+</LanguageData>

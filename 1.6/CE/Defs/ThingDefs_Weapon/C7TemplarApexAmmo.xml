@@ -55,7 +55,7 @@
         <label>make 5.8x42 micro-missiles x300</label>
         <description>Craft 300 guided 5.8x42 micro-missiles for the C-7 APEX twin-core system.</description>
         <jobString>Making 5.8x42 micro-missiles.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>18</count></li>
             <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>6</count></li>

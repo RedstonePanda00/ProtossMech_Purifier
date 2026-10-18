@@ -16,9 +16,7 @@
             </li>
         </costList>
         <warpInTicks>180</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_Fundamentals</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_KhalaiMechStart</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -38,10 +36,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_KhalaiMechAdvance</li>
-            <li>PM_SyntheticPersonality</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PositronicAI</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -65,9 +60,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_KhalaiMechAdvance</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_KhalaiMechAdvance</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -91,9 +84,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_TaldarimMechStart</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_TaldarimMechStart</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -117,10 +108,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_KhalaiMechAdvance</li>
-            <li>PM_SyntheticPersonality</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_QuantumGravity</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -129,20 +117,9 @@
         <label>Servitor</label>
         <description>Warp in a Servitor.</description>
         <pawnDefName>PM_Servitor</pawnDefName>
-        <costList>
-            <li>
-                <thingDef>Plasteel</thingDef>
-                <count>50</count>
-            </li>
-            <li>
-                <thingDef>ComponentSpacer</thingDef>
-                <count>1</count>
-            </li>
-        </costList>
+        <costList><li><thingDef>Plasteel</thingDef><count>50</count></li><li><thingDef>ComponentIndustrial</thingDef><count>3</count></li></costList>
         <warpInTicks>180</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_KhalaiMechStart</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_Fundamentals</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -163,10 +140,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_KhalaiMechAdvance</li>
-            <li>PM_PurifierProject</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierProject</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -190,10 +164,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_KhalaiMechAdvance</li>
-            <li>PM_PurifierProject</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierProject</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -217,9 +188,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_PurifierProjectFinal</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierSiege</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -243,9 +212,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_PurifierProjectFinal</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierSiege</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -254,20 +221,9 @@
         <label>Cosmic Spider</label>
         <description>Warp in a Cosmic Spider.</description>
         <pawnDefName>PM_CosmicSpider</pawnDefName>
-        <costList>
-            <li>
-                <thingDef>PM_Adanium</thingDef>
-                <count>150</count>
-            </li>
-            <li>
-                <thingDef>PM_Solarite</thingDef>
-                <count>100</count>
-            </li>
-        </costList>
+        <costList><li><thingDef>PM_Adanium</thingDef><count>150</count></li><li><thingDef>PM_Solarite</thingDef><count>100</count></li><li><thingDef>AIPersonaCore</thingDef><count>1</count></li></costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_PurifierProjectFinal</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierProjectFinal</li></researchPrerequisites>
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -291,9 +247,7 @@
             </li>
         </costList>
         <warpInTicks>300</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_PurifierProject</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierProject</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpRoboticsFacility</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 
@@ -318,10 +272,7 @@
             </li>
         </costList>
         <warpInTicks>240</warpInTicks>
-        <researchPrerequisites>
-            <li>PM_NerazimMechStart</li>
-            <li>PM_PurifierProject</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_PurifierProjectFinal</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
         <requiredGateDef>PM_WarpGate</requiredGateDef>
     </ProtossMech.WarpReinforcementDef>
 

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <ReservationLayerDef>
+    <defName>PM_MegalithDeepResource</defName>
+  </ReservationLayerDef>
 
   <JobDef>
     <defName>PM_MegalithHarvest</defName>

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1256560716
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5076e2481b2a931c924cb86c87a5893c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5076e2481b2a931c924cb86c87a5893c
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PMScrambler/ScramblerLens.shader
+Dependencies: []

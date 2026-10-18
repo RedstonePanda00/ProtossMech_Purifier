@@ -25,8 +25,8 @@
   
   <!-- EN: Umbra -->
   <PM_Umbra.label>渊影</PM_Umbra.label>
-  <!-- EN: The Umbra is the Purifier iteration of the Dark Templar... -->
-  <PM_Umbra.description>渊影是黑暗圣堂武士的净化者版本。摒弃光学迷彩的依赖，其机体采用激进设计：由局部神经网连接的数百万微型无人机组成的聚合蜂群。利用微观预判闪避，让弹道无害地穿过其变幻形态，再以高密度曲刃发动致命一击。</PM_Umbra.description>
+  <!-- EN: The Umbra chassis was personally designed by Executor Sigmar to meet the needs of specialized infiltration operations.\n\nEvery Umbra is a member of the Star Devourers, one of Sigmar's personal guards, and an elite among elites.\n\nTheir bodies consist entirely of nanite swarms, rendering them almost immune to all physical attacks while granting them extraordinary mobility and infiltration capabilities. -->
+  <PM_Umbra.description>渊影机体由执行官 Sigmar 亲自设计，旨在满足特种渗透作战的需求。\n\n作为噬星者的一员与 Sigmar 的直属亲卫，每位渊影都是精英中的精英。\n\n他们的机体完全由纳米蜂群构成，使其几乎免疫所有物理攻击，同时拥有惊人的机动性和渗透能力。</PM_Umbra.description>
   <!-- EN: Warp blade -->
   <PM_Umbra.tools.Warp_blade.label>曲刃</PM_Umbra.tools.Warp_blade.label>
   

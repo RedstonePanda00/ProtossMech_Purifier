@@ -81,6 +81,7 @@
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <destroyOnDrop>false</destroyOnDrop>
+        <relicChance>0</relicChance>
         <graphicData>
             <texPath>Things/Weapon/C31Tempest/C31Tempest_body</texPath>
             <graphicClass>Graphic_Single</graphicClass>

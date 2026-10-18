@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Scarab_Stock>金甲虫库存：{0} / {1}</PM_Scarab_Stock>
+  <PM_Scarab_Printing>打印剩余时间：{0}</PM_Scarab_Printing>
+  <PM_Scarab_Remaining>超级电容剩余时间：{0}</PM_Scarab_Remaining>
+  <PM_Scarab_Blocked>部署区域被阻挡，便携式金甲虫工厂已退回地面。</PM_Scarab_Blocked>
+</LanguageData>

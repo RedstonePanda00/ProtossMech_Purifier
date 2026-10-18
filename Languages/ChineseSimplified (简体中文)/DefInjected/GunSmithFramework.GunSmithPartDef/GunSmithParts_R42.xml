@@ -24,13 +24,13 @@
   <PM_R42_Sight_02.description>极为轻便的红点瞄具，拥有宽阔清晰的瞄准视野。它专为近距离快速交战设计，但会牺牲中远距离精度。</PM_R42_Sight_02.description>
 
   <PM_R42_Ammo_8x100.label>W-5Re穿甲杆 8×100mm</PM_R42_Ammo_8x100.label>
-  <PM_R42_Ammo_8x100.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，带有超导复合涂层。这枚弹丸是8×100mm的</PM_R42_Ammo_8x100.description>
+  <PM_R42_Ammo_8x100.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×100mm的</PM_R42_Ammo_8x100.description>
 
   <PM_R42_Ammo_8x80.label>W-5Re穿甲杆 8×80mm</PM_R42_Ammo_8x80.label>
-  <PM_R42_Ammo_8x80.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，带有超导复合涂层。这枚弹丸是8×80mm的</PM_R42_Ammo_8x80.description>
+  <PM_R42_Ammo_8x80.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×80mm的</PM_R42_Ammo_8x80.description>
 
   <PM_R42_Ammo_8x120.label>W-5Re穿甲杆 8×120mm</PM_R42_Ammo_8x120.label>
-  <PM_R42_Ammo_8x120.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，带有超导复合涂层。这枚弹丸是8×120mm的</PM_R42_Ammo_8x120.description>
+  <PM_R42_Ammo_8x120.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×120mm的</PM_R42_Ammo_8x120.description>
 
   <PM_R42_APEX_ChargedBarrel.label>“龙息”充能枪管</PM_R42_APEX_ChargedBarrel.label>
   <PM_R42_APEX_ChargedBarrel.description>充能枪管通过蓄能在一瞬间达到匪夷所思的能量强度，将钨铼合金柱体加速到10-20倍音速，急速弹丸会撕裂枪口方向的空气造成局部真空，使得膛内的等离子态空气在消散前能喷射更远的距离。作为测试员的净化者军团不朽者评价说“像被一辆超音速的攻城坦克击中”。</PM_R42_APEX_ChargedBarrel.description>

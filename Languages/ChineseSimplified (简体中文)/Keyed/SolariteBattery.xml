@@ -7,7 +7,7 @@
   <ProtossMech_SolariteBattery_SetOutput>设置输出功率：{0} W</ProtossMech_SolariteBattery_SetOutput>
   <ProtossMech_SolariteBattery_SetOutputDesc>设置这座电池持续向电网供应的功率。即使电网已有盈余，设定的输出耗能也会直接从自身蓄能中扣除。将输出设为 0 W 可停止放电并恢复从电网充电。可设置的最大值为 {0} W。</ProtossMech_SolariteBattery_SetOutputDesc>
   <ProtossMech_SolariteBattery_SetOutputDialog>输出功率：{0} W</ProtossMech_SolariteBattery_SetOutputDialog>
-  <ProtossMech_SolariteBattery_Crystallize>能量结晶化</ProtossMech_SolariteBattery_Crystallize>
+  <ProtossMech_SolariteBattery_Crystallize>提取太阳素</ProtossMech_SolariteBattery_Crystallize>
   <ProtossMech_SolariteBattery_CrystallizeDesc>当蓄能不低于 {0} 时，清空蓄能并生成 {1} 个太阳素。</ProtossMech_SolariteBattery_CrystallizeDesc>
   <ProtossMech_SolariteBattery_CrystallizeDisabled>需要至少 {0} 蓄能。</ProtossMech_SolariteBattery_CrystallizeDisabled>
 

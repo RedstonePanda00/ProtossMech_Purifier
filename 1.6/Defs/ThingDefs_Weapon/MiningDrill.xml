@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>PM_MiningDrill</defName>
+    <label>mining drill</label>
+    <description>A handheld mining gun that fires a mining beam. It runs on chemfuel and overheats with prolonged use.</description>
+    <techLevel>Spacer</techLevel>
+    <tickerType>Normal</tickerType>
+    <smeltable>true</smeltable>
+    <graphicData>
+      <texPath>Things/Weapon/MiningDrill/MiningDrill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.3</Flammability>
+      <WorkToMake>12000</WorkToMake>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories><li>WeaponsMelee</li></thingCategories>
+    <costList>
+      <Steel>120</Steel>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers><li>FabricationBench</li><li>ProtossForge</li></recipeUsers>
+      <skillRequirements><Crafting>6</Crafting></skillRequirements>
+      <researchPrerequisite>PM_Fundamentals</researchPrerequisite>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>casing</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="ProtossMech.CompProperties_MiningDrillFuel">
+        <fuelCapacity>100</fuelCapacity>
+        <initialFuelPercent>0</initialFuelPercent>
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelFilter><thingDefs><li>Chemfuel</li></thingDefs></fuelFilter>
+        <showFuelGizmo>false</showFuelGizmo>
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+      </li>
+      <li Class="ProtossMech.CompProperties_MiningDrill">
+        <hitIntervalFactor>0.1</hitIntervalFactor>
+        <damageFactor>2</damageFactor>
+        <fuelPerHit>0.25</fuelPerHit>
+        <maxHeat>100</maxHeat>
+        <heatPerHit>1</heatPerHit>
+        <coolingPerSecond>12</coolingPerSecond>
+        <resumeHeat>40</resumeHeat>
+        <stoneBlocksPerCell>20</stoneBlocksPerCell>
+        <deepHitsPerPortion>10</deepHitsPerPortion>
+        <plantWorkFactor>4</plantWorkFactor>
+
+        <arc><width>0.72</width><animationHz>18</animationHz><segments>11</segments><mainAmplitude>0.25</mainAmplitude><branchAmplitude>0.35</branchAmplitude></arc>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -9,4 +9,5 @@
   <PM_LoadCaravanFromHyperspaceStorage.reportString>正在从超空间存储柜打包商队物资。</PM_LoadCaravanFromHyperspaceStorage.reportString>
   <PM_CEReloadFromHyperspaceStorage.reportString>正在用超空间存储柜中的弹药装填TargetB。</PM_CEReloadFromHyperspaceStorage.reportString>
 
+  <PM_DoBillFromHyperspaceStorage.reportString>正在TargetA处执行账单。</PM_DoBillFromHyperspaceStorage.reportString>
 </LanguageData>

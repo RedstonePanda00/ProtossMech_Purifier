@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>PM_MiningDrillDeep</defName>
+    <driverClass>ProtossMech.JobDriver_MiningDrillDeep</driverClass>
+    <reportString>extracting deep resources.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+    <neverShowWeapon>false</neverShowWeapon>
+  </JobDef>
+  <JobDef>
+    <defName>PM_MiningDrillRefuel</defName>
+    <driverClass>ProtossMech.JobDriver_MiningDrillRefuel</driverClass>
+    <reportString>refueling mining drill.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+</Defs>

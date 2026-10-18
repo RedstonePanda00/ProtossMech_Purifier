@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>PM_CollectivePatrol</defName>
+    <driverClass>JobDriver_Goto</driverClass>
+    <reportString>patrolling with the group.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <tryStartFlying>true</tryStartFlying>
+  </JobDef>
+  <JobDef>
+    <defName>PM_CollectivePatrolWait</defName>
+    <driverClass>JobDriver_Wait</driverClass>
+    <reportString>waiting for the patrol group.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <suspendable>false</suspendable>
+  </JobDef>
+</Defs>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_UmbraFlash.label>闪</PM_UmbraFlash.label>
+  <PM_UmbraFlash.description>进入持续4秒的防御架势，自动朝向最近的可见敌人，将正面180°、1格内的敌方来袭射弹弹回发射者。保留射弹的伤害、穿甲和速度，仍可被躲避或阻挡。同时格挡来自任意方向的近战攻击。期间可以移动，无法攻击或使用其他技能。再次点击可提前结束。架势结束后冷却20秒。</PM_UmbraFlash.description>
+</LanguageData>

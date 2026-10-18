@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Replace vanilla offsets rather than stacking a second cooldown bonus. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_Bolt_Heavy"]/statOffsets</xpath>
+        <value>
+            <statOffsets><RangedWeapon_Cooldown>0.03</RangedWeapon_Cooldown></statOffsets>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_Bolt_Heavy"]</xpath>
+        <value><ceSwayFactor>0.97</ceSwayFactor></value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_Bolt_Quick"]/statOffsets</xpath>
+        <value>
+            <statOffsets><RangedWeapon_Cooldown>-0.02</RangedWeapon_Cooldown></statOffsets>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_R42_Bolt_Quick"]</xpath>
+        <value><ceSwayFactor>1.01</ceSwayFactor></value>
+    </Operation>
+</Patch>

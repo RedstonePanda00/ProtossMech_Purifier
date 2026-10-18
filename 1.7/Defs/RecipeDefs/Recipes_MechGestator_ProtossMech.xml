@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef Name="ProtossMechanoidRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
+        <gestationCycles>2</gestationCycles>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+    </RecipeDef>
+
+    <!-- Probe -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Probe</defName>
+        <label>Probe warp-in costs</label>
+        <description>View the resources required to warp in a Probe from the Aurora.</description>
+        <jobString>Warping in a Probe.</jobString>
+
+        <products>
+            <PM_Probe>1</PM_Probe>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Probe</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_KhalaiMechStart</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Colossus -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Colossus</defName>
+        <label>Purifier Colossus warp-in costs</label>
+        <description>View the resources required to warp in a Purifier Colossus from the Aurora.</description>
+        <jobString>Warping in a Purifier Colossus.</jobString>
+        <gestationCycles>8</gestationCycles>
+
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>300</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_ColossusPrototype>1</PM_ColossusPrototype>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_ColossusPrototype</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_PurifierSiege</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Sentry -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Sentry</defName>
+        <label>Sentry warp-in costs</label>
+        <description>View the resources required to warp in a Sentry from the Aurora.</description>
+        <jobString>Warping in a Sentry.</jobString>
+        <gestationCycles>3</gestationCycles>
+
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Sentry>1</PM_Sentry>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Sentry</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_KhalaiMechAdvance</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Havoc -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Havoc</defName>
+        <label>Havoc warp-in costs</label>
+        <description>View the resources required to warp in a Havoc from the Aurora.</description>
+        <jobString>Warping in a Havoc.</jobString>
+        <gestationCycles>3</gestationCycles>
+
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Havoc>1</PM_Havoc>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Havoc</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_TaldarimMechStart</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Energizer -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Energizer</defName>
+        <label>Energizer warp-in costs</label>
+        <description>View the resources required to warp in an Energizer from the Aurora.</description>
+        <jobString>Warping in an Energizer.</jobString>
+        <gestationCycles>3</gestationCycles>
+        <researchPrerequisites><li>PM_QuantumGravity</li></researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Energizer>1</PM_Energizer>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Energizer</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Legionnaire -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Legionnaire</defName>
+        <label>Legionnaire warp-in costs</label>
+        <description>View the resources required to warp in a Legionnaire from the Aurora.</description>
+        <jobString>Warping in a Legionnaire.</jobString>
+        <gestationCycles>4</gestationCycles>
+        <researchPrerequisites><li>PM_PurifierProject</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Legionnaire>1</PM_Legionnaire>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Legionnaire</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Sentinel -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>Sentinel</defName>
+        <label>Sentinel warp-in costs</label>
+        <description>View the resources required to warp in a Sentinel from the Aurora.</description>
+        <jobString>Warping in a Sentinel.</jobString>
+        <gestationCycles>2</gestationCycles>
+        <researchPrerequisites><li>PM_PositronicAI</li></researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>150</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SubcoreHigh</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Sentinel>1</PM_Sentinel>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Sentinel</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- PurifierImmortal -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PurifierImmortal</defName>
+        <label>Purifier Immortal warp-in costs</label>
+        <description>View the resources required to warp in a Purifier Immortal from the Aurora.</description>
+        <jobString>Warping in a Purifier Immortal.</jobString>
+        <gestationCycles>4</gestationCycles>
+        <researchPrerequisites><li>PM_PurifierProject</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>250</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_PurifierImmortal>1</PM_PurifierImmortal>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_PurifierImmortal</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Megalith: research-display recipe only. No building lists this recipe. -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PM_GenMegalith</defName>
+        <label>Megalith warp-in costs</label>
+        <description>View the resources required to warp in a Megalith from the Aurora.</description>
+        <jobString>Warping in a Megalith.</jobString>
+        <gestationCycles>8</gestationCycles>
+
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>250</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Megalith>1</PM_Megalith>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Megalith</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_PurifierProject</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Disruptor -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PM_GenDisruptor</defName>
+        <label>Disruptor warp-in costs</label>
+        <description>View the resources required to warp in a Disruptor from the Aurora.</description>
+        <jobString>Warping in a Disruptor.</jobString>
+        <gestationCycles>4</gestationCycles>
+
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>150</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>150</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Disruptor>1</PM_Disruptor>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Disruptor</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_PurifierSiege</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Umbra -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PM_GenUmbra</defName>
+        <label>Umbra warp-in costs</label>
+        <description>View the resources required to warp in an Umbra from the Aurora.</description>
+        <jobString>Warping in an Umbra.</jobString>
+        <gestationCycles>3</gestationCycles>
+        <researchPrerequisites><li>PM_PurifierProjectFinal</li><li>PM_SyntheticPersonality</li></researchPrerequisites>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Adanium</li>
+                    </thingDefs>
+                </filter>
+                <count>125</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>125</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AIPersonaCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <PM_Umbra>1</PM_Umbra>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Umbra</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- Servitor Drone -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PM_GenServitor</defName>
+        <label>Servitor warp-in costs</label>
+        <description>View the resources required to warp in a Servitor from the Aurora.</description>
+        <jobString>Warping in a Servitor.</jobString>
+        <gestationCycles>1</gestationCycles>
+
+        <ingredients Inherit="False"><li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>50</count></li><li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>3</count></li></ingredients>
+        <products>
+            <PM_Servitor>1</PM_Servitor>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_Servitor</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_Fundamentals</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Cosmic Spider: research-display recipe only; no building uses this recipe. -->
+    <RecipeDef ParentName="ProtossMechanoidRecipe">
+        <defName>PM_GenCosmicSpider</defName>
+        <label>Cosmic Spider warp-in costs</label>
+        <description>View the resources required to warp in a Cosmic Spider from the Aurora.</description>
+        <jobString>Warping in a Cosmic Spider.</jobString>
+
+        <ingredients Inherit="False"><li><filter><thingDefs><li>PM_Adanium</li></thingDefs></filter><count>150</count></li><li><filter><thingDefs><li>PM_Solarite</li></thingDefs></filter><count>100</count></li><li><filter><thingDefs><li>AIPersonaCore</li></thingDefs></filter><count>1</count></li></ingredients>
+        <products>
+            <PM_CosmicSpider>1</PM_CosmicSpider>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>PM_CosmicSpider</ThingDef>
+        </descriptionHyperlinks>
+        <researchPrerequisites><li>PM_PurifierProjectFinal</li></researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Resurrection -->
+
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>ResurrectProtossMechLight</defName>
+        <label>resurrect Light Protoss mechanoid</label>
+        <description>Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_PM_Probe</li>
+                <li>Corpse_PM_Sentry</li>
+                <li>Corpse_PM_Sentinel</li>
+                <li>Corpse_PM_Energizer</li>
+                <li>Corpse_PM_FellowProbe</li>
+                <li>Corpse_PM_Servitor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>ResurrectPurifierMechHeavy</defName>
+        <label>resurrect Purifier Protoss mechanoid</label>
+        <description>Resurrect a friendly mechanoid of the Protoss class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_PM_Legionnaire</li>
+                <li>Corpse_PM_PurifierImmortal</li>
+                <li>Corpse_PM_ColossusPrototype</li>
+                <li>Corpse_PM_Disruptor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+</Defs>

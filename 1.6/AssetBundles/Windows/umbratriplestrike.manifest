@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 544410623
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe08b63d86d920ef2a34e764478d92fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fe08b63d86d920ef2a34e764478d92fc
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shaders/UmbraTripleStrike/UmbraTripleStrike.shader
+- Assets/Shaders/UmbraTripleStrike/UmbraTripleStrike.mat
+Dependencies: []

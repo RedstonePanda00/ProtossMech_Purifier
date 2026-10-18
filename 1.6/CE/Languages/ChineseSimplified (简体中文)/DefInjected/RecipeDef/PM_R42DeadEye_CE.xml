@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakePM_Ammo_R42DeadEye_Short.label>制造 W-5Re穿甲杆 8×80mm x150</MakePM_Ammo_R42DeadEye_Short.label>
-  <MakePM_Ammo_R42DeadEye_Short.description>用 1 单位太阳素打印 150 发W-5Re穿甲杆 8×80mm。</MakePM_Ammo_R42DeadEye_Short.description>
+  <MakePM_Ammo_R42DeadEye_Short.label>制造 W-5Re穿甲杆 8×80mm x17</MakePM_Ammo_R42DeadEye_Short.label>
+  <MakePM_Ammo_R42DeadEye_Short.description>用 1 单位太阳素打印 17 发W-5Re穿甲杆 8×80mm。</MakePM_Ammo_R42DeadEye_Short.description>
   <MakePM_Ammo_R42DeadEye_Short.jobString>正在制造 W-5Re穿甲杆 8×80mm。</MakePM_Ammo_R42DeadEye_Short.jobString>
 
-  <MakePM_Ammo_R42DeadEye_Standard.label>制造 W-5Re穿甲杆 8×100mm x120</MakePM_Ammo_R42DeadEye_Standard.label>
-  <MakePM_Ammo_R42DeadEye_Standard.description>用 1 单位太阳素打印 120 发W-5Re穿甲杆 8×100mm。</MakePM_Ammo_R42DeadEye_Standard.description>
+  <MakePM_Ammo_R42DeadEye_Standard.label>制造 W-5Re穿甲杆 8×100mm x12</MakePM_Ammo_R42DeadEye_Standard.label>
+  <MakePM_Ammo_R42DeadEye_Standard.description>用 1 单位太阳素打印 12 发W-5Re穿甲杆 8×100mm。</MakePM_Ammo_R42DeadEye_Standard.description>
   <MakePM_Ammo_R42DeadEye_Standard.jobString>正在制造 W-5Re穿甲杆 8×100mm。</MakePM_Ammo_R42DeadEye_Standard.jobString>
 
-  <MakePM_Ammo_R42DeadEye_Long.label>制造 W-5Re穿甲杆 8×120mm x100</MakePM_Ammo_R42DeadEye_Long.label>
-  <MakePM_Ammo_R42DeadEye_Long.description>用 1 单位太阳素打印 100 发W-5Re穿甲杆 8×120mm。</MakePM_Ammo_R42DeadEye_Long.description>
+  <MakePM_Ammo_R42DeadEye_Long.label>制造 W-5Re穿甲杆 8×120mm x10</MakePM_Ammo_R42DeadEye_Long.label>
+  <MakePM_Ammo_R42DeadEye_Long.description>用 1 单位太阳素打印 10 发W-5Re穿甲杆 8×120mm。</MakePM_Ammo_R42DeadEye_Long.description>
   <MakePM_Ammo_R42DeadEye_Long.jobString>正在制造 W-5Re穿甲杆 8×120mm。</MakePM_Ammo_R42DeadEye_Long.jobString>
 
 </LanguageData>

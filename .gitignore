@@ -1,3 +1,8 @@
 .agents/
 Source/
 ArtSource/**/*.log
+
+# Local migration build and test outputs
+artifacts/
+Docs/Compatibility/*.log
+1.7/**/Assemblies/*.pdb

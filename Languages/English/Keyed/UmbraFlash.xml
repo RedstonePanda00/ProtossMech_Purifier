@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_UmbraFlash_Unavailable>Flash is unavailable.</PM_UmbraFlash_Unavailable>
+  <PM_UmbraFlash_Busy>Already performing another ability.</PM_UmbraFlash_Busy>
+  <PM_UmbraFlash_AttackLocked>Cannot attack or use other abilities during Flash.</PM_UmbraFlash_AttackLocked>
+  <PM_UmbraFlash_Cancel>Click again to end the stance.</PM_UmbraFlash_Cancel>
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Cover_Reboot>Field restarting: {0}</PM_Cover_Reboot>
+  <PM_Cover_Remaining>Operating time remaining: {0}</PM_Cover_Remaining>
+  <PM_Cover_Blocked>The barrier generator could not unfold on the obstructed ground. Its capsule was recovered.</PM_Cover_Blocked>
+</LanguageData>

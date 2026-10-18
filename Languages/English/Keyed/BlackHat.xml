@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_BlackHat_InvalidTarget>Target a hostile mechanoid that is not downed, or an automated turret.</PM_BlackHat_InvalidTarget>
+  <PM_BlackHat_Recharging>Black Hat recharging: {0}</PM_BlackHat_Recharging>
+  <PM_BlackHat_Disabled>Systems disabled by Black Hat: {0}</PM_BlackHat_Disabled>
+  <PM_BlackHat_SystemDisabled>Systems disabled by Black Hat.</PM_BlackHat_SystemDisabled>
+</LanguageData>

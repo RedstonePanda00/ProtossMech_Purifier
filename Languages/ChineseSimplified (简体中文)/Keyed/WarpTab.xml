@@ -39,4 +39,8 @@
   <!-- EN: Building will warp in {0}. -->
   <ProtossMech.BuildingWarpingIn>建筑将在 {0} 后完成折跃。</ProtossMech.BuildingWarpingIn>
 
+  <ProtossMech.MechWorkButton>工作</ProtossMech.MechWorkButton>
+  <ProtossMech.MechWorkPriorities>手动工作优先级</ProtossMech.MechWorkPriorities>
+  <ProtossMech.MechWorkPriorityTip>优先级 1 最高，空白表示禁用该工作。左键提高优先级，右键降低优先级。关闭此显示模式后，可用勾选框启用或禁用工作；重新勾选时设为优先级 3。切换显示模式不会改变已有优先级。</ProtossMech.MechWorkPriorityTip>
+  <ProtossMech.MechNoWorkTypes>该机械体没有可分配的工作。</ProtossMech.MechNoWorkTypes>
 </LanguageData>

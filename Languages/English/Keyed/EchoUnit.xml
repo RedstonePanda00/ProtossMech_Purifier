@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Echo_Source>Projection: {0}</PM_Echo_Source>
+  <PM_Echo_NoProjection>No appearance recorded</PM_Echo_NoProjection>
+  <PM_Echo_Remaining>Self-destruct in: {0}</PM_Echo_Remaining>
+  <PM_Echo_PreviewHelp>Select a living pawn, then use this developer tool on an empty, walkable cell to deploy its Echo Unit.</PM_Echo_PreviewHelp>
+</LanguageData>

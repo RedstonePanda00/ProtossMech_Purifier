@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef>
+    <defName>PM_NaniteSwarm</defName><label>nanite swarm</label>
+    <description>Nanite swarms form the Umbra's entire mechanical body, sustaining its senses, movement and structure. It needs neither food nor sleep, cannot reproduce, and must repair or reconstruct damaged parts. This synthetic structure cannot be combined with biological genes, extracted, or implanted into another race.</description>
+    <iconPath>Gizmo/Umbra/UmbraFlash</iconPath><displayCategory>Miscellaneous</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet><selectionWeight>0</selectionWeight><passOnDirectly>false</passOnDirectly>
+    <aptitudes><Shooting>20</Shooting><Melee>20</Melee></aptitudes>
+    <statFactors><Fertility>0</Fertility></statFactors>
+    <disablesNeeds><li>Comfort</li></disablesNeeds>
+  </GeneDef>
+  <XenotypeDef>
+    <defName>PM_UmbraXenotype</defName><label>Umbra</label><description>The unique synthetic identity of an ascended Star Devourer. Its nanite structure is incompatible with biological genetics.</description>
+    <iconPath>Gizmo/Umbra/UmbraFlash</iconPath><inheritable>false</inheritable><canGenerateAsCombatant>false</canGenerateAsCombatant><factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <genes><li>PM_NaniteSwarm</li></genes>
+  </XenotypeDef>
+</Defs>

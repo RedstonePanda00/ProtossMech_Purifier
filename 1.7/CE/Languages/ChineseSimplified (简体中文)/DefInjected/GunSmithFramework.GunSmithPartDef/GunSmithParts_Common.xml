@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Common_DarkTemplarSuppressor.label>一体式消音器</PM_Common_DarkTemplarSuppressor.label>
+  <PM_Common_DarkTemplarSuppressor.description>一体式消音器会吸收开火时的声波，并回收一部分动能，在消除枪声的同时轻微改善弹道效率。</PM_Common_DarkTemplarSuppressor.description>
+
+  <PM_Common_MarksmanOptic.label>神射手瞄具</PM_Common_MarksmanOptic.label>
+  <PM_Common_MarksmanOptic.description>配备 4 倍、6 倍、8 倍变焦与红外热成像的瞄具，提高瞄准效率并排除烟雾干扰，代价是增加瞄准准备时间与重量。</PM_Common_MarksmanOptic.description>
+
+  <PM_Common_Printer_MagFactory.label>“打印机”弹匣工厂</PM_Common_Printer_MagFactory.label>
+  <PM_Common_Printer_MagFactory.description>一款紧凑的微型制造弹匣，由太阳素电池供能。能够在枪械停火状态打印新的子弹。</PM_Common_Printer_MagFactory.description>
+
+  <PM_Common_IronSight_Rear_Raised.label>照门_竖起</PM_Common_IronSight_Rear_Raised.label>
+  <PM_Common_IronSight_Rear_Raised.description>竖起状态照门的隐藏默认视觉部件。</PM_Common_IronSight_Rear_Raised.description>
+  <PM_Common_IronSight_Front_Raised.label>机械瞄具_竖起</PM_Common_IronSight_Front_Raised.label>
+  <PM_Common_IronSight_Front_Raised.description>竖起状态机械瞄具的隐藏默认视觉部件。</PM_Common_IronSight_Front_Raised.description>
+  <PM_Common_IronSight_Rear_Folded.label>照门_折叠</PM_Common_IronSight_Rear_Folded.label>
+  <PM_Common_IronSight_Rear_Folded.description>折叠状态照门的隐藏默认视觉部件。</PM_Common_IronSight_Rear_Folded.description>
+  <PM_Common_IronSight_Front_Folded.label>机械瞄具_折叠</PM_Common_IronSight_Front_Folded.label>
+  <PM_Common_IronSight_Front_Folded.description>折叠状态机械瞄具的隐藏默认视觉部件。</PM_Common_IronSight_Front_Folded.description>
+
+  <PM_Common_BoxLaser.label>可见光／红外多功能战术装置</PM_Common_BoxLaser.label>
+  <PM_Common_BoxLaser.description>集成可见光瞄准激光、红外瞄准激光与红外照明的多功能战术装置，通过与使用者兼容传感器联动，进一步加快目标捕获与瞄准。近距离的瞄准参考提供基础指向精度保障，辅助效果随距离增加而减弱。</PM_Common_BoxLaser.description>
+  <PM_Common_MuzzleBrake_01.label>多腔制退器</PM_Common_MuzzleBrake_01.label>
+  <PM_Common_MuzzleBrake_01.description>多腔制退器捕获喷流以降低后坐力，并且改善枪口散热以增加延长火力持续时间。</PM_Common_MuzzleBrake_01.description>
+  <PM_Common_UB_FrontGrip01.label>轻型三角前握把</PM_Common_UB_FrontGrip01.label>
+  <PM_Common_UB_FrontGrip01.description>轻便的三角结构为支撑手提供稳定着力点，在几乎不增加负担的情况下改善人机工效并加快举枪。</PM_Common_UB_FrontGrip01.description>
+  <PM_Common_UB_JetGrip.label>太阳素矢量喷气握把</PM_Common_UB_JetGrip.label>
+  <PM_Common_UB_JetGrip.description>装有两具矢量喷口的下挂装置，由一个太阳素电池供能，有一个小型的三角握把。推力控制器能完全抵消后坐力，大幅提高枪械在全距离的表现。</PM_Common_UB_JetGrip.description>
+  <PM_Common_UB_Launcher_HE.label>下挂榴弹发射器</PM_Common_UB_Launcher_HE.label>
+  <PM_Common_UB_Launcher_HE.description>一个下挂榴弹发射器，配备一个太阳素电池。可切换破片、电浆、震撼和 EMP 榴弹，由内置的打印模块补充。</PM_Common_UB_Launcher_HE.description>
+  <PM_Common_UB_Launcher_Shotgun.label>下挂集束霰弹发射器</PM_Common_UB_Launcher_Shotgun.label>
+  <PM_Common_UB_Launcher_Shotgun.description>一个下挂霰弹发射器，配备一个太阳素电池。发射 40x42mm 集束霰弹，包含 12 枚 .300 亚音速弹头，由内置的打印模块补充。</PM_Common_UB_Launcher_Shotgun.description>
+  <PM_Common_UB_Launcher_LaserCannon.label>下挂持续激光炮</PM_Common_UB_Launcher_LaserCannon.label>
+  <PM_Common_UB_Launcher_LaserCannon.description>一个下挂激光炮，配备一个太阳素电池。发射持续的激光束，在发射单元过热前可以持续提供火力。持续地开火会导致发射单元过热，并且一次性释放单元内部的全部能量。在过热后，其发射单元由内置的打印模块补充。</PM_Common_UB_Launcher_LaserCannon.description>
+  <PM_Common_ViperSight.label>“毒牙”虚拟瞄具</PM_Common_ViperSight.label>
+  <PM_Common_ViperSight.description>采用无框悬浮电子准心的无镜片虚拟瞄具，可在全距离提供清晰视野。极轻的发射组件能显著改善人机工效，并可发现隐身单位。</PM_Common_ViperSight.description>
+
+</LanguageData>

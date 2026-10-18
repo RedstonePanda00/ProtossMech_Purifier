@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest</defName>
+        <label>30 mm SAPHE gun grenade</label>
+        <description>Anti-structure semi-armor-piercing high-explosive gun grenade for the C-31 Tempest. A small tungsten core provides limited direct penetration before the grenade detonates.</description>
+        <thingClass>ProtossMech.Bullet_C31TempestGunGrenade</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <speed>240</speed>
+            <armorPenetrationBase>1.10</armorPenetrationBase>
+            <stoppingPower>2.75</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest_Plasma</defName>
+        <label>30 mm plasma gun grenade</label>
+        <description>The plasma grenade's warhead produces a devastating plasma explosion, vaporizing the target's armor and causing irreversible damage to electronic equipment.</description>
+        <thingClass>ProtossMech.Bullet_C31TempestPlasmaGrenade</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>34</damageAmountBase>
+            <speed>210</speed>
+            <armorPenetrationBase>3.30</armorPenetrationBase>
+            <stoppingPower>2.25</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest_Wisp</defName>
+        <label>30 mm Wisp swarm grenade</label>
+        <description>The Wisp swarm grenade contains five submunitions. The carrier releases them as it approaches the target, and the submunitions automatically home in on nearby heat signatures to strike them.</description>
+        <thingClass>ProtossMech.Bullet_C31TempestWispGrenade</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <speed>190</speed>
+            <armorPenetrationBase>0.35</armorPenetrationBase>
+            <stoppingPower>0.7</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>PM_Bullet_C31Tempest_WispMini</defName>
+        <label>Wisp micro-missile</label>
+        <thingClass>ProtossMech.Bullet_C31TempestWispMiniMissile</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.45,0.45)</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>9</damageAmountBase>
+            <speed>40</speed>
+            <armorPenetrationBase>0.28</armorPenetrationBase>
+            <stoppingPower>0.5</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseGun">
+        <defName>PM_GunC31Tempest</defName>
+        <thingClass>GunSmithFramework.Thing_ModularGun</thingClass>
+        <label>C-31 Tempest</label>
+        <description>A bolt-action coil sniper cannon fitted with a compact solarite battery. It fires 30 mm SAPHE anti-structure gun grenades at high velocity, built to break cover, punish hardpoints and finish exposed targets with direct hits.\n\nEach C-31 Tempest is fabricated whole aboard the Aurora, printed directly from energy into matter on the ship's molecular fabricators.</description>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <destroyOnDrop>false</destroyOnDrop>
+        <relicChance>0</relicChance>
+        <graphicData>
+            <texPath>Things/Weapon/C31Tempest/C31Tempest_body</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2.2, 2.2)</drawSize>
+        </graphicData>
+        <statBases>
+            <Flammability>0</Flammability>
+            <MarketValue>3200</MarketValue>
+            <Mass>11.8</Mass>
+            <AccuracyTouch>0.48</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.78</AccuracyMedium>
+            <AccuracyLong>0.88</AccuracyLong>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>PM_C31Tempest</li>
+        </weaponTags>
+        <comps>
+            <li Class="GunSmithFramework.CompProperties_ModularGun">
+                <platformDef>PM_GunSmith_C31Tempest</platformDef>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>PM_Bullet_C31Tempest</defaultProjectile>
+                <warmupTime>2.6</warmupTime>
+                <range>45</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>ChargeLance_Fire</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

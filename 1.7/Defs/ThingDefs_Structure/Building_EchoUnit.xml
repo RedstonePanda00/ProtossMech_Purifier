@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_EchoUnit</defName>
+    <label>Echo unit</label>
+    <description>A portable holographic decoy that projects a lifelike image to draw enemy fire. The device self-destructs when its supercapacitor is depleted.</description>
+    <thingClass>ProtossMech.Building_EchoUnit</thingClass>
+    <graphicData>
+      <texPath>Things/Structure/EchoUnit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.95,0.95)</drawSize>
+    </graphicData>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0.10</fillPercent>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <holdsRoof>false</holdsRoof>
+    <coversFloor>false</coversFloor>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <modExtensions>
+      <li Class="ProtossMech.EchoUnitProperties">
+        <targetPriorityFactor>6</targetPriorityFactor>
+        <projectileHitChance>0.25</projectileHitChance>
+        <meleeHitChance>0.35</meleeHitChance>
+        <hologramColor>(0.16,0.8,1,0.78)</hologramColor>
+        <projectionOffset>0.35</projectionOffset>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>120</energyMax>
+        <energyGainPerTick>0.10</energyGainPerTick>
+        <ticksToBeginRecharge>300</ticksToBeginRecharge>
+        <minDrawSize>0.55</minDrawSize>
+        <maxDrawSize>0.85</maxDrawSize>
+      </li>
+      <li Class="CompProperties_DestroyAfterDelay">
+        <delayTicks>3600</delayTicks>
+        <displayCountdownOnLabel>true</displayCountdownOnLabel>
+        <destroyMode>Vanish</destroyMode>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

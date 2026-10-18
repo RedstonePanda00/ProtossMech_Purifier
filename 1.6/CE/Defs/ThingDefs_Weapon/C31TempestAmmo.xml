@@ -113,7 +113,7 @@
         <label>make 30 mm SAPHE gun grenades x80</label>
         <description>Craft 80 anti-structure 30 mm SAPHE gun grenades.</description>
         <jobString>Making C-31 30 mm SAPHE gun grenades.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li>
                 <filter>
@@ -149,7 +149,7 @@
         <label>make 30 mm plasma gun grenades x60</label>
         <description>Craft 60 miniature inferno-cannon plasma grenades.</description>
         <jobString>Making 30 mm plasma gun grenades.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li>
                 <filter>
@@ -194,7 +194,7 @@
         <label>make 30 mm Wisp swarm grenades x30</label>
         <description>Craft 30 Wisp carrier grenades, each loaded with five guided micro-missiles.</description>
         <jobString>Making 30 mm Wisp swarm grenades.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <recipeUsers Inherit="false">
             <li>ProtossForge</li>
         </recipeUsers>

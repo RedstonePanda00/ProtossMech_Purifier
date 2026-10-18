@@ -197,7 +197,7 @@
         <defName>PM_Common_BoxLaser</defName>
         
         <label>box tactical laser</label>
-        <description>A high-power tactical laser that provides clear pointing at close and medium range. This device emits visible light.</description>
+        <description>A high-power tactical laser that provides clear pointing at close and medium range. This device emits visible light. At close range, the aiming reference provides a minimum level of weapon pointing precision; its assistance fades with distance.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -226,6 +226,19 @@
         </costList>
             </li>
         </modExtensions>
+    <aimingLaser>
+            <color>(1, 0.08, 0.04)</color>
+            <alpha>.50</alpha>
+            <emitterUV>(0.398438, 0.44)</emitterUV>
+            <width>0.035</width>
+            <attenuationDistance>10</attenuationDistance>
+            <maxDistance>60</maxDistance>
+            <dotSize>0.12</dotSize>
+            <cqbFullDistance>5</cqbFullDistance>
+            <cqbEndDistance>12</cqbEndDistance>
+            <accuracyFloor>0.80</accuracyFloor>
+            <ceSwayCap>1</ceSwayCap>
+        </aimingLaser>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>

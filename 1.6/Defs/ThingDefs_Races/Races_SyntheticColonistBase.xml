@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef Name="PM_SyntheticColonistBase" ParentName="BasePawn" Abstract="True">
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <receivesSignals>true</receivesSignals>
+    <statBases>
+      <MarketValue>1000</MarketValue><PsychicSensitivity>0</PsychicSensitivity>
+      <ToxicResistance>1</ToxicResistance><ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <Flammability>0</Flammability><ComfyTemperatureMin>-100</ComfyTemperatureMin><ComfyTemperatureMax>250</ComfyTemperatureMax>
+      <MeatAmount>0</MeatAmount><LeatherAmount>0</LeatherAmount><ArmorRating_Heat>2</ArmorRating_Heat>
+      <WorkSpeedGlobal>1</WorkSpeedGlobal><EMPResistance>1</EMPResistance><StaggerDurationFactor>0</StaggerDurationFactor>
+    </statBases>
+    <race>
+      <intelligence>Humanlike</intelligence><fleshType>PM_NaniteFlesh</fleshType>
+      <thinkTreeMain>Humanlike</thinkTreeMain><thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <hasGenders>true</hasGenders><needsRest>false</needsRest><foodType>None</foodType>
+      <lifeExpectancy>2500</lifeExpectancy><bloodDef>Filth_MachineBits</bloodDef>
+      <canFlyInVacuum>true</canFlyInVacuum>
+      <soundCallIntervalRange>1000~2000</soundCallIntervalRange><soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+      <ageGenerationCurve><points><li>(190, 1)</li><li>(210, 1)</li></points></ageGenerationCurve>
+    </race>
+    <comps>
+      <li Class="ProtossMech.CompProperties_SyntheticColonist" />
+      <li Class="RsPandaLibrary.CompProperties_NeverDown" />
+      <li Class="ProtossMech.CompProperties_WalkAOnCooldown" />
+      <li Class="ProtossMech.CompProperties_NoMeleeDodge" />
+      <li Class="RsPandaLibrary.CompProperties_ImmuneToMentalBreak"><virtueHediff>PM_PrideOfTemplar</virtueHediff></li>
+    </comps>
+  </ThingDef>
+  <FleshTypeDef>
+    <defName>PM_NaniteFlesh</defName><label>nanite swarm</label>
+    <corpseCategory>CorpsesMechanoid</corpseCategory><damageEffecter>Damage_HitMechanoid</damageEffecter><isOrganic>false</isOrganic>
+    <genericWounds><li><texture>Things/Pawn/Wounds/WoundMechA</texture></li><li><texture>Things/Pawn/Wounds/WoundMechB</texture></li><li><texture>Things/Pawn/Wounds/WoundMechC</texture></li></genericWounds>
+  </FleshTypeDef>
+</Defs>

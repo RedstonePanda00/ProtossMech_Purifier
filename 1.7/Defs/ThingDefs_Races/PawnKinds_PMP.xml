@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <PawnKindDef Name="MechanitorBase">
+        <defName>PM_Khalai</defName>
+        <label>phase-smith</label>
+        <race>Human</race>
+        <combatPower>50</combatPower>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Scientist</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <defaultFactionDef>PlayerColony</defaultFactionDef>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <apparelMoney>0</apparelMoney>
+        <apparelTags></apparelTags>
+        <apparelRequired>
+            <li>PM_Apparel_BlackHat</li>
+            <li>Apparel_ArmorRecon</li>
+            <li>Apparel_AirwireHeadset</li>
+        </apparelRequired>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsTags></techHediffsTags>
+        <techHediffsRequired>
+            <li>Mechlink</li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">PsychicAmplifier</li>
+        </techHediffsRequired>
+        <initialWillRange>0</initialWillRange>
+        <initialResistanceRange>0~1</initialResistanceRange>
+        <requiredWorkTags>
+            <li>Intellectual</li><li>ManualSkilled</li><li>ManualDumb</li><li>Caring</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <PsychicSensitivity>1</PsychicSensitivity>
+            <DrugDesire>-1</DrugDesire>
+            <FastLearner>0</FastLearner>
+        </forcedTraits>
+        <disallowedTraits>
+            <li>BodyPurist</li>
+        </disallowedTraits>
+        <disallowedTraitsWithDegree>
+            <PsychicSensitivity>-1</PsychicSensitivity>
+            <PsychicSensitivity>-2</PsychicSensitivity>
+        </disallowedTraitsWithDegree>
+        <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>25</maxGenerationAge>
+    <chronologicalAgeRange>20~25</chronologicalAgeRange>
+    <skills>
+            <li><skill>Intellectual</skill><range>10~12</range></li>
+            <li><skill>Construction</skill><range>8~8</range></li>
+            <li><skill>Crafting</skill><range>8~8</range></li>
+        </skills>
+</PawnKindDef>
+
+</Defs>

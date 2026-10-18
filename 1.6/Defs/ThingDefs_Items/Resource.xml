@@ -15,7 +15,7 @@
     <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>40</MarketValue>
-      <Mass>0.1</Mass>
+      <Mass>1.0</Mass>
       <Flammability>0</Flammability>
     </statBases>
     <intricate>true</intricate>
@@ -31,7 +31,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PM_Adanium</defName>
     <label>Adanium</label>
-    <description>Adanium is a kind of gravitational lattice material derived from Project Purifier. Rather than relying on physical hardness, Adanium encapsulates microscopic singularities to severely curve local spacetime. This "gravity shield" deflects kinetic and beam attacks via lensing effects and shreds targets at the atomic level using immense tidal forces upon contact. Its critical weakness is disintegration weaponry; rupturing the lattice triggers a catastrophic spatial collapse. While retaining a manageable physical mass, the material generates massive spacetime drag, making it impossible for unaugmented humans to wield and restricting its use to heavy machinery and warships.</description>
+    <description>Adanium shares its name with the adamantium alloy of Project Purifier. The Star Devourers make extensive use of these lattice metamaterials, with their immense mass-energy content, in their war machines and deep-space warships. Adanium redirects incoming attacks to divert their force, making it nearly indestructible against anything other than disintegration weaponry.</description>
     <graphicData>
       <texPath>Things/Resource/Adanium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -42,7 +42,7 @@
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MarketValue>7</MarketValue>
-      <Mass>1.0</Mass>
+      <Mass>21.764</Mass>
       <StuffPower_Armor_Sharp>1.28</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.64</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>1.28</StuffPower_Armor_Heat>

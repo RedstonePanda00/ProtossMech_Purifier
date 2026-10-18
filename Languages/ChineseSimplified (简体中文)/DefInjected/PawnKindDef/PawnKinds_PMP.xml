@@ -1,7 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: Khalai Mechanitor -->
-  <PM_Khalai.label>卡莱工程师</PM_Khalai.label>
-  
+  <PM_Khalai.label>相位技师</PM_Khalai.label>
 </LanguageData>

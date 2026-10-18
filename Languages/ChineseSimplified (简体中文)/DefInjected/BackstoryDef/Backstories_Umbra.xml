@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_UmbraChildhood.title>新生代星灵</PM_UmbraChildhood.title><PM_UmbraChildhood.titleShort>新生代星灵</PM_UmbraChildhood.titleShort>
+  <PM_UmbraChildhood.baseDesc>末世之战后的年轻星灵通常对星灵古老的文化和传承不感兴趣，他们热衷于拥抱新事物。</PM_UmbraChildhood.baseDesc>
+  <PM_UmbraAdulthood.title>噬星者渊影</PM_UmbraAdulthood.title><PM_UmbraAdulthood.titleShort>渊影</PM_UmbraAdulthood.titleShort>
+  <PM_UmbraAdulthood.baseDesc>{PAWN_nameDef}从层层选拔中脱颖而出，成为了一名渊影。</PM_UmbraAdulthood.baseDesc>
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakePM_Ammo_C31Tempest_SAPHE.label>&#x5236;&#x9020; 30mm SAPHE &#x67AA;&#x69B4;&#x5F39; x80</MakePM_Ammo_C31Tempest_SAPHE.label>
+  <MakePM_Ammo_C31Tempest_SAPHE.description>&#x5236;&#x9020; 80 &#x53D1; 30mm &#x53CD;&#x5EFA;&#x7B51;&#x534A;&#x7A7F;&#x7532;&#x9AD8;&#x7206;&#x67AA;&#x69B4;&#x5F39;&#x3002;</MakePM_Ammo_C31Tempest_SAPHE.description>
+  <MakePM_Ammo_C31Tempest_SAPHE.jobString>&#x6B63;&#x5728;&#x5236;&#x9020; 30mm SAPHE &#x67AA;&#x69B4;&#x5F39;&#x3002;</MakePM_Ammo_C31Tempest_SAPHE.jobString>
+
+  <MakePM_Ammo_C31Tempest_Plasma.label>&#x5236;&#x9020; 30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39; x60</MakePM_Ammo_C31Tempest_Plasma.label>
+  <MakePM_Ammo_C31Tempest_Plasma.description>&#x5236;&#x9020; 60 &#x53D1;&#x5C0F;&#x578B;&#x70BC;&#x72F1;&#x9B54;&#x738B;&#x70AE;&#x5F0F;&#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;&#x3002;</MakePM_Ammo_C31Tempest_Plasma.description>
+  <MakePM_Ammo_C31Tempest_Plasma.jobString>&#x6B63;&#x5728;&#x5236;&#x9020; 30mm &#x7535;&#x6D46;&#x67AA;&#x69B4;&#x5F39;&#x3002;</MakePM_Ammo_C31Tempest_Plasma.jobString>
+
+  <MakePM_Ammo_C31Tempest_Wisp.label>&#x5236;&#x9020; 30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39; x30</MakePM_Ammo_C31Tempest_Wisp.label>
+  <MakePM_Ammo_C31Tempest_Wisp.description>&#x5236;&#x9020; 30 &#x53D1; Wisp &#x8702;&#x7FA4;&#x6BCD;&#x5F39;&#xFF0C;&#x6BCF;&#x53D1;&#x5185;&#x7F6E; 5 &#x679A;&#x5236;&#x5BFC;&#x5FAE;&#x578B;&#x5BFC;&#x5F39;&#x3002;</MakePM_Ammo_C31Tempest_Wisp.description>
+  <MakePM_Ammo_C31Tempest_Wisp.jobString>&#x6B63;&#x5728;&#x5236;&#x9020; 30mm Wisp &#x8702;&#x7FA4;&#x67AA;&#x69B4;&#x5F39;&#x3002;</MakePM_Ammo_C31Tempest_Wisp.jobString>
+
+</LanguageData>

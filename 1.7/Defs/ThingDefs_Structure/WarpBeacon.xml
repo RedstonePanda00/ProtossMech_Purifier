@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef>
+        <defName>PM_WarpBeaconUnit</defName>
+        <label>warp beacon</label>
+        <description>A temporary beacon that will warp in a unit.</description>
+        <thingClass>ThingWithComps</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/ThermalLances</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.0, 1.0)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <drawerType>RealtimeOnly</drawerType>
+        <selectable>true</selectable>
+        <tickerType>Normal</tickerType>
+        <destroyable>true</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <passability>Standable</passability>
+        <fillPercent>0</fillPercent>
+        <pathCost>0</pathCost>
+        <blockWind>false</blockWind>
+        <size>(1,1)</size>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <building>
+            <claimable>false</claimable>
+            <deconstructible>false</deconstructible>
+            <isInert>true</isInert>
+        </building>
+        <comps>
+            <li Class="ProtossMech.CompProperties_WarpIn">
+                <strikeFleck>PM_WarpInStrike</strikeFleck>
+                <continuousFleck>PM_WarpInFleck</continuousFleck>
+                <fleckScale>1.0</fleckScale>
+                <fleckSpawnInterval>45</fleckSpawnInterval>
+                <fleckOffsetZ>6</fleckOffsetZ>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

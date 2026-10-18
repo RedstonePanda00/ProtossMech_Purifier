@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>PM_PsionicStorm</defName>
+    <label>psionic storm</label>
+    <thingClass>ProtossMech.Thing_PsionicStorm</thingClass>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <selectable>false</selectable>
+    <useHitPoints>false</useHitPoints>
+    <destroyable>true</destroyable>
+    <saveCompressible>false</saveCompressible>
+    <modExtensions>
+      <li Class="ProtossMech.PsionicStormProperties">
+        <durationTicks>240</durationTicks>
+        <damageIntervalTicks>20</damageIntervalTicks>
+        <secondaryDurationTicks>60</secondaryDurationTicks>
+        <secondaryDamageIntervalTicks>5</secondaryDamageIntervalTicks>
+        <damage>10</damage>
+        <damageDef>Flame</damageDef>
+        <armorPenetration>2</armorPenetration>
+        <webExtraTicks>60</webExtraTicks>
+        <webTerrain>PM_CosmicSpider_WebFloor</webTerrain>
+        <secondaryRadius>3</secondaryRadius>
+        <soundStart>PM_PsionicStorm_Start</soundStart>
+        <soundSustain>PM_PsionicStorm_Sustain</soundSustain>
+      </li>
+    </modExtensions>
+  </ThingDef>
+</Defs>

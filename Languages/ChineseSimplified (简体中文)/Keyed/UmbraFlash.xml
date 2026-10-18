@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_UmbraFlash_Unavailable>当前无法使用闪。</PM_UmbraFlash_Unavailable>
+  <PM_UmbraFlash_Busy>当前正在施放其他技能。</PM_UmbraFlash_Busy>
+  <PM_UmbraFlash_AttackLocked>闪架势期间无法攻击或使用其他技能。</PM_UmbraFlash_AttackLocked>
+  <PM_UmbraFlash_Cancel>再次点击以结束架势。</PM_UmbraFlash_Cancel>
+</LanguageData>

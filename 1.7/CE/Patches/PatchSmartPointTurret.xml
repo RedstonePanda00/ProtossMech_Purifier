@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PM_Gun_SmartPointTurret"]/verbs/li/range</xpath>
+    <value><range>55</range></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PM_Bullet_HammerMicroMissile"]/projectile</xpath>
+    <value><projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef><damageAmountBase>24</damageAmountBase><armorPenetrationBase>12</armorPenetrationBase>
+      <armorPenetrationSharp>12</armorPenetrationSharp><armorPenetrationBlunt>45</armorPenetrationBlunt>
+      <speed>80</speed><stoppingPower>1</stoppingPower><dropsCasings>false</dropsCasings>
+    </projectile></value>
+  </Operation>
+</Patch>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PM_Projectile_Scarab</defName><label>Scarab</label>
+    <description>An explosive energy drone printed by a portable microfactory. It follows a winding ground-level route around obstacles. If its target is lost, it continues to the target's last known position and detonates there.</description>
+    <thingClass>ProtossMech.Projectile_Scarab</thingClass>
+    <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(0.45,0.45)</drawSize><color>(0.08,0.42,1,1)</color></graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef><damageAmountBase>60</damageAmountBase><armorPenetrationBase>1</armorPenetrationBase>
+      <!-- Vanilla speed is tiles per 100 ticks: 13.3333 = 8 tiles per second. -->
+      <speed>13.333333</speed><explosionRadius>2</explosionRadius><explosionDamageFalloff>false</explosionDamageFalloff>
+    </projectile>
+    <modExtensions>
+      <li Class="ProtossMech.ScarabProperties">
+        <lifetimeTicks>1200</lifetimeTicks>
+        <snakeAngle>52</snakeAngle><snakeWavelength>4</snakeWavelength><arrivalStraightenDistance>1.8</arrivalStraightenDistance>
+      </li>
+      <li Class="ProtossMech.OrbTrailProperties">
+        <orbSize>0.9</orbSize><color>(0.08,0.42,1,1)</color>
+        <orbIntensity>3</orbIntensity><coreSize>0.3</coreSize><glowFalloff>2.5</glowFalloff>
+        <trailLength>1</trailLength><trailWidth>0.22</trailWidth>
+        <trailIntensity>2.4</trailIntensity><trailPoints>32</trailPoints><tailTipWidthFactor>0.05</tailTipWidthFactor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+</Defs>

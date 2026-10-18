@@ -178,7 +178,7 @@
         </verbProperties>
     </AbilityDef>
 
-    <!-- Umbra Skip: teleport to cell (through walls), then 45 execute damage to enemies at destination -->
+
     <AbilityDef>
         <defName>PM_UmbraSkip</defName>
         <label>Skip</label>
@@ -450,7 +450,7 @@
     <AbilityDef>
         <defName>PM_CosmicSpider_Discharge</defName>
         <label>Discharge</label>
-        <description>Draw charge from the air and discharge around the caster; silk webs conduct the current a second time.</description>
+        <description>Create a psionic storm within 18 tiles of the caster for 4 seconds. Each 20-tick damage round deals 10 heat damage with 200% armor penetration to non-allied pawns and buildings. Conductive web floors retain the storm for 1 extra second. When the main storm ends, the bound enemy receives a radius-3 storm lasting 1 second, with damage every 5 ticks.</description>
         <iconPath>Gizmo/CosmicSpider/Discharge</iconPath>
         <cooldownTicksRange>3600</cooldownTicksRange>
         <hostile>true</hostile>
@@ -460,6 +460,8 @@
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
             <warmupTime>0</warmupTime>
+            <range>18</range>
+            <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
             <targetParams>
                 <canTargetSelf>true</canTargetSelf>
                 <canTargetLocations>false</canTargetLocations>
@@ -469,10 +471,7 @@
         </verbProperties>
         <comps>
             <li Class="ProtossMech.CompProperties_CosmicSpiderDischarge">
-                <explosionRadius>18</explosionRadius>
-                <empDamage>30</empDamage>
-                <flameDamage>30</flameDamage>
-                <webTerrainDefName>PM_CosmicSpider_WebFloor</webTerrainDefName>
+                <radius>18</radius>
             </li>
         </comps>
     </AbilityDef>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_R42Apex</defName>
+        <label>R-42 APEX rail slugs</label>
+        <ammoTypes>
+            <PM_Ammo_R42DeadEye_Standard>PM_Bullet_R42Apex_Standard_CE</PM_Ammo_R42DeadEye_Standard>
+            <PM_Ammo_R42DeadEye_Short>PM_Bullet_R42Apex_Short_CE</PM_Ammo_R42DeadEye_Short>
+            <PM_Ammo_R42DeadEye_Long>PM_Bullet_R42Apex_Long_CE</PM_Ammo_R42DeadEye_Long>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42Apex_Short_CE</defName>
+        <label>W-5Re penetrator 8×80mm (APEX)</label>
+        <thingClass>CombatExtended.BulletCE</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile" /></comps>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>120</damageAmountBase>
+            <speed>2400</speed>
+            <armorPenetrationSharp>253</armorPenetrationSharp>
+            <armorPenetrationBlunt>3004</armorPenetrationBlunt>
+            <dropsCasings>false</dropsCasings>
+            <trajectoryWorker>CombatExtended.LerpedTrajectoryWorker</trajectoryWorker>
+            <tickToTruePos>1</tickToTruePos>
+        </projectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42Apex_Standard_CE</defName>
+        <label>W-5Re penetrator 8×100mm (APEX)</label>
+        <thingClass>CombatExtended.BulletCE</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile" /></comps>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>120</damageAmountBase>
+            <speed>2400</speed>
+            <armorPenetrationSharp>316.2</armorPenetrationSharp>
+            <armorPenetrationBlunt>3756</armorPenetrationBlunt>
+            <dropsCasings>false</dropsCasings>
+            <trajectoryWorker>CombatExtended.LerpedTrajectoryWorker</trajectoryWorker>
+            <tickToTruePos>1</tickToTruePos>
+        </projectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42Apex_Long_CE</defName>
+        <label>W-5Re penetrator 8×120mm (APEX)</label>
+        <thingClass>CombatExtended.BulletCE</thingClass>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile" /></comps>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>120</damageAmountBase>
+            <speed>2400</speed>
+            <armorPenetrationSharp>379.4</armorPenetrationSharp>
+            <armorPenetrationBlunt>4508</armorPenetrationBlunt>
+            <dropsCasings>false</dropsCasings>
+            <trajectoryWorker>CombatExtended.LerpedTrajectoryWorker</trajectoryWorker>
+            <tickToTruePos>1</tickToTruePos>
+        </projectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42Apex_Plasma_CE</defName>
+        <label>miniature hellsphere</label>
+        <thingClass>CombatExtended.BulletCE</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/HellsphereCannon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>(0.6, 1.2)</drawSize>
+        </graphicData>
+        <comps><li Class="ProtossMech.CompProperties_R42ApexProjectile"><secondary>true</secondary></li></comps>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>80</damageAmountBase>
+            <speed>120</speed>
+            <armorPenetrationBase>3.3</armorPenetrationBase>
+            <explosionRadius>1.9</explosionRadius>
+            <screenShakeFactor>0.3</screenShakeFactor>
+            <armorPenetrationSharp>3.3</armorPenetrationSharp>
+            <armorPenetrationBlunt>0</armorPenetrationBlunt>
+            <dropsCasings>false</dropsCasings>
+            <trajectoryWorker>CombatExtended.LerpedTrajectoryWorker</trajectoryWorker>
+            <tickToTruePos>1</tickToTruePos>
+        </projectile>
+    </ThingDef>
+</Defs>

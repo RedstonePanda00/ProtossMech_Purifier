@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM.Slash.ToSlash>Blade</PM.Slash.ToSlash>
+  <PM.Slash.ToCurved>Curved-blade form</PM.Slash.ToCurved>
+  <PM.Slash.FormDesc>A form that keeps only essential functions active, shutting down all other modules and channeling their energy into the personality system to fight through will and skill. Its slashes can cleave mountains and sever warships.</PM.Slash.FormDesc>
+  <PM.Slash.Basic>Slash</PM.Slash.Basic>
+  <PM.Slash.BasicDesc>Slash directly forward with the longsword.</PM.Slash.BasicDesc>
+  <PM.Slash.Thrust>Thrust</PM.Slash.Thrust>
+  <PM.Slash.ThrustDesc>Thrust directly forward with the longsword.</PM.Slash.ThrustDesc>
+  <PM.Slash.Spirit>Spirit Blade</PM.Slash.Spirit>
+  <PM.Slash.SpiritDesc>Spend accumulated spirit to unleash a powerful slash.</PM.Slash.SpiritDesc>
+  <PM.Slash.Foresight>Foresight slash</PM.Slash.Foresight>
+  <PM.Slash.ForesightDesc>Spend spirit to evade an attack and strike back. Can lead into Spirit Roundslash.</PM.Slash.ForesightDesc>
+  <PM.Slash.Helm>Spirit thrust</PM.Slash.Helm>
+  <PM.Slash.HelmDesc>Gather spirit at the sword tip for a thrust that can lead into Spirit Helm Breaker.</PM.Slash.HelmDesc>
+  <PM.Slash.Sheathe>Special sheathe</PM.Slash.Sheathe>
+  <PM.Slash.EndCharge>End Radiant Sheathe</PM.Slash.EndCharge>
+  <PM.Slash.SheatheDesc>Infuse the blade with resolve and heighten the senses in a stance prepared for incoming attacks.</PM.Slash.SheatheDesc>
+  <PM.Slash.Busy>Finish the current action and regain control first.</PM.Slash.Busy>
+  <PM.Slash.CannotStoreWeapon>Cannot store the equipped weapon in inventory.</PM.Slash.CannotStoreWeapon>
+  <PM.Slash.DraftRequired>Requires a drafted, controllable Umbra in Blade form.</PM.Slash.DraftRequired>
+  <PM.Slash.CannotChain>This move cannot branch from the current action, or requires more gauge / blade grade.</PM.Slash.CannotChain>
+  <PM.Slash.CurvedOnly>Only available in curved-blade form.</PM.Slash.CurvedOnly>
+  <PM.Slash.GradeNone>No blade grade</PM.Slash.GradeNone>
+  <PM.Slash.GradeWhite>White blade</PM.Slash.GradeWhite>
+  <PM.Slash.GradeYellow>Yellow blade</PM.Slash.GradeYellow>
+  <PM.Slash.GradeRed>Red blade</PM.Slash.GradeRed>
+  <PM.Slash.Move.Idle>Ready</PM.Slash.Move.Idle>
+  <PM.Slash.Move.Basic1>Overhead I</PM.Slash.Move.Basic1>
+  <PM.Slash.Move.Basic2>Overhead II</PM.Slash.Move.Basic2>
+  <PM.Slash.Move.Basic3>Crescent slash</PM.Slash.Move.Basic3>
+  <PM.Slash.Move.Crimson1>Crimson I</PM.Slash.Move.Crimson1>
+  <PM.Slash.Move.Crimson2>Crimson II</PM.Slash.Move.Crimson2>
+  <PM.Slash.Move.Crimson3>Crimson III</PM.Slash.Move.Crimson3>
+  <PM.Slash.Move.Spirit1>Spirit I</PM.Slash.Move.Spirit1>
+  <PM.Slash.Move.Spirit2>Spirit II</PM.Slash.Move.Spirit2>
+  <PM.Slash.Move.Spirit3>Spirit III</PM.Slash.Move.Spirit3>
+  <PM.Slash.Move.Roundslash>Spirit roundslash</PM.Slash.Move.Roundslash>
+  <PM.Slash.Move.Foresight>Foresight slash</PM.Slash.Move.Foresight>
+  <PM.Slash.Move.ForesightRed>Crimson foresight</PM.Slash.Move.ForesightRed>
+  <PM.Slash.Move.Sheathe>Special sheathe</PM.Slash.Move.Sheathe>
+  <PM.Slash.Move.DrawSlash>Iai Slash</PM.Slash.Move.DrawSlash>
+  <PM.Slash.Move.Iai>Iai Spirit Slash</PM.Slash.Move.Iai>
+  <PM.Slash.Move.HelmThrust>Spirit thrust</PM.Slash.Move.HelmThrust>
+  <PM.Slash.Move.HelmRise>Helmbreaker ascent</PM.Slash.Move.HelmRise>
+  <PM.Slash.Move.HelmFall>Helmbreaker descent</PM.Slash.Move.HelmFall>
+  <PM.Slash.Move.HelmRecovery>Helmbreaker recovery</PM.Slash.Move.HelmRecovery>
+  <PM.Slash.Move.SwitchForm>Changing form</PM.Slash.Move.SwitchForm>
+  <PM.Slash.Move.TravelSheathe>Holstering</PM.Slash.Move.TravelSheathe>
+  <PM.Slash.Move.TravelDraw>Drawing</PM.Slash.Move.TravelDraw>
+  <PM.Slash.Move.Thrust>Thrust</PM.Slash.Move.Thrust>
+  <PM.Slash.Move.Rising>Rising slash</PM.Slash.Move.Rising>
+  <PM.Slash.Move.ChargeSheathe>Radiant Sheathe</PM.Slash.Move.ChargeSheathe>
+  <PM.Slash.Move.OffsetSlash>Offset Slash [Flash]</PM.Slash.Move.OffsetSlash>
+  <PM.Slash.Move.PursuitSlash>Offset Slash [Pursuit]</PM.Slash.Move.PursuitSlash>
+  <PM.Slash.Move.PeerlessCombo>Peerless combo</PM.Slash.Move.PeerlessCombo>
+  <PM.Slash.Move.SprintIai>Sprint Iai</PM.Slash.Move.SprintIai>
+  <PM.Slash.Move.GrandIai>Iai Spirit Slash [Setsuna]</PM.Slash.Move.GrandIai>
+  <PM.Slash.Move.GrandSheathe>Peerless Combo Finale</PM.Slash.Move.GrandSheathe>
+  <PM.Slash.Move.SheatheInput>Sheathe input</PM.Slash.Move.SheatheInput>
+  <PM.Slash.Move.ChargePrepare>Preparing Radiant Sheathe</PM.Slash.Move.ChargePrepare>
+  <PM.Slash.GaugeDesc>The fill shows spendable spirit below red; white and yellow aura durations are independent (195s / 135s). Empty spirit does not remove a color. At red it shows remaining red duration; ordinary spirit attacks are free. Normal hits and Iai Slash regeneration cannot extend red. Roundslash and Spinning Crimson Slash share diminishing recovery; a successful Iai Spirit Slash has a separate one-time recovery.</PM.Slash.GaugeDesc>
+  <PM.Slash.RedTime>Red: {0}s</PM.Slash.RedTime>
+  <PM.Slash.RedPaused>Red decay paused: {0}s</PM.Slash.RedPaused>
+  <PM.Slash.FacingLocked>Challenge facing locked: tracks the challenged target until a manual Slash or Thrust.</PM.Slash.FacingLocked>
+  <PM.Slash.FacingFree>Free facing: manual attacks follow the current facing direction.</PM.Slash.FacingFree>
+  <PM.Slash.Move.CrimsonRoundslash>Spinning Crimson Slash</PM.Slash.Move.CrimsonRoundslash>
+  <PM.Slash.Move.SpiritRelease>Spirit Release Slash</PM.Slash.Move.SpiritRelease>
+  <PM.Slash.BladeTime>Aura remaining: {0}s</PM.Slash.BladeTime>
+  <PM.Slash.EnterFocus>Enter focus mode</PM.Slash.EnterFocus>
+  <PM.Slash.ExitFocus>Exit focus mode</PM.Slash.ExitFocus>
+  <PM.Slash.FocusDesc>Control Blade form manually with the camera following Umbra. Movement keys move and turn; combos require simultaneous presses. The exit binding or Esc returns to curved-blade form and restores the original weapon.</PM.Slash.FocusDesc>
+  <PM.Slash.Move.Roll>Roll</PM.Slash.Move.Roll>
+  <PM.Slash.Move.SpiritCharge>Spirit Charge</PM.Slash.Move.SpiritCharge>
+  <PM.Slash.FadeSlash>Fade Slash</PM.Slash.FadeSlash>
+  <PM.Slash.FadeSlashDesc>Slash diagonally while retreating. Follow with Spirit Step Slash, then Spirit Blade III.</PM.Slash.FadeSlashDesc>
+  <PM.Slash.Move.FadeSlash>Fade Slash</PM.Slash.Move.FadeSlash>
+  <PM.Slash.Move.SpiritStepSlash>Spirit Step Slash</PM.Slash.Move.SpiritStepSlash>
+</LanguageData>

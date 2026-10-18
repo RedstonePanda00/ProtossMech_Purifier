@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_Trophy</defName>
+    <label>automatic defense system</label>
+    <description>A deployed “Trophy” defense system that detects nearby low-speed targets and detonates them with an X-laser. The device self-destructs when its supercapacitor is depleted.</description>
+    <thingClass>ProtossMech.Building_Trophy</thingClass>
+    <graphicData>
+      <texPath>Things/Structure/Trophy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.15,1.15)</drawSize>
+    </graphicData>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0.15</fillPercent>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <holdsRoof>false</holdsRoof>
+    <coversFloor>false</coversFloor>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <modExtensions>
+      <li Class="ProtossMech.TrophyProperties">
+        <radius>12</radius>
+        <maxSpeedTilesPerSecond>36</maxSpeedTilesPerSecond>
+        <ammunition>8</ammunition>
+        <cooldownTicks>60</cooldownTicks>
+        <emitterOffsetZ>0.33</emitterOffsetZ>
+        <interceptSound>Explosion_Bomb</interceptSound>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>PM_Mote_TrophyBeam</defName>
+    <thingClass>ProtossMech.Mote_TrophyBeam</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Mote/PsychicLinkLine</texPath>
+      <graphicClass>Graphic_Mote</graphicClass>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+    <mote>
+      <solidTime>0.12</solidTime>
+      <fadeInTime>0</fadeInTime>
+      <fadeOutTime>0</fadeOutTime>
+    </mote>
+  </ThingDef>
+</Defs>

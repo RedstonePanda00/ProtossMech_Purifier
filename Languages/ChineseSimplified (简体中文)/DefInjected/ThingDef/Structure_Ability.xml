@@ -24,12 +24,8 @@
   
   <!-- EN: Warp Beacon Photon -->
   <WarpBeacon_Photon.label>折跃信标(光子炮塔)</WarpBeacon_Photon.label>
-  <!-- EN: Will Warp in -->
-  <WarpBeacon_Photon.comps.CompTransformAfterTick.countdownLabel>即将折跃完成</WarpBeacon_Photon.comps.CompTransformAfterTick.countdownLabel>
   
   <!-- EN: Warp Beacon Pylon -->
   <WarpBeacon_Pylon.label>折跃信标(水晶塔)</WarpBeacon_Pylon.label>
-  <!-- EN: Will Warp in -->
-  <WarpBeacon_Pylon.comps.CompTransformAfterTick.countdownLabel>即将折跃完成</WarpBeacon_Pylon.comps.CompTransformAfterTick.countdownLabel>
   
 </LanguageData>

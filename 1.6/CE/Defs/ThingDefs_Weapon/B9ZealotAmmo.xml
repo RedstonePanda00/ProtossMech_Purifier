@@ -41,7 +41,7 @@
         <label>make 9x21mm mini airburst rockets x200</label>
         <description>Craft 200 compact 9x21mm proximity-fuzed mini airburst rockets.</description>
         <jobString>Making 9x21mm mini airburst rockets.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>14</count></li>
             <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>12</count></li>

@@ -41,7 +41,7 @@
         <label>make 5.8x42 tungsten-alloy penetrators x500</label>
         <description>Craft 500 high-velocity 5.8x42 tungsten-alloy armor-piercing rods.</description>
         <jobString>Making 5.8x42 tungsten-alloy penetrators.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>16</count></li>
             <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>4</count></li>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apparel_PortableShield.label>屏障背包</PM_Apparel_PortableShield.label>
+  <PM_Apparel_PortableShield.description>便携式护盾投射器，投出部署，作为临时掩体使用。护盾被击破需要时间重新充能。</PM_Apparel_PortableShield.description>
+  <PM_Apparel_PortableShield.verbs.0.label>部署屏障发生器</PM_Apparel_PortableShield.verbs.0.label>
+  <PM_Projectile_PortableShield.label>屏障发生器胶囊</PM_Projectile_PortableShield.label>
+  <PM_PortableShield.label>屏障发生器</PM_PortableShield.label>
+  <PM_PortableShield.description>一个便携式的护盾投射器，正在投影一处屏障掩体。这个装置的超级电容用尽后会自毁。</PM_PortableShield.description>
+</LanguageData>

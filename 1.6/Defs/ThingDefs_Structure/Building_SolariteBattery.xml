@@ -4,7 +4,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>PM_SolariteBattery</defName>
         <label>Solarite battery</label>
-        <description>This structure stores energy in any form, then crystallizes and encapsulates it as Solarite.</description>
+        <description>This structure stores energy and can materialize it, encapsulating it as Solarite.</description>
         <thingClass>Building</thingClass>
         <tickerType>Normal</tickerType>
         <drawerType>MapMeshAndRealTime</drawerType>
@@ -34,9 +34,7 @@
             <Plasteel>100</Plasteel>
             <ComponentSpacer>10</ComponentSpacer>
         </costList>
-        <researchPrerequisites>
-            <li>PM_EnergyCrystallization</li>
-        </researchPrerequisites>
+        <researchPrerequisites><li>PM_EnergyCrystallization</li></researchPrerequisites>
         <comps>
             <li Class="CompProperties_Power">
                 <compClass>ProtossMech.CompPowerPlant_SolariteBattery</compClass>
@@ -44,9 +42,9 @@
                 <transmitsPower>true</transmitsPower>
             </li>
             <li Class="ProtossMech.CompProperties_SolariteBatteryStorage">
-                <!-- 2.092e14 J at 1000 J/Wd (one RimWorld watt-day) -->
-                <storedEnergyMax>209200000000</storedEnergyMax>
-                <pylonChargePercentPerDay>0.10</pylonChargePercentPerDay>
+                <!-- ceil(25 kg * c^2 / 0.95 / 1000 J per game Wd); matches SolariteBatteryEnergyUnits. -->
+                <storedEnergyMax>2365145207202152</storedEnergyMax>
+                <pylonChargePercentPerDay>0.50</pylonChargePercentPerDay>
                 <maxOutputPower>100000</maxOutputPower>
                 <outputPowerStep>100</outputPowerStep>
                 <crystallizeThreshold>0.95</crystallizeThreshold>

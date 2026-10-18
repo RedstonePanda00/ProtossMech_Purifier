@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenPartDef>
+    <defName>PM_PhaseTechnicianArrival</defName><label>shuttle crash</label><category>Fixed</category>
+    <scenPartClass>ProtossMech.ScenPart_PhaseTechnicianArrival</scenPartClass><summaryPriority>470</summaryPriority><canBeRandomlyAdded>false</canBeRandomlyAdded>
+  </ScenPartDef>
+  <ThingDef ParentName="ShuttleCrashingSkyfallerBase">
+    <defName>PM_PhaseTechnicianShuttleCrashing</defName><label>shuttle (crashing)</label>
+    <thingClass>ProtossMech.Skyfaller_PhaseTechnicianShuttle</thingClass>
+  </ThingDef>
+</Defs>

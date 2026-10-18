@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>PM_Gun_DeadeyeBeam</defName><label>A.R.C. beam cannon</label>
+    <description>A fixed charge launcher adapted for the Deadeye drone. It fires a short penetrating energy beam after charging.</description>
+    <graphicData><texPath>Things/Weapon/Deadeye/ARC</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(0.85,0.85)</drawSize></graphicData>
+    <tradeability>None</tradeability><destroyOnDrop>true</destroyOnDrop><relicChance>0</relicChance>
+    <statBases><Mass>4</Mass><RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown><AccuracyTouch>1</AccuracyTouch><AccuracyShort>1</AccuracyShort><AccuracyMedium>1</AccuracyMedium><AccuracyLong>1</AccuracyLong><Flammability>0</Flammability></statBases>
+    <verbs><li Class="ProtossMech.VerbProperties_DeadeyeBeam">
+      <verbClass>ProtossMech.Verb_DeadeyeBeam</verbClass><hasStandardCommand>true</hasStandardCommand><range>32</range><minRange>0</minRange><warmupTime>0</warmupTime><burstShotCount>1</burstShotCount>
+      <damage>48</damage><damageDef>PM_DeadeyeBeamDamage</damageDef><muzzleOffset>0.36</muzzleOffset>
+      <requireLineOfSight>true</requireLineOfSight><stopBurstWithoutLos>true</stopBurstWithoutLos><soundCast>ChargeLance_Fire</soundCast><soundCastTail>GunTail_Heavy</soundCastTail><muzzleFlashScale>0</muzzleFlashScale>
+      <aimingChargeMote>Mote_BeamRepeater_Charge</aimingChargeMote><aimingChargeMoteOffset>0.36</aimingChargeMoteOffset>
+      <targetParams><canTargetPawns>true</canTargetPawns><canTargetBuildings>true</canTargetBuildings><canTargetLocations>true</canTargetLocations></targetParams>
+    </li></verbs>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>PM_Mote_DeadeyeBeam</defName>
+    <thingClass>ProtossMech.Mote_EnergyArc</thingClass>
+    <graphicData IsNull="True" />
+    <altitudeLayer>MoteOverhead</altitudeLayer><drawOffscreen>true</drawOffscreen>
+    <mote><fadeInTime>0</fadeInTime><solidTime>0.05</solidTime><fadeOutTime>0.15</fadeOutTime></mote>
+    <modExtensions><li Class="ProtossMech.EnergyArcExtension"><arc>
+      <width>0.72</width><color>(0.35,0.85,1,1)</color><animationHz>18</animationHz>
+      <strands>3</strands><segments>11</segments><segmentsPerCell>2</segmentsPerCell>
+      <mainAmplitude>0.15</mainAmplitude><branchAmplitude>0.25</branchAmplitude>
+      <coreWidth>0.04</coreWidth><endFade>0.015</endFade>
+    </arc></li></modExtensions>
+  </ThingDef>
+  <!-- A heat beam with full structural damage; one penetration value for vanilla and CE. -->
+  <DamageDef ParentName="Beam">
+    <defName>PM_DeadeyeBeamDamage</defName>
+    <label>thermal beam</label>
+    <defaultDamage>48</defaultDamage>
+    <defaultArmorPenetration>2</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>1</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
+  </DamageDef>
+</Defs>

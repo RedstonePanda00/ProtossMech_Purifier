@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Patch>
-  <!--CE-only stability, optics and laser roles. No mechanical spread bonuses are added.-->
+
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Stock_01"]</xpath>
     <value>
@@ -163,13 +163,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_C7Templar_Laser_01"]/description</xpath>
     <value>
-      <description>A basic visible aiming laser that speeds up target acquisition by providing a direct pointing reference.</description>
+      <description>A basic visible aiming laser that speeds up target acquisition by providing a direct pointing reference. At close range, the aiming reference provides a minimum level of weapon pointing precision; its assistance fades with distance.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/GunSmithFramework.GunSmithPartDef[defName="PM_Common_BoxLaser"]/description</xpath>
     <value>
-      <description>A multifunction tactical module combining visible and infrared aiming lasers with infrared illumination. Linked to the wielder's compatible sensors, it provides faster target acquisition.</description>
+      <description>A multifunction tactical module combining visible and infrared aiming lasers with infrared illumination. Linked to the wielder's compatible sensors, it provides faster target acquisition. At close range, the aiming reference provides a minimum level of weapon pointing precision; its assistance fades with distance.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

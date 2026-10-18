@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PM_Ammo_R42DeadEye_Short.label>W-5Re穿甲杆 8×80mm</PM_Ammo_R42DeadEye_Short.label>
+  <PM_Ammo_R42DeadEye_Short.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×80mm的</PM_Ammo_R42DeadEye_Short.description>
+  <PM_Bullet_R42DeadEye_Short_CE.label>W-5Re穿甲杆 8×80mm</PM_Bullet_R42DeadEye_Short_CE.label>
+
+  <PM_Ammo_R42DeadEye_Standard.label>W-5Re穿甲杆 8×100mm</PM_Ammo_R42DeadEye_Standard.label>
+  <PM_Ammo_R42DeadEye_Standard.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×100mm的</PM_Ammo_R42DeadEye_Standard.description>
+  <PM_Bullet_R42DeadEye_Standard_CE.label>W-5Re穿甲杆 8×100mm</PM_Bullet_R42DeadEye_Standard_CE.label>
+
+  <PM_Ammo_R42DeadEye_Long.label>W-5Re穿甲杆 8×120mm</PM_Ammo_R42DeadEye_Long.label>
+  <PM_Ammo_R42DeadEye_Long.description>一枚W-5Re合金为主体的，带有多个平行电枢的尾翼稳定穿甲杆，电枢采用与R42导轨相同的常温超导材料，并带有超导复合涂层。这枚弹丸是8×120mm的</PM_Ammo_R42DeadEye_Long.description>
+  <PM_Bullet_R42DeadEye_Long_CE.label>W-5Re穿甲杆 8×120mm</PM_Bullet_R42DeadEye_Long_CE.label>
+
+</LanguageData>

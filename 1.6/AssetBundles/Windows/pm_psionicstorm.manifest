@@ -1,0 +1,98 @@
+ManifestFileVersion: 0
+CRC: 2703836573
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 25fde1809ea500550511e54b337911a9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6458dca258431169f72f0cbf69dd8405
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 25fde1809ea500550511e54b337911a9
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PMPsionicStorm/Materials/SC2Material08.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame053.asset
+- Assets/PMPsionicStorm/Materials/SC2Material06.mat
+- Assets/PMPsionicStorm/Materials/SC2Material07.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame024.asset
+- Assets/PMPsionicStorm/Materials/SC2Material04.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame045.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame038.asset
+- Assets/PMPsionicStorm/Materials/SC2Material09.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame036.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame044.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame040.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame035.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame030.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame008.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame010.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame042.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame052.asset
+- Assets/PMPsionicStorm/Materials/SC2Material00.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame009.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame050.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame001.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame049.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame025.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame033.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame051.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame015.asset
+- Assets/PMPsionicStorm/Materials/SC2Material01.mat
+- Assets/PMPsionicStorm/Materials/SC2Material10.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame020.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame021.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame054.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame013.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame017.asset
+- Assets/PMPsionicStorm/Materials/SC2Material11.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame003.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame034.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame041.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame032.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame027.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame048.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame012.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame014.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame055.asset
+- Assets/PMPsionicStorm/Materials/SC2Material02.mat
+- Assets/PMPsionicStorm/Materials/SC2Material03.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame006.asset
+- Assets/PMPsionicStorm/Materials/SC2Material05.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame039.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame031.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame057.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame016.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame005.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame022.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame043.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame023.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame029.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame028.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame056.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame058.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame046.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame018.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame026.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame004.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame000.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame002.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame019.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame011.asset
+- Assets/PMPsionicStorm/Materials/SC2Material12.mat
+- Assets/PMPsionicStorm/Frames/SC2Frame007.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame047.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame059.asset
+- Assets/PMPsionicStorm/Frames/SC2Frame037.asset
+Dependencies: []

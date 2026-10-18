@@ -254,7 +254,7 @@
   <ThingDef ParentName="ProtossMechanoid">
     <defName>PM_CosmicSpider</defName>
     <label>Cosmic Spider</label>
-    <description>The Cosmic Spider is a medium Purifier control unit specialized in forced movement and battlefield disruption. It has no fixed weapon system and relies on equipped armaments while weaving conductive web terrain.</description>
+    <description>The Cosmic Spider is a medium-sized battlefield control mech designed by Executor Sigmar and an AI member of the Star Devourers. The technology it uses remains a mystery to us.\n\nIts silk can restrain enemies, aid its own mobility, and form conductive webs that slow their advance. This little fellow is equipped with an advanced fire-control system and a complete persona core, making its shots almost unfailingly accurate.</description>
     <statBases>
       <MoveSpeed>6.2</MoveSpeed>
       <BandwidthCost>3</BandwidthCost>

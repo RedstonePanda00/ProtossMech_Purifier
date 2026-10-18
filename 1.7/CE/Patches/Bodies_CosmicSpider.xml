@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Only external parts receive natural armor; internal components stay inside the frame. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BodyDef[defName="PM_CosmicSpiderBody"]/corePart/descendant-or-self::*[depth="Outside"]/groups</xpath>
+    <value><li>CoveredByNaturalArmor</li></value>
+  </Operation>
+</Patch>

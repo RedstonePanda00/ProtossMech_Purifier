@@ -41,7 +41,7 @@
         <label>make 6.8x42 ETC cased telescoped rounds x500</label>
         <description>Craft 500 plastic-cased telescoped 6.8x42 electrothermal-chemical rounds.</description>
         <jobString>Making 6.8x42 ETC cased telescoped rounds.</jobString>
-        <researchPrerequisite>PM_NuclearFusion</researchPrerequisite>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
         <ingredients>
             <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
             <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>16</count></li>

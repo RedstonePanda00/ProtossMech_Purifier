@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ProtossMech.ReplicatorConversionRulesDef>
+    <defName>PM_ReplicatorConversionRules</defName>
+    <excludedDefNames>
+      <!-- A scenery-only material, not an obtainable resource. -->
+      <li>LabyrinthMatter</li>
+    </excludedDefNames>
+  </ProtossMech.ReplicatorConversionRulesDef>
+</Defs>

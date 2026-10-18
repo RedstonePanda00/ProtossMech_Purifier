@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>PM_B12LiquidDragonBreathHit</defName>
+    <label>liquid dragon's breath coating</label>
+    <workerClass>ProtossMech.GunSmith.DamageWorker_B12LiquidDragonBreath</workerClass>
+    <harmsHealth>false</harmsHealth>
+    <isRanged>true</isRanged>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <defaultDamage>1</defaultDamage>
+  </DamageDef>
+  <HediffDef>
+    <defName>PM_B12LiquidDragonBreath</defName>
+    <label>liquid dragon's breath</label>
+    <description>Searing liquid fuel eats away at this unit's armor, weakening its heat resistance.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>40</maxSeverity>
+    <stages>
+      <li><minSeverity>1</minSeverity><statOffsets><ArmorRating_Heat>-0.05</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>2</minSeverity><statOffsets><ArmorRating_Heat>-0.10</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>3</minSeverity><statOffsets><ArmorRating_Heat>-0.15</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>4</minSeverity><statOffsets><ArmorRating_Heat>-0.20</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>5</minSeverity><statOffsets><ArmorRating_Heat>-0.25</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>6</minSeverity><statOffsets><ArmorRating_Heat>-0.30</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>7</minSeverity><statOffsets><ArmorRating_Heat>-0.35</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>8</minSeverity><statOffsets><ArmorRating_Heat>-0.40</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>9</minSeverity><statOffsets><ArmorRating_Heat>-0.45</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>10</minSeverity><statOffsets><ArmorRating_Heat>-0.50</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>11</minSeverity><statOffsets><ArmorRating_Heat>-0.55</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>12</minSeverity><statOffsets><ArmorRating_Heat>-0.60</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>13</minSeverity><statOffsets><ArmorRating_Heat>-0.65</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>14</minSeverity><statOffsets><ArmorRating_Heat>-0.70</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>15</minSeverity><statOffsets><ArmorRating_Heat>-0.75</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>16</minSeverity><statOffsets><ArmorRating_Heat>-0.80</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>17</minSeverity><statOffsets><ArmorRating_Heat>-0.85</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>18</minSeverity><statOffsets><ArmorRating_Heat>-0.90</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>19</minSeverity><statOffsets><ArmorRating_Heat>-0.95</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>20</minSeverity><statOffsets><ArmorRating_Heat>-1.00</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>21</minSeverity><statOffsets><ArmorRating_Heat>-1.05</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>22</minSeverity><statOffsets><ArmorRating_Heat>-1.10</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>23</minSeverity><statOffsets><ArmorRating_Heat>-1.15</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>24</minSeverity><statOffsets><ArmorRating_Heat>-1.20</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>25</minSeverity><statOffsets><ArmorRating_Heat>-1.25</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>26</minSeverity><statOffsets><ArmorRating_Heat>-1.30</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>27</minSeverity><statOffsets><ArmorRating_Heat>-1.35</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>28</minSeverity><statOffsets><ArmorRating_Heat>-1.40</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>29</minSeverity><statOffsets><ArmorRating_Heat>-1.45</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>30</minSeverity><statOffsets><ArmorRating_Heat>-1.50</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>31</minSeverity><statOffsets><ArmorRating_Heat>-1.55</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>32</minSeverity><statOffsets><ArmorRating_Heat>-1.60</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>33</minSeverity><statOffsets><ArmorRating_Heat>-1.65</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>34</minSeverity><statOffsets><ArmorRating_Heat>-1.70</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>35</minSeverity><statOffsets><ArmorRating_Heat>-1.75</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>36</minSeverity><statOffsets><ArmorRating_Heat>-1.80</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>37</minSeverity><statOffsets><ArmorRating_Heat>-1.85</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>38</minSeverity><statOffsets><ArmorRating_Heat>-1.90</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>39</minSeverity><statOffsets><ArmorRating_Heat>-1.95</ArmorRating_Heat></statOffsets></li>
+      <li><minSeverity>40</minSeverity><statOffsets><ArmorRating_Heat>-2.00</ArmorRating_Heat></statOffsets></li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

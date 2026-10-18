@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Scrambler_Active>Interference field active: {0} cells</PM_Scrambler_Active>
+  <PM_Scrambler_Offline>Interference field offline</PM_Scrambler_Offline>
+  <PM_Scrambler_Blocked>Abilities disabled by an enemy scrambler</PM_Scrambler_Blocked>
+</LanguageData>

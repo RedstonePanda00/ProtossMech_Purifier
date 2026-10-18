@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithPlatformDef>
+        <defName>PM_GunSmith_C31Tempest</defName>
+        <supportsEliteGunsmith>true</supportsEliteGunsmith>
+        <label>C-31 Tempest</label>
+        <weaponThingDef>PM_GunC31Tempest</weaponThingDef>
+        <bodyTexPath>Things/Weapon/C31Tempest/C31Tempest_body</bodyTexPath>
+        <slotAttachmentOffsets>
+            <li>
+                <slotId>Barrel</slotId>
+                <offset>(-0.5451, 0.0051)</offset>
+                <gizmoOffset>(-0.0310, -0.2127)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Muzzle</slotId>
+                <offset>(-0.4269, 0.0000)</offset>
+                <gizmoOffset>(-1.6916, -0.2764)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>UnderBarrel</slotId>
+                <offset>(0.0000, 0.0000)</offset>
+                <gizmoOffset>(-1.3056, 0.3421)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Stock</slotId>
+                <offset>(0.5147, 0.0031)</offset>
+                <gizmoOffset>(0.2724, 0.0215)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Magazine</slotId>
+                <offset>(0.3982, 0.1736)</offset>
+                <gizmoOffset>(0.0358, 0.3226)</gizmoOffset>
+            </li>
+            <li>
+                <slotId>Optic</slotId>
+                <offset>(0.0494, -0.1347)</offset>
+                <gizmoOffset>(-0.0502, -0.2223)</gizmoOffset>
+            </li>
+        </slotAttachmentOffsets>
+        <bakeTextureSize>512</bakeTextureSize>
+        <bakePadding>0.05</bakePadding>
+        <bakeContentScale>0.55</bakeContentScale>
+        <shadowDilatePixels>5</shadowDilatePixels>
+        <shadowAlpha>1</shadowAlpha>
+        <slots>
+            <li><slotId>Barrel</slotId><slotType>Barrel</slotType><optional>false</optional></li>
+            <li><slotId>Muzzle</slotId><slotType>Muzzle</slotType><optional>true</optional></li>
+            <li><slotId>UnderBarrel</slotId><slotType>UnderBarrel</slotType><optional>true</optional></li>
+            <li><slotId>Stock</slotId><slotType>Stock</slotType><optional>false</optional></li>
+            <li><slotId>Magazine</slotId><slotType>Magazine</slotType><optional>false</optional></li>
+            <li><slotId>Optic</slotId><slotType>Optic</slotType><optional>false</optional></li>
+        </slots>
+        <defaultParts>
+            <li><slotId>Barrel</slotId><part>PM_C31Tempest_Barrel_01</part></li>
+            <li><slotId>Stock</slotId><part>PM_C31Tempest_Stock_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C31Tempest_Ammo_01</part></li>
+            <li><slotId>Magazine</slotId><part>PM_C31Tempest_Magazine_01</part></li>
+            <li><slotId>Optic</slotId><part>PM_C31Tempest_Sight_01</part></li>
+        </defaultParts>
+        
+            <modExtensions>
+            <li Class="ProtossMech.GunSmith.GunSmithContentExtension">
+                <costList>
+            <li>
+                <thingDef>PM_Solarite</thingDef>
+                <count>50</count>
+            </li>
+        </costList>
+            </li>
+        </modExtensions>
+    </GunSmithFramework.GunSmithPlatformDef>
+
+</Defs>

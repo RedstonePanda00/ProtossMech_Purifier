@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>PM_Solarite</defName>
+    <label>Solarite</label>
+    <description>A highly condensed, crystalline energy substance. The Star Devourer squad typically extracts it directly from the iron-based fusion reactor of their flagship, the "Aurora"—a reactor that achieves full mass-energy conversion by warping the Planck constant and the gravitational constant to force massive black holes into extreme Hawking radiation. Solarite is the primary energy source for most Purifier-aligned Protoss machinery. Fundamentally it is simply crystallized energy with no special tech lock: it can be produced from any high-energy device (ZPE, cold fusion, antimatter reactors, etc.), and even ordinary fusion events can crudely trigger a small emergency yield.</description>
+    <graphicData>
+      <texPath>Things/Resource/Solarite</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>200</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>40</MarketValue>
+      <Mass>1.0</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PM_Adanium</defName>
+    <label>Adanium</label>
+    <description>Adanium shares its name with the adamantium alloy of Project Purifier. The Star Devourers make extensive use of these lattice metamaterials, with their immense mass-energy content, in their war machines and deep-space warships. Adanium redirects incoming attacks to divert their force, making it nearly indestructible against anything other than disintegration weaponry.</description>
+    <graphicData>
+      <texPath>Things/Resource/Adanium</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>7</MarketValue>
+      <Mass>21.764</Mass>
+      <StuffPower_Armor_Sharp>1.28</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.64</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.28</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>3.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>3.0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.05</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(220, 225, 235)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>6.4</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToMake>2.2</WorkToMake>
+        <WorkToBuild>2.2</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>3.0</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>

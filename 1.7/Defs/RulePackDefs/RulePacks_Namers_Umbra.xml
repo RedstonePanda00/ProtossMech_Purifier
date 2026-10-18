@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>PM_NamerUmbra</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[namefile]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>namefile->Names/PM_Umbra_DeathGods</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>

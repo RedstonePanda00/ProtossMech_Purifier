@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_R42RailSlug_Short</defName>
+        <label>W-5Re penetrator 8×80mm</label>
+        <labelShort>8×80 AP</labelShort>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×80mm.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_R42RailSlug_Standard</defName>
+        <label>W-5Re penetrator 8×100mm</label>
+        <labelShort>8×100 AP</labelShort>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×100mm.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PM_R42RailSlug_Long</defName>
+        <label>W-5Re penetrator 8×120mm</label>
+        <labelShort>8×120 AP</labelShort>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×120mm.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>PM_AmmoR42DeadEye</defName>
+        <label>8 mm rail ammunition</label>
+        <parent>AmmoRifles</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>PM_AmmoSet_R42DeadEye</defName>
+        <label>8 mm tungsten-rhenium rail slugs</label>
+        <ammoTypes>
+            <PM_Ammo_R42DeadEye_Short>PM_Bullet_R42DeadEye_Short_CE</PM_Ammo_R42DeadEye_Short>
+            <PM_Ammo_R42DeadEye_Standard>PM_Bullet_R42DeadEye_Standard_CE</PM_Ammo_R42DeadEye_Standard>
+            <PM_Ammo_R42DeadEye_Long>PM_Bullet_R42DeadEye_Long_CE</PM_Ammo_R42DeadEye_Long>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_R42DeadEye_Short</defName>
+        <label>W-5Re penetrator 8×80mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×80mm.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/R42DeadEye/8x80_RailSlug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.059</Mass>
+            <Bulk>0.05</Bulk>
+        </statBases>
+        <ammoClass>PM_R42RailSlug_Short</ammoClass>
+        <cookOffProjectile>PM_Bullet_R42DeadEye_Short_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoR42DeadEye</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_R42DeadEye_Standard</defName>
+        <label>W-5Re penetrator 8×100mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×100mm.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/R42DeadEye/8x100_RailSlug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.077</Mass>
+            <Bulk>0.06</Bulk>
+        </statBases>
+        <ammoClass>PM_R42RailSlug_Standard</ammoClass>
+        <cookOffProjectile>PM_Bullet_R42DeadEye_Standard_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoR42DeadEye</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+        <defName>PM_Ammo_R42DeadEye_Long</defName>
+        <label>W-5Re penetrator 8×120mm</label>
+        <description>A fin-stabilized penetrator made primarily of W-5Re alloy, with multiple parallel armatures made from the same room-temperature superconducting material as the R42 rails, and a superconducting composite coating. This projectile measures 8×120mm.</description>
+        <graphicData>
+            <texPath>Things/Weapon/Ammo/R42DeadEye/8x120_RailSlug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.095</Mass>
+            <Bulk>0.07</Bulk>
+        </statBases>
+        <ammoClass>PM_R42RailSlug_Long</ammoClass>
+        <cookOffProjectile>PM_Bullet_R42DeadEye_Long_CE</cookOffProjectile>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+        </tradeTags>
+        <thingCategories>
+            <li>PM_AmmoR42DeadEye</li>
+        </thingCategories>
+    </ThingDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_R42DeadEye_Short</defName>
+        <label>make W-5Re penetrator 8×80mm x17</label>
+        <description>Print 17 W-5Re penetrator 8×80mm rounds from one unit of Solarite.</description>
+        <jobString>Making W-5Re penetrator 8×80mm rounds.</jobString>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PM_Solarite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_R42DeadEye_Short>17</PM_Ammo_R42DeadEye_Short>
+        </products>
+        <workAmount>2500</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_R42DeadEye_Standard</defName>
+        <label>make W-5Re penetrator 8×100mm x12</label>
+        <description>Print 12 W-5Re penetrator 8×100mm rounds from one unit of Solarite.</description>
+        <jobString>Making W-5Re penetrator 8×100mm rounds.</jobString>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PM_Solarite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_R42DeadEye_Standard>12</PM_Ammo_R42DeadEye_Standard>
+        </products>
+        <workAmount>3200</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakePM_Ammo_R42DeadEye_Long</defName>
+        <label>make W-5Re penetrator 8×120mm x10</label>
+        <description>Print 10 W-5Re penetrator 8×120mm rounds from one unit of Solarite.</description>
+        <jobString>Making W-5Re penetrator 8×120mm rounds.</jobString>
+        <researchPrerequisites><li>PM_Fundamentals</li><li>ChargedShot</li></researchPrerequisites>
+        <recipeUsers Inherit="false">
+            <li>ProtossForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PM_Solarite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PM_Solarite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PM_Ammo_R42DeadEye_Long>10</PM_Ammo_R42DeadEye_Long>
+        </products>
+        <workAmount>3900</workAmount>
+    </RecipeDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42DeadEye_Short_CE</defName>
+        <label>W-5Re penetrator 8×80mm</label>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationSharp>126.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>1502</armorPenetrationBlunt>
+            <speed>240</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42DeadEye_Standard_CE</defName>
+        <label>W-5Re penetrator 8×100mm</label>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationSharp>158.1</armorPenetrationSharp>
+            <armorPenetrationBlunt>1878</armorPenetrationBlunt>
+            <speed>240</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>PM_Bullet_R42DeadEye_Long_CE</defName>
+        <label>W-5Re penetrator 8×120mm</label>
+        <graphicData>
+            <texPath>Things/Weapon/RailGun/R42Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationSharp>189.7</armorPenetrationSharp>
+            <armorPenetrationBlunt>2254</armorPenetrationBlunt>
+            <speed>240</speed>
+            <dropsCasings>false</dropsCasings>
+        </projectile>
+    </ThingDef>
+
+</Defs>

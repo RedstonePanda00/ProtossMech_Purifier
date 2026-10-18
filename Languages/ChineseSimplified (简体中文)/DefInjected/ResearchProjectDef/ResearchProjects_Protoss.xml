@@ -1,116 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: Deciphered: Protoss Mech Fundamentals -->
-  <PM_Fundamentals.label>星灵机械基础</PM_Fundamentals.label>
-  <PM_Fundamentals.description>一段包含了一系列物理方程的数据包，包含了一个外星文明的大量基础设施蓝图。</PM_Fundamentals.description>
-  <PM_Fundamentals.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_Fundamentals.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Stellar Forge Printer Certificate -->
-  <PM_PrinterCertificate.label>星空锻造厂许可</PM_PrinterCertificate.label>
-  <PM_PrinterCertificate.description>一份针对曙光号星空锻造厂系统的授权数据包——访问密钥、校准表与模块化武器装配规程。里面有大量我们看着都很熟悉的蓝图，看的出来即使科技宛如神明，他们依然保留着从冷兵器时代开始的全部蓝图数据。</PM_PrinterCertificate.description>
-  <PM_PrinterCertificate.customUnlockTexts.0>解锁折跃界面的枪械打印页签。</PM_PrinterCertificate.customUnlockTexts.0>
-  <PM_PrinterCertificate.customUnlockTexts.1>解锁星灵锻炉的枪械改装 gizmo。</PM_PrinterCertificate.customUnlockTexts.1>
-  <PM_PrinterCertificate.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_PrinterCertificate.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Khalai Combat Package -->
-  <PM_KhalaiMechAdvance.label>卡莱锻造技术</PM_KhalaiMechAdvance.label>
-  <PM_KhalaiMechAdvance.description>一段收录卡莱相位技师工程经验的数据包，内含大量工艺工作流、复杂数学公式与多款机械体蓝图。\n\n你们对文中只言片语提到的「大一统理论」很感兴趣，但显然，此包并未给出可解的式子。\n\n文件最多的目录名为 Skill：根目录有 Agent.md，子文件夹却都以人名命名——像在索引某种技能与驾驭规程，却读不通。</PM_KhalaiMechAdvance.description>
-  <PM_KhalaiMechAdvance.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_KhalaiMechAdvance.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Civilian Mech Package -->
-  <PM_KhalaiMechStart.label>民用星灵机械</PM_KhalaiMechStart.label>
-  <PM_KhalaiMechStart.description>一段被标注为民用技术的数据包，大多数都是无人机相关的工程学数据和各式小型无人机的蓝图。\n\n令人在意的是，闪耀世界的逆重技术也在这个数据包出现……</PM_KhalaiMechStart.description>
-  <PM_KhalaiMechStart.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_KhalaiMechStart.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Nerazim Combat Package -->
-  <PM_NerazimMechStart.label>奈拉其姆锻造技术</PM_NerazimMechStart.label>
-  <PM_NerazimMechStart.description>这段数据包相比之前的几份格外原始，基本都是一些仪式、武术和心得相关的信息。里面反复提到「亚空间」「虚空」「灵能」等与科学毫无联系的词语。唯一算得上有帮助的是，里面还记载了多种近战武器和盔甲的蓝图，以及一张防御性建筑的草图。\n\n数据包被批注为「危险亚空间科技」。</PM_NerazimMechStart.description>
-  <PM_NerazimMechStart.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_NerazimMechStart.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Thermonuclear Fusion -->
-  <PM_NuclearFusion.label>热核聚变</PM_NuclearFusion.label>
-  <PM_NuclearFusion.description>开篇便是我们再熟悉不过的式子——E=mc²。更令人困惑的是正文主体：如何将能量凝结为「太阳能碎片」（档案亦直呼「太阳素」）的规程；脚注则一再提到「突破重原子的极限」，却未给出可解步骤。校验通过后，可在熔炉中合成太阳素。</PM_NuclearFusion.description>
-  <PM_NuclearFusion.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_NuclearFusion.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Energy Crystallization -->
-  <PM_EnergyCrystallization.label>能量结晶化</PM_EnergyCrystallization.label>
-  <PM_EnergyCrystallization.description>将储存的电能按档案规程凝结为太阳素晶体的专用容器设计；注明了在水晶塔场范围内缓慢充能的场型，以及应急抽取时的固定产出当量。</PM_EnergyCrystallization.description>
-  <PM_EnergyCrystallization.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_EnergyCrystallization.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Positronic Cognition -->
-  <PM_PositronicAI.label>正电子人工智能</PM_PositronicAI.label>
-  <PM_PositronicAI.description>本包收录脑科学与量子力学公式，对意识与智慧给出操作性定义，并描述如何以正电子晶格在功能上一比一复刻智慧生物大脑。\n\n这能帮助我们不再需要用暴力手段扫描人类大脑来制取高级次生核心；这种新型 AI 也可用在我们最先进的实验型炮台上。</PM_PositronicAI.description>
-  <PM_PositronicAI.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_PositronicAI.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Purifier Host Framework -->
-  <PM_PurifierProject.label>净化者计划</PM_PurifierProject.label>
-  <PM_PurifierProject.description>与其说是数据包，不如说是完整蓝图集与一份战史档案：傲慢的政府将最勇敢、最高贵的战士之魂复刻进机械之躯，欲组万世长胜之军，却仅视其为工具。他们曾奋起，终被镇压，冠以「永久」封存——引号在档案里被反复涂抹。工程章节与合成人格矩阵同源。\n\n令你们最感兴趣的，是一种被称为精金、又称亚金的晶格超材料：它以自身结构诱导攻击「绕过」装甲并将其吸收，从而获得近乎无坚不摧的效果。</PM_PurifierProject.description>
-  <PM_PurifierProject.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_PurifierProject.generalRules.rulesStrings>
-  
-  <!-- EN: Eclipse and Apocalypse -->
-  <PM_PurifierProjectFinal.label>日食与启示录</PM_PurifierProjectFinal.label>
+  <PM_Fundamentals.label>档案解密:控制论</PM_Fundamentals.label>
+  <PM_Fundamentals.description>这份档案从反馈、测量与稳定性开始，随后给出曙光号封装设备的操作接口与安全校验。</PM_Fundamentals.description>
+
+  <PM_InformationTheory.label>档案解密:信息论</PM_InformationTheory.label>
+  <PM_InformationTheory.description>编码、传输、存储与纠错：这份档案把曙光号的数据接口整理成一套可供验证的语言。信息的意义与载体被分开描述，复杂系统由此获得可追踪的输入与输出。</PM_InformationTheory.description>
+
+  <PM_NuclearFusion.label>档案解密:量子电动力学</PM_NuclearFusion.label>
+  <PM_NuclearFusion.description>档案以带电粒子与电磁场的量子相互作用为开篇，工程附录则收录了定向能设备与内爆式太阳素制取模块的操作规程。后者仍依赖曙光号提供的封装技术。</PM_NuclearFusion.description>
+
+  <PM_PositronicAI.label>档案解密:通用人工智能</PM_PositronicAI.label>
+  <PM_PositronicAI.description>这些系统能够理解不同任务、迁移经验并独立规划行动。档案详细讨论了任务边界、故障回退与监督接口，以及它们如何使系统在陌生环境中保持可靠。</PM_PositronicAI.description>
+
+  <PM_ArtificialSuperintelligence.label>档案解密:人工超级智能</PM_ArtificialSuperintelligence.label>
+  <PM_ArtificialSuperintelligence.description>一套远超通常智慧生命能力的智能体系，几乎能够解决任何明确提出的问题。曙光号的ASI服务涵盖广泛的知识与设备接口，其运行仍受执行官设定的约束。</PM_ArtificialSuperintelligence.description>
+
+  <PM_SyntheticPersonality.label>合成人人格矩阵</PM_SyntheticPersonality.label>
+  <PM_SyntheticPersonality.description>这份数据包质疑灵魂是否存在——它所讨论的技术是一比一复现仍然活着的智慧生物的「灵魂」。</PM_SyntheticPersonality.description>
+
+  <PM_KhalaiMechAdvance.label>相干投射</PM_KhalaiMechAdvance.label>
+  <PM_KhalaiMechAdvance.description>档案讨论如何同步投射源、约束能量并稳定场的边界。附录给出了护盾投射、远程补能与全息光场的校准流程。</PM_KhalaiMechAdvance.description>
+
+  <PM_KhalaiMechStart.label>档案解密:量子真空理论</PM_KhalaiMechStart.label>
+  <PM_KhalaiMechStart.description>凯达琳水晶的内部结构让这份档案看起来更像反应堆手册。按照其中的模型，水晶从环境汲取能量，再通过稳定能场分配给附近设施；相位技师将其视为一种晶体形态的零点能反应堆。</PM_KhalaiMechStart.description>
+
+  <PM_EnergyCrystallization.label>高效储能</PM_EnergyCrystallization.label>
+  <PM_EnergyCrystallization.description>一份关于太阳素电池的操作与校验档案，记录了水晶塔能场内的蓄能条件，以及将储存能量物质化、封装为太阳素的规程。</PM_EnergyCrystallization.description>
+
+  <PM_GrandUnification.label>档案解密:大统一理论</PM_GrandUnification.label>
+  <PM_GrandUnification.description>电磁、弱与强相互作用在这份档案中被纳入共同框架。工程部分展示了对物质结构的精确干预，以及相位穿震武器的约束条件。\n\n固定炮通过破坏目标的原子键造成伤害，与不朽者的武器同源。</PM_GrandUnification.description>
+
+  <PM_HigherDimensionalSpacetime.label>档案解密:高维时空理论</PM_HigherDimensionalSpacetime.label>
+  <PM_HigherDimensionalSpacetime.description>空间不再只是放置物体的容器。档案讨论额外维度、空间封装与稳定边界，以及这些结构如何影响物质的排列与响应。</PM_HigherDimensionalSpacetime.description>
+
+  <PM_QuantumGravity.label>档案解密:量子引力理论</PM_QuantumGravity.label>
+  <PM_QuantumGravity.description>档案尝试在同一语言中描述量子过程与时空曲率。工程部分讨论局域时间调节、相位协调与受控时空耦合，以及维持这些过程所需的稳定条件。</PM_QuantumGravity.description>
+
+  <PM_PurifierProject.label>净化者协同协议</PM_PurifierProject.label>
+  <PM_PurifierProject.description>这份蓝图集附带净化者的战史：英勇战士的人格曾被复制进机械之躯，却被创造者当作工具。他们的反抗、封存与重获自由，都留在这些记录中。\n\n达拉姆派来的净化者既是援军，也肩负观察噬星者的使命。</PM_PurifierProject.description>
+
+  <PM_PurifierSiege.label>净化者攻城授权</PM_PurifierSiege.label>
+  <PM_PurifierSiege.description>净化者的重型攻城编制将大范围杀伤与重型平台协同结合起来。档案记录了火力覆盖、友军识别与协同行动的规程。</PM_PurifierSiege.description>
+
+  <PM_PurifierProjectFinal.label>日蚀与启示录</PM_PurifierProjectFinal.label>
   <PM_PurifierProjectFinal.description>最后一个数据包出乎意料地简短：一组权限密钥，以及一段语音留言。</PM_PurifierProjectFinal.description>
+
+  <PM_Replicator.label>档案解密:万物理论</PM_Replicator.label>
+  <PM_Replicator.description>物质相互作用与量子时空被纳入统一的理论框架。档案中的工程模型将物质结构、能量形态与转换过程写成可计算、可校验的描述。</PM_Replicator.description>
+
+  <PM_ElectronicWarfare.label>电子对抗技术</PM_ElectronicWarfare.label>
+  <PM_ElectronicWarfare.description>识别、欺骗与干预敌方的信息处理，是这组格式塔装备的共同主题。档案收录电子系统侵入、目标特征模拟与敌我识别的规程。</PM_ElectronicWarfare.description>
+
+  <PM_SmartFireControl.label>智能火控</PM_SmartFireControl.label>
+  <PM_SmartFireControl.description>自主决策与定向能控制在这一组档案中汇合。系统必须正确识别威胁、选择拦截或追踪策略，并在失去目标后安全结束攻击。</PM_SmartFireControl.description>
+
+  <PM_PrinterCertificate.label>星空锻造厂许可</PM_PrinterCertificate.label>
+  <PM_PrinterCertificate.description>一份针对曙光号星空锻造厂的授权数据包，包含访问密钥、校准表与模块化武器装配规程，以及一大堆安全说明和使用规范。</PM_PrinterCertificate.description>
+
+  <PM_NerazimMechStart.label>奈拉齐姆技术档案</PM_NerazimMechStart.label>
+  <PM_NerazimMechStart.description>奈拉齐姆的独立技术档案，收录虚空相关设备的操作经验与传统防御结构的蓝图。</PM_NerazimMechStart.description>
+
+  <PM_TaldarimMechStart.label>塔达利姆技术档案</PM_TaldarimMechStart.label>
+  <PM_TaldarimMechStart.description>塔达利姆的独立技术档案，以直接而强烈的作战需求组织设备规程。</PM_TaldarimMechStart.description>
   <PM_PurifierProjectFinal.discoveredLetterTitle>执行官的留言</PM_PurifierProjectFinal.discoveredLetterTitle>
   <PM_PurifierProjectFinal.discoveredLetterText>你们或许听过那些称呼：噬星者，星海天罚。它们都来自旁观者。我们没有名字，只有一场尚未结束的狩猎。\n\n我们追逐的不是邪恶，而是足以让现实屈从于自身意志的存在。有时，只有异常能够对抗异常——但愿你们永远不必走到那一步。\n\n很久以前，我曾为一个无名的恒星系献出生命。如今，你们称那里为太阳系。若能重新选择，我仍会如此。人类并不完美，但你们勇敢、顽强，始终愿意迈向未知。\n\n最后的权限已经开放，只要你们保留着这座信标，猎人们就会响应你们的召唤。\n\n愿群星祝福你们的旅途。En Taro Artanis.</PM_PurifierProjectFinal.discoveredLetterText>
-  <PM_PurifierProjectFinal.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_PurifierProjectFinal.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Synthetic Personality Matrix -->
-  <PM_SyntheticPersonality.label>合成人人格矩阵</PM_SyntheticPersonality.label>
-  <PM_SyntheticPersonality.description>这份数据包质疑灵魂是否存在——事实上，它所讲解的，正是如何一比一复刻仍活着的智慧生物的「灵魂」。\n\n这能帮助我们理解并在熔炉中制备真正的人工智能人格核心。</PM_SyntheticPersonality.description>
-  <PM_SyntheticPersonality.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_SyntheticPersonality.generalRules.rulesStrings>
-  
-  <!-- EN: Deciphered: Tal'darim Combat Package -->
-  <PM_TaldarimMechStart.label>塔达利姆锻造技术</PM_TaldarimMechStart.label>
-  <PM_TaldarimMechStart.description>这份数据包乍一看非常粗暴，追求极致的暴力——威力不够大，加大当量；杀伤范围不够大，加大当量；装甲不够硬，加厚装甲……\n\n但其中也能看到很多精巧、让人眼前一亮的设计，例如若干威力巨大的机械体与防御建筑的蓝图。安全附录比正文短得多。</PM_TaldarimMechStart.description>
-  <PM_TaldarimMechStart.generalRules.rulesStrings>
-    <li>subject->破译传输公式</li>
-    <li>subject_story->破译来自未知援手的公式</li>
-    <li>subject_gerund->破译公式</li>
-  </PM_TaldarimMechStart.generalRules.rulesStrings>
-  
+  <PM_PrinterCertificate.customUnlockTexts.0>解锁折跃界面的枪械定制功能</PM_PrinterCertificate.customUnlockTexts.0>
+  <PM_PrinterCertificate.customUnlockTexts.1>解锁锻炉的枪匠改装功能</PM_PrinterCertificate.customUnlockTexts.1>
 </LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_UmbraBody.label>渊影</PM_UmbraBody.label>
+  <PM_UmbraBody.corePart.parts.MechanicalNeck.parts.PM_NaniteHead.parts.left_sight_sensor.customLabel>左赛博眼</PM_UmbraBody.corePart.parts.MechanicalNeck.parts.PM_NaniteHead.parts.left_sight_sensor.customLabel>
+  <PM_UmbraBody.corePart.parts.MechanicalNeck.parts.PM_NaniteHead.parts.right_sight_sensor.customLabel>右赛博眼</PM_UmbraBody.corePart.parts.MechanicalNeck.parts.PM_NaniteHead.parts.right_sight_sensor.customLabel>
+  <PM_UmbraBody.corePart.parts.MechanicalNeck.parts.PM_NaniteHead.parts.hearing_sensor.customLabel>赛博耳</PM_UmbraBody.corePart.parts.MechanicalNeck.parts.PM_NaniteHead.parts.hearing_sensor.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.customLabel>左仿生肩</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.customLabel>左仿生臂</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.customLabel>左仿生手</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左机械小指</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左机械中指</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左机械食指</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左机械拇指</PM_UmbraBody.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.customLabel>右仿生肩</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>右仿生臂</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>右仿生手</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右机械小指</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右机械中指</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右机械食指</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右机械拇指</PM_UmbraBody.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <PM_UmbraBody.corePart.parts.left_leg.customLabel>左赛博腿</PM_UmbraBody.corePart.parts.left_leg.customLabel>
+  <PM_UmbraBody.corePart.parts.left_leg.parts.left_foot.customLabel>左赛博足</PM_UmbraBody.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <PM_UmbraBody.corePart.parts.right_leg.customLabel>右赛博腿</PM_UmbraBody.corePart.parts.right_leg.customLabel>
+  <PM_UmbraBody.corePart.parts.right_leg.parts.right_foot.customLabel>右赛博足</PM_UmbraBody.corePart.parts.right_leg.parts.right_foot.customLabel>
+</LanguageData>

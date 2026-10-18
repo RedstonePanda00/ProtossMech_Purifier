@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Drill_Fuel>燃料</PM_Drill_Fuel>
+  <PM_Drill_Heat>热量</PM_Drill_Heat>
+  <PM_Drill_Cooling>过热冷却中</PM_Drill_Cooling>
+  <PM_Drill_NoFuel>矿枪需要补充化合燃料。</PM_Drill_NoFuel>
+  <PM_Drill_HeatInspect>热量：{0} / {1}</PM_Drill_HeatInspect>
+  <PM_Drill_RefuelNow>立即将矿枪补料至 {0}</PM_Drill_RefuelNow>
+  <PM_Drill_RefuelUnavailable>需要未征召且具备操作能力的矿枪装备者。</PM_Drill_RefuelUnavailable>
+  <PM_Drill_RefuelAtTarget>燃料已达到或超过补充目标。</PM_Drill_RefuelAtTarget>
+  <PM_Drill_NoAvailableFuel>没有可用的化合燃料。</PM_Drill_NoAvailableFuel>
+  <PM_Drill_FuelControlsTip>左键拖动滑槽以设置燃料补充上限。</PM_Drill_FuelControlsTip>
+</LanguageData>

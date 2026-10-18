@@ -20,7 +20,7 @@
   <PM_Common_IronSight_Front_Folded.description>折叠状态机械瞄具的隐藏默认视觉部件。</PM_Common_IronSight_Front_Folded.description>
 
   <PM_Common_BoxLaser.label>盒式战术激光器</PM_Common_BoxLaser.label>
-  <PM_Common_BoxLaser.description>高功率战术激光，提供中近距离的清晰指向，这个装置发射的是可见光。</PM_Common_BoxLaser.description>
+  <PM_Common_BoxLaser.description>高功率战术激光，提供中近距离的清晰指向，这个装置发射的是可见光。近距离的瞄准参考提供基础指向精度保障，辅助效果随距离增加而减弱。</PM_Common_BoxLaser.description>
   <PM_Common_MuzzleBrake_01.label>多腔制退器</PM_Common_MuzzleBrake_01.label>
   <PM_Common_MuzzleBrake_01.description>多腔制退器捕获喷流以降低后坐力，并且改善枪口散热以增加延长火力持续时间。</PM_Common_MuzzleBrake_01.description>
   <PM_Common_UB_FrontGrip01.label>轻型三角前握把</PM_Common_UB_FrontGrip01.label>

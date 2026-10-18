@@ -3,7 +3,7 @@
 
   <!-- EN: Solarite battery -->
   <PM_SolariteBattery.label>太阳素电池</PM_SolariteBattery.label>
-  <!-- EN: This structure stores energy in any form, then crystallizes and encapsulates it as Solarite. -->
-  <PM_SolariteBattery.description>这座建筑存储任何形式的能量，并且把它们结晶并封装为太阳素。</PM_SolariteBattery.description>
+  <!-- EN: This structure stores energy and can materialize it, encapsulating it as Solarite. -->
+  <PM_SolariteBattery.description>这座建筑储存能量，并能将其物质化、封装为太阳素。</PM_SolariteBattery.description>
 
 </LanguageData>

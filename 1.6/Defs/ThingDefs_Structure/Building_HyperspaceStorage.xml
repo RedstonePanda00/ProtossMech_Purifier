@@ -37,9 +37,7 @@
       <ComponentSpacer>5</ComponentSpacer>
       <PM_Adanium>10</PM_Adanium>
     </costList>
-    <researchPrerequisites>
-      <li>PM_PurifierProject</li>
-    </researchPrerequisites>
+    <researchPrerequisites><li>PM_HigherDimensionalSpacetime</li></researchPrerequisites>
     <comps>
       <li Class="ProtossMech.CompProperties_HyperspaceStorage">
         <maxStacks>1800</maxStacks>

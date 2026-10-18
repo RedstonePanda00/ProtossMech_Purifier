@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef>
+    <ThingDef Name="PM_WarpConstructionBeaconBase">
         <defName>PM_WarpConstructionBeaconBase</defName>
         <label>warp construction beacon</label>
         <description>A temporary beacon that will warp in a completed building.</description>

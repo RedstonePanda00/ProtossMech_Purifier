@@ -22,7 +22,7 @@
             <soundCast>Shot_AssaultRifle</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>8</muzzleFlashScale>
-            <!-- LMG-style mounted recoil so a sustained 12-round suppression burst stays on target. -->
+
             <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>

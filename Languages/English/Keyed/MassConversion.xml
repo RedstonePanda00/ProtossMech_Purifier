@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Conversion_Title>Mass conversion</PM_Conversion_Title>
+  <PM_Conversion_Description>Convert stored materials by mass into one target material. Inputs are charged together; one stack is delivered per cycle. Existing hyperspace cabinets for the target receive products first. Excess mass is discarded.</PM_Conversion_Description>
+  <PM_Conversion_MapStorage>Storage</PM_Conversion_MapStorage>
+  <PM_Conversion_Hyperspace>Hyperspace</PM_Conversion_Hyperspace>
+  <PM_Conversion_Combined>Combined</PM_Conversion_Combined>
+  <PM_Conversion_SearchInputs>Search stored materials…</PM_Conversion_SearchInputs>
+  <PM_Conversion_SearchTargets>Search target materials…</PM_Conversion_SearchTargets>
+  <PM_Conversion_InputHeader>Material / stock / unit mass</PM_Conversion_InputHeader>
+  <PM_Conversion_Target>Output material</PM_Conversion_Target>
+  <PM_Conversion_All>Select all</PM_Conversion_All>
+  <PM_Conversion_Clear>Clear</PM_Conversion_Clear>
+  <PM_Conversion_NoInputs>No eligible materials in this source.</PM_Conversion_NoInputs>
+  <PM_Conversion_DragTip>Drag from a checkbox across rows to select or clear. First selection uses all available units; quantities remain editable. Select all, clear and dragging affect only the current source.</PM_Conversion_DragTip>
+  <PM_Conversion_StockTip>Storage stock: {0}
+Hyperspace stock: {1}
+Selections are remembered separately and withdrawn from their selected source.</PM_Conversion_StockTip>
+  <PM_Conversion_InputTotal>Selected {0} materials, total {1}</PM_Conversion_InputTotal>
+  <PM_Conversion_Preview>Output: {0} × {1} ({2}); discarded mass: {3}</PM_Conversion_Preview>
+  <PM_Conversion_DiscardNotice>Output is rounded down; remainder mass is discarded.</PM_Conversion_DiscardNotice>
+  <PM_Conversion_Convert>Start conversion</PM_Conversion_Convert>
+  <PM_Conversion_Cancel>Cancel conversion</PM_Conversion_Cancel>
+  <PM_Conversion_Busy>The replicator already has a pending conversion.</PM_Conversion_Busy>
+  <PM_Conversion_Progress>Mass conversion: {0}, {1}</PM_Conversion_Progress>
+  <PM_Conversion_StockChanged>The selected source has insufficient or invalid stock. This batch was not charged.</PM_Conversion_StockChanged>
+  <PM_Conversion_Invalid>The selected material is unavailable for this conversion.</PM_Conversion_Invalid>
+  <PM_Conversion_TooLittle>The input mass is too small to produce one target item.</PM_Conversion_TooLittle>
+  <PM_Conversion_TooLarge>This batch is too large. Reduce input quantities (maximum 4096 output stacks).</PM_Conversion_TooLarge>
+  <PM_Conversion_FinalProduct>Final product: {0} × {1}</PM_Conversion_FinalProduct>
+  <PM_Conversion_Pause>Pause output</PM_Conversion_Pause>
+  <PM_Conversion_Resume>Resume output</PM_Conversion_Resume>
+  <PM_Conversion_Paused>Matter conversion: output paused</PM_Conversion_Paused>
+  <PM_Conversion_RemainingStacks>Stacks awaiting output: {0}</PM_Conversion_RemainingStacks>
+  <PM_Conversion_CommittedNotice>Materials have been consumed. Remaining products are saved inside the replicator and delivered one stack per cycle; output can be paused.</PM_Conversion_CommittedNotice>
+</LanguageData>

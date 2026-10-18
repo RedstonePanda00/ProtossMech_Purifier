@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apparel_EchoUnit.label>回声背包</PM_Apparel_EchoUnit.label>
+  <PM_Apparel_EchoUnit.description>便携式全息诱饵，这个栩栩如生的投影几乎和真人无异，能有效吸引敌人的火力。</PM_Apparel_EchoUnit.description>
+  <PM_Apparel_EchoUnit.verbs.0.label>部署回声装置</PM_Apparel_EchoUnit.verbs.0.label>
+  <PM_Projectile_EchoUnit.label>回声装置投放舱</PM_Projectile_EchoUnit.label>
+  <PM_EchoUnit.label>回声装置</PM_EchoUnit.label>
+  <PM_EchoUnit.description>一个便携式的全息诱饵，投影一个逼真的全息影像来吸引敌人的火力。这个装置的超级电容用尽后会自毁。</PM_EchoUnit.description>
+</LanguageData>

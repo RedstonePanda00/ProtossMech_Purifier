@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PM_CosmicSpider"]/tools</xpath>
+    <value>
+    <tools Inherit="False">
+      <li Class="CombatExtended.ToolCE">
+        <label>bite</label>
+        <capacities><li>Bite</li></capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetrationSharp>60</armorPenetrationSharp>
+        <armorPenetrationBlunt>20</armorPenetrationBlunt>
+        <chanceFactor>1</chanceFactor>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>scratch</label>
+        <capacities><li>Scratch</li></capacities>
+        <power>7</power>
+        <cooldownTime>1</cooldownTime>
+        <armorPenetrationSharp>40</armorPenetrationSharp>
+        <armorPenetrationBlunt>12</armorPenetrationBlunt>
+        <chanceFactor>1</chanceFactor>
+        <linkedBodyPartsGroup>PM_CosmicSpiderHands</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>body slam</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetrationSharp>0</armorPenetrationSharp>
+        <armorPenetrationBlunt>12</armorPenetrationBlunt>
+        <chanceFactor>0.6</chanceFactor>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+    </value>
+  </Operation>
+</Patch>

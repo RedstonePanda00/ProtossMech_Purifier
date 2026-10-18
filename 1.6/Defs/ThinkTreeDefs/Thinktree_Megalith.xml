@@ -113,6 +113,7 @@
         <li Class="ThinkNode_Tagger">
           <tagToGive>Idle</tagToGive>
           <subNodes>
+            <li Class="ProtossMech.JobGiver_CollectivePatrol" />
             <li Class="JobGiver_WanderColony">
               <maxDanger>None</maxDanger>
             </li>

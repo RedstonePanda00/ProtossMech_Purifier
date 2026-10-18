@@ -17,7 +17,7 @@
         <childSlotAnchors>
             <li>
                 <slotId>Muzzle</slotId>
-                <offset>(-0.0208, 0.0018)</offset>
+                <offset>(-0.3570, 0.0018)</offset>
             </li>
             <li>
                 <slotId>Laser</slotId>
@@ -339,7 +339,7 @@
         <defName>PM_C7Templar_Laser_01</defName>
         
         <label>Ranger box laser</label>
-        <description>A boxed laser designator that provides fast close-range pointing but offers limited value at long range.</description>
+        <description>A boxed laser designator that provides fast close-range pointing but offers limited value at long range. At close range, the aiming reference provides a minimum level of weapon pointing precision; its assistance fades with distance.</description>
         <platformDef>PM_GunSmith_C7Templar</platformDef>
         <compatiblePlatforms>
             <li>PM_GunSmith_C19Dragoon</li>
@@ -367,6 +367,19 @@
         </costList>
             </li>
         </modExtensions>
+    <aimingLaser>
+            <color>(0.10, 0.35, 1)</color>
+            <alpha>.25</alpha>
+            <emitterUV>(0.421875, 0.50)</emitterUV>
+            <width>0.035</width>
+            <attenuationDistance>10</attenuationDistance>
+            <maxDistance>60</maxDistance>
+            <dotSize>0.12</dotSize>
+            <cqbFullDistance>5</cqbFullDistance>
+            <cqbEndDistance>12</cqbEndDistance>
+            <accuracyFloor>0.80</accuracyFloor>
+            <ceSwayCap>1</ceSwayCap>
+        </aimingLaser>
     </GunSmithFramework.GunSmithPartDef>
 
     <GunSmithFramework.GunSmithPartDef>

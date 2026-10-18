@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Humanlike head/body hierarchy with aligned full-pawn textures. Mechanoid
+       nodes explicitly accept non-human pawns and do not require a story tracker. -->
+  <PawnRenderTreeDef>
+    <defName>PM_Umbra</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <pawnType>Any</pawnType>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <workerClass>PawnRenderNodeWorker_Body</workerClass>
+          <pawnType>Any</pawnType>
+          <skipFlag>Body</skipFlag>
+          <texPath>Things/Pawn/Mechanoid/Umbra/Body</texPath>
+          <shaderTypeDef>Transparent</shaderTypeDef>
+          <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+          <children>
+            <li Class="PawnRenderNodeProperties_Overlay">
+              <debugLabel>Wounds</debugLabel>
+              <pawnType>Any</pawnType>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <baseLayer>8</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Umbra cloak</debugLabel>
+              <pawnType>Any</pawnType>
+              <texPath>Things/Pawn/Mechanoid/Umbra/Cloak</texPath>
+              <shaderTypeDef>Transparent</shaderTypeDef>
+              <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+              <!-- Front: head > body > cloak. Back: cloak > body > head.
+                   Sides: head > cloak > body. West mirrors the east texture. -->
+              <baseLayer>25</baseLayer>
+              <drawData>
+                <dataNorth><layer>90</layer></dataNorth>
+                <dataSouth><layer>-5</layer></dataSouth>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_Parent">
+              <debugLabel>Apparel root</debugLabel>
+              <tagDef>ApparelBody</tagDef>
+              <pawnType>Any</pawnType>
+              <baseLayer>20</baseLayer>
+            </li>
+            <li Class="PawnRenderNodeProperties_Overlay">
+              <debugLabel>Firefoam</debugLabel>
+              <pawnType>Any</pawnType>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <baseLayer>40</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li>
+          <debugLabel>Head</debugLabel>
+          <tagDef>Head</tagDef>
+          <workerClass>ProtossMech.PawnRenderNodeWorker_UmbraHead</workerClass>
+          <pawnType>Any</pawnType>
+          <skipFlag>Head</skipFlag>
+          <!-- HasHead checks the human Head def; Umbra has MechanicalHead. -->
+          <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+          <texPath>Things/Pawn/Mechanoid/Umbra/Head</texPath>
+          <shaderTypeDef>Transparent</shaderTypeDef>
+          <overrideMeshSize>(1.5, 1.5)</overrideMeshSize>
+          <baseLayer>50</baseLayer>
+          <drawData>
+            <dataNorth><layer>-5</layer></dataNorth>
+          </drawData>
+          <children>
+            <li Class="PawnRenderNodeProperties_Parent">
+              <debugLabel>Apparel root</debugLabel>
+              <tagDef>ApparelHead</tagDef>
+              <workerClass>ProtossMech.PawnRenderNodeWorker_UmbraHeadApparelRoot</workerClass>
+              <pawnType>Any</pawnType>
+              <baseLayer>70</baseLayer>
+            </li>
+            <li Class="PawnRenderNodeProperties_Overlay">
+              <debugLabel>Firefoam</debugLabel>
+              <pawnType>Any</pawnType>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Head</overlayLayer>
+              <baseLayer>85</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Weapon/carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+          <pawnType>Any</pawnType>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

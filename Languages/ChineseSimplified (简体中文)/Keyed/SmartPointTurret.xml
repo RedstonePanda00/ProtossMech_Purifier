@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Point_Locking>正在锁定：{0}</PM_Point_Locking>
+  <PM_Point_Remaining>剩余持续时间：{0}</PM_Point_Remaining>
+  <PM_Point_Blocked>智能火力点无法部署，已返还背包。</PM_Point_Blocked>
+</LanguageData>

@@ -25,4 +25,8 @@
 
   <ProtossMech.WarpingIn>Unit will warp in {0}.</ProtossMech.WarpingIn>
   <ProtossMech.BuildingWarpingIn>Building will warp in {0}.</ProtossMech.BuildingWarpingIn>
+  <ProtossMech.MechWorkButton>Work</ProtossMech.MechWorkButton>
+  <ProtossMech.MechWorkPriorities>Manual work priorities</ProtossMech.MechWorkPriorities>
+  <ProtossMech.MechWorkPriorityTip>Priority 1 is highest; a blank box disables the work. Left-click to increase priority, right-click to decrease it. Turn off this display mode to enable or disable work with checkboxes. Enabling a disabled work type this way assigns priority 3. Switching display mode preserves existing priorities.</ProtossMech.MechWorkPriorityTip>
+  <ProtossMech.MechNoWorkTypes>This mech has no available work types.</ProtossMech.MechNoWorkTypes>
 </LanguageData>

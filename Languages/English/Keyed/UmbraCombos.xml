@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM.Combo.Slot>Combo slot {0}</PM.Combo.Slot>
+  <PM.Combo.GizmoDesc>Left-click to target and execute one combo. Right-click to configure. Continue at the last position if the target dies; stop if a move's requirements fail. Left-click an empty slot to configure it.</PM.Combo.GizmoDesc>
+  <PM.Combo.CounterIai>Iai Spirit Slash (wait for counter)</PM.Combo.CounterIai>
+  <PM.Combo.ReleaseRadiant>Release Radiant Sheathe → full finisher</PM.Combo.ReleaseRadiant>
+  <PM.Combo.Empty>Configure this combo slot first.</PM.Combo.Empty>
+  <PM.Combo.InvalidTarget>Select a valid attack target.</PM.Combo.InvalidTarget>
+  <PM.Combo.InvalidRoute>This combo route is invalid. Right-click to edit it.</PM.Combo.InvalidRoute>
+  <PM.Combo.Interrupted>Combo interrupted: Slash form cannot be controlled.</PM.Combo.Interrupted>
+  <PM.Combo.Timeout>Combo interrupted: pursuit or waiting timed out.</PM.Combo.Timeout>
+  <PM.Combo.CounterFailed>Combo interrupted: the required successful counter and return hit did not occur.</PM.Combo.CounterFailed>
+  <PM.Combo.Conditions>Combo interrupted: blade grade, spirit, or follow-up requirements are not met.</PM.Combo.Conditions>
+  <PM.Combo.Unreachable>Combo interrupted: target position is unreachable.</PM.Combo.Unreachable>
+  <PM.Combo.EditorTitle>Slash form · Combo configuration</PM.Combo.EditorTitle>
+  <PM.Combo.Name>Name</PM.Combo.Name>
+  <PM.Combo.StartGrade>Starting blade grade</PM.Combo.StartGrade>
+  <PM.Combo.Sequence>Move sequence</PM.Combo.Sequence>
+  <PM.Combo.NextMoves>Available follow-ups</PM.Combo.NextMoves>
+  <PM.Combo.Cost>Total spirit spent: {0}  |  Expected ending blade grade: {1}</PM.Combo.Cost>
+  <PM.Combo.InvalidAt>Move {0} cannot follow. Remove/reorder it or change the starting blade grade.</PM.Combo.InvalidAt>
+  <PM.Combo.PreviewAssumptions>Preview assumes the chosen grade, full spirit and successful hits. Actual spirit and blade grade determine whether each move can execute. Helmbreaker and finishers include their existing automatic stages.</PM.Combo.PreviewAssumptions>
+  <PM.Combo.CounterNote>Conditional route: Foresight must counter and land its return hit to continue. Iai must counter an incoming attack within its sheathe window, or the combo stops.</PM.Combo.CounterNote>
+  <PM.Combo.Clear>Clear</PM.Combo.Clear>
+  <PM.Combo.Cancel>Cancel</PM.Combo.Cancel>
+  <PM.Combo.Save>Save</PM.Combo.Save>
+  <PM.Combo.UnfinishedStance>Add a follow-up to finish the sheathe stance before saving.</PM.Combo.UnfinishedStance>
+</LanguageData>

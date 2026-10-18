@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Bolt</defName>
+        <label>Bolt</label>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Barrel</defName>
+        <label>Barrel</label>
+        <drawsUnderBody>true</drawsUnderBody>
+        <gizmoOnLeft>true</gizmoOnLeft>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Muzzle</defName>
+        <label>Muzzle</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Laser</defName>
+        <label>Laser</label>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>UnderBarrel</defName>
+        <label>UnderBarrel</label>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Rail</defName>
+        <label>Rail</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Optic</defName>
+        <label>Optic</label>
+        <gizmoYOffset>-18</gizmoYOffset>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Stock</defName>
+        <label>Stock</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Grip</defName>
+        <label>Grip</label>
+        <drawsUnderBody>true</drawsUnderBody>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Magazine</defName>
+        <label>Magazine</label>
+        <drawsUnderBody>true</drawsUnderBody>
+        <noCombatExtendedLabel>Ammo</noCombatExtendedLabel>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>Ammo</defName>
+        <label>Ammo</label>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>RearIronSight</defName>
+        <label>Rear iron sight</label>
+        <hidden>true</hidden>
+    </GunSmithFramework.GunSmithSlotDef>
+
+    <GunSmithFramework.GunSmithSlotDef>
+        <defName>FrontIronSight</defName>
+        <label>Front iron sight</label>
+        <hidden>true</hidden>
+    </GunSmithFramework.GunSmithSlotDef>
+
+</Defs>
