@@ -6,6 +6,7 @@
         <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>C-31 Tempest</label>
         <weaponThingDef>PM_GunC31Tempest</weaponThingDef>
+        <weaponCategory>Special</weaponCategory>
         <bodyTexPath>Things/Weapon/C31Tempest/C31Tempest_body</bodyTexPath>
         <slotAttachmentOffsets>
             <li>

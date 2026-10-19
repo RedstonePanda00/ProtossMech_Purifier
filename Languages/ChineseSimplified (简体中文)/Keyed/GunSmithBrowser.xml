@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ProtossMech.GunSmithBrowser.SelectMod>选择来源模组</ProtossMech.GunSmithBrowser.SelectMod>
+  <ProtossMech.GunSmithBrowser.UnknownMod>未知模组</ProtossMech.GunSmithBrowser.UnknownMod>
+  <ProtossMech.GunSmithBrowser.Locked>未解锁</ProtossMech.GunSmithBrowser.Locked>
+  <ProtossMech.GunSmithBrowser.OpenEditor>打开枪匠</ProtossMech.GunSmithBrowser.OpenEditor>
+  <ProtossMech.GunSmithBrowser.Back>返回平台选择</ProtossMech.GunSmithBrowser.Back>
+  <ProtossMech.GunSmithBrowser.Category.AssaultRifle>突击步枪</ProtossMech.GunSmithBrowser.Category.AssaultRifle>
+  <ProtossMech.GunSmithBrowser.Category.SubmachineGun>冲锋枪</ProtossMech.GunSmithBrowser.Category.SubmachineGun>
+  <ProtossMech.GunSmithBrowser.Category.Shotgun>霰弹枪</ProtossMech.GunSmithBrowser.Category.Shotgun>
+  <ProtossMech.GunSmithBrowser.Category.LightMachineGun>轻机枪</ProtossMech.GunSmithBrowser.Category.LightMachineGun>
+  <ProtossMech.GunSmithBrowser.Category.MarksmanRifle>精确射手步枪</ProtossMech.GunSmithBrowser.Category.MarksmanRifle>
+  <ProtossMech.GunSmithBrowser.Category.SniperRifle>狙击步枪</ProtossMech.GunSmithBrowser.Category.SniperRifle>
+  <ProtossMech.GunSmithBrowser.Category.Launcher>发射器</ProtossMech.GunSmithBrowser.Category.Launcher>
+  <ProtossMech.GunSmithBrowser.Category.Melee>近战</ProtossMech.GunSmithBrowser.Category.Melee>
+  <ProtossMech.GunSmithBrowser.Category.Special>特殊</ProtossMech.GunSmithBrowser.Category.Special>
+  <ProtossMech.GunSmithBrowser.Category.Handgun>手枪</ProtossMech.GunSmithBrowser.Category.Handgun>
+</LanguageData>

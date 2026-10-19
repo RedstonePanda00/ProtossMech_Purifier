@@ -6,6 +6,7 @@
         <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>C-7 Templar</label>
         <weaponThingDef>PM_GunC7Templar</weaponThingDef>
+        <weaponCategory>AssaultRifle</weaponCategory>
         <bodyTexPath>Things/Weapon/C7Templar/C7_Body</bodyTexPath>
         <slotAttachmentOffsets>
             <li>

@@ -6,6 +6,7 @@
         <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>B9 Zealot</label>
         <weaponThingDef>PM_GunB9Zealot</weaponThingDef>
+        <weaponCategory>SubmachineGun</weaponCategory>
         <bodyTexPath>Things/Weapon/B9/B9_Body</bodyTexPath>
         <dualWieldSeparation>0.29</dualWieldSeparation>
         <dualWieldMuzzleOffset>(0.67, 0)</dualWieldMuzzleOffset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ProtossMech.GunSmithEditor.BackToWeapons>返回武器列表</ProtossMech.GunSmithEditor.BackToWeapons>
+  <ProtossMech.GunSmithEditor.RefreshWeapons>刷新列表</ProtossMech.GunSmithEditor.RefreshWeapons>
+  <ProtossMech.GunSmithEditor.BeforeModification>改装前</ProtossMech.GunSmithEditor.BeforeModification>
+  <ProtossMech.GunSmithEditor.Overview>返回整枪</ProtossMech.GunSmithEditor.Overview>
+  <ProtossMech.GunSmithEditor.ShowSummary>简略信息</ProtossMech.GunSmithEditor.ShowSummary>
+  <ProtossMech.GunSmithEditor.ShowDetails>详细信息</ProtossMech.GunSmithEditor.ShowDetails>
+  <ProtossMech.GunSmithEditor.None>无配件</ProtossMech.GunSmithEditor.None>
+  <ProtossMech.GunSmithEditor.Installed>已安装</ProtossMech.GunSmithEditor.Installed>
+  <ProtossMech.GunSmithEditor.Replacement>替换后相对当前配置的变化</ProtossMech.GunSmithEditor.Replacement>
+  <ProtossMech.GunSmithEditor.Attributes>武器属性</ProtossMech.GunSmithEditor.Attributes>
+  <ProtossMech.GunSmithEditor.Default>默认配置</ProtossMech.GunSmithEditor.Default>
+  <ProtossMech.GunSmithEditor.Current>当前配置</ProtossMech.GunSmithEditor.Current>
+  <ProtossMech.GunSmithEditor.ScoreScale>性能评分</ProtossMech.GunSmithEditor.ScoreScale>
+  <ProtossMech.GunSmithEditor.Firepower>火力</ProtossMech.GunSmithEditor.Firepower>
+  <ProtossMech.GunSmithEditor.Accuracy>精度</ProtossMech.GunSmithEditor.Accuracy>
+  <ProtossMech.GunSmithEditor.Mobility>机动</ProtossMech.GunSmithEditor.Mobility>
+  <ProtossMech.GunSmithEditor.Handling>操控</ProtossMech.GunSmithEditor.Handling>
+  <ProtossMech.GunSmithEditor.ScoreHelp>所有平台使用同一固定标尺估算评分，白线表示{0}配置。\n火力：伤害 × 连发数量 ÷（瞄准时间 + 连发耗时 + 射后冷却）；30 伤害/秒对应 50 分。\n精度：原版取各距离命中率平均值；CE 取散布与摇摆的评分平均值，两者均以 1 对应 50 分。\n机动：5 千克对应 50 分，再按配件移速加成相对参考移速 4.6 格/秒修正。\n操控：瞄准时间 + 一半射后冷却，以 1.5 秒对应 50 分。\n除原版精度外，评分使用收益递减曲线。评分不计算目标护甲、角色技能、换弹及特殊弹丸效果；实际武器属性请查看详细信息。</ProtossMech.GunSmithEditor.ScoreHelp>
+</LanguageData>

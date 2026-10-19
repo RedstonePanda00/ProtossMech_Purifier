@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ProtossMech.GunSmithBrowser.SelectMod>Select source mod</ProtossMech.GunSmithBrowser.SelectMod>
+  <ProtossMech.GunSmithBrowser.UnknownMod>Unknown mod</ProtossMech.GunSmithBrowser.UnknownMod>
+  <ProtossMech.GunSmithBrowser.Locked>Locked</ProtossMech.GunSmithBrowser.Locked>
+  <ProtossMech.GunSmithBrowser.OpenEditor>Open gunsmith</ProtossMech.GunSmithBrowser.OpenEditor>
+  <ProtossMech.GunSmithBrowser.Back>Back to platforms</ProtossMech.GunSmithBrowser.Back>
+  <ProtossMech.GunSmithBrowser.Category.AssaultRifle>Assault rifles</ProtossMech.GunSmithBrowser.Category.AssaultRifle>
+  <ProtossMech.GunSmithBrowser.Category.SubmachineGun>Submachine guns</ProtossMech.GunSmithBrowser.Category.SubmachineGun>
+  <ProtossMech.GunSmithBrowser.Category.Shotgun>Shotguns</ProtossMech.GunSmithBrowser.Category.Shotgun>
+  <ProtossMech.GunSmithBrowser.Category.LightMachineGun>Light machine guns</ProtossMech.GunSmithBrowser.Category.LightMachineGun>
+  <ProtossMech.GunSmithBrowser.Category.MarksmanRifle>Marksman rifles</ProtossMech.GunSmithBrowser.Category.MarksmanRifle>
+  <ProtossMech.GunSmithBrowser.Category.SniperRifle>Sniper rifles</ProtossMech.GunSmithBrowser.Category.SniperRifle>
+  <ProtossMech.GunSmithBrowser.Category.Launcher>Launchers</ProtossMech.GunSmithBrowser.Category.Launcher>
+  <ProtossMech.GunSmithBrowser.Category.Melee>Melee</ProtossMech.GunSmithBrowser.Category.Melee>
+  <ProtossMech.GunSmithBrowser.Category.Special>Special</ProtossMech.GunSmithBrowser.Category.Special>
+  <ProtossMech.GunSmithBrowser.Category.Handgun>Handguns</ProtossMech.GunSmithBrowser.Category.Handgun>
+</LanguageData>

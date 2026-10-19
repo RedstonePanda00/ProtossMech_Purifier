@@ -6,6 +6,7 @@
         <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>B12 Vanguard</label>
         <weaponThingDef>PM_GunB12Vanguard</weaponThingDef>
+        <weaponCategory>Shotgun</weaponCategory>
         <bodyTexPath>Things/Weapon/B12/B12_Body</bodyTexPath>
         <slotAttachmentOffsets>
             <li><slotId>Barrel</slotId><offset>(-0.3123, -0.0556)</offset><gizmoOffset>(0.0853, -0.3125)</gizmoOffset></li>

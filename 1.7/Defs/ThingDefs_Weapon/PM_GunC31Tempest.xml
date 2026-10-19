@@ -89,6 +89,7 @@
         </graphicData>
         <statBases>
             <Flammability>0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
             <MarketValue>3200</MarketValue>
             <Mass>11.8</Mass>
             <AccuracyTouch>0.48</AccuracyTouch>

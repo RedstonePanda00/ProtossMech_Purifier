@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ProtossMech.GunSmithEditor.BackToWeapons>Back to weapons</ProtossMech.GunSmithEditor.BackToWeapons>
+  <ProtossMech.GunSmithEditor.RefreshWeapons>Refresh</ProtossMech.GunSmithEditor.RefreshWeapons>
+  <ProtossMech.GunSmithEditor.BeforeModification>Before modification</ProtossMech.GunSmithEditor.BeforeModification>
+  <ProtossMech.GunSmithEditor.Overview>Back to weapon</ProtossMech.GunSmithEditor.Overview>
+  <ProtossMech.GunSmithEditor.ShowSummary>Summary</ProtossMech.GunSmithEditor.ShowSummary>
+  <ProtossMech.GunSmithEditor.ShowDetails>Details</ProtossMech.GunSmithEditor.ShowDetails>
+  <ProtossMech.GunSmithEditor.None>None</ProtossMech.GunSmithEditor.None>
+  <ProtossMech.GunSmithEditor.Installed>Installed</ProtossMech.GunSmithEditor.Installed>
+  <ProtossMech.GunSmithEditor.Replacement>Change from current loadout</ProtossMech.GunSmithEditor.Replacement>
+  <ProtossMech.GunSmithEditor.Attributes>Attributes</ProtossMech.GunSmithEditor.Attributes>
+  <ProtossMech.GunSmithEditor.Default>Default</ProtossMech.GunSmithEditor.Default>
+  <ProtossMech.GunSmithEditor.Current>Current</ProtossMech.GunSmithEditor.Current>
+  <ProtossMech.GunSmithEditor.ScoreScale>Performance</ProtossMech.GunSmithEditor.ScoreScale>
+  <ProtossMech.GunSmithEditor.Firepower>Firepower</ProtossMech.GunSmithEditor.Firepower>
+  <ProtossMech.GunSmithEditor.Accuracy>Accuracy</ProtossMech.GunSmithEditor.Accuracy>
+  <ProtossMech.GunSmithEditor.Mobility>Mobility</ProtossMech.GunSmithEditor.Mobility>
+  <ProtossMech.GunSmithEditor.Handling>Handling</ProtossMech.GunSmithEditor.Handling>
+  <ProtossMech.GunSmithEditor.ScoreHelp>Estimated scores on a fixed scale shared by all platforms; white marker = {0}.\nFirepower: damage × burst count / (aim time + burst duration + cooldown). 30 damage/s = 50.\nAccuracy: mean vanilla hit chance; CE averages spread and sway scores, each 1 = 50.\nMobility: 5 kg = 50, adjusted by movement offset against a reference of 4.6 cells/s.\nHandling: aim time + half cooldown; 1.5 s = 50.\nExcept vanilla accuracy, reference values use a diminishing-returns curve. Scores do not model target armour, pawn skills, reloads or special projectile effects. See Details for actual weapon attributes.</ProtossMech.GunSmithEditor.ScoreHelp>
+</LanguageData>

@@ -6,6 +6,7 @@
         <supportsEliteGunsmith>true</supportsEliteGunsmith>
         <label>C19 Dragoon</label>
         <weaponThingDef>PM_GunC19Dragoon</weaponThingDef>
+        <weaponCategory>MarksmanRifle</weaponCategory>
         <bodyTexPath>Things/Weapon/C19/C19_Body</bodyTexPath>
         <slotAttachmentOffsets>
             <li><slotId>Barrel</slotId><offset>(-0.9056, -0.0439)</offset><gizmoOffset>(-0.5792, -0.5096)</gizmoOffset></li>
