@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ShaderDef>
+    <defName>GSF_Composite</defName>
+    <shaderProgram>
+      <vertexShaderFileName>GSF_Composite.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>GSF_Composite.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST>
+      <transparent>true</transparent>
+      <depthTest>false</depthTest>
+      <depthWrite>false</depthWrite>
+      <cullMode>None</cullMode>
+      <renderQueue>3000</renderQueue>
+      <blendMode>Custom</blendMode>
+      <blendSrcFactor>One</blendSrcFactor>
+      <blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+    </shaderProgram>
+  </ShaderDef>
+<MaterialDef>
+    <defName>GSF_Composite</defName>
+    <shader>GSF_Composite</shader>
+  </MaterialDef>
+</Defs>

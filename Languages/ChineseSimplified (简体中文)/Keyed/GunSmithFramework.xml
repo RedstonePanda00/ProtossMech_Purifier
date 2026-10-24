@@ -13,4 +13,9 @@
   <GunSmithFramework.DualWield.SecondaryHoldFireDesc>阻止镜像副枪开火；主枪仍可攻击共享目标。</GunSmithFramework.DualWield.SecondaryHoldFireDesc>
   <GunSmithFramework.DualWield.SecondaryAmmo>副枪弹药</GunSmithFramework.DualWield.SecondaryAmmo>
   <GunSmithFramework.DualWield.SecondaryAmmoDesc>镜像副枪独立弹匣中的剩余弹药。</GunSmithFramework.DualWield.SecondaryAmmoDesc>
+  <GunSmithFramework.Theme>主题颜色</GunSmithFramework.Theme>
+  <GunSmithFramework.ThemePreview>已选配件</GunSmithFramework.ThemePreview>
+  <GunSmithFramework.ConfigurationHint>可通过预设控件保存或导出当前配装。</GunSmithFramework.ConfigurationHint>
+  <GunSmithFramework.Layout.Title>贴图调整</GunSmithFramework.Layout.Title>
+  <GunSmithFramework.Layout.Hint>拖拽配件移动贴图，拖拽槽位图标移动 gizmo。镜头保持整枪视角。松开后将偏移值输出到日志，供复制到 XML；调整仅临时生效。</GunSmithFramework.Layout.Hint>
 </LanguageData>

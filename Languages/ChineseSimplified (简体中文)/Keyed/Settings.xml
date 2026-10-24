@@ -41,6 +41,8 @@
   <ProtossMech.Settings.Focus.Mouse6>鼠标键 7</ProtossMech.Settings.Focus.Mouse6>
   <ProtossMech.Settings.Focus.Space>空格</ProtossMech.Settings.Focus.Space>
   <ProtossMech.Settings.Elite>精英枪匠</ProtossMech.Settings.Elite>
+  <ProtossMech.Settings.DefaultGunsmithUI>使用默认枪匠界面</ProtossMech.Settings.DefaultGunsmithUI>
+  <ProtossMech.Settings.DefaultGunsmithUIDesc>使用GunSmithFramework的默认GUI取代WildHunt的风格化GUI.</ProtossMech.Settings.DefaultGunsmithUIDesc>
   <ProtossMech.Settings.EliteDesc>允许更细致地对枪械进行客制化，包括更细节的枪匠系统和精英微调。</ProtossMech.Settings.EliteDesc>
   <ProtossMech.Settings.Search>搜索名称或 DefName</ProtossMech.Settings.Search>
   <ProtossMech.Settings.Source>来源模组</ProtossMech.Settings.Source>

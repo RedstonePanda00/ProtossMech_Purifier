@@ -101,26 +101,6 @@
     </vectors>
   </MaterialDef>
   <ShaderDef>
-    <defName>PM17N_GunSmithComposite17</defName>
-    <shaderProgram>
-      <vertexShaderFileName>PM17N_GunSmithComposite17.vert.glsl</vertexShaderFileName>
-      <fragmentShaderFileName>PM17N_GunSmithComposite17.frag.glsl</fragmentShaderFileName>
-      <flipTextureST>false</flipTextureST>
-      <transparent>true</transparent>
-      <depthTest>false</depthTest>
-      <depthWrite>false</depthWrite>
-      <cullMode>None</cullMode>
-      <renderQueue>3000</renderQueue>
-      <blendMode>Custom</blendMode>
-      <blendSrcFactor>One</blendSrcFactor>
-      <blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
-    </shaderProgram>
-  </ShaderDef>
-  <MaterialDef>
-    <defName>PM17N_GunSmithComposite17</defName>
-    <shader>PM17N_GunSmithComposite17</shader>
-  </MaterialDef>
-  <ShaderDef>
     <defName>PM17N_ModelMask17</defName>
     <shaderProgram>
       <vertexShaderFileName>PM17N_ModelMask17.vert.glsl</vertexShaderFileName>

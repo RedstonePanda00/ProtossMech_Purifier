@@ -41,6 +41,8 @@
   <ProtossMech.Settings.Focus.Mouse6>Mouse button 7</ProtossMech.Settings.Focus.Mouse6>
   <ProtossMech.Settings.Focus.Space>Space</ProtossMech.Settings.Focus.Space>
   <ProtossMech.Settings.Elite>Elite gunsmith</ProtossMech.Settings.Elite>
+  <ProtossMech.Settings.DefaultGunsmithUI>Use default gunsmith interface</ProtossMech.Settings.DefaultGunsmithUI>
+  <ProtossMech.Settings.DefaultGunsmithUIDesc>Use GunSmithFramework's default GUI instead of WildHunt's stylized GUI.</ProtossMech.Settings.DefaultGunsmithUIDesc>
   <ProtossMech.Settings.EliteDesc>Allows finer weapon customization through expanded gunsmith options and elite tuning.</ProtossMech.Settings.EliteDesc>
   <ProtossMech.Settings.Search>Search name or DefName</ProtossMech.Settings.Search>
   <ProtossMech.Settings.Source>Source mod</ProtossMech.Settings.Source>

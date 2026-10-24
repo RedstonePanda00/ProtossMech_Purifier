@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ShaderDef>
+    <defName>GSF_UIStage</defName>
+    <shaderProgram>
+      <vertexShaderFileName>GSF_UIStage.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>GSF_UIStage.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST>
+      <transparent>true</transparent>
+      <depthTest>false</depthTest>
+      <depthWrite>false</depthWrite>
+      <cullMode>None</cullMode>
+      <renderQueue>3000</renderQueue>
+      <blendMode>Custom</blendMode>
+      <blendSrcFactor>SrcAlpha</blendSrcFactor>
+      <blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef>
+    <defName>GSF_UIStage</defName>
+    <shader>GSF_UIStage</shader>
+  </MaterialDef>
+</Defs>

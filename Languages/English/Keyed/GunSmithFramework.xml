@@ -13,4 +13,9 @@
   <GunSmithFramework.DualWield.SecondaryHoldFireDesc>Prevent the mirrored secondary gun from firing. The primary gun can still attack the shared target.</GunSmithFramework.DualWield.SecondaryHoldFireDesc>
   <GunSmithFramework.DualWield.SecondaryAmmo>Secondary gun ammo</GunSmithFramework.DualWield.SecondaryAmmo>
   <GunSmithFramework.DualWield.SecondaryAmmoDesc>Remaining rounds in the independent mirrored secondary-gun magazine.</GunSmithFramework.DualWield.SecondaryAmmoDesc>
+  <GunSmithFramework.Theme>Theme</GunSmithFramework.Theme>
+  <GunSmithFramework.ThemePreview>Selected attachment</GunSmithFramework.ThemePreview>
+  <GunSmithFramework.ConfigurationHint>Save or export this configuration using the preset controls.</GunSmithFramework.ConfigurationHint>
+  <GunSmithFramework.Layout.Title>Texture adjustment</GunSmithFramework.Layout.Title>
+  <GunSmithFramework.Layout.Hint>Drag an attachment to move its texture, or drag a slot icon to move the gizmo. The whole-weapon view stays fixed. Release to log the offset for copying into XML; adjustments are temporary.</GunSmithFramework.Layout.Hint>
 </LanguageData>
