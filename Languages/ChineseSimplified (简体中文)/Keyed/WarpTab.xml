@@ -21,7 +21,7 @@
   <ProtossMech.WarpGroupCount>x{0}</ProtossMech.WarpGroupCount>
 
   <!-- EN: Not Enough Resources for additional Warp Beacon. -->
-  <ProtossMech.ReinforcementLimitReached>没有足够的资源放置更多折跃信标。</ProtossMech.ReinforcementLimitReached>
+  <ProtossMech.ReinforcementLimitReached>预算耗尽。</ProtossMech.ReinforcementLimitReached>
 
   <!-- EN: Not Enough Resources. -->
   <ProtossMech.NotEnoughResources>你没有足够的资源</ProtossMech.NotEnoughResources>

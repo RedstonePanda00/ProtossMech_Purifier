@@ -45,7 +45,7 @@
             </li>
 
             <li Class="ProtossMech.CompProperties_ProtossPylon">
-                <radius>20.0</radius>
+                <radius>10.0</radius>
             </li>
 
             <li Class="ProtossMech.CompProperties_PylonRingRailRenderer">

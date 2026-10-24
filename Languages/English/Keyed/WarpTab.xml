@@ -14,7 +14,7 @@
   <ProtossMech.NoWarpTabsAvailable>No warp tabs available.</ProtossMech.NoWarpTabsAvailable>
   <ProtossMech.WarpGroupCount>x{0}</ProtossMech.WarpGroupCount>
 
-  <ProtossMech.ReinforcementLimitReached>Not Enough Resources for additional Warp Beacon.</ProtossMech.ReinforcementLimitReached>
+  <ProtossMech.ReinforcementLimitReached>Reinforcement budget exhausted.</ProtossMech.ReinforcementLimitReached>
 
   <ProtossMech.NotEnoughResources>Not Enough Resources.</ProtossMech.NotEnoughResources>
 

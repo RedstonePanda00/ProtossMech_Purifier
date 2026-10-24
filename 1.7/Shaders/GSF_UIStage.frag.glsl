@@ -41,8 +41,15 @@ vec3 stage(vec2 uv, float time) {
         vec3 floorColor=stone*(.20+pool*(1.6-ridges)) * contact + material._Accent.rgb*.018*pool;
         color=mix(floorColor,air,max(1.0-exp(-t*.045),smoothstep(16.0,34.0,t)));
     }
-    float mist=exp(-pow((uv.y-.42)*8.0,2.0))*noise(vec2(uv.x*4.0-time*.025,uv.y*7.0+time*.012));
-    color+=vec3(.034,.042,.046)*mist;
+    // Visible drifting sheets behind the weapon. Two advected scales give billows
+    // and wisps without restoring the costly volumetric raymarch.
+    vec2 drift=vec2(time*.045,-time*.017);
+    float billow=noise(uv*vec2(5.0,7.0)-drift);
+    float wisp=noise(uv*vec2(12.0,16.0)+vec2(billow*.7,-billow*.4)-drift*1.6);
+    float density=smoothstep(.32,.70,billow*.68+wisp*.32);
+    float band=exp(-pow((uv.y-.48)*4.0,2.0));
+    float mist=density*band*(.65+.35*halo);
+    color=mix(color,vec3(.38,.43,.47),mist*.72);
     color*=.25+.75*(1.0-smoothstep(.25,1.0,length((uv-.5)*vec2(1.35,1.1))));
     return color+(hash(gl_FragCoord.xy)-.5)*.003;
 }
