@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apex_DetectedLabel>APEX：敌军正在接近</PM_Apex_DetectedLabel>
+  <PM_Apex_DetectedText>APEX无人侦察机发现了来自{0}的{1}名袭击者，正在经由陆路向你的基地进军。\n\n预计抵达时间：{2}。\n\n你可以派遣远行队，在世界地图上提前截击。若敌军残部抵达基地，其人员伤亡与伤势将保留。</PM_Apex_DetectedText>
+  <PM_Apex_RaidName>{0}袭击部队</PM_Apex_RaidName>
+  <PM_Apex_Strength>人数：{0}\n主要兵种：{1}</PM_Apex_Strength>
+  <PM_Apex_Target>目标：{0}</PM_Apex_Target>
+  <PM_Apex_ETA>预计抵达：{0}</PM_Apex_ETA>
+  <PM_Apex_Engaged>正在交战</PM_Apex_Engaged>
+  <PM_Apex_Defeated>袭击部队已被击溃</PM_Apex_Defeated>
+  <PM_Apex_Intercept>截击{0}</PM_Apex_Intercept>
+  <PM_Apex_ArrivedLabel>袭击：来袭部队已抵达</PM_Apex_ArrivedLabel>
+  <PM_Apex_ArrivedText>APEX持续跟踪的敌军已抵达基地。{0}仍有{1}名袭击者。</PM_Apex_ArrivedText>
+  <PM_Apex_DefeatedLabel>截击成功</PM_Apex_DefeatedLabel>
+  <PM_Apex_DefeatedText>来自{0}的袭击部队已被消灭或击退。这支部队不会再进攻你的基地。</PM_Apex_DefeatedText>
+</LanguageData>

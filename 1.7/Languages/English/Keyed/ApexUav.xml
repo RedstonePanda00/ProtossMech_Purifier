@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_Apex_DetectedLabel>APEX: approaching raiders</PM_Apex_DetectedLabel>
+  <PM_Apex_DetectedText>An APEX UAV has detected {1} raiders from {0}, approaching your colony over land.\n\nEstimated arrival: {2}.\n\nYou can send a caravan to intercept them on the world map. Any casualties and injuries will persist if the survivors reach your colony.</PM_Apex_DetectedText>
+  <PM_Apex_RaidName>{0} raiding party</PM_Apex_RaidName>
+  <PM_Apex_Strength>Troops: {0}\nMain units: {1}</PM_Apex_Strength>
+  <PM_Apex_Target>Destination: {0}</PM_Apex_Target>
+  <PM_Apex_ETA>Estimated arrival: {0}</PM_Apex_ETA>
+  <PM_Apex_Engaged>Engaged in battle</PM_Apex_Engaged>
+  <PM_Apex_Defeated>Raiding party defeated</PM_Apex_Defeated>
+  <PM_Apex_Intercept>Intercept {0}</PM_Apex_Intercept>
+  <PM_Apex_ArrivedLabel>Raid: approaching force has arrived</PM_Apex_ArrivedLabel>
+  <PM_Apex_ArrivedText>The force tracked by APEX has reached your colony. {0} has {1} surviving raiders.</PM_Apex_ArrivedText>
+  <PM_Apex_DefeatedLabel>Raiding party intercepted</PM_Apex_DefeatedLabel>
+  <PM_Apex_DefeatedText>The raiding party from {0} has been defeated or driven off. This force will no longer attack your colony.</PM_Apex_DefeatedText>
+</LanguageData>

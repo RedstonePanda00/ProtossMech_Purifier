@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>PM_ApexApproachingRaid</defName>
+    <label>approaching raiding party</label>
+    <description>A hostile force detected by an APEX UAV, advancing toward your colony. Intercept it before it reaches the settlement.</description>
+    <worldObjectClass>ProtossMech.WorldObject_ApexRaid</worldObjectClass>
+    <texture>World/WorldObjects/Caravan</texture>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIcon>true</expandingIcon><expandingIconTexture>World/WorldObjects/Expanding/Caravan</expandingIconTexture>
+    <expandingIconColor>(1,0.35,0.25)</expandingIconColor><expandingIconPriority>80</expandingIconPriority>
+    <expandMore>true</expandMore><isTempIncidentMapOwner>true</isTempIncidentMapOwner>
+    <mapGenerator>Encounter</mapGenerator>
+    <IncidentTargetTags><li>Map_TempIncident</li></IncidentTargetTags>
+    <comps><li Class="WorldObjectCompProperties_FormCaravan" /></comps>
+  </WorldObjectDef>
+</Defs>

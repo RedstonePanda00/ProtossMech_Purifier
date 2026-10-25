@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PM_ApexUavHangar</defName>
+    <label>Apex UAV hangar</label>
+    <description>An integrated reconnaissance platform equipped with an Apex reconnaissance UAV.\nThe Apex UAV automatically takes flight to scout for and detect approaching enemy forces. Its stealth module and built-in Solarite battery allow it to operate independently for thousands of centuries.</description>
+    <thingClass>ProtossMech.Building_ApexUavHangar</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Structure/ApexUav/Hangar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5.5,4.4)</drawSize>
+    </graphicData>
+    <size>(5,4)</size>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability><pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <uiOrder>2996</uiOrder>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <researchPrerequisites><li>PM_SmartFireControl</li></researchPrerequisites>
+    <costList><PM_Solarite>170</PM_Solarite><PM_Adanium>50</PM_Adanium><ComponentSpacer>10</ComponentSpacer></costList>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>30000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <comps>
+      <li Class="ProtossMech.CompProperties_ProtossMechShield">
+        <energyMax>300</energyMax><energyGainPerTick>0.2</energyGainPerTick><ticksToBeginRecharge>600</ticksToBeginRecharge>
+        <minDrawSize>3</minDrawSize><maxDrawSize>3.5</maxDrawSize>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Standalone definition: shuttle-style flight without requiring Royalty. -->
+  <ThingDef>
+    <defName>PM_ApexUavLeaving</defName>
+    <label>APEX reconnaissance UAV</label>
+    <thingClass>ProtossMech.Skyfaller_ApexUav</thingClass>
+    <category>Ethereal</category><tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType><drawOffscreen>true</drawOffscreen>
+    <altitudeLayer>Skyfaller</altitudeLayer><useHitPoints>false</useHitPoints>
+    <graphicData>
+      <texPath>Things/Structure/ApexUav/Uav</texPath><graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType><drawSize>(3.4,1.4)</drawSize>
+    </graphicData>
+    <size>(3,1)</size>
+    <skyfaller>
+      <movementType>Decelerate</movementType><reversed>true</reversed>
+      <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow><shadowSize>(3,1.2)</shadowSize>
+      <motesPerCell>0.2</motesPerCell><moteSpawnTime>0.05</moteSpawnTime>
+      <ticksToImpactRange>0</ticksToImpactRange>
+      <angleCurve><points><li>(0,0)</li><li>(1,0)</li></points></angleCurve>
+      <rotationCurve><points><li>(0,0)</li><li>(0.15,3)</li><li>(0.5,0)</li></points></rotationCurve>
+      <zPositionCurve><points><li>(0,0)</li><li>(0.08,2)</li></points></zPositionCurve>
+      <speedCurve><points><li>(0,0.2)</li><li>(0.4,0.7)</li></points></speedCurve>
+    </skyfaller>
+  </ThingDef>
+</Defs>

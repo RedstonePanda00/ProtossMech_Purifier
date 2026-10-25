@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PM_ApexUavHangar.label>Apex UAV机库</PM_ApexUavHangar.label>
+  <PM_ApexUavHangar.description>一座搭载了Apex无人侦察机的集成式侦察平台。\nApex无人机会自动升空，侦察并发现来袭的敌军，它的隐身模块和内置的太阳素电池能够让它独立工作数千个世纪。</PM_ApexUavHangar.description>
+  <PM_ApexUavLeaving.label>APEX无人侦察机</PM_ApexUavLeaving.label>
+</LanguageData>
