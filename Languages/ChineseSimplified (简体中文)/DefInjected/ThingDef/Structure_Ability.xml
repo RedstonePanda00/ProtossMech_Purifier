@@ -9,7 +9,7 @@
   <!-- EN: This Pylon is overcharged. -->
   <Gun_OverchargePylon.description>这座水晶塔正处于超载模式。</Gun_OverchargePylon.description>
   <!-- EN: OverCharged Pylon Gun -->
-  <Gun_OverchargePylon.verbs.Verb_Shoot.label>光子过载武器</Gun_OverchargePylon.verbs.Verb_Shoot.label>
+  <Gun_OverchargePylon.verbs.0.label>光子过载武器</Gun_OverchargePylon.verbs.0.label>
   
   <!-- EN: Mote -->
   <Mote_OverchargedPylonlaser.label>超载水晶光束</Mote_OverchargedPylonlaser.label>

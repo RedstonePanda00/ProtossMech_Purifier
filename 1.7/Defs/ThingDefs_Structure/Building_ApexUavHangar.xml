@@ -54,7 +54,7 @@
     <skyfaller>
       <movementType>Decelerate</movementType><reversed>true</reversed>
       <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow><shadowSize>(3,1.2)</shadowSize>
-      <motesPerCell>0.2</motesPerCell><moteSpawnTime>0.05</moteSpawnTime>
+      <motesPerCell>0</motesPerCell><moteSpawnTime>0.05</moteSpawnTime>
       <ticksToImpactRange>0</ticksToImpactRange>
       <angleCurve><points><li>(0,0)</li><li>(1,0)</li></points></angleCurve>
       <rotationCurve><points><li>(0,0)</li><li>(0.15,3)</li><li>(0.5,0)</li></points></rotationCurve>
