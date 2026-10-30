@@ -50,6 +50,7 @@
         <interceptSound>Explosion_Bomb</interceptSound>
       </li>
     </modExtensions>
+    <comps><li Class="ProtossMech.CompProperties_ProtossBuilding"/></comps>
   </ThingDef>
 
   <ThingDef ParentName="MoteBase">

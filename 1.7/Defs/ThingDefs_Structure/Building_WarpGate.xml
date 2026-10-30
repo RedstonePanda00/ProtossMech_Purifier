@@ -32,6 +32,7 @@
         </costList>
         <researchPrerequisites><li>PM_Fundamentals</li></researchPrerequisites>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="ProtossMech.CompProperties_WarpGate">
                 <cooldownTicks>5000</cooldownTicks>
             </li>
@@ -97,6 +98,7 @@
         </costList>
         <researchPrerequisites><li>PM_HigherDimensionalSpacetime</li></researchPrerequisites>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="ProtossMech.CompProperties_WarpGate">
                 <cooldownTicks>5000</cooldownTicks>
             </li>

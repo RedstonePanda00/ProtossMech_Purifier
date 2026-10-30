@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="PM_ShieldRechargeBeamBase" ParentName="MoteBase" Abstract="True">
+    <thingClass>MoteDualAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.2</fadeInTime><fadeOutTime>0.3</fadeOutTime><solidTime>999999</solidTime>
+      <needsMaintenance>true</needsMaintenance><rotateTowardsTarget>true</rotateTowardsTarget>
+      <scaleToConnectTargets>true</scaleToConnectTargets><fadeOutUnmaintained>true</fadeOutUnmaintained>
+    </mote>
+    <drawOffscreen>true</drawOffscreen>
+    <graphicData>
+      <texPath>Things/Mote/GraserBeam</texPath><borderMipMaps>true</borderMipMaps>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass><shaderType>MoteBeam</shaderType>
+      <shaderParameters>
+        <_ExtraTexA>/Things/Mote/BeamSecondaryNoise_A</_ExtraTexA>
+        <_ExtraTexB>/Things/Mote/BeamSecondaryNoise_B</_ExtraTexB>
+        <_ScrollSpeedA>-4</_ScrollSpeedA><_ScrollSpeedB>3</_ScrollSpeedB><_Intensity>2</_Intensity>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="PM_ShieldRechargeBeamBase">
+    <defName>PM_Mote_ShieldBatteryBeam</defName>
+  </ThingDef>
+  <ThingDef ParentName="PM_ShieldRechargeBeamBase">
+    <defName>PM_Mote_SentryRechargeBeam</defName>
+    <thingClass>ProtossMech.Mote_SentryRechargeBeam</thingClass>
+    <mote><needsMaintenance>false</needsMaintenance><fadeOutUnmaintained>false</fadeOutUnmaintained></mote>
+  </ThingDef>
+</Defs>

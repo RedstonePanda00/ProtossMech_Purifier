@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Gun_ChronoLance"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_ChronoLance"]/verbs/li/beamDamageDef</xpath>
+          <value><beamDamageDef>AntiArmorShock</beamDamageDef></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_ChronoLance"]/verbs/li/burstShotCount</xpath>
+          <value><burstShotCount>10</burstShotCount></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_ChronoLance"]/verbs/li/ticksBetweenBurstShots</xpath>
+          <value><ticksBetweenBurstShots>5</ticksBetweenBurstShots></value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Gun_ChronoLance"]/verbs/li</xpath>
+          <value><damagePerBeam>42</damagePerBeam><leaveFireTrail>false</leaveFireTrail><armorPenetration>2</armorPenetration></value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

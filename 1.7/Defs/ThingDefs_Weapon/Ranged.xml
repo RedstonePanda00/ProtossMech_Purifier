@@ -34,11 +34,14 @@
         <range>45.0</range>
         <minRange>1</minRange>
         <beamFullWidthRange>9.0</beamFullWidthRange>
-        <burstShotCount>45</burstShotCount>
+        <burstShotCount>9</burstShotCount>
         <showBurstShotStats>false</showBurstShotStats>
         <beamWidth>6</beamWidth>
-        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <beamDamageDef>Beam</beamDamageDef>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <beamDamageDef>Vaporize</beamDamageDef>
+        <damagePerBeam>26</damagePerBeam>
+        <armorPenetration>2</armorPenetration>
+        <leaveFireTrail>true</leaveFireTrail>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <!-- Continuous twin beams already provide their muzzle light. -->
         <muzzleFlashScale>0</muzzleFlashScale>
@@ -48,8 +51,8 @@
         <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
         <beamMoteColor>(1.0, 0.25, 0.2, 1.0)</beamMoteColor>
         <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
-        <beamChanceToStartFire>1.0</beamChanceToStartFire>
-        <beamChanceToAttachFire>1.0</beamChanceToAttachFire>
+        <beamChanceToStartFire>0</beamChanceToStartFire>
+        <beamChanceToAttachFire>0</beamChanceToAttachFire>
         <beamFireSizeRange>1.0</beamFireSizeRange>
         <beamLineFleckDef>Fleck_BeamSpark</beamLineFleckDef>
         <beamStartOffset>0.8</beamStartOffset>

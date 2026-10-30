@@ -36,6 +36,7 @@
         </costList>
         <researchPrerequisites><li>PM_Replicator</li></researchPrerequisites>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="ProtossMech.CompProperties_Replicator">
                 <cycleTicks>60</cycleTicks>
                 <gizmoIconPath>Gizmo/Replicator</gizmoIconPath>

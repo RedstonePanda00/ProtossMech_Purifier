@@ -37,7 +37,6 @@
         <ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>0</minDrawSize>
         <maxDrawSize>5</maxDrawSize>
-        <!-- <HardenedShields>true</HardenedShields> -->
       </li>
       <li Class="ProtossMech.CompProperties_PurifierReconstruct">
         <cooldownTicks>3600</cooldownTicks>

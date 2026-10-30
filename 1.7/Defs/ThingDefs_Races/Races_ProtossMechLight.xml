@@ -125,9 +125,6 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <!-- <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
-          <shaderType>CutoutWithOverlay</shaderType>
-          <graphicClass>Graphic_Multi</graphicClass> -->
           <texPath>Things/Pawn/Mechanoid/Probe</texPath>
           <shaderType>Cutout</shaderType>
           <drawSize>1.1</drawSize>
@@ -172,18 +169,11 @@
         <maxDrawSize>2</maxDrawSize>
       </li>
       <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
-      <li Class="CompProperties_ProjectileInterceptor">
-        <radius>6</radius>
-        <interceptGroundProjectiles>true</interceptGroundProjectiles>
-        <interceptAirProjectiles>true</interceptAirProjectiles>
-        <color>(0.4, 0.4, 0.4)</color>
-        <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
-        <activeSound>BulletShield_Ambience</activeSound>
-        <activated>true</activated>
-        <activeDuration>900</activeDuration>
-        <minIdleAlpha>0.2</minIdleAlpha>
-        <drawWithNoSelection>True</drawWithNoSelection>
-        <disarmedByEmpForTicks>60</disarmedByEmpForTicks>
+      <li Class="ProtossMech.CompProperties_SupportField">
+        <radius>6</radius><activeHediff>PM_Hediff_GuardianShieldActive</activeHediff>
+        <projectileLifetimeTicks>60</projectileLifetimeTicks><recharge>true</recharge>
+        <rechargeRadius>8</rechargeRadius><rechargePerSecond>10</rechargePerSecond>
+        <rechargeEnergyPerSecond>0.01</rechargeEnergyPerSecond><rechargeTargets>2</rechargeTargets>
       </li>
       <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
         <hediffDefs>
@@ -331,7 +321,7 @@
       <baseHealthScale>3.0</baseHealthScale>
     </race>
     <butcherProducts>
-      <PM_Adanium>25</PM_Adanium>
+      <Plasteel>25</Plasteel>
     </butcherProducts>
     <comps>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
@@ -346,20 +336,12 @@
         <reconstructHediff>Hediff_Reconstruct</reconstructHediff>
       </li>
       <li Class="RsPandaLibrary.CompProperties_EquippableMechanoid" />
-      <li Class="CompProperties_ProjectileInterceptor">
-        <radius>15</radius>
-        <interceptGroundProjectiles>true</interceptGroundProjectiles>
-        <interceptAirProjectiles>true</interceptAirProjectiles>
-        <color>(0.4, 0.4, 0.4)</color>
-        <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
-        <activeSound>BulletShield_Ambience</activeSound>
-        <activated>true</activated>
-        <activeDuration>900</activeDuration>
-        <minIdleAlpha>0.2</minIdleAlpha>
-        <drawWithNoSelection>True</drawWithNoSelection>
-        <disarmedByEmpForTicks>60</disarmedByEmpForTicks>
+      <li Class="ProtossMech.CompProperties_SupportField">
+        <radius>15</radius><activeHediff>PM_Hediff_EnergizerPhaseMode</activeHediff>
+        <projectileLifetimeTicks>60</projectileLifetimeTicks><recharge>false</recharge>
+        <rechargeRadius>8</rechargeRadius><rechargePerSecond>10</rechargePerSecond>
+        <rechargeEnergyPerSecond>0.01</rechargeEnergyPerSecond><rechargeTargets>2</rechargeTargets>
       </li>
-      <li Class="ProtossMech.CompProperties_EnergizerPhaseShieldController" />
       <li Class="RsPandaLibrary.CompProperties_EnsureHediffList">
         <hediffDefs>
           <li>PM_Floating</li>

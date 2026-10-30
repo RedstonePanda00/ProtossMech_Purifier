@@ -30,6 +30,7 @@
       <Beauty>5</Beauty>
     </statBases>
     <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>300</energyMax><energyGainPerTick>0.2</energyGainPerTick><ticksToBeginRecharge>600</ticksToBeginRecharge>
         <minDrawSize>3</minDrawSize><maxDrawSize>3.5</maxDrawSize>

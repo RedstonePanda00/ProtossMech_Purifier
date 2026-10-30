@@ -1,0 +1,38 @@
+Thermal trail volumetric fire references (reviewed 2026-10-25)
+
+Primary algorithm reference:
+https://github.com/mattatz/THREE.Fire
+https://github.com/mattatz/THREE.Fire/blob/master/FireShader.js
+The samplerFire approach uses upward-moving 3D turbulence to warp the height
+coordinate of a flame profile. PM17N_ThermalTrail applies this idea to a long
+ground trail with its own analytic profile, value noise, world-space continuity,
+ray-box intersection and step-length-correct emission/absorption integration.
+No Fire.png asset, three.js runtime or simplex-noise implementation is bundled.
+
+Additional implementation reviewed for suitability:
+https://github.com/Scrawk/GPU-GEMS-3D-Fluid-Simulation
+This simulates a 3D fluid grid and ray traces it inside a cube. The short-lived
+trail uses procedural density instead of introducing a fluid simulation grid.
+These are established reference examples, not a claim of current maintenance
+or drop-in Waylith compatibility.
+
+THREE.Fire license notice:
+The MIT License (MIT)
+
+Copyright (c) 2015 mattatz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

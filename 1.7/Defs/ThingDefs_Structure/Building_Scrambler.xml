@@ -33,6 +33,7 @@
       <Beauty>5</Beauty>
     </statBases>
     <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="CompProperties_Power"><compClass>CompPowerTrader</compClass><basePowerConsumption>6000</basePowerConsumption></li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>

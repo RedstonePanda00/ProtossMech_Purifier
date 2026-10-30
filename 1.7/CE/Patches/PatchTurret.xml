@@ -91,7 +91,7 @@
         <label>OverCharged Pylon</label>
         <description>This Pylon is overcharged.</description>
         <graphicData>
-          <texPath>Things/Structure/OCP_Ele</texPath>
+          <texPath>Things/Structure/Pylon</texPath>
           <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>

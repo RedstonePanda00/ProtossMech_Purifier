@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ShaderDef><defName>PM17N_PylonSolid</defName><shaderProgram>
+    <vertexShaderFileName>PM17N_PylonModel.vert.glsl</vertexShaderFileName>
+    <fragmentShaderFileName>PM17N_PylonSolid.frag.glsl</fragmentShaderFileName>
+    <flipTextureST>false</flipTextureST><transparent>true</transparent>
+    <depthTest>true</depthTest><depthWrite>true</depthWrite><cullMode>None</cullMode>
+    <renderQueue>2999</renderQueue>
+    <blendMode>Custom</blendMode><blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+  </shaderProgram></ShaderDef>
+  <MaterialDef><defName>PM17N_PylonSolid</defName><shader>PM17N_PylonSolid</shader></MaterialDef>
+  <ShaderDef><defName>PM17N_PylonOutline</defName><shaderProgram>
+    <vertexShaderFileName>PM17N_PylonSilhouette.vert.glsl</vertexShaderFileName>
+    <fragmentShaderFileName>PM17N_PylonOutline.frag.glsl</fragmentShaderFileName>
+    <flipTextureST>false</flipTextureST><transparent>true</transparent>
+    <depthTest>false</depthTest><depthWrite>false</depthWrite><cullMode>None</cullMode>
+    <renderQueue>4000</renderQueue>
+    <blendMode>Custom</blendMode><blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+  </shaderProgram></ShaderDef>
+  <MaterialDef><defName>PM17N_PylonOutline</defName><shader>PM17N_PylonOutline</shader></MaterialDef>
+  <ShaderDef><defName>PM17N_PylonLiquid</defName><shaderProgram>
+    <vertexShaderFileName>PM17N_PylonModel.vert.glsl</vertexShaderFileName>
+    <fragmentShaderFileName>PM17N_PylonLiquid.frag.glsl</fragmentShaderFileName>
+    <flipTextureST>false</flipTextureST><transparent>true</transparent>
+    <depthTest>true</depthTest><depthWrite>false</depthWrite><cullMode>None</cullMode>
+    <renderQueue>3000</renderQueue>
+    <blendMode>Custom</blendMode><blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+  </shaderProgram></ShaderDef>
+  <MaterialDef><defName>PM17N_PylonLiquid</defName><shader>PM17N_PylonLiquid</shader></MaterialDef>
+
+<ShaderDef><defName>PM17N_PylonCrystal</defName><shaderProgram>
+    <vertexShaderFileName>PM17N_PylonModel.vert.glsl</vertexShaderFileName>
+    <fragmentShaderFileName>PM17N_PylonSolid.frag.glsl</fragmentShaderFileName>
+    <flipTextureST>false</flipTextureST><transparent>true</transparent>
+    <depthTest>true</depthTest><depthWrite>false</depthWrite><cullMode>Back</cullMode>
+    <renderQueue>3001</renderQueue>
+    <blendMode>Custom</blendMode><blendSrcFactor>SrcAlpha</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+  </shaderProgram></ShaderDef>
+  <MaterialDef><defName>PM17N_PylonCrystal</defName><shader>PM17N_PylonCrystal</shader></MaterialDef>
+  <ShaderDef>
+    <defName>PM17N_PylonAntialias</defName>
+    <shaderProgram>
+      <sceneGrab>
+        <name>_PMPylonScene</name>
+        <queue>4001</queue>
+      </sceneGrab>
+      <vertexShaderFileName>PM17N_PylonAntialias.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17N_PylonAntialias.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST>
+      <transparent>false</transparent>
+      <depthTest>false</depthTest>
+      <depthWrite>false</depthWrite>
+      <cullMode>None</cullMode>
+      <renderQueue>4001</renderQueue>
+      <blendMode>Custom</blendMode>
+      <blendSrcFactor>One</blendSrcFactor>
+      <blendDstFactor>Zero</blendDstFactor>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef>
+    <defName>PM17N_PylonAntialias</defName>
+    <shader>PM17N_PylonAntialias</shader>
+  </MaterialDef>
+</Defs>

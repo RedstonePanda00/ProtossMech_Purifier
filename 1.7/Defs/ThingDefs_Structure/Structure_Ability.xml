@@ -24,6 +24,7 @@
             <Flammability>0</Flammability>
         </statBases>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="CompProperties_DestroyAfterDelay">
                 <delayTicks>300</delayTicks>
                 <displayCountdownOnLabel>true</displayCountdownOnLabel>
@@ -44,6 +45,7 @@
         <size>(2,2)</size>
         <rotatable>false</rotatable>
         <comps Inherit="False">
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="ProtossMech.CompProperties_WarpConstructionBeacon">
                 <buildingToSpawn>Pylon</buildingToSpawn>
                 <warpTicks>300</warpTicks>
@@ -57,6 +59,7 @@
         <size>(2,2)</size>
         <rotatable>false</rotatable>
         <comps Inherit="False">
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="ProtossMech.CompProperties_WarpConstructionBeacon">
                 <buildingToSpawn>Photon_Cannon</buildingToSpawn>
                 <warpTicks>300</warpTicks>
@@ -67,9 +70,9 @@
     <ThingDef ParentName="BuildingBase">
         <defName>Pylon_OverCharged</defName>
         <label>Overcharged Pylon</label>
-        <thingClass>Building_TurretGun</thingClass>
+        <thingClass>ProtossMech.Building_PylonOvercharged</thingClass>
         <graphicData>
-            <texPath>Things/Structure/OverChargePylon</texPath>
+            <texPath>Things/Structure/Pylon</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(2.0, 2.0)</drawSize>
         </graphicData>
@@ -90,6 +93,8 @@
         </statBases>
         <size>(2,2)</size>
         <comps>
+            <li Class="ProtossMech.CompProperties_PylonRingRailRenderer"/>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="ProtossMech.CompProperties_TransformAfterTick">
                 <tick>3000</tick>
                 <defName>Pylon</defName>
@@ -109,7 +114,8 @@
         </comps>
         <building>
             <turretGunDef>Gun_OverchargePylon</turretGunDef>
-            <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+            <turretBurstWarmupTime>0</turretBurstWarmupTime>
+            <turretBurstCooldownTime>0.75</turretBurstCooldownTime>
         </building>
     </ThingDef>
 
@@ -118,7 +124,7 @@
         <label>OverCharged Pylon Gun</label>
         <description>This Pylon is overcharged.</description>
         <graphicData>
-            <texPath>Things/Structure/OCP_Ele</texPath>
+            <texPath>Things/Structure/Pylon</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -133,7 +139,7 @@
         </statBases>
         <verbs>
             <li>
-                <verbClass>Verb_Shoot</verbClass>
+                <verbClass>ProtossMech.Verb_PylonShoot</verbClass>
                 <defaultProjectile>PM_Bullet_OverchargedPylon</defaultProjectile>
                 <warmupTime>0</warmupTime>
                 <minRange>0</minRange>
@@ -142,16 +148,16 @@
                 <burstShotCount>1</burstShotCount>
                 <soundCast>ChargeLance_Fire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
-                <muzzleFlashScale>12</muzzleFlashScale>
+                <muzzleFlashScale>0</muzzleFlashScale>
                 <consumeFuelPerShot>0</consumeFuelPerShot>
             </li>
         </verbs>
-    </ThingDef>
+  </ThingDef>
 
     <ThingDef ParentName="BaseBullet">
         <defName>PM_Bullet_OverchargedPylon</defName>
         <label>Overcharged Pylon laser</label>
-        <thingClass>Beam</thingClass>
+        <thingClass>ProtossMech.Projectile_PylonBeam</thingClass>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -162,7 +168,7 @@
             <beamMoteDef>Mote_OverchargedPylonlaser</beamMoteDef>
             <armorPenetrationBase>1.5</armorPenetrationBase>
         </projectile>
-    </ThingDef>
+  </ThingDef>
 
     <ThingDef ParentName="MoteBase" Name="PM_OverchargedPylonLaser">
         <defName>Mote_OverchargedPylonlaser</defName>
@@ -188,6 +194,6 @@
                 <_Intensity>2</_Intensity>
             </shaderParameters>
         </graphicData>
-    </ThingDef>
+  </ThingDef>
 
 </Defs>

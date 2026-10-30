@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Legionnaire longjump -->
+  <LegionnaireJump.label>寻战</LegionnaireJump.label>
+  <!-- EN: Jump to a distant location using special ultrafast mechanoid muscles. -->
+  <LegionnaireJump.description>用强壮的机械腿跳跃到指定位置。</LegionnaireJump.description>
+  <!-- EN: jump -->
+  <LegionnaireJump.verbProperties.label>寻战</LegionnaireJump.verbProperties.label>
+  
+  <!-- EN: Skip -->
+  <PM_UmbraSkip.label>相位跃迁</PM_UmbraSkip.label>
+  <!-- EN: Phase to the targeted location, ignoring walls. Upon arrival, deal 45 execute damage to hostile pawns in a small radius. -->
+  <PM_UmbraSkip.description>传送到目标格位，可穿透墙体。落地时对周围敌人造成45点处决伤害。</PM_UmbraSkip.description>
+  
+  <!-- EN: Triple strike -->
+  <PM_UmbraTripleStrike.label>三连击</PM_UmbraTripleStrike.label>
+  <!-- EN: Enter a sniping stance and fire three rapid sniper shots. Each shot is guaranteed to hit the target's head. If the target dies or is lost, automatically acquire another available enemy within range. -->
+  <PM_UmbraTripleStrike.description>进入狙击姿态进行三次快速的狙击。每发子弹都必定会命中目标的头部，目标死亡或是丢失会自动寻找范围内其他可用敌人。</PM_UmbraTripleStrike.description>
+  
+  <!-- EN: charge -->
+  <MechCharge.label>冲锋</MechCharge.label>
+  <!-- EN: Speed up in several seconds. -->
+  <MechCharge.description>在几秒之内提高移动速度。</MechCharge.description>
+  
+  <!-- EN: Chrono Beam -->
+  <MechChronoBeam.label>时空光束</MechChronoBeam.label>
+  <!-- EN: The beam that can speed up the time flow of target. -->
+  <MechChronoBeam.description>消耗8%电量，发射加快友方目标时间流速的光束。</MechChronoBeam.description>
+  
+  <!-- EN: project Force Field Wall -->
+  <MechForceFieldWall.label>护盾充能</MechForceFieldWall.label>
+  <!-- EN: Projects a 3x3 Force Field Wall structures. -->
+  <MechForceFieldWall.description>为8格内最多两个友方单位恢复星灵护盾，每个目标每秒恢复10点，总计每秒消耗自身1%电量。征召时自动释放。</MechForceFieldWall.description>
+  
+  <!-- EN: Overcharge All Pylons -->
+  <OverchargeAllPylons.label>水晶塔超载</OverchargeAllPylons.label>
+  
+  <!-- EN: Guardian Shield -->
+  <PM_GuardianShield.label>守护者之盾</PM_GuardianShield.label>
+  <!-- EN: activate shield generator, which can block projectile. -->
+  <PM_GuardianShield.description>消耗40%电量，展开持续15秒的护盾穹顶。飞入的敌方投射物速度降至25%，伤害降至50%，在场内累计停留1秒后坠地销毁。</PM_GuardianShield.description>
+  
+  <!-- EN: Phase mode -->
+  <PM_PhaseMode.label>相位形态</PM_PhaseMode.label>
+  <!-- EN: Enter phase mode. While phased, this unit cannot move but projects a stronger shield field. -->
+  <PM_PhaseMode.description>进入相位形态后无法移动，展开大范围护盾穹顶，并自动释放时空光束。飞入的敌方投射物速度降至25%，伤害降至50%，在场内累计停留1秒后坠地销毁。电量耗尽时退出相位形态。</PM_PhaseMode.description>
+
+  <!-- EN: target lock -->
+  <PM_HavocTargetLock.label>目标锁定</PM_HavocTargetLock.label>
+  <!-- EN: Lock onto a hostile target. While locked, that target takes increased damage from all sources. Only one target at a time. -->
+  <PM_HavocTargetLock.description>锁定一名敌方单位。被锁定者承伤系数先不低于100%，再额外承受30%伤害；同一时间只能锁定一个目标。</PM_HavocTargetLock.description>
+  
+  <!-- EN: Barrier -->
+  <PM_RestoreShield.label>屏障</PM_RestoreShield.label>
+  <!-- EN: Instantly restores the caster's Protoss shield to its maximum energy level. -->
+  <PM_RestoreShield.description>立刻将施法者的星灵护盾恢复至满额。</PM_RestoreShield.description>
+  
+  <!-- EN: Summon Purification Nova -->
+  <PM_SummonNova.label>净化新星</PM_SummonNova.label>
+  <!-- EN: Summon Purification Nova to the location. -->
+  <PM_SummonNova.description>召唤一颗净化新星朝目标地点前进。</PM_SummonNova.description>
+  
+  <!-- EN: Warp Photon -->
+  <Warp_Photon.label>折跃光子炮塔</Warp_Photon.label>
+  
+  <!-- EN: Warp Pylon -->
+  <Warp_Pylon.label>折跃水晶塔</Warp_Pylon.label>
+  
+  <!-- EN: Reel Web -->
+  <PM_CosmicSpider_ReelWeb.label>钩锁</PM_CosmicSpider_ReelWeb.label>
+  <!-- EN: Fire a silk line and pull the first unit on the path toward the caster. -->
+  <PM_CosmicSpider_ReelWeb.description>发射蛛丝并拉回路径上的首个单位。</PM_CosmicSpider_ReelWeb.description>
+  
+  <!-- EN: Web Link -->
+  <PM_CosmicSpider_WebLink.label>缚体蛛丝</PM_CosmicSpider_WebLink.label>
+  <!-- EN: Fire silk and bind the first enemy contacted; bound enemies are tethered by the web. -->
+  <PM_CosmicSpider_WebLink.description>发射蛛丝并且捆住接触的第一个敌人，被束缚的敌人会被蛛丝拴住。</PM_CosmicSpider_WebLink.description>
+  
+  <!-- EN: Sticky Web -->
+  <PM_CosmicSpider_StickyWeb.label>黏黏网</PM_CosmicSpider_StickyWeb.label>
+  <!-- EN: Place a 3x3 patch of conductive sticky web floor. -->
+  <PM_CosmicSpider_StickyWeb.description>铺设一片 3x3 的导电黏网地面。</PM_CosmicSpider_StickyWeb.description>
+  
+  <!-- EN: Discharge -->
+  <PM_CosmicSpider_Discharge.label>放电</PM_CosmicSpider_Discharge.label>
+  <!-- EN: Generate a one-second psionic storm. Webs retain electricity for one additional second; the bound target receives a smaller follow-up storm. -->
+  <PM_CosmicSpider_Discharge.description>以自身为中心生成半径18格、持续4秒的灵能风暴，每20 tick对非友方单位及建筑造成一轮10点热能伤害，穿甲200%。蛛网地面上的风暴额外持续1秒。主风暴结束后，在缚体蛛丝目标的位置生成一次半径3格、持续1秒的小型风暴，每5 tick造成一次伤害。</PM_CosmicSpider_Discharge.description>
+  
+  <!-- EN: Web Swing -->
+  <PM_CosmicSpider_WebSwing.label>机动丝</PM_CosmicSpider_WebSwing.label>
+  <!-- EN: Swing from an anchor point to a destination with web-assisted mobility. -->
+  <PM_CosmicSpider_WebSwing.description>以蛛丝挂点完成摆荡机动并移动到目标位置。</PM_CosmicSpider_WebSwing.description>
+  
+</LanguageData>

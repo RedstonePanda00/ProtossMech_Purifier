@@ -39,6 +39,7 @@
     </costList>
     <researchPrerequisites><li>PM_HigherDimensionalSpacetime</li></researchPrerequisites>
     <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="ProtossMech.CompProperties_HyperspaceStorage">
         <maxStacks>1800</maxStacks>
       </li>

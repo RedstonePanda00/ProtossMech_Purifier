@@ -3,45 +3,26 @@
 <Defs>
     <AbilityDef>
         <defName>MechForceFieldWall</defName>
-        <label>project Force Field Wall</label>
-        <description>Projects a 3x3 Force Field Wall structures.</description>
-        <iconPath>Gizmo/Sentry/ForceField</iconPath>
-        <cooldownTicksRange>300</cooldownTicksRange>
-        <hostile>false</hostile>
+        <abilityClass>ProtossMech.Ability_SupportEnergy</abilityClass>
+        <label>shield recharge</label>
+        <description>Restore 10 Protoss shield points per second to up to two allies within 8 cells. Costs 1% energy per second in total. Automatically used while drafted.</description>
+        <iconPath>Gizmo/Sentry/ShieldRecharge</iconPath>
+        <cooldownTicksRange>60</cooldownTicksRange><hostile>false</hostile><targetRequired>false</targetRequired>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-
-        <verbProperties>
-            <verbClass>Verb_CastAbility</verbClass>
-            <warmupTime>0.5</warmupTime>
-            <range>20</range>
-            <targetParams>
-                <canTargetLocations>true</canTargetLocations>
-            </targetParams>
+        <verbProperties><verbClass>Verb_CastAbility</verbClass><warmupTime>0</warmupTime><range>8</range>
+          <targetParams><canTargetSelf>true</canTargetSelf></targetParams>
         </verbProperties>
-
         <comps>
-            <li Class="ProtossMech.CompProperties_PlacingBuilding">
-                <thingToSpawn>ForceFieldWall</thingToSpawn>
-                <pattern>
-                    <li>(-1, -1)</li>
-                    <li>(0, -1)</li>
-                    <li>(1, -1)</li>
-                    <li>(-1, 0)</li>
-                    <li>(0, 0)</li>
-                    <li>(1, 0)</li>
-                    <li>(-1, 1)</li>
-                    <li>(0, 1)</li>
-                    <li>(1, 1)</li>
-                </pattern>
-                <fleckDefOnSpawn>DustPuffThick</fleckDefOnSpawn>
-            </li>
+          <li Class="ProtossMech.CompProperties_SupportEnergy"><cost>0.01</cost><checkOnly>true</checkOnly></li>
+          <li Class="ProtossMech.CompProperties_SentryRecharge" />
         </comps>
     </AbilityDef>
 
     <AbilityDef>
         <defName>PM_GuardianShield</defName>
+        <abilityClass>ProtossMech.Ability_SupportEnergy</abilityClass>
         <label>Guardian Shield</label>
-        <description>activate shield generator, which can block projectile.</description>
+        <description>Spend 40% energy to project a field for 15 seconds. Incoming hostile projectiles retain 25% speed and deal 50% damage; after 1 second inside the field they fall and are destroyed.</description>
         <iconPath>Gizmo/Sentry/GuardianShield</iconPath>
         <cooldownTicksRange>300</cooldownTicksRange>
         <hostile>false</hostile>
@@ -55,6 +36,7 @@
             </targetParams>
         </verbProperties>
         <comps>
+            <li Class="ProtossMech.CompProperties_SupportEnergy"><cost>.4</cost></li>
             <li Class="ProtossMech.CompProperties_ApplyHediff">
                 <targetType>Self</targetType>
                 <hediffDefNames>
@@ -66,8 +48,9 @@
 
     <AbilityDef>
         <defName>PM_PhaseMode</defName>
+        <abilityClass>ProtossMech.Ability_SupportEnergy</abilityClass>
         <label>Phase mode</label>
-        <description>Enter phase mode. While phased, this unit cannot move but projects a stronger shield field.</description>
+        <description>Enter phase mode to project a larger shield dome and automatically use Chrono Beam. Incoming hostile projectiles retain 25% speed and deal 50% damage; after 1 second inside the field they fall and are destroyed. Requires remaining energy. Cannot move while phased.</description>
         <iconPath>Gizmo/Energizer/PhaseMode</iconPath>
         <cooldownTicksRange>60</cooldownTicksRange>
         <hostile>false</hostile>
@@ -81,6 +64,7 @@
             </targetParams>
         </verbProperties>
         <comps>
+            <li Class="ProtossMech.CompProperties_SupportEnergy"><cost>0</cost><toggleHediff>PM_Hediff_EnergizerPhaseMode</toggleHediff></li>
             <li Class="ProtossMech.CompProperties_ToggleHediff">
                 <hediffDefName>PM_Hediff_EnergizerPhaseMode</hediffDefName>
             </li>
@@ -89,8 +73,9 @@
 
     <AbilityDef>
         <defName>MechChronoBeam</defName>
+        <abilityClass>ProtossMech.Ability_SupportEnergy</abilityClass>
         <label>Chrono Beam</label>
-        <description>The beam that can speed up the time flow of target.</description>
+        <description>Spend 8% energy to accelerate the target’s time flow.</description>
         <iconPath>Gizmo/Energizer/ChronoBeam</iconPath>
         <cooldownTicksRange>60</cooldownTicksRange>
         <hostile>false</hostile>
@@ -107,6 +92,7 @@
             </targetParams>
         </verbProperties>
         <comps>
+            <li Class="ProtossMech.CompProperties_SupportEnergy"><cost>.08</cost></li>
             <li Class="ProtossMech.CompProperties_ApplyHediff">
                 <targetType>Target</targetType>
 

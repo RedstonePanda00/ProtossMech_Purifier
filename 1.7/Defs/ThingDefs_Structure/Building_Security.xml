@@ -68,7 +68,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>
       </li>
-      <li Class="ProtossMech.CompProperties_IgnoreSolarFlareElectricity"/>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
@@ -173,6 +173,7 @@
       <PM_Solarite>100</PM_Solarite>
     </costList>
     <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -262,10 +263,6 @@
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
-      <!-- <shadowData>
-        <volume>(0,0,0)</volume>
-        <offset>(0,0,0)</offset>
-      </shadowData> -->
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <stealable>false</stealable>
@@ -328,7 +325,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>
       </li>
-      <li Class="ProtossMech.CompProperties_IgnoreSolarFlareElectricity"/>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
@@ -425,7 +422,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>20</basePowerConsumption>
       </li>
-      <li Class="ProtossMech.CompProperties_IgnoreSolarFlareElectricity"/>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">

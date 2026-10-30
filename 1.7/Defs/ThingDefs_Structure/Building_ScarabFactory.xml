@@ -49,6 +49,7 @@
       </li>
     </modExtensions>
     <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
       <li Class="ProtossMech.CompProperties_ProtossMechShield">
         <energyMax>100</energyMax><energyGainPerTick>0.1</energyGainPerTick>
         <ticksToBeginRecharge>300</ticksToBeginRecharge><minDrawSize>0.7</minDrawSize><maxDrawSize>1.1</maxDrawSize>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ShaderDef>
+    <defName>PM17N_ThermalTrail</defName>
+    <shaderProgram>
+      <vertexShaderFileName>PM17N_ThermalTrail.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17N_ThermalTrail.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST><transparent>true</transparent>
+      <depthTest>true</depthTest><depthWrite>false</depthWrite><cullMode>Back</cullMode>
+      <renderQueue>3100</renderQueue><blendMode>Custom</blendMode>
+      <blendSrcFactor>One</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef><defName>PM17N_ThermalTrail</defName><shader>PM17N_ThermalTrail</shader></MaterialDef>
+  <ShaderDef>
+    <defName>PM17N_SupportField</defName>
+    <shaderProgram>
+      <vertexShaderFileName>PM17N_SupportField.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>PM17N_SupportField.frag.glsl</fragmentShaderFileName>
+      <flipTextureST>false</flipTextureST><transparent>true</transparent>
+      <depthTest>true</depthTest><depthWrite>false</depthWrite><cullMode>Back</cullMode>
+      <renderQueue>3100</renderQueue><blendMode>Custom</blendMode>
+      <blendSrcFactor>One</blendSrcFactor><blendDstFactor>OneMinusSrcAlpha</blendDstFactor>
+    </shaderProgram>
+  </ShaderDef>
+  <MaterialDef><defName>PM17N_SupportField</defName><shader>PM17N_SupportField</shader></MaterialDef>
+</Defs>

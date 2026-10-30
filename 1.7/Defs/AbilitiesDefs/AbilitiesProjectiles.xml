@@ -15,7 +15,6 @@
       <damageAmountBase>0</damageAmountBase>
       <beamMoteDef>PMPMote_ChronoBeam</beamMoteDef>
       <stoppingPower>0</stoppingPower>
-      <!-- <beamStartOffset>0.5</beamStartOffset> -->
       <armorPenetrationBase>0</armorPenetrationBase>
     </projectile>
   </ThingDef>

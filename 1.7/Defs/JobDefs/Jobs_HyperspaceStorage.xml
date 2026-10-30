@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <JobDef>
+    <defName>PM_SupplyConstructionFromHyperspace</defName>
+    <driverClass>ProtossMech.JobDriver_SupplyConstructionFromHyperspace</driverClass>
+    <reportString>supplying TargetA from hyperspace storage.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
 
   <JobDef>
     <defName>PM_HaulToHyperspaceStorage</defName>

@@ -125,9 +125,6 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <!-- <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
-          <shaderType>CutoutWithOverlay</shaderType>
-          <graphicClass>Graphic_Multi</graphicClass> -->
           <texPath>Things/Pawn/Mechanoid/Probe</texPath>
           <shaderType>Cutout</shaderType>
           <drawSize>1.1</drawSize>

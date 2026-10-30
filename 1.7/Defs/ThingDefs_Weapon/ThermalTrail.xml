@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>PM_ThermalTrail</defName><label>thermal lance fire trail</label>
+    <thingClass>ProtossMech.Thing_ThermalTrail</thingClass><category>Ethereal</category>
+    <tickerType>Normal</tickerType><drawerType>RealtimeOnly</drawerType>
+    <altitudeLayer>MoteLow</altitudeLayer><useHitPoints>false</useHitPoints>
+    <saveCompressible>false</saveCompressible>
+  </ThingDef>
+  <ThingDef>
+    <defName>PM_FieldProjectileDrop</defName><label>falling projectile</label>
+    <thingClass>ProtossMech.Thing_FieldProjectileDrop</thingClass><category>Ethereal</category>
+    <tickerType>Normal</tickerType><drawerType>RealtimeOnly</drawerType>
+    <altitudeLayer>MoteLow</altitudeLayer><useHitPoints>false</useHitPoints><saveCompressible>false</saveCompressible>
+  </ThingDef>
+</Defs>

@@ -3,6 +3,9 @@
 
     <ThingDef ParentName="BuildingBase">
         <defName>Pylon</defName>
+        <placeWorkers>
+            <li>ProtossMech.PlaceWorker_PylonEnergyField</li>
+        </placeWorkers>
         <label>Pylon</label>
         <thingClass>Building</thingClass>
         <description>You must construct additional Pylon!\n\n Pylon power nearby divice based on their power consume.</description>
@@ -34,10 +37,10 @@
         <size>(2,2)</size>
         <costList>
             <PM_Solarite>100</PM_Solarite>
-            <Plasteel>100</Plasteel>
         </costList>
         <researchPrerequisites><li>PM_KhalaiMechStart</li></researchPrerequisites>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="RimWorld.CompProperties_Power">
                 <compClass>ProtossMech.CompPowerPlant_Pylon</compClass>
                 <transmitsPower>true</transmitsPower>
@@ -48,13 +51,7 @@
                 <radius>10.0</radius>
             </li>
 
-            <li Class="ProtossMech.CompProperties_PylonRingRailRenderer">
-                <texPath>Things/Structure/Pylon_RingRails</texPath>
-                <drawSize>(4.0, 4.0)</drawSize>
-                <wobbleAmplitude>0.035</wobbleAmplitude>
-                <wobblePeriodTicks>180</wobblePeriodTicks>
-                <altitudeOffset>0.01</altitudeOffset>
-            </li>
+            <li Class="ProtossMech.CompProperties_PylonRingRailRenderer"/>
 
             <li Class="CompProperties_Glower">
                 <overlightRadius>20</overlightRadius>
@@ -97,6 +94,7 @@
             <Uranium>100</Uranium>
         </costList>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="CompProperties_AffectedByFacilities">
                 <linkableFacilities>
                     <li>ToolCabinet</li>

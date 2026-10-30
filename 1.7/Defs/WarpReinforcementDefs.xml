@@ -95,7 +95,7 @@
         <pawnDefName>PM_Energizer</pawnDefName>
         <costList>
             <li>
-                <thingDef>PM_Adanium</thingDef>
+                <thingDef>Plasteel</thingDef>
                 <count>50</count>
             </li>
             <li>

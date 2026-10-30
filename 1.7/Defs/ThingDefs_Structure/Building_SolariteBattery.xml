@@ -36,6 +36,7 @@
         </costList>
         <researchPrerequisites><li>PM_EnergyCrystallization</li></researchPrerequisites>
         <comps>
+      <li Class="ProtossMech.CompProperties_ProtossBuilding"/>
             <li Class="CompProperties_Power">
                 <compClass>ProtossMech.CompPowerPlant_SolariteBattery</compClass>
                 <basePowerConsumption>-1</basePowerConsumption>
